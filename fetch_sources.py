@@ -19,6 +19,14 @@ SOURCES = [
     ("proofsandprompts", "https://proofsandprompts.com/feed/"),
     ("siliconreckoner", "https://siliconreckoner.substack.com/feed"),
 ]
+
+# Substack often refuses datacenter IPs on /feed; try these in order instead.
+FALLBACKS = {
+    "siliconreckoner": [
+        "https://siliconreckoner.substack.com/feed?format=rss",
+        "https://siliconreckoner.substack.com/api/v1/archive?sort=new&limit=10",
+    ],
+}
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 "
       "(KHTML, like Gecko) Version/17.0 Safari/605.1.15")
 
@@ -27,25 +35,34 @@ def main() -> None:
     OUT.mkdir(exist_ok=True)
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     lines = [f"fetched_at: {now}"]
-    for name, url in SOURCES:
-        target = OUT / f"{name}.xml"
-        tmp = OUT / f"{name}.xml.tmp"
-        r = subprocess.run(
-            ["curl", "-sSL", "--max-time", "60", "--retry", "2", "-A", UA,
-             "-o", str(tmp), "-w", "%{http_code}", url],
-            capture_output=True, text=True,
-        )
-        code = r.stdout.strip()
-        ok = r.returncode == 0 and code == "200" and tmp.exists() and tmp.stat().st_size > 200
-        if ok:
-            tmp.replace(target)
-            lines.append(f"{name}: ok ({target.stat().st_size} bytes) {url}")
-        else:
-            tmp.unlink(missing_ok=True)
-            err = (r.stderr.strip() or f"HTTP {code}")[:200]
-            lines.append(f"{name}: FAILED ({err}) {url}")
-        print(lines[-1], flush=True)
+    for name, main_url in SOURCES:
+        for url in [main_url] + FALLBACKS.get(name, []):
+            if fetch_one(name, url, lines):
+                break
     (OUT / "status.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def fetch_one(name: str, url: str, lines: list) -> bool:
+    """Download url to sources/<name>.xml (or .json); log the outcome."""
+    ext = "json" if "/api/" in url else "xml"
+    target = OUT / f"{name}.{ext}"
+    tmp = OUT / f"{name}.{ext}.tmp"
+    r = subprocess.run(
+        ["curl", "-sSL", "--max-time", "60", "--retry", "2", "-A", UA,
+         "-o", str(tmp), "-w", "%{http_code}", url],
+        capture_output=True, text=True,
+    )
+    code = r.stdout.strip()
+    ok = r.returncode == 0 and code == "200" and tmp.exists() and tmp.stat().st_size > 200
+    if ok:
+        tmp.replace(target)
+        lines.append(f"{name}: ok ({target.stat().st_size} bytes) {url}")
+    else:
+        tmp.unlink(missing_ok=True)
+        err = (r.stderr.strip() or f"HTTP {code}")[:200]
+        lines.append(f"{name}: FAILED ({err}) {url}")
+    print(lines[-1], flush=True)
+    return ok
 
 
 if __name__ == "__main__":

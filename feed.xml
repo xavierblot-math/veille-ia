@@ -6,7 +6,17 @@
 <atom:link href="https://xavierblot-math.github.io/veille-ia/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Daily summary of Xena, Proofs and Prompts, Silicon Reckoner, Tao (blog and Mastodon) and Gowers.</description>
 <language>en</language>
-<lastBuildDate>Tue, 20 Oct 2026 12:56:24 +0000</lastBuildDate>
+<lastBuildDate>Wed, 21 Oct 2026 03:46:58 +0000</lastBuildDate>
+<item>
+<title>Digest — 21 October 2026: sources could not be read</title>
+<link>https://xavierblot-math.github.io/veille-ia/#2026-10-21</link>
+<guid isPermaLink="false">veille-ia-2026-10-21</guid>
+<pubDate>Wed, 21 Oct 2026 04:00:00 +0000</pubDate>
+<description><![CDATA[
+<p>Today's digest could not be produced. None of the six sources could be fetched in this run, because the web-fetch permission requests timed out with no one there to approve them. This does not mean nothing new was posted. Posts from the last 24 hours will be missing from this feed, so please check the sources directly.</p>
+<p><em>Unreachable: Xena (Buzzard), Gowers, Tao (blog), Tao (Mastodon), Proofs and Prompts, Silicon Reckoner (Harris).</em></p>
+]]></description>
+</item>
 <item>
 <title>Digest — 20 October 2026 (3 new posts)</title>
 <link>https://xavierblot-math.github.io/veille-ia/#2026-10-20</link>

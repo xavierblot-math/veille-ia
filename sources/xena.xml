@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>Xena</title>
+	<atom:link href="https://xenaproject.wordpress.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://xenaproject.wordpress.com</link>
+	<description>Mathematicians learning Lean by doing.</description>
+	<lastBuildDate>Fri, 16 Oct 2026 17:47:23 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>http://wordpress.com/</generator>
+
+<image>
+	<url>https://xenaproject.wordpress.com/wp-content/uploads/2020/05/cropped-twitchpfc.png?w=32</url>
+	<title>Xena</title>
+	<link>https://xenaproject.wordpress.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">135737082</site><cloud domain='xenaproject.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
+<source:cloud xmlns:source='https://source.scripting.com/'>https://xenaproject.wordpress.com/?rsscloud=notify</source:cloud>
+<atom:link rel="search" type="application/opensearchdescription+xml" href="https://xenaproject.wordpress.com/osd.xml" title="Xena" />
+	<atom:link rel='hub' href='https://xenaproject.wordpress.com/?pushpress=hub'/>
+	<item>
+		<title>How to Formalize All of Mathematics</title>
+		<link>https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/</link>
+					<comments>https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/#comments</comments>
+		
+		<dc:creator><![CDATA[xenaproject]]></dc:creator>
+		<pubDate>Fri, 16 Oct 2026 09:54:00 +0000</pubDate>
+				<category><![CDATA[Fermat&#039;s Last Theorem]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[Research formalisation]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[lean]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[mathematics]]></category>
+		<category><![CDATA[philosophy]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[technology]]></category>
+		<guid isPermaLink="false">http://xenaproject.wordpress.com/?p=3913</guid>
+
+					<description><![CDATA[(This is a guest post, written by Jeremy Avigad, Kevin Buzzard, Johan Commelin, Rémy Degenne, Kim Morrison, Oliver Nash and Adam Topaz.) Mathematicians’ reactions to last week’s big OpenAI release range from excitement to frustration, but one thing is clear: &#8230; <a href="https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">(This is a guest post, written by Jeremy Avigad, Kevin Buzzard, Johan Commelin, Rémy Degenne, Kim Morrison, Oliver Nash and Adam Topaz.)</p>
+
+
+
+<p class="wp-block-paragraph">Mathematicians’ reactions to last week’s big OpenAI release range from excitement to frustration, but one thing is clear: AI has become remarkably good at proving theorems, both formally and informally. The successes in the formal realm have led AI enthusiasts to declare that now is the time to formalize all of mathematics as a legacy for future generations.</p>
+
+
+
+<p class="wp-block-paragraph">We are sympathetic to this proposal. We recognize the power of new technologies for mathematical reasoning and appreciate what they can contribute to the subject we know and love. We are generally optimistic about the role AI can play, but we are deeply concerned by some recent calls to formalize everything as quickly as possible. If done well, a large-scale, coordinated formalization effort could enormously expand mathematical exploration and discovery. Done poorly, it will be, at best, a waste of resources; more likely, it will do lasting damage.</p>
+
+
+
+<p class="wp-block-paragraph">We prefer to see formalization done well. This post therefore clarifies our concerns, describes some of our experiences with AI and formalization, and offers a positive vision of how we can all work toward a world in which all, or almost all, mathematical definitions, theorems, and proofs are equipped with a formal representation, and in which these artifacts help mathematics flourish.</p>
+
+
+
+<p class="wp-block-paragraph">Just as the role of AI in mathematics is a fraught subject these days, so too is its role in formalization. The range of attitudes among expert formalizers toward AI is as wide as the range of attitudes among mathematicians more broadly. We are aware that some of our closest friends and colleagues, whose opinions we value and respect highly, stand strongly opposed to large-scale formalization using AI. Nothing we say here should be taken as representative of the views of any of the organizations or communities with which we are associated.</p>
+
+
+
+<h2 class="wp-block-heading">The concerns</h2>
+
+
+
+<p class="wp-block-paragraph">Let&#8217;s start with the observation that a formal artifact is not worth much if nobody uses it. When Math, Inc. tried to hijack <a href="https://github.com/thefundamentaltheor3m/Sphere-Packing-Lean">a project</a> to formalize Maryna Viazovska&#8217;s higher-dimensional sphere-packing results last February, it impressively demonstrated what the technology could do, but beyond that, it contributed nothing to mathematics. The original project team kept preparing a quality formalization of the 8-dimensional result and soon discovered that cleaning up the AI-generated code was more trouble than it was worth; it turned out it was better to throw the code away and do it right, still with ample help from AI.</p>
+
+
+
+<p class="wp-block-paragraph">When Anthropic <a href="https://www.anthropic.com/research/formalizing-fermats-last-theorem" target="_blank" rel="noopener">announced</a> that Claude had formally verified Fermat&#8217;s Last Theorem with 13 million lines of code written over 11 days, Kevin Buzzard cheerfully lauded the result while also declaring he had no intention of ending his ongoing formalization of a more modern proof. Once again, although the accomplishment is impressive, this piece of AI-generated code probably has little ongoing value.</p>
+
+
+
+<p class="wp-block-paragraph">What is going on here? The theorems were not seriously in doubt, so the value of the formal artifacts lies solely in what we get beyond mere correctness. We want to formalize everything because we want to use the formalizations to do more mathematics, and to do it better than we could have done without them. We want to think about possible generalizations, explore connections between different branches of mathematics, and consider unexpected applications. We want to refactor and improve our knowledge: part of the joy of manual formalization comes from realizing that we can adjust our concepts to make them more elegant, more efficient, and better suited to our purposes. Knowledge isn&#8217;t worth having until it contributes to our understanding; the value of a formalization comes from our ability to use and interact with the data.</p>
+
+
+
+<p class="wp-block-paragraph">When OpenAI <a href="https://openai.com/index/navier-stokes-solution/">announced</a> solutions to the Navier–Stokes equations that blow up in finite time, the natural-language proof was accompanied by a Lean formalization. In contrast to the previous examples, the correctness signal played a key role here: there seems to be little doubt now that the solution is correct, even though the natural-language proof is mostly incomprehensible. OpenAI nonetheless drew the mathematics community&#8217;s anger over concerns about how it obtained the result, provenance and credit for ideas, and worries that focusing on correctness alone discouraged the exploration and understanding the Millenium prize was meant to foster. So, even here, the unadorned formal artifact is a mixed blessing. OpenAI’s later <a href="https://github.com/openai/math" target="_blank" rel="noopener">dump</a> contains astonishing and important mathematics, and at the same time shows a remarkable disregard for readers and for building understanding (some results have been retracted, many of the informal/formal pairs diverge in subtle or significant ways, and most of the informal writeups are impenetrable).</p>
+
+
+
+<p class="wp-block-paragraph">This explains our concern. If spending millions of dollars to formalize mathematics results in libraries nobody uses, it will be a terrible waste of resources. Worse, the project could disincentivize good research and productive use of AI, disrupt the social norms and practices research depends on, and set the field back decades. A grand failure will make it hard, or even impossible, to recover later. A lousy formalization of existing results is worse than no formalization at all.</p>
+
+
+
+<h2 class="wp-block-heading">The positives</h2>
+
+
+
+<p class="wp-block-paragraph">Some of the results from the big labs have been done well: OpenAI’s <a href="https://openai.com/index/model-disproves-discrete-geometry-conjecture/">unit distance conjecture</a> work, and Anthropic’s work on the <a href="https://www.anthropic.com/research/riemann-zeta" target="_blank" rel="noopener">density of Riemann zeta zeroes</a> stand out. They demonstrated impressive new capabilities, contributed to understanding, and the community subsequently built on their work. These are examples of how the labs can contribute positively and we invite further constructive partnerships between the research community and the labs.</p>
+
+
+
+<p class="wp-block-paragraph">Good formal libraries will enable the positive vision we have for the future of mathematical research. Humans, AIs, and the Lean language work in concert. Today, AIs are extremely capable in many aspects of mathematical research. Researchers using interactive theorem provers already understand and appreciate the power of having a compiler that can check<sup data-fn="fn-f18e5ed2-7443-4baf-8271-74b5a5905768" class="fn"><a href="#fn-f18e5ed2-7443-4baf-8271-74b5a5905768" id="fn-f18e5ed2-7443-4baf-8271-74b5a5905768-link">1</a></sup> the validity of a proof. Together, these tools are incredibly effective. The AIs will generate formal proofs as they work, constantly checking these against the Lean compiler, and automatically pruning incorrect reasoning. To realize this vision, we will need a high-quality, comprehensive library of formalized mathematics at an unprecedented scale, so mathematicians can work effectively at the frontiers of research. While we are writing as research mathematicians, we must keep in mind that this vision extends beyond mathematics, potentially accelerating research in engineering and science. If and only if we do it right, that payoff would justify a very large investment of resources.</p>
+
+
+
+<h2 class="wp-block-heading">Lessons so far</h2>
+
+
+
+<p class="wp-block-paragraph">We have argued that if we want to use AI to help with formalization, we need to solve a special case of the alignment problem, namely, ensuring that formal libraries fulfill the community’s mathematical goals. We believe that solving this case will provide powerful lessons about how we can more generally use AI in ways that are safe, reliable, and support our values.</p>
+
+
+
+<p class="wp-block-paragraph">How can we do that? None of us know with certainty: that is part of what makes life on the frontier both exciting and unnerving. But collectively we have experience using AI for formalization, and we should expect any serious effort to pay attention to what we have learned so far. In particular, we want to call attention to the following projects.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><a href="https://mathlib.org/" target="_blank" rel="noopener">Mathlib</a></strong> is an open-source community-driven library that supports the formal mathematical ecosystem and was awarded the 2026 Jean-Pierre Demailly Prize for Open Science in Mathematics. It is curated by a team of 65 reviewers and 950 contributors to date. Because it emphasizes high-quality, trustworthy code and human curation, Mathlib grows steadily, but more slowly than AI-generated libraries. For the same reasons, it has been the primary place where we learn how to formalize better.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><a href="https://google-deepmind.github.io/formal-conjectures/" target="_blank" rel="noopener">Formal Conjectures</a></strong> is a collaborative effort to collect the formal statements of open problems. This is a social enterprise that requires discussion, review, and auditing. AIs can be useful adjuncts, but the goal is to obtain trustworthy statements of the important open questions in various disciplines. We should encourage projects announcing formalizations to use the existing vetted statements of problems wherever possible.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><a href="https://github.com/ImperialCollegeLondon/AnnalsChallenge" target="_blank" rel="noopener">The Annals Challenge</a>.</strong> Kevin Buzzard is leading a <a href="https://arxiv.org/abs/2610.18301">project</a> to state (but not prove) all the theorems from recent issues of Annals of Mathematics (and later other top journals). The blocker here is missing definitions, and one of the points of the project is that it incentivises good formalizations of definitions which are being used in practice by leaders of the field. Projects like this help us focus effort where it has the highest payoffs.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><a href="https://taucetiproject.org/" target="_blank" rel="noopener">Tau Ceti</a></strong> is building a large coherent library of formal mathematics, incubated by the Lean FRO and the Mathlib Initiative. While structurally similar to Mathlib, all contributions are written by AIs, and then adversarially reviewed by other AIs using standard rubrics. These contributions follow roadmaps curated by mathematicians and formalization experts. The review criteria include appropriate generality, avoiding duplication by reusing existing material, documentation, and naming conventions. Tau Ceti extends Mathlib without any duplication, and defers to all design decisions made there. It is possible to contribute to Tau Ceti either by writing roadmaps or by supplying inference<sup data-fn="fn-f1e4f0c9-2888-49c8-a8ed-bfcc74fc4f7c" class="fn"><a href="#fn-f1e4f0c9-2888-49c8-a8ed-bfcc74fc4f7c" id="fn-f1e4f0c9-2888-49c8-a8ed-bfcc74fc4f7c-link">2</a></sup>. Tau Ceti is now slightly larger than Mathlib (3 million lines of code), and growing rapidly. Recent results include <a href="https://github.com/TauCetiProject/TauCeti/blob/b989dec1ab40efe5883db475d3a281c94288a571/TauCeti/AlgebraicGeometry/WeilDivisor/Scheme/RiemannRoch/Basic.lean#L122-L133">Riemann-Roch</a>, <a href="https://github.com/TauCetiProject/TauCeti/blob/b989dec1ab40efe5883db475d3a281c94288a571/TauCeti/RepresentationTheory/Symmetric/TensorAction/SchurWeyl.lean#L106-L123">Schur-Weyl duality</a>, <a href="https://github.com/TauCetiProject/TauCeti/blob/b989dec1ab40efe5883db475d3a281c94288a571/TauCeti/AlgebraicTopology/Singular/JordanBrouwer.lean#L210-L216" target="_blank" rel="noopener">Jordan-Brouwer separation</a>, <a href="https://github.com/TauCetiProject/TauCeti/blob/b989dec1ab40efe5883db475d3a281c94288a571/TauCeti/Analysis/Sobolev/RellichKondrachov.lean#L136-L143" target="_blank" rel="noopener">Rellich-Kondrakov compactness</a>, and <a href="https://github.com/TauCetiProject/TauCeti/blob/b989dec1ab40efe5883db475d3a281c94288a571/TauCeti/NumberTheory/Chebotarev/Density/Chebotarev.lean#L48-L53" target="_blank" rel="noopener">Chebotarev density</a>.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Formal Frontier</strong> is a Mathlib Initiative project building a pipeline converting source texts into interlinked formal libraries. It uses an interacting community of AI agents that can be instructed to formalize specific texts. This system is designed with scalability in mind, so it can ingest thousands of textbooks. There are now 41 <a href="https://github.com/orgs/FormalFrontier/repositories">released</a> libraries (e.g. on profinite groups, toric ideals, and homological algebra) comprising approximately 200k lines of code. In addition to providing infrastructure to manage the agent swarm, the Formal Frontier project has written a build server for large Lean projects. Recent highlights from Formal Frontier include formalizations of <a href="https://github.com/FormalFrontier/sphere-topology/blob/b329640d47cf24858ae25808790c3ad64e9ce99b/SphereTopology/Homotopy/HairyBallSphere2.lean#L24-L29">the hairy ball theorem</a>, <a href="https://github.com/FormalFrontier/projective-modules/blob/bea4dbd26dc8ddec11811e3ebe4415b77093db4f/ProjectiveModules/Module/LocalRing.lean#L59-L68" target="_blank" rel="noopener">Kaplansky&#8217;s theorem on projective modules</a>, <a href="https://github.com/FormalFrontier/stable-range/blob/c283b01ed9ebc33c7eefcdb4f3d2ca45141f469e/StableRange/BassDimension.lean#L554-L563" target="_blank" rel="noopener">Bass&#8217;s stable range theorem</a>, <a href="https://github.com/FormalFrontier/finite-group-tate-cohomology/blob/4c36b89fcd406c7dd90e82f5a00a3b1cae2cc253/FiniteGroupTateCohomology/CyclicPeriodicity.lean#L305-L308" target="_blank" rel="noopener">Tate periodicity</a>, and <a href="https://github.com/FormalFrontier/spectral-stone-duality/blob/78b803577679fc37120fa3406833af653fe12018/SpectralStoneDuality/Equivalence.lean#L33-L35" target="_blank" rel="noopener">Stone duality for spectral spaces</a>.</p>
+
+
+
+<p class="wp-block-paragraph">Formal Frontier and Tau Ceti both use agents and adversarial review, but they differ in their drivers and output structure. Tau Ceti uses roadmaps curated by experts and builds a single coherent library. Formal Frontier is primarily a source-to-library pipeline. Both insist that a formalization is only valuable if others can build on top of it. We anticipate that future autoformalization projects will build upon both approaches.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><a href="https://palomar-registry.org/" target="_blank" rel="noopener">Palomar</a></strong> is an online registry of formal mathematics projects. The goal of Palomar is to index formalization projects aimed at particular results, but not necessarily aspiring to be part of a general library. Many such results have recently been “dumped” on GitHub, and it can be very difficult to interpret or trust them. Palomar addresses this problem by requiring two features in every project it indexes. First, the project must contain a <code><a href="https://github.com/mathlib-initiative/formalization.yaml" target="_blank" rel="noopener">formalization.yaml</a></code> file, a metadata file containing a self-assessed description of what was formalized, how it was formalized (e.g. solely by humans, in conjunction with AIs, or autonomously by AIs), and also relationships to other work, and how the authors of the underlying informal research were involved in the project. Second, the project must include a <a href="https://github.com/leanprover/comparator" target="_blank" rel="noopener">Comparator</a> setup, which makes it easier to audit exactly what the statement proves.</p>
+
+
+
+<p class="wp-block-paragraph">Mathlib, Tau Ceti, and Formal Frontier aspire to common values. These are not specific to autoformalization, but rather principles that apply to all formal libraries. The Mathlib community has recently published a document on <a href="https://leanprover-community.github.io/contribute/values.html">values</a>, and this is the starting point for our own list.</p>
+
+
+
+<ol class="wp-block-list">
+<li>Defer to human-curated libraries, particularly Mathlib; follow their design principles and code rules, and continuously refactor to adopt their decisions.</li>
+
+
+
+<li>Prefer thoroughness and breadth. These must come before depth, but ultimately enable it.</li>
+
+
+
+<li>Avoid duplication. Generalize theorems for maximal reuse.</li>
+
+
+
+<li>Review additions publicly, according to agreed standards.</li>
+
+
+
+<li>Publish freely. Libraries should be open source, interoperable, and explorable.</li>
+
+
+
+<li>Stay up to date. Ensure continuous compatibility with every release of Lean and Mathlib.</li>
+
+
+
+<li>Stay open-minded about changes. If a better approach is discovered, it’s never too late.</li>
+
+
+
+<li>Document and organize. Files should be coherent, systematically organized, and their contents must be documented.</li>
+
+
+
+<li>Link to the existing literature. A mathematician should be able to trust and verify that the concepts described in the library have the expected meaning.</li>
+
+
+
+<li>Set standards, and meet them. Producing low-quality or unaudited code and claiming or hoping to “clean it up later” is counterproductive.</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">Mathlib implements these values through its review process and community <a href="https://leanprover.zulipchat.com" target="_blank" rel="noopener">discussions</a>. Tau Ceti and Formal Frontier instantiate these values in the code and prompts that drive them, as well as in community-written planning documents.</p>
+
+
+
+<h2 class="wp-block-heading">The way forward</h2>
+
+
+
+<p class="wp-block-paragraph">Within three years, and possibly much sooner, most of mathematics can be formalized in such a way that mathematicians can explore, build on, and make use of formal libraries. This would significantly extend our ability to develop and discover new mathematics. The Lean FRO is committed to ensuring that Lean is able to support projects at this scale. Achieving this ambitious project will require several types of additional support and community participation:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Curate and contribute to Mathlib, the foundation of the formal mathematics ecosystem, where we discover best practices in formalization.</li>
+
+
+
+<li>Provide the resources needed for the shovel-ready projects, Tau Ceti and Formal Frontier, to grow by an order of magnitude in a matter of months.</li>
+
+
+
+<li>Write the expert roadmaps and blueprints that guide the implementation of large formal libraries. Propose and support workshops to design and improve subject-specific libraries.<sup data-fn="fn-330e8f47-a5c1-4799-a218-0bbccdc5a801" class="fn"><a href="#fn-330e8f47-a5c1-4799-a218-0bbccdc5a801" id="fn-330e8f47-a5c1-4799-a218-0bbccdc5a801-link">3</a></sup></li>
+
+
+
+<li>Develop credible modeling of the financial, engineering, and technical requirements for scaling.<sup data-fn="fn-88979a15-480e-46a9-a528-313030ffe70c" class="fn"><a href="#fn-88979a15-480e-46a9-a528-313030ffe70c" id="fn-88979a15-480e-46a9-a528-313030ffe70c-link">4</a></sup></li>
+
+
+
+<li>Advocate for control by mathematicians of the tools and resources required for autoformalization.</li>
+
+
+
+<li>Launch non-profit or academic hosting for the mathematicians, engineers, and inference required for implementation of large-scale formalization, with the necessary governance and advisory bodies.</li>
+</ul>
+
+
+<ol class="wp-block-footnotes"><li id="fn-f18e5ed2-7443-4baf-8271-74b5a5905768"><img src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f389.png" alt="🎉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a href="#fn-f18e5ed2-7443-4baf-8271-74b5a5905768-link"><img src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-f1e4f0c9-2888-49c8-a8ed-bfcc74fc4f7c">Anyone can help build Tau Ceti by running<br><code>uv tool install git+https://github.com/TauCetiProject/TauCetiWorker</code> followed by<br><code>tauceti work --loop</code> (You need `claude` or `codex`, and the `gh` GitHub command line tool authenticated.)<br> <a href="#fn-f1e4f0c9-2888-49c8-a8ed-bfcc74fc4f7c-link"><img src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-330e8f47-a5c1-4799-a218-0bbccdc5a801">This is already happening, e.g. meetings on statistics and <a href="https://icarm.io/events/2026/formalization-for-physics/" target="_blank" rel="noopener">physics</a> at ICARM, <a href="https://icerm.brown.edu/program/topical_workshop/tw-26-ttfa" target="_blank" rel="noopener">analysis</a> at ICERM, and <a href="https://www.slmath.org/workshops/1207" target="_blank" rel="noopener">PDEs</a> at SLMath. <a href="#fn-330e8f47-a5c1-4799-a218-0bbccdc5a801-link"><img src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-88979a15-480e-46a9-a528-313030ffe70c">We’re planning on delivering models based on Tau Ceti and Formal Frontier as soon as possible, but this is out of scope for a blog post. <a href="#fn-88979a15-480e-46a9-a528-313030ffe70c-link"><img src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
+					
+					<wfw:commentRss>https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/feed/</wfw:commentRss>
+			<slash:comments>11</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3913</post-id>
+		<media:content url="https://2.gravatar.com/avatar/e7ccfd42722fdb89c0fdea2f473152c14ab978bc1974acc4d67944906653f36e?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">xenaproject</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>To grieve, or not to grieve?</title>
+		<link>https://xenaproject.wordpress.com/2026/10/01/to-grieve-or-not-to-grieve/</link>
+					<comments>https://xenaproject.wordpress.com/2026/10/01/to-grieve-or-not-to-grieve/#comments</comments>
+		
+		<dc:creator><![CDATA[xenaproject]]></dc:creator>
+		<pubDate>Thu, 01 Oct 2026 08:11:45 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[rigour]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[mathematics]]></category>
+		<category><![CDATA[Peter Scholze]]></category>
+		<category><![CDATA[philosophy]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[technology]]></category>
+		<guid isPermaLink="false">http://xenaproject.wordpress.com/?p=3908</guid>
+
+					<description><![CDATA[Recent events in the field of AI for mathematics have shown us beyond all reasonable doubt that the field is currently undergoing a rapid transformation, unlike anything that we have ever seen before. Language models are solving hard problems which &#8230; <a href="https://xenaproject.wordpress.com/2026/10/01/to-grieve-or-not-to-grieve/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Recent events in the field of AI for mathematics have shown us beyond all reasonable doubt that the field is currently undergoing a rapid transformation, unlike anything that we have ever seen before. Language models are solving hard problems which humans could not, and mathematicians are reacting very differently to this news. I personally am extremely excited about the future of our field. However it is becoming clear to me that my views are not shared by everyone in the community: indeed, many of my colleagues seem to be upset. So let me start by outlining my understanding of their positions.</p>
+
+
+
+<h1 class="wp-block-heading">The AI pessimists.</h1>
+
+
+
+<p class="wp-block-paragraph">Elisabeth Kübler-Ross&#8217; model of the process of grief is now well-known: the five stages are denial, anger, bargaining, depression and acceptance. The first four of these are currently very well-represented within the mathematical community, and perhaps give some weight to the claim that many mathematicians are currently grieving what they perceive as a loss of something much beloved to them. However there will also be some mathematicians whose viewpoints will fall into the following categories and who will probably strongly argue that what they are feeling is not grief at all. We are not all grieving. But many of us are in one of the stages of grief.</p>
+
+
+
+<h2 class="wp-block-heading">Denial</h2>
+
+
+
+<p class="wp-block-paragraph">The <a href="https://www.ahmath.org/">Association for Human Mathematics</a> prominently states that its goal is to protect mathematics as a human endeavor against what it calls the &#8220;threat of artificial intelligence&#8221;. Members commit to not publishing AI-generated outputs, and there is an &#8220;AI-free&#8221; option to completely renounce the use of AI in a research capacity and commit to finding proofs and exploring examples without using these tools at all. From talking to its members, my understanding is that there are multiple motivations for joining this association, ranging from serious concerns about what AI is doing to mathematics, to serious concerns about what AI is doing to the planet or what it might do to humanity. A prominent member of the association is Fields Medallist Peter Scholze, who in the recent Heidelberg Laureate Forum panel on AI and mathematics said that he will not use AI and furthermore he will &#8220;die on that hill, and be some public figure that dies on that hill&#8221;. You can listen to his reasons <a href="https://youtu.be/H7_d_sgui6o?si=GZ-clgnZAVnuq72F&amp;t=4570">here</a>.</p>
+
+
+
+<h2 class="wp-block-heading">Anger</h2>
+
+
+
+<p class="wp-block-paragraph">The <a href="https://proofsandprompts.com">proofs and prompts</a> website contains posts which represent a wide variety of opinions, and it is not difficult to find posts by people who are angry. One prominent example is Vlad Lazic&#8217;s post <a href="https://proofsandprompts.com/2026/09/24/rulers-of-the-childless-land-a-response-to-the-agmai/">here</a>. Lazic has outlined his views in more detail <a href="https://www.uni-saarland.de/lehrstuhl/lazic/prof-dr-vladimir-lazic/vladimir-lazic-where-i-stand-on-ai.html">here</a> and that site contains several links to pieces written by other mathematicians who have similar feelings.</p>
+
+
+
+<h2 class="wp-block-heading">Bargaining</h2>
+
+
+
+<p class="wp-block-paragraph">The <a href="https://agmai.org/">Advisory Group on Mathematics and Artificial Intelligence</a> are an independent committee of senior mathematicians (including three Fields Medallists) who on Tuesday released <a href="https://agmai.org/general-sep29/">recommendations</a> in response to the news that OpenAI is sitting on &#8220;a large number of significant results in mathematics that they report have been produced by their internal model&#8221;. One quote from the first paragraph of the recommendation is that the group &#8220;do not endorse this practice, and we ask [the frontier AI labs] to stop testing advanced mathematical problems on proprietary models.&#8221; They go on to ask the labs to release results &#8220;responsibly&#8221; and suggest various courses of actions that the labs could consider going forwards, such as &#8220;to provide support, including funding, for the development of human understanding of the AI mathematical output that they release.&#8221; I&#8217;ll come back to these &#8220;significant results&#8221;, and also the phrase &#8220;human understanding&#8221;, later.</p>
+
+
+
+<h2 class="wp-block-heading">Depression</h2>
+
+
+
+<p class="wp-block-paragraph">If you are a mathematician then you almost certainly already know at least one person who feels like this. A faculty member I know who works in fluids told me that the Navier&#8211;Stokes news was &#8220;extremely depressing&#8221;. A post-doc I know told me that they were considering leaving mathematical research because of what it was about to become. A PhD student I know told me that they were stuck on a lemma in their research and ChatGPT one-shotted it and it made them wonder what the point of it all was.</p>
+
+
+
+<h1 class="wp-block-heading">Interlude: why humans do mathematics.</h1>
+
+
+
+<p class="wp-block-paragraph">I should first make it clear that the above list is certainly not intended to be a criticism of any of these positions; I hope I have given each one a fair treatment. Several people whose opinions I value highly are represented in the above list, and recently I have been trying to listen hard to what my possibly-grieving friends and colleagues are concerned about. But it is still the case that I wake up every morning feeling excited about the future of my field. Before I explain why, let me discuss the contentious question of why we do mathematics.</p>
+
+
+
+<h2 class="wp-block-heading">Thurston&#8217;s view of mathematics</h2>
+
+
+
+<p class="wp-block-paragraph">The fact that AI can now prove hard theorems has quickly led humans to a discussion about why humans do mathematics at all. I would imagine that a few years ago, many mathematicians would have been happy to agree that the mathematics community gives out our biggest prizes and awards to the people who prove the hardest theorems. However, now AI is proving hard theorems, we seem to be spending a lot of time explaining that in fact we are giving these awards and prizes to the people whose ideas are giving us the deepest understanding of our field. It is also worth noting that <em>at this point in time</em> the deepest AI-generated mathematical proofs have been typically accompanied by a poorly-written pdf or no pdf at all, and perhaps an end-to-end formalization in Lean, giving super-human confidence in the correctness of the proof but little clue as to where the ideas came from, or even where the new ideas are. Again I defer to Scholze, who <a href="https://www.youtube.com/watch?v=H7_d_sgui6o&amp;t=1602s">here</a> points out that the Elkies&#8211;Klagsbrun construction of a rank 29 elliptic curve over the rationals came with a geometric explanation, but the new rank 30 and rank 31 elliptic curves came with equations and nothing else. &#8220;We didn&#8217;t <em>learn</em> anything really&#8221;.</p>
+
+
+
+<p class="wp-block-paragraph">The oft-cited justification of the &#8220;it&#8217;s not about the theorem tally, it&#8217;s about the human understanding&#8221; framing of our field is Thurston&#8217;s 1994 essay &#8220;On proof and progress in mathematics&#8221;, and indeed Tao&#8217;s blog now carries a quote from this essay as the splash at the top. As one can imagine, this framing of the &#8220;point&#8221; of mathematics has been met with some cynicism on social media, and even claims that mathematicians are moving the goalposts in a desperate attempt to survive. However this cynicism is not really justified; experts in the field have known perfectly well for decades or more that the prize-winning results give us not only a chunky new theorem to add to the pile, but also a big dollop of new understanding to go on top. To choose an example from my own field, the Wiles&#8211;Taylor&#8211;Wiles proof of Fermat&#8217;s Last Theorem simultaneously resolved a silly little 350-year old puzzle about positive integers with no applications, and gave us genuinely profound new insights into the Langlands Program, the ramifications of which are still being felt 30 years on (see Frank Calegari&#8217;s <a href="https://arxiv.org/abs/2109.14145">2022 ICM talk</a> for plenty of evidence for this claim).</p>
+
+
+
+<h2 class="wp-block-heading">Other views of mathematics</h2>
+
+
+
+<p class="wp-block-paragraph">But Thurston&#8217;s view is not the only view in town. I re-read Hardy&#8217;s <a href="https://archive.org/details/AMathematiciansApology-G.h.Hardy">&#8220;A mathematician&#8217;s apology&#8221;</a> this week. I first attempted to read it as an undergraduate and back then it struck me as extremely pompous and sexist; I know that the world was a different place in 1940, but I did not even make it to the end before giving up. This time I got there, and my understanding of Hardy&#8217;s viewpoint is that it is completely different to Thurston&#8217;s. Hardy is doing mathematics because he views it as art (so presumably he would be angry about AI doing mathematics for the same reasons that many artists are angry about AI doing art). He is scathing about those who &#8220;explain&#8221; (take a look at the first paragraph of the book) and frank when he tells us that one of his main motivations to prove theorems is so that he is remembered after his death. This is a view very different to Thurston&#8217;s, but also very different to my own.</p>
+
+
+
+<p class="wp-block-paragraph">Let me next discuss why promoting Thurston&#8217;s view of mathematics (which is what many of us are doing right now) may ultimately backfire on our community. AI has solved a Millennium problem and this has shown us where AI <em>is</em> in mathematics. But I believe that many people in our community are still vastly underestimating how fast AI is <em>moving</em>, perhaps because they only just started paying attention to it. If we use &#8220;understanding&#8221; as a justification for the continued existence of mathematics as a subject worth studying, then where exactly do we retreat to when in 1 year&#8217;s time AI is not only proving theorems, but also doing a perfectly good job of explaining them to humans?</p>
+
+
+
+<p class="wp-block-paragraph">I remember when I first read Thurston&#8217;s essay, and how it struck me as being rather at odds with what personally motivates me to do mathematics. I have recently been diagnosed with autism (my few friends all think that this is hilarious, having known this for decades) and I wonder whether this is one of the reasons that I hold my position. Thurston&#8217;s essay was a response to an earlier paper by Jaffe and Quinn, who argue that a mathematical idea really only becomes valid or useful once it is anchored to the ground by a rigorous proof, and they criticise some authors (including Thurston) for having important insights and then not taking the time to write down full details. My own area (the Langlands philosophy) is full of arguments which seem to be &#8220;known to the experts&#8221; without a publicly-available write-up, and this situation was what caused me to become disillusioned with the field and ultimately withdraw from curiosity-driven research completely and switch to mathematical formalization. You cannot fool Lean; one learns this very early on. Lean will not accept proof by authority or proof by intimidation; it doesn&#8217;t work like that. I feel safe with Lean.</p>
+
+
+
+<h2 class="wp-block-heading">&#8220;Understanding&#8221; mathematics.</h2>
+
+
+
+<p class="wp-block-paragraph">As a PhD student of Richard Taylor in the early 1990s, I quickly understood that the statement of the theorem which I would attempt to prove in my thesis relied on a construction of Deligne attaching Galois representations to modular forms. I suggested to Taylor that I first read Deligne&#8217;s proof before continuing, and he was quick to shoot down this idea, pointing out that my funding was for 3 years only and I simply did not have enough time to get on top of all of the relevant literature at this point in my career. I never did find the time to read Deligne&#8217;s construction, or the proof of the Langlands&#8211;Tunnell theorem which was crucial in Wiles&#8217; work, or many of the other things which I needed in my thesis and subsequent work. So do I &#8220;understand&#8221; my own work? What exactly do we even <em>mean</em> by &#8220;human understanding of mathematics&#8221;?</p>
+
+
+
+<p class="wp-block-paragraph">I think that whilst mathematicians are now beginning to agree that mathematics is all about human understanding, I am not entirely convinced that they will agree on what it means to understand high-level mathematics. Of course we all know it means to understand undergraduate-level results; we have taught the courses and checked everything carefully. I am able to explain all of the undergraduate algebra courses which I have ever lectured, right down to the axioms of set theory and also right down to the axioms of type theory. I understand the material in a visceral way.</p>
+
+
+
+<p class="wp-block-paragraph">But do I &#8220;understand&#8221; the proof of Fermat&#8217;s Last Theorem, given that earlier this year <a href="https://github.com/ImperialCollegeLondon/FLT/tree/main/2026_EPSRC_TCC_course" target="_blank" rel="noopener">I gave 22 hours worth of lectures on the topic</a>? I know that Langlands&#8211;Tunnell is crucial for Wiles but I know very little about the details of what goes into it. What if there had been a mistake discovered in the process of its formalization? Can one &#8220;understand&#8221; mathematics which is <em>wrong</em>? Mathematics which is incomplete? I <em>personally</em> can not, and I personally am happy to not understand some things. I&#8217;m in it for the theorem tally. In stark contrast to Thurston, I believe that understanding is a slightly nebulous concept, whereas total number of theorems correctly proved is something which we can measure. I am well aware that I seem to be in a minority here. But I wanted to share these views anyway.</p>
+
+
+
+<p class="wp-block-paragraph">I personally call for OpenAI to simply dump their collection of theorems upon the world so that we can see exactly what they claim to have done. The tidying up can come later, and it will come later (although it will certainly come sooner if it is funded by OpenAI); in every case other than Navier-Stokes we have seen humans reverse-engineering AI-generated mathematics, and both Navier-Stokes and the new currently-secret theorems in OpenAI&#8217;s possession will be no different: if humans want to understand, we will understand. Right now humans may well be spending their time trying to prove theorems which are already proved by a tech company. Where is the logic in that? These humans have a right to know what is known. I signed <a href="https://sites.google.com/view/release-the-proofs/home">this open letter</a> urging OpenAI to simply go public with their data, because I think it is the optimal approach, given the situation we find ourselves in. If you agree then please sign it too. Sure the tech companies could make our life easier. But what is happening now is akin to censorship.</p>
+
+
+
+<h1 class="wp-block-heading">An AI optimist.</h1>
+
+
+
+<p class="wp-block-paragraph">Let me now explain why I am an optimist. Time will tell us how well my opinions age.</p>
+
+
+
+<p class="wp-block-paragraph">In a <a href="https://www.ams.org/journals/notices/202011/rnoti-p1791.pdf">2020 piece in the Notices of the AMS</a>, I asked the following question: &#8220;If one human had an understanding of all of modern pure mathematics simultaneously, how much further would they immediately be able to see?&#8221; Six years later we are beginning to understand the answer to this question. Machines have ingested the mathematics on the internet and are able to manipulate this data in a coherent way. The Erdős unit distance disproof came about because a machine happened to be an expert both in discrete geometry and class field theory; one rarely finds humans who are simultaneously experts in both. Machines are answering questions now which one could easily believe that humans, were they to be left alone for a few more years in the right groups, could also have answered. It&#8217;s just happening a whole lot more quickly.</p>
+
+
+
+<p class="wp-block-paragraph">Above I expressed some scepticism about mathematics being all about understanding &#8212; both the sentiment itself, and the risks that one is taking by reducing mathematics to this. My personal answer to the question of what mathematics is all about is that it&#8217;s about proving theorems (problem solving), developing tools (theory building) and seeing where to go next (conjecture formulation).</p>
+
+
+
+<p class="wp-block-paragraph">Right now we have seen a lot of evidence that computers are good at problem solving, but far less evidence of their abilities at either theory building or conjecture formulation. This puts a hard limitation on how far today&#8217;s machines will go. Time will tell us how much better tomorrow&#8217;s machines will be at these skills, and there surely will be progress, but we are yet to see anything decisive. Will there be sufficient growth in these key areas before external pressures such as cost become too great for progress to be worthwhile?</p>
+
+
+
+<p class="wp-block-paragraph">To those who dismiss the observation that machines can&#8217;t do X today with the reply that &#8220;humans just don&#8217;t understand what exponential growth looks like&#8221;, I invite you to consider the following facts. Current progress is indeed exponential, and may well continue to be exponential for a while, however we cannot expect exponential progress to continue indefinitely (exactly because of what exponential growth looks like), and furthermore <strong>mathematics is infinite</strong> which beats exponential hands down; those that don&#8217;t believe this just don&#8217;t understand what infinity looks like.</p>
+
+
+
+<p class="wp-block-paragraph">I thus believe that in the future we will reach a new &#8220;natural boundary&#8221; in mathematics, beyond (and perhaps way beyond) where we are now, but where machines are going to get stuck and where it is not viable to expend any more resources to make the next big leap. I am aware that I might be wrong. I am an optimist, so I am expecting future machines to be awesome; but I simply cannot see how they can get to infinity with finite resources, so they must stop somewhere. I believe that the optimal thing to do (at least from my personal perspective) is to let the machines loose, see what happens, and then begin the journey to where they have stopped. Things are currently moving fast. They cannot move fast forever. But if we get on board now then they will take us to extraordinary new places. And after we have arrived, the new adventure will begin.</p>
+
+
+
+<p class="wp-block-paragraph">This is why I have also signed <a href="https://sites.google.com/view/math-and-ai-together/home">this letter</a>. I know that some readers will find the ideas in it abhorrent. But I cannot fail to be excited by the powerful new tools which we have. Wir müssen wissen — wir werden wissen!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://xenaproject.wordpress.com/2026/10/01/to-grieve-or-not-to-grieve/feed/</wfw:commentRss>
+			<slash:comments>66</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3908</post-id>
+		<media:content url="https://2.gravatar.com/avatar/e7ccfd42722fdb89c0fdea2f473152c14ab978bc1974acc4d67944906653f36e?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">xenaproject</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>FLT: Anthropic has beaten me to it</title>
+		<link>https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/</link>
+					<comments>https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/#comments</comments>
+		
+		<dc:creator><![CDATA[xenaproject]]></dc:creator>
+		<pubDate>Fri, 04 Sep 2026 18:30:42 +0000</pubDate>
+				<category><![CDATA[Fermat&#039;s Last Theorem]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[lean]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[mathematics]]></category>
+		<category><![CDATA[science]]></category>
+		<guid isPermaLink="false">http://xenaproject.wordpress.com/?p=3886</guid>
+
+					<description><![CDATA[I guess technically it was revealed to the world by a coffee shop in Islington on Insta, but an hour later it was officially announced by Anthropic: one of their internal models, using the prove2.me platform, has formalized a complete &#8230; <a href="https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">I guess technically it was revealed to the world by <a href="https://www.instagram.com/p/Dc32GtFtzak" target="_blank" rel="noopener">a coffee shop in Islington</a> on Insta, but an hour later it was <a href="https://www.anthropic.com/research/formalizing-fermats-last-theorem" target="_blank" rel="noopener">officially announced by Anthropic</a>: one of their internal models, using the <a href="https://prove2.me/" target="_blank" rel="noopener">prove2.me</a> platform, has formalized a complete proof of Fermat&#8217;s Last Theorem (FLT) in Lean. This is the final theorem to be formalized in Freek Wiedijk&#8217;s famous <a href="https://www.cs.ru.nl/~freek/100/" target="_blank" rel="noopener">list of 100 formalization challenges</a> and thus wraps up this 20-year-old benchmark. Congratulations to Anthropic!</p>
+
+
+
+<h2 class="wp-block-heading">Mathematical details</h2>
+
+
+
+<p class="wp-block-paragraph">The proof is not the modern proof which I have been formalizing myself following ideas of Khare, Taylor etc, but the Darmon&#8211;Diamond&#8211;Taylor exposition from 1995 of the Wiles&#8211;Taylor&#8211;Wiles argument, via the Langlands&#8211;Tunnell theorem and Ribet&#8217;s level-lowering theorem. Anthropic&#8217;s repository develops Fontaine theory (to study flat deformations of Galois representations) and develops enough of Mazur&#8217;s work on the Eisenstein ideal to conclude that no Frey curve can have a point of order <img src="https://s0.wp.com/latex.php?latex=p%5Cgeq+17&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=p%5Cgeq+17&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=p%5Cgeq+17&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="p&#92;geq 17" class="latex" />. This means that their FLT proof only works for <img src="https://s0.wp.com/latex.php?latex=p%5Cgeq+17&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=p%5Cgeq+17&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=p%5Cgeq+17&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="p&#92;geq 17" class="latex" />, however FLT was <a href="https://afm.episciences.org/16046" target="_blank" rel="noopener">already formalized for odd regular primes</a> by Best&#8211;Birkbeck&#8211;Brasca&#8211;Rodriguez&#8211;van-der-Velde&#8211;Yang, and the smallest irregular prime is 37, so it&#8217;s all good.</p>
+
+
+
+<h2 class="wp-block-heading">The code base</h2>
+
+
+
+<p class="wp-block-paragraph">I&#8217;ve compiled <a href="https://github.com/anthropics/fermats-last-theorem" target="_blank" rel="noopener">the code base</a> and run <a href="https://github.com/leanprover/comparator" target="_blank" rel="noopener">comparator</a> on it &#8212; it checks out. It is a gigantic proof (over 13.4 million lines of code) and takes nearly 20 times as long to compile as Lean&#8217;s mathematics library (on a machine with 96 cores!). Lean can be sluggish when jumping from file to file on a repo of this size (even on a machine with 500G of ram, which Anthropic also gave me access to), but Anthropic also supplied me with some <a href="https://github.com/anthropics/fermats-last-theorem/tree/main/html" target="_blank" rel="noopener">html documents</a> which are easier in practice to explore (clone the repo and open with a web browser).</p>
+
+
+
+<h2 class="wp-block-heading">What this work is, and is not</h2>
+
+
+
+<p class="wp-block-paragraph">I am currently being funded by the EPSRC to formalize a proof of Fermat&#8217;s Last Theorem, and a naive reaction to the news above is that I no longer have any work to do. This is not the case. The work certainly achieves some of the aims of the EPSRC project, and indeed it goes much further in terms of what is formalized (I only promised the EPSRC that I would reduce FLT to the 1980s; this repo proves the whole thing). But I also promised several other things to EPSRC: firstly, that I would be making pull requests to Lean&#8217;s mathematics library, adding fundamental objects from modern number theory; this is ongoing. And secondly, and perhaps most importantly, that I would be creating a dynamic document enabling humans to explore the modern proof. My guess is that it is unlikely that Anthropic are going to do this; they will feel that their job is done with the formalization (and they did not formalize the modern proof anyway).</p>
+
+
+
+<p class="wp-block-paragraph">Note that mathematically this work of anthropic tells us essentially nothing: I am on record as saying that I am 99.9% sure that the proof of FLT is OK, and most people in the number theory community are 100% sure (formalization has made me more paranoid about the mathematical literature than most). From my understanding of the argument, the formalization just faithfully follows the early literature on the proof and adds nothing.</p>
+
+
+
+<p class="wp-block-paragraph">What this work <em>does</em> tell us, however, is what is possible in the field of autoformalization. If thousands of pages of the literature can be formalized end-to-end by some kind of AI swarm in an 11 day period now, then in the future we will start to see formalization of modern research being done on the fly. We will also learn whether my paranoia about the current state of the Langlands program is justified, as machines check it and ruthlessly flag arguments which are incomplete. The ability to autoformalize hard material will ultimately make the review process for mathematics papers far less painful. It will also keep us honest &#8212; there are papers out there which assume results which are &#8220;known to the experts&#8221; and it will be interesting to see exactly what is being assumed in the proofs of various important results in my field. This is why I am so excited about the news!</p>
+
+
+
+<p class="wp-block-paragraph">I was given £1M to run my project over 5 years; Anthropic took only 11 days but I do wonder if they spent more money&#8230;</p>
+
+
+
+<h2 class="wp-block-heading">An anecdote</h2>
+
+
+
+<p class="wp-block-paragraph">Thought it might be nice to finish with a personal anecdote. Wiles announced his proof of FLT at the Newton Institute in 1993 in a series of three lectures; I attended the first (I was a second year graduate student at the time) and I found it completely incomprehensible, so I skipped the next two lectures and went on holiday to Ireland with my new girlfriend instead; I was so in love that I totally forgot about the rumours, and it was only when I came back to Cambridge a week later that I heard the news that the theorem was proved. Something strangely similar happened here; when I got the email from Anthropic I was in Wales at the <a href="https://www.greenman.net/" target="_blank" rel="noopener">Green Man music festival</a> with the same girlfriend, but with very poor phone reception; I did spot an email from someone I&#8217;d never heard of in a brief moment of 4G, with title &#8220;End-to-end Lean formalization of Fermat&#8217;s Last Theorem&#8221;, but wrote them off as a crank! It was only a week later when going through the nearly 1000 unread emails which had accrued whilst I was away, that I heard the news.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/feed/</wfw:commentRss>
+			<slash:comments>50</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3886</post-id>
+		<media:content url="https://2.gravatar.com/avatar/e7ccfd42722fdb89c0fdea2f473152c14ab978bc1974acc4d67944906653f36e?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">xenaproject</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>The Annals Challenge</title>
+		<link>https://xenaproject.wordpress.com/2026/08/13/the-annals-challenge/</link>
+					<comments>https://xenaproject.wordpress.com/2026/08/13/the-annals-challenge/#comments</comments>
+		
+		<dc:creator><![CDATA[xenaproject]]></dc:creator>
+		<pubDate>Thu, 13 Aug 2026 18:04:19 +0000</pubDate>
+				<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[mathlib]]></category>
+		<category><![CDATA[Research formalisation]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[lean]]></category>
+		<category><![CDATA[mathematics]]></category>
+		<category><![CDATA[science]]></category>
+		<guid isPermaLink="false">http://xenaproject.wordpress.com/?p=3870</guid>
+
+					<description><![CDATA[My team of post-docs funded by this Renaissance Philanthropy grant has constructed a dataset of 50 Lean statements, corresponding to 50 important recent mathematical theorems! The 50 theorems were all published in the Annals of Mathematics (a prestigious mathematical journal) &#8230; <a href="https://xenaproject.wordpress.com/2026/08/13/the-annals-challenge/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">My team of post-docs funded by <a href="https://www.renaissancephilanthropy.org/a-dataset-of-modern-formalized-theorem-statements" target="_blank" rel="noopener">this Renaissance Philanthropy grant</a> has constructed a <a href="https://github.com/ImperialCollegeLondon/AnnalsChallenge" target="_blank" rel="noopener">dataset of 50 Lean statements</a>, corresponding to 50 important recent mathematical theorems! The 50 theorems were all published in the Annals of Mathematics (a prestigious mathematical journal) in the 2020s. We build on <code><a href="https://github.com/leanprover-community/mathlib4">mathlib</a></code>, Lean&#8217;s mathematics library; my team has built many new definitions and got them merged into <code>mathlib</code> as part of this project.</p>
+
+
+
+<p class="wp-block-paragraph">As well as the dataset, we would like to issue two challenges related to it.</p>
+
+
+
+<h2 class="wp-block-heading">A challenge for humans &#8212; state more theorems</h2>
+
+
+
+<p class="wp-block-paragraph">We have formalized the statements of around 20 percent of the papers which have appeared in the Annals of Mathematics since 2020. However it seems to be a formidable challenge to get this percentage up to anywhere near 100 percent. A paper in the Annals might mention the Fukaya category associated to a symplectic manifold in the statement of its main theorem, or cuspidal automorphic representations for a connected reductive group, or any number of other complex mathematical definitions. <code>mathlib</code> does not have any of these definitions, and if it continues to grow at the current rate, then it might well be a very long time before it does have them.</p>
+
+
+
+<p class="wp-block-paragraph">The reason that I think this is a problem: if some AI comes up with a new proof about the Fukaya category associated to a symplectic manifold, or automorphic representations, then currently it is extremely difficult to even <em>state</em> that theorem in Lean, let alone to verify the proof. Reading AI-generated mathematics is still a pretty weird and sometimes exhausting experience; the machine sometimes stresses trivialities, or is vague about technical details. If a proof came with Lean code which at least guarantees that the argument is correct, a human can be more confident that they are not wasting their time reading it. However, if it takes thousands of lines of Lean code before we can even <em>state</em> the theorem then the human is going to have to read that too, which is equally miserable and furthermore can only be done by the small subset of mathematicians who have learnt Lean.</p>
+
+
+
+<h2 class="wp-block-heading">A challenge for AI &#8212; autoformalize the proofs</h2>
+
+
+
+<p class="wp-block-paragraph">The 50 formal statements will shortly be up on <code><a href="https://lean-lang.org/eval/" target="_blank" rel="noopener">lean-eval</a></code>, under the Annals tag. AIs can be given access to the pdf paper and then they can try to formalize it. But be warned &#8212; some proofs will take much longer to formalize than others! At least two of them use 10,000 pages of unformalized group theory, and at least one of them uses 2,000 pages of unformalized algebraic geometry. However at least one of the papers could have been written by Gauss in theory, and should be very easy to mop up. I will let the AIs discover which is which.</p>
+
+
+
+<h2 class="wp-block-heading">The reason for the AI challenge</h2>
+
+
+
+<p class="wp-block-paragraph">I have now met many many humans who see challenges like this and say &#8220;What is the point? The formalization will teach us nothing new&#8221;. But what they mean is that the formalization will almost certainly teach us nothing new about mathematics. Manual formalization of proofs has historically taught humans many abstractions. For example Bourbaki, who were manually formalizing many decades ago, discovered filters. Us humans in the Lean community have seen many stories of the form &#8220;we manually formalized the proof of a hard theorem and here is an explanation of why the process taught the authors to think more clearly about mathematics&#8221;. This is a big win of manual formalization, when done properly. We will not get that win with the challenge and I am happy to concede this fact.</p>
+
+
+
+<p class="wp-block-paragraph">But instead we will get other wins. For example we will get to find out if the theorem is actually true. This is a serious matter. As well as publishing 213 papers since 2020, the Annals has also published 8 corrigenda/errata and two retractions &#8212; so a figure of around 4.7% for errors somewhere in the paper, and of 1% for what was presumably retractions of the main theorem. So a ball-park estimate is that perhaps 2 or 3 of the papers whose main statements we attempted to formalize will, in future, get an erratum, which might say something like &#8220;so unfortunately we can currently only prove the main theorem under the extra assumption that X is pseudo-normal, an assumption which should not be necessary and which we hope to remove in future work&#8221;. Part of the point of this challenge is that we do not have to live like that any more. And perhaps there&#8217;s a 50-50 chance that one of these papers is unformalizable. Let&#8217;s find the error early. </p>
+
+
+
+<p class="wp-block-paragraph">On top of that, we will spot more minor typos and imprecisions which make the main theorem of the paper trivially false. I say &#8220;more&#8221; because we have already spotted several such typos, four of which were in papers written by Fields Medallists. All of the errors in the Fields Medallists&#8217; papers in question are sins of omission &#8212; the theorems should have an additional assumption that the non-negative integer needs to be at least three, or the set needs to be nonempty. But they are all there, unfixed, and in the Annals of Mathematics. All of these typos are fixed in the Lean repository. Let&#8217;s make the papers better.</p>
+
+
+
+<h2 class="wp-block-heading">Thanks to the team</h2>
+
+
+
+<p class="wp-block-paragraph">Whilst I &#8220;managed&#8221; this work, I did very little of the hard graft; my work was mostly limited to code review and understanding the material. Many thanks to my RenPhil team, which consists of Thomas Browning, Katerina Hristova, David Ledvinka and Justus Springer, for writing the code. Thanks also to our summer interns Jack McKoen and Hang Lu Su, whose work will undoubtedly feature in future releases of theorems.</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://xenaproject.wordpress.com/2026/08/13/the-annals-challenge/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3870</post-id>
+		<media:content url="https://2.gravatar.com/avatar/e7ccfd42722fdb89c0fdea2f473152c14ab978bc1974acc4d67944906653f36e?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">xenaproject</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Human mathematicians are being outcounterexampled</title>
+		<link>https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/</link>
+					<comments>https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/#comments</comments>
+		
+		<dc:creator><![CDATA[xenaproject]]></dc:creator>
+		<pubDate>Mon, 20 Jul 2026 09:53:22 +0000</pubDate>
+				<category><![CDATA[Algebraic Geometry]]></category>
+		<category><![CDATA[Fermat&#039;s Last Theorem]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[Research formalisation]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[counterexample]]></category>
+		<category><![CDATA[counterexamples]]></category>
+		<category><![CDATA[Grothendieck]]></category>
+		<category><![CDATA[group scheme]]></category>
+		<category><![CDATA[Jacobian Conjecture]]></category>
+		<category><![CDATA[lean]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[mathematics]]></category>
+		<category><![CDATA[philosophy]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[technology]]></category>
+		<guid isPermaLink="false">http://xenaproject.wordpress.com/?p=3829</guid>
+
+					<description><![CDATA[It&#8217;s been an interesting few weeks for counterexamples. This post is basically my perspective of what has been going on in the world of formalization, AI tools and, in particular, counterexamples. Unit distance Two months ago today (20th May 2026), &#8230; <a href="https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">It&#8217;s been an interesting few weeks for counterexamples. This post is basically my perspective of what has been going on in the world of formalization, AI tools and, in particular, counterexamples.</p>
+
+
+
+<h2 class="wp-block-heading">Unit distance</h2>
+
+
+
+<p class="wp-block-paragraph">Two months ago today (20th May 2026), ChatGPT disproved Erdős&#8217; Unit Distance conjecture in discrete geometry. This is now old news but I had to start somewhere. The <a href="https://openai.com/index/model-disproves-discrete-geometry-conjecture/" target="_blank" rel="noopener">announcement</a> was accompanied with testimonies by human mathematicians, many of whom I knew and a few of whom I trusted, saying that they believed the argument (they had been given early access to it and had checked it). The basic structure of the proof is that a profound theorem in number theory due to Golod and Shafarevich from the 1960s could be used to construct a counterexample to the conjecture.</p>
+
+
+
+<p class="wp-block-paragraph">It is now 9 years since I had a mid-life crisis, realised I no longer trusted many human mathematicians when it comes to technical details, discovered Lean, and started to argue that interactive theorem provers should play an important role in the future of mathematics. So of course my first question was &#8220;is the counterexample formalized in Lean&#8221;. The answer was &#8220;no&#8221;.</p>
+
+
+
+<p class="wp-block-paragraph">But under a week later (26th May 2026), I got an email from Fields Medallist Mike Freedman. Mike is now the Chief Science Officer for <a href="https://logicalintelligence.com/" target="_blank" rel="noopener">Logical Intelligence</a>, a company cofounded by Turing Award winner and &#8220;godfather of AI&#8221; Yan LeCun. Mike informed me that their system had autoformalized the entire ChatGPT-generated paper in Lean and could I take a look. I looked, and my post-doc Thomas Browning looked too. And indeed this was what Logical Intelligence had done: they had formalized precisely the statement that the profound theorem of number theory implied the Erdős counterexample. Breakthrough LLM-generated mathematics being formalized in real time. Interesting data point.</p>
+
+
+
+<p class="wp-block-paragraph">Of course there is an elephant in the room here though, the profound theorem of number theory which takes 100+ pages to prove (it needs huge chunks of global class field theory, a theory developed at the beginning of the 20th century and for which there are still no short proofs; it is proving difficult to compress). In 2025 I had run a <a href="https://www.claymath.org/events/formalizing-class-field-theory/" target="_blank" rel="noopener">Clay Summer School</a> with Richard Hill on the formalization of class field theory, and one year later we have nearly done the local case (it is the current PhD project of my student Edison Xie); the global case remained open, and indeed in 2025 formalizing global class field theory seemed like a fantasy.</p>
+
+
+
+<p class="wp-block-paragraph">One month later, on June 26th 2026, my perception of what was possible again changed. Boris Alexeev <a href="https://leanprover.zulipchat.com/#narrow/channel/583339-AI-authored-projects/topic/Erd.C5.91s.20unit-distance.20counterexample.2C.20exponent.20above.201/near/606778508" target="_blank" rel="noopener">announced on the Lean Zulip</a> that he had steered ChatGPT to a complete formalization of the Erdős counterexample, assuming nothing beyond the axioms of mathematics. Boris works at OpenAI and had used their new model Sol to do the autoformalization. Boris made the code public and it did not take long for me to realise that somewhere within all this AI-generated (and sometimes horrible, although sometimes decent) code was indeed a proof of some really hard theorems in global class field theory. Also of interest to me was that Sol had generated 1.2 million lines of Lean code in the three weeks that it had worked on the project. Lean&#8217;s fantastic (declaration of conflict of interest: I am a maintainer) mathematics library <a href="https://github.com/leanprover-community/mathlib4">mathlib</a> is only 2.3 million lines of code, and took nine years to write. Perhaps it was at this point that the penny really dropped for me &#8212; large AI-generated developments of mathematics are inevitable. One cannot trust AI-generated code so I ran it in a sandbox on my machine (malicious Lean code can run arbitrary commands on your computer &#8212; Lean is a programming language, after all). Indeed, it was proving nontrivial theorems about the cohomology of number fields. Wow.</p>
+
+
+
+<h2 class="wp-block-heading">Group schemes of order n</h2>
+
+
+
+<p class="wp-block-paragraph">A week after Boris&#8217; revelation, in early July, I was thinking hard about how to run my <a href="https://xenaproject.wordpress.com/2026/05/15/formalizing-fermat-workshop/">Formalizing Fermat workshop</a>. This workshop was sponsored by <a href="https://www.logosresearch.ai/">Logos Research</a>, who, like Logical Intelligence (and Harmonic and Axiom AI and Moonshot AI and&#8230;) have a tool which can autoformalize mathematics &#8212; translating it from human language into Lean &#8212; building on mathlib. Logos told me that they were only going to allow 5 people at a time to use their system during the workshop, and there were 25 attendees, so I told all attendees that I would buy them a Claude Max subscription for a month, so they had something to experiment with when it wasn&#8217;t their turn for Logos&#8217; tool. The workshop was 6th to 10th July, and the Claude Max subscription would give attendees access to Claude Fable, at least until Tuesday 7th, when it was being switched off. When OpenAI got wind of what I was doing, they also offered all attendees free ChatGPT Pro access for a month; this was a big deal because ChatGPT Sol was coming out on the 9th. So basically all attendees would have access to Sol and Fable for 4 out of the 5 days of the workshop, and Logos&#8217; tool for the entire week. In fact Fable access was not removed on the 7th so we were in even better shape.</p>
+
+
+
+<p class="wp-block-paragraph">I was not sure how good Logos&#8217; tool was going to be, but I wanted a development of the theory of finite flat group schemes in Lean for my ongoing proof of Fermat&#8217;s Last Theorem, so I put uploaded some classic papers in the area to Fable and ChatGPT, and got them together to write down an exposition of the theory in natural language. I passed this pdf document over to Logos the day before the workshop, and on the first day of the workshop they said that one of the claims in the pdf was false and they had found an explicit counterexample. Another counterexample! I took a look and indeed the LLM-generated pdf was simply wrong at some point when describing a standard construction; false alarm. I had missed this myself though when reading through the pdf. Interesting how AI had again found a counterexample. I fixed the pdf. I thought it was interesting that the AI didn&#8217;t just say &#8220;I don&#8217;t quite follow this argument&#8221;, it instead said &#8220;here is a proof that this argument is simply wrong&#8221;, a much more powerful statement.</p>
+
+
+
+<p class="wp-block-paragraph">With the development of the theory of finite flat group schemes back on track, I could relax back into the FLT workshop. On Tuesday 7th July I sat opposite <a href="https://math.uchicago.edu/~amathew/">Akhil Mathew</a> at lunch; Akhil is a professor of mathematics at UChicago and he was an attendee who had been experimenting with the tools available. We talked about potential questions which AI could work on, and Akhil raised the old question of Grothendieck about whether every finite free group scheme of order n was killed by n. Deligne had proved the result in the commutative case, and Grothendieck had proved it when the base was reduced; Rene Schoof had proved it in more cases, and there had even been <a href="https://ems.press/content/serial-article-files/51994" target="_blank" rel="noopener">a paper</a> by Emiliano Torti published last year, proving it in even more generality. I said that I thought that this was a fabulous thing to get AI thinking about.</p>
+
+
+
+<p class="wp-block-paragraph">The day after the workshop finished, on Saturday 11th July, I got a DM from Akhil telling me that Sol had found a counterexample. He sent me a 12 page pdf. I immediately replied saying that I was not reading AI-generated informal mathematics and could he please formalize the entire thing in Lean. Four hours later he replied again, saying that Fable had autoformalized the entire thing. I scanned over the 1076-line Lean file, checking that the code did not delete all the files on my hard drive (Lean is a programming language, so it can do this). Convinced that it was only theorems, I then compiled it on my laptop and it took me under 5 minutes in total to check that (a) the <em>statement</em> of the claimed theorem used only concepts in mathlib (and thus things like <code><a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/RingTheory/HopfAlgebra/Basic.html#HopfAlgebra" target="_blank" rel="noopener">HopfAlgebra</a></code> can be trusted to mean what mathematicians think of as Hopf algebras) (b) the statement of the claimed theorem was that there was a counterexample and (c) the proof compiled. At this point I knew that we had a counterexample &#8212; a group scheme of order 4 which was not killed by 4. I suggested to Akhil that he make a PR to mathlib with the counterexample &#8212; which <a href="https://github.com/leanprover-community/mathlib4/pull/41748">he did</a>. I would have also suggested to him that he draft a press release saying that a machine had solved a 60-year-old question of Grothendieck in algebraic geometry, but somehow by this point I was almost becoming immune to all of this. It wasn&#8217;t clear to me that the media would even be able to distinguish between &#8220;machine resolves question due to Erdős&#8221; and &#8220;machine resolves question due to Grothendieck&#8221; even though I personally found the latter far more interesting. Of course the Grothendieck counterexample was far far easier than the Erdős one (a thousand lines, not a million), all I&#8217;m saying is that it&#8217;s an area of mathematics that I personally find more interesting. I pointed out to Akhil that machines seemed to be getting very good at finding counterexamples and suggested that he try the Hodge conjecture next.</p>
+
+
+
+<h2 class="wp-block-heading">Modularity lifting theorems</h2>
+
+
+
+<p class="wp-block-paragraph">I think it&#8217;s worth stepping back at this point and surveying what the attitudes of human experts to these sorts of things are. On Tuesday (14th July) I went to work at Imperial and the Grothendieck counterexample was the talk of lunch. A member of the faculty (who I won&#8217;t name) said to me that the fact that the counterexample was so easy to find just indicated that humans had not spent enough time thinking about the problem, implying that a 60-year-old question of Grothendieck was not actually that interesting to work on. I didn&#8217;t tell him that at some point earlier in my career I had spent a week working hard on the problem. In my mind my colleague is just going through the five stages of grief; right now they seem to be in the denial phase. </p>
+
+
+
+<p class="wp-block-paragraph">After lunch I met with my PhD student Andrew Yang, who had been working on formalizing a modularity lifting theorem in Lean, something which is crucial to my FLT work. Andrew had come to the Logos FLT workshop and now had access to both Sol and Fable. He told me that using these tools he had written 250K lines of Lean code which basically completely finished the project in what was I guess a 2 week period.</p>
+
+
+
+<p class="wp-block-paragraph">A few days earlier I had got an email from a professor in the maths department here at Imperial, expressing surprise that some of our graduate students were paying $200 per month to access models such as Sol and Fable. He said that he thought that these people were crazy. I did not immediately respond. But after meeting with Andrew I emailed the professor back and told him that in my opinion, any PhD student who was <em>not</em> paying $200 per month to access these tools was crazy. In fact during the workshop I learnt from Harvard PhD student Bryan Wang that Harvard were already giving free Fable access to all PhD students, post-docs and faculty at Harvard.</p>
+
+
+
+<h2 class="wp-block-heading">The Jacobian Conjecture</h2>
+
+
+
+<p class="wp-block-paragraph">But back to Akhil. I am not sure if he took my idea to disprove the Hodge conjecture seriously. But it looks like he had deeply understood that, with these extraordinary new AI tools, counterexamples might be low-hanging fruit right now. He had discussed with Levent Alpöge the idea of finding more counterexamples in algebraic geometry, and 12 hours ago Levent <a href="https://x.com/__alpoge__/status/2079028340955197566?s=20">posted on X</a> that Fable had found a counterexample to the <a href="https://en.wikipedia.org/wiki/Jacobian_conjecture">Jacobian Conjecture</a>. This is a big deal &#8212; this is a famous question in algebraic geometry which had been open for 100 years and which many people had thought about. It was apparently solved during the 2026 World Cup Final.</p>
+
+
+
+<p class="wp-block-paragraph">I woke up today to a DM from Akhil saying &#8220;shall I make another PR?&#8221; but this time he was too late &#8212; Paul Lezeau had already formalized the counterexample manually and had <a href="https://github.com/google-deepmind/formal-conjectures/pull/4474">made a PR</a> to DeepMind&#8217;s <a href="https://github.com/google-deepmind/formal-conjectures">Formal Conjectures repo</a>. Mathlib does not contain a large list of conjectures in mathematics, but DeepMind&#8217;s repo does. The importance of formalization of conjectures by humans is that if humans are agreed that a Lean statement does faithfully capture the idea behind a conjecture, then checking that (possibly AI-generated) Lean code does comprise a proof or disproof of the conjecture is a triviality. Congratulations to Levent, thanks to Akhil for suggesting the problem to him, and thanks to DeepMind for already having formalized the statement and thus making formal verification of the counterexample a triviality. </p>
+
+
+
+<p class="wp-block-paragraph">The Jacobian conjecture is resolved! Wow! The next step in that work is for humans to understand exactly what is going on with the example. For the true value of work like this is to give humans better understanding of mathematics. Indeed Akhil has been working on trying to understand the Grothendieck counterexample in a way which is far deeper than &#8220;here is a random presentation of a random ring and a random calculation which shows that something doesn&#8217;t work&#8221;. What we need next is the insight which can be drawn from these extraordinary examples.</p>
+
+
+
+<p class="wp-block-paragraph">What a time to be alive.</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/feed/</wfw:commentRss>
+			<slash:comments>56</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3829</post-id>
+		<media:content url="https://2.gravatar.com/avatar/e7ccfd42722fdb89c0fdea2f473152c14ab978bc1974acc4d67944906653f36e?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">xenaproject</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Formalizing Fermat workshop</title>
+		<link>https://xenaproject.wordpress.com/2026/05/15/formalizing-fermat-workshop/</link>
+					<comments>https://xenaproject.wordpress.com/2026/05/15/formalizing-fermat-workshop/#respond</comments>
+		
+		<dc:creator><![CDATA[xenaproject]]></dc:creator>
+		<pubDate>Fri, 15 May 2026 12:23:02 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[mathematics]]></category>
+		<guid isPermaLink="false">http://xenaproject.wordpress.com/?p=3810</guid>
+
+					<description><![CDATA[I&#8217;m organizing a workshop in London on July 6th to 10th (2026) whose goal is to work on my EPSRC-funded project formalizing Fermat&#8217;s Last theorem in Lean. The initial aim of the project was to reduce FLT to theorems known &#8230; <a href="https://xenaproject.wordpress.com/2026/05/15/formalizing-fermat-workshop/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">I&#8217;m organizing a workshop in London on July 6th to 10th (2026) whose goal is to work on my EPSRC-funded project formalizing Fermat&#8217;s Last theorem in Lean. </p>
+
+
+
+<p class="wp-block-paragraph">The initial aim of the project was to reduce FLT to theorems known in the 1980s, i.e. &#8220;formalize the Wiles/Taylor&#8211;Wiles papers&#8221; (although actually we are formalizing a more modern proof whose ideas go back to a strategy proposed by Khare). I have just finished giving a series of 11 lectures on the proposed proof route as part of the EPSRC Taught Course Centre which Imperial College London is part of; pdfs of the lectures are available here <a href="https://github.com/ImperialCollegeLondon/FLT/tree/main/2026_EPSRC_TCC_course">https://github.com/ImperialCollegeLondon/FLT/tree/main/2026_EPSRC_TCC_course</a> .</p>
+
+
+
+<p class="wp-block-paragraph">However, with autoformalization becoming more and more powerful, the tech company <a href="https://www.logosresearch.ai/">Logos Research</a> (who are funding the workshop) has proposed experimenting with getting AI to formalize the prerequisites which I need (and perhaps also main proof ideas themselves). Whilst autoformalization has got a lot better recently (see e.g. the second half of <a href="https://www.youtube.com/watch?v=H2O3d7KNy-A&amp;list=PL1Z5Z34WXMIE1B1BOVdn-2FnIoSXLBTJQ&amp;index=1">my talk at the recent Exeter workshop</a>) it still does not seem to be capable of reliably autonomously formalizing definitions correctly, or theorem statements idiomatically. My vision for the workshop is that a combination of human experts in number theory/lean plus experts in autoformalization could have a fun time experimenting with what actually can be achieved here. </p>
+
+
+
+<p class="wp-block-paragraph">For those who think &#8220;autoformalization is solved/will shortly be solved&#8221;, you could think of this workshop as a challenge to prove this. What is happening right now is that people are choosing targets for which autoformalization will work well and then saying &#8220;look we did this impressive-looking thing&#8221;. Here we&#8217;re doing something different &#8212; we&#8217;re choosing the target first, and then asking whether autoformalization is appropriate for it. The target is huge, and the answer will surely be &#8220;autoformalization is good at this part, but not very good at that part&#8221;. Given recent advances, I think it will be a very interesting project to find out exactly which parts of the (gigantic) proof of Fermat&#8217;s Last Theorem are currently suitable for autoformalization. My guess is that complex-definition-heavy parts will be bad, and parts of the proof where all definitions are already in place in mathlib and the proofs are well-documented in the human literature could well be good. But let&#8217;s see.</p>
+
+
+
+<p class="wp-block-paragraph">The deadline for applications is one week today: Friday 22nd May, 11:59pm UK time. If you are good at at least two of algebraic number theory, lean and autoformalization, please feel free to apply! The application form is <a href="https://docs.google.com/forms/d/e/1FAIpQLSdiKCOQqF4V_pHP_5PBnP_aeOo1C5ZyqpvrF9fhIl1Kia8CwQ/viewform" target="_blank" rel="noopener">here</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://xenaproject.wordpress.com/2026/05/15/formalizing-fermat-workshop/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3810</post-id>
+		<media:content url="https://2.gravatar.com/avatar/e7ccfd42722fdb89c0fdea2f473152c14ab978bc1974acc4d67944906653f36e?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">xenaproject</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Accelerating mathematics</title>
+		<link>https://xenaproject.wordpress.com/2026/02/09/accelerating-mathematics/</link>
+					<comments>https://xenaproject.wordpress.com/2026/02/09/accelerating-mathematics/#comments</comments>
+		
+		<dc:creator><![CDATA[xenaproject]]></dc:creator>
+		<pubDate>Mon, 09 Feb 2026 13:23:22 +0000</pubDate>
+				<category><![CDATA[mathlib]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[chatgpt]]></category>
+		<category><![CDATA[ITP]]></category>
+		<category><![CDATA[lean]]></category>
+		<category><![CDATA[llm]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[mathematics]]></category>
+		<category><![CDATA[mathematics library]]></category>
+		<category><![CDATA[technology]]></category>
+		<guid isPermaLink="false">http://xenaproject.wordpress.com/?p=3769</guid>
+
+					<description><![CDATA[Let&#8217;s say that someone had a big pot of money, and wanted to use it to accelerate mathematical discovery. How might they go about doing this? The traditional approach Historically it has been governments who have been driving this agenda, &#8230; <a href="https://xenaproject.wordpress.com/2026/02/09/accelerating-mathematics/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Let&#8217;s say that someone had a big pot of money, and wanted to use it to accelerate mathematical discovery. How might they go about doing this? </p>
+
+
+
+<h2 class="wp-block-heading">The traditional approach</h2>
+
+
+
+<p class="wp-block-paragraph">Historically it has been governments who have been driving this agenda, with taxpayer-funded institutions such as the NSF (in the US), the EPSRC (in the UK), the ERC (in Europe) and many other national institutions (NSERC, ARC, DFG, JSPS&#8230;) typically funding individuals and small teams to work on cutting-edge problems at the boundary of mathematical understanding. These institutions also fund centres and institutes where mathematicians gather for workshops and exchange ideas.</p>
+
+
+
+<p class="wp-block-paragraph">The question I want to raise here is: can new advances in technology somehow accelerate the process of growing mathematical knowledge and understanding in different ways to the traditional ones? And I want to argue that right now this is not as easy as it sounds.</p>
+
+
+
+<h2 class="wp-block-heading">&#8220;Duh just let AI do it&#8221;</h2>
+
+
+
+<p class="wp-block-paragraph">The immediate and unhelpful answer from the AI bros (who may have no understanding of the nature of mathematics) is &#8220;this question is not even relevant, AGI will happen within the next few years and then math will be solved&#8221;. But this is not what is happening on the ground. Right now there seem to be two relevant technologies poised to help disrupt mathematics: the language model (LLM) and the interactive theorem prover (ITP). There is progress, but there is certainly no &#8220;killer app&#8221; yet. How are experts using these tools in 2026?</p>
+
+
+
+<h2 class="wp-block-heading">Uses of LLMs in mathematics</h2>
+
+
+
+<p class="wp-block-paragraph">Professional mathematicians seem to be using these tools to do a variety of things. For example:</p>
+
+
+
+<ol class="wp-block-list">
+<li>High-level brainstorming for ideas;</li>
+
+
+
+<li>Literature search;</li>
+
+
+
+<li>Solving intermediate undergraduate/PhD level questions which arise on the way to harder problems.</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">Amateurs and cranks aim higher, and are currently producing large documents which purport to contain breakthrough results, but which do not survive 5 minutes of expert scrutiny. I continually find it surprising that a non-expert can genuinely believe that they might contribute to research mathematics using only the tools which the experts also have access to. The slop being produced by LLMs is getting better, and I find it extremely depressing ploughing through this kind of stuff, because the AI wants to please, so it wants to prove your theorem for you, even if your theorem is false or not accessible given the tools that humanity currently has access to. LLMs will lie to you. I&#8217;ve asked a language model a question and have been unambiguously told that the answer is YES and given a &#8220;proof&#8221; which, when inspected turns out to be nonsense. Raising a specific issue in the solution with the LLM, it decides that actually you don&#8217;t think the question is true after all so it changes its answer to NO and rattles off a &#8220;proof&#8221; of that instead. Is there a word or phrase yet for the depression that descends when I am reading LLM output trying to decide whether it is mathematically correct or whether the system is trying to be a people-pleaser and is lying to me? This feeling is in stark contrast to my emotions when refereeing a human-written paper, where I am typically working under the assumption that the author surely genuinely believes that they&#8217;ve correctly proved the result they&#8217;re announcing.</p>
+
+
+
+<p class="wp-block-paragraph">LLMs can have good ideas, but cannot always be trusted, It seems that right now the most successful contributions of LLM to mathematics have been human-LLM collaborations, which are currently showing some signs of promise. I do worry that there might be a bit of a pile-on right now, with human authors claiming that an LLM gave them the key idea for a paper, or was in some other way an essential component of the research, on the basis that it makes the paper look more exciting and modern.</p>
+
+
+
+<p class="wp-block-paragraph">Right now, evidence seems to suggest that the way to make LLMs better at mathematics is not to attempt to train an LLM on mathematics specifically, but just to leave the tech companies to do what they are doing and to see what happens. In particular, it is not at all clear that there is an LLM-only way to accelerate mathematics with money (unless you have many billions, in which case I suppose you can try and make your own LLM; it is not at all clear that you will be able to compete though).</p>
+
+
+
+<h2 class="wp-block-heading">Uses of ITPs in mathematics</h2>
+
+
+
+<p class="wp-block-paragraph">Lean is a programming language expressive enough to understand the concepts of a mathematical theorem and proof. If your code compiles, the mathematics is correct. For the last 8 years, the Lean community has been building a library containing most of the results in a typical undergraduate degree, and many more advanced results from graduate courses in certain areas of higher mathematics. More recently, tech companies have been developing tools which can write Lean code. The advantage of an LLM-generated Lean proof is that the LLM can no longer lie to you; if the code compiles, the argument is complete and correct. The argument might also be amateurish or unnecessarily convoluted, although one could imagine future tools being trained to tidy up long-winded but correct arguments.</p>
+
+
+
+<p class="wp-block-paragraph">However, even though ITPs such as Lean offer a solution to AI hallucinations in mathematics, their abilities are limited by the current state of the libraries available. Lean&#8217;s mathematics library <code>mathlib</code> is still missing literally hundreds of the definitions used in modern day mathematics. People may have read about Lean/LLM combos being used to solve Erdős problems (Terry Tao is keeping track of recent developments <a href="https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems" target="_blank" rel="noreferrer noopener">here</a>); but one thing which characterises Erdős problems is that although they may or may not be hard to solve (and the LLM/Lean-solved problems were usually not ultimately that hard, with solutions typically only being a page or two at most and using no advanced machinery), they are always easy to <em>state</em>. </p>
+
+
+
+<p class="wp-block-paragraph">This absence of many modern definitions in Lean&#8217;s mathematical library (and indeed in the libraries of all other computer theorem provers) is, I believe, holding the area back.</p>
+
+
+
+<h2 class="wp-block-heading">Growing ITP libraries</h2>
+
+
+
+<p class="wp-block-paragraph">Let&#8217;s get technical. The Langlands Program is a web of mostly-unsolved conjectures involving mathematical objects called &#8220;automorphic representations for a connected reductive group over a global field&#8221;. Writing down the <em>definition</em> of an automorphic representation in the language of an ITP would be an extremely long project. But until this work is done, the only technological tool we have for accelerating the Langlands Program is LLMs, with their inaccuracies, hallucinations and lies. This will not scale. So say we have a big bag of money. How do we accelerate ITP libraries with it? For example, how do we get the definition of an automorphic representation into Lean&#8217;s mathematics library, so we can state Langlands&#8217; conjectures and let AI work on them within the framework of an ITP, where hallucinations are impossible?</p>
+
+
+
+<p class="wp-block-paragraph">There are four approaches to solving this problem. We could wait until it happens organically (free and very slow), we could get humans to do it, we could get computers to do it, or we could somehow use a human/computer combination. What are the pros and cons here?</p>
+
+
+
+<h2 class="wp-block-heading">The problem with humans</h2>
+
+
+
+<p class="wp-block-paragraph">Humans are expensive. Not only that, the humans who are able to do the job of teaching nontrivial definitions in modern research mathematics are a rare breed. As things currently stand, if a human were to embark upon the project of teaching more of the Langlands Philosophy to a computer, they would have to be an expert in both the Langlands Philsophy and the language of the ITP in question. I have been attempting to train PhD students and post-docs in these skills but they get snapped up by tech companies! Also, Lean&#8217;s mathematics library has an extremely high bar for code quality and right now it has over 2000 open PRs on its queue (that is, 2000 pieces of code corresponding to mathematics and waiting to be reviewed by human experts). Nothing is going to happen quickly here, with the current state of things. One of the jobs of the recently-created <a href="https://mathlib-initiative.org/support/" target="_blank" rel="noreferrer noopener">Mathlib Initative</a> is to make serious inroads into the backlog, by paying expert humans to review PRs. We have seen a <em>huge</em> acceleration of feature PRs being merged since the Initiative arrived on the scene. Funding it is certainly one way to accelerate library growth.</p>
+
+
+
+<p class="wp-block-paragraph">But even with this acceleration, I feel like that a human-centred approach to getting Lean to understand the Langlands Philosophy will still need to be powered by a person or people whose <em>job</em> it is to make this happen. And for that we need two ingredients &#8212; the person, and the job. Neither are particularly easy to come by, not least because if you are a human who is very good at the Langlands Philosophy then you might want to spend your time proving new theorems in the Langlands Philosophy &#8212; after all, that&#8217;s what will get you the Fields Medal. Painstakingly going over basic material might not be your own idea of how you want your career to progress.</p>
+
+
+
+<h2 class="wp-block-heading">The problem with computers</h2>
+
+
+
+<p class="wp-block-paragraph">Recall the question: how to accelerate growth of an ITP&#8217;s mathematics library. Can we use computers? Recently I raised this question on the on the Lean Zulip. After quite a lively general discussion <a href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/sloplib/near/571882431" target="_blank" rel="noreferrer noopener">here</a> and <a href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/AI.20Lean.20definitions/near/572226311" target="_blank" rel="noreferrer noopener">here</a> the conclusion seemed to be weirdly similar to the situation with LLMs writing mathematics in the traditional way: a machine might be able to write 10,000 lines of code, but then these lines need careful human review. A particularly delicate issue is with AI formalizing definitions in Lean; these definitions are complex, and if you miss or garble an axiom then your code will still <em>compile</em>, it just won&#8217;t <em>mean</em> what it is supposed to mean. As an example: a prerequisite for defining automorphic representations would be to define reductive groups; I was asked what would convince me that an AI-generated definition was correct and I suggested a formal proof of the classification theorem for connected reductive groups over an algebraically closed field &#8212; but such a proof would be a challenging and very long formalization task; right now, AI alone is simply not up to this task. And if we need humans in the loop then we&#8217;re running back into the problems mentioned above: the right humans are expensive, rare, and even if they have the technical know-how to supervise the project, they could well also have a job in an academic institution and are being paid to do something completely different.</p>
+
+
+
+<h2 class="wp-block-heading">tl;dr</h2>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s hard to &#8220;10x mathematics&#8221;, even with funds. AI output needs extremely careful review right now, and this is a dispiriting task which needs to be done by an expert, who probably has better things to do. LLMs will lie to you, whether writing in natural language or definitions in a formal language. Formal languages can check proofs, but humans need to check definitions.</p>
+
+
+
+<p class="wp-block-paragraph">Right now the formalization community on the whole seems to be relying on &#8220;let the ITP libraries grow organically, and hope that the taste of those in the community is such that it will grow towards modern research&#8221;. Universities are typically unwilling to employ people whose job is library growth because traditionally this skill is not recognised by the mathematical community, which is slow to change (a perennial problem in academia). Many times I have been asked &#8220;how do we 10x <code>mathlib</code>? I do not know. And without ITPs in the picture, our only defence against slop is humans ploughing through LLM output, which is inaccurate and vague sufficiently often that it simply cannot yet be trusted without extremely careful expert review. This is one of the main reasons that formalization of mathematics is still essentially all being done by humans.</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://xenaproject.wordpress.com/2026/02/09/accelerating-mathematics/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3769</post-id>
+		<media:content url="https://2.gravatar.com/avatar/e7ccfd42722fdb89c0fdea2f473152c14ab978bc1974acc4d67944906653f36e?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">xenaproject</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Formalization of Erdős problems</title>
+		<link>https://xenaproject.wordpress.com/2025/12/05/formalization-of-erdos-problems/</link>
+					<comments>https://xenaproject.wordpress.com/2025/12/05/formalization-of-erdos-problems/#comments</comments>
+		
+		<dc:creator><![CDATA[xenaproject]]></dc:creator>
+		<pubDate>Fri, 05 Dec 2025 15:06:26 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[AlphaProof]]></category>
+		<category><![CDATA[Aristotle]]></category>
+		<category><![CDATA[chatgpt]]></category>
+		<category><![CDATA[erdos]]></category>
+		<category><![CDATA[erdos problem]]></category>
+		<category><![CDATA[Harmonic]]></category>
+		<category><![CDATA[lean]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[mathematics]]></category>
+		<category><![CDATA[OpenAI]]></category>
+		<category><![CDATA[philosophy]]></category>
+		<category><![CDATA[science]]></category>
+		<guid isPermaLink="false">http://xenaproject.wordpress.com/?p=3745</guid>
+
+					<description><![CDATA[[This is a guest post by Boris Alexeev. Now over to Boris.] I’m here to tell you about various exciting developments centering on Erdős problems, especially involving the formalization of old and new mathematics using artificial intelligence. Background As is &#8230; <a href="https://xenaproject.wordpress.com/2025/12/05/formalization-of-erdos-problems/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">[This is a guest post by <a href="https://borisalexeev.com/">Boris Alexeev</a>. Now over to Boris.]</p>
+
+
+
+<p class="wp-block-paragraph">I’m here to tell you about various exciting developments centering on Erdős problems, especially involving the formalization of old and new mathematics using artificial intelligence.</p>
+
+
+
+<h2 class="wp-block-heading">Background</h2>
+
+
+
+<p class="wp-block-paragraph">As is well known, <a href="https://en.wikipedia.org/wiki/Paul_Erd%C5%91s">Paul Erdős</a> was a prolific mathematician of the 20th century who posed an extraordinary number of conjectures. Around <a href="https://www.reddit.com/r/math/comments/13wnroa/erd%C5%91s_famously_asked_lots_of_questions_and_made/">May 2023</a>, Thomas Bloom set up <a href="https://www.erdosproblems.com/">erdosproblems.com</a> to collect these problems and keep track of progress on them. Over the past 2.5 years, this progress has accelerated as many people realized they could solve problems that were previously unknown to them. In August 2025, Thomas added a forum that became active very quickly, further accelerating developments.<br><br>In May 2025, Google DeepMind launched the <a href="https://github.com/google-deepmind/formal-conjectures">Formal Conjectures</a> project, an open repository of formalized mathematics conjectures, including (but not at all limited to) Erdős problems. In August 2025, Thomas Bloom and Terence Tao <a href="https://terrytao.wordpress.com/2025/08/31/a-crowdsourced-project-to-link-up-erdosproblems-com-to-the-oeis/">proposed a crowdsourced project</a> to link up <a href="http://erdosproblems.com">erdosproblems.com</a> to the Online Encyclopedia of Integer Sequences (OEIS). These are both part of a <a href="https://terrytao.wordpress.com/2024/09/03/planar-point-sets-with-forbidden-four-point-patterns-and-few-distinct-distances/#comment-685742">greater push</a> to increase the number of <a href="https://mathoverflow.net/a/500749/1079">mathematical databases</a>, as well as links between them.</p>
+
+
+
+<p class="wp-block-paragraph">At present, there are over 1100 problems on <a href="http://erdosproblems.com">erdosproblems.com</a>, of which approximately 40% have been solved. (Note that only ~100 problems are known to have monetary prizes associated with them.) Approximately 240 problems have <em>statements</em> formalized in Lean, and 17 have <em>solutions</em> formalized in Lean. Approximately 260 problems have been linked to sequences in the OEIS. Alexis Olson has implemented a <a href="https://github.com/teorth/erdosproblems/raw/main/data/statistics_history_light.svg">progress graph</a> displaying these statistics visually over time.</p>
+
+
+
+<h2 class="wp-block-heading">Human formalization without AI</h2>
+
+
+
+<p class="wp-block-paragraph">At first, formalization was not a large part of the story with Erdős problems. One of the first developments was several years ago when Thomas Bloom and Bhavik Mehta <a href="https://ems.press/journals/jems/articles/14297980">formalized</a> Bloom’s solution to <a href="https://www.erdosproblems.com/47">Problem 47</a> about unit fractions (and its further applications to several related problems). I would like to highlight a couple of passages from their paper (emphasis mine):</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph"><strong>The formalisation began in January 2022 and concluded in July 2022</strong>. At the beginning of the formalisation, the first author had no experience with Lean at all, and learnt Lean (or at least a sufficient subset of Lean) through the formalising process.</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">and</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">This formalisation is a first in several respects: it is the first recent analytic number theory result to be formally verified; the first instance of the circle method; the first solution to a long-standing problem of Erdős. Part of the motivation for this formalisation was as a proof of concept: the Lean proof assistant and accompanying mathlib is advanced enough to make feasible <strong>the fast formalisation</strong> of new research results in mathematics, on the same timescale as the production of the ‘human-readable’ paper. Of course, this was made feasible by the relatively elementary and self-contained nature of the mathematics involved. Nonetheless, we believe that this arrangement, with a formal certificate of validation accompanying the human version of the paper, is a sign of things to come.</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">In this post, I focus <em>mostly</em> on the formalization of solutions that completely resolve a problem, but following this proof, there was a lot of great formalization work for results that don&#8217;t technically resolve a problem in full. Luckily, this blog has already featured <a href="https://xenaproject.wordpress.com/2023/11/04/formalising-modern-research-mathematics-in-real-time/">a guest post by Bhavik Mehta</a> of this kind involving <a href="https://www.erdosproblems.com/77">Problem 77</a>. Similarly, last year, there was <a href="https://arxiv.org/abs/2403.17370">some extensive work</a> on <a href="https://www.erdosproblems.com/216">Problem 216</a> and separately <a href="https://github.com/vasnesterov/HadwigerNelson">involving the Hadwiger-Nelson problem</a> (which is <a href="https://www.erdosproblems.com/508">Problem 508</a>).</p>
+
+
+
+<p class="wp-block-paragraph">I am not personally aware of any further developments in this area (my apologies to anyone I left out!) until the launch of the Formal Conjectures project. This project, of course, includes the formalization of a large (and increasing) number of the <em>statements</em> of Erdős problems, but does not generally include the formalization of solutions. Nonetheless, it does include <a href="https://github.com/google-deepmind/formal-conjectures/blob/0f3501689b408763d86f329024f0ced8c8224356/FormalConjectures/ErdosProblems/316.lean#L27-L47">a succinct proof</a> by Bhavik Mehta of a counterexample to <a href="https://www.erdosproblems.com/316">Problem 316</a> found by Tom Stobart (slightly smaller than Csaba Sándor’s original counterexample).<br><br>Shortly after the launch of the forum on <a href="http://erdosproblems.com">erdosproblems.com</a>, a collaboration between Stijn Cambie, Vjekoslav Kovač, and Terence Tao resolved <a href="https://www.erdosproblems.com/379">Problem 379</a>, with the solution formalized in Lean. A couple of days later, Terence Tao also resolved <a href="https://www.erdosproblems.com/987">Problem 987</a> (unaware that Erdős himself had done so) and formalized the solution in Lean. I believe that both of these formalizations were done primarily “by hand”.</p>
+
+
+
+<h2 class="wp-block-heading">Human formalization with AI</h2>
+
+
+
+<p class="wp-block-paragraph">Kevin’s <a href="https://xenaproject.wordpress.com/2025/10/22/formal-or-not-formal-that-is-the-question-in-ai-for-theorem-proving/">latest blog post</a>, discussing the formal and informal approaches to theorem proving, mentioned <a href="https://arxiv.org/abs/2510.19804">my paper with Dustin Mixon</a> (and maybe <a href="https://borisalexeev.com/papers/erdos707.html">also ChatGPT and Lean</a> — should we have further <a href="https://www.argmin.net/p/the-fine-art-of-crate-digging">included Marshall Hall</a>?) resolving <a href="https://www.erdosproblems.com/707">Problem 707</a>. There are several fun aspects to that story, and I encourage readers to look at <a href="https://arxiv.org/pdf/2510.19804#page=11">Sections 7</a> and 1 of our paper for more details (or perhaps they may enjoy <a href="https://mathstodon.xyz/@tao/115416208975810074">a summary</a>). However, the part of the story relevant to formalization is that after the “usual” mathematics was complete, we were able to vibe code the proof in Lean using ChatGPT (without Pro).<br><br>While writing the paper, we felt like we were trying a new style of mathematical research: combining large language models with formal verification to produce significant, certifiably correct results. I’m happy to have heard from several friends that our experience motivated them to look into formalizing results in Lean themselves. One mentioned that they hadn’t looked at Lean in three years, and they found that the landscape had changed completely in that time: improvements to Mathlib and Lean, together with the rise of LLMs, made it significantly easier to prove results in a reasonable amount of time. Our experience also <a href="https://mathstodon.xyz/@tao/115493667607261044">motivated</a> Terence Tao to similarly <a href="https://chatgpt.com/share/690a65b3-473c-800e-afa5-e99f78610ee9">vibe code</a> a solution to <a href="https://www.erdosproblems.com/613">Problem 613</a> by Oleg Pikhurko.</p>
+
+
+
+<p class="wp-block-paragraph">In retrospect, I feel that our paper was written during a very brief window in time when our specific manner of interacting with an LLM and a formal assistant was the most effective manner for a novice to formalize (existing) mathematics. In <a href="https://arxiv.org/pdf/2510.19804#page=11">Section 7 of the paper</a>, we describe what our preferred interaction style would have been using a simple schematic drawing:</p>
+
+
+
+<figure class="wp-block-image size-large"><img width="986" height="92" data-attachment-id="3752" data-permalink="https://xenaproject.wordpress.com/2025/12/05/formalization-of-erdos-problems/hap/" data-orig-file="https://xenaproject.wordpress.com/wp-content/uploads/2025/12/hap.png" data-orig-size="986,92" data-comments-opened="1" data-image-title="hap" data-image-description="" data-image-caption="" data-large-file="https://xenaproject.wordpress.com/wp-content/uploads/2025/12/hap.png?w=640" src="https://xenaproject.wordpress.com/wp-content/uploads/2025/12/hap.png?w=986" alt="" class="wp-image-3752" srcset="https://xenaproject.wordpress.com/wp-content/uploads/2025/12/hap.png 986w, https://xenaproject.wordpress.com/wp-content/uploads/2025/12/hap.png?w=150 150w, https://xenaproject.wordpress.com/wp-content/uploads/2025/12/hap.png?w=300 300w, https://xenaproject.wordpress.com/wp-content/uploads/2025/12/hap.png?w=768 768w" sizes="(max-width: 986px) 100vw, 986px" /></figure>
+
+
+
+<p class="wp-block-paragraph">This is much closer to reality now. Approximately at the same time as we finished our paper, <a href="https://harmonic.fun/">Harmonic</a> released <a href="https://aristotle.harmonic.fun/">Aristotle</a> to the general public.</p>
+
+
+
+<p class="wp-block-paragraph">At first, Aristotle could only fill in a <code>sorry</code> in a Lean proof; in other words, given a statement that had already been formalized in Lean, it could (attempt to) supply a proof. This immediately transformed my interactions with Lean. <a href="https://www.erdosproblems.com/105">Problem 105</a> had been recently solved by Wu Xichuan in the forum, and I was able to use ChatGPT to generate formal Lean statements describing the proof, which Aristotle was able to fill in. Before Aristotle, I had tried to formalize this proof with ChatGPT alone, but did not succeed. Note that although Wu’s counterexample is not simple to find, verifying that it works is entirely straightforward. (I was also able to use Aristotle to formalize multiple results from non-Erdős mathematics I was working on. For example, see <a href="https://arxiv.org/pdf/2511.14653#page=9">Section 5.3 of this paper</a>, written in the first person from the perspective of my coauthor Dustin.)</p>
+
+
+
+<p class="wp-block-paragraph">As it turns out, that style of interaction was also a brief moment in time. Shortly thereafter, Aristotle released “informal” mode, which accepts mathematics written in informal language (possibly in LaTeX) and formalizes it all. As a result, Wouter van Doorn, Gemini DeepThink, Terence Tao, Aristotle, and I <a href="https://mathstodon.xyz/@tao/115591487350860999">were able to formalize a solution</a> to part of <a href="https://www.erdosproblems.com/367">Problem 367</a>.</p>
+
+
+
+<p class="wp-block-paragraph">I was excited to try using these tools to formalize more solutions. I noticed <a href="https://www.erdosproblems.com/418">Problem 418</a> had recent activity on the forum and that it might be suitable for an experiment. I asked ChatGPT to explain the solution to the problem and then Aristotle to auto-formalize the resulting LaTeX file. The actual theorem statement was already available at the Formal Conjectures project. This process worked beautifully, and I noticed that no intelligent interaction was involved on my part.</p>
+
+
+
+<p class="wp-block-paragraph">As a result, I wrote a pipeline to automate the entire process. After I selected a promising problem number by hand, ChatGPT explained a solution, Aristotle auto-formalized it, and then it was glued together with the statement from the Formal Conjectures project. The solution was verified by Lean and <a href="https://github.com/plby/lean-proofs/">posted automatically to GitHub</a>. My program even wrote a comment on <a href="https://github.com/plby/lean-proofs/">erdosproblems.com</a> for me, but then I would make sure everything looks good before pressing “Post comment”. This process worked perfectly the first time I tried it, on <a href="https://www.erdosproblems.com/645">Problem 645</a>. Subsequent runs have revealed that my pipeline is quite fragile, and I occasionally have to intervene manually, but I have run it successfully approximately ten times. Note that ChatGPT is not a necessary component of the formalization step, as Aristotle handles informal text quite well by itself, but I still find it useful for various auxiliary tasks, such as finding the relevant proofs and transcribing (and translating!) PDFs.</p>
+
+
+
+<p class="wp-block-paragraph">Between the pipeline and other uses, Aristotle has now written the majority of the public formalized <em>solutions</em> on <a href="http://erdosproblems.com">erdosproblems.com</a>. (By this, I mean the number of problems, as reported in the <a href="https://github.com/teorth/erdosproblems/">community database</a>. If you have solved a problem, whether formally or not, please let someone know either on <a href="http://erdosproblems.com">erdosproblems.com</a> or on the community database!) Furthermore, interaction with Aristotle is currently on the timescale of hours, which while not yet &#8220;real time&#8221;, is a far cry from the half a year it took at the beginning of this story. The time also mainly consists of waiting, as no interactvity is required or possible (as of today). Given my previous experiences with outdated workflows, I have no doubt that soon, this process will change completely yet again and become even better.</p>
+
+
+
+<h2 class="wp-block-heading">Formalization entirely by AI</h2>
+
+
+
+<p class="wp-block-paragraph">Aristotle can also solve problems by itself, achieving <a href="https://arxiv.org/abs/2510.01346">gold-medal-equivalent</a> performance on the 2025 International Mathematical Olympiad (IMO) problems.</p>
+
+
+
+<p class="wp-block-paragraph">I was curious what this meant in practice. As a trial run, I found <a href="https://www.erdosproblems.com/488">Problem 488</a>, which was available on the Formal Conjectures project and for which Stijn Cambie had already found a counterexample. And indeed, provided only with the formal statement of the problem, Aristotle was able to disprove the conjecture by itself. (Note: the statement of Problem 488 has since been modified.)<br><br>Excited, I moved on to <em>open</em> Erdős problems. And so last Friday night, I selected several problems by hand, launched Aristotle, and went to bed. (As mentioned previously, Aristotle runs can take several hours but you don&#8217;t have to do anything.) I must say, I was not emotionally prepared to wake up to an email that Aristotle had successfully resolved <a href="https://www.erdosproblems.com/124">Problem 124</a>. But after checking its proof and investigating various issues with the precise statement, I saw that indeed, Aristotle had resolved a problem listed by Erdős as open in two collections in 1997 (published shortly after his death).</p>
+
+
+
+<p class="wp-block-paragraph">As can be expected with many “firsts” or other records, there is an “asterisk” regarding this solution. In this case, it seems that Erdős probably intended a different formulation of the problem (and thus unfortunately note: the statement of Problem 124 has since been modified). Much of the discussion online about this accomplishment centered around how simple Aristotle’s solution to the problem was. Indeed, many described it as “Olympiad-level”, which we previously knew was within Aristotle’s capabilities. I would like to offer a different description of the solution: fundamentally, it is from “The Book”. While I agree the solution is simple, I find it remarkable that one of the first open problems resolved in this manner had such a beautiful proof, and I think it’s perfect for an Erdős problem.</p>
+
+
+
+<p class="wp-block-paragraph">Shortly thereafter, Kevin Barreto resolved <a href="https://www.erdosproblems.com/481">Problem 481</a> (not knowing that it had already been resolved by David Klarner in 1982, as that reference was only located later), also with a nice proof. He then made two requests to Aristotle: one to formalize his proof, and one to solve the problem by itself. Both succeeded. Accordingly, this is another problem that Aristotle was able to solve by itself (in Lean), but had been solved by a human already. Afterwards, multiple other teams claimed to have solved these two problems autonomously.</p>
+
+
+
+<p class="wp-block-paragraph">AlphaProof, which produces Lean output, has also autonomously contributed to the community&#8217;s knowledge about Erdős problems. For example, it has found an interesting example for <a href="https://www.erdosproblems.com/730">Problem 730</a> and a nice counterexample for <a href="https://www.erdosproblems.com/198">Problem 198</a>. The Lean proofs it produces are often reworked manually to be more readable; also, its counterexamples have often caused the problem statements to be changed. Sadly, as a result, no current Lean formalization on <a href="http://erdosproblems.com">erdosproblems.com</a> originates from AlphaProof. (Perhaps AlphaProof or other programs have independently solved more problems, but they have not yet published their results publicly.)</p>
+
+
+
+<p class="wp-block-paragraph">Efforts are underway to autonomously solve even more Erdős problems. Accordingly, I look forward to seeing more formalized proofs of both open and previously-solved problems from Aristotle, AlphaProof, and the other agents becoming available.</p>
+
+
+
+<h2 class="wp-block-heading">Side notes</h2>
+
+
+
+<p class="wp-block-paragraph">I am aware of the recent paper about <a href="https://arxiv.org/abs/2511.22570v1">DeepSeekMath-V2</a>, but I have not mentioned it because it has not (yet) directly contributed to formalization on <a href="http://erdosproblems.com">erdosproblems.com</a>. AlphaProof is mentioned briefly above, but I further note that there is a recent <a href="https://www.nature.com/articles/s41586-025-09833-y">AlphaProof</a> paper that may be of interest.</p>
+
+
+
+<p class="wp-block-paragraph">ChatGPT was used to find many problems on <a href="http://erdosproblems.com">erdosproblems.com</a> that had been labeled as “open” but were actually solved. ChatGPT has also been used <a href="https://arxiv.org/pdf/2511.16072#page=54">to help solve</a> (the &#8220;sufficiently large&#8221; statement of) <a href="https://www.erdosproblems.com/848">Problem 848</a>. I did not dive into those topics either because they are not related to formalization, though I will opine that ChatGPT Pro is very useful both for literature review and actual exploratory mathematics.</p>
+
+
+
+<h2 class="wp-block-heading">Misformalization</h2>
+
+
+
+<p class="wp-block-paragraph">During my formalization adventures, I have encountered <a href="https://github.com/google-deepmind/formal-conjectures/issues?q=Erd%C5%91s%20is%3Aissue%20label%3Amisformalization%20author%3Aplby">many instances</a> of misformalization. I&#8217;m not attempting a full classification here, but they have come in three styles: “low-level” issues like bugs or incorrect definitions, “missing hypotheses” specifically, and “high-level” issues like the human mathematician missing something. Let me give an example of each of these:</p>
+
+
+
+<ol class="wp-block-list">
+<li>Low-level: The formalization of <a href="https://www.erdosproblems.com/480">Problem 480</a> said <code>m ≠ 0</code> but meant to say <code>n ≠ 0</code>. This was discovered when Aristotle found a counterexample taking advantage of this issue, which also happened to interact with the issue of “<a href="https://xenaproject.wordpress.com/2020/07/05/division-by-zero-in-type-theory-a-faq/">junk values</a>” in Mathlib. (Problem 480 was solved by Fan Chung and Ron Graham with a very nice solution. I have not yet succeeded in getting Aristotle to formalize the proof.) Similarly, I have seen flipped inequalities, a trivial zero case forgotten, and flipped quantifiers.<br></li>
+
+
+
+<li>Missing hypotheses: in 1994, <a href="https://althofer.de/levon-erdos-ahlswede-1996-small.jpg">Rudolf Ahlswede and Levon Khachatrian</a> found a counterexample to <a href="https://www.erdosproblems.com/56">Problem 56</a> with a parameter equal to 212. When I attempted to formalize their proof, Aristotle found a completely trivial counterexample with tiny parameters like 2. It turns out that the conjecture was missing a hypothesis, somewhat implicitly. (I succeeded in formalizing the original proof with the added hypothesis, though not without making a low-level off-by-one error myself in the process.)<br></li>
+
+
+
+<li>High-level: Problem 124 might fit this description. In 1996, Stefan Burr, Paul Erdős, Ronald Graham, and Winnie Li formulated <a href="https://mathweb.ucsd.edu/~ronspubs/96_05_integer_powers.pdf">a particular conjecture</a>, which appears to still be open. Shortly thereafter (just before his death, at age 83), Erdős re-formulated the problem in a slightly different language and altered the hypotheses. Unfortunately, in doing so, he may have missed that this problem has a simple solution. (As discussed above, Aristotle solved this later version autonomously.)</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">Low-level errors are common in programming, of course, but I think at present mathematicians are probably <em>more</em> likely to make them in Lean than when writing similar code in, say, Python. I think this comes from relative unfamiliarity with Lean, as well as from the fact that the code is not “executed” in the same way. Over time, I expect these errors to decrease in frequency until they’re at a similar baseline level to other programming.</p>
+
+
+
+<p class="wp-block-paragraph">Tools like Aristotle can help find all of these kinds of errors. By itself, finding typos isn’t particularly impressive, but still useful. Finding missing hypotheses is nice, in part because it can help increase the correctness of existing mathematics; some of my first experiences with Lean involved realizing how many more hypotheses were necessary for a statement than I had realized. But perhaps it’s the third category that is most helpful, because as a result, we can focus our attention on the relevant mathematical details.</p>
+
+
+
+<h2 class="wp-block-heading">Takeaways</h2>
+
+
+
+<p class="wp-block-paragraph">The world of mathematics formalization is moving fast! Tools for formalizing mathematics are available today and developing quickly. AI is making it much easier to formalize existing mathematics, and it is beginning to create new formalized mathematics by itself.</p>
+
+
+
+<p class="wp-block-paragraph">Some people might be tempted to dismiss the significance of some of these developments because they involve Erdős problems, which are often very accessible and not dependent on deep mathematics. While there is some truth to these thoughts, I feel there are other reasons why we are seeing results here. First, there is a social aspect in which a community of people value Erdős problems and encourage enthusiastic discussion about and collaboration on these problems. Second, this community has curated a large collection of problems available both as informal statements and as formal statements that work in Mathlib today. As more definitions and results are formalized, I expect similar developments across many fields of mathematics. In particular, open problems will be solved autonomously and viewed as “simple” in retrospect. Also, more significant conjectures will be resolved, though I refuse to hazard a guess regarding the timescale.</p>
+
+
+
+<p class="wp-block-paragraph">If you would like for your area of mathematics to see results from formalization, you can learn from the experience of the Erdős problems community. For example, if you have a nice conjecture you would like to see solved, you may submit it to the Formal Conjectures project and someone might try solving it (whether autonomously or the old-fashioned way). Beyond conjectures, <a href="https://github.com/leanprover-community/mathlib4">Mathlib</a> can always use contributions across all fields of mathematics. These definitions and theorems can then be used by both human and AI mathematicians. More broadly, organizing available results, open problems, and other data in curated databases (with some kind of forum!) has proven to be a very productive activity.</p>
+
+
+
+<p class="wp-block-paragraph">Finally, I did not want to go into too many of the details because it was a bit of a digression relative to the main discussion of AI, but in my opinion, misformalization is a big issue and was more frequent than I had expected. In particular, we need better tools to prevent and detect misformalization.</p>
+
+
+
+<h2 class="wp-block-heading">Acknowledgments</h2>
+
+
+
+<p class="wp-block-paragraph">These exciting developments have been made possible by many people. Thank you to the lively community on <a href="http://erdosproblems.com">erdosproblems.com</a>, especially Thomas Bloom for creating and curating the site, and similarly for Lean and Mathlib. Thank you to Terence Tao, who has been supportive of many efforts involving AI, formalization, and increasing collaboration in mathematics. Thank you to OpenAI for access to ChatGPT Pro and Harmonic for access to Aristotle (which anyone can sign up for). Thank you to the Formal Conjectures authors. And thank you to Kevin Buzzard for suggesting a guest post on this wonderful blog!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://xenaproject.wordpress.com/2025/12/05/formalization-of-erdos-problems/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3745</post-id>
+		<media:content url="https://2.gravatar.com/avatar/e7ccfd42722fdb89c0fdea2f473152c14ab978bc1974acc4d67944906653f36e?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">xenaproject</media:title>
+		</media:content>
+
+		<media:content url="https://xenaproject.wordpress.com/wp-content/uploads/2025/12/hap.png?w=986" medium="image" />
+	</item>
+		<item>
+		<title>Formal or not formal? That is the question in AI for theorem proving.</title>
+		<link>https://xenaproject.wordpress.com/2025/10/22/formal-or-not-formal-that-is-the-question-in-ai-for-theorem-proving/</link>
+					<comments>https://xenaproject.wordpress.com/2025/10/22/formal-or-not-formal-that-is-the-question-in-ai-for-theorem-proving/#comments</comments>
+		
+		<dc:creator><![CDATA[xenaproject]]></dc:creator>
+		<pubDate>Wed, 22 Oct 2025 14:41:23 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[imperial college]]></category>
+		<category><![CDATA[lean]]></category>
+		<category><![CDATA[llm]]></category>
+		<category><![CDATA[mathematics]]></category>
+		<category><![CDATA[mathlib]]></category>
+		<category><![CDATA[technology]]></category>
+		<category><![CDATA[theorem provers]]></category>
+		<category><![CDATA[theorem proving]]></category>
+		<guid isPermaLink="false">http://xenaproject.wordpress.com/?p=3711</guid>
+
+					<description><![CDATA[So it&#8217;s an interesting time for computers-doing-mathematics. A couple of interesting things happened in the last few days, which have inspired me to write about the question more broadly. First there is the question on whether computers will ever prove &#8230; <a href="https://xenaproject.wordpress.com/2025/10/22/formal-or-not-formal-that-is-the-question-in-ai-for-theorem-proving/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">So it&#8217;s an interesting time for computers-doing-mathematics. A couple of interesting things happened in the last few days, which have inspired me to write about the question more broadly.</p>
+
+
+
+<p class="wp-block-paragraph">First there is the question on whether computers will ever prove interesting research-level mathematical theorems autonomously at all, which is really hard to answer right now, although clearly a lot of people are betting on &#8220;yes&#8221;. I personally am unsure: I&#8217;ve seen what can currently be done, and can&#8217;t quite extrapolate that far once you cut through the hype. I am however far more optimistic about AI tools becoming useful <em>helpers</em> to mathematics researchers, and this is one of the things which motivates my current work (trying to teach Lean a lot of <a href="https://www.renaissancephilanthropy.org/a-dataset-of-modern-formalized-theorem-statements" target="_blank" rel="noreferrer noopener">research-level definitions, theorem statements</a> and <a href="https://github.com/ImperialCollegeLondon/FLT" target="_blank" rel="noreferrer noopener">proofs</a>).</p>
+
+
+
+<p class="wp-block-paragraph">But whether they beat us or just help us, one can still ask what an autonomous theorem-proving tool will look like. Let&#8217;s initially take a gigantic step down from research level mathematics and talk instead about problems which can be solved by smart schoolchildren, namely those on the International Mathematics Olympiad (IMO). I <a href="https://xenaproject.wordpress.com/2025/08/03/ai-at-imo-2025-a-round-up/" target="_blank" rel="noreferrer noopener">wrote recently about the attempts by AI on the 2025 IMO</a> but all you need to know here is that there were four attempts which were made public: two of them were using language models to write proofs in English (which were then graded by humans); let&#8217;s call this the &#8220;informal approach&#8221;. The other two were using a language model/Lean hybrid set-up; let&#8217;s call this the &#8220;formal approach&#8221;. <a href="https://lean-lang.org/" target="_blank" rel="noreferrer noopener">Lean</a> is a computer proof checker or interactive theorem prover; it checks mathematical arguments at a superhuman level. In this hybrid setup, the language model writes proofs in Lean&#8217;s language which are then checked automatically by Lean; once Lean says the proofs are correct, humans only need to check that the statements have been translated correctly into Lean, although that is an important part of the process.</p>
+
+
+
+<h2 class="wp-block-heading">Worries about the non-formal approach.</h2>
+
+
+
+<p class="wp-block-paragraph">What worries me mostly about the non-formal approach is the horror stories I am hearing from journal editors. Mathematics journals are being spammed with LLM-generated papers, which are becoming more and more plausible-looking, and sometimes the use of LLMs is not even revealed in the paper. I want to flag some differences between mathematics papers generated by LLMs and those generated by humans:</p>
+
+
+
+<p class="wp-block-paragraph">1. LLMs are sycophantic. You want to hear that the LLM-generated argument correctly proves the theorem? Sure you do, and that&#8217;s why the LLM will assure you that this is the case, even if the argument contains a hallucination (and remember, just one hallucination is enough to break a mathematical argument). In my experience, human mathematics researchers doing mathematics in the traditional way are vanishingly unlikely to send a paper to a journal claiming that they have proved something which they actually think they have not proved. Being stuck is a standard place for a mathematics researcher to be in. An LLM is far more likely to write plausible-looking rubbish to cover their tracks; in some sense then, they are trained to mislead. One thus has to read an LLM-generated paper with far more suspicion than a human-generated paper.</p>
+
+
+
+<p class="wp-block-paragraph">2. LLMs won&#8217;t say &#8220;I don&#8217;t know&#8221;. We expect them to perform very well on in-distribution data (i.e., what they have been trained on, which certainly includes all the techniques needed to solve an IMO problem). But what happens on out-of-distribution data (e.g. theorems that no humans know how to prove)? Well, the correct answer to many intermediate questions which show up when doing research is &#8220;I don&#8217;t know &#8212; indeed, nobody knows&#8221;. Whereas the LLM&#8217;s answer will be &#8220;I will confidently have a go&#8221;. Remember: one hallucination breaks an argument.</p>
+
+
+
+<p class="wp-block-paragraph">In short: I do not yet trust mathematics written by an LLM. Several mathematicians I have talked to have backed me up on this; they have tried typing hard research problems into language models and get nonsense output which they can instantly see through. Will LLMs get 100% reliable when out-of-distribution (i.e., when trying to do original research)? Nobody knows yet, and anyone who thinks they know is just guessing, or is stoking the hype. The <a href="https://futurism.com/artificial-intelligence/openai-researcher-deletes-tweet" target="_blank" rel="noreferrer noopener">disgraceful story from earlier this week</a> about OpenAI and the ten Erdos problems is a case in point. People seem to be quick to believe that it&#8217;s happening; nothing close to it is happening right now.</p>
+
+
+
+<p class="wp-block-paragraph">One thing which is becoming more popular with the informal approach is testing systems on questions where the answer is not a long proof (indeed most breakthroughs in mathematics will consist of 30-page proofs or even much longer) and instead testing them on hard problems for which the answer is a number. An example of this is Epoch AI&#8217;s <a href="https://epoch.ai/frontiermath" target="_blank" rel="noreferrer noopener">Frontier Math Tier 4</a> dataset. I was amused this week to have been sent data on what happens if you ask lots of agents to try and solve these problems and you mark the question as being solved if at least one agent gets the answer correct at least once. I would like to submit my own AI-based approach to the Tier 4 dataset, if that&#8217;s the mark scheme now: it&#8217;s written in python.</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate">
+i = 0
+while True:
+    print(i)
+    i = i + 1
+</pre></div>
+
+
+<p class="wp-block-paragraph">My point of course is that a system which gives out lots of answers, one of which is correct but you don&#8217;t know which one, is rather less useful than it sounds.</p>
+
+
+
+<h2 class="wp-block-heading">Worries about the informal approach.</h2>
+
+
+
+<p class="wp-block-paragraph">The amazing <a href="https://x.com/SebastienBubeck/status/1980804267524116569" target="_blank" rel="noreferrer noopener">Erdos 707</a> story from earlier today (tl;dr: two researchers found a solution to an Erdos problem and vibe-coded the entire proof in Lean using ChatGPT 5 despite not having a clue about how to write Lean code; <a href="https://borisalexeev.com/pdf/erdos707.pdf" target="_blank" rel="noreferrer noopener">here is the paper</a> by Alexeev and Mixon, with both Lean and ChatGPT listed as co-authors) might make people start to think that Lean is now becoming viable for research-level mathematics. And certainly this story shows that it can be used for <em>some</em> research level mathematics. But <em>all</em> of it? Not so fast.</p>
+
+
+
+<p class="wp-block-paragraph">My worries about the formal approach are that currently even the best formal mathematics libraries do not contain the <em>definitions</em> needed to understand most of what is happening in modern research mathematics. Because of my Renaissance Philanthropy AI for Math grant, I have been ploughing through recent issues of the Annals and attempting to see which definitions need to be formalized before we can even formally <em>state</em> the main results in these papers. Examples of what I saw: Tate-Shafarevich groups, Calabi-Yau varieties, algebraic stacks, automorphic representations, compactly-supported etale cohomology, Jacobians, Maass forms. These are everyday objects used by graduate students in mathematics departments across the world; no theorem prover knows what these things are. If Lean and the other provers cannot even understand the statements of most modern theorems at research level, how can they possibly help mathematicians to prove them?</p>
+
+
+
+<h2 class="wp-block-heading">Whose job is it to fix this?</h2>
+
+
+
+<p class="wp-block-paragraph">As is probably clear, I am currently skeptical about whether a next-token-prediction system is ever going to get to the point where it can be 100% accurate when generating 50 or more pages full of out-of-training data (which is probably the kind of thing which is needed for a typical new breakthrough in research mathematics). A LLM/Lean hybrid is something which seems to me to be far more plausible (and we&#8217;ve just seen it work to great effect with the Erdos 707 story above, even though here it was the humans who had had the ideas, not machines). Teaching Lean many modern definitions seems to me to be the bottleneck; it is by no means an impossible problem to solve, but it will take time, and solving it seems to me to be a fundamental problem. But who is in a position to solve this problem? Let&#8217;s look at some of the likely candidates.</p>
+
+
+
+<p class="wp-block-paragraph">1. The mathematics researcher. These are the people who have taught Lean pretty much all of the nontrivial mathematical definitions in its mathematics library so far. For example I taught mathlib what elliptic curves were, and <a href="https://www.renaissancephilanthropy.org/scalable-theorem-proving" target="_blank" rel="noreferrer noopener">Chris Birkbeck</a> taught them modular forms, so we can state the Shimura-Taniyama-Weil conjecture relating elliptic curves to modular forms; this was the conjecture partially resolved by Wiles and Taylor&#8211;Wiles and which implied Fermat&#8217;s Last Theorem. The big problem with scaling this up is that the mathematics researcher lives in a &#8220;publish or perish&#8221; environment, and work of this nature does not fit into the traditional publishing model; the current set-up rewards new proofs, not formalisations of old material, even if it has never been formalised before.</p>
+
+
+
+<p class="wp-block-paragraph">2. The LLM. This is an approach being pushed by Christian Szegedy and his colleagues at <a href="https://www.math.inc/" target="_blank" rel="noreferrer noopener">math.inc</a>. My worry about this approach is that right now LLMs write really unidiomatic and poor code, and poor definitions might ultimately result in technical debt when things start scaling. Another worry about LLM-generated definitions is that, unlike proofs, Lean cannot check that the Lean definition aligns with the human concept that it is supposed to be capturing; if an LLM forgets or mangles an axiom which is part of a definition then the code is likely to <em>compile</em>, it just won&#8217;t mean what it&#8217;s supposed to mean. </p>
+
+
+
+<p class="wp-block-paragraph">3. The <a href="https://mathlib-initiative.org/" target="_blank" rel="noreferrer noopener">Mathlib Initative</a>. This is a new institution whose aim is to support Lean&#8217;s mathematics library. They have a lot on their plate already as you can see from their <a href="https://mathlib-initiative.org/roadmap/" target="_blank" rel="noreferrer noopener">roadmap</a>, but the problem I raise above of teaching Lean how to understand modern definitions is not explicitly mentioned. Perhaps a simple solution would be to expand in this direction, but of course this will mean a financial commitment from somewhere.</p>
+
+
+
+<p class="wp-block-paragraph">Until we find a better solution, it will be my group at Imperial College London who will work on this problem, manually. We gratefully acknowledge <a href="https://www.renaissancephilanthropy.org/a-dataset-of-modern-formalized-theorem-statements" target="_blank" rel="noreferrer noopener">support</a> by <a href="https://www.renaissancephilanthropy.org/" target="_blank" rel="noreferrer noopener">Renaissance Philanthropy</a> and the <a href="https://www.ukri.org/councils/epsrc/" target="_blank" rel="noreferrer noopener">EPSRC</a> to work on what I believe is a fundamental question in AI for mathematics.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://xenaproject.wordpress.com/2025/10/22/formal-or-not-formal-that-is-the-question-in-ai-for-theorem-proving/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3711</post-id>
+		<media:content url="https://2.gravatar.com/avatar/e7ccfd42722fdb89c0fdea2f473152c14ab978bc1974acc4d67944906653f36e?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">xenaproject</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>AI at IMO 2025: a round-up</title>
+		<link>https://xenaproject.wordpress.com/2025/08/03/ai-at-imo-2025-a-round-up/</link>
+					<comments>https://xenaproject.wordpress.com/2025/08/03/ai-at-imo-2025-a-round-up/#comments</comments>
+		
+		<dc:creator><![CDATA[xenaproject]]></dc:creator>
+		<pubDate>Sun, 03 Aug 2025 00:03:49 +0000</pubDate>
+				<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[Olympiad stuff]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[ByteDance]]></category>
+		<category><![CDATA[DeepMind]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Harmonic]]></category>
+		<category><![CDATA[imo]]></category>
+		<category><![CDATA[International Math Olympiad]]></category>
+		<category><![CDATA[International Mathematics Olympiad]]></category>
+		<category><![CDATA[lean]]></category>
+		<category><![CDATA[Math Olympiad]]></category>
+		<category><![CDATA[mathematics]]></category>
+		<category><![CDATA[OpenAI]]></category>
+		<category><![CDATA[technology]]></category>
+		<guid isPermaLink="false">http://xenaproject.wordpress.com/?p=3653</guid>
+
+					<description><![CDATA[Setting the scene The 2025 International Mathematics Olympiad has come and gone. Reminder: this is an exam for high-school kids across the world (each country typically sends six kids), comprising of two 4.5-hour exams each containing three questions, so six &#8230; <a href="https://xenaproject.wordpress.com/2025/08/03/ai-at-imo-2025-a-round-up/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">Setting the scene</h2>
+
+
+
+<p class="wp-block-paragraph">The 2025 International Mathematics Olympiad has come and gone. Reminder: this is an exam for high-school kids across the world (each country typically sends six kids), comprising of two 4.5-hour exams each containing three questions, so six questions in total, which I&#8217;ll call P1 to P6. Solutions to each question are scored out of 7, for some reason lost in the mists of time. As you can see pretty clearly from the <a href="https://www.imo-official.org/year_individual_r.aspx?year=2025">individual results</a> and especially the sea of scores highly close to the sequence &#8220;7,7,7,7,7,0&#8221;, this year had 5 reasonable questions and one stinker, namely P6. Around half of the participants get medals, determined by scores chosen so that approx 1/12th participants get a gold, 2/12ths get a silver and 3/12ths get a bronze. I still have my gold medal from 1987 in a drawer upstairs; I beat Terry Tao <img src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f61b.png" alt="😛" class="wp-smiley" style="height: 1em; max-height: 1em;" /> (although I was 18 and he had just turned 12 at the time; he was noticeably younger than all other contestants). The cut-off for gold this year was 35, which is also the answer to 7+7+7+7+7+0. You can take a look at the questions for 2025 (and indeed for any year) at the <a href="https://www.imo-official.org/problems.aspx" target="_blank" rel="noreferrer noopener">official IMO website</a>. </p>
+
+
+
+<p class="wp-block-paragraph">Back in 2024 Google DeepMind &#8220;took the IMO&#8221; in the sense that they waited until the questions were released publically and then throw two tools at them; AlphaGeometry, which is designed to solve geometry problems in a human-readable format, and AlphaProof, which is designed to write Lean code to solve any mathematics problem written in Lean format. Humans translated the questions into a form appropriate to each tool, and then between them the tools solved 4 out of the 6 problems over a period of several days (rather than the 9 hours allowed for the exam), which led to DeepMind reporting that their system had &#8220;<a href="https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/" target="_blank" rel="noreferrer noopener">achieved Silver Medal standard</a>&#8221; and which then led to the rest of the world saying that DeepMind had &#8220;got a Silver Medal&#8221; (although right now it is only possible for humans to get medals). Indeed DeepMind were one point off a gold in 2024.</p>
+
+
+
+<p class="wp-block-paragraph">This leads inevitably to two questions about IMO 2025. The first: will a system &#8220;get gold in 2025&#8221;? And the second: Were the IMO committee going to embrace this interest from the tech companies, define precisely what it would mean for an AI to &#8220;get gold&#8221;, demand an entrance fee or sponsorship from the tech companies and in return use official IMO markers to give official grades, also reporting on scores from tech companies who didn&#8217;t do very well? Spoiler alert: the answers are &#8220;yes&#8221; and &#8220;no&#8221; respectively.</p>
+
+
+
+<h2 class="wp-block-heading">Deciding the rules</h2>
+
+
+
+<p class="wp-block-paragraph">Because the IMO committee chose not to write down any formal rules for how AI could enter the competition, this enabled each of the tech companies to make up their own rules and in particular to define what it means to &#8220;get gold&#8221;. In short, it enabled the tech companies to both set and mark their own homework. But before I go any further, it&#8217;s worth discussing what kind of entries are going to come in to the Wild West that is &#8220;AI at IMO 2025&#8221;. There are going to be two kinds of submissions &#8212; <em>formal</em> and <em>informal</em>. Let&#8217;s just break down what these mean.</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;Informal&#8221; is just using a language model like ChatGPT &#8212; you give it the questions in English, you ask it for the answers in English, you then decide how many points to give it out of 7. Let&#8217;s scrutinise this last part a little more. IMO marking is done in a very precise fashion and the full marking scheme is not publically revealed; there are unpublished rules established by the coordinators (the markers) such as &#8220;lose a mark for not explicitly making a remark which deals with degenerate case X&#8221; and, because of this secrecy, it is not really possible for someone who is just &#8220;good at IMO problems&#8221; but who hasn&#8217;t seen the mark scheme to be able to accurately mark LLM output. Given that (spoiler alert) the systems are all going to get 0 points in problem 6, the claim that AI company X got a gold medal with an informal solution rests on things like &#8220;we paid some people to mark our solutions to questions 1 to 5 and in return they gave us 7/7 for each solution despite not having seen the official mark scheme&#8221;. Judging by <a href="https://www.reddit.com/r/math/comments/1m6sooc/a_brief_perspective_from_an_imo_coordinator/" target="_blank" rel="noreferrer noopener">this Reddit post</a> there seems to have been some unofficial but failed(?) attempt by the tech companies to get the coordinators to officially give out scores to their informal solutions.</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;Formal&#8221; is using an computer proof assistant, which is a programming language where code corresponds to mathematics. For such entries, someone has to translate the statement of each question into the language of the proof assistant, and then a language model trained to write code in this proof assistant will attempt to write a solution in code form. I had naively hoped that IMO 2025 would come with &#8220;official&#8221; translations of the questions into languages such as Lean (just as they supply official translations into many many human languages), but no such luck. So the formal solutions will involve something (probably a human) translating the question into the relevant computer language (possibly in many different ways; translation, just like translation between human languages, is not uniquely-determined by the input) and then giving the formal questions to a system which has been trained to write code solving them in the relevant language. Another catch here is that, as the name suggests, a proof assistant is something which can check proofs, and unfortunately the only question in the 2025 IMO of the form &#8220;Prove that&#8230;&#8221; was P2; all other questions were of the form &#8220;Determine this value&#8221;. This throws a spanner into the works of a proof-assistant-based attempt on the IMO: if one is asked to &#8220;determine the smallest real number c such that [something]&#8221; (which was what P3 asked us to do) then what is to stop a machine saying &#8220;the number to be determined is c, where c is the smallest real number such that [the same thing], and the proof that I am correct is that I am correct by definition&#8221;? It is actually rather difficult to <em>formally</em> even say what we <em>mean</em> by a &#8220;determine&#8221; question. Formal systems attempting the IMO thus typically use a second (typically informal) system to suggest answers and then get the formal tool to try and prove the suggested answer correct. Modulo checking that the corresponding &#8220;proof&#8221; question does correspond to the question being asked (and this does need checking), formal proofs are of a binary nature: if it compiles then it gets 7/7 because it is a computer-checked solution to the question which uses only the axioms of mathematics and their consequences. It is not really meaningful to ask for partial credit here, so anything other than a full solution gets 0/7 (although we&#8217;ll see an example of someone claiming to get 2/7 with a formal solution later). </p>
+
+
+
+<h2 class="wp-block-heading">The results are in!</h2>
+
+
+
+<p class="wp-block-paragraph">First out of the starting blocks were the wonderful people at <a href="https://matharena.ai/" target="_blank" rel="noreferrer noopener">MathArena</a>. These are people who don&#8217;t work for a tech company and are trying to do science. They reported on the performance of the best informal models available to mere mortals such as us (sometimes at a cost of hundreds of dollars a month), and <a href="https://matharena.ai/imo/" target="_blank" rel="noreferrer noopener">the results were disappointing</a>; the models that we regular people can get our hands on did not even get a bronze medal (this claim relies on the marking being accurate, which as I&#8217;ve already explained we cannot guarantee, but presumably they are in the right ball-park).</p>
+
+
+
+<p class="wp-block-paragraph">But of course we have not yet taken into account the fact that tech companies might have secret models up their sleeve, which have not been released to the public yet. And surprise surprise, this is what happened. So from this point on in the blog post, all claims made by tech companies are completely unable to be independently verified, a situation which is very far from my experience as a mathematician; one wonders if one is even allowed to call it science. Seems like Gregor Dolinar, the President of the IMO, is also cautious about the remainder of this post; his comments on AI entries can be seen <a href="https://imo2025.au/news/the-66th-international-mathematical-olympiad-draws-to-a-close-today/" target="_blank" rel="noreferrer noopener">here</a> on the 2025 IMO website and I&#8217;ll reproduce them to save you the click:  </p>
+
+
+
+<p class="wp-block-paragraph"><em>It is very exciting to see progress in the mathematical capabilities of AI models, but we would like to be clear that the IMO cannot validate the methods, including the amount of compute used or whether there was any human involvement, or whether the results can be reproduced.</em></p>
+
+
+
+<p class="wp-block-paragraph">In particular, because there is huge incentive to be the first to get gold, and no way to check what is going on, tech companies can in theory just cheat and there&#8217;s no way to check. Let&#8217;s assume they didn&#8217;t cheat though, and press on.</p>
+
+
+
+<p class="wp-block-paragraph">As we can see from the <a href="https://imo2025.au/" target="_blank" rel="noreferrer noopener">IMO 2025 website</a>, the exams this year were on the 15th and 16th of July. Marking occurred on 17th and 18th, the students&#8217; results were announced in the closing ceremony on the 19th, and students left Australia when the IMO officially ended on the 20th. </p>
+
+
+
+<p class="wp-block-paragraph">The first company to claim gold was OpenAI. Minutes after the closing ceremony (so a day before the IMO had even officially ended) OpenAI released a <a href="https://x.com/alexwei_/status/1946477742855532918" target="_blank" rel="noreferrer noopener">twitter thread</a> claiming a score of 7+7+7+7+7+0 with an informal model which is not available to the public. They also <a href="https://github.com/aw31/openai-imo-2025-proofs/">released their models&#8217; natural language solutions</a> to problems 1&#8211;5, and they are on the whole pretty good. The solutions were marked by former IMO contestants. Whether the solutions submitted were hand-picked by humans from a collection of potential solutions, who knows &#8212; there were no rules. I have no reason to believe that OpenAI cheated &#8212; but my feeling is that we have diverged a long way from the traditional scientific process at this point (peer review etc). What is clear was that OpenAI were desperate to claim the prize and couldn&#8217;t wait.</p>
+
+
+
+<p class="wp-block-paragraph">I had heard through the grapevine that there was an informal embargo on tech companies announcing anything until a week after the IMO had ended (i.e. July 28th) but of course once one company had claimed they&#8217;d got the ultimate prize, informal embargos don&#8217;t count for much. On 21st July <a href="https://deepmind.google/discover/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/" target="_blank" rel="noreferrer noopener">DeepMind published a blog post</a> also claiming gold in 7+7+7+7+7+0 form, together with a quote from Dolinar saying &#8220;We can confirm that Google DeepMind has reached the much-desired milestone&#8221; (which rather seems to contradict his earlier statement quoted above, in which he explicitly states that IMO cannot validate the methods being used by the tech companies). DeepMind&#8217;s blog post will no doubt be regarded as the source of truth for this claim, neatly avoiding the pesky refereeing process. Indeed it could be noted that over 1 year since the 2024 announcement by DeepMind of their silver medal, we still only have the (unrefereed) blog post to cite for this claim, with no published refereed paper detailing the process, and <a href="https://on.ft.com/4i6C8Gc" target="_blank" rel="noreferrer noopener">this (paywalled) article</a> from the Financial Times seems to indicate that perhaps the paper was blocked at senior management level.</p>
+
+
+
+<p class="wp-block-paragraph">Not to be outdone, Harmonic <a href="https://x.com/HarmonicMath/status/1947023450578763991" target="_blank" rel="noreferrer noopener">posted on Twitter that same day</a> the fact that they would be sticking to the embargo date of 28th, together with a screenshot of what was plainly Lean code containing part of a solution to P3. By July 22nd both the New York Times and Reuters were <a href="https://www.reuters.com/world/asia-pacific/google-clinches-milestone-gold-global-math-competition-while-openai-also-claims-2025-07-22/" target="_blank" rel="noreferrer noopener">uncritically reporting</a> that both Google and OpenAI had achieved Gold, together with non-sequitur quotes from someone who works at Google saying &#8220;The achievement suggests AI is less than a year away from being used by mathematicians to crack unsolved research problems at the frontier of the field&#8221;. Let me come back to this later.</p>
+
+
+
+<p class="wp-block-paragraph">By the 23rd the Chinese had weighed in, with ByteDance <a href="https://mp.weixin.qq.com/s/MWo8dIg4bqQXzB_W9UZ7Ow" target="_blank" rel="noreferrer noopener">announcing</a> (in Chinese) that their Seed Prover model got a silver (2+7+7+7+7+0) after 3 days of working on the problems (note that there are no time limits because there are no rules, each tech company gets to make their own rules up, so quite how they determined that they got 2/7 for a formal solution is anyone&#8217;s guess), upgrading to a gold (7+7+7+7+7+0) if the solver was given &#8220;additional attempts&#8221; (whatever that means). This was the first announcement of a formal (Lean) approach in 2025. The announcement also contains the claim &#8220;The final score for Seed Prover at IMO 2025 disclosed here was confirmed with the IMO committee prior to this announcement&#8221; which again seems to go against Dolinar&#8217;s quote above, which is a bit confusing. Seed Prover didn&#8217;t just do IMO &#8212; in fact Seed Prover also scored state-of-the-art in a Lean database of old Putnam problems (although who knows if solutions were in the training data; this is a big problem with testing LLMs on old exams); if IMO gold is now regarded as old news, the 2026 Putnam will no doubt be next in the firing line.</p>
+
+
+
+<p class="wp-block-paragraph">Finally we get on to poor old Harmonic, who dutifully waited until the embargo date of 28th before doing a <a href="https://x.com/HarmonicMath/status/1949951004482441362">livestream on Twitter</a> announcing that they also got a gold, again with formal methods; mostly Lean, but (like Bytedance in 2025 and DeepMind in 2024) using a bespoke system to solve the geometry problem. There was no information given (either by Harmonic or by ByteDance) about how the numbers to be &#8220;determined&#8221; in P1,P3,P4 and P5 were given to the system. The joys of unrefereed announcements.</p>
+
+
+
+<p class="wp-block-paragraph">So there you have it, the take-home message is that &#8220;AI got a gold in the IMO&#8221; and you can forget about all the annoying details.</p>
+
+
+
+<h2 class="wp-block-heading">Summary</h2>
+
+
+
+<p class="wp-block-paragraph">As is probably clear, I am a bit frustrated by all this shenannigans. Don&#8217;t get me wrong &#8212; it is abundantly clear that both informal and formal math provers are getting better and better. We have seen absolutely incredible and extraordinary developments this decade in computer systems doing mathematics autonomously. However at the end of the day, AI was one point off the gold medal boundary in 2024, and got exactly the gold medal boundary in 2025, so in a sense what the last 12 months have given us is a one point improvement on a test which is solvable using just high school methods. To extrapolate from this to &#8220;less than a year away from being used by mathematicians to crack unsolved research problems&#8221; is in my opinion completely unjustified. I cannot stress enough that these IMO problems are a million miles away from the kind of questions which most research mathematicians are working on. All the ignorant comments on social media of the form &#8220;it&#8217;ll be the Riemann hypothesis next&#8221; are in my mind simply way off.</p>
+
+
+
+<p class="wp-block-paragraph">I also feel that the IMO committee missed a trick. This was the year where the tech companies could have been forced to play by rules which the committee laid down. They did not take such action, we ended up with a rather chaotic endgame, and now everyone knows that &#8220;AI has got a gold in the IMO&#8221; and the question is probably no longer of interest. Note that things appear to be completely bimodal here &#8212; other than the enigmatic 2/7 claimed by ByteDance on P1, all scores were either 7/7 or 0/7. Four problems out of the six were solved in 2024, five in 2025, so perhaps it&#8217;s perfect score time in 2026. Probably a lot will depend on what the financial backers to the tech companies want to see though, maybe the better headline would be &#8220;AI gets degree from Harvard/Cambridge/Stanford/whatever&#8221;, something which is clearly within reach given that most university exams are far more formulaic than IMO because they are designed in such a way that an average student can pass them. And although this will no doubt generate a lot of excitement on social media, again it is a million miles away from what researchers are doing at the frontier of the field; indeed most pure mathematics taught to undergraduates at even the best universities was known by the 1940s. Mathematics is an extraordinarily conservative field in this regard; we choose not to teach our undergraduates what is happening on the boundary of research and instead focus on a rigorous development of everything from the axioms; because of this approach there is simply no time to get any further. I find it striking that at Imperial College (my university) basically the only pure mathematics course being offered to undergraduates which I was not offered myself in Cambridge 35 years ago is the Lean course.</p>
+
+
+
+<p class="wp-block-paragraph">I will finish by stating what I have stated so many times before. Yes it is absolutely clear that AI is getting better at mathematics. Yes it is absolutely clear that progress is currently very rapid. It is important however to remember that past performance is no guarantee of future results, and the systems are right now still worse at IMO problems than I was when I was 18, which is an extremely long way away from where I was at 30 with a PhD and several novel research papers under my belt. AI approaches to harder problems seem to become more and more vibes-based as the difficulty increases, with the systems being consistently unable to rigorously justify their claims, instead resorting to insisting that certain facts are true without having any understanding as to why. Will the systems start to solve interesting open problems which many mathematicians have spent lots of time on and failed to crack? Maybe &#8212; but this is still far from guaranteed.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://xenaproject.wordpress.com/2025/08/03/ai-at-imo-2025-a-round-up/feed/</wfw:commentRss>
+			<slash:comments>8</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3653</post-id>
+		<media:content url="https://2.gravatar.com/avatar/e7ccfd42722fdb89c0fdea2f473152c14ab978bc1974acc4d67944906653f36e?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">xenaproject</media:title>
+		</media:content>
+	</item>
+	</channel>
+</rss>

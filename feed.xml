@@ -6,15 +6,49 @@
 <atom:link href="https://xavierblot-math.github.io/veille-ia/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Daily summary of Xena, Proofs and Prompts, Silicon Reckoner, Tao (blog and Mastodon) and Gowers.</description>
 <language>en</language>
-<lastBuildDate>Wed, 21 Oct 2026 03:46:58 +0000</lastBuildDate>
+<lastBuildDate>Wed, 21 Oct 2026 07:53:35 +0000</lastBuildDate>
 <item>
-<title>Digest — 21 October 2026: sources could not be read</title>
+<title>Digest — 21 October 2026 (4 new posts)</title>
 <link>https://xavierblot-math.github.io/veille-ia/#2026-10-21</link>
 <guid isPermaLink="false">veille-ia-2026-10-21</guid>
 <pubDate>Wed, 21 Oct 2026 04:00:00 +0000</pubDate>
 <description><![CDATA[
-<p>Today's digest could not be produced. None of the six sources could be fetched in this run, because the web-fetch permission requests timed out with no one there to approve them. This does not mean nothing new was posted. Posts from the last 24 hours will be missing from this feed, so please check the sources directly.</p>
-<p><em>Unreachable: Xena (Buzzard), Gowers, Tao (blog), Tao (Mastodon), Proofs and Prompts, Silicon Reckoner (Harris).</em></p>
+<p><em>Nothing new: Gowers, Xena (Buzzard), Tao on Mastodon.</em></p>
+
+<h3>Terence Tao — <a href="https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/">An experimental AI-math challenge: using tenth discriminant bounds to explore arguments ruling out Siegel zeroes</a></h3>
+<ul>
+<li>Tao launches an open, Polymath-style challenge: take each recent manuscript or write-up excluding Landau–Siegel zeroes (or proving a quasi-Riemann hypothesis) and use AI to extract an explicit upper bound on a hypothetical "tenth discriminant" in Gauss's class number one problem, without Heegner's method.</li>
+<li>Background: Heilbronn–Linfoot's repulsion argument allowed at most one extra discriminant but was ineffective; Goldfeld (1976), then Oesterlé with the Gross–Zagier curve, made it effective. The new effective Siegel-zero arguments should each give such a bound, but making the constants explicit is tedious work well suited to AI.</li>
+<li>Goals: compare the "strength" of competing write-ups, maybe a new Lean-formalizable (Mathlib-ready) solution of class number one, ideas for higher class numbers (solved up to 100 by Watkins), and possibly rescuing older failed attempts. Since the problem is solved, there's little risk of disrupting anyone's ongoing research.</li>
+<li>Rules: any AI use allowed if disclosed, large outputs posted as GitHub links, outputs checked independently, credit given to earlier entries; quality over speed, and negative results (bad bounds) are welcome too. It follows his 19 October sketch of the Siegel-zero proof and his "Math 2.0" talk.</li>
+<li>👉 A concrete template for running AI-assisted collaborative research responsibly, worth reading in full.</li>
+</ul>
+
+<h3>Proofs and Prompts — <a href="https://proofsandprompts.com/2026/10/20/who-will-become-the-new-mathematicians-of-math-2-0/">Who will become the new mathematicians of Math 2.0?</a></h3>
+<ul>
+<li>An anonymous PhD student writes an open letter (part of a 19–23 October series for PhD applicants and students): after OpenAI's 6 October paper release, they have decided to leave academia after the doctorate.</li>
+<li>The main argument: years of failing at hard technical problems are how a mathematician builds intuition and taste. A Math 2.0 where people curate and interpret AI output relies on experts trained the old way, and the letter says it never explains how it will train the next generation.</li>
+<li>It also asks who such a profession will attract, and whether hiring and funding committees will reward slow independent work when peers turn out AI-assisted results.</li>
+<li>Criticizes established mathematicians' enthusiasm, and Tao's Math 2.0 vision in particular, for ignoring what students want.</li>
+<li>👉 Directly relevant to PhD supervision: a clear statement of what some students fear.</li>
+</ul>
+
+<h3>Proofs and Prompts — <a href="https://proofsandprompts.com/2026/10/20/a-critique-of-the-mathematical-economy/">A critique of the mathematical economy</a></h3>
+<ul>
+<li>Álvaro Gutiérrez (PhD student, Bristol) borrows Marx's labour theory of value to model mathematics as an economy: lemmas, proofs, examples, surveys and so on are "commodities".</li>
+<li>He separates "true value" (the socially necessary labour time), use value (being reused in later work, which flows back to earlier papers), and realised value (referee reports, prizes, letters, jobs, grants).</li>
+<li>LLMs cheapen all three: technical lemmas and counterexamples most of all, and attribution gets worse because models hide their sources. That fuels the fear that everyone must adopt AI to stay competitive, i.e. deskilling.</li>
+<li>His twist: in mathematics there is no capitalist. Mathematicians themselves referee, hire and award prizes, so the community has more power than it thinks to decide what it values. He replies to David Bessis's "fall of the theorem economy".</li>
+</ul>
+
+<h3>Proofs and Prompts — <a href="https://proofsandprompts.com/2026/10/20/letter-to-a-worried-student/">Letter to a worried student</a></h3>
+<ul>
+<li>David A. Madore (Télécom Paris) publishes his email reply to a student wondering whether to leave mathematics, in English with the French original.</li>
+<li>He shares the student's worries: AI companies treat open problems as trophies and a training ground, and say too little about their methods or their failed attempts for this to count as science.</li>
+<li>He partly blames mathematicians themselves for prizing hard problems and races to results over understanding. He hopes research moves toward good questions, illuminating viewpoints and exposition.</li>
+<li>His conclusion: understanding stays a human activity, and driving promising students away would be the worst harm AI could do to the field.</li>
+<li>👉 A voice from the French community, and a useful model for answering students who ask the same question.</li>
+</ul>
 ]]></description>
 </item>
 <item>

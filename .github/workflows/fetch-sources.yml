@@ -1,0 +1,26 @@
+name: Fetch digest sources
+
+on:
+  schedule:
+    - cron: "35 2 * * *"  # 02:35 UTC = 04:35 Paris (summer), 03:35 (winter); margin for GitHub delays
+  workflow_dispatch:       # adds a manual "Run workflow" button
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download feeds
+        run: python3 -u fetch_sources.py
+      - name: Commit sources
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sources
+          git diff --cached --quiet || git commit -m "Fetch sources"
+          git pull --rebase
+          git push

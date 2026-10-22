@@ -6,7 +6,17 @@
 <atom:link href="https://xavierblot-math.github.io/veille-ia/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Daily summary of Xena, Proofs and Prompts, Silicon Reckoner, Tao (blog and Mastodon) and Gowers.</description>
 <language>en</language>
-<lastBuildDate>Wed, 21 Oct 2026 07:53:35 +0000</lastBuildDate>
+<lastBuildDate>Thu, 22 Oct 2026 03:41:55 +0000</lastBuildDate>
+<item>
+<title>Digest — 22 October 2026: nothing new today</title>
+<link>https://xavierblot-math.github.io/veille-ia/#2026-10-22</link>
+<guid isPermaLink="false">veille-ia-2026-10-22</guid>
+<pubDate>Thu, 22 Oct 2026 04:00:00 +0000</pubDate>
+<description><![CDATA[
+<p>Nothing new appeared in the sources (Xena, Gowers, Tao's blog, Tao on Mastodon, Proofs and Prompts) in the last 24 hours.</p>
+<p><em>Note: the sources were last fetched on 21 October 2026 at 07:46 UTC (about 20 hours before this digest), so anything published after that time is not covered here and will appear in tomorrow's digest.</em></p>
+]]></description>
+</item>
 <item>
 <title>Digest — 21 October 2026 (4 new posts)</title>
 <link>https://xavierblot-math.github.io/veille-ia/#2026-10-21</link>

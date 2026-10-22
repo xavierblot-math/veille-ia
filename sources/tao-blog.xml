@@ -13,7 +13,7 @@
 	<atom:link href="https://terrytao.wordpress.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://terrytao.wordpress.com</link>
 	<description>Updates on my research and expository papers, discussion of open problems, and other maths-related topics.  By Terence Tao</description>
-	<lastBuildDate>Tue, 20 Oct 2026 19:44:27 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 20 Oct 2026 20:13:11 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -30,6 +30,102 @@
 	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://terrytao.wordpress.com/osd.xml" title="What&#039;s new" />
 	<atom:link rel='hub' href='https://terrytao.wordpress.com/?pushpress=hub'/>
 	<item>
+		<title>Mathematics is a subject for the young</title>
+		<link>https://terrytao.wordpress.com/2026/10/21/mathematics-is-a-subject-for-the-young/</link>
+					<comments>https://terrytao.wordpress.com/2026/10/21/mathematics-is-a-subject-for-the-young/#comments</comments>
+		
+		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
+		<pubDate>Wed, 21 Oct 2026 18:19:00 +0000</pubDate>
+				<category><![CDATA[guest blog]]></category>
+		<category><![CDATA[math.GM]]></category>
+		<category><![CDATA[opinion]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Tristan Buckmaster]]></category>
+		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18522</guid>
+
+					<description><![CDATA[[This is a guest post by Tristan Buckmaster. This blog post was initially written in a different file format and converted using AI. &#8212; T.] This blog post expands on a theme mentioned at the end of my recent talk at the Institute for Advanced Study on October 19. I would like to thank Matei [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>
+ <em>[This is a guest post by <a href="https://cims.nyu.edu/~tristanb/">Tristan Buckmaster</a>. This blog post was initially written in a different file format and converted using AI. &#8212; T.]</em>
+</p><p>
+This blog post expands on a theme mentioned at the end of <a href="https://www.ias.edu/math/events/members-colloquium-106">my recent talk</a> at the <em>Institute for Advanced Study</em> on October 19.
+</p><p>
+<em>I would like to thank Matei Coiculescu, Jaume de Dios Pont, Nestor Guillen, Bryna Kra, Terence Tao and Rachel Ward for their valuable comments and suggestions.</em>
+</p><p>
+It is often said that mathematics is a young person&#8217;s game, and that mathematicians do their best work early in their careers. I believe this is about to become true in a completely different sense. Mathematics is changing faster than at any point in its history. Today&#8217;s graduate students and postdocs will shape its future. Our responsibility is to protect their ideas and recognize their contributions.
+</p><p>
+<span id="more-18522"></span>
+</p><p>
+In <a href="https://cims.nyu.edu/~tristanb/statement.pdf">my statement on September 7th</a>, the night <a href="https://alpo.ge">Levent Alp&ouml;ge</a> and I released <a href="https://cims.nyu.edu/~tristanb/euler.pdf">our Euler result</a> and the day before <a href="https://openai.com/index/navier-stokes-solution/">OpenAI announced its Navier&#8211;Stokes result</a>, I wrote that we had reached a <em>Deep Blue&#8211;Kasparov</em> moment. <a href="https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov">When Deep Blue beat Kasparov in 1997</a>, the headline was that a machine had surpassed one of the greatest chess players of all time. Beyond just marking the moment a machine eclipsed human intellect, I chose this analogy because of the nature of the machine itself. Deep Blue was a purpose-built IBM supercomputer, entirely inaccessible to the general public. Today a program on a mobile phone plays far stronger chess than Deep Blue ever did.
+</p><p>
+This is where I think mathematics is now. OpenAI&#8217;s proof <a href="https://www.cnbc.com/2026/09/09/openai-navier-stokes-math-problem-solved.html">reportedly required the coordination of 10,000 agents over 88 hours</a>, <a href="https://www.scientificamerican.com/article/openai-unleashes-hundreds-more-math-results-upon-a-field-already-in-shock/">at an estimated cost in the millions</a> to solve a problem with <a href="https://www.claymath.org/millennium/navier-stokes-equation/">a &#036;1 million bounty</a>. At present, computation on this scale is entirely out of reach for the wider mathematical community. However, given the exponential growth in capabilities paired with decreasing costs, such a comparable computation may soon be more broadly accessible.
+</p><p>
+The question is no longer whether machines can do research mathematics, but how the subject will change as a result.
+</p><p>
+Chess did not die with the advent of modern chess engines. Engines democratized high-level preparation, resulting in the most globally diverse generation of top players ever. When I told a reporter that <a href="https://www.abc.net.au/news/2026-09-11/racing-to-solve-maths-problems-pointless-tristan-buckmaster-says/107141628">&#8220;the game is up,&#8221;</a> I meant to describe the end of the academic rat race, the race to be the first to resolve a famous open problem is over. Mathematics as a subject is not.
+</p><p>
+Mathematics differs from chess in one important way, though: it is not performative. Chess survives partly because people love watching humans play. I am not going to convince anyone to watch two Fields medallists duke it out on a livestream proving a theorem. What gives it lasting relevance is something else: human understanding.
+</p><p>
+Suppose that tomorrow a machine certifies a proof of <a href="https://www.claymath.org/millennium/riemann-hypothesis/">the Riemann hypothesis</a> &#8212; whether with pages of AI slop or via <a href="https://en.wikipedia.org/wiki/Lean_&#037;28proof_assistant&#037;29">a Lean file</a>. No one doubts that the Riemann hypothesis is true. A certification would convert thousands of conditional theorems into unconditional ones. Mathematicians would still be left with the question: <em>why</em> is it true? <a href="https://terrytao.wordpress.com/2026/09/12/after-math/">De Toffoli and Duede</a> captured this perfectly with their reference to Deep Thought, the computer in <em><a href="https://en.wikipedia.org/wiki/The_Hitchhiker&#037;27s_Guide_to_the_Galaxy">The Hitchhiker&#8217;s Guide to the Galaxy</a></em> that analyzes the meaning of life for 7.5 million years and returns the answer &#8220;42.&#8221;
+</p><p>
+Mathematics has never been a list of true statements. Certifying a result settles the question, not the search for understanding.
+</p><p>
+<b>Bridging mathematics and physics: </b>One area I see as an exciting prospect for applying modern AI systems is the intersection of mathematics and physics. Indeed, I do not believe it is a surprise that some of the most exciting results to come out of AI so far have been in mathematical physics. Historically, mathematics and physics were inextricably linked, each serving as inspiration for the other: Newton developed calculus to formulate classical mechanics, Fourier analysis grew out of the study of thermal diffusion, Riemannian geometry supplied the mathematical underpinning of general relativity, and the needs of quantum mechanics shaped functional analysis. In the past decades, however, mathematics and physics have diverged. Physics is driven by heuristic arguments that are not true in the strictest sense, but are morally true and allow one to arrive at the correct answer. Quantum field theory is the standard example, where renormalization and the path integral make remarkably accurate predictions while still lacking a rigorous foundation. Closing the gaps in physical derivations is immensely challenging, and this is a key reason for the divergence of the fields. Rigorous derivation is not just an exercise in pedantry. It points to gaps in the physical theory, identifies the precise regimes and time scales on which an effective description is valid, and provides clues towards a more complete theory.
+</p><p>
+In years preceding the advent of AI in mathematics, a beautiful example of success in this pursuit, is <a href="https://arxiv.org/abs/2104.11204">Deng and Hani&#8217;s derivation of the wave kinetic equation</a> as a large box limit of the nonlinear Schr&ouml;dinger equation. Later, with Ma, they gave <a href="https://arxiv.org/abs/2408.07818">an analogous derivation of the Boltzmann equation from hard-sphere dynamics</a> for as long as the Boltzmann solution exists, <a href="https://arxiv.org/abs/2503.01800">resolving Hilbert&#8217;s sixth problem for rarefied gases</a>. The combinatorial analysis behind these results is a tour de force, and it took years of work. LLMs could potentially allow us to carry out such a program for other effective theories, where doing it by hand would frankly be out of reach. Ultimately, one could hope that LLMs will allow us to extend this standard of rigorous proof to all branches of the physical sciences.
+</p><p>
+<b>Protecting our ideas: </b>Currently, there are some fundamental structural problems in terms of how AI companies interact with the mathematical community.
+</p><p>
+AI companies, who strip mine our data, including unpublished work, private notes and research grant applications, have an egregious conflict of interest in competing against their own customers with unlimited resources and internal models unavailable to the public &#8212; this is not confined to mathematics but applies more broadly. <a href="https://openai.com/index/navier-stokes-solution/">By OpenAI&#8217;s own account</a>, its push on the Millennium problems was spurred by rumors that a rival had solved two of them &#8212; demonstrating that caution, due diligence, and basic ethics can be cast aside simply to avoid being one-upped by a rival.
+</p><p>
+On October 6th, <a href="https://github.com/openai/math">OpenAI released hundreds of manuscripts</a> with proofs that were mostly unreadable and in some cases false. In the release, <a href="https://decrypt.co/380366/openai-secret-ai-model-cracked-hundreds-math-problems-one-prompt">they misleadingly claimed that the work took on average three hours of computation on a single agent</a>: <a href="https://www.scientificamerican.com/article/openai-unleashes-hundreds-more-math-results-upon-a-field-already-in-shock/">they later admitted that they did not count numerous failed attempts at the problems</a> <a href="https://github.com/openai/math/blob/main/README.md#L5">as well as previous work done by other agents</a> &#8212; rendering the three hours claim essentially meaningless. Again, OpenAI did essentially no due diligence, failing to investigate whether once again they may be building on the private, unreleased work of their customers, some of whom were graduate students and postdocs who were literally days away from releasing their own work.
+</p><p>
+<a href="https://x.com/polynoamial/status/2093451221273387477">In August, OpenAI claimed</a> that <a href="https://x.com/nihilunbounded/status/2108084325631832126">such a dump would be `distasteful&#8217;</a>, that their `main focus is shipping great models so everyone can use them to make discoveries of their own&#8217;. After Navier&#8211;Stokes, OpenAI had teased us with supposed solutions to additional Millennium problems, yet they achieved none. A natural question is to ask why OpenAI would go through with such a PR stunt that risks alienating their customers. These companies are spending tens of billions of dollars a year more than they earn, which helps to explain their thirst for PR stunts and their willingness to take such seemingly inexplicable risks.
+</p><p>
+Mathematicians now type half-formed ideas into commercial models every day. These sessions are invaluable to an AI company: they provide a road map of our thought process, and reveal which research directions are promising. Until recently, AI-assisted proofs of important mathematical results were considered a pipe dream, and many of us were simply not concerned with data privacy since we never imagined today&#8217;s capabilities arriving so quickly.
+</p><p>
+It is imperative to protect our ideas and not let AI companies become the ultimate gatekeepers of knowledge. In this vein, I would like to see:
+</p><p>
+
+
+<ul> <li> Collective enterprise agreements with AI companies should become ubiquitous. Many universities already have institutional agreements with AI providers, and these offer far better protections than consumer agreements. Even so, such agreements could be further strengthened by including <em>zero data retention</em> clauses and auditing provisions to ensure that the conditions of the agreements are respected. Many mathematicians, myself included, do their research on consumer subscriptions that those agreements do not cover. We need to make sure all academics work under the protection of such agreements. </li><li> We need stricter regulatory guardrails on user data. More generally, we need stricter regulations governing how AI companies collect data. Training on user data must be explicitly opt-in rather than opt-out. Finally, deceptive practices, such as absorbing an entire session&#8217;s worth of data as a result of a user providing feedback on a single response, must be explicitly banned. </li><li> We should further invest in open-weight infrastructure, assisting in the development of open-weight models. We cannot assume the interests of Academia and the AI companies are aligned. Academic institutions that control where their models are run can circumvent the fear of having their ideas stolen by trillion dollar corporations. Chess was democratized by engines anyone could run at home. Shared, open infrastructure for mathematics, funded in an independent way, is a lofty goal worth pursuing. 
+</li></ul>
+
+ Less reliance on user data benefits both sides: leading to more trust from the academics and the encouragement of new innovative ways to train models.
+</p><p>
+<b>Recognizing contributions: </b><a href="https://www.youtube.com/watch?v=M0--ZH1lOzg&amp;t=285s">As Tao put it at the ICM this summer</a>, we are moving from an <em>era of proof scarcity</em> to an <em>era of proof abundance</em>. Our credit system was built for the era of scarcity. Being first to a famous result was a reasonable proxy for depth of understanding, because nobody could get there without understanding a great deal along the way. That proxy no longer holds and so we will need new ways of assigning credit that are not simply correlated with access to resources.
+</p><p>
+Some concrete suggestions:
+</p><p>
+
+
+<ul> <li> Reward well written exposition of important results in mathematics. </li><li> AI disclosures are a mixed bag and there is currently a perverse incentive not to disclose the use of AI. Disclosing AI assistance should not diminish a result and detailed disclosures should become standard. </li><li> Development of shared tools and resources, as well as contributions to large collaborative projects should earn recognition, mimicking practices in other sciences. </li><li> Mathematicians should be evaluated on the ideas and methods they developed, not just on whether or not they were first to prove a result. 
+</li></ul>
+
+ More generally, we will need to move away from bean counting publications in top journals. Whatever replaces it must still offer transparent ways of evaluating work, rather than relying on reputation and personal connections, which tends to produce closed networks and patronage.
+</p><p>
+<b>The future of mathematics: </b>Chess did not end in 1997. Mathematics will not end in 2026. I am however convinced that within the next few years it will be unrecognizable. That future will not be shaped by me or my peers. It will be shaped by the next generation.
+</p><p>
+I am already amazed by what our students and postdocs at NYU are doing with these tools. I suspect that in their hands the line between pure and applied mathematics will blur further, perhaps disappear, and that we will see a richer connection between mathematical proofs and the physical sciences.
+</p><p>
+For the next generation of mathematicians to flourish, we need protections and control over user data, restraint from AI companies, a lower barrier to entry to the use of frontier-level models, and a new credit system that rewards understanding rather than access. Mathematics has long been said to belong to the young. They will decide what it becomes.
+</p><p>
+<em>AI Disclaimer: I used LLMs to help edit this post, including suggesting wording for some passages. </em>
+</p><p>
+
+
+</p>]]></content:encoded>
+					
+					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/21/mathematics-is-a-subject-for-the-young/feed/</wfw:commentRss>
+			<slash:comments>19</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">18522</post-id>
+		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
+			<media:title type="html">Terry</media:title>
+		</media:content>
+	</item>
+		<item>
 		<title>An experimental AI-math challenge: using tenth discriminant bounds to explore arguments ruling out Siegel zeroes</title>
 		<link>https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/</link>
 					<comments>https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/#comments</comments>
@@ -86,7 +182,7 @@ I am looking forward to the results of this experimental challenge, both for the
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/feed/</wfw:commentRss>
-			<slash:comments>26</slash:comments>
+			<slash:comments>55</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18525</post-id>
@@ -246,7 +342,7 @@ To use this, we replace the standard monomial basis <img src="https://s0.wp.com/
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/feed/</wfw:commentRss>
-			<slash:comments>23</slash:comments>
+			<slash:comments>26</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18505</post-id>
@@ -425,7 +521,7 @@ In the meantime<b>, I think mathematicians have the huge responsibility of prese
 </p>]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/feed/</wfw:commentRss>
-			<slash:comments>25</slash:comments>
+			<slash:comments>26</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18496</post-id>
@@ -471,7 +567,7 @@ In the meantime<b>, I think mathematicians have the huge responsibility of prese
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/17/starting-a-new-journal/feed/</wfw:commentRss>
-			<slash:comments>32</slash:comments>
+			<slash:comments>34</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18470</post-id>
@@ -615,7 +711,7 @@ In the meantime<b>, I think mathematicians have the huge responsibility of prese
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/feed/</wfw:commentRss>
-			<slash:comments>8</slash:comments>
+			<slash:comments>11</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18463</post-id>
@@ -694,41 +790,10 @@ And honestly? That&#8217;s rare.
 </p>]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/15/why-are-we-even-doing-all-this/feed/</wfw:commentRss>
-			<slash:comments>49</slash:comments>
+			<slash:comments>52</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18439</post-id>
-		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
-			<media:title type="html">Terry</media:title>
-		</media:content>
-	</item>
-		<item>
-		<title>Simons Foundation Launches $15M Effort To Help Mathematicians Navigate AI Era</title>
-		<link>https://terrytao.wordpress.com/2026/10/15/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/</link>
-					<comments>https://terrytao.wordpress.com/2026/10/15/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/#comments</comments>
-		
-		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
-		<pubDate>Thu, 15 Oct 2026 16:01:17 +0000</pubDate>
-				<category><![CDATA[advertising]]></category>
-		<category><![CDATA[math.GM]]></category>
-		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Simons Foundation]]></category>
-		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18443</guid>
-
-					<description><![CDATA[A new press release from the Simons Foundation, calling for workshops and other initiatives centered on mathematics in the era of AI.]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">A <a href="https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/">new press release from the Simons Foundation</a>, calling for workshops and other initiatives centered on mathematics in the era of AI.</p>
-
-
-
-<p class="wp-block-paragraph"></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/15/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/feed/</wfw:commentRss>
-			<slash:comments>10</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">18443</post-id>
 		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
 			<media:title type="html">Terry</media:title>
 		</media:content>

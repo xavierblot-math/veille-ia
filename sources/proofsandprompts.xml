@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Tue, 20 Oct 2026 11:26:47 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 20 Oct 2026 11:26:49 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,231 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>Paralysis</title>
+		<link>https://proofsandprompts.com/2026/10/21/artificial-intelligence-and-the-mathematical-community/</link>
+					<comments>https://proofsandprompts.com/2026/10/21/artificial-intelligence-and-the-mathematical-community/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Wed, 21 Oct 2026 14:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[AI companies]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Norms]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=1637</guid>
+
+					<description><![CDATA[“We study mathematics for pretty much the same reasons that we study astronomy. The stars and planets are already out there, and, despite millennia of human observation, there is more we don’t know about them than we do. […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://math.jhu.edu/~sakellar/">Yiannis Sakellaridis</a>, Professor at the <a href="https://mathematics.jhu.edu/">Department of Mathematics</a>, <a href="https://www.jhu.edu/">Johns Hopkins University</a>. Cross-posted at <a href="https://sakellar.wordpress.com/2026/10/19/paralysis/">his blog</a>.</p>
+
+
+
+<p class="wp-block-paragraph" style="text-align:justify">We study mathematics for pretty much the same reasons that we study astronomy. The stars and planets are already out there, and, despite millennia of human observation, there is more we don’t know about them than we do. Same with mathematical truths: they are out there, and have always been; but, as of late, we also have a powerful new telescope, which dramatically changes the scope and volume of exploration. It also affects our perception of geometry: Some stars which used to appear distant are proving much more tractable; others will remain as obscure as before, in need of new ideas for approaching them.</p>
+
+
+
+<p class="wp-block-paragraph" style="text-align:justify">So the story will go, if anyone is left to tell it. Yet, there’s a competing story, according to which “we”, humans, won’t need to understand anything, as this exploration will be completely undertaken by machines. They will get better at everything we do, including finding new conjectures and explaining their discoveries to curious humans, but by the time a person has understood something new, they will be far ahead.</p>
+
+
+
+<p class="wp-block-paragraph" style="text-align:justify">Knowledge is power, and, while I do not know whether such a development is possible, no freedom-loving human should be celebrating the subjugation of human intelligence to artificial intelligence, <a href="https://arxiv.org/abs/2609.28591">a Middle Ages in reverse</a>. In more realistic terms, though, it is not about subjugation of humans to machines, but to the owners of those: that’s why so many trillions of investment are flowing into AI. To return the investment, the companies <a href="https://www.wsj.com/tech/ai/will-america-spend-9-of-its-gdp-on-ai-the-industry-is-counting-on-it-3501bb4f">will have to capture staggering percentages of society’s economic output</a>. This requires not just “<a href="https://openai.com/index/ten-advances-in-mathematics/">empowering scientists and mathematicians with tools that accelerate discovery</a>”, but collecting scientific production in-house, being not just a tool but also the owner of intellectual property that will translate itself into patents and pharmaceuticals.</p>
+
+
+
+<p class="wp-block-paragraph" style="text-align:justify">Talking of intellectual property, LLMs which have been trained on my and everyone’s intellectual work, funded by universities and public agencies and published on the arXiv under licenses for non-commercial use, and in journals under various copyright agreements, are now collecting money from my university, which is entering into business agreements in order to remain on the frontier of research. As we enter our prompts into the LLMs, we improve the way in which they will respond to others, without, of course, quoting us. This likely happens whether we have disabled the “training” option or not – or, at least, there is no way to reliably tell, as there is no independent way to audit the inner workings of an AI company.</p>
+
+
+
+<p class="wp-block-paragraph" style="text-align:justify">You would think that a machine powerful enough to outsmart humans would not require such levels of opacity. That it would be able to rush ahead without training data from the last few years of research. That the prompts and any available information on its path to discovery would be made available for the benefit of its future users. That its outputs would be readable and compatible with formalized proofs, and that by solving 400 problems it would generate 1000 conjectures, as humans would have done. Clearly, the machine is not there yet.</p>
+
+
+
+<p class="wp-block-paragraph" style="text-align:justify">But, for the purposes of capturing scientific production, maybe it doesn’t need to get there at all.</p>
+
+
+
+<p class="wp-block-paragraph" style="text-align:justify">Maybe all it takes is vibes taking precedence over expert assessment, and a mathematical community in a state of paralysis. Professional organizations unable to utter a word about the <a href="https://terrytao.wordpress.com/2026/10/12/this-is-normal-bad-work/">startling misconduct</a> and the <a href="https://www.nytimes.com/2026/09/17/technology/microsoft-openai-publishing-industry.html?unlocked_article_code=1.D1E.lQDz.f5LY6o0R-xnJ&amp;smid=url-share">theft</a> of intellectual property. Institutions <a href="https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/">collecting petty donations</a> and staying silent on these same issues. Self-appointed advisory bodies unable to make a determination of <a href="https://agmai.org/#openai-release">whether their advice was followed</a>. A few Fields medalists formulating amateur predictions and repudiating <a href="https://www.mathunion.org/fileadmin/IMU/Prizes/Fields/Statutes%20Fields%20Medal.pdf">the goals of the medal</a>. And a political environment which was already hostile to science letting the private sector enjoy the gold rush, without any oversight on safety and intellectual property, or any robust plans to create <a href="https://terrytao.wordpress.com/2026/09/17/a-cern-for-ai-assisted-science/">public AI infrastructure for science</a>.</p>
+
+
+
+<p class="wp-block-paragraph" style="text-align:justify">That’s all it will take to convince a generation of aspiring scientists to switch course, and for our society to stop nurturing mathematical skills and understanding. The <a href="https://www.youtube.com/watch?v=HjurAWAr_nY&amp;t=1292s">stultification of humanity</a> will bring the goal of a superhuman machine one step closer.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 26 September 2026, revised 20 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/21/artificial-intelligence-and-the-mathematical-community/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1637</post-id>	</item>
+		<item>
+		<title>Mathematics of the Future</title>
+		<link>https://proofsandprompts.com/2026/10/21/mathematics-of-the-future/</link>
+					<comments>https://proofsandprompts.com/2026/10/21/mathematics-of-the-future/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Wed, 21 Oct 2026 11:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[In practice]]></category>
+		<category><![CDATA[Application season]]></category>
+		<category><![CDATA[Teaching]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2114</guid>
+
+					<description><![CDATA[“Rapid advances in AI are transforming research, and for the growth of mathematical knowledge, this is thrilling. For our profession, however, this raises critical questions: Will there be a role for human mathematicians to play? How should mathematicians be trained and evaluated? […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://math.mit.edu/~etingof/">Pavel Etingof</a> (<a href="https://en.wikipedia.org/wiki/Pavel_Etingof">Wikipedia</a>), Professor of Mathematics at <a href="https://www.mit.edu/">MIT</a>, <a href="https://math.mit.edu/research/highschool/primes/">PRIMES</a> Chief Research adviser; and <a href="https://web.mit.edu/slava/homepage/">Slava Gerovitch</a> (<a href="https://en.wikipedia.org/wiki/Slava_Gerovitch">Wikipedia</a>), Senior Lecturer, <a href="https://math.mit.edu/">Department of Mathematics</a> at <a href="https://www.mit.edu/">MIT</a>, <a href="https://math.mit.edu/research/highschool/primes/">PRIMES</a> Director</p>
+
+
+
+<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · As application deadlines approach, Proofs and Prompts is publishing a series of posts from 19 to 23 October for people considering a PhD, doing a PhD or looking for a postdoc: guidelines, discussions and speculation about what to do and what careers in mathematics will look like. This post is one of them. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/application-season/">All posts in the series</a></p>
+
+<p class="wp-block-paragraph">AI use: ChatGPT was used to improve the exposition of our ideas.</p>
+
+
+
+<p class="wp-block-paragraph">The following is a short summary of a longer text with references, which can be viewed <a href="https://www.dropbox.com/scl/fi/zmqzdrneyunkueu1th9iq/futuremath8.pdf?rlkey=oarhqm8savaef4umcb60ldb4e&amp;e=1&amp;dl=0">here</a>. </p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Rapid advances in AI are transforming research, and for the growth of mathematical knowledge, this is thrilling. For our profession, however, this raises critical questions: Will there be a role for human mathematicians to play? How should mathematicians be trained and evaluated? Will there be enough jobs in mathematics? Does it still make sense to pursue a career in mathematics?</p>
+
+
+
+<p class="wp-block-paragraph">We argue that the four main functions of mathematics – discovering truths, being part of human culture and understanding of the world, providing methods for applications, and fostering intellectual growth – will continue to be central in the age of AI. Human mathematicians will still be needed to formulate and prioritize questions, interpret and communicate mathematical results, contribute to AI safety, sustain the social aspects of teaching, and hone analytical and critical thinking skills applicable far beyond academic mathematics.</p>
+
+
+
+<p class="wp-block-paragraph">Given huge uncertainties about the future, nobody can predict which expertise will be in greatest demand. Such expertise cannot be created instantly; it requires years of training, research, and immersion in a professional culture. A strong mathematical community provides a powerful intellectual reserve of such expertise applicable across a wide range of scientific disciplines and industries. This frontier competence can be sustained only by constantly exercising. Just like society needs to maintain fire departments for emergencies, it must support mathematical expertise to preserve and further develop the human capacity to understand and respond to future challenges.</p>
+
+
+
+<p class="wp-block-paragraph">To retain its relevance, however, mathematical culture will need to evolve. For centuries, mathematics relied on the “ownership culture”: competition for priority, with lasting claims to credit for discovering new theorems, enforced through citation and converted into careers, prizes, and reputations via publication lists. This culture is no longer sustainable. If LLMs do most of the heavy lifting, individual credit loses much of its meaning. This may even be healthy: clashing egos have generated much conflict, and mathematics may be better off once egos retreat from “owning” results.</p>
+
+
+
+<p class="wp-block-paragraph">Evaluation criteria based on the ownership culture will have to be revised and rely instead on intellectual agency: broad and deep knowledge, genuine understanding of mathematics and its connections, sound judgment, independent vision, and effective communication skills. Hiring must rely far more on direct mathematical interaction – talks, interviews, sustained conversation – with recommendation letters still important but grounded in substantial personal contact. In the AI era, a theorem proved with heavy AI help should be valued equally to one proved without. Hiring committees should assess mathematicians, not the provenance of their theorems.</p>
+
+
+
+<p class="wp-block-paragraph">The mathematical culture of the future will emphasize a set of new practices. First, it will open a wider mathematical world: instead of focusing on a narrow area, mathematicians will be able to explore a much wider research landscape. Creativity will not disappear; it will simply operate on a frontier moving outward faster than ever. Second, mathematicians will serve as interpreters of massive AI-produced results, helping the wider intellectual community to understand, absorb, connect, and use them. And since the library of available results is always finite while mathematics is infinite, humans will remain contributors, not only readers. Third, mathematicians will use AI to conduct the “big cleanup” of existing mathematical literature, identifying and resolving errors, gaps, obscure arguments, incompatible conventions, and results rediscovered under different names. Mathematicians will use Lean formalization and verification of proofs, but will also complement it with human-readable exposition. The goal is to make the corpus of mathematical literature more reliable and better organized than ever before. Finally, publication formats will evolve to include AI-produced texts, recorded talks, interactive companions, and papers as virtual agents. Publication should become a vibrant infrastructure for navigation, understanding, and further development, rather than a passive record.</p>
+
+
+
+<p class="wp-block-paragraph">Problem solving will decline as professional output but will remain essential as a training tool; discovery-based learning (in the spirit of Alekseev “Abel’s Theorem in Problems and Solutions”) becomes especially valuable. Used well, AI will enable better active and personalized learning: hints rather than solutions, clarifying examples, and diagnostic problems. To test understanding, supervised written tests will need to be supplemented with oral examinations. The aim is to obtain better evidence of subject mastery, not to build a perfect technological defense against dishonesty.</p>
+
+
+
+<p class="wp-block-paragraph">Graduate study will shift emphasis from early specialization and rapid publication toward breadth, depth, communication, and judgment. Faculty-led seminars, reading groups, and advanced courses will grow in importance; as will live mentoring and blackboard exposition. The thesis need not contain the first proof of anything; originality can reside in ideas, methods, questions, connections, or synthesis.</p>
+
+
+
+<p class="wp-block-paragraph">We make a concrete institutional proposal: a small faculty-led lab open to students sharing a background, aiming to combine collaborative research with powerful AI while building the ability to check and understand AI output. The group will meet and brainstorm together, with students taking notes, then the faculty lead will ask AI to respond to the notes, the group will study, check, and discuss the response, with different students focusing on different parts, and the resulting ideas will be written down in a shared document, regularly revised with peer, faculty, and AI comments. The model scales from high-school to graduate research, and success is measured by both the mathematics produced and the growth of the participants.</p>
+
+
+
+<p class="wp-block-paragraph">Finally, we share a few pieces of advice for young mathematicians:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Accept fundamental uncertainty: build skills robust across many futures rather than organizing life around AI forecasts.</li>
+
+
+
+<li>Learn broadly and deeply; follow your heart: resist early specialization, but achieve genuine mastery in some subjects.</li>
+
+
+
+<li>Put collaboration ahead of competition: find people you enjoy thinking with; help one another understand mathematics.</li>
+
+
+
+<li>Cultivate intellectual agency, with or without AI: whether using powerful models or building understanding by other means, keep solving problems, asking questions, writing explanations, and testing your knowledge.</li>
+
+
+
+<li>Plan around strengths and aspirations, not anxiety: keep multiple career paths open, but do not abandon a beloved subject just because some other occupation looks “safe.” Nothing can provide full security in the age of AI; draw on your talents, skills, and knowledge to build your career.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Rather than trying to salvage the old order, we should preserve what is essential – curiosity, knowledge, understanding, intellectual agency, and the joy of doing and sharing mathematics – as we open our minds to the vast and thrilling mathematical world that we can now explore.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 7 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/21/mathematics-of-the-future/feed/</wfw:commentRss>
+			<slash:comments>19</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2114</post-id>	</item>
+		<item>
+		<title>The Power of Beauty and Elegance</title>
+		<link>https://proofsandprompts.com/2026/10/21/the-power-of-beauty-and-elegance/</link>
+					<comments>https://proofsandprompts.com/2026/10/21/the-power-of-beauty-and-elegance/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Wed, 21 Oct 2026 09:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Beauty]]></category>
+		<category><![CDATA[Competition]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=1552</guid>
+
+					<description><![CDATA[ What machines have: colossal knowledge and massive compute power. What humans have: intuition for beauty and elegance. The ultimate question is whether colossal knowledge and massive compute power wins over human intuition. If no, we only face some big changes. If yes, then human mathematics will degrade into exotic art.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://people.maths.bris.ac.uk/~mb13434/">Márton Balázs</a>, Professor at the <a href="https://www.bristol.ac.uk/maths/">University of Bristol</a></p>
+
+
+
+<p class="wp-block-paragraph">I see an element of competition in the current situation. On one side are LLM&#8217;s with the colossal knowledge of pretty much anything humans ever invented, and the massive compute power behind it to search and combine this knowledge. On the other side are humans, each with limited knowledge and compute power, but possessing something very precious: intuition for beauty and elegance. These have guided human explorers through the vast ocean of potential constructions to use and theorems to prove, allowing for some brilliant discoveries in the past.</p>
+
+
+
+<p class="wp-block-paragraph">The Ultimate Question is whether the colossal knowledge and massive compute power can win over human intuition in all areas.</p>
+
+
+
+<p class="wp-block-paragraph">Here is why I think this is indeed the ultimate question. We are paid to do our research and to educate the next generation of researchers because some of our output is fundamentally useful for society. Continuing our journey we certainly face some big changes in the near future, and thinking of how to adapt our profession is essential. I read some deeply insightful opinions on human-scale mathematics, the importance of human knowledge and understanding, or the way new research makes it into core knowledge of humanity by settling in useful human-edited textbooks. Such thoughts are very important contributions but: they seem to exist under the assumption that the answer to the Ultimate Question is NO, hence humans will still be needed in the future.</p>
+
+
+
+<p class="wp-block-paragraph">If the answer to the Ultimate Question is YES then, I think, all of this insightful guidance becomes irrelevant. If LLMs get better than humans in all aspects of mathematics, then there is no reason for us to be paid anymore. The machine will be able to do it faster, better, cheaper; our profession will degrade into an exotic art that benefits a teeny-tiny proportion of society who find it interesting for its own sake. Funding will be squeezed accordingly. The good(?) news is that we won&#8217;t be the only ones. If LLMs can do better than humans with all of mathematics, I expect them to do better in all other areas of science and engineering as well. And the LLM designing engineering structures/clever gadgets/medications/healthcare methodologies/financial or climate models/etc. won&#8217;t need our great textbooks with the core of mathematics nicely organised in them. It will have the compute power to go through the ocean of mostly useless theorems spit out by the mathematics LLMs and pick the relevant ones for its actual job.</p>
+
+
+
+<p class="wp-block-paragraph">I&#8217;m still optimistic and think that the answer to the Ultimate Question is NO, at least for many years to come. There certainly have been spectacular results by machines but I don&#8217;t feel like this applies to all problems in mathematics. My (limited) understanding is that LLM&#8217;s are, at the moment, very far from developing a useful sense of beauty and elegance in our fields. And without that, it is really difficult to efficiently navigate the vast ocean of potential theorems waiting to be proved.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 24 September 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/21/the-power-of-beauty-and-elegance/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1552</post-id>	</item>
+		<item>
 		<title>Who will become the new mathematicians of Math 2.0?</title>
 		<link>https://proofsandprompts.com/2026/10/20/who-will-become-the-new-mathematicians-of-math-2-0/</link>
 					<comments>https://proofsandprompts.com/2026/10/20/who-will-become-the-new-mathematicians-of-math-2-0/#comments</comments>
@@ -140,7 +365,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/20/who-will-become-the-new-mathematicians-of-math-2-0/feed/</wfw:commentRss>
-			<slash:comments>49</slash:comments>
+			<slash:comments>59</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2706</post-id>	</item>
@@ -385,7 +610,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/20/a-critique-of-the-mathematical-economy/feed/</wfw:commentRss>
-			<slash:comments>9</slash:comments>
+			<slash:comments>11</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">1514</post-id>	</item>
@@ -670,7 +895,7 @@
 <ol class="wp-block-footnotes"><li id="a2626481-887f-4dfb-b107-e1b40917c229">Devised and endorsed by A. Abbondandolo (Ruhr University Bochum, Germany), D. Álvarez-Gavela (Brandeis, USA), S. Anjos (Técnico Lisboa, Portugal), D. Auroux (Harvard, USA), İ. Baykur (UMass Amherst, USA), D. Cant (Université de Montréal, Canada), O. Cornea (Université de Montréal, Canada), M. Damian (Université de Strasbourg, France), J. Evans (Lancaster, UK), R. L. Fernandes (UIUC, USA), U. Frauenfelder (Universität Augsburg, Germany), V. Ginzburg (UC Santa Cruz, USA), F. Gironella (CNRS–Nantes Université, France), Y. Groman (Hebrew University, Israel), B. Gurel (UCF, USA), K. Inal (UMass Amherst, USA), A. Keating (Cambridge, UK), M. Kegel (Universidad de Sevilla, Spain), J. Latschev (Universität Hamburg, Germany), A. Libgober (UIC, USA), Y.-S. Lin (Boston University, USA), L. Macarini (IMPA, Brazil), M. Mazzucchelli (CNRS–Sorbonne Université, France; on sabbatical at IAS, USA, 2026–2027), K. Mohnke (HU Berlin, Germany), D. Nadler (UC Berkeley, USA), A. Oancea (Université de Strasbourg, France), A. Pedroza (Universidad de Colima, Mexico), A. R. Pires (University of Edinburgh, UK), P. Seidel (MIT, USA), S. Seyfaddini (ETH Zürich, Switzerland), I. Smith (Cambridge, UK), L.-S. Tseng (UC Irvine, USA), R. Vianna (USP, Brazil), C. Viterbo (Université Paris-Saclay, France), W. Wu (Zhejiang University, China), Z. Zhou (AMSS–CAS, China) <a href="#a2626481-887f-4dfb-b107-e1b40917c229-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/19/recommendations-on-the-use-of-ai-for-phd-students-and-supervisors/feed/</wfw:commentRss>
-			<slash:comments>5</slash:comments>
+			<slash:comments>7</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2709</post-id>	</item>
@@ -984,482 +1209,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2567</post-id>	</item>
-		<item>
-		<title>Who Will Lead Mathematical AI?</title>
-		<link>https://proofsandprompts.com/2026/10/18/who-will-lead-mathematical-ai/</link>
-					<comments>https://proofsandprompts.com/2026/10/18/who-will-lead-mathematical-ai/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Sun, 18 Oct 2026 11:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Action]]></category>
-		<category><![CDATA[Community]]></category>
-		<category><![CDATA[Norms]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=1395</guid>
-
-					<description><![CDATA[“A small episode from this summer keeps coming back to me. At the National Academies meeting Organizing Mathematical Knowledge in the Age of AI and Formalization, David Spergel discussed Japan’s participation in the Department of Energy’s Genesis Mission. […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://www.ias.edu/scholars/hofer">Helmut H. W. Hofer</a>, Professor Emeritus at the <a href="https://www.ias.edu/">Institute for Advanced Study</a></p>
-
-
-
-<p class="wp-block-paragraph">A small episode from this summer keeps coming back to me.</p>
-
-
-
-<p class="wp-block-paragraph">At the National Academies meeting Organizing Mathematical Knowledge in the Age of AI and Formalization, <a href="https://web.mit.edu/~ywang02/www/blog/nas-formalization/posts/06-panel-resources-landscape.html">David Spergel discussed</a> Japan&#8217;s participation in the Department of Energy&#8217;s Genesis Mission. According to contemporary MIT-hosted notes, Japan became a partner &#8220;on condition that AI for math be included as a priority area.&#8221;</p>
-
-
-
-<p class="wp-block-paragraph">The words &#8220;on condition&#8221; are interesting. Apparently mathematics did not simply have its place at the table. Someone had to insist on it.</p>
-
-
-
-<p class="wp-block-paragraph">Let me speculate. Institutions such as the Department of Energy naturally think in terms of missions, engineering goals, infrastructure, and deliverables. There is nothing wrong with that. But in my experience, many engineers have felt that they already knew the mathematics they needed. They were not always particularly interested in mathematics as an independent intellectual force.</p>
-
-
-
-<p class="wp-block-paragraph">AI makes a stronger version of this attitude possible: Why involve mathematicians in setting the direction? AI will do the mathematics for us.</p>
-
-
-
-<p class="wp-block-paragraph">Whether AI can actually do &#8220;all the math&#8221; is almost beside the point. If the people making institutional decisions believe that it can, mathematicians may be invited only after the important decisions have been made <math data-latex="\text{\textendash}"><semantics><mtext>–</mtext><annotation encoding="application/x-tex">\text{\textendash}</annotation></semantics></math> to check results, formalize arguments, curate data, or maintain infrastructure. The questions, goals, and standards will have been chosen elsewhere.</p>
-
-
-
-<p class="wp-block-paragraph">At the same time, the widespread political concern about AI may offer an unexpected opportunity. &#8220;Humans must lead AI&#8221; is becoming a plausible political principle. In our field, this should mean something more specific:</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph"><strong>Mathematicians must lead mathematical AI.</strong></p>
-</blockquote>
-
-
-
-<p class="wp-block-paragraph">This opportunity may not remain open for long. Governments, companies, and engineering organizations are already creating programs and deciding priorities. The Japanese condition shows that these priorities are still negotiable <math data-latex="\text{\textendash}"><semantics><mtext>–</mtext><annotation encoding="application/x-tex">\text{\textendash}</annotation></semantics></math> but also that mathematics will not necessarily be included unless somebody speaks for it.</p>
-
-
-
-<p class="wp-block-paragraph">I hope our learned societies <math data-latex="\text{\textendash}"><semantics><mtext>–</mtext><annotation encoding="application/x-tex">\text{\textendash}</annotation></semantics></math> the AMS, the DMV, and their counterparts elsewhere <math data-latex="\text{\textendash}"><semantics><mtext>–</mtext><annotation encoding="application/x-tex">\text{\textendash}</annotation></semantics></math> are not asleep at the wheel. This is a moment for them to become active: to formulate standards, represent mathematical values, defend the education of young mathematicians, and insist that mathematicians participate in deciding what mathematical AI is supposed to become.</p>
-
-
-
-<p class="wp-block-paragraph">Unfortunately, withdrawal currently seems to be en vogue among many mathematicians. It is presented as a defense of human authorship, mathematical understanding, and intellectual independence. These concerns are serious and deserve serious discussion. But refusing to participate in shaping mathematical AI will not prevent its development. It will merely leave the consequential decisions to technology companies, engineers, government agencies, and others whose priorities may be quite different from those of the mathematical community.</p>
-
-
-
-<p class="wp-block-paragraph">I am occasionally reminded <math data-latex="\text{\textendash}"><semantics><mtext>–</mtext><annotation encoding="application/x-tex">\text{\textendash}</annotation></semantics></math> perhaps unfairly <math data-latex="\text{\textendash}"><semantics><mtext>–</mtext><annotation encoding="application/x-tex">\text{\textendash}</annotation></semantics></math> of the Judean People&#8217;s Front Crack Suicide Squad in Monty Python&#8217;s Life of Brian: it arrives at the decisive moment with admirable conviction and promptly removes itself from the action.</p>
-
-
-
-<p class="wp-block-paragraph">The joke makes a serious point. We should not defend human mathematics by leaving the field. If mathematicians withdraw, the field will not remain empty. Others will decide what mathematical AI is for, what standards it follows, and what place remains for human mathematicians.</p>
-
-
-
-<p class="wp-block-paragraph">The opportunity is here. It would be unfortunate if the mathematical community squandered it.</p>
-
-
-
-<p class="wp-block-paragraph"><em><strong>Disclosure.</strong> The argument and observations in this post are mine. I used OpenAI Codex to help organize and edit the text, check the cited sources, and draft portions of the prose. I reviewed and revised the final text and take responsibility for it.</em></p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">An extended version was posted on the <a href="https://arxiv.org/abs/2608.28369" data-type="link" data-id="https://arxiv.org/abs/2609.06889">arXiv</a>.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 21 September 2026.</p>
-
-
-
-<p class="wp-block-paragraph"></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/18/who-will-lead-mathematical-ai/feed/</wfw:commentRss>
-			<slash:comments>6</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1395</post-id>	</item>
-		<item>
-		<title>Mathematics in the Dark Forest</title>
-		<link>https://proofsandprompts.com/2026/10/18/mathematics-in-the-dark-forest/</link>
-					<comments>https://proofsandprompts.com/2026/10/18/mathematics-in-the-dark-forest/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Sun, 18 Oct 2026 10:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[arXiv]]></category>
-		<category><![CDATA[Experiments and practice]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=1491</guid>
-
-					<description><![CDATA[An open problem list is a bullseye painted on your field.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://pseudoeffective.github.io">Dave Anderson</a>, Professor at <a href="https://math.osu.edu/">Ohio State University</a></p>
-
-
-
-<p class="wp-block-paragraph">Any mathematician can tell you that math isn&#8217;t a spectator sport. To do math research <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> or even to really appreciate it <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> you have to spend many hours slowly grinding away at examples, guessing at lemmas and trying to prove them as a way of discovering why they&#8217;re wrong, refining the hypotheses, carving out the right definitions<math data-latex="\ldots"><semantics><mo lspace="0em" rspace="0em">…</mo><annotation encoding="application/x-tex">\ldots</annotation></semantics></math> All that frustration is necessary for the payoff: the feeling of illumination when the pieces all fall into place.</p>
-
-
-
-<p class="wp-block-paragraph">Well, you used to have to do all that. Now there&#8217;s another way.</p>
-
-
-
-<p class="wp-block-paragraph">It could be called the <a href="https://www.anthropic.com/research/riemann-zeta">Take a real stab</a> approach, but I prefer the more informal <a href="https://www.math.brown.edu/reschwar/Stories/AI.pdf">Do it up, bro</a>. Find a nice open problem, maybe a not-so-famous one, but one that a well-regarded mathematician liked enough to write down and publicize, and possibly even stake their name on it as a conjecture. Now ask your favorite LLM (say, Claude Fable or GPT-6 Astra) to solve it. Just a link to the problem statement should be enough, but you can save tokens by pasting in the problem statement. (Pro tip, if there&#8217;s a relevant paper on the arXiv, just put in the whole .tex source file.) It supposedly helps to include some words of encouragement, not necessarily any subtle coaching, just <em>you got this!</em> or <em>go for it!</em></p>
-
-
-
-<p class="wp-block-paragraph">Then wait an hour or two, and once Fable gets back with a solution, tell it to write up a report in LaTeX, and you&#8217;ve got an original result <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> even better, a result that at least one other mathematician cares about!</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-
-
-
-<p class="wp-block-paragraph">Is it really that easy? For the right problem, yes. And there are <em>lots</em> of those.</p>
-
-
-
-<p class="wp-block-paragraph">In September 2026, you probably are not going to solve a Millenium Problem without millions of dollars in compute. But 99% of mathematicians aren&#8217;t realistically going to solve those problems anyway; most of us work around the edges, building the structure with intermediate results, or even indirectly, bolstering a research culture that supports investigation till the right ideas come along. That includes plenty of first-rate work.</p>
-
-
-
-<p class="wp-block-paragraph">A nice way of focusing the attention of researchers in a field <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> and of providing targets for grad students and postdocs to aim at <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> is to compile a list of open problems and conjectures. Hilbert wrote eloquently about the virtues of mathematical problems in 1900, many others have since, and I don&#8217;t have anything meaningful to add, but I&#8217;ll repeat the banal remark that open problem lists have become a major part of the incentive structure of contemporary mathematical society.</p>
-
-
-
-<p class="wp-block-paragraph">To take a subject close to my heart, algebraic combinatorics, the University of Minnesota hosted a neat event in 2022, <a href="https://www.samuelfhopkins.com/OPAC/opac.html">Open Problems in Algebraic Combinatorics</a>. There was a conference, and a published proceedings; one of the many great things Sam Hopkins does for the community is maintain a <a href="https://realopacblog.wordpress.com">blog</a> with a running list of problems posted by him and others.</p>
-
-
-
-<p class="wp-block-paragraph">Hey Claude:</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">Go through the list of problems here:</p>
-
-
-
-<p class="wp-block-paragraph"><a href="https://www.samuelfhopkins.com/OPAC/opac.html#Proceedings">https://www.samuelfhopkins.com/OPAC/opac.html#Proceedings</a></p>
-
-
-
-<p class="wp-block-paragraph">and on the blog:</p>
-
-
-
-<p class="wp-block-paragraph"><a href="https://www.samuelfhopkins.com/OPAC/files/blog.pdf.">https://www.samuelfhopkins.com/OPAC/files/blog.pdf.</a></p>
-
-
-
-<p class="wp-block-paragraph">Which three do you think are most ripe for Fable to try out via an autonomous run?</p>
-</blockquote>
-
-
-
-<p class="wp-block-paragraph">Uh oh<math data-latex="\ldots"><semantics><mo lspace="0em" rspace="0em">…</mo><annotation encoding="application/x-tex">\ldots</annotation></semantics></math></p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-
-
-
-<p class="wp-block-paragraph">I ran this experiment on <a href="https://realopacblog.wordpress.com/2019/09/15/on-the-cohomology-of-the-grassmannian/">OPAC-008</a>, <a href="https://realopacblog.wordpress.com/2019/09/22/the-schur-cone-and-the-cone-of-log-concavity/">OPAC-009</a>, and <a href="https://realopacblog.wordpress.com/2019/09/30/matrix-counting-over-finite-fields/">OPAC-012</a>, using a mix of Claude (Fable 5.1) and ChatGPT-6 (Astra). They struggled with the first one a bit (but claimed to make progress); together they &#8220;solved&#8221; each of the second two in a matter of a couple hours. My input was completely devoid of mathematical content. I started with this:</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">Look in the Dropbox folder attached, and start working on the problem described there. Remember, your goal is a mathematical argument giving a solution or counterexample; focus on constructing proofs. Write and run code only as needed. Use the included mathmemo.sty to write LaTeX notes when headline results are achieved; keep intermediate notes in MD or whatever form you prefer.</p>
-
-
-
-<p class="wp-block-paragraph">After looking at the materials, check in with me if you see any ambiguity or have questions. Let&#8217;s see if you can knock down this open problem!</p>
-</blockquote>
-
-
-
-<p class="wp-block-paragraph">And then I kept prodding with variations on &#8220;Keep going!&#8221; as needed.</p>
-
-
-
-<p class="wp-block-paragraph">You can see the full details <a href="https://github.com/pseudoeffective/opac009">here</a> and <a href="https://github.com/pseudoeffective/opac012">here</a> if you&#8217;re interested, including the papers Fable and Astra produced.</p>
-
-
-
-<p class="wp-block-paragraph">&#8220;Solved&#8221; is in scare quotes for now, because I have neither checked the solution carefully myself, nor formally verified it in Lean. However <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> if, in the old days, I&#8217;d been asked by a journal editor to give a quick opinion on whether these papers are worth refereeing, I might well have said yes.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-
-
-
-<p class="wp-block-paragraph">I&#8217;m not boasting about these solutions <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> my intellectual involvement in obtaining them was about on par with my effort in setting up the GitHub repos where they now live. And as you&#8217;ll see if you peruse those transcripts, I haven&#8217;t divulged any real secret sauce: the cat is out of the bag. Anyone can do what I did, and therefore many people will.</p>
-
-
-
-<p class="wp-block-paragraph">Looking around the math commentariat, there&#8217;s some persistent skepticism about the actual capabilities of current models <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> even after <a href="https://openai.com/index/navier-stokes-solution/">Navier-Stokes</a> <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> and also about what it takes to get an LLM to solve a nontrivial math research problem. By conducting this experiment in public, warty prompts and all, I&#8217;m hoping to provide evidence of their power and perhaps even convince a few skeptics. (I also think this is the right way to do such things, if they&#8217;re going to be done; more on that below.)</p>
-
-
-
-<p class="wp-block-paragraph">I don&#8217;t intend to post these Fable-Astra papers to the arXiv, much less submit them to a journal. But let&#8217;s check in. How does the <code>math.CO</code> section look these days, compared to the last five years?</p>
-
-
-
-<figure class="wp-block-image size-large wp-duotone-default"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="414" data-attachment-id="1498" data-permalink="https://proofsandprompts.com/2026/10/18/mathematics-in-the-dark-forest/arxiv_math_co_5yr/" data-orig-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/arxiv_math_co_5yr.png?fit=1969%2C796&amp;ssl=1" data-orig-size="1969,796" data-comments-opened="1" data-image-title="arxiv_math_co_5yr" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/arxiv_math_co_5yr.png?fit=1024%2C414&amp;ssl=1" src="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/arxiv_math_co_5yr.png?resize=1024%2C414&#038;ssl=1" alt="" class="wp-image-1498" srcset="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/arxiv_math_co_5yr.png?resize=1024%2C414&amp;ssl=1 1024w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/arxiv_math_co_5yr.png?resize=300%2C121&amp;ssl=1 300w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/arxiv_math_co_5yr.png?resize=768%2C310&amp;ssl=1 768w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/arxiv_math_co_5yr.png?resize=1536%2C621&amp;ssl=1 1536w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/arxiv_math_co_5yr.png?w=1969&amp;ssl=1 1969w" sizes="(max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">New postings to arXiv math.CO (Combinatorics), Jan 2021–Aug 2026</figcaption></figure>
-
-
-
-<p class="wp-block-paragraph">Interesting!</p>
-
-
-
-<p class="wp-block-paragraph">But maybe it&#8217;s just because combinatorics is easy for AI. What about the arXiv at large?</p>
-
-
-
-<figure class="wp-block-image size-large wp-duotone-default"><img data-recalc-dims="1" decoding="async" width="1024" height="418" data-attachment-id="1497" data-permalink="https://proofsandprompts.com/2026/10/18/mathematics-in-the-dark-forest/arxiv_math_all_5yr/" data-orig-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/arxiv_math_all_5yr.png?fit=1949%2C796&amp;ssl=1" data-orig-size="1949,796" data-comments-opened="1" data-image-title="arxiv_math_all_5yr" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/arxiv_math_all_5yr.png?fit=1024%2C418&amp;ssl=1" src="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/arxiv_math_all_5yr.png?resize=1024%2C418&#038;ssl=1" alt="" class="wp-image-1497" srcset="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/arxiv_math_all_5yr.png?resize=1024%2C418&amp;ssl=1 1024w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/arxiv_math_all_5yr.png?resize=300%2C123&amp;ssl=1 300w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/arxiv_math_all_5yr.png?resize=768%2C314&amp;ssl=1 768w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/arxiv_math_all_5yr.png?resize=1536%2C627&amp;ssl=1 1536w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/arxiv_math_all_5yr.png?w=1949&amp;ssl=1 1949w" sizes="(max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">New postings to arXiv math (all), Jan 2021–Aug 2026.</figcaption></figure>
-
-
-
-<p class="wp-block-paragraph">Nope, something&#8217;s happening all over.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-
-
-
-<p class="wp-block-paragraph">In April, David Bessis wrote about something he dubbed the <a href="https://davidbessis.substack.com/i/183753276/caveat-3-the-overhang">Overhang</a>:</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">My view is that it is impossible to say for sure, due to a structural feature of the mathematical corpus which, no doubt, is going to play a central role in the AI-for-math debate. In fact, I suspect that our legacy notions of “creativity” and “innovation” are ill-founded, and that AI is about to teach us brutal lessons about them.</p>
-
-
-
-<p class="wp-block-paragraph">Most mathematicians are intuitively aware of this structural feature, although its exact shape and size are impossible to chart. I haven’t seen any serious attempt to theorize it and the feature has no agreed-upon name <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> let me call it the Overhang.</p>
-
-
-
-<p class="wp-block-paragraph">I expect the Overhang to be absolutely gigantic.</p>
-</blockquote>
-
-
-
-<p class="wp-block-paragraph">He goes on to develop an illuminating economic and financial analogy: &#8220;The Overhang consists of the unrealized capital gains of past mathematical creativity, the latent value from connecting the dots in the existing corpus.&#8221;</p>
-
-
-
-<p class="wp-block-paragraph">To paraphrase, among other qualities, we mathematicians tend to value &#8220;breadth&#8221; in a researcher <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> the capacity to internalize a wide swath of results from disparate mathematical subfields, the ability to draw on that knowledge to find connections no one else noticed, often leading to spectacular solutions to long-standing problems. The &#8220;Overhang&#8221; is the existence of those unnoticed connections.</p>
-
-
-
-<p class="wp-block-paragraph">When you happen upon one of these surprising connections, the resulting flash of insight is one of the most sublime and satisfying feelings in math, or indeed any intellectual pursuit. (It works even if you&#8217;re a student reading about a well-established result <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> <em>Galois extensions of fields are the same thing as covering spaces in topology, wow!</em>) These deep analogies between superficially unrelated ideas are responsible for a lot of us getting into the subject in the first place.</p>
-
-
-
-<p class="wp-block-paragraph">They&#8217;re also something LLMs are <em>extremely</em> good at noticing.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-
-
-
-<p class="wp-block-paragraph">Let me finally get to the point.</p>
-
-
-
-<p class="wp-block-paragraph">The <a href="https://en.wikipedia.org/wiki/Dark_forest_hypothesis">dark forest</a> theory is one answer to Enrico Fermi&#8217;s famous &#8220;Where is everybody?&#8221; puzzle <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> why haven&#8217;t we seen any evidence of extraterrestrial intelligence? The name comes from Cixin Liu&#8217;s majestic <em>Three Body</em> trilogy, but the idea is older and shows up in a lot of other sci-fi: in a universe with highly advanced civilizations competing for resources, any visible sign of intelligence is a bullseye painted all over your world. So to survive, a civilization <em>must hide itself from all others</em>. (My favored explanation for the Fermi paradox <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> the universe is big, the space of minds is impossibly huge, quite likely we wouldn&#8217;t recognize alien intelligence if it was under our noses <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> makes for a rather less compelling story.)</p>
-
-
-
-<p class="wp-block-paragraph">Mathematicians are already whispering about hiding. Don&#8217;t give a talk before your full and final result is published and even then, avoid giving out too many details. Keep your program private, and certainly don&#8217;t post conjectures. Otherwise, someone with enough compute is sure to come in and scoop you.</p>
-
-
-
-<p class="wp-block-paragraph">The dark forest response is a rational reaction to hostile conditions. It might be unavoidable to some degree, as we navigate the transition and adapt to the new technological reality. But I hope it doesn&#8217;t come to pass in more than a transitory way. It would be beyond sad if the most talented and creative mathematical minds turned to keeping secrets as a form of self-protection in a world of intellectual predation.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-
-
-
-<p class="wp-block-paragraph">But it would not be without precedent. This situation was common throughout much of history: Renaissance mathematicians used to &#8220;duel&#8221; each other with challenges to solve cubic equations, keeping their methods secret in order to win such competitions.<sup><a href="#fn1" id="ref1">1</a></sup> And even today, communication practices vary widely across disciplines. The IAS Schools of Mathematics and Natural Science maintain online repositories of nearly 6,000 video lectures, recording nearly every seminar talk over the last 20 years, all of them freely available on YouTube; over the same period, the Schools of History and Social Science combined list roughly 200 videos, most of them public lectures or high-profile events. Not to mention industry, where protecting proprietary knowledge is simply sound business practice! And any science that has closer contact with industrial development and patenting is going to have a more circumspect culture when it comes to sharing ideas.<sup><a href="#fn2" id="ref2">2</a></sup></p>
-
-
-
-<p class="wp-block-paragraph">In this sense, although I think it would make things worse, a partial retreat toward secrecy would actually make mathematics more <em>normal</em>.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-
-
-
-<p class="wp-block-paragraph">To avoid a return to a closed and privatized academy, we&#8217;re going to need to update our incentives and norms. The debate about how to adapt is happening all around us, right now <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> in public online, in private emails, and in math department committee meetings everywhere.</p>
-
-
-
-<p class="wp-block-paragraph">It&#8217;s no longer tenable to use number and quality of published papers as proxy for a researcher&#8217;s contribution. Some alternative standards will arise to replace the old one; the question is what will be emphasized, and how will quality be evaluated? I don&#8217;t pretend to have all the answers, but here are a few ideas.<sup><a href="#fn3" id="ref3">3</a></sup></p>
-
-
-
-<p class="wp-block-paragraph"><em>Giving talks should be accorded more value</em>. This is an easy one, and there&#8217;s already momentum in this direction. Everyone should be expected to do this. We can and should associate merit to people speaking in high-profile venues: ICM at the very top, along with plenary lectures at major meetings (like JMM in the US); international venues with long-established reputation like Banff or Oberwolfach on the next tier; and so on. These &#8220;top venues&#8221; are a scarce resource, so they can do the job of sorting status, in parallel with &#8220;top journals&#8221;. There may be need to broaden access by organizing more opportunities for talks, but that will have to be balanced by wariness of devaluing the currency by proliferating venues.</p>
-
-
-
-<p class="wp-block-paragraph"><em>Still write papers!!</em> Written mathematics remains the most robust way of recording and transmitting knowledge. LLM assistance in writing could (in theory) improve the quality of math papers, so long as it&#8217;s used judiciously and not as a replacement for the author&#8217;s own thought and judgement. Journals and referees might play an increased role, or a diminished one <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> it depends on how the editorial boards handle the coming onslaught of submissions.</p>
-
-
-
-<p class="wp-block-paragraph"><em>Publish the prompt</em>. In the past, if your paper used nontrivial new code, you were expected to publish the code. So now, if your AI use involves anything significant, publish the prompt. (If it was just the <em>Do it up, bro</em> prompt, think about whether you want your name on this paper!) Even better, publish the whole transcript!<sup><a href="#fn4" id="ref4">4</a></sup> Related, we need strong norms around AI declarations, not for judgement either in favor or against those who use it, but to calibrate evaluation of the human author&#8217;s contribution. By now, most new arXiv posts include some such statement, so there are plenty of good examples.</p>
-
-
-
-<p class="wp-block-paragraph"><em>Starter problems are still important; publishing their solutions less so</em>. Beginners need a way to get traction, grad students need something to train on. On the other hand, even before the last year or so, the baseline level of ~400 combinatorics arXiv postings per month was too high for journals to reliably keep up with, or for researchers to authentically digest. We could balance placing increased value on presenting results live (via in-person lecture) against a decreased insistence on publishing minor advances in journals.</p>
-
-
-
-<p class="wp-block-paragraph">In view of this last item, I&#8217;d also suggest that those who are compiling lists of open problems should proceed with great caution in the current environment. Posing a conjecture in the context of an article is probably not so different now than in the past, but collecting a bunch of them into an easily targeted list is inviting an attack by someone&#8217;s LLM, like in the demo I described at the beginning of this essay. (For some kinds of problems, that may be exactly what you want! The main thing is to make such a choice deliberately, with a view to the consequences.)</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-
-
-
-<p class="wp-block-paragraph">Many other suggestions are circulating, some in conflict with others. When it comes to personal practice and preference, diversity is wonderful: across domains of art and creativity, current technology enables things that would have been impossible a few decades ago; on the other hand, self-imposed restrictions and constraints can also lead to heightened aesthetics. I&#8217;m glad not all music is electronic, though, and I hope &#8220;artisanal&#8221; math will be produced by humans as long as any of us are doing mathematics. I&#8217;m also glad not every film is <a href="https://en.wikipedia.org/wiki/Dogme_95">Dogme 95</a>, and it seems too much to expect every mathematician to take a vow of chastity.</p>
-
-
-
-<p class="wp-block-paragraph">At the community level, though, new norms and structures will emerge, and some kind of consensus will probably dominate. The choices we make now, in this uncertain time of flux and change <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> the standards adopted in department committee meetings, informed by the public debates and private conversations <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> will affect how mathematics is done in the future.</p>
-
-
-
-<p class="wp-block-paragraph">At least until the next model is released and the terms of the debate are scrambled again<math data-latex="\ldots"><semantics><mo lspace="0em" rspace="0em">…</mo><annotation encoding="application/x-tex">\ldots</annotation></semantics></math> but that&#8217;s a topic for another essay.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-
-
-
-<p class="wp-block-paragraph"><em>Thanks to Liz Vivas, Alejandro Morales, Sam Hopkins, Anakin Dey, and Francesco Fournier-Facio for conversations and feedback on an earlier draft.</em></p>
-
-
-
-<p class="wp-block-paragraph">1. Lots more discussion about the past (and future?) secrecy in mathematics is at this MathOverflow <a href="https://mathoverflow.net/questions/515260/how-do-we-prevent-mathematics-from-devolving-into-the-medieval-era-of-secrecy">post</a>. <a href="#ref1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></p>
-
-
-
-<p class="wp-block-paragraph">2. At the border of industry and science, a 2009 editorial in a medical journal suggested reviving the 18th-century practice of <em>pli cacheté</em> <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> sealed envelopes that establish priority claims <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> as a way of safeguarding patents, see <a href="https://www.sciencedirect.com/science/article/pii/S0306987708004192">here</a>. <a href="#ref2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></p>
-
-
-
-<p class="wp-block-paragraph">3. Benjamin Antieau&#8217;s <a href="https://antieau.github.io/2026/09/15/fast-math-slow-math.html">essay</a> is excellent on this topic. Other variations on this theme are all over discussion boards and lunchtime conversations, so the basic ideas seem popular enough to gain traction. Incidentally, Antieau&#8217;s blog also includes a scientific <a href="https://antieau.github.io/2026/09/04/what-i-asked-ai-about-mathematics.html">catalogue</a> of questions solved by autonomous (or essentially autonomous) AI runs.<a href="#ref3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></p>
-
-
-
-<p class="wp-block-paragraph">4. To the extent possible, at least. The GitHub repos hosting my OPAC experiments include detailed summaries, but not complete transcripts of the models&#8217; chain of thought. Commercially available models often come with restricted access to reasoning and CoT, for both IP and safety reasons. I don&#8217;t have a position on how to balance those considerations against norms of scientific openness, but Segev Gonen Cohen wrote an <a href="https://proofsandprompts.com/2026/08/11/the-question-of-reasoning-traces/">essay</a> with a thoughtful exploration of this question. <a href="#ref4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 22 September 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/18/mathematics-in-the-dark-forest/feed/</wfw:commentRss>
-			<slash:comments>3</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1491</post-id>	</item>
-		<item>
-		<title>The more you panic the more you feed the psychic beast</title>
-		<link>https://proofsandprompts.com/2026/10/17/the-more-you-panic-the-more-you-feed-the-pyschic-beast/</link>
-					<comments>https://proofsandprompts.com/2026/10/17/the-more-you-panic-the-more-you-feed-the-pyschic-beast/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Sat, 17 Oct 2026 14:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Community]]></category>
-		<category><![CDATA[Grants]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=1462</guid>
-
-					<description><![CDATA[“Some of our chats with AI can become training data. Even without another breakthrough in AI methods, a simple magic trick is possible: a machine connects ideas from mathematicians who have never spoken to one another and produces a solution. […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://jameseldredpascoe.github.io/">James Eldred Pascoe</a>, Assistant Professor at <a href="https://drexel.edu/coas/academics/departments-centers/mathematics/">Drexel University</a></p>
-
-
-
-<p class="wp-block-paragraph">Some of our chats with AI can become training data. Even without another breakthrough in AI methods, a simple magic trick is possible: a machine connects ideas from mathematicians who have never spoken to one another and produces a solution. The humans were merely close; the machine solved it.</p>
-
-
-
-<p class="wp-block-paragraph">This is the trick of the psychic. This is the trick of Tom Riddle’s diary.</p>
-
-
-
-<p class="wp-block-paragraph">Martin Gardner’s Fads and Fallacies is a great book and worth revisiting. It summarizes interesting instances of pseudoscience and fraud. A cold reader can easily sell you a car. A competent hot reader, who benefits from information acquired beforehand, can convince you of just about anything with enough time. An audience, and often the psychic themself, that cannot see those sources can mistake access for extraordinary insight. A correct proof remains an achievement, but its provenance matters. We being read by AI, and subsequently our own utility is read for filth.</p>
-
-
-
-<p class="wp-block-paragraph">The funny thing about AI mathematics is that fear of being left behind encourages us to supply more of our work. Where those interactions enter training, fear of being scooped helps nourish future competition. The more you panic the more you feed the psychic beast.</p>
-
-
-
-<p class="wp-block-paragraph">Such coordination arbitrage has real utility. It also exposes our own failures. If we each learned an epsilon more about one another’s work, how many results would already have been proved?</p>
-
-
-
-<p class="wp-block-paragraph">Before declaring the mathematical community obsolete, we should consider what resources it has been given<math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math>and where future support is being directed. NSF’s new strategic plan for 2026–2030 explicitly emphasizes industry partnerships, startups, and market-ready solutions. What might comparable investment in grants, students, and sustained human collaboration accomplish over decades? We may be losing a generation of mathematicians to the fear that they will have nothing to do. My general belief is that whatever form mathematics is in, we will operate in that environment.</p>
-
-
-
-<p class="wp-block-paragraph">AI’s benefits can also percolate through human conversations. Universal adoption need not be the price of admission. For maintaining cognitive sovereignty, I would bet on people practicing moderation, skepticism, and having fun over performers dressed in off-the-rack theorems.</p>
-
-
-
-<p class="wp-block-paragraph">There are tedious tasks worth automating, and tedious systems worth abolishing. Perhaps we could write shorter papers and help one another expand them. There is plenty to be excited about. Before telling the diary everything, we might try talking to one another.</p>
-
-
-
-<p class="wp-block-paragraph">Many things seem inevitable, but we have a lot of agency over how things play out. If mathematics continues to have value, it will be because the community maintains its values. Mathematics has been a huge force for good in my life, and we deserve to share that with the next generation.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 22 September 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/17/the-more-you-panic-the-more-you-feed-the-pyschic-beast/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1462</post-id>	</item>
 	</channel>
 </rss>

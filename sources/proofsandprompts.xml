@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Tue, 20 Oct 2026 11:26:49 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 22 Oct 2026 15:30:21 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,823 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>The Rules Cannot Change Only for Young Mathematicians: AI and the future of a mathematical career</title>
+		<link>https://proofsandprompts.com/2026/10/22/the-rules-cannot-change-only-for-young-mathematicians-ai-and-the-future-of-a-mathematical-career/</link>
+					<comments>https://proofsandprompts.com/2026/10/22/the-rules-cannot-change-only-for-young-mathematicians-ai-and-the-future-of-a-mathematical-career/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Thu, 22 Oct 2026 14:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Application season]]></category>
+		<category><![CDATA[Labour]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=1893</guid>
+
+					<description><![CDATA[“I am writing neither to defend a complete ban on AI nor to celebrate its unrestricted use, but because I no longer know what rules I am expected to follow, what work will count as my own, or how today's decisions will affect my career. […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph">Anonymous, Postdoc</p>
+
+
+
+<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · As application deadlines approach, Proofs and Prompts is publishing a series of posts from 19 to 23 October for people considering a PhD, doing a PhD or looking for a postdoc: guidelines, discussions and speculation about what to do and what careers in mathematics will look like. This post is one of them. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/application-season/">All posts in the series</a></p>
+
+
+
+<p class="wp-block-paragraph">I am a postdoctoral mathematician working in partial differential equations, and I love what I do. I have preferred doing mathematics to expressing opinions in public, but the rapid changes of recent months have made that difficult.</p>
+
+
+
+<p class="wp-block-paragraph">I am writing neither to defend a complete ban on AI nor to celebrate its unrestricted use, but because I no longer know what rules I am expected to follow, what work will count as my own, or how today&#8217;s decisions will affect my career.</p>
+
+
+
+<p class="wp-block-paragraph">For an established professor, uncertainty about the future may be a subject for an interesting essay; for a doctoral student or postdoc, it can determine whether years of work lead to a job. The same advice does not carry the same risk for everyone.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>My concern is not only what AI can do to mathematics, but what mathematicians and institutions are choosing to do to one another during this transition.</strong></p>
+
+
+
+<h2 class="wp-block-heading">1. We are told that priority will matter less, but the race suggests otherwise</h2>
+
+
+
+<p class="wp-block-paragraph">A recurring message in the recent debate is that recognition should move from being first toward understanding proofs, explaining their ideas, and making them useful to others.</p>
+
+
+
+<p class="wp-block-paragraph">In <em>Mathematics in the age of AI</em>, Terence Tao argues for less emphasis on proof generation and being first. Amit Harlev goes further: “when a result is proven by an AI, priority should carry no reward.” Timothy Gowers predicts that the credit system will collapse, while defending credit as long as careers depend on it. Benoit Henry questions whether a theorem belongs to whoever obtains it first when someone else could quickly do so with a similar system. [<a href="#ref-1">1</a>, <a href="#ref-2">2</a>, <a href="#ref-3">3</a>, <a href="#ref-4">4</a>]</p>
+
+
+
+<p class="wp-block-paragraph">Bryna Kra offers a concrete proposal: “Journals need to distinguish and credit the roles of discovery, proof, formalization and explanation.” Grant Sanderson observes that “every AI-generated proof is born an unsolved exposition problem.” [<a href="#ref-5">5</a>, <a href="#ref-6">6</a>]</p>
+
+
+
+<p class="wp-block-paragraph">I welcome greater credit for explanation, but cannot behave as though that transition has happened while the consequences of being second remain uncertain. A postdoc cannot pay rent with a prediction that exposition will eventually become prestigious.</p>
+
+
+
+<p class="wp-block-paragraph">The possibility that another person or laboratory could obtain a proof quickly can intensify the pressure to announce first, even as we are asked to slow down, check the literature, understand everything, and write carefully.</p>
+
+
+
+<p class="wp-block-paragraph">Nor do I accept that mathematics was always about understanding rather than solving problems: I value both learning a beautiful argument and finding one that did not previously exist. I do not want either experience dismissed merely because the other may be easier to preserve.</p>
+
+
+
+<p class="wp-block-paragraph">The familiar name “Fermat&#8217;s little theorem” reminds me that discovery, proof, and naming are not the same thing. Historical names offer no reliable rulebook for present-day authorship; we need to distinguish priority, authorship, attribution, and understanding explicitly.</p>
+
+
+
+<h2 class="wp-block-heading">2. What exactly does an AI-generated proof entitle its producer to claim?</h2>
+
+
+
+<p class="wp-block-paragraph">Jihao Liu states the practical dilemma unusually clearly:</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">“Consider the following situation. I use AI to produce a paper whose result is important. What should I do?</p>
+
+
+
+<ol class="wp-block-list">
+<li>I post the paper to arXiv. Then I am criticized for not having verified the paper in detail. This goes against my values as a mathematician.</li>
+
+
+
+<li>I do not post the paper anywhere. But what if someone else obtains the result and posts it before me? In that case I lose the credit.” [<a href="#ref-7">7</a>]</li>
+</ol>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">He posts some machine-checked, not yet human-verified papers on a separate webpage rather than arXiv, and requires a timestamp when recognizing prior independent work. [<a href="#ref-7">7</a>]</p>
+
+
+
+<p class="wp-block-paragraph">Liu is frank about protecting priority, but the order troubles me: secure the claim first, complete verification and repair attribution afterward. Treating credit as his to grant strikes me as cynical. His offers of shared credit and coauthorship recognize the value of checking, simplifying, and explaining, but leave unclear what the announcement reserves and what later contributors can earn. [<a href="#ref-7">7</a>]</p>
+
+
+
+<p class="wp-block-paragraph">What credit has the initial producer earned before these other contributions have been made? Does a public timestamp establish priority for a theorem, a candidate argument, or merely a generated document? If the proof is correct but its attribution incomplete, what is owed to the people whose ideas supplied most of it?</p>
+
+
+
+<p class="wp-block-paragraph">Marco Trombetti&#8217;s ProofForum proposal distinguishes generating, checking, repairing, simplifying, and explaining without endorsing Liu&#8217;s entire policy: “verification could itself become a visible mathematical contribution.” Recognition need not stop with the generator, and credibility can develop through public examination. [<a href="#ref-8">8</a>] That may be useful, but a record of contributions is not yet an agreed system for allocating jobs, prizes, publishing rights, or theorem names.</p>
+
+
+
+<p class="wp-block-paragraph">Ruodu Wang supports human understanding and rewriting, but identifies the incentive problem: “Being the second to solve a problem has low or no value.” His model rewards posting AI output immediately over taking time to understand and rewrite it. [<a href="#ref-9">9</a>] Even a reduced but positive reward for first place preserves that disadvantage if second place earns nothing; Wang&#8217;s argument is that careful work needs changed incentives, not advice alone. [<a href="#ref-9">9</a>]</p>
+
+
+
+<p class="wp-block-paragraph">Removing priority creates another difficulty: junior researchers depend on the problems they solve, rather than the established reputations and other recognized roles of senior mathematicians. Wang writes: “I do not see a good system of evaluating junior mathematicians.” A new ideal is not yet a viable career. [<a href="#ref-9">9</a>]</p>
+
+
+
+<p class="wp-block-paragraph"><strong>We cannot preserve the reward for speed, demand slow and careful work, and leave the people with the least job security to absorb the conflict.</strong></p>
+
+
+
+<h2 class="wp-block-heading">3. The Navier–Stokes dispute: different results, unresolved standards</h2>
+
+
+
+<p class="wp-block-paragraph">The September controversy involving Tristan Buckmaster, Levent Alpöge, and OpenAI left me with a bitter feeling. As a PDE researcher, I wanted to understand both the mathematics and its implications for research practice.</p>
+
+
+
+<p class="wp-block-paragraph">The mathematical claims should first be kept distinct. OpenAI&#8217;s September 8 announcement claimed a smooth-forcing Navier–Stokes blow-up result establishing alternatives C and D of the Millennium Prize formulation, alongside a separate unforced Euler result. It distinguishes these from Alpöge and Buckmaster&#8217;s forced Euler work and denies that their unpublished work or recent Codex prompts influenced its system. These are OpenAI&#8217;s stated claims and account. [<a href="#ref-10">10</a>]</p>
+
+
+
+<p class="wp-block-paragraph">In the Q&amp;A of Buckmaster’s September 23rd NYU talk, he says: “Those physical mechanisms that I can explain to you guys came out from LLM.” In his account, AI supplied important mechanisms while human expertise directed the search and helped reconstruct the argument. A label such as “Alpöge–Buckmaster, 2026” therefore needs a clear account of what the researchers proposed, what the systems generated, and who verified and rewrote the proof. [<a href="#ref-12">12</a>]</p>
+
+
+
+<p class="wp-block-paragraph">He also describes working with Alpöge through internal models: “it&#8217;s not just internal models it&#8217;s internal compute.” His point that many agents can matter as much as a better model distinguishes their resources from an ordinary subscription. [<a href="#ref-12">12</a>]</p>
+
+
+
+<p class="wp-block-paragraph">Buckmaster questions credit based on “who does something the fastest” and says: “I think this race dynamics doesn&#8217;t make sense.” WIRED reports that he released unfinished papers to get ahead of OpenAI’s announcement and accepted responsibility for cleaning them up. Wanting priority to matter less while protecting work under unchanged rules is understandable—and precisely the dilemma younger mathematicians face. The question is not whether one researcher should have solved the incentive problem alone, but whether the community can advise young mathematicians to leave the race while continuing to reward those who enter it. [<a href="#ref-12">12</a>, <a href="#ref-11">11</a>]</p>
+
+
+
+<p class="wp-block-paragraph">As of 1 October, more than three weeks after the 7 September announcement, I had not found a revised exposition of the forced Euler proof that resolved my readability concerns. Expecting a world-class fluid dynamics expert such as Buckmaster to produce one does not settle what recognition the initial release deserves. [<a href="#ref-27">27</a>]</p>
+
+
+
+<p class="wp-block-paragraph">If an unfinished announcement preserves recognition while a readable proof follows later, is the same option open to a doctoral student or postdoc? What standard of verification and exposition must be met before release, and what recognition remains available to someone who waits?</p>
+
+
+
+<p class="wp-block-paragraph">Buckmaster’s talk and NYU’s announcement explicitly credit Diego Córdoba and Luis Martínez-Zoroa’s program and strategy, yet public attention can favor the final announcement over the work that made it possible. [<a href="#ref-12">12</a>, <a href="#ref-27">27</a>]</p>
+
+
+
+<p class="wp-block-paragraph">Neither Isabella Ward’s 19 September WIRED article, “Mathematicians Feel Threatened by AI. They Can’t Quit It,” nor the 8 September OfficeChai report, “OpenAI Says It Didn’t See Any Of Buckmaster And Alpöge’s Work While Resolving Navier-Stokes,” names Córdoba or Martínez-Zoroa. My concern is that press coverage of priority disputes in the AI era will tend to focus on who obtained or announced a result first, while overlooking the foundational mathematical work—and the people behind it—that made those AI-assisted discoveries possible. [<a href="#ref-11">11</a>, <a href="#ref-28">28</a>]</p>
+
+
+
+<h2 class="wp-block-heading">4. This is not an abstract problem for me</h2>
+
+
+
+<p class="wp-block-paragraph">I have checked and rewritten an AI-generated proof of a problem I had not worked on for roughly ten years, but have not published it. A group I will not name is pursuing the same question; as far as I know, they have not resolved it, and my argument appears to take a different route from their earlier attempts. Should I post it with a detailed account of the AI contribution, contact the group first, or offer collaboration? If I present the result at a conference, should I write “Theorem [my name, 2026]” on the slide, and would publishing it help my career, damage my reputation, or both?</p>
+
+
+
+<p class="wp-block-paragraph">I am not asking to claim someone else&#8217;s ideas, but what credit checking and rewriting earns; that cannot depend on which influential mathematician is asked.</p>
+
+
+
+<p class="wp-block-paragraph">Meanwhile, I am finishing a substantial article developed over about a year with pen and paper, not with AI. Almost daily, I fear being scooped by someone, perhaps using AI, who posts first: my understanding would remain, but the publication opportunity and recognition for a year of independent work might not.</p>
+
+
+
+<p class="wp-block-paragraph">Antonio Auffinger&#8217;s <em>Open problems, open mathematics</em> warns that others can quickly complete a publicly shared strategy, making unfinished ideas risky to share. His call to reshape incentives aims to protect openness for the least secure researchers. [<a href="#ref-13">13</a>] I want to continue sharing ideas, asking colleagues questions, and doing careful work without making secrecy, haste, and suspicion the rational way to survive.</p>
+
+
+
+<h2 class="wp-block-heading">5. Recognition, jobs, and the cost of disclosure</h2>
+
+
+
+<p class="wp-block-paragraph">Another part of the debate makes these choices even more difficult: some mathematicians do not merely question the value of AI-generated papers, but predict reputational damage for AI users or propose institutional preferences against their work.</p>
+
+
+
+<p class="wp-block-paragraph">In <em>Where I Stand on AI</em>, Vladimir Lazić predicts that attaching one&#8217;s name to a partially AI-produced paper can destroy a mathematician&#8217;s reputation. Addressing researchers without tenure, he writes:</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">“you will never get tenure, unless you are being pushed by someone in your camp who has tenure.” [<a href="#ref-14">14</a>]</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">Although this is a prediction rather than evidence about hiring committees generally, a junior researcher cannot ignore the possibility that some evaluators share that attitude.</p>
+
+
+
+<p class="wp-block-paragraph">Donatella Iacono, explicitly following Lazić’s principles, states: “I do not support hiring of academic staff who use AI as a substitute for their own work.” She takes the same position on supervising doctoral and postdoctoral researchers. [<a href="#ref-32">32</a>]</p>
+
+
+
+<p class="wp-block-paragraph">Max Weinreich goes beyond predicting reputational consequences: in <em>The crisis of AI-generated mathematics</em>, he proposes “reserving hire lines for mathematicians who eschew AI” and “valuing AI-free papers more highly in tenure promotion.” These are proposals for allocating opportunities differently, not merely expressions of a personal preference. [<a href="#ref-15">15</a>]</p>
+
+
+
+<p class="wp-block-paragraph">Atticus Stonestrom makes a direct proposal about access to publication:</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">“Traditional journals should ban papers in which AI has played a coauthor-level role, and new venues should be established for the publication of such papers.” [<a href="#ref-16">16</a>]</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">Without a ban, Stonestrom proposes distinguishing such papers and capping their annual publication. He cites authorship and scarce refereeing resources, acknowledges that restrictions may encourage concealment, but argues that this should not determine standards. Even a carefully checked paper could be excluded from a traditional journal. [<a href="#ref-16">16</a>]</p>
+
+
+
+<p class="wp-block-paragraph">A young researcher does not need a profession-wide ban to find these positions alarming: a few editors or hiring-committee members can have a decisive effect on a career. Honest disclosure may carry lasting consequences when it can reduce recognition or make a paper ineligible for a journal.</p>
+
+
+
+<p class="wp-block-paragraph">Martin Hairer instead argues that “articles are judged on their merits, independently of the tools being used” and that disclosure should not automatically reduce a paper&#8217;s value, while retaining human scrutiny, understanding, and writing as requirements. [<a href="#ref-17">17</a>]</p>
+
+
+
+<p class="wp-block-paragraph">What should a postdoc make of these competing messages: use AI responsibly and disclose it, avoid it to demonstrate independent ability, use it or fall behind, yet risk losing recognition by doing so? These are not small differences in taste when employment is at stake.</p>
+
+
+
+<p class="wp-block-paragraph">I have heard colleagues describe the strongest anti-AI views as resistance to an inevitable technology, while others say they reflect a larger, quieter part of the profession. I do not know which claim is correct, since neither a collection of essays nor my conversations establishes what most mathematicians believe.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>What is already visible is uncertainty about the consequences of honesty, and that uncertainty deserves an institutional response.</strong></p>
+
+
+
+<h2 class="wp-block-heading">6. What the publication and disclosure data actually show</h2>
+
+
+
+<p class="wp-block-paragraph">The data show rapid change without establishing how much AI use is undisclosed or why.</p>
+
+
+
+<p class="wp-block-paragraph">Tammy Kolda and Daniel Appelo count 6,307 primary-mathematics arXiv announcements in August 2026, up 2,785 from 3,522 a year earlier—about 79%, versus 43% across arXiv. [<a href="#ref-18">18</a>]</p>
+
+
+
+<figure class="wp-block-image size-large wp-duotone-default"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="605" data-attachment-id="1891" data-permalink="https://proofsandprompts.com/figure-1-arxiv-math-announcements/" data-orig-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/figure-1-arxiv-math-announcements.png?fit=1511%2C893&amp;ssl=1" data-orig-size="1511,893" data-comments-opened="1" data-image-title="Figure 1: arXiv mathematics announcements, August 2025 and August 2026" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/figure-1-arxiv-math-announcements.png?fit=1024%2C605&amp;ssl=1" src="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/figure-1-arxiv-math-announcements.png?resize=1024%2C605&#038;ssl=1" alt="Bar chart of new arXiv announcements with mathematics as the primary category: 3,522 in August 2025 and 6,307 in August 2026, an increase of 79.1%." class="wp-image-1891" srcset="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/figure-1-arxiv-math-announcements.png?resize=1024%2C605&amp;ssl=1 1024w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/figure-1-arxiv-math-announcements.png?resize=300%2C177&amp;ssl=1 300w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/figure-1-arxiv-math-announcements.png?resize=768%2C454&amp;ssl=1 768w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/figure-1-arxiv-math-announcements.png?w=1511&amp;ssl=1 1511w" sizes="(max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Figure 1. New arXiv mathematics announcements, using the primary-category counts reported by Kolda and Appelo. Re-created from their data. [<a href="#ref-18">18</a>]</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">Benoit Henry reports single-author counts of 1,174 and 2,603 for those months (about 122% growth), with 809 later papers mentioning AI. He cautions that the counts are uncertain; single authorship is not evidence of AI use, and an AI mention is not necessarily a carefully classified disclosure. [<a href="#ref-4">4</a>]</p>
+
+
+
+<p class="wp-block-paragraph">Xiaoshn Nee, Haobo Zhong, and Xiaomin Ni find growth in 29 of 30 primary mathematics categories; the share of active author units posting at least five papers in January–August rose from 2.45% in 2025 to 3.80% in 2026. [<a href="#ref-29">29</a>]</p>
+
+
+
+<p class="wp-block-paragraph">Tara Abrishami&#8217;s Epoch AI analysis finds that disclosures of any AI use rose from 3.89% in April 2026 to 25.25% in August (1,453 of 5,754 papers); 337, or 5.86%, disclosed substantial research contributions. The broader category includes writing, computation, and literature review. [<a href="#ref-19">19</a>]</p>
+
+
+
+<figure class="wp-block-image size-large wp-duotone-default"><img data-recalc-dims="1" decoding="async" width="1024" height="574" data-attachment-id="1892" data-permalink="https://proofsandprompts.com/figure-2-ai-use-disclosures/" data-orig-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/figure-2-ai-use-disclosures.png?fit=1601%2C898&amp;ssl=1" data-orig-size="1601,898" data-comments-opened="1" data-image-title="Figure 2: voluntary AI-use disclosures in math preprints, January to August 2026" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/figure-2-ai-use-disclosures.png?fit=1024%2C574&amp;ssl=1" src="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/figure-2-ai-use-disclosures.png?resize=1024%2C574&#038;ssl=1" alt="Line chart of the share of examined primary-math preprints that disclose AI use, by first-submission month from January to August 2026. Any disclosed AI use rises steeply from June, reaching 25.25% in August; disclosed substantial research contribution reaches 5.86% in August." class="wp-image-1892" srcset="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/figure-2-ai-use-disclosures.png?resize=1024%2C574&amp;ssl=1 1024w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/figure-2-ai-use-disclosures.png?resize=300%2C168&amp;ssl=1 300w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/figure-2-ai-use-disclosures.png?resize=768%2C431&amp;ssl=1 768w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/figure-2-ai-use-disclosures.png?resize=1536%2C862&amp;ssl=1 1536w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/figure-2-ai-use-disclosures.png?w=1601&amp;ssl=1 1601w" sizes="(max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Figure 2. Voluntary AI-use disclosures in the examined math preprint corpus. Re-created from Abrishami / Epoch AI, with attribution (CC BY). These are not estimates of all undisclosed use. [<a href="#ref-19">19</a>]</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">Yet three quarters of Epoch’s August papers made no acknowledgment; this group grew from 3,260 in August 2025 to 4,301 in August 2026 (about 32%). Silence does not tell us whether AI was used, and differing corpora and counting conventions prevent simply combining the studies’ totals. [<a href="#ref-19">19</a>]</p>
+
+
+
+<p class="wp-block-paragraph">In Kimball Martin&#8217;s August 2026 number-theory sample, 12.0% disclosed AI writing while 20.7% were flagged for apparent AI writing. The imperfect detector and unpublished scoring rule make this suggestive only; Martin warns that a score is not a verdict. [<a href="#ref-20">20</a>]</p>
+
+
+
+<p class="wp-block-paragraph">These counts neither identify concealed use in individual papers nor prove large-scale concealment, but common sense suggests that incentives to publish faster, coupled with fear of penalties for disclosure, can encourage silence. I suspect some use goes unacknowledged partly because of stigma.</p>
+
+
+
+<p class="wp-block-paragraph">Harlev identifies the underlying incentive: evaluating declared AI work less favorably can punish honest researchers without reliably detecting undisclosed use. [<a href="#ref-2">2</a>] We should therefore demand precise disclosures and fair evaluation together, since one without the other creates a predictable conflict.</p>
+
+
+
+<h2 class="wp-block-heading">7. Equal rules require more than equal advice</h2>
+
+
+
+<p class="wp-block-paragraph">Access depends not only on whether someone chooses to use AI, but on the models, computing budget, and support available to them. OpenAI&#8217;s September account describes an internal model more capable than the public comparator, placing that work in a different setting from a postdoc&#8217;s ordinary subscription. [<a href="#ref-10">10</a>]</p>
+
+
+
+<p class="wp-block-paragraph">I worry that personal connections to laboratories may become a research advantage. Does staying competitive now require knowing someone who can provide access to an internal system or a large computing budget? What happens to mathematicians who have neither those connections nor an institution able to buy equivalent resources? Such access must be visible in evaluation: a publication list should not conceal the difference between an individual subscription and large, privately supported searches.</p>
+
+
+
+<p class="wp-block-paragraph">The Advisory Group on Mathematics and Artificial Intelligence’s September 29 recommendations warn that proprietary models risk a “two-tier system” and unequal access to public models a “multi-tier hierarchy.” It calls for broad, equitable access. [<a href="#ref-21">21</a>]</p>
+
+
+
+<p class="wp-block-paragraph">On 1 October 2026, Claude Max 20x and ChatGPT Pro 200 each cost US$200 monthly; the new ChatGPT Pro 500 costs US$500. Both highest-tier subscriptions total US$700 monthly, or US$8,400 annually, before taxes, exchange charges, and separate computing costs. [<a href="#ref-30">30</a>, <a href="#ref-31">31</a>]</p>
+
+
+
+<p class="wp-block-paragraph">Across developing countries and lower-paid academic systems in developed countries, stipends and salaries may leave little for these subscriptions after living expenses, especially when researchers personally fund multiple services. An expense routine for a well-funded department may be unsustainable for an equally capable mathematician elsewhere, rewarding institutional resources and personal finances rather than talent, effort, or the quality of research questions.</p>
+
+
+
+<p class="wp-block-paragraph">Researchers should not have to choose between living expenses and tools increasingly treated as necessary. Institutional support helps, but identical prices do not mean equal access, and subscriptions do not fund thousands of parallel agents.</p>
+
+
+
+<p class="wp-block-paragraph">The Leiden Declaration links AI use to human responsibility, transparency, and its effects on the profession; these principles must apply equally to researchers with and without privileged access. [<a href="#ref-22">22</a>]</p>
+
+
+
+<p class="wp-block-paragraph">Orwell’s <em>Animal Farm</em> comes to mind when formal equality coexists with unequal opportunities: I do not want one standard for insiders and another for outsiders, or strict rules for students with exceptions for established names.</p>
+
+
+
+<h2 class="wp-block-heading">8. What future are we offering PhD students?</h2>
+
+
+
+<p class="wp-block-paragraph">I welcome the Harvard summit on doctoral education in the age of AI. Its September 17–18 meeting brought together 24 mathematicians, produced recommendations for departmental discussion, and explicitly thanked the graduate students and postdocs who participated in a panel. [<a href="#ref-23">23</a>]</p>
+
+
+
+<p class="wp-block-paragraph">Consultation, however, is not the same as an ongoing role in decisions. How will students and postdocs participate in setting the rules that govern their training and evaluation? Who will represent people outside the institutions already most influential in this debate?</p>
+
+
+
+<p class="wp-block-paragraph">The report favors demonstrated mastery over the dissertation alone and says it “need not be a requirement for the thesis to have recorded the first proof.” This may protect students whose work is unexpectedly overtaken, but protection within a PhD program does not automatically carry into the job market. [<a href="#ref-24">24</a>]</p>
+
+
+
+<p class="wp-block-paragraph">If an adviser asks a student to wait until an AI-generated argument is fully understood, and someone else posts a less readable version first, will the student still receive comparable recognition? Will thesis and hiring committees use compatible standards?</p>
+
+
+
+<p class="wp-block-paragraph">There can be good educational reasons to restrict tools while students learn a skill; equal treatment need not mean identical training for students and experienced researchers, but the distinction must be explained, bounded, and accompanied by protection against resulting disadvantages.</p>
+
+
+
+<p class="wp-block-paragraph">Senior mathematicians should ask what research opportunities they are preserving for students. If a problem can now be explored quickly using AI, should every such opportunity become another paper on an established researcher&#8217;s list, or could some become genuinely collaborative training projects? This concerns mentorship when the supply of attractive projects may change rapidly, not a demand that senior researchers stop research.</p>
+
+
+
+<p class="wp-block-paragraph">Above all, what life are we inviting a talented mathematics graduate to pursue? Many of us entered the subject because we wanted to experience the struggle and joy of discovery: working through failed ideas, finding the right argument, and reaching a moment of understanding through our own effort.</p>
+
+
+
+<p class="wp-block-paragraph">Jonny Evans explains why research produces more than a paper: “The ‘output’ is a person who understands something better,” someone who can carry that understanding into research and teaching. I share his concern that more results do not necessarily mean more capable mathematicians. [<a href="#ref-33">33</a>]</p>
+
+
+
+<p class="wp-block-paragraph">Teaching, exposition, and verification are already part of the mathematics I love, but a career centered on checking machine output, teaching calculus, linear algebra, and differential equations to engineering and computer-science students, and explaining results generated inside commercial laboratories may not appeal to people who hoped to become researchers. Calling that concern nostalgia does not answer it.</p>
+
+
+
+<p class="wp-block-paragraph">I fear losing both discovery and professional security while being told that a more demanding system of oral assessments and repeated demonstrations of understanding is the solution. Such assessments may be appropriate, but they do not, by themselves, offer a positive account of the career that follows.</p>
+
+
+
+<p class="wp-block-paragraph">A field that fails to attract and support its next generation cannot preserve itself through inspiring statements alone.</p>
+
+
+
+<h2 class="wp-block-heading">9. What institutions need to say clearly</h2>
+
+
+
+<p class="wp-block-paragraph">What I need from the people who hire, promote, edit journals, award grants, and supervise students is not another assurance that mathematics will always matter, but practical answers.</p>
+
+
+
+<p class="wp-block-paragraph">Ben Antieau puts one proposal plainly: “Do not recruit, hire, promote, or praise based on the number of papers.” Daniel Litt argues that sustained mathematical discussion and talks can demonstrate understanding better than papers alone. Henry similarly asks hiring committees to stop counting articles. [<a href="#ref-25">25</a>, <a href="#ref-26">26</a>, <a href="#ref-4">4</a>]</p>
+
+
+
+<p class="wp-block-paragraph">These proposals need to become public rules before researchers can rely on them when choosing projects, tools, or publication venues.</p>
+
+
+
+<p class="wp-block-paragraph">I want clear answers in six areas.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Permitted use and responsibility.</strong> Which uses of AI are acceptable in research, dissertations, and submitted papers? How do the rules distinguish language editing, coding, literature searches, suggested lemmas, generated proofs, and largely autonomous work? What must every named author understand and be able to defend?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Release and priority.</strong> May someone release a proof that is not human-verified? Does a Lean-checked proof have a different status? Is understanding the broad strategy sufficient, or must the details be checked before release? What priority, if any, attaches to an unfinished write-up accompanied by a promise to improve it?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Authorship and attribution.</strong> What contributions justify authorship, and what contributions require a different form of recognition? How are the people who supplied prior methods, directed the search, repaired the proof, formalized it, or explained it credited? What must happen when the initial attribution is incomplete?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Hiring, promotion, and publication.</strong> Will good, selective mathematics journals accept AI-generated but human-verified proofs under the same standards as other research papers? How much original human input will they require? Will a clear explanation, simplification, or independent reconstruction of an already announced AI result satisfy their standards of originality and significance, or be excluded as exposition? Will those requirements be public before authors invest months in a project?</p>
+
+
+
+<p class="wp-block-paragraph">Will hiring and promotion committees continue to expect the same quantity of publications, journal prestige, citation counts, and h-index as before—or raise those expectations because AI can accelerate production? If understanding and exposition are to count more, what evidence will be accepted in place of those measures, and will it lead to comparable professional opportunities? Will a mathematician working without AI be judged against AI-assisted output rates? Will someone who discloses careful AI use be penalized for doing so? How can candidates challenge decisions based on standards that were never announced?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Training and protection.</strong> How will students retain opportunities for independent discovery? How will a student who follows careful verification rules be protected from the resulting delay? How will institutions recognize substantial work that loses chronological priority?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Access and implementation.</strong> Who will fund the tools that new expectations require? How will unequal model access and computing budgets be considered? Which rules apply across institutions, when do they begin, and how will students and postdocs participate in reviewing them?</p>
+
+
+
+<p class="wp-block-paragraph">I am asking not for a universal numerical formula for mathematical worth, but for public standards that guide decisions without changing according to a person&#8217;s reputation.</p>
+
+
+
+<h2 class="wp-block-heading">10. The future should not be decided over our heads</h2>
+
+
+
+<p class="wp-block-paragraph">For the first time, I am seriously considering leaving mathematics—a painful sentence to write after almost twenty-five years of passion, thought, and effort. What makes me consider leaving is not that a machine can do something I cannot, but that I no longer trust the profession to offer a fair and intelligible path forward.</p>
+
+
+
+<p class="wp-block-paragraph">What troubles me most is the possibility that established researchers will keep the advantages of the old system while younger people accept the obligations of a new one. Even when individuals act in good faith, the appearance of that double standard is damaging and should be addressed through transparent rules rather than dismissed as anxiety about technological change.</p>
+
+
+
+<p class="wp-block-paragraph">What I am asking for is a profession in which careful work is not punished for being slow, honesty is not punished for being visible, and access to powerful tools is not confused with mathematical merit.</p>
+
+
+
+<p class="wp-block-paragraph">I would welcome an <strong>emergency international meeting, with the reach and seriousness of an ICM,</strong> devoted to these questions. It should include doctoral students, postdocs, mathematicians from less wealthy institutions and countries, journal editors, hiring committees, and funding bodies—not only the people who already have the most secure positions. Its aim should be concrete, revisable standards for research, credit, training, and careers, together with a timetable for putting them into practice.</p>
+
+
+
+<p class="wp-block-paragraph">No meeting can settle every question permanently, but we can do better than leaving young researchers to discover the real rules only when an application is rejected.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>My deepest fear is not that AI will destroy the career of a mathematician, but that mathematicians will make it unlivable through unequal rules, opaque incentives, and a failure to protect the people who come next.</strong></p>
+
+
+
+<p class="wp-block-paragraph">I do not yet have a settled position on every use of AI in mathematics, but I do have a clear position on fairness: the rules cannot change only for the young.</p>
+
+
+
+<h2 class="wp-block-heading">AI assistance disclosure</h2>
+
+
+
+<p class="wp-block-paragraph">AI was used to translate my draft into English, revise its language and organization, assist with literature searches, and suggest relevant quotations and statistics. The personal experiences and central concerns originate in my draft.</p>
+
+
+
+<h2 class="wp-block-heading">Sources and references</h2>
+
+
+
+<p class="wp-block-paragraph" id="ref-1">[1] Terence Tao. <a href="https://arxiv.org/abs/2608.16753">Mathematics in the age of AI.</a> arXiv:2608.16753, 17 August 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-2">[2] Amit Harlev. <a href="https://proofsandprompts.com/2026/09/25/dear-conferences-journals-and-hiring-committees-dont-wait-for-everyone-else/">Dear conferences, journals, and hiring committees: don’t wait for everyone else.</a> Proofs and Prompts, 25 September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-3">[3] Timothy Gowers. <a href="https://gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/">Why I didn’t sign the Fields medallists’ letter.</a> Gowers’s Weblog, 17 September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-4">[4] Benoit Henry. <a href="https://proofsandprompts.com/2026/09/28/the-loss-of-singularity/">The Loss of Singularity.</a> Proofs and Prompts, 28 September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-5">[5] Bryna Kra. <a href="https://terrytao.wordpress.com/2026/09/13/deep-theorems-were-scarce-and-difficult-and-so-became-an-effective-mechanism-to-identify-deep-thought-ai-has-broken-this-system/">Deep theorems were scarce and difficult and so became an effective mechanism to identify deep thought. AI has broken this system.</a> What’s New, 13 September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-6">[6] Grant Sanderson. <a href="https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/">If math is more than proof, we need to better celebrate the rest of it.</a> What’s New, 18 September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-7">[7] Jihao Liu. <a href="https://jihaoliu.org/ai-results-about.html">About the page of AI-generated results not verified by a human.</a> Author’s website, undated.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-8">[8] Marco Trombetti. <a href="https://proofsandprompts.com/2026/09/22/proofforum-keeping-ai-generated-mathematics-human/">ProofForum: Keeping AI-Generated Mathematics Human.</a> Proofs and Prompts, 22 September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-9">[9] Ruodu Wang. <a href="https://proofsandprompts.com/2026/08/28/the-ai-assisted-mathematicians-dilemma/">The AI-assisted mathematician’s dilemma.</a> Proofs and Prompts, 28 August 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-10">[10] OpenAI. <a href="https://openai.com/index/navier-stokes-solution/">On the Navier–Stokes Millennium Prize Problem.</a> 8 September 2026; updated 10 September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-11">[11] Isabella Ward. <a href="https://www.wired.com/story/mathematicians-cant-quit-ai/">Mathematicians Feel Threatened by AI. They Can’t Quit It.</a> WIRED, 19 September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-12">[12] Tristan Buckmaster. <a href="https://www.youtube.com/watch?v=tn45ZOp3lXM">[Seminar on AI-assisted fluid dynamics].</a> YouTube video, 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-13">[13] Antonio Auffinger. <a href="https://terrytao.wordpress.com/2026/09/22/open-problems-open-mathematics/">Open problems, open mathematics.</a> What’s New, 22 September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-14">[14] Vladimir Lazić. <a href="https://www.uni-saarland.de/fileadmin/upload/lehrstuhl/lazic/WhereIStand/Principles.pdf">Where I Stand on AI.</a> August 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-15">[15] Max Weinreich. <a href="https://arxiv.org/abs/2608.02859">The crisis of AI-generated mathematics.</a> arXiv:2608.02859v1, 3 August 2026; text updated 5 August 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-16">[16] Atticus Stonestrom. <em>A proposal for mathematics journals in the age of AI</em>. Undated essay.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-17">[17] Martin Hairer. <a href="https://proofsandprompts.com/2026/08/07/writing-mathematics-in-the-age-of-ai/">Writing mathematics in the age of AI.</a> Proofs and Prompts, 7 August 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-18">[18] Tammy Kolda and Daniel Appelo. <a href="https://tammykolda.substack.com/p/a-breakdown-of-arxiv-submissions">A Breakdown of arXiv Submissions in Mathematics.</a> The Loss Function, 21 September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-19">[19] Tara Abrishami. <a href="https://epoch.ai/data-insights/math-preprints-disclosed-ai-use">In August, 25% of math preprints acknowledged AI use, up from 4% in April.</a> Epoch AI, 18 September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-20">[20] Kimball Martin. <a href="https://kimballmartin.github.io/ai-use/">AI use in arXiv NT papers.</a> 5 September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-21">[21] Advisory Group on Mathematics and Artificial Intelligence. <a href="https://agmai.org/general-sep29/">Responsible Release of AI-Generated Mathematics.</a> 29 September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-22">[22] Leiden Declaration working group. <a href="https://leidendeclaration.ai/">Leiden Declaration on Artificial Intelligence and Mathematics.</a> June 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-23">[23] Harvard Center of Mathematical Sciences and Applications. <a href="https://cmsa.fas.harvard.edu/aimathphd_summit/">Summit on PhD Math Education in the Age of AI.</a> 17–18 September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-24">[24] Participants in the Harvard CMSA summit. <a href="https://cmsa.fas.harvard.edu/media/2026/09/Summit-on-PhD-Math-Education-in-the-Age-of-AI.pdf">Report of Summit on PhD Math Education in the Age of AI.</a> September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-25">[25] Ben Antieau. <a href="https://terrytao.wordpress.com/2026/09/15/fast-math-slow-math/">Fast math/slow math.</a> What’s New, 15 September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-26">[26] Daniel Litt. <a href="https://www.daniellitt.com/blog/2026/9/13/a-beginning-for-mathematics/">A beginning for mathematics.</a> 13 September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-27">[27] NYU Courant Institute. <a href="https://cims.nyu.edu/dynamic/news/1528/">Tristan Buckmaster Constructs Finite-Time Blowup for 3D Euler with Smooth Forcing.</a> 14 September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-28">[28] OfficeChai Team. <a href="https://officechai.com/ai/openai-says-it-didnt-see-any-of-buckmaster-and-alpoges-work-while-resolving-navier-stokes/">OpenAI Says It Didn’t See Any Of Buckmaster And Alpöge’s Work While Resolving Navier-Stokes.</a> OfficeChai, 8 September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-29">[29] Xiaoshn Nee, Haobo Zhong, and Xiaomin Ni. <a href="https://arxiv.org/abs/2609.04872">The Generative AI Gold Rush in Theoretical and Computational Research.</a> arXiv:2609.04872, September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-30">[30] OpenAI. <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes">ChatGPT — Release Notes.</a> 29 September 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-31">[31] Anthropic. <a href="https://support.claude.com/en/articles/11049741-what-is-the-max-plan">What is the Max plan?</a> Claude Help Center, accessed 1 October 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-32">[32] Donatella Iacono. <a href="https://www.donatellaiacono.it/">Where I stand on AI.</a> Author’s website, 2026.</p>
+
+
+
+<p class="wp-block-paragraph" id="ref-33">[33] Jonny Evans. <a href="https://jde27.uk/llms.html">Statement on LLMs.</a> Author’s website, undated.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 2 October 2026, revised 19 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/22/the-rules-cannot-change-only-for-young-mathematicians-ai-and-the-future-of-a-mathematical-career/feed/</wfw:commentRss>
+			<slash:comments>35</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1893</post-id>	</item>
+		<item>
+		<title>Is it fish love?</title>
+		<link>https://proofsandprompts.com/2026/10/22/is-it-fish-love/</link>
+					<comments>https://proofsandprompts.com/2026/10/22/is-it-fish-love/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Thu, 22 Oct 2026 11:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<category><![CDATA[Understanding]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=1735</guid>
+
+					<description><![CDATA[Mathematicians are humans, and humans have emotions. This essay scratches the surface of an intricate issue behind a very simple question: in what ways and to what extent are mathematicians’ reactions to AI driven by emotion?]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://tancredi-schettini-gherardini.github.io/">Tancredi Schettini Gherardini</a>, postdoctoral researcher based both at the <a href="https://www.uni-bonn.de/de">University</a> and at the <a href="https://www.mpim-bonn.mpg.de/">Max Planck Institute</a> in Bonn.</p>
+
+
+
+<p class="wp-block-paragraph">This reflection starts with a parable I learnt from a recording of Rabbi Dr Abraham Twerski. He came across a young man who was clearly enjoying a fish that he was eating, and asked: ‘Young man, why are you eating that fish?’. And the young man answered ‘because I love fish!’. The Rabbi said: ‘Oh you love the fish, that’s why you took it out of the water and killed it and boiled it? Don’t tell me you love the fish; you love yourself, and because the fish tastes good to you, therefore you took it out of the water and killed it and boiled it.’</p>
+
+
+
+<p class="wp-block-paragraph">The message is that so much of what is usually called love is actually fish-love, i.e. we don’t love the object/person per se but how it/they make us feel. My intuition is that the nature of one’s love for mathematics is intimately related with their views on AI.<sup data-fn="fn-a37813f9-33c6-4f49-8f16-56ea834351e9" class="fn"><a href="#fn-a37813f9-33c6-4f49-8f16-56ea834351e9" id="fn-a37813f9-33c6-4f49-8f16-56ea834351e9-link">1</a></sup></p>
+
+
+
+<p class="wp-block-paragraph">What is it that drives a mathematician to persevere through pain and frustration until a conjecture is proven or disproven? Is it to establish that they are better than others? Is it the satisfaction which comes from reaching a goal that has required so much of their time and energy? Is it the pleasure of knowing the answer to a question they find really interesting? Supposedly, in practice, it will be a mixture of the three. But is there one which overweighs the other two? Is there one which <em>should</em> outweigh the other two?</p>
+
+
+
+<p class="wp-block-paragraph">The answer is deeply personal, and I shall not argue here whether one is better than another. My message is that to understand our own views on AI for mathematics, the most appropriate starting point is an introspective analysis of why we &#8211; not as a community, but we-ourselves &#8211; love mathematics. This might be a complicated and even disturbing process; but, as Aristotle said, “knowing yourself is the beginning of all wisdom”.</p>
+
+
+
+<p class="wp-block-paragraph">Let me articulate my argument in a way that is agnostic to the notion of what is a <em>correct</em> motivation for doing mathematics. If mathematicians are most concerned with (possibly interesting) answers to interesting questions, then it is quite hard to argue against the benefits of AI in the subject. One can argue about the negative consequences in the general picture that is wider than mathematics (like environmental damage, privacy issues, monopoly, increase of inequality and unemployment, not to mention the risk of extinction); these are all very serious and well-founded worries which would need many essays, and I shall not deal with them here.<sup data-fn="fn-ac675be1-bd2d-4efd-9f07-2b3c8df2a5a1" class="fn"><a href="#fn-ac675be1-bd2d-4efd-9f07-2b3c8df2a5a1" id="fn-ac675be1-bd2d-4efd-9f07-2b3c8df2a5a1-link">2</a></sup></p>
+
+
+
+<p class="wp-block-paragraph">When restricting to the features that are more specific to our discipline, one can argue about the <em>potential risks</em> in mathematics, which I think mainly boil down to two aspects.</p>
+
+
+
+<p class="wp-block-paragraph">Firstly, losing some important habits and routines essential in the practice of doing <em>good mathematics</em> &#8211; mostly those which ensure a deep understanding of the material, such as insightful human interaction, long-term projects and frequent productive struggle, for instance. But, regarding this concern, we have all the tools to deal with it effectively. In fact, we can act upon it by following these good habits ourselves, adapting them in a meaningful way when needed, and transmitting them to the newer generations. To ensure that they keep being part of a mathematician’s workflow, we might require some adjustments on a few fronts, such as the publishing process (where it is desirable to cut out or at least flag AI slop), the hiring process, and many general criteria for judging the quality of a mathematician. This is not just completely in our hands, there is also (almost) complete unanimity: I have never heard any mathematician, optimistic or pessimistic about AI, ever saying that we should give up understanding as a fundamental part of the discipline. To summarise, the temptation of these tools might pull us unwillingly away from understanding, but this risk has already been identified and acknowledged by our community and we have the power to make practical changes discouraging and preventing misuse of AI; in fact a few of these changes have already been implemented and many are currently being discussed.<sup data-fn="fn-1a660973-d3e8-488b-981c-9a2d3fe1f42a" class="fn"><a href="#fn-1a660973-d3e8-488b-981c-9a2d3fe1f42a" id="fn-1a660973-d3e8-488b-981c-9a2d3fe1f42a-link">3</a></sup></p>
+
+
+
+<p class="wp-block-paragraph">The second risk, which I personally consider to be scarier, is that of mathematics losing appeal for young bright minds; once more, it is up to us to not let this happen, illustrating how AI can be embraced in a constructive way, without disrupting the essential features of our field and the understanding-related practices mentioned above. Maybe even more importantly, it is hard to believe that the conservative choice of refusing any use of AI could attract more smart kids to join our community.</p>
+
+
+
+<p class="wp-block-paragraph">As of today, I do not see bigger problems than these two, which are only potential. And so, what are the benefits?</p>
+
+
+
+<p class="wp-block-paragraph">Since a few months ago, most of us have had our own version of Namagiri Thayar. It does not reveal formulas in our dreams, like the Hindu goddess used to do with Ramanujan, but it does so while we are awake and sitting in front of our laptop.<sup data-fn="fn-bdc18a6c-e3a0-4aaf-b33f-b118e07b022d" class="fn"><a href="#fn-bdc18a6c-e3a0-4aaf-b33f-b118e07b022d" id="fn-bdc18a6c-e3a0-4aaf-b33f-b118e07b022d-link">4</a></sup><br>Our reaction to this fact seems a bit different from the one people had one hundred years ago: I did not find any references of mathematicians from that time complaining about these revelations, nor signing petitions for banning Namagiri Thayar from Ramanujan’s dreams. But now that we all have something equivalent, a different chord was struck in the collective consciousness of our community. A purely emotional one, I argue; because if one’s priority is really the progress of mathematics, then why not embrace this new reality, made of Ramanujan-like moments, driven by AI suggestions, constructions, and results, and Hardy-like moments, trying to make sense of these results, with rigour, clarity and sharp understanding. If one’s love for mathematics is a genuine strive for advancement, and not simply the fish-love of Twerski, then it is impossible to not see the incredible chance we have to push our explorations in this beautiful subject.</p>
+
+
+
+<p class="wp-block-paragraph">The opposite is true if one’s love for mathematics mainly comes from the way that mathematics makes them feel. The feelings of finding a new clever way around a seemingly insurmountable obstruction, constructing a special interesting object that no one had thought of, or proving an important theorem for the first time, are all very much at risk. Because that new argument, example, or proof, could be generated by an LLM operated by someone who may or may not, in many instances, be an expert in the subject; in that case, the emotions which usually come with the mathematical discovery/invention are just gone.</p>
+
+
+
+<p class="wp-block-paragraph">The truth is that inside everyone’s passion for mathematics, and inside everyone’s love for someone or something, there is often a component of genuine and unselfish love, inevitably mixed with some fish-love. We are humans, after all. But if the former prevails, and we are driven by the sincere admiration of the exquisitely intellectual activity that has led humans from a few primitive logical observations to the immense and sophisticated body of knowledge that we have today, we might live the advent of AI with more optimism.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 24 September 2026.</p>
+
+
+<ol class="wp-block-footnotes"><li id="fn-a37813f9-33c6-4f49-8f16-56ea834351e9">Throughout this essay, I will use ‘mathematics’ to mean ‘pure mathematics’ and ‘mathematicians’ to mean ‘pure mathematicians’. Many of the considerations below apply in general, but not all of them. <a href="#fn-a37813f9-33c6-4f49-8f16-56ea834351e9-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-ac675be1-bd2d-4efd-9f07-2b3c8df2a5a1">Let me spend a few words on those global consequences which impact mathematicians as a part of society. The first one is the possible shortage of funding; as of today, theorems in mathematics are a perfectly inelastic good, and there is no good evidence to suggest they should change to be so. Concerning inequality, that is a real issue which should be dealt with; it might be mitigated by the improvement of open-weights models, but there is no guarantee. In any case, this social aspect is somewhat orthogonal to the one I would like to focus on, i.e. the development of mathematics itself. Regarding privacy and intellectual property, they are also real concerns, but it seems possible to deal with them. One can use incognito sessions for sensitive material and do a much more detailed literature search than just quoting the LLM’s output, respectively. <a href="#fn-ac675be1-bd2d-4efd-9f07-2b3c8df2a5a1-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-1a660973-d3e8-488b-981c-9a2d3fe1f42a">One might argue that a foreseeable future scenario is that in which we delegate <em>all</em> of our thinking to the machines. Once more, that is ultimately up to us, and not a very likely prediction under mildly optimistic assumptions. Finally, if that will really be the case, we will have bigger problems than worrying about mathematics&#8230; <a href="#fn-1a660973-d3e8-488b-981c-9a2d3fe1f42a-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-bdc18a6c-e3a0-4aaf-b33f-b118e07b022d">With all the obvious caveats, of course, such as hallucinations (although very rare nowadays) and the abundance of AI slop. <a href="#fn-bdc18a6c-e3a0-4aaf-b33f-b118e07b022d-link" aria-label="Jump to footnote reference 4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/22/is-it-fish-love/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1735</post-id>	</item>
+		<item>
+		<title>Is There Actually a Good Way to Use AI for Math?</title>
+		<link>https://proofsandprompts.com/2026/10/22/is-there-actually-a-good-way-to-use-ai-for-math/</link>
+					<comments>https://proofsandprompts.com/2026/10/22/is-there-actually-a-good-way-to-use-ai-for-math/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Thu, 22 Oct 2026 09:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[In practice]]></category>
+		<category><![CDATA[Application season]]></category>
+		<category><![CDATA[Experiments and practice]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2533</guid>
+
+					<description><![CDATA[The post describes a workflow for using AI in theoretical research that I gradually developed while working on these projects. I am especially interested in whether experienced mathematicians use similar methods, even if they do not describe them as prompts or formal workflows.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://scholar.google.com/citations?user=bCOu0IUAAAAJ&amp;hl=en">Yushang Cheng</a>, Undergraduate student, China</p>
+
+
+
+<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · As application deadlines approach, Proofs and Prompts is publishing a series of posts from 19 to 23 October for people considering a PhD, doing a PhD or looking for a postdoc: guidelines, discussions and speculation about what to do and what careers in mathematics will look like. This post is one of them. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/application-season/">All posts in the series</a></p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><em>The author first drafted these reflections in Chinese. AI helped organize them, suggested the mathematical example, and assisted with English translation and rewriting. The author’s full AI use disclosure appears below.</em></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">I&#x27;m an undergraduate student in China, and much of what I know about research I have had to figure out for myself. I began using AI to explore theoretical questions last year; some of those attempts, including the ones that went wrong, are recorded in my GitHub archive and an SSRN preprint. AI has helped me move forward astonishingly quickly, though I sometimes worry that my mathematical foundations have not kept pace. I still need to put it aside, study on my own, check proofs, and learn to write without it. But I am genuinely curious about certain theoretical questions. Once an idea catches my attention, I want to know where it might lead.</p>
+
+
+
+<p class="wp-block-paragraph">Over time I developed a way of working with AI that feels useful to me. I suspect it could be better, though, so I started asking around. I talked to classmates, posted on forums, and even tried contacting professors and mathematicians. It felt a little like looking for a game walkthrough: surely people who have played much longer than I have must know a few tricks. Most of the AI advice I encountered was about coding, cleaning data, and other routine tasks. Mathematicians seemed a more promising place to look, but their advice was often just as brief: tell AI what you want to prove, ask it to find counterexamples, or have it argue against you. All sensible advice. Still, I had gone looking for a walkthrough and seemed to have come back empty-handed. Perhaps the steps in between are so familiar to experienced researchers that they hardly think to mention them. I thought I might as well share the habits I have developed and ask what you make of them.</p>
+
+
+
+<p class="wp-block-paragraph">Here is a very simple example of the part I find most interesting. Suppose we are studying a continuous function <math data-latex="f:[0,1]\to\mathbb{R}"><semantics><mrow><mi>f</mi><mo>:</mo><mo>[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>]</mo><mo>→</mo><mi>ℝ</mi></mrow><annotation encoding="application/x-tex">f:[0,1]\to\mathbb{R}</annotation></semantics></math> with</p>
+
+
+
+<p class="wp-block-paragraph"><math data-latex="f(0)=-1,\qquad f(1)=1."><semantics><mrow><mi>f</mi><mo>(</mo><mn>0</mn><mo>)</mo><mo>=</mo><mo>−</mo><mn>1</mn><mo>,</mo><mspace width="2em"></mspace><mi>f</mi><mo>(</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>1</mn><mo>.</mo></mrow><annotation encoding="application/x-tex">f(0)=-1,\qquad f(1)=1.</annotation></semantics></math></p>
+
+
+
+<p class="wp-block-paragraph">The intermediate value theorem tells us that there is at least one zero. If we also assume that <math data-latex="f"><semantics><mrow><mi>f</mi></mrow><annotation encoding="application/x-tex">f</annotation></semantics></math> is strictly increasing, the zero is unique. My instinct, however, is to ask whether removing strict monotonicity might make the problem more interesting. Consider</p>
+
+
+
+<p class="wp-block-paragraph"><math data-latex="f_1(x)=2x-1, \qquad f_2(x)=\frac{32}{3} \left(x-\frac14\right) \left(x-\frac12\right) \left(x-\frac34\right)."><semantics><mrow><msub><mi>f</mi><mn>1</mn></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>,</mo><mspace width="2em"></mspace><msub><mi>f</mi><mn>2</mn></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mfrac><mrow><mn>32</mn></mrow><mrow><mn>3</mn></mrow></mfrac><mo>(</mo><mi>x</mi><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>)</mo><mo>.</mo></mrow><annotation encoding="application/x-tex">f_1(x)=2x-1, \qquad f_2(x)=\frac{32}{3} \left(x-\frac14\right) \left(x-\frac12\right) \left(x-\frac34\right).</annotation></semantics></math></p>
+
+
+
+<p class="wp-block-paragraph">Both functions are continuous and have exactly the same endpoint values, yet the first has one zero and the second has three. Of course, I could put strict monotonicity back, exclude the second function, and return to proving uniqueness. But if I wanted to understand this class of continuous functions in the first place, why should I throw the second one away? I would rather keep it. Now there are two interesting possibilities to study: when is the zero unique, and when can there be several? Can I find conditions that distinguish the cases, and are those conditions necessary? Sometimes I will try to weaken them again. <strong>When removing an assumption gives me an interesting counterexample, I want to see whether the counterexample can become part of the theory.</strong></p>
+
+
+
+<p class="wp-block-paragraph">There is another problem I run into if I keep doing this. After enough rounds of removing assumptions, finding counterexamples, and obtaining new results, I may be left with a heap of conditions and conclusions without knowing what each condition is really doing. So I have become rather fond of building the dependencies between results, one step at a time. In the example, we can separate two claims:</p>
+
+
+
+<p class="wp-block-paragraph"><math data-latex="\begin{aligned} \text{continuity + opposite endpoint signs} &amp;\Longrightarrow \text{at least one zero},\\ \text{strict increase} &amp;\Longrightarrow \text{at most one zero}. \end{aligned}"><semantics><mtable columnalign="right left"><mtr><mtd><mrow><mtext>continuity + opposite endpoint signs</mtext></mrow></mtd><mtd><mrow><mo>⟹</mo><mtext>at least one zero</mtext><mo>,</mo></mrow></mtd></mtr><mtr><mtd><mrow><mtext>strict increase</mtext></mrow></mtd><mtd><mrow><mo>⟹</mo><mtext>at most one zero</mtext><mo>.</mo></mrow></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{aligned} \text{continuity + opposite endpoint signs} &amp;\Longrightarrow \text{at least one zero},\\ \text{strict increase} &amp;\Longrightarrow \text{at most one zero}. \end{aligned}</annotation></semantics></math></p>
+
+
+
+<p class="wp-block-paragraph">Together, they give a unique zero. I like this arrangement because I can see what each assumption contributes. If I later find another way to establish “at most one zero,” I do not have to change the existence argument at all.</p>
+
+
+
+<p class="wp-block-paragraph">For a more complicated theory, I might start with a primitive condition <math data-latex="A"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math>, derive a meaningful property <math data-latex="B"><semantics><mrow><mi>B</mi></mrow><annotation encoding="application/x-tex">B</annotation></semantics></math>, and then prove something new from <math data-latex="B"><semantics><mrow><mi>B</mi></mrow><annotation encoding="application/x-tex">B</annotation></semantics></math>. I would rather have <math data-latex="A\Rightarrow B\Rightarrow C"><semantics><mrow><mi>A</mi><mo>⇒</mo><mi>B</mi><mo>⇒</mo><mi>C</mi></mrow><annotation encoding="application/x-tex">A\Rightarrow B\Rightarrow C</annotation></semantics></math> than keep proving everything directly from <math data-latex="A"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math>. Sometimes the argument branches: <math data-latex="B"><semantics><mrow><mi>B</mi></mrow><annotation encoding="application/x-tex">B</annotation></semantics></math> leads to <math data-latex="C"><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math> and <math data-latex="D"><semantics><mrow><mi>D</mi></mrow><annotation encoding="application/x-tex">D</annotation></semantics></math>, and those results together lead to <math data-latex="E"><semantics><mrow><mi>E</mi></mrow><annotation encoding="application/x-tex">E</annotation></semantics></math>. I just find this kind of structure beautiful. At first that was almost the whole reason I liked it. Later I realized that it can do real work. If <math data-latex="B"><semantics><mrow><mi>B</mi></mrow><annotation encoding="application/x-tex">B</annotation></semantics></math> is weaker than <math data-latex="A"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math>, the statement <math data-latex="B\Rightarrow C"><semantics><mrow><mi>B</mi><mo>⇒</mo><mi>C</mi></mrow><annotation encoding="application/x-tex">B\Rightarrow C</annotation></semantics></math> may apply in settings where <math data-latex="A"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math> does not hold; and once <math data-latex="B"><semantics><mrow><mi>B</mi></mrow><annotation encoding="application/x-tex">B</annotation></semantics></math> has been proved somewhere else, I can reuse the same result. The intermediate properties have to mean something, of course. There is no point in making a proof longer just for the sake of a prettier diagram.</p>
+
+
+
+<p class="wp-block-paragraph">This also makes me wonder how far the assumptions in a theorem are from the original problem. If the result depends on a long list of strong technical conditions introduced along the way, I want to know whether they can be derived from more basic objects. In an economics model, for instance, can the conditions be expressed in terms of observed choices, compensated comparisons, or the support of the data? The two functions above offer a small illustration of the information problem. Even if we know the function is continuous and observe both endpoint values exactly, those observations do not tell us whether the zero is unique. The functions look identical to someone who can see only those two values. I often ask AI to construct pairs of models that agree on everything observable but disagree on the property I care about. When such a pair exists, my next question is what extra information would distinguish them, and what, precisely, that information would allow us to conclude.</p>
+
+
+
+<p class="wp-block-paragraph">I came to these habits by taking quite a few wrong turns. My first project concerned a rational-addiction model and what I called an <em>exit mechanism</em>. I was excited by the thought that a rational agent might have a distinct reason to invest in reducing or escaping addictive behavior. But in the model I had written down, the proposed exit or recovery value could be absorbed into the existing state-dependent utility. Behavior therefore could not identify it as a separate mechanism. An idea I had been eager to defend simply did not survive the test. That failure led me somewhere I had not expected: toward questions about what behavior can identify, what sparse compensated comparisons can reveal, and which additional observations really matter. The project eventually led to my SSRN preprint, <em>What Do Finite Compensation Comparisons Reveal?</em> I kept the failed earlier versions on GitHub; they are part of the story, too.</p>
+
+
+
+<p class="wp-block-paragraph">AI has been useful throughout this process. I ask it to remove assumptions, hunt for counterexamples, try proofs, construct observationally equivalent models, and help disentangle which lemmas actually depend on which conditions. I have also seen plenty of arguments that sounded complete until I checked the details. One other habit has grown out of these conversations, and I wonder whether anyone else has noticed the same thing. AI often gives me prose that seems determined to explain everything it has done: “we cannot guarantee uniqueness,” “this assumption is unnecessary,” “the important point is not this but that.” Those sentences can be useful while we are thinking. I just do not much like them in the finished mathematics.</p>
+
+
+
+<p class="wp-block-paragraph">What I like in textbooks is the way a good statement simply tells you the conditions and what follows. For the example above, I would rather write: continuity and opposite endpoint signs give existence; strict increase gives at most one zero; and continuous functions with identical endpoint values can have different numbers of zeros. I can then ask whether the sufficient conditions are also necessary, or how the remaining cases should be characterized. Sometimes replacing a conversational diagnosis with a proper mathematical statement even exposes a gap in my reasoning. The final paper should not have to reproduce every turn of the conversation that brought me there.</p>
+
+
+
+<p class="wp-block-paragraph">One thing about my own method worries me, though. As AI gets better at turning a guess into a mathematical theory, it becomes easier to treat research as a set of buttons to press. I can imagine a seminar where everyone asks the professor for their prompts, but nobody asks how the proof works. I would find that rather sad. The irony is that I’ve already benefited from this method myself, and sometimes I find it hard to stop using it. I know its downsides, but I also want to do this kind of research for a living. I don’t think I’m especially gifted at mathematics, academic jobs are hard to get, publication counts matter, and AI tools keep getting better. It’s very easy for me to tell myself that I have no choice. But that sounds a little like a thief looking at something in a shop window and convincing himself that he has no choice but to steal it. Of course, using AI isn’t stealing. What bothers me is how easily I can make excuses for myself. I can only try to stay aware of this, keep learning the mathematics, and make up my own mind about what AI produces. I shared my prompts because I hope they will help people explore questions they genuinely care about, not just produce more papers. Otherwise, we might end up with more theorems, but less interest in understanding them.</p>
+
+<p class="wp-block-paragraph">That is roughly how I work at the moment. Perhaps experienced mathematicians have always done something like this and simply never thought of it as a “prompt.” I would love to hear how you use AI to look for counterexamples, how you decide whether a failure is worth studying, and whether you consciously build theories out of reusable intermediate results. I would be just as interested in criticism: what am I missing, and what am I making needlessly complicated? I began this search hoping to find a good walkthrough for myself. It would be nice if sharing our actual experiences helped a few other beginners as well.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Research links.</strong> <a href="https://github.com/heggebittel-lang/Rational-Relapse-Theory">GitHub research archive</a>; <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7363901">SSRN preprint</a>.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AI use disclosure.</strong> The research experience, ideas, and initial reflections in this post are my own. I first drafted them in Chinese, in a rather fragmented form. AI helped me organize the original line of thought into a clearer structure, suggested the elementary mathematical example used here, and assisted with the English translation and rewriting. I reviewed the resulting text to ensure that it expresses what I meant and reflects my own experience and uncertainty.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 7 October 2026, revised 22 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/22/is-there-actually-a-good-way-to-use-ai-for-math/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2533</post-id>	</item>
+		<item>
 		<title>Paralysis</title>
 		<link>https://proofsandprompts.com/2026/10/21/artificial-intelligence-and-the-mathematical-community/</link>
 					<comments>https://proofsandprompts.com/2026/10/21/artificial-intelligence-and-the-mathematical-community/#comments</comments>
@@ -197,7 +1014,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/21/mathematics-of-the-future/feed/</wfw:commentRss>
-			<slash:comments>19</slash:comments>
+			<slash:comments>35</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2114</post-id>	</item>
@@ -248,7 +1065,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/21/the-power-of-beauty-and-elegance/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
+			<slash:comments>4</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">1552</post-id>	</item>
@@ -365,7 +1182,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/20/who-will-become-the-new-mathematicians-of-math-2-0/feed/</wfw:commentRss>
-			<slash:comments>59</slash:comments>
+			<slash:comments>60</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2706</post-id>	</item>
@@ -899,315 +1716,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2709</post-id>	</item>
-		<item>
-		<title>Contribution, Credit, and Community</title>
-		<link>https://proofsandprompts.com/2026/10/19/contribution-credit-and-community/</link>
-					<comments>https://proofsandprompts.com/2026/10/19/contribution-credit-and-community/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Mon, 19 Oct 2026 14:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Community]]></category>
-		<category><![CDATA[Credit]]></category>
-		<category><![CDATA[Norms]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=1439</guid>
-
-					<description><![CDATA[“This note is based on the assumption that the adoption of AI in mathematics is already inevitable. To paraphrase the principle of Chekhov’s gun, if we strive to resolve a conjecture while inhabiting a world that contains a button that, if pressed, will promptly resolve said conjecture, someone will indeed press the button. […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://moraschini.github.io/">Tommaso Moraschini</a>, Associate professor at the Philosophy Department of the <a href="https://sira.ub.edu/fitxes/index.html?id=15&amp;lang=en">University of Barcelona</a></p>
-
-
-
-<p class="wp-block-paragraph">This note is based on the assumption that the adoption of AI in mathematics is already inevitable. To paraphrase the principle of Chekhov’s gun, if we strive to resolve a conjecture while inhabiting a world that contains a button that, if pressed, will promptly resolve said conjecture, someone will indeed press the button. Maybe AI will become unaffordable for mathematics, but I do not see this happening very soon. This is not to say I do not find the rapid development of AI that we are witnessing deeply unsettling<math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math>quite the contrary. I simply believe that we will need to grapple with it one way or another.</p>
-
-
-
-<p class="wp-block-paragraph">With that in mind, let me outline a few problems that I believe we need to tackle together.</p>
-
-
-
-<h2 class="wp-block-heading"><strong>The spectre of nihilism, or the crisis of the human contribution</strong></h2>
-
-
-
-<p class="wp-block-paragraph">Until recently, we had some shared understanding of what counted as a valuable human contribution in mathematics, if only because, with the exception of a few automated proofs, mathematics was a purely human enterprise that took place for the most part in our minds. We might have disagreed on the details, but few would have denied that settling a conjecture, developing a new theory or discovering a connection had shaped much of our intellectual efforts. It is therefore not surprising that, now that AI can make significant progress on all these fronts at surprising speed, our faith in what makes a human contribution to mathematics valuable is called into question. This is no minor problem, as any significant human enterprise requires deep commitment, determination, and sacrifice, all of which are difficult to sustain unless we truly believe in the value of what we are pursuing.</p>
-
-
-
-<p class="wp-block-paragraph">I am writing about this because I could not help noticing that AI-generated proofs of long-standing conjectures do not seem to elicit strong emotions in many of us (not uplifting ones, at least). In the worst case, we may even learn that a problem we found interesting was resolved by AI, feel no excitement at the news and, at the same time, feel that<math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math>as a community<math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math>we were deprived of something fundamental, namely, the possibility of discovery. If this becomes the norm, we may simply lose interest in our work as prompting becomes a simulacrum of what mathematical creativity used to be. In this case, we may slowly but steadily surrender to the conclusion that no valuable human contribution to mathematics is possible anymore in a sort of nihilistic doom for the discipline.</p>
-
-
-
-<p class="wp-block-paragraph">This need not happen, and I believe there is still a lot of room for valuable human contributions to mathematics, including (at the time of writing) the following:</p>
-
-
-
-<ol class="wp-block-list">
-<li>Community interaction: seminars, conferences, discussions, collaborations.</li>
-
-
-
-<li>Exploratory projects that cannot be pursued through prompting alone (as opposed to “yes or no” questions).</li>
-
-
-
-<li>Comprehension and carefully crafted explanations of deep phenomena.</li>
-
-
-
-<li>Investigation of problems beyond the range of frontier AI models.</li>
-</ol>
-
-
-
-<h2 class="wp-block-heading"><strong>Prompt or Perish, or a race to be the</strong> <strong>first<math data-latex="\ldots"><semantics><mo lspace="0em" rspace="0em">…</mo><annotation encoding="application/x-tex">\ldots</annotation></semantics></math></strong> <strong>to do what exactly</strong>?</h2>
-
-
-
-<p class="wp-block-paragraph">As demonstrated recently, a few dollars can buy you the solution to a famous conjecture. Maybe that is not true yet for a problem in the league of Navier-Stokes, but one generic prompt may still settle a problem that was a highly regarded within a field. We need to reckon with this as a community and act accordingly.</p>
-
-
-
-<p class="wp-block-paragraph">Traditional mathematics was based on the competitive assumption that whoever proves a conjecture first takes all the glory. There were plenty of reasons already to question the fairness of this criterion, as Perelman famously observed. However, today this practice stands as the relic of an old ethos which has lost its meaning: when a proof can be obtained by simply pressing a button, being the first to obtain it is no evidence of a distinctive intellectual contribution. Are we still going to praise that? I hope not: if there is a single thing that is clear to me in these confusing times, it is that we should abolish “priority of proof” (from now on simply “priority”) as an independent source of merit.</p>
-
-
-
-<p class="wp-block-paragraph">A failure to come to terms with this reality would be detrimental to our community, for in that case there would be strong incentives (even existential ones for young researchers) to race and be the first to prompt AI about any possible problem. This is no exaggeration and in some form it is already happening. Again, although prompting  conjectures is not my cup of tea, I welcome the fact that some are doing so and made clear that this issue should be addressed swiftly by our community.</p>
-
-
-
-<p class="wp-block-paragraph">If we do not let priority go, I am afraid that “Prompt or Perish” risks becoming the norm. We will then be overwhelmed by an avalanche of poorly written papers, many of which will not be read, maybe not even by their authors (though they may claim verification in Lean).</p>
-
-
-
-<p class="wp-block-paragraph">But even if we are lucky and our discipline is able to adapt, racing to prompt as fast as we can stands in stark contrast with the emerging consensus that careful explanations will play a fundamental role in the new mathematics: as we all know, good writing takes a lot of time, a resource that will be scarce in a world in which we constantly worry that someone might be prompting on the same topic. Incidentally, if not contained by the demise of priority, this worry also has the potential to turn mathematics into a rather secretive activity: after all, who would be so naive as to present a partial result or an intriguing route to the solution of an open problem at a seminar or a conference, if someone else may learn about it, fill in the gaps with the aid of AI, and get away with the credit?</p>
-
-
-
-<p class="wp-block-paragraph">At this stage, it is tempting to contemplate the possibility that the prize for priority might still make sense for problems beyond the range of frontier AI models. Leaving aside the fact that the latter concept is very volatile (as we have witnessed over the past year), it is worth observing that these harder problems are not immune from the demise of priority as a meaningful metric.</p>
-
-
-
-<p class="wp-block-paragraph">As made apparent by the Navier-Stokes controversy, it is not clear whether an AI model may return an answer that is tacitly informed by the prompts of other mathematicians. After proving a result with the aid of AI, we may become aware that another group of people was working on the same topic and speculate on how to interpret this news. However, the model might also have learnt from a group of people working on an apparently different problem. In this case, we will have no means of learning about their contribution. In other words, Perelman was able to recognize the fundamental role of Hamilton in the solution of the Poincaré conjecture because, in the past, there was a clear (though maybe tortuous) way to track the history of a problem. But today tracking the prompts that may have informed the reply provided by a model is impossible, another indication that priority is turning into a paper crown.</p>
-
-
-
-<h2 class="wp-block-heading"><strong>AI disclosures, or the road to hell is paved with good intentions</strong></h2>
-
-
-
-<p class="wp-block-paragraph">When we reflect on the current crisis in mathematics, a nostalgic solution often comes to mind: maybe human proofs should be valued differently than AI-generated ones. There are plenty of reasons to believe so: after all, aren&#8217;t the former evidence of creativity, knowledge, and scholarship, while the latter might have been obtained by a rather naive prompt? These considerations led to the introduction of current AI disclosures, which allow authors to describe the use of AI in their work. In other words, if we could judge the extent to which our papers were produced with the help of AI and state this clearly in an honest disclosure, we would have effectively unscrambled our egg, and the challenges that AI poses to mathematical practice (such as the demise of priority) might be kept under control.</p>
-
-
-
-<p class="wp-block-paragraph">While I share the emotional attachment to human proofs, I believe that this hope flies in the face of the hard reality that there is no way to distinguish between human and AI-generated proofs, at least when presented by capable mathematicians. This brings us to the main problem: AI disclosures are strikingly unverifiable claims. In other words, if we follow the path of attaching greater value to human proofs and adopt AI disclosures as the gatekeepers of superior human achievement, we will create a system in which the value of a paper is based on a few unverifiable statements that we are expected to believe blindly. In a competitive ecosystem such as the academic one, this looks like the perfect recipe for nurturing distrust among colleagues, rather than a way to restore a lost order.</p>
-
-
-
-<p class="wp-block-paragraph">We may, of course, keep our heads down and press on with AI declarations as a meaningful source of information about the human contribution. As in the case of priority, there will then be great pressure to lie about the use of AI and embellish one&#8217;s contribution (was it 40% human and 60% AI or the other way round? What does this even mean?). The high price of writing candid declarations will be unaffordable for many young researchers, paving the way for a culture of concealment. Such a system will be detrimental to our community, spark doubts about one another’s credibility and, above all, be terribly ineffective in achieving its stated purpose: distinguishing between more and less valuable contributions to mathematics.</p>
-
-
-
-<p class="wp-block-paragraph">Instead of clinging to unverifiable claims, I believe we should simply reckon with the fact that there is no systematic way to distinguish between human and AI-generated proofs, which means that otherwise comparable contributions should receive the same professional recognition, regardless of whether they were produced with AI assistance (professional reward should not depend on claims that cannot be assessed reliably, especially when that dependence rewards concealment). This does not mean that AI disclosures should go completely. On the contrary, they will be very useful when they provide, for instance, a description of a clever new way in which AI was employed to overcome an obstacle. We should simply resist the temptation to adopt them as a means to distinguish between human and AI-generated proofs.</p>
-
-
-
-<p class="wp-block-paragraph">Lastly, while it is perfectly understandable that some may be less inclined than others to adopt AI in their work, offering an institutional reward for abstaining from AI in a discipline in which this technology is performing incredibly well does not seem to be a wise choice (plus, the lack of a sensible way to “police” the use of AI makes such an enterprise rather futile from the start). Is it really worth spending hours and hours on some finite combinatorial obstacle with no independent interest that could be resolved swiftly by AI for the sake of keeping our research untainted by the sin of prompting? I am not sure. I believe that everyone should be free to decide what best suits their research. Some might abstain from AI completely, others intermittently, and others will turn it into a fundamental part of their research. In a world in which priority is not crucial anymore, there might be room for all tastes.</p>
-
-
-
-<h2 class="wp-block-heading"><strong>Hic</strong> <strong>sunt</strong> <strong>leones, or navigating without a compass</strong></h2>
-
-
-
-<p class="wp-block-paragraph">If neither priority alone nor AI disclosures can provide a reliable basis for assigning credit in mathematics, we are in uncharted territory, as our competitive system requires us to assign credit to scholars in one way or another. Given the pace at which AI models are advancing, one may sense that any practical recommendation may become obsolete in a matter of months. However, if you have been patient enough to follow me this far, I owe you a few concrete proposals. Some of these will already be familiar to those who have engaged in the discussion on AI in mathematics.</p>
-
-
-
-<p class="wp-block-paragraph">Perhaps the most pressing practical problem is that of hiring, which understandably worries many young researchers. A way of evaluating researchers consistent with the demise of priority and the difficulty of verifying claims that proofs were produced without AI would be to reduce the weight given to publication counts and priority and instead focus on the candidates&#8217; ability to explain advanced mathematics clearly, draw connections with neighbouring areas, and discuss sensible directions for the future both in general terms and in great detail. Consequently, seminars and interviews with various members of a department or research group should become a core aspect of any hiring procedure and receive greater weight. The old-fashioned recommendation letter can also be rescued as a meaningful source of information if we abandon the widespread exaggeration of candidates’ abilities and strive for honest, informative assessments instead (plus, some of the content of the letters can be corroborated in interviews and seminars). There are certainly other contributions that can merit recognition, such as participation in a significant research programme, but a detailed list will have to wait until we adjust to the presence of AI in our scientific ecosystem.</p>
-
-
-
-<p class="wp-block-paragraph">The elephant in the room is, of course, that such a change in hiring culture is possible only if we also replace the current “publish or perish” system with one in which priority is less central by design. I suspect that we might soon have a clearer picture of what such a new order will be. However, a road map for the interregnum in which we happen to live would be as follows. First, we identify some interesting exploratory programmes in each area.<sup data-fn="fn-57b11e05-4e31-4a32-9901-eac25de85bab" class="fn"><a href="#fn-57b11e05-4e31-4a32-9901-eac25de85bab" id="fn-57b11e05-4e31-4a32-9901-eac25de85bab-link">1</a></sup> Then we send a message to those we believe may be willing to join the project and ask them to express their interest if they have the time and ability to contribute to the research. We then organize our work as a group and carry out the research under the direction of a few more experienced researchers.</p>
-
-
-
-<p class="wp-block-paragraph">The aim of this deliberate shift from collaborations among a small number of people to work within larger groups would be to make priority, AI disclosures, and competition less central to the discipline in the immediate future. Larger collaborations may also work well in a culture which attaches greater importance to observable contributions and recommendation letters. Lastly, such a shift will strengthen the sense of community, which is probably the aspect of current mathematics we most want to preserve.</p>
-
-
-<ol class="wp-block-footnotes"><li id="fn-57b11e05-4e31-4a32-9901-eac25de85bab">“Yes or no” questions may work equally well, if the road to their solution is amenable to teamwork. <a href="#fn-57b11e05-4e31-4a32-9901-eac25de85bab-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 21 September 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/19/contribution-credit-and-community/feed/</wfw:commentRss>
-			<slash:comments>7</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1439</post-id>	</item>
-		<item>
-		<title>Thinking Hard Above AI</title>
-		<link>https://proofsandprompts.com/2026/10/19/thinking-hard-above-ai/</link>
-					<comments>https://proofsandprompts.com/2026/10/19/thinking-hard-above-ai/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Mon, 19 Oct 2026 11:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Exposition]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<category><![CDATA[Understanding]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=1573</guid>
-
-					<description><![CDATA[There are many ways in which AI is generating uncertainty in mathematics. We are not sure how it will impact our jobs, it is raising questions about how it might affect academic training, and it is not clear how it might change the job search process and how we evaluate research. This is by no means an exhaustive list. In this post, I will focus two another related questions, which are: “Is there still any mathematics to be done? And will doing mathematics still be fun and interesting?” I believe that there is, and here I set out to explain why.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://bmbumpus.com/">Benjamin Merlin Bumpus</a>, Professor at the <a href="https://www.ime.usp.br/">University of São Paulo</a></p>
-
-
-
-<p class="wp-block-paragraph">It’s interesting to ask mathematicians about why they do mathematics. Some tell me that it’s a pursuit of truth. Others seek understanding. Occasionally there’s an admission of the pursuit of glory. My personal claim is that I’ve always wished to have a voice and to contribute to The Great Conversation, the sharing of thoughts, insights and perspectives with all those around me and who came before me. The question now is: “What’s this have to do with AI?”.</p>
-
-
-
-<p class="wp-block-paragraph">Well, recently I read an <a href="https://par.nsf.gov/servlets/purl/10600511">article</a><sup data-fn="fn-9617c341-712d-465b-a8be-469d52481617" class="fn"><a href="#fn-9617c341-712d-465b-a8be-469d52481617" id="fn-9617c341-712d-465b-a8be-469d52481617-link">1</a></sup> by Henry Farrell, Alison Gopnik, Cosma Shalizi and James Evans that awoke me to an obvious fact <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> one I think deliberately obscured by AI companies <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> about what LLMs actually are. They are not “<math data-latex="\ldots"><semantics><mo lspace="0em" rspace="0em">…</mo><annotation encoding="application/x-tex">\ldots</annotation></semantics></math>intelligent agents but <math data-latex="\ldots"><semantics><mo lspace="0em" rspace="0em">…</mo><annotation encoding="application/x-tex">\ldots</annotation></semantics></math> a new kind of cultural and social technology.” I think this is basically the correct place to start. Large language models are interactive games that let us play pretend with voices from The Great Conversation. They are built out of our books, papers, websites, computer programs and conversations. So, as <a href="https://terrytao.wordpress.com/2026/09/13/happy-those-able-to-know-the-causes-of-things/">Nestor Guillen</a> puts it, there is a sense in which, when an AI spits something out at me, I am interacting with a large amount of accumulated mathematical culture through a new interface, albeit with hallucinatory garbage thrown in every now and then.</p>
-
-
-
-<p class="wp-block-paragraph">This interface is now capable of much more mathematics than I thought it was just a year ago. There is, of course, the whole <a href="https://terrytao.wordpress.com/2026/09/12/after-math/">Navier–Stokes situation</a>, which <a href="https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/">Tao</a> and many other people have been discussing. A colleague of mine also seems to have accidentally solved a seventy-year-old conjecture in topology and set theory by asking ChatGPT for help with a lemma: it came back saying, essentially, “yeah, I can prove your lemma, but I needed to solve this conjecture first.” I do not know exactly what to make of all this yet, but it has changed my view of what AI can and cannot do. I had a much smaller experience recently. I was working on a lemma that I was convinced should be true, and I had an idea of how to prove it, but the proof looked really fiddly. I asked ChatGPT to prove it, and it did so right away. But instead of just reading the proof and moving on, I immediately made my own life more complicated. I started asking what the canonical proof should look like. What argument would make the result absolutely obvious? This took me most of a day, basically the same amount of time I would previously have spent fighting through the ugly proof. But at the end of that day I understood the result much better.</p>
-
-
-
-<p class="wp-block-paragraph">I have started to think of this as mathematics above AI, or perhaps more personally as thinking hard above AI. In parameterized complexity we sometimes study a problem “above a guarantee”; this amounts to the situation in which some easy argument or relaxation gives us a baseline, and we study the additional difficulty that remains beyond it. It is a little like what is know as FPT above LP (fixed parameter tractability above linear programing), except that the baseline is now whatever the AI can spit out. In a sense, I increasingly see asking an AI for a proof as a second step in the literature review: first I check what people have already written down and made explicitly available, then I check what can be reconstructed or produced fairly easily by an LLM.</p>
-
-
-
-<p class="wp-block-paragraph">It’s important to note that these answers are the starting point, not the end result. We definitely don’t want to just volley automatically generated, poorly written and undigested math into the The Great Conversation. That’s a pretty antisocial thing to do. And it creates <a href="https://terrytao.wordpress.com/2026/09/15/the-technical-debt-of-ai-generated-mathematics/">mathematical technical debt</a> as Henry Cohn calls it, which is the equivalent of flooding The Great Conversation with incessant and half-assed tweets in the midsts of measured, well-thought arguments. All of this to say that when I say “Mathematics above AI”, I mean the mathematical activity that involves treating an AI-generated answer as a starting point rather than a conclusion.</p>
-
-
-
-<p class="wp-block-paragraph">So if we accept the existence of “Math Above AI”, it still might not be clear what the goals of such mathematics should be. Emily Riehl recently wrote that one of the things she likes in math is to search for the <a href="https://terrytao.wordpress.com/2026/09/14/why-i-do-mathematical-research/">simplest explanation of a phenomenon</a>, which often requires finding the “right” language and the “right” level of abstraction. My personal aesthetics agree with hers in this respect and it is in pretty close to what I was trying to do with the lemma I mentioned: I already had a proof, but I did not yet have the proof that could speak to God and tell me why the result was true. If proofs become cheaper, then great, questions about why a proof works, which language it belongs in and how it should be contextualised become more valuable. In my mind, this is a chance to engage in this Great Conversation as better interlocutors: we can ask more of ourselves and of our arguments and of their context.</p>
-
-
-
-<p class="wp-block-paragraph">Some might find my aspiration for a “Mathematics Above AI”, as wishful thinking. I’ve definitely had many conversations with students and colleagues who fear for the end of mathematics and most other intellectual disciplines. Although I too have some pessimistic days, for the most part I find this a little nonsensical.</p>
-
-
-
-<p class="wp-block-paragraph">First of all, it is always useful to ask oneself who is to gain from a particular narrative. In this case, if I were in the business of trying to sell a little “robot oracle” touted to have near mystical powers, then my biggest problem would be to try to prove that such powers do indeed exist. And what sounds more mystical and impressive (not to mention palatable to many, as <a href="https://www.theatlantic.com/ideas/2026/09/ai-destroy-world-apocalypse/688575/">Ian Bogost writes in <em>The Atlantic</em></a>) than the ability to end the world?</p>
-
-
-
-<p class="wp-block-paragraph">Second of all there is also a more abstract reason why I do not think that AI crossing some particular frontier means that mathematics is finished. If we assume that these systems are not capable of a fundamentally stronger form of computation than we are, then sure, perhaps they have more resources (e.g. electricity or memory or a bigger PR team), but that should not prohibit me from asking an even more meta-mathematical question.</p>
-
-
-
-<p class="wp-block-paragraph">Third, I haven’t even mentioned the obvious fact that any “theorem-proving robot-oracle” can itself become a new mathematical object: we can ask why its proof works, what features made the proof accessible to it and how its notion of an easy or natural argument differs from ours. This is very closely related to Lionel Levine’s recent essay <a href="https://arxiv.org/html/2609.15289v1"><em>Math for AI Safety: An Invitation for Mathematicians</em></a>; I recommend the read. Either way, you might object that perhaps some of those questions will also be quickly answered by a later system. Fine. That system will then produce another object and another frontier. I don’t see any reason why this process should terminate.</p>
-
-
-
-<p class="wp-block-paragraph">All of this makes me want to learn more mathematics, and in particular more foundations: more logic, more category theory and even more set theory. This is my bet and you’re free to make your own. I obviously don’t know what math will look like and perhaps this is just me finding an elaborate justification for learning more about the subjects that I already enjoy. However, as I just said, if the act of finding a proof gets easier, then it seems reasonable to me that finding the best proof becomes more interesting and, to me, foundations supply the kind of language one needs to argue for mathematical beauty (obviously this is just my very biased opinion).</p>
-
-
-
-<p class="wp-block-paragraph">There is then the more immediate question of how we should interact with AI, and which interactions are productive for our cognition, our understanding and our society. I have been preaching to my students about this a lot. There is an interesting <a href="https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?gift=Fqz25DTc-a2Qq6tqdGx9evcrk1iNIIx5AHvE0HS0fg8">Atlantic article</a> about the effects of AI on learning, and my takeaway is that AI seems capable of making us learn either much worse or much better. If I simply ask it for a solution and copy what it says, my brain turns off. But I can also use it to manufacture a mathematical opponent. When I am learning some new mathematics, or preparing to teach, I ask it to give me questions of increasing difficulty. I ask it, “by any means necessary, find something I do not understand in this chapter.” I ask it to behave like a clever or bored student and find the question that will derail my lecture. Recently I was preparing to teach logspace computation. I don’t work with this often and the last time I looked at it was when I taught the course last year. To be able freshen up on the details of Savitch’s theorem and the Immerman–Szelepcsényi theorem, I used AI to turn my turn my lecture preparation into a lemma-proving game. I had much more fun, and I actually understood the material much better than I would have by passively rereading the lecture notes I wrote in a rush while I was still learning Portuguese.</p>
-
-
-
-<p class="wp-block-paragraph">For now, I remain optimistic, perhaps to a fault. I am hopeful about the activity of doing mathematics, but less certain about the profession of being an academic mathematician as it is currently conceived: far too focused on publication numbers, scores, priority and speed, to the detriment of science and our mental health. This is probably too big a topic to engage with here and likely worth a whole other post. Either way, a time of great unrest is also a time in which we can think deeply about what we were doing in the first place. Perhaps some absurdities of metric-obsessed academic evaluation will become impossible to ignore. Perhaps we will be forced to be a little introspective and think more honestly what kind of understanding we value, what teaching should mean to us, and hey maybe even what kind of life is worth living. Ok, perhaps that’s a bit much for a post about math. But I guess a more modest ask is that we can become more demanding participants in The Great Conversation. Thinking (hard!) above AI seems like a good way of interacting with what some wish to sell as a “robot oracle”.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Crossposted from my <a href="https://bmbumpus.com/2026/09/16/thinking-hard-above-ai/">blog</a>.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 21 September 2026.</p>
-
-
-<ol class="wp-block-footnotes"><li id="fn-9617c341-712d-465b-a8be-469d52481617">See <a href="https://www.science.org/doi/10.1126/science.adt9819">https://www.science.org/doi/10.1126/science.adt9819</a> <a href="#fn-9617c341-712d-465b-a8be-469d52481617-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/19/thinking-hard-above-ai/feed/</wfw:commentRss>
-			<slash:comments>4</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1573</post-id>	</item>
-		<item>
-		<title>Two months of Proofs and Prompts: Forum, polls and moderation</title>
-		<link>https://proofsandprompts.com/2026/10/18/two-months-of-proofs-and-prompts-forum-polls-and-moderation/</link>
-					<comments>https://proofsandprompts.com/2026/10/18/two-months-of-proofs-and-prompts-forum-polls-and-moderation/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Sun, 18 Oct 2026 16:58:40 +0000</pubDate>
-				<category><![CDATA[Initiatives]]></category>
-		<category><![CDATA[Community]]></category>
-		<category><![CDATA[Moderation]]></category>
-		<category><![CDATA[Proofs and Prompts]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2567</guid>
-
-					<description><![CDATA[“It has been two months since we started Proofs and Prompts. Once again thanks everyone for making it an active platform, we hope the conversations happening here will help build what mathematics will look like tomorrow. We take advantage of this new post to announce two new features that we would like to launch: […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph">The hosts of Proofs and Prompts</p>
-
-
-
-<p class="wp-block-paragraph">It has been two months since we started Proofs and Prompts. Once again thanks everyone for making it an active platform, we hope the conversations happening here will help build what mathematics will look like tomorrow.</p>
-
-
-
-<p class="wp-block-paragraph">We take advantage of this new post to announce two new features that we would like to launch:</p>
-
-
-
-<ul class="wp-block-list">
-<li>We are launching a discussion space, using the Zulip platform, find an invite link <a href="https://proofsandprompts.zulipchat.com/join/56ijyjem4dcrlth6hk46bvcr/">here</a><sup data-fn="fn-9955e6a0-4911-490b-b2d8-456a54b192e2" class="fn"><a href="#fn-9955e6a0-4911-490b-b2d8-456a54b192e2" id="fn-9955e6a0-4911-490b-b2d8-456a54b192e2-link">1</a></sup>. The goal is to provide a space where people can exchange thoughts and opinions at length on topics relevant to the blog, including AI use in research, formalization, teaching, supervision and publishing, either in the context of specific posts or more broadly. This forum can also be used for sharing the latest mathematical news, announcing projects or events, setting up a working group, discussing preprints (from the OpenAI batch, but just as much from anywhere else, including the LLM-generated preprints that individuals are now posting on their own), drafting an open letter, or carrying on a conversation that began in the comments. We’ve seen in the comments a number of people looking for help setting up groups, etc and we hope this added platform will help.</li>
-
-
-
-<li>We want to launch another format for posts, more interactive, in the form of polls. Authors will be able to add polls to their posts according to two formats: the simplest ones to implement will be open to all (but vulnerable to bots), and there will also be polls where voters will need to register first (more barrier at entry, and rest assured that we will not know what you voted for).</li>
-</ul>
-
-
-<div class="align crowdsignal-poll-wrapper" data-crowdsignal-poll="{&quot;pollId&quot;:&quot;219082f8-607f-43fd-825a-623360232ace&quot;,&quot;question&quot;:&quot;Should we hold polls on Proofs and Prompts?&quot;,&quot;answers&quot;:[{&quot;text&quot;:&quot;Yes&quot;,&quot;answerId&quot;:&quot;c697b337-f215-4493-9943-9c9074813123&quot;},{&quot;text&quot;:&quot;No&quot;,&quot;answerId&quot;:&quot;701913ec-3f35-471e-8406-814076fb967d&quot;},{&quot;text&quot;:&quot;Not sure&quot;,&quot;answerId&quot;:&quot;802918ac-6035-4a38-8fa6-288111aa7abe&quot;}],&quot;className&quot;:&quot;is-style-buttons&quot;,&quot;isMultipleChoice&quot;:false,&quot;note&quot;:&quot;&quot;,&quot;submitButtonLabel&quot;:&quot;Submit&quot;,&quot;confirmMessageType&quot;:&quot;results&quot;,&quot;borderWidth&quot;:2,&quot;borderRadius&quot;:0,&quot;hasBoxShadow&quot;:false,&quot;hasOneResponsePerComputer&quot;:false,&quot;randomizeAnswers&quot;:false,&quot;width&quot;:100,&quot;pollStatus&quot;:&quot;open&quot;,&quot;closedPollState&quot;:&quot;show-results&quot;,&quot;hideBranding&quot;:false,&quot;buttonAlignment&quot;:&quot;list&quot;,&quot;apiPollData&quot;:{&quot;id&quot;:17575734,&quot;question&quot;:&quot;Should we hold polls on Proofs and Prompts?&quot;,&quot;note&quot;:&quot;&quot;,&quot;settings&quot;:{&quot;title&quot;:&quot;Should we hold polls on Proofs and Prompts?&quot;,&quot;after_vote&quot;:&quot;results&quot;,&quot;after_message&quot;:&quot;&quot;,&quot;randomize_answers&quot;:false,&quot;restrict_vote_repeat&quot;:false,&quot;captcha&quot;:false,&quot;multiple_choice&quot;:false,&quot;redirect_url&quot;:&quot;&quot;,&quot;close_status&quot;:&quot;open&quot;,&quot;close_after&quot;:false},&quot;answers&quot;:[{&quot;answer_text&quot;:&quot;Yes&quot;,&quot;id&quot;:76652490,&quot;client_id&quot;:&quot;c697b337-f215-4493-9943-9c9074813123&quot;},{&quot;answer_text&quot;:&quot;No&quot;,&quot;id&quot;:76652491,&quot;client_id&quot;:&quot;701913ec-3f35-471e-8406-814076fb967d&quot;},{&quot;answer_text&quot;:&quot;Not sure&quot;,&quot;id&quot;:76652492,&quot;client_id&quot;:&quot;802918ac-6035-4a38-8fa6-288111aa7abe&quot;}],&quot;source_link&quot;:&quot;https:\/\/proofsandprompts.com&quot;,&quot;client_id&quot;:&quot;219082f8-607f-43fd-825a-623360232ace&quot;}}"></div>
-
-
-<p class="wp-block-paragraph">Moreover, moderation (recently called “censorship” in a very kind email sent to us) is always a heated topic &#8211; in our case, some find it too firm and some find it too lax, and we are apparently biased both towards and against AI at the same time. We are calling upon the community for any comments, suggestions and ideas for improving our moderation policies (our <a href="https://proofsandprompts.com/comment-policy/">comment policy</a> covers comments, and our <a href="https://proofsandprompts.com/submit/">submission guidelines</a> cover contributions).</p>
-
-
-
-<p class="wp-block-paragraph">We are also looking for a few volunteers who would like to help moderate comments, and to help run the new discussion space (welcoming newcomers, keeping it organised, helping working groups get started). If you are interested, write to us at <a href="mailto:proofsandprompts@gmail.com">proofsandprompts@gmail.com</a>.</p>
-
-
-
-<p class="wp-block-paragraph">Thank you all for your incredible contributions to the blog!</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 14 October 2026.</p>
-
-
-<ol class="wp-block-footnotes"><li id="fn-9955e6a0-4911-490b-b2d8-456a54b192e2">An account can be set up with an e-mail address (preferably an institutional one) and a password. Sign-in options through Google or GitHub are also available.  <a href="#fn-9955e6a0-4911-490b-b2d8-456a54b192e2-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/18/two-months-of-proofs-and-prompts-forum-polls-and-moderation/feed/</wfw:commentRss>
-			<slash:comments>3</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2567</post-id>	</item>
 	</channel>
 </rss>

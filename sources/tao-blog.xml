@@ -13,7 +13,7 @@
 	<atom:link href="https://terrytao.wordpress.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://terrytao.wordpress.com</link>
 	<description>Updates on my research and expository papers, discussion of open problems, and other maths-related topics.  By Terence Tao</description>
-	<lastBuildDate>Thu, 22 Oct 2026 14:34:47 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 23 Oct 2026 15:20:41 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -23,13 +23,52 @@
 <site xmlns="com-wordpress:feed-additions:1">817149</site><cloud domain='terrytao.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
 <source:cloud xmlns:source='https://source.scripting.com/'>https://terrytao.wordpress.com/?rsscloud=notify</source:cloud>
 <image>
-		<url>https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fwebclip.png</url>
+		<url>https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Fwebclip.png</url>
 		<title>What&#039;s new</title>
 		<link>https://terrytao.wordpress.com</link>
 	</image>
 	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://terrytao.wordpress.com/osd.xml" title="What&#039;s new" />
 	<atom:link rel='hub' href='https://terrytao.wordpress.com/?pushpress=hub'/>
 	<item>
+		<title>IAS applications for membership in the school of mathematics</title>
+		<link>https://terrytao.wordpress.com/2026/10/23/ias-applications-for-membership-in-the-school-of-mathematics/</link>
+					<comments>https://terrytao.wordpress.com/2026/10/23/ias-applications-for-membership-in-the-school-of-mathematics/#comments</comments>
+		
+		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
+		<pubDate>Fri, 23 Oct 2026 15:20:19 +0000</pubDate>
+				<category><![CDATA[advertising]]></category>
+		<category><![CDATA[IAS]]></category>
+		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18561</guid>
+
+					<description><![CDATA[The IAS has opened its application page for its membership program for the upcoming year. This by itself would be unremarkable &#8212; the program does this every year &#8212; but there is an additional statement included in the announcement: We realize that applying to positions in the current environment is stressful. To help alleviate this, [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">The IAS has <a href="https://www.ias.edu/math/apply/membership">opened its application page for its membership program</a> for the upcoming year.  This by itself would be unremarkable &#8212; the program does this every year &#8212; but there is an additional statement included in the announcement:</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">We realize that applying to positions in the current environment is stressful. To help alleviate this, the School of Mathematics offers applicants the option to submit research statement based only on already conducted research. It would be helpful if such a statement would be focused on a few select projects (in most cases up to three) and not a wide ranging list.</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">I would expect other departments and institutes advertising positions this year to adopt similar guidance.  (See also a <a href="https://simons.berkeley.edu/AITCSreport">recent report</a> from a working group making similar recommendations in the area of theoretical computer science.)</p>
+
+
+
+<p class="wp-block-paragraph">Readers are also invited to post links to other job openings in mathematics in the comments.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/23/ias-applications-for-membership-in-the-school-of-mathematics/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">18561</post-id>
+		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
+			<media:title type="html">Terry</media:title>
+		</media:content>
+	</item>
+		<item>
 		<title>Simple and critical zeros of the Riemann zeta-function</title>
 		<link>https://terrytao.wordpress.com/2026/10/22/simple-and-critical-zeros-of-the-riemann-zeta-function/</link>
 					<comments>https://terrytao.wordpress.com/2026/10/22/simple-and-critical-zeros-of-the-riemann-zeta-function/#comments</comments>
@@ -120,7 +159,7 @@ Lamzouri points out that the BGST-B approach cannot be made unconditional by mer
 </p>]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/22/simple-and-critical-zeros-of-the-riemann-zeta-function/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
+			<slash:comments>7</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18518</post-id>
@@ -216,7 +255,7 @@ For the next generation of mathematicians to flourish, we need protections and c
 </p>]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/21/mathematics-is-a-subject-for-the-young/feed/</wfw:commentRss>
-			<slash:comments>37</slash:comments>
+			<slash:comments>51</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18522</post-id>
@@ -281,7 +320,7 @@ I am looking forward to the results of this experimental challenge, both for the
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/feed/</wfw:commentRss>
-			<slash:comments>64</slash:comments>
+			<slash:comments>70</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18525</post-id>
@@ -620,7 +659,7 @@ In the meantime<b>, I think mathematicians have the huge responsibility of prese
 </p>]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/feed/</wfw:commentRss>
-			<slash:comments>26</slash:comments>
+			<slash:comments>28</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18496</post-id>
@@ -776,7 +815,7 @@ In the meantime<b>, I think mathematicians have the huge responsibility of prese
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/16/sair-open-math-os-released/feed/</wfw:commentRss>
-			<slash:comments>18</slash:comments>
+			<slash:comments>20</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18450</post-id>
@@ -785,38 +824,6 @@ In the meantime<b>, I think mathematicians have the huge responsibility of prese
 		</media:content>
 
 		<media:content url="https://terrytao.wordpress.com/wp-content/uploads/2026/10/image-1.png?w=1024" medium="image" />
-	</item>
-		<item>
-		<title>How to Formalize All of Mathematics</title>
-		<link>https://terrytao.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/</link>
-					<comments>https://terrytao.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/#comments</comments>
-		
-		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
-		<pubDate>Fri, 16 Oct 2026 14:44:44 +0000</pubDate>
-				<category><![CDATA[media]]></category>
-		<category><![CDATA[Adam Topaz]]></category>
-		<category><![CDATA[formalization]]></category>
-		<category><![CDATA[Jeremy Avigad]]></category>
-		<category><![CDATA[Johan Commelin]]></category>
-		<category><![CDATA[Kevin Buzzard]]></category>
-		<category><![CDATA[Kim Morrison]]></category>
-		<category><![CDATA[Oliver Nash]]></category>
-		<category><![CDATA[Remy Degenne]]></category>
-		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18463</guid>
-
-					<description><![CDATA[Jeremy Avigad, Kevin Buzzard, Johan Commelin, Rémy Degenne, Kim Morrison, Oliver Nash and Adam Topaz have written a blog post over on Kevin Buzzard&#8217;s blog entitled &#8220;How to Formalize All of Mathematics&#8221;, regarding recent proposals to automatically formalize the entirety of the mathematical literature. The issues regarding formal mathematics are parallel to those regarding informal [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">Jeremy Avigad, Kevin Buzzard, Johan Commelin, Rémy Degenne, Kim Morrison, Oliver Nash and Adam Topaz have written a <a href="https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/">blog post over on Kevin Buzzard&#8217;s blog entitled &#8220;How to Formalize All of Mathematics&#8221;</a>, regarding recent proposals to automatically formalize the entirety of the mathematical literature.  The issues regarding formal mathematics are parallel to those regarding informal mathematics, in particular the tradeoff between speed, scale, and understanding when one prioritizes the production of output over all other desiderata, and the blog post is largely focused on this tradeoff.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/feed/</wfw:commentRss>
-			<slash:comments>11</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">18463</post-id>
-		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
-			<media:title type="html">Terry</media:title>
-		</media:content>
 	</item>
 	</channel>
 </rss>

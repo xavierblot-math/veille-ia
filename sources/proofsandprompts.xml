@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Thu, 22 Oct 2026 15:30:21 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 23 Oct 2026 17:31:21 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,466 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>A Response to “Who will become the new mathematicians of Math 2.0?”</title>
+		<link>https://proofsandprompts.com/2026/10/23/a-response-to-who-will-become-the-new-mathematicians-of-math-2-0/</link>
+					<comments>https://proofsandprompts.com/2026/10/23/a-response-to-who-will-become-the-new-mathematicians-of-math-2-0/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Fri, 23 Oct 2026 14:00:00 +0000</pubDate>
+				<category><![CDATA[Reactions]]></category>
+		<category><![CDATA[Application season]]></category>
+		<category><![CDATA[PhD students]]></category>
+		<category><![CDATA[Response]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2888</guid>
+
+					<description><![CDATA[“This is a response to a recent post on Proofs and Prompts titled ‘Who will become the new mathematicians of Math 2.0?’ written by an Anonymous PhD student (who I will refer to as ‘Anonymous’ below). I would urge particularly all tenured and tenure-track mathematicians to read it because there are many students that think the same way, and are planning to leave academia as a consequence. […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://alozanoroble.github.io/">Álvaro Lozano-Robledo</a>, Professor of Mathematics at the <a href="https://uconn.edu/">University of Connecticut</a> and on <a href="https://www.youtube.com/@mathandcobb">Youtube</a></p>
+
+
+
+<p class="pp-in-reply-to wp-block-paragraph"><strong>In reply to</strong> <a href="https://proofsandprompts.com/2026/10/20/who-will-become-the-new-mathematicians-of-math-2-0/">Who will become the new mathematicians of Math 2.0?</a> by Anonymous</p>
+
+
+
+<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · As application deadlines approach, Proofs and Prompts is publishing a series of posts from 19 to 23 October for people considering a PhD, doing a PhD or looking for a postdoc: guidelines, discussions and speculation about what to do and what careers in mathematics will look like. This post is one of them. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/application-season/">All posts in the series</a></p>
+
+<p class="wp-block-paragraph">This is a response to a recent post on <a href="https://proofsandprompts.com/">Proofs and Prompts</a> titled “<a href="https://proofsandprompts.com/2026/10/20/who-will-become-the-new-mathematicians-of-math-2-0/">Who will become the new mathematicians of Math 2.0?</a>” written by an Anonymous PhD student (who I will refer to as “Anonymous” below). I would urge particularly all tenured and tenure-track mathematicians to read it because there are many students that think the same way, and are planning to leave academia as a consequence.</p>
+
+
+
+<p class="wp-block-paragraph">I recently wrote a guest piece on Terry Tao’s blog (“<a href="https://terrytao.wordpress.com/2026/10/08/what-should-we-tell-our-students/">What should we tell our students?</a>”) where I warned that we are ‘about to lose an entire generation of mathematicians’ so I feel a duty to reply to Anonymous’ post, to try to offer some counterpoints to the arguments expressed therein. More importantly, I feel a duty to talk to my students about these issues, and I have shared Anonymous’ post with them, so that we can have a discussion. I hope my colleagues in the mathematical community reach out to their students as well.</p>
+
+
+
+<p class="wp-block-paragraph">In order to respond to Anonymous, I will quote some key sentences, and then elaborate with my own thoughts.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph"><strong><em>I recently heard a mathematician say that it is “paradoxical” to not want to study a field that is undergoing a scientific revolution in reference to October 6th. This mindset completely misses the point of why I do mathematics, and I suspect this is true for many other graduate students and even other established mathematicians.</em></strong></p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">I want to start here because I believe I may be one of the mathematicians that they are referring to. In <a href="https://youtu.be/0dLxXB8vc3M?si=6eKLteve8jNkTTTb&amp;t=259">a video discussing my post on Tao’s blog</a>, I said</p>
+
+
+
+<p class="wp-block-paragraph">“And I think it would be in fact paradoxical that people would not want to join a field of study during a scientific revolution where we&#8217;re seeing this incredible acceleration.”</p>
+
+
+
+<p class="wp-block-paragraph">I will come back to the ‘paradoxical’ remark later on, but I want to first mention what I said right after that quote:</p>
+
+
+
+<p class="wp-block-paragraph">“It is somewhat chaotic. It seems somewhat confusing to be a mathematician right now. But we are trying to figure out together what should the math landscape look like in a year and in five years and how to navigate… how we can use LLMs in ethical ways and in a way that is going to construct solid mathematics along the way and in a way that the mathematical field is going to thrive.”</p>
+
+
+
+<p class="wp-block-paragraph">Let me elaborate on that. Historic upheavals of the status quo are usually chaotic while they happen, and in many cases many of those living through such times have been trampled and mistreated (with such dramatic and relevant examples as <a href="https://en.wikipedia.org/wiki/Life_in_Great_Britain_during_the_Industrial_Revolution">the industrial revolution</a>). It is the duty of those in positions of power or security to fight for the rights and well-being of those who may be more likely to suffer through a revolution. In our case, we are living through what can be considered a technological revolution that has great potential to accelerate research and progress and, at the same time, it has a terrifying <a href="https://www.bbc.com/news/articles/ckgwy1k42w4o">civilization-ending non-zero potential</a>. Unfortunately, trying to pretend that the revolution is not happening, or trying to preserve the status quo, only delays the inevitable, and prevents communities from fully preparing and reinforcing their core values, so that their professions can survive said revolution.</p>
+
+
+
+<p class="wp-block-paragraph">If we limit our conversation to mathematics and the mathematical community, the LLMs have already revolutionized research mathematics, with the proposed resolution of several landmark conjectures, such as Navier-Stokes or the quasi Riemann hypothesis. This is undeniable and, simply put, we must learn how to coexist with this new technology. But they are also an existential threat to the way mathematics works, and the way the mathematical community operates. So it is absolutely normal and expected to be excited about the research advances, and also extremely concerned about the ways it may change our field, as Anonymous very eloquently points out.</p>
+
+
+
+<p class="wp-block-paragraph">In particular, while the OAI drop of October 6th is certainly of “historic” proportions, it clearly also has had a disruptive effect of historic proportions. Whether the global effect of the LLMs will be a net positive will be determined much later in the future. But it is clear that the “arms race” of frontier model companies to develop ever more capable mathematical models is a corporate publicity stunt and, very early on, even before the <a href="https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/">Fields medalists warned of a misalignment</a> in an open letter, <a href="https://www.youtube.com/watch?v=lXhx7NBapcA">I asked mathematicians not to be complicit in such an arms race</a>.</p>
+
+
+
+<p class="wp-block-paragraph">At the end of <a href="https://youtu.be/liPcU6Wz6K8?si=E21IN7f8PcSu2go6">my video about the Oct 6 drop</a>, I encouraged people to stay in the field to make changes from within the community. It is up to us in the profession, and more so up to the newer generations, to lead the way to ethical and sustainable research practices that will allow mathematics to prosper. How to do so is to be decided, so all of Anonymous points are well taken. Whatever we do, we need to make sure students do not abandon mathematics because they think it has become unrecognizable. But the key question is: who is in charge of making these changes and laying out a path forward? I claim that no one is in charge, and we all are. Precisely those that see the field driving towards a cliff, have a great role to play within the community to warn about such dangers! It is a chaotic time, the future is uncertain, and this is disconcerting, but I think there are many reasons to be optimistic and to continue in the mathematical profession.</p>
+
+
+
+<p class="wp-block-paragraph">Now let me backtrack in Anonymous’ post to the very first line:</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph"><strong><em>To the mathematicians shaping the future of our profession,</em></strong></p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">The mathematical community is not monolithic, and this is a feature, not a bug, of the community. There is no single person, group, or entity that dictates what mathematicians do or how they should operate. In particular, Terry Tao is not a spokesperson for all of mathematics and, of course, there are many out there that do not agree with his views and his predictions for the future of mathematics. Personally, I highly value and respect many of the things he has said, and I disagree with others. I single out Tao here because Anonymous does, but we could similarly agree or disagree on Tsimerman’s or Duminil-Copin’s points… or any other non-Fields medalist point of view, from one of the many recent blog posts on the matter of AI.</p>
+
+
+
+<p class="wp-block-paragraph">Right now, there are many different groups trying to pull mathematics in very different directions. For example, while some mathematicians are completely embracing LLMs, <a href="https://www.ahmath.org/">other mathematicians completely refuse to use LLMs in their work</a>. Some of us are choosing the middle ground, and we use LLMs with caution for certain tasks, we avoid them for other more intellectual tasks, while respecting the decisions of some of our colleagues (I include students in this category) who cherish them, or do not wish to use them at all.</p>
+
+
+
+<p class="wp-block-paragraph">When students choose graduate programs, and PhD advisors, many of us encourage them to ask lots of questions (to the staff, to faculty members, to students, to friends) about the atmosphere in the department, and their practices, and about the personalities of the potential advisors. Similarly, I would encourage students who are thinking of a career in mathematics to reach out to their current or prospective programs and advisors, and enquire about their stance on AI/LLM use. Does it match the student’s own attitude towards AI, or is it antithetical to their ideals? Since the community is far from monolithic, there are plenty of departments and potential advisors that will be aligned with whatever views the student holds, and it would be wise to choose programs based on that type of alignment, if the issue of AI is key in the decision making.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph"><strong><em>I love technical work. I love spending days, weeks, months working on a lemma or an idea without success. [&#8230;] As AI has now become highly capable of performing this kind of work, I see shockingly little from the mathematics community about how this kind of crisis in education will be addressed.</em></strong></p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">There was a recent summit on “PhD Math Education in the Age of AI” and the <a href="https://cmsa.fas.harvard.edu/media/2026/09/Summit-on-PhD-Math-Education-in-the-Age-of-AI.pdf">recommendations for graduate programs</a> can be found here. TPSE is putting together a panel discussion on the <a href="https://usmd-edu.zoom.us/meeting/register/_6_0GoXlRIa2bBlHj_Y-hw#/registration">Future of Graduate Education in Mathematics</a>. Many departments are having internal discussions on how to approach these issues. As I said above, the future is uncertain but we are trying to think of the best possibilities in education as well as in research.</p>
+
+
+
+<p class="wp-block-paragraph">What is the goal of a graduate program in mathematics? How do we define success in a PhD program? In my opinion, the PhD is an apprenticeship, and success is measured by whether the candidate has been trained and is proficient in all aspects of the mathematical profession. At the end of their degree, several mathematicians write letters of recommendation. A (good) rec letter or set of letters evaluates the PhD candidate’s aptitude in all of these aspects: research potential, teaching abilities, service to the community, potential as a colleague, etc. And then colleagues in other institutions read these letters and determine whether the candidate will be a good match for the research and/or teaching needs of their department. Many of the conversations surrounding AI concentrate on the research aspects, but there is a lot more to being a mathematician than just research.</p>
+
+
+
+<p class="wp-block-paragraph">On the subject of research aptitude, will letters in the future refer to the fantastic LLM skills of the candidate? Will we compare students and say such and such student is in the top 2% of LLM-prompters that we have ever met? Will we say wonderful things about their slop-paper output in our letters? Will we praise the many slop-papers that they have been able to de-slopify? I do <em>not</em> think so – we will still need to have a way to measure their research potential based on their own capability of thinking deeply about problems, and coming up with innovative ways to attack interesting problems. It is absolutely true, as Anonymous points out, that students need to spend long hours thinking deeply about a problem, and I do not think LLMs should change that. So PhD advisors should encourage students not to use LLMs for certain tasks such as proof generation of key lemmas, because these are the tasks where intellectual development actually happens (see the Specific Recommendations in the section on Research and AI in the recommendations from the Summit). In a recent conference I was at, someone suggested to grad students to always be working on at least one project that is completely LLM-free.</p>
+
+
+
+<p class="wp-block-paragraph">As a result, I do not think anyone should or will rob the students from their long hours working on a lemma by “pure thought” because most of us recognize the irreplaceable value of the time spent on that activity. It is precisely the outcome of those thinking sessions that sets students apart at the time of evaluating their intellectual and research ability in research letters.</p>
+
+
+
+<p class="wp-block-paragraph">On the other hand, if an advisor demands results with a quick turnaround, and expects that the student will access an LLM for help to be able to move on – against the wishes of the student – then it is time to choose a different advisor. The ideal scenario is that the student will ask the advisor for help or a hint on how to proceed, even if an LLM could provide such ideas, because those conversations are actually also part of the apprenticeship: students learn how to collaborate with other mathematicians through those interactions. Plus the advisor may have a much better intuition than the LLM does anyway.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph"><strong><em>Many celebrate the possibility that AI will relieve them of the burden of difficult calculations, technical lemmas, and other supposedly tedious aspects of mathematical research.</em></strong></p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">I do not think that is a common sentiment. For the most part, we all value the time spent in understanding the technical difficulties of key lemmas. On the other hand, LLMs can be fantastic tools in helping us write code and run numerical experiments. I am not great at coding, and I find that the LLMs are allowing me to run computations that I only dreamed possible. It would have been very tedious for me to learn how to write code in Python, html, javascript, etc., but now I am able to create code in all those languages, run experiments, and later verify the results mathematically, all in hours instead of weeks (or instead of <em>never!</em>).</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph"><strong>Terence Tao has proposed a vision of a new way of doing mathematics, Math 2.0, where the emphasis moves away from solving open problems and toward a more holistic approach. [&#8230;] But I feel like I am asking the obvious question that has not been addressed: What if I do not want to spend my professional life doing these activities?</strong></p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">Two points here. One (1), some of us have always had a holistic approach to a PhD: I have always emphasized to my students that I expect them to become well-rounded mathematicians, not just great researchers, and that means that I try to push them not just to write a great thesis, but to be better instructors, better members of the community, better at networking, better colleagues, better at giving talks at all levels, etc. There is nothing wrong with a holistic approach, and in fact it makes candidates more appealing to a broader range of colleges and universities at the time of applying for jobs.</p>
+
+
+
+<p class="wp-block-paragraph">And two (2), many do not agree with Tao’s vision either, and that is ok. In my research, I want to solve problems. The coolest the problem the better. I do want to think about a problem and come up with an ingenious solution, and then tell the world about it. I do not want to inherit a slop-solution to a problem that a company dropped in a repository, and try to make sense of it. I would not want to do that, and I would not expect a student to want to do that either, so I would not ask a student to do that as part of their duties to complete a PhD. I simply do not think we will move in the direction of “moving away from solving problems.”</p>
+
+
+
+<p class="wp-block-paragraph">However, I have thought of problems that an LLM could solve, prompted them, and now I have LLM-prepared drafts on problems I care about. Instead of posting these papers directly to <a href="http://hexagonmath.org">Hexagonmath.org</a>, say, my current strategy is to introduce students to research by explaining the problem I am interested in, explaining why others are also interested in the same problem, discussing the idea that led me to prompt an LLM, and sharing the paper with the student. Then use that paper and that topic as a thread for an independent study on the particular area, so that the student learns enough background to understand the motivation for the paper, and the techniques that are used to solve the problem. Later, we will read together the LLM draft, understand the proof, and rewrite it in a way we understand and can make sense of it. While we think about the proofs, I hope we come up with ways to extend the arguments to strengthen the result, or apply the techniques to other similar problems. And finally polish the paper so that we can submit it to a journal, so that the student has an early experience in writing a research paper, and so that they have published a paper early on to talk about during research conferences. A paper they understand and they can feel is their own, because they have contributed to make it their own.</p>
+
+
+
+<p class="wp-block-paragraph">Will this strategy work? I do not know! I am just trying things out, honestly, and I am listening to any other mathematicians who are trying out different strategies to coexist with the new technology.</p>
+
+
+
+<p class="wp-block-paragraph">I do not expect to follow this early-LLM-draft protocol for a thesis problem, however. It would only be appropriate just as some first steps into research.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph"><strong><em>There is a problem with the proposed future of mathematics, and it is more concerning than my personal dissatisfaction. How exactly do you expect to train the next generation of mathematicians? You know how to formulate new research directions. Where did these skills come from? I doubt they were developed by reading successful proofs or listening to an explanation of an idea.</em></strong></p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">As a matter of fact, I do not think intuition and mathematical taste is learned by thinking deeply about a problem for hours on end. I have learned much more attending lectures and conferences, and talking to other mathematicians during lunches and dinners. I have had my best ideas reading other people’s papers and proofs. As an anecdote, early on in my career I signed up to write brief reviews for MathSciNet. I am not sure exactly why, but I was assigned to read and review several articles by Bo-Hae Im (some solo papers, and some co-authored by Im and others), and after reading the third or fourth paper by Im dealing with a conjecture of Larsen, I had an idea of how to prove a related result. I wrote to Im and we ended up collaborating on a research article that eventually <a href="https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/jlms/jdn048">was published by the Journal of the London Mathematical Society</a> (and it had a significant impact in getting tenure).</p>
+
+
+
+<p class="wp-block-paragraph">As I mentioned above, we should make an explicit effort to allow students to think deeply about problems, but we should also make it clear that students should be reading papers and proofs. And whether we like it or not, some of the proofs dropped by OAI contain some interesting arguments that we should absolutely study and think about! A particularly valuable example is the proof of the non-existence of Siegel zeros, which several mathematicians (<a href="https://arxiv.org/abs/2610.15483">Banks</a>, <a href="https://arxiv.org/abs/2610.21099v1">Kerr</a>, <a href="https://hexagonmath.org/pdf/2610.00311v1">Green</a>, Barreto) have improved on, and now it seems the papers have converged to a remarkably simple argument that many of us would highly benefit from understanding.</p>
+
+
+
+<p class="wp-block-paragraph">Back to the question on how to train the next generation of mathematicians… I am not sure we have the answers yet, but I do not think it will look dramatically different from what we do now. There is a new tool in town, yes, but the guiding principles should be the same: train students to be well-rounded mathematicians.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph"><strong><em>If the future consists of interpreting AI generated results, organizing knowledge, and directing automated research, why should I remain in academia?</em></strong></p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">The way this question is phrased, it assumes that the worst, most dystopian possible scenario will come to pass, where AI can solve any single problem humans could solve, and that we would reach a point where only machines do math research. As I mentioned in <a href="https://terrytao.wordpress.com/2026/10/08/what-should-we-tell-our-students/">my piece in Tao’s blog</a>, the future of LLM capabilities is completely unclear. There are many ways in which LLMs could hit a limit in mathematics, for example from the theoretical or feasibility points of view. The frontier model companies are driving the narrative and trying to convince us all that their products are already super human when this is <a href="https://www.youtube.com/watch?v=Rs8Zz72UyUc&amp;t=316s">far from the truth</a>. I wish mathematicians had a multi-million PR team behind them to build praise and support for <a href="https://www.youtube.com/watch?v=hODYq_GWS4s&amp;t=30s">our fantastic research record</a>!</p>
+
+
+
+<p class="wp-block-paragraph">The reality is that many of us have started using LLMs to aid our research, as a tool or as a collaborator, and it turns out that it can be very exciting and fulfilling to do so. As one of the best recent examples of LLM use I know of, one of my colleagues (<a href="https://khlee-math.github.io/">Kyu-Hwan Lee</a>) joined a team of mathematicians to prove that <a href="https://arxiv.org/pdf/2608.08538">the sporadic simple group M_23 is Galois over Q</a>. Their team succeeded with the help of LLMs in a task that many had tried and failed, and made some really <a href="https://www.youtube.com/watch?v=u2GYv9Hicj0&amp;t=13s">interesting progress in the inverse Galois problem</a>. Here is an excerpt from their declaration of AI use:</p>
+
+
+
+<p class="wp-block-paragraph">“No text in this article was written by AI. Our work relies on longstanding domain knowledge and techniques for computing curves of positive genus [KMSV14]. The key strategic decisions and the conceptual analysis for this project were made by the human team.</p>
+
+
+
+<p class="wp-block-paragraph">AI served as a tool that accelerated a large part of our work, particularly the computations. We used Claude Fable 5 and 5.1, Claude Opus 4.8, and ChatGPT 5.6 Sol for searching the literature, generating code, checking results, and proofreading. The workflow that eventually succeeded was a tightly controlled collaboration in which the computational work was much faster with AI, while the human collaborators continued to direct the research and verify the results. AI systems increased our confidence in tackling difficult problems and helped us communicate more efficiently across our different areas of expertise.”</p>
+
+
+
+<p class="wp-block-paragraph">I find this result fantastic (the paper is a gem by the way), and I think it exactly illustrates the way senior mathematicians (Lee, Poonen, Pries) can use LLMs to accelerate research and understanding, and include graduate students (<a href="https://www.shaowuzhang.com/">Shaowu Zhang</a>) and postdocs (<a href="https://sites.google.com/view/xiaoyuhuang/home">Xiaoyu Huang</a>) in the process!</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph"><strong><em>Mathematics is never going to be the same and I recognize that the way I did research and found fulfillment from it are no longer here.</em></strong></p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">Mathematics will be different, yes, but I firmly believe it will be similar to what we do now, in all the best ways. As a final example, very recently three mathematicians (Elkies, Klagsbrun, and Li) have found <a href="https://elliptic-rank.icarm.cloud/curve/4239">an elliptic curve of rank 32</a>. I find this discovery astonishing and wildly exciting. In a private communication, Zev Klagsbrun mentioned to me</p>
+
+
+
+<p class="wp-block-paragraph">“It would be a mistake to view this as a triumph of humans over AI. In fact, it&#8217;s a great example of humans using AI to push the boundary of what is known.”</p>
+
+
+
+<p class="wp-block-paragraph">I could not agree more. Immediately after their curve was found, my student Dylan Costa and I started working on finding a quadratic twist of their curve with rank bigger or equal to 3 (in order to find a quadratic field over which their curve achieves rank at least 35), and with the help of LLMs (in coding and literature search) <a href="https://hexagonmath.org/2610.00280v1">we succeeded to find one</a>, conditional to BSD/Parity. Both Dylan and I found the work on this little contribution (certainly little compared to the giant discovery of the rank 32 curve) to be exhilarating. It would not have been possible just a few months ago without the help of LLMs. This is why I would find it paradoxical to leave mathematics now.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph"><strong><em>I am not asking you to agree with my personal preferences.</em></strong></p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">I just want to conclude by thanking Anonymous for writing such a great piece that should make everyone in math think long and hard about the future of the profession. <em>Thank you</em>. And a final message just to Anonymous: <a href="https://www.youtube.com/playlist?list=PLLwGtZ_pUvwU">I would love to record an interview with you and post it in my channel</a>. Or send me an email message if you want to chat. Bye and best of luck!</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 22 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/23/a-response-to-who-will-become-the-new-mathematicians-of-math-2-0/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2888</post-id>	</item>
+		<item>
+		<title>Disgusted by AI?</title>
+		<link>https://proofsandprompts.com/2026/10/23/disgusted-by-ai/</link>
+					<comments>https://proofsandprompts.com/2026/10/23/disgusted-by-ai/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Fri, 23 Oct 2026 11:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Credit]]></category>
+		<category><![CDATA[Critique]]></category>
+		<category><![CDATA[Incentive]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=1579</guid>
+
+					<description><![CDATA[I completely disagree with the notion that AI companies have hijacked our mathematical culture and turned it into something new and unrecognizable. They have just taken our existing culture to its extreme.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://www.math.uni-duesseldorf.de/~zibrowius/">Marcus Zibrowius</a>, Professor at <a href="https://www.math.hhu.de/">Heinrich Heine University Düsseldorf</a></p>
+
+
+
+<p class="wp-block-paragraph">AI models are making mathematical progress at an unimaginable scale. There&#8217;s now a reasonable expectation that soon, we will be able to prove a theorem, or find a counterexample, at the touch of a button.</p>
+
+
+
+<p class="wp-block-paragraph">But the overall reaction of our mathematical community is closer to panic than it is to enthusiasm. AI is perceived as a threat, not just to humanity as a whole (which is a different story) but to mathematics specifically. We are collectively appalled by formally-verified but fully inexplicable proofs, and even more disgusted by companies that churn out one AI-generated (and equally verified) paper after the other without even having a single person on the team able to explain them.</p>
+
+
+
+<p class="wp-block-paragraph">We talk about the good old days when mathematics was about building a community of common understanding, facilitating personal growth, celebrating beauty.</p>
+
+
+
+<p class="wp-block-paragraph">What a feel-good fairy-tale that is!</p>
+
+
+
+<p class="wp-block-paragraph">In fact, our values have always been about who got there first. Collectively speaking, the one thing we, as a mathematical community, have always valued most has been a proof of a hitherto unproven theorem. It was not a nicer proof of a known result, and certainly not a beautiful exposition of a known proof.</p>
+
+
+
+<p class="wp-block-paragraph">You think I&#8217;m being cynical? Allow me to argue my point.</p>
+
+
+
+<h2 class="wp-block-heading">Follow the money.</h2>
+
+
+
+<p class="wp-block-paragraph">Explaining a proof may have earned you an applause or a compliment. Completing a proof <math data-latex="\text{\textendash}"><semantics><mtext>–</mtext><annotation encoding="application/x-tex">\text{\textendash}</annotation></semantics></math> and doing so faster than anyone else <math data-latex="\text{\textendash}"><semantics><mtext>–</mtext><annotation encoding="application/x-tex">\text{\textendash}</annotation></semantics></math> is what has always had the potential of getting you a job. Also, when did you last write a grant proposal promising to deepen the communal understanding of an existing proof, or to find a more digestible proof to a proven theorem? How does the amount of funding you have acquired for promising new results compare to the funding you got for explaining existing ones?</p>
+
+
+
+<h2 class="wp-block-heading">Reflect on common behaviour.</h2>
+
+
+
+<p class="wp-block-paragraph">What is more likely to keep you up at night? A fellow mathematician threatening to arrive at &#8220;your&#8221; result ahead of you, or a fellow mathematician having trouble understanding your arguments?</p>
+
+
+
+<p class="wp-block-paragraph">The other day, an eminent mathematician confessed to me over lunch that they worked through their summer holidays to get out a paper with a new construction that they got out of an AI model. Anyone asking the model the same question would get the same ingenious answer, so the logic went, hence they needed to publish this immediately.</p>
+
+
+
+<p class="wp-block-paragraph">On the flip side, I&#8217;ve sat through talks where the speaker afterwards, privately, declared &#8220;Today I have given a talk that was utterly incomprehensible. I&#8217;ve always wanted to give a talk like this.&#8221; To be fair, this was a singular, extreme case. But we would not tolerate this kind of behaviour if we really cared so much about a community of common understanding.</p>
+
+
+
+<h2 class="wp-block-heading">Acknowledge past grievances.</h2>
+
+
+
+<p class="wp-block-paragraph">Personally, I vividly remember how, at a panel discussion on &#8220;Future Directions of Algebraic Topology&#8221; at Stanford in 2012, one of the younger members of the audience raised the question: What can we do to make mathematical culture more like music culture, where presenters are valued as much as composers? At that time, the idea of AI was still very much hypothetical. The question was about our very own, human culture.</p>
+
+
+
+<h2 class="wp-block-heading">Read the Leiden declaration.</h2>
+
+
+
+<p class="wp-block-paragraph">The Leiden declaration, which has been widely endorsed by the mathematical community, lists the following as one of our five mathematical &#8220;values&#8221;:</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">Results are attributable to specific authors who take credit for their discovery and assume responsibility for their correctness. These principles ground the merit-based standards to which we aspire in mathematical research.</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">That is just another way of saying that the one thing that really matters for your standing within the community is that you arrive at a new result first.</p>
+
+
+
+<p class="wp-block-paragraph">So why am I saying this? Because I completely disagree with the notion that AI companies have hijacked our mathematical culture and turned it into something new and unrecognizable. They have not. Quite the opposite. They are playing to our rules. They are even solving our problems, problems that no one else cares about! They have just taken our existing culture to its extreme.</p>
+
+
+
+<p class="wp-block-paragraph">And now, we are disgusted!?</p>
+
+
+
+<p class="wp-block-paragraph">I would argue that what we&#8217;re really disgusted by is a key aspect of our own culture, now that we see it more clearly than ever before. We&#8217;re disgusted by the idea that getting there first is all that matters.</p>
+
+
+
+<p class="wp-block-paragraph">Let&#8217;s be honest about what was and what is. We defined our priorities. AI serves them better than we can. Perhaps, the priorities were off.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 25 September 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/23/disgusted-by-ai/feed/</wfw:commentRss>
+			<slash:comments>14</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1579</post-id>	</item>
+		<item>
+		<title>Towards a world mathematical commons</title>
+		<link>https://proofsandprompts.com/2026/10/23/towards-a-world-mathematical-commons/</link>
+					<comments>https://proofsandprompts.com/2026/10/23/towards-a-world-mathematical-commons/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Fri, 23 Oct 2026 09:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Initiatives]]></category>
+		<category><![CDATA[Application season]]></category>
+		<category><![CDATA[Initiative]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=1907</guid>
+
+					<description><![CDATA[Mathematics is changing and growing beyond us. Here's what we can do about it.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://kunalmarwaha.com/about">Kunal Marwaha</a>, Ph.D student at University of Chicago</p>
+
+
+
+<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · As application deadlines approach, Proofs and Prompts is publishing a series of posts from 19 to 23 October for people considering a PhD, doing a PhD or looking for a postdoc: guidelines, discussions and speculation about what to do and what careers in mathematics will look like. This post is one of them. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/application-season/">All posts in the series</a></p>
+
+<p class="wp-block-paragraph">Mathematics is a creative and emotional endeavor. We are driven by challenge and curiosity. We express our ideas carefully to be precisely understood. Our highest moments can fill us with exhilaration and awe.</p>
+
+
+
+<p class="wp-block-paragraph">But how we do mathematics has evolved over time. We have moved away from pictures and informal arguments; we now have axioms and proofs. We have outgrown the time when one person could have understood all of known mathematics; now, we specialize, relying on others to teach us what we know less about.</p>
+
+
+
+<p class="wp-block-paragraph">Today, it is clear that mathematics is again changing and growing beyond us. There exist machines which can prove new mathematical statements, and convert them into papers for humans to verify. This is strange and disruptive to our current process. However, I offer a positive vision of a future which includes these machines while preserving our motivations for this extreme passion.</p>
+
+
+
+<p class="wp-block-paragraph">We should change our mindset from explorers of the mathematical frontier to stewards of a world commons of mathematics.</p>
+
+
+
+<p class="wp-block-paragraph">A commons is a societal resource available to all because it improves everyone&#8217;s quality of life. My favorite example is the US National Park system. At a national park, I can reliably experience an overwhelm of natural beauty in mountains, forests, or rivers. I can camp, swim, or just walk on a trail. After a weekend trip, I return to my normal life refreshed and inspired.</p>
+
+
+
+<p class="wp-block-paragraph">I like the outdoors, but I am not very adventurous. For some people I know, the outdoors can feel like home. They will go into nature for weeks or months at a time: backpacking, rock climbing, journaling. One can make a living like this as a park ranger or firefighter; people in these jobs are paid to understand wildlife, take responsibility for keeping man and nature in balance, and build trails to make life pleasant for visitors like me.</p>
+
+
+
+<p class="wp-block-paragraph">We can build the same kind of environment for mathematics.</p>
+
+
+
+<p class="wp-block-paragraph">For many of us, research is more of a passion than a job. The mathematical outdoors feels like home. This is why theorem-proving machines can feel so intimidating: they are strange new creatures. I think the machines are here to stay, and I don&#8217;t think we can control which problems they will solve. Instead, we should learn from them, keep them in balance with human understanding, and show other humans the beauty of this place. We can be the rangers and firefighters of our mathematical parks, which are more alive than ever before.</p>
+
+
+
+<p class="wp-block-paragraph">The sudden advent of theorem-proving machines will make the next few years painful and difficult. However, if we do not act, we may quickly lose relevance, and our community is likely to wither. This makes building a mathematical commons extremely urgent. But what would it take to build this commons?</p>
+
+
+
+<p class="wp-block-paragraph">The most important step is to create a coalition of mathematicians to steward the commons. We should create a non-profit with a large advisory board, who represent the broad and diverse interests of people who prove or teach theorems in their work. This organization should not be run by any AI company, and our artifacts should be open to everyone.</p>
+
+
+
+<p class="wp-block-paragraph">The next step is to convert all mathematics into formally verified statements. This is the goal of the <a href="https://www.mapmath.org/">Mathematics Autoformalization Project</a>. If we can use computer code to certify correctness of a proof, we can maintain our trust in these proofs at scale. Today, the most popular way to formally verify mathematics uses the Lean proof assistant. There is a vibrant open-source community around <a href="https://github.com/leanprover-community/mathlib4">Mathlib</a>, which has verified essentially all of undergraduate mathematics. It is now even possible to use LLMs to convert proofs of research-grade theorems directly into Lean. (The recent formalization of <a href="https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/">Fermat&#8217;s Last Theorem</a> used the public <a href="https://prove2.me/">prove2.me</a> site I helped build.)</p>
+
+
+
+<p class="wp-block-paragraph">Formalizing all of mathematics would create a large directed graph of known statements and their implications. Creating this graph is achievable if AI companies donate some compute resources to the mathematical commons. Here, they can work together instead of against each other. In the future, all new results could be added to this graph of knowledge.</p>
+
+
+
+<p class="wp-block-paragraph">The final step is to tame this graph of formally verified statements. We do not have to digest all at once; we only have to manage it. We should cluster and sparsify the graph until it corresponds to human-sized chunks of knowledge. We can look for simplifications, common definitions, and unifying theories. We can build trails through wonderful proofs to share both with other mathematicians and with &#8220;park visitors&#8221;. This can all be assisted by machines, provided it helps accomplish our goals.</p>
+
+
+
+<p class="wp-block-paragraph">If done well, the commons will bring about a golden age for human understanding. With responsible stewardship, we can nurture the next generation of mathematicians and math appreciators alongside theorem-proving machines.</p>
+
+
+
+<p class="wp-block-paragraph">Let us start by building this broad coalition of mathematicians. If we work together, we can steer the way mathematics evolves in this uncertain future.</p>
+
+
+
+<p class="wp-block-paragraph">Kunal Marwaha</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 5 October 2026, revised 23 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/23/towards-a-world-mathematical-commons/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1907</post-id>	</item>
+		<item>
 		<title>The Rules Cannot Change Only for Young Mathematicians: AI and the future of a mathematical career</title>
 		<link>https://proofsandprompts.com/2026/10/22/the-rules-cannot-change-only-for-young-mathematicians-ai-and-the-future-of-a-mathematical-career/</link>
 					<comments>https://proofsandprompts.com/2026/10/22/the-rules-cannot-change-only-for-young-mathematicians-ai-and-the-future-of-a-mathematical-career/#comments</comments>
@@ -48,6 +508,8 @@
 <p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · As application deadlines approach, Proofs and Prompts is publishing a series of posts from 19 to 23 October for people considering a PhD, doing a PhD or looking for a postdoc: guidelines, discussions and speculation about what to do and what careers in mathematics will look like. This post is one of them. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/application-season/">All posts in the series</a></p>
 
 
+
+<p class="wp-block-paragraph"><em>AI assistance disclosure:</em> AI was used to translate my draft into English, revise its language and organization, assist with literature searches, and suggest relevant quotations and statistics. The personal experiences and central concerns originate in my draft.</p>
 
 <p class="wp-block-paragraph">I am a postdoctoral mathematician working in partial differential equations, and I love what I do. I have preferred doing mathematics to expressing opinions in public, but the rapid changes of recent months have made that difficult.</p>
 
@@ -489,11 +951,7 @@
 
 
 
-<h2 class="wp-block-heading">AI assistance disclosure</h2>
 
-
-
-<p class="wp-block-paragraph">AI was used to translate my draft into English, revise its language and organization, assist with literature searches, and suggest relevant quotations and statistics. The personal experiences and central concerns originate in my draft.</p>
 
 
 
@@ -641,7 +1099,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/22/the-rules-cannot-change-only-for-young-mathematicians-ai-and-the-future-of-a-mathematical-career/feed/</wfw:commentRss>
-			<slash:comments>35</slash:comments>
+			<slash:comments>46</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">1893</post-id>	</item>
@@ -1006,6 +1464,8 @@
 
 
 
+<p class="wp-block-paragraph">P.E.’s disclaimer: I have been part-time consulting for Anthropic since July 14, 2026. However, this essay represents my own views, which pre-date this engagement and are consistent with my recommendations in “Use of AI in mathematical research: a guide for young mathematicians” (May 2026). My views on the subject have not changed since then.</p>
+
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 
 
@@ -1014,7 +1474,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/21/mathematics-of-the-future/feed/</wfw:commentRss>
-			<slash:comments>35</slash:comments>
+			<slash:comments>36</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2114</post-id>	</item>
@@ -1065,7 +1525,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/21/the-power-of-beauty-and-elegance/feed/</wfw:commentRss>
-			<slash:comments>4</slash:comments>
+			<slash:comments>5</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">1552</post-id>	</item>
@@ -1182,539 +1642,9 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/20/who-will-become-the-new-mathematicians-of-math-2-0/feed/</wfw:commentRss>
-			<slash:comments>60</slash:comments>
+			<slash:comments>62</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2706</post-id>	</item>
-		<item>
-		<title>A critique of the mathematical economy</title>
-		<link>https://proofsandprompts.com/2026/10/20/a-critique-of-the-mathematical-economy/</link>
-					<comments>https://proofsandprompts.com/2026/10/20/a-critique-of-the-mathematical-economy/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Tue, 20 Oct 2026 11:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Critique]]></category>
-		<category><![CDATA[Economy]]></category>
-		<category><![CDATA[Value]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=1514</guid>
-
-					<description><![CDATA[We present a theoretical framework to understand mathematics, and the disruptive effect of AI in our field. Treating mathematics as an economy, we borrow ideas from the theory of value to uncover the hidden dynamics of prestige, attribution, and the job market.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://sites.google.com/view/gutierrez-caceres">Álvaro Gutiérrez</a>, PhD student at <a href="https://www.bristol.ac.uk/maths/">University of Bristol</a></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Abstract:</strong> We present a theoretical framework to understand our field, and the disruptive effect of AI in mathematics. Treating mathematics as an economy, we borrow ideas from the labour theory of value to uncover the hidden dynamics of prestige, attribution, and the job market.</p>
-
-
-
-<p class="wp-block-paragraph"><em>Disclosure: The following text was written by a <a href="https://www.ahmath.org/">human</a>. The text might reflect human thoughts obtained through the human experience.</em></p>
-
-
-
-<p class="wp-block-paragraph">The arrival of a new actor to mathematics has prompted us to <a href="https://siliconreckoner.substack.com/p/if-mathematics-is-an-art-form-why">philosophise</a> about our field. Dealing with the disruption of the technology in mathematics requires deep conversations about many aspects of our jobs. It is however apparent that most of us have never set the grounds for such a conversation to happen.</p>
-
-
-
-<p class="wp-block-paragraph">Some say mathematics <a href="https://proofsandprompts.com/2026/09/14/a-beginning-for-mathematics/">is being born</a>, some say it is <a href="https://doomslide.substack.com/p/mathematics-is-effectively-dead">already dead</a>. For David Bessis it is in crisis: «we are seeing the <a href="https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy">fall of the theorem economy</a>». Although evocative, the analogy between theorems and currency is limited. Similarly, neither the <a href="https://doi.org/10.31269/triplec.v18i2.1183">quantity of papers</a> nor citations alone determine the quality or employability of a researcher.</p>
-
-
-
-<p class="wp-block-paragraph">What is it then, that defines the value of a mathematical paper? What is it that elevates some of the members of our community to high standing and high regard?</p>
-
-
-
-<p class="wp-block-paragraph">I will attempt to frame mathematics as a pseudo-capitalistic system, basing my analysis on the theory of value<sup data-fn="fn-75fb9281-bd37-4650-bce7-1516ba139e82" class="fn"><a href="#fn-75fb9281-bd37-4650-bce7-1516ba139e82" id="fn-75fb9281-bd37-4650-bce7-1516ba139e82-link">1</a></sup>.</p>
-
-
-
-<h2 class="wp-block-heading">1. Before we start</h2>
-
-
-
-<p class="wp-block-paragraph">There is no clear reason why mathematics, as a socio-cultural phenomenon, should be understood in an economic framework. However, I invite you to lean into this perspective. For me, personally, it has served as a good starting point to understand certain aspects of our field in new and unexpected ways.</p>
-
-
-
-<h2 class="wp-block-heading">2. The theory of value</h2>
-
-
-
-<p class="wp-block-paragraph">In the labour theory of value, it is crucial to distinguish between the different values of a commodity.</p>
-
-
-
-<ol class="wp-block-list">
-<li>The <em>(true) value</em> of a commodity refers to the <em>socially necessary labour time</em> to produce said commodity. A bad worker might need more time than a great expert to produce the same commodity; the value of the commodity is the abstract amount of labour that society agrees an abstract average worker needs to invest in its production.</li>
-
-
-
-<li>The <em>use value</em> refers to the tangible properties of a commodity that satisfy a given human need.</li>
-
-
-
-<li>The <em>exchange value</em> of X with respect to Y is the amount of X that can be exchanged for a unit of Y. If a society has currency, then the <em>price</em> of a commodity is the actual quantity of money that was used in a purchase of the commodity.</li>
-</ol>
-
-
-
-<p class="wp-block-paragraph">The role of exchange value and price in the analysis of capital is to realise the value and use value of a commodity in a measurable and concrete manner. Departing from the usual labour theory of value<sup data-fn="fn-60c75298-d678-47d8-8f91-29b661599529" class="fn"><a href="#fn-60c75298-d678-47d8-8f91-29b661599529" id="fn-60c75298-d678-47d8-8f91-29b661599529-link">2</a></sup>, I&#8217;ll call the result of this transformation <em>realised value</em>.</p>
-
-
-
-<h2 class="wp-block-heading">3. The values of mathematics</h2>
-
-
-
-<p class="wp-block-paragraph">When applying the theory of value to mathematics, we need to begin by finding what defines the <em>mathematical economy</em>. In what follows, we ignore that mathematicians in Universities have responsibilities beyond research<sup data-fn="fn-cbc52270-be5c-461f-b0cf-063f9a5cf246" class="fn"><a href="#fn-cbc52270-be5c-461f-b0cf-063f9a5cf246" id="fn-cbc52270-be5c-461f-b0cf-063f9a5cf246-link">3</a></sup>.</p>
-
-
-
-<p class="wp-block-paragraph">A <em>commodity</em> in mathematics is any atomic piece of mathematical literature: a definition, a lemma, a theorem, a proof, a proof technique, a conjecture, a literature review, an analogy, a historic framing of a different commodity, an example, a counterexample, a computation, an algorithm, etc. are all commodities.</p>
-
-
-
-<h3 class="wp-block-heading">3.1. True value</h3>
-
-
-
-<p class="wp-block-paragraph">The <em>(true) value</em> of a commodity remains being defined by <em>socially necessary labour time</em> to produce said commodity. The measurement of this value is hence inherently social.</p>
-
-
-
-<p class="wp-block-paragraph">Factors that contribute to the value of a commodity are the density and the length of the ideas necessary in their production, as well as their originality. Indeed, less original works (such as known proofs, straightforward generalisations, etc.) can be produced at a higher speed, and therefore have less impact in the research community<sup data-fn="fn-7a6cce94-f3fa-4aa2-b2b9-5f83a51415fb" class="fn"><a href="#fn-7a6cce94-f3fa-4aa2-b2b9-5f83a51415fb" id="fn-7a6cce94-f3fa-4aa2-b2b9-5f83a51415fb-link">4</a></sup>. It is understood, in the contrary, that original ideas require time to arise, and it is this abstract average time which an abstract average mathematician needs to produce a new original commodity that gives it value.</p>
-
-
-
-<h3 class="wp-block-heading">3.2. Use value</h3>
-
-
-
-<p class="wp-block-paragraph">Given that our discipline is highly abstract, the <em>use value</em> of a mathematical commodity is also abstract, unlike in the analysis of capitalism.</p>
-
-
-
-<p class="wp-block-paragraph">In mathematics, the use value is typically realised via the appearance of the commodity in subsequent mathematical works. Each time a commodity is cited it contributes to the creation of a new commodity. It is this new contribution that gives use value to the original commodity.</p>
-
-
-
-<p class="wp-block-paragraph">Moreover, the use value of this new commodity continues to affect the use value of the original commodity further. For instance: a definition in paper A is used in a key manner in paper B to prove a difficult theorem. This theorem from paper B is highly cited, gaining use value; this use value retroactively trickles down to paper A.</p>
-
-
-
-<p class="wp-block-paragraph">Eventually (more commonly in applied mathematics), the commodity can escape the mathematical literature and enter other disciplines. The use value of the commodity continues to increase as it does so. In some instances, the commodity can reach the &#8220;real world&#8221; and be used in the development of a certain technology. At this moment, the mathematical commodity enters the capitalist system, and provides capital use value to the real commodities that it helps produce.</p>
-
-
-
-<p class="wp-block-paragraph">Some commodities are conceived with pre-existing true value and use value. When a conjecture is proven, part of the use value of the conjecture is transferred to the new commodity (the proof). Often we justify the importance of a conjecture by making reference to the amount of years passed since its conception. This is because the longer a conjecture is open, the more use value it is able to accumulate. (It is possible, of course, that the conjecture is instead forgotten, in which case it does not carry any additional use value just because it is older.) The person making the conjecture is often also given as a measure of its true value: if this person has previously produced high-true value commodities, it might mean that they are able produce commodities above the usual rate of production (since value is socially necessary labour time), and this in turn gives extra true value (but not use value) to the conjecture.</p>
-
-
-
-<h3 class="wp-block-heading">3.3. Realised value</h3>
-
-
-
-<p class="wp-block-paragraph">Mathematical commodities aren&#8217;t exchanged but rather openly <a href="https://openscientist.pubpub.org/pub/o9q2xbzp/release/6">gifted</a>. Moreover, they are <a href="https://en.wikipedia.org/wiki/Fungibility">non-fungible</a> (unique and not mutually interchangeable).</p>
-
-
-
-<p class="wp-block-paragraph">However, there are still ways in which their values are realised. These appear in a dialogue between the commodities themselves, their author, and their institution (universities, research institutes, or certain private companies)<sup data-fn="fn-71e084ae-cb02-4d91-95f0-aad0cae96de2" class="fn"><a href="#fn-71e084ae-cb02-4d91-95f0-aad0cae96de2" id="fn-71e084ae-cb02-4d91-95f0-aad0cae96de2-link">5</a></sup>.</p>
-
-
-
-<ol class="wp-block-list">
-<li>A group of commodities (a paper) realises its true value through positive referee reports, publication in journals, being accepted to a conference, certain prizes, etc.</li>
-
-
-
-<li>An author has <em>accumulated wealth</em>, which is the sum of the true values of all commodities produced by this author. This wealth can be realised through letters of recommendation, grant awards, invitations to conferences, awards, job offers, tenure, editor positions in journals, etc.</li>
-
-
-
-<li>The institutions also gain a form of accumulated wealth as the aggregate or the average of the accumulated wealths of their members. This accumulated wealth is realised in national and international rankings.</li>
-</ol>
-
-
-
-<p class="wp-block-paragraph">As I said before, these are in constant dialogue. Commodities&#8217; true values contribute to the wealth of their author, but the wealth of the author also gives true value to the commodity (see the paragraph on conjectures). Similarly, an author gives wealth to its institution, but the institutions&#8217; wealth also gives value to the commodities produced by the author, which then contribute to the wealth to the author.</p>
-
-
-
-<p class="wp-block-paragraph">There are two phases to the realised value. On its first phase, it is a purely social concrete realisation of the values of a group of commodities (invitations to conferences, publications, job offers, etc.). Some of these realisations are standardised processes: for instance, candidates to certain positions may be ranked with a point system that tries (often controversially) to capture their intangible and abstract accumulated wealth. On the second phase, the realised value of mathematical commodities transcend the mathematical economy and enter the capital economy (in the form of grants, salaries, funding, monetary prizes, etc.).</p>
-
-
-
-<p class="wp-block-paragraph">The disparity between the true, the use, and the realised values of a group of commodities is a source of tension. The former two are purely social constructs and inherently subjective. The latter is an attempt a concrete realisation of the same, that is never able to capture the nature of the former.</p>
-
-
-
-<h2 class="wp-block-heading">4. The machine</h2>
-
-
-
-<p class="wp-block-paragraph">The irruption of LLMs in our field cheapens mathematical commodities.</p>
-
-
-
-<p class="wp-block-paragraph">In a very apparent manner, the true value of a mathematical commodity (as socially necessary labour time) is immediately reduced if a commodity <em>could have been produced faster by an LLM</em> (or rather, if we as a community allow for such discourse to become predominant).</p>
-
-
-
-<p class="wp-block-paragraph">In the past, computer algebra systems cheapened examples and counterexamples, whenever these were found by known algorithms and run in computers that were not particularly powerful. The 4-colour theorem faced us for the first time against the devaluing of a proof, and thus sparked its own controversy at the time.</p>
-
-
-
-<p class="wp-block-paragraph">Regarding LLMs, different commodities are affected differently. Technical lemmas and counterexamples seem to be singularly devalued by the current frontier models. Correct contextualisation or explanation of a result, for instance, <a href="https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/">remain uniquely human commodities</a> (but it is hard to know if this will be the case in <a href="https://arxiv.org/pdf/2507.09369">the future</a>).</p>
-
-
-
-<p class="wp-block-paragraph">LLMs also cheapen the use values of commodities. The models are known for hiding their true sources and the <a href="https://cims.nyu.edu/~tristanb/statement.pdf">origin of their ideas</a>. The companies behind them are <a href="https://www.reddit.com/r/math/s/5oTmzwuLJT">notoriously mischievous</a>. The reason is simple: not everyone is a mathematician, and the training data comprises millions of documents which are not held to the standards of attribution which we expect in mathematical texts. As per the companies themselves: they do not care about our standards.</p>
-
-
-
-<p class="wp-block-paragraph">Finally, the palpable fear among the new generations is the cheapening of the realised value of mathematical commodities (funding, positions, prizes, etc). The sentiment that is replicated throughout is that «we must adopt the technology to remain competitive».</p>
-
-
-
-<p class="wp-block-paragraph">The cycle described by Marx is as follows: the worker helps in the developing of a new technology, which gets adopted into a new machine; the skills of the worker become transferred to the machine, and the worker remains as a dead appendage to the latter. This is a process of deskilling.</p>
-
-
-
-<h2 class="wp-block-heading">5. The ghost of the capitalist</h2>
-
-
-
-<p class="wp-block-paragraph">In capitalism, the deskilling cycle is only perpetuated because it benefits the capitalist who owns the factory. When the introduction of a technology first cheapens a commodity, the true value of the commodity (as socially necessary labour time) remains unaffected. Until all factories adopt the new technology, the first ones to adopt it are producing commodities at a cheaper cost, but selling them at the same price as before. Once all factories adopt the new technology, the value of the commodity falls (and eventually so might do its price).</p>
-
-
-
-<p class="wp-block-paragraph">In the mathematical economy, however, there is no capitalist: <strong>we</strong> are the ones that realise the value of a commodity. We referee, we are the editors, we sit in hiring committees, we decide who gets a prize, we write the letters of recommendation and we read them. We are asked by institutions whether we believe they should grant some funding to another group.</p>
-
-
-
-<p class="wp-block-paragraph">The competitive fear which we have is ill-founded. Or, it could be.</p>
-
-
-
-<p class="wp-block-paragraph">There is no incentive for us to recommend AI papers for publication. There is no incentive to hire or concede prizes to the AI prompters<sup data-fn="fn-e075d517-8982-4e7b-a055-1591abb98b97" class="fn"><a href="#fn-e075d517-8982-4e7b-a055-1591abb98b97" id="fn-e075d517-8982-4e7b-a055-1591abb98b97-link">6</a></sup>. There is no incentive to grant them any money<sup data-fn="fn-e0f8d640-2f23-49c5-b74a-721e698d9b9c" class="fn"><a href="#fn-e0f8d640-2f23-49c5-b74a-721e698d9b9c" id="fn-e0f8d640-2f23-49c5-b74a-721e698d9b9c-link">7</a></sup>.</p>
-
-
-
-<p class="wp-block-paragraph"><a href="https://youtu.be/PZRb6NIki2w?si=5dI0-Axazkhg7CE7&amp;t=1100">The academic community has more soft power than it realises.</a> We may face challenges regarding funding or labour conditions. But in Marxist terms: we remain largely in control of &#8220;the means of production&#8221; of the mathematical commodities.</p>
-
-
-
-<h2 class="wp-block-heading">6. Conclusion</h2>
-
-
-
-<p class="wp-block-paragraph">My goal is to be descriptive, not prescriptive. Please take your conclusions yourself. I am by no means an expert in Marx, so please excuse me if you think that he wouldn&#8217;t have agreed with my analysis.</p>
-
-
-
-<p class="wp-block-paragraph">My hope is that some theoretical framework can help us have deeper conversations. For instance, reading philosophers&#8217; analysis the original luddite movement might help you understand your <a href="https://theanarchistlibrary.org/library/chellis-glendinning-notes-toward-a-neo-luddite-manifesto">neo-luddite</a> student, when they start feeding an LLM with thousands of pages of <a href="https://github.com/cemulate/the-mlab">nonsensical</a> <a href="https://thatsmathematics.com/mathgen/">pseudo-maths</a> to <a href="https://www.reddit.com/r/poisonai/">poison AI</a>. Or, it might help you respond to <a href="https://en.wikipedia.org/wiki/False_consciousness">your colleague</a> when they announce they&#8217;ll be leaving academia and joining an <a href="https://en.wikipedia.org/wiki/Labor_aristocracy">AI company</a>.</p>
-
-
-<ol class="wp-block-footnotes"><li id="fn-75fb9281-bd37-4650-bce7-1516ba139e82">I am basing most of the essay in Marx&#8217;s Das Kapital (volume I). That doesn&#8217;t mean that the essay projects a communist or revolutionary lens to this text, but rather that it is framed in dialectical materialism. Also: Marx would have spent thousands of pages expanding on these ideas. I won&#8217;t. <a href="#fn-75fb9281-bd37-4650-bce7-1516ba139e82-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-60c75298-d678-47d8-8f91-29b661599529">The main contribution of Marx to the theory of value is to neatly separate the different natures of these values to properly analyse their relationships. Rejoining two of these into one category is thus against the spirit. It is enough for this essay. <a href="#fn-60c75298-d678-47d8-8f91-29b661599529-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-cbc52270-be5c-461f-b0cf-063f9a5cf246">Awards and other honour distinctions are rarely based on the teaching or administrative capacities of the mathematician, even if these comprise most of their working time and often all of their contracted salary. Teaching experience affects your employability, but the quality of your teaching does not help you get tenure in a prestigious institution. <a href="#fn-cbc52270-be5c-461f-b0cf-063f9a5cf246-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-7a6cce94-f3fa-4aa2-b2b9-5f83a51415fb">Except in expository texts, which are treated differently to research papers. Here, I&#8217;d argue that the effort of synthesis is what takes labour and hence gives value to the text. <a href="#fn-7a6cce94-f3fa-4aa2-b2b9-5f83a51415fb-link" aria-label="Jump to footnote reference 4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-71e084ae-cb02-4d91-95f0-aad0cae96de2">The inner workings of this dialogue are complicated and could be analysed in much greater detail. This is beyond the scope of a blog post. <a href="#fn-71e084ae-cb02-4d91-95f0-aad0cae96de2-link" aria-label="Jump to footnote reference 5"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-e075d517-8982-4e7b-a055-1591abb98b97">Except, when the rules of the institutions are too stiff for us to introduce any amount of nuance in the process. <a href="#fn-e075d517-8982-4e7b-a055-1591abb98b97-link" aria-label="Jump to footnote reference 6"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-e0f8d640-2f23-49c5-b74a-721e698d9b9c">Especially, given that they can get their money from AI companies. <a href="#fn-e0f8d640-2f23-49c5-b74a-721e698d9b9c-link" aria-label="Jump to footnote reference 7"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 24 September 2026, revised 5 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/20/a-critique-of-the-mathematical-economy/feed/</wfw:commentRss>
-			<slash:comments>11</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1514</post-id>	</item>
-		<item>
-		<title>Letter to a worried student</title>
-		<link>https://proofsandprompts.com/2026/10/20/letter-to-a-worried-student/</link>
-					<comments>https://proofsandprompts.com/2026/10/20/letter-to-a-worried-student/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Tue, 20 Oct 2026 09:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Application season]]></category>
-		<category><![CDATA[Profession]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2524</guid>
-
-					<description><![CDATA[I don't know how it will all turn out, so I certainly can't promise you anything.  But I do know that “understanding” is a human activity — something computers cannot do for us (even if they solve problems better than we do, it serves no purpose unless there are humans who actually understand).]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph">David A. Madore, associate professor at Télécom Paris</p>
-
-
-
-<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · As application deadlines approach, Proofs and Prompts is publishing a series of posts from 19 to 23 October for people considering a PhD, doing a PhD or looking for a postdoc: guidelines, discussions and speculation about what to do and what careers in mathematics will look like. This post is one of them. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/application-season/">All posts in the series</a></p>
-
-<p class="wp-block-paragraph">The text is an email I wrote to a student expressing worries about the future of mathematics and whether they should turn to a different career.  After sending it, I decided it would be worth making public in case it helps others faced with similar worries.  The original text is in French, and follows the English translation.  The email has been only very lightly edited to remove possible identifying information and to correct a few embarrassing grammatical mistakes.  No AI has been used to produce the original text, but Google Translate was used as a starting point for the English translation (which I then edited).</p>
-
-
-
-<h2 class="wp-block-heading">English translation</h2>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">Dear [<math data-latex="\ldots"><semantics><mo lspace="0em" rspace="0em">…</mo><annotation encoding="application/x-tex">\ldots</annotation></semantics></math>],</p>
-
-
-
-<p class="wp-block-paragraph">I won&#8217;t lie to you: the math community — myself included — is extremely concerned about the current situation.  Some colleagues are more optimistic than others, but we are all wondering where we are headed (and the problem obviously extends far beyond mathematics).</p>
-
-
-
-<p class="wp-block-paragraph">In any case, I fully agree with what you wrote (and your email shows that you grasp the situation very well).  I, too, am convinced that AI companies do not care about science; if they did, they would have provided more details — for instance, regarding the full range of problems they attempted to solve, the methods employed, and so on.  They simply want to train and sell their models; they have chosen mathematics as a battleground and a training ground, and this is causing immense harm to science.  I also reject the vision of mathematics turning into a “sort of &#8216;math vibing&#8217;, where you have to decipher what a computer has compiled, churned through, and spewed into a file” — as you so eloquently put it.</p>
-
-
-
-<p class="wp-block-paragraph">My view is that the goal of mathematics is to understand the world, not merely to solve problems.  Open problems have been put forth in the hope that they should serve as milestones for understanding and for discovering new theories — acting as a catalyst for research and inquiry.  AI companies are now using them in a largely destructive way, collecting them like trophies while delivering solutions that yield no genuine understanding.  Many of us are angry.</p>
-
-
-
-<p class="wp-block-paragraph">But I think it was also partly our fault, as mathematicians, for placing too much importance on “hard problems” and the glory associated with solving them (like the Fields medal), and for sometimes believing that mathematics was a race for results rather than a collaborative effort to understand the world.</p>
-
-
-
-<p class="wp-block-paragraph">I don&#8217;t know how it will all turn out, so I certainly can&#8217;t promise you anything.  But I do know that “understanding” is a human activity — something computers cannot do for us (even if they solve problems better than we do, it serves no purpose unless there are humans who actually understand).  Perhaps mathematical research will shift its focus toward the pursuit of interesting questions, illuminating perspectives, or elegant exposition (including aimed at the general public) rather than the race to answer difficult problems; that is what I hope for.</p>
-
-
-
-<p class="wp-block-paragraph">(“‘I wish it need not have happened in my time,’ said Frodo.  ‘So do I,’ said Gandalf, ‘and so do all who live to see such times.  But that is not for them to decide. All we have to decide is what to do with the time that is given us.’” —J.R.R. Tolkien, ‘The Fellowship of the Ring’, book I, chap. 2.)</p>
-
-
-
-<p class="wp-block-paragraph">I sincerely believe we need more mathematicians (human ones!) to understand an increasingly complex and confusing world; and also to learn either how to use AI intelligently without making ourselves dumb, or how to forgo using it — but in any case, how to manage it productively.</p>
-
-
-
-<p class="wp-block-paragraph">So, I cannot make any promises to you on what will happen tomorrow. Clearly, you have a very good grasp of the current challenges (better than some of my fellow researchers).  I would fully understand if you decided to leave mathematics for another field [<math data-latex="\ldots"><semantics><mo lspace="0em" rspace="0em">…</mo><annotation encoding="application/x-tex">\ldots</annotation></semantics></math>] — after all, the very purpose of this program is to enable you to decide what you prefer and what you find most interesting and useful.  But what I can say with certainty is that if the advent of AI discourages promising students from pursuing mathematics, that will be the greatest harm it has done to the discipline.</p>
-
-
-
-<p class="wp-block-paragraph">[<math data-latex="\ldots"><semantics><mo lspace="0em" rspace="0em">…</mo><annotation encoding="application/x-tex">\ldots</annotation></semantics></math>]</p>
-
-
-
-<p class="wp-block-paragraph">Best regards,</p>
-
-
-
-<p class="wp-block-paragraph">—<br>David A. Madore</p>
-</blockquote>
-
-
-
-<h2 class="wp-block-heading">French original</h2>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">Cher [<math data-latex="\ldots"><semantics><mo lspace="0em" rspace="0em">…</mo><annotation encoding="application/x-tex">\ldots</annotation></semantics></math>],</p>
-
-
-
-<p class="wp-block-paragraph">Je ne vais pas te mentir: la communauté mathématique, moi inclus, est extrêmement inquiète de ce qui se passe.  Certains collègues sont plus optimistes que d&#8217;autres, mais nous nous demandons tous où nous allons (et le problème va évidemment bien au-delà des mathématiques).</p>
-
-
-
-<p class="wp-block-paragraph">Je suis en tout cas tout à fait d&#8217;accord avec ce que tu écris (et ton mail montre que tu saisis très bien la situation).  Je suis moi aussi persuadé que les boîtes d&#8217;IA ne sont pas préoccupées par la science (si elles l&#8217;étaient elles auraient donné plus de détails, par exemple sur l&#8217;ensemble des problèmes qu&#8217;elles ont essayé de résoudre, sur les moyens mis en œuvre, etc.).  Elles veulent juste entraîner et vendre leurs modèles, elles ont choisi les maths comme terrain de guerre et d&#8217;entraînement, et ça cause énormément de mal à la science.  Je rejette moi aussi l&#8217;idée que les maths deviennent une «espèce de math vibing, où il faut comprendre ce qu&#8217;un ordinateur a compilé, trituré et vomi dans un fichier» comme tu l&#8217;écris très bien.</p>
-
-
-
-<p class="wp-block-paragraph">Ma vision des maths est qu&#8217;elles ont pour but de comprendre le monde, pas de résoudre des problèmes.  Les problèmes ouverts ont été posés dans l&#8217;espoir qu&#8217;ils servent de jalons pour comprendre les choses et découvrir de nouvelles théories, comme motivation pour susciter des recherches et des questionnements.  Les boîtes d&#8217;IA s&#8217;en servent maintenant de façon largement destructive en les collectionnant comme des trophées, en apportant des solutions qui ne suscitent pas de compréhension.  Nous sommes nombreux à être en colère.</p>
-
-
-
-<p class="wp-block-paragraph">Mais je pense que c&#8217;était aussi en partie notre faute en tant que mathématiciens d&#8217;avoir accordé trop d&#8217;importance aux «problèmes durs» et à la gloire qui s&#8217;attache à leur résolution (comme la médaille Fields), et d&#8217;avoir parfois cru que les mathématiques étaient une course au résultat au lieu d&#8217;une collaboration pour comprendre le monde.</p>
-
-
-
-<p class="wp-block-paragraph">Je ne sais pas comment ça va finir, donc je ne peux certainement rien te promettre.  Mais je sais que «comprendre» est une activité humaine, que les ordinateurs ne peuvent pas faire à notre place (même s&#8217;ils résolvent les problèmes mieux que nous, ça ne sert à rien s&#8217;il n&#8217;y a pas des humains qui comprennent).  Peut-être que la recherche mathématique va tourner plus son intérêt vers la quête des questions intéressantes, ou des points de vue éclairants ou une exposition élégante (y compris au grand public), que la course aux réponses aux problèmes difficiles: c&#8217;est ce que j&#8217;espère.</p>
-
-
-
-<p class="wp-block-paragraph">(«‘I wish it need not have happened in my time,’ said Frodo.  ‘So do I,’ said Gandalf, ‘and so do all who live to see such times.  But that is not for them to decide. All we have to decide is what to do with the time that is given us.’» —J.R.R. Tolkien, ‘The Fellowship of the Ring’, book I, chap. 2.)</p>
-
-
-
-<p class="wp-block-paragraph">Je pense sincèrement que nous avons besoin de plus de mathématiciens (humains!) pour comprendre un monde toujours plus complexe et confus; et aussi pour apprendre, soit à se servir intelligemment de l&#8217;IA sans devenir bêtes nous-mêmes, soit à ne pas s&#8217;en servir, mais en tout cas à la gérer utilement.</p>
-
-
-
-<p class="wp-block-paragraph">Donc je ne peux pas te faire de promesse sur ce qui arrivera demain. Manifestement tu as très bien compris les difficultés actuelles (mieux que certains de mes collègues chercheurs).  Je comprends tout à fait si tu décides de quitter les maths pour un autre domaine [<math data-latex="\ldots"><semantics><mo lspace="0em" rspace="0em">…</mo><annotation encoding="application/x-tex">\ldots</annotation></semantics></math>]: c&#8217;est justement le rôle de cette formation de te permettre de décider ce que tu préfères et ce qui te semble le plus intéressant et utile.  Mais ce que je peux dire avec certitude, c&#8217;est que si l&#8217;arrivée des IA dégoûte les étudiants prometteurs de faire des mathématiques, ce sera le pire mal qu&#8217;elles auront fait à cette science.</p>
-
-
-
-<p class="wp-block-paragraph">[<math data-latex="\ldots"><semantics><mo lspace="0em" rspace="0em">…</mo><annotation encoding="application/x-tex">\ldots</annotation></semantics></math>]</p>
-
-
-
-<p class="wp-block-paragraph">Bien cordialement,</p>
-
-
-
-<p class="wp-block-paragraph">—<br>David A. Madore</p>
-</blockquote>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 13 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/20/letter-to-a-worried-student/feed/</wfw:commentRss>
-			<slash:comments>3</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2524</post-id>	</item>
-		<item>
-		<title>Recommendations on the use of AI for PhD students and supervisors</title>
-		<link>https://proofsandprompts.com/2026/10/19/recommendations-on-the-use-of-ai-for-phd-students-and-supervisors/</link>
-					<comments>https://proofsandprompts.com/2026/10/19/recommendations-on-the-use-of-ai-for-phd-students-and-supervisors/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Mon, 19 Oct 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[In practice]]></category>
-		<category><![CDATA[Initiatives]]></category>
-		<category><![CDATA[Application season]]></category>
-		<category><![CDATA[PhD students]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2709</guid>
-
-					<description><![CDATA[We provide a proposed set of guidelines for PhD students and their supervisors. Given that PhD students are the most affected, both professionally and psychologically, by the advent of AI in mathematics, such guidelines, even if they may soon be obsolete, could be useful to them, their advisors and graduate schools.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph">A collective of symplectic geometry researchers<sup data-fn="a2626481-887f-4dfb-b107-e1b40917c229" class="fn"><a href="#a2626481-887f-4dfb-b107-e1b40917c229" id="a2626481-887f-4dfb-b107-e1b40917c229-link">1</a></sup></p>
-
-
-
-<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · As application deadlines approach, Proofs and Prompts is publishing a series of posts from 19 to 23 October for people considering a PhD, doing a PhD or looking for a postdoc: guidelines, discussions and speculation about what to do and what careers in mathematics will look like. This post is one of them. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/application-season/">All posts in the series</a></p>
-
-<p class="wp-block-paragraph">Mathematics is a human and social activity, and it is fundamental that this aspect be preserved. This must be a common goal for doctoral students, supervisors/advisors and universities, and it is essential that all be fully aware of it.</p>
-
-
-
-<p class="wp-block-paragraph">AI can be used as a tool in the service of mathematicians. But it is mathematicians who must determine which questions are important, and they must remain the sole judges of the interest of a result. Delegating this task to a machine, however &#8220;intelligent,&#8221; is never acceptable.</p>
-
-
-
-<p class="wp-block-paragraph">The arrival of AI in mathematical research has brought deep changes and justified concern, on the part of doctoral students as well as their supervisors. The recommendations that follow are only advice intended to help you, your supervisor, and your institution to deal with the place of AI in mathematical research and make the most of your doctoral years.</p>
-
-
-
-<p class="wp-block-paragraph">There seems to be no shared opinion on the dangers of AI, and it is not the purpose of these recommendations to discuss them, while acknowledging that such opinions will affect how they can be put into practice.</p>
-
-
-
-<p class="wp-block-paragraph">We do not deny the ethical, societal and ecological questions raised by AI, nor its implications for civil liberties, security and the economy. We are well aware that mathematics is currently being used as an &#8220;advertising vehicle&#8221; by large AI companies. But AI also exists outside such companies, for instance through open-source models installed locally.</p>
-
-
-
-<p class="wp-block-paragraph">In what follows, &#8220;AI&#8221; refers to the use of AI for mathematical research, not for other purposes such as editorial or bibliographical assistance.</p>
-
-
-
-<h2 class="wp-block-heading">A) For doctoral students</h2>
-
-
-
-<ol class="wp-block-list">
-<li>AI is going to have an impact on mathematical research, both by solving certain questions outright and by assisting you in your own work — sometimes on its most technical aspects, sometimes by helping you learn new material or discover connections between different areas of mathematics. Depending on many factors, both personal and scientific, you will find it useful to varying degrees. But whatever your opinion, ignoring AI is not an option.</li>
-
-
-
-<li>If you use AI, heavily or occasionally, you must train yourself to use it efficiently and to know its limits. Mathematics produced by AI can be wrong while sounding perfectly convincing. Every step of a proof obtained with its help must be carefully checked by you, and you alone are responsible for its correctness. Since AI is not always reliable when it comes to attributions, you will need to be especially careful about this issue in your papers and thesis.</li>
-
-
-
-<li>The use of AI to obtain mathematical content (an idea, a lemma, a computation) must be documented and declared. Keep the prompts and the corresponding answers, for instance in a &#8220;lab notebook&#8221;, and disclose this use in your thesis and in your papers, as many journals now require. In all cases, you must fully master any result obtained with the help of AI. Text produced by AI can be considered neither a preprint nor a thesis manuscript, and AI is never a co-author.</li>
-
-
-
-<li>In the case of a collaboration, it is important to share early on your views on AI. In particular, do not submit to a commercial model unpublished results that are not your own (collaborators&#8217; drafts, private communications) without the consent of those concerned.</li>
-
-
-
-<li>Since a number of technical problems are now solved by AI, your thesis topic may be more open-ended than those given in recent years. In return for the help AI provides on technical questions, expectations will likely be higher in terms of independence, creativity, innovation and the breadth of your knowledge.</li>
-
-
-
-<li>It would be a mistake to believe that AI removes the need to acquire technical knowledge, even if technical virtuosity may no longer carry the same weight. This knowledge is absolutely necessary in order to engage usefully with AI and to judge its answers.</li>
-
-
-
-<li>Be careful not to find yourself one-on-one with the AI. On the contrary, it is essential to have regular, in-depth discussions with your thesis supervisor, the members of your laboratory and, furthermore, to develop as early as possible during your studies direct research exchanges with peers and other mathematicians through conferences, research visits, and other similar opportunities.</li>
-
-
-
-<li>The format of teaching and of examinations will probably change, at both undergraduate and graduate level, including the PhD defense. You must prepare for this, as teaching, and more generally the communication of mathematics, may take up a larger share of a researcher&#8217;s activity and play a more central role in how their contributions are evaluated.</li>
-
-
-
-<li>Plan for your future: the skills acquired during the thesis, including a considered command of AI tools, should also be of value outside academia.</li>
-</ol>
-
-
-
-<h2 class="wp-block-heading">B) For supervisors</h2>
-
-
-
-<ol class="wp-block-list">
-<li>Your students will use AI according to their personal inclination (and means of access). You should endeavour to support them in their choices rather than trying to forbid it outright or forcing them to adopt it. On the other hand, it is essential to bear in mind that the problems you are posing might be quickly solvable by AI. You should evaluate the proposed problems accordingly, just as you would check them against the recent literature.</li>
-
-
-
-<li>The supervisor must make reasonable efforts to provide the doctoral student with the AI tools they may need. This is also a matter of fairness between doctoral students. The supervisor should agree with the student, from the start of the thesis, on how the use of AI will be documented (see A3).</li>
-
-
-
-<li>It must be checked that doctoral students still acquire the techniques useful in the field, in particular &#8211; but not only- in order to interact with AI. Since AI knows no boundaries between mathematical fields, this culture will probably need to be broader than before. It is important to give doctoral students ample opportunities to interact with other mathematicians &#8211; starting with the thesis supervisor &#8211; so as to avoid a one-on-one with the AI (see A7).</li>
-
-
-
-<li>The defense will have to check thoroughly that the student has full command of all the new results presented in the thesis, and to assess their mathematical contribution, creativity and maturity. Its format will probably need to evolve, and sufficient time should be set aside, before or during the defense, for such an assessment. In all cases, the student must know in advance what is expected of them.</li>
-</ol>
-
-
-
-<h2 class="wp-block-heading">C) For universities and research institutes</h2>
-
-
-
-<ol class="wp-block-list">
-<li>Since researchers are the best judges of their own needs, they must be left to decide whether or not to use AI and, if so, which version &#8211; commercial models or locally installed ones &#8211; and what training they need.</li>
-
-
-
-<li>The cost of these resources (subscriptions, hardware for local models) must be covered at the institutional level, and not left to supervisors or doctoral students.</li>
-
-
-
-<li>Institutions must set clear and simple rules on the disclosure of AI use in thesis manuscripts, consistent with the prevailing practice of reputable journals, and adapt the regulations governing defenses accordingly (see B4).</li>
-</ol>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 17 October 2026.</p>
-
-
-<ol class="wp-block-footnotes"><li id="a2626481-887f-4dfb-b107-e1b40917c229">Devised and endorsed by A. Abbondandolo (Ruhr University Bochum, Germany), D. Álvarez-Gavela (Brandeis, USA), S. Anjos (Técnico Lisboa, Portugal), D. Auroux (Harvard, USA), İ. Baykur (UMass Amherst, USA), D. Cant (Université de Montréal, Canada), O. Cornea (Université de Montréal, Canada), M. Damian (Université de Strasbourg, France), J. Evans (Lancaster, UK), R. L. Fernandes (UIUC, USA), U. Frauenfelder (Universität Augsburg, Germany), V. Ginzburg (UC Santa Cruz, USA), F. Gironella (CNRS–Nantes Université, France), Y. Groman (Hebrew University, Israel), B. Gurel (UCF, USA), K. Inal (UMass Amherst, USA), A. Keating (Cambridge, UK), M. Kegel (Universidad de Sevilla, Spain), J. Latschev (Universität Hamburg, Germany), A. Libgober (UIC, USA), Y.-S. Lin (Boston University, USA), L. Macarini (IMPA, Brazil), M. Mazzucchelli (CNRS–Sorbonne Université, France; on sabbatical at IAS, USA, 2026–2027), K. Mohnke (HU Berlin, Germany), D. Nadler (UC Berkeley, USA), A. Oancea (Université de Strasbourg, France), A. Pedroza (Universidad de Colima, Mexico), A. R. Pires (University of Edinburgh, UK), P. Seidel (MIT, USA), S. Seyfaddini (ETH Zürich, Switzerland), I. Smith (Cambridge, UK), L.-S. Tseng (UC Irvine, USA), R. Vianna (USP, Brazil), C. Viterbo (Université Paris-Saclay, France), W. Wu (Zhejiang University, China), Z. Zhou (AMSS–CAS, China) <a href="#a2626481-887f-4dfb-b107-e1b40917c229-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/19/recommendations-on-the-use-of-ai-for-phd-students-and-supervisors/feed/</wfw:commentRss>
-			<slash:comments>7</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2709</post-id>	</item>
 	</channel>
 </rss>

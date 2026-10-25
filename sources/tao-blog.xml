@@ -13,7 +13,7 @@
 	<atom:link href="https://terrytao.wordpress.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://terrytao.wordpress.com</link>
 	<description>Updates on my research and expository papers, discussion of open problems, and other maths-related topics.  By Terence Tao</description>
-	<lastBuildDate>Fri, 23 Oct 2026 15:20:41 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 23 Oct 2026 17:53:56 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -30,6 +30,54 @@
 	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://terrytao.wordpress.com/osd.xml" title="What&#039;s new" />
 	<atom:link rel='hub' href='https://terrytao.wordpress.com/?pushpress=hub'/>
 	<item>
+		<title>oai-math-revised: a community hub for revising OpenAI’s math write-ups</title>
+		<link>https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/</link>
+					<comments>https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/#comments</comments>
+		
+		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
+		<pubDate>Sat, 24 Oct 2026 15:08:02 +0000</pubDate>
+				<category><![CDATA[advertising]]></category>
+		<category><![CDATA[Abhinav Nellore]]></category>
+		<category><![CDATA[Johannes Schmitt]]></category>
+		<category><![CDATA[Rachel Ward]]></category>
+		<category><![CDATA[Soledad Villar]]></category>
+		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18557</guid>
+
+					<description><![CDATA[[This is a guest post by Abhinav Nellore, Johannes Schmitt, Soledad Villar, and Rachel Ward &#8211; T.] OpenAI&#8217;s math write-ups at https://github.com/openai/math can be difficult to understand and can have incomplete citations. https://github.com/mathcommunity/oai-math-revised/ seeks to be an inclusive effort to improve these write-ups, and the broader math community&#8211;students, postdocs, professors, and enthusiasts&#8211;is invited to participate. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph"><em>[This is a guest post by <a href="https://www.ohsu.edu/people/abhinav-nellore-phd">Abhinav Nellore</a>, <a href="https://johannesschmitt.gitlab.io/">Johannes Schmitt</a>, <a href="https://www.ams.jhu.edu/villar/">Soledad Villar</a>, and <a href="https://oden.utexas.edu/people/directory/rachel--ward/">Rachel Ward</a> &#8211; T.]</em></p>
+
+
+
+<p class="wp-block-paragraph">OpenAI&#8217;s math write-ups at <a href="https://github.com/openai/math">https://github.com/openai/math</a> can be difficult to understand and can have incomplete citations.</p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://github.com/mathcommunity/oai-math-revised/ ">https://github.com/mathcommunity/oai-math-revised/ </a>seeks to be an inclusive effort to improve these write-ups, and the broader math community&#8211;students, postdocs, professors, and enthusiasts&#8211;is invited to participate.</p>
+
+
+
+<p class="wp-block-paragraph">The repo is browsable at <a href="https://mathcommunity.github.io/oai-math-revised/">https://mathcommunity.github.io/oai-math-revised/</a></p>
+
+
+
+<p class="wp-block-paragraph">We also invite the community to email <a href="mailto:mathcommunityadmin@gmail.com">mathcommunityadmin@gmail.com</a> if they want to serve as admins/reviewers and for which categories from <a href="https://github.com/openai/math/blob/main/overview.pdf">https://github.com/openai/math/blob/main/overview.pdf</a> they&#8217;d be appropriate for reviews.</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/feed/</wfw:commentRss>
+			<slash:comments>14</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">18557</post-id>
+		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
+			<media:title type="html">Terry</media:title>
+		</media:content>
+	</item>
+		<item>
 		<title>IAS applications for membership in the school of mathematics</title>
 		<link>https://terrytao.wordpress.com/2026/10/23/ias-applications-for-membership-in-the-school-of-mathematics/</link>
 					<comments>https://terrytao.wordpress.com/2026/10/23/ias-applications-for-membership-in-the-school-of-mathematics/#comments</comments>
@@ -159,7 +207,7 @@ Lamzouri points out that the BGST-B approach cannot be made unconditional by mer
 </p>]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/22/simple-and-critical-zeros-of-the-riemann-zeta-function/feed/</wfw:commentRss>
-			<slash:comments>7</slash:comments>
+			<slash:comments>9</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18518</post-id>
@@ -255,7 +303,7 @@ For the next generation of mathematicians to flourish, we need protections and c
 </p>]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/21/mathematics-is-a-subject-for-the-young/feed/</wfw:commentRss>
-			<slash:comments>51</slash:comments>
+			<slash:comments>52</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18522</post-id>
@@ -320,7 +368,7 @@ I am looking forward to the results of this experimental challenge, both for the
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/feed/</wfw:commentRss>
-			<slash:comments>70</slash:comments>
+			<slash:comments>73</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18525</post-id>
@@ -480,7 +528,7 @@ To use this, we replace the standard monomial basis <img src="https://s0.wp.com/
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/feed/</wfw:commentRss>
-			<slash:comments>27</slash:comments>
+			<slash:comments>29</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18505</post-id>
@@ -777,53 +825,6 @@ In the meantime<b>, I think mathematicians have the huge responsibility of prese
 		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
 			<media:title type="html">Terry</media:title>
 		</media:content>
-	</item>
-		<item>
-		<title>SAIR Open Math OS released</title>
-		<link>https://terrytao.wordpress.com/2026/10/16/sair-open-math-os-released/</link>
-					<comments>https://terrytao.wordpress.com/2026/10/16/sair-open-math-os-released/#comments</comments>
-		
-		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
-		<pubDate>Fri, 16 Oct 2026 17:32:00 +0000</pubDate>
-				<category><![CDATA[advertising]]></category>
-		<category><![CDATA[math.GM]]></category>
-		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18450</guid>
-
-					<description><![CDATA[As announced a few weeks ago, the SAIR Open Math OS is now soft launched. It offers services and web interfaces similar to frontier AI models, though currently we are hosting existing open math models (DeepSeek V4.1 Flash, Kimi K3, and GLM 5.3 Flash) which are roughly a year or so behind the current frontier [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">As <a href="https://terrytao.wordpress.com/2026/09/18/sairs-open-math-model-initiative/">announced a few weeks ago</a>, the <a href="https://www.openmathmodel.org/">SAIR Open Math OS is now soft launched</a>.  It offers services and web interfaces similar to frontier AI models, though currently we are hosting existing open math models (DeepSeek V4.1 Flash, Kimi K3, and GLM 5.3 Flash) which are roughly a year or so behind the current frontier models in capability; so not able to perform &#8220;one-shot problem solving&#8221; of the type we have heard frequently about in recent months, but capable enough for many other useful mathematical tasks, such as medium-sized Lean formalization, or summarizing or discussing a mathematical argument or topic.  Here is a typical screenshot:</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://terrytao.wordpress.com/wp-content/uploads/2026/10/image-1.png"><img width="1024" height="561" data-attachment-id="18460" data-permalink="https://terrytao.wordpress.com/2026/10/16/sair-open-math-os-released/image-48/" data-orig-file="https://terrytao.wordpress.com/wp-content/uploads/2026/10/image-1.png" data-orig-size="1631,894" data-comments-opened="1" data-image-title="image" data-image-description="" data-image-caption="" data-large-file="https://terrytao.wordpress.com/wp-content/uploads/2026/10/image-1.png?w=490" src="https://terrytao.wordpress.com/wp-content/uploads/2026/10/image-1.png?w=1024" alt="" class="wp-image-18460" srcset="https://terrytao.wordpress.com/wp-content/uploads/2026/10/image-1.png?w=1024 1024w, https://terrytao.wordpress.com/wp-content/uploads/2026/10/image-1.png?w=150 150w, https://terrytao.wordpress.com/wp-content/uploads/2026/10/image-1.png?w=300 300w, https://terrytao.wordpress.com/wp-content/uploads/2026/10/image-1.png?w=768 768w, https://terrytao.wordpress.com/wp-content/uploads/2026/10/image-1.png?w=1440 1440w, https://terrytao.wordpress.com/wp-content/uploads/2026/10/image-1.png 1631w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
-
-
-
-<p class="wp-block-paragraph">We are in the process of gathering partners to develop a more fine-tuned model for mathematics by post-training on an existing open model; see this <a href="https://www.openmathmodel.org/initiative/">link</a> (and the associated <a href="https://zulip.sair.foundation/#narrow/channel/27-Open-Math-Model">Zulip channel</a>) for more details.</p>
-
-
-
-<p class="wp-block-paragraph">One feature of our model is the emphasis on team accounts rather than individual accounts, in which members of a team see each other&#8217;s prompts.  We believe this could be a better format for using these tools for collaborative projects.</p>
-
-
-
-<p class="wp-block-paragraph">We are hosting these models using donated compute, and are in the process of granting free accounts to requesters from academic institutions.  We may need to adjust the allocation of compute depending on demand and on future donations, but we will try to make the models available to as many users as possible.</p>
-
-
-
-<p class="wp-block-paragraph">This is still a very early version of the model; we accelerated our timeline for first release due to the increased demand for open models from the community.  We will continue developing the model and accompanying features and welcome feedback, for instance at the <a href="https://zulip.sair.foundation/#narrow/channel/27-Open-Math-Model">Zulip channel</a>.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/16/sair-open-math-os-released/feed/</wfw:commentRss>
-			<slash:comments>20</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">18450</post-id>
-		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
-			<media:title type="html">Terry</media:title>
-		</media:content>
-
-		<media:content url="https://terrytao.wordpress.com/wp-content/uploads/2026/10/image-1.png?w=1024" medium="image" />
 	</item>
 	</channel>
 </rss>

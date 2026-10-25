@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Fri, 23 Oct 2026 17:31:21 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 24 Oct 2026 09:30:40 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,261 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>Informal questionnaire for researchers</title>
+		<link>https://proofsandprompts.com/2026/10/24/informal-questionnaire-for-researchers/</link>
+					<comments>https://proofsandprompts.com/2026/10/24/informal-questionnaire-for-researchers/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Sat, 24 Oct 2026 14:00:00 +0000</pubDate>
+				<category><![CDATA[Initiatives]]></category>
+		<category><![CDATA[Take part]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Survey]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2866</guid>
+
+					<description><![CDATA[“The 100+ reactions post, and the ensuing discussion, made me think it would be helpful for the community to have a rough qualitative snapshot of not only how we’re feeling and what we’re thinking, but also how that depends on some material factors that intuitively seem relevant. […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://www.wescac.net/index.html">Mark Hagen</a>, Associate Professor at <a href="https://research-information.bris.ac.uk/en/persons/mark-f-hagen/">University of Bristol</a></p>
+
+
+
+<p class="pp-take-part pp-in-reply-to wp-block-paragraph"><strong>Take part</strong> <a href="https://forms.gle/CJ71LtSbG9ZQEpiW8">Short survey (6 questions)</a> or <a href="https://forms.gle/Jm376hcrv9cLGtga8">long survey (14 questions)</a></p>
+
+<p class="wp-block-paragraph">The <a href="https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions">100+ reactions</a> post, and the ensuing discussion, made me think it would be helpful for the community to have a rough qualitative snapshot of not only how we&#8217;re feeling and what we&#8217;re thinking, but also how that depends on some material factors that intuitively seem relevant. I therefore made a questionnaire aimed at mathematics researchers (broadly construed).</p>
+
+
+
+<p class="wp-block-paragraph">This isn&#8217;t intended as a rigorous survey, and definitely won&#8217;t be.  The point is, rather, that it can be easier to formulate and express one’s thoughts about something large and confusing by answering specific questions, even if they just serve to stimulate thinking or structure pre-existing thoughts.  The survey responses are free-response and public, and designed to create a structured discussion to which people with significant stakes in the AI/maths research developments can contribute, and from which we can learn about what other people actually think, and why they think it, in some detail.  Crucially, some of the questions are about where one is situated in the research community and in the economy, since it would be good to surface the influences of material factors on how we’re approaching some quite significant (for us) questions.</p>
+
+
+
+<p class="wp-block-paragraph">I am posting answers <a href="https://www.wescac.net/posts/ai-wi/ai-wi.html">here</a> as I receive them. The answers so far are thoughtful and informative, and I highly recommend reading them.</p>
+
+
+
+<p class="wp-block-paragraph">I would like to have as many responses as possible, so <strong>please share this survey with others</strong>. You can choose between a long version of the survey (14 questions) and a short version (6 questions). They are free-form questions, intended as a vehicle for expressing your thoughts.  I think you&#8217;d be adding something important by taking one of the surveys.</p>
+
+
+
+<p class="wp-block-paragraph">There is a bit more information <a href="https://www.wescac.net/misc.html#ai-wi">here</a>.  Without further ado:</p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://forms.gle/Jm376hcrv9cLGtga8">Take the long survey</a>.</p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://forms.gle/CJ71LtSbG9ZQEpiW8">Take the short survey.</a></p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://www.wescac.net/posts/ai-wi/ai-wi.html">Responses.</a></p>
+
+
+
+<p class="wp-block-paragraph">I am updating the responses page periodically; it may take a day or two for yours to appear there.</p>
+
+
+
+<p class="wp-block-paragraph">You can specify whether you want your name on the responses I post, or if they should be anonymous.  In either case, the form does ask for your name and a small piece of information (an institutional email or a website URL, for instance) so I can more easily verify your identity.  This identifying information will not be posted (except your name if you so specify) and will not be retained after I’ve posted your answers.</p>
+
+
+
+<p class="wp-block-paragraph">I will post your responses, verbatim, unless I am unable to verify that you’re involved in mathematics research in some way that makes the AI developments significant for you; I may also reject submissions that are obviously spam or made in bad faith.  Thus far, I have not rejected any responses.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 20 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/24/informal-questionnaire-for-researchers/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2866</post-id>	</item>
+		<item>
+		<title>AI and Mathematics: Public Good, Credit, and Education</title>
+		<link>https://proofsandprompts.com/2026/10/24/ai-and-mathematics-public-good-credit-and-education/</link>
+					<comments>https://proofsandprompts.com/2026/10/24/ai-and-mathematics-public-good-credit-and-education/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Sat, 24 Oct 2026 11:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Critique]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=1466</guid>
+
+					<description><![CDATA[We should preserve the human ability to understand and explore mathematics, not preserve unsolved problems merely to protect a familiar way of working. The goal should be to enlarge public mathematical knowledge and understanding, whether the discoveries are made by humans, AI, or a collaboration between them. I also discuss competition, credit for AI contributions, and why restrictions on AI in education raise different questions from restrictions on research.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://www.maths.ox.ac.uk/people/andras.juhasz">András Juhász</a>, Professor at the <a href="https://www.maths.ox.ac.uk/">University of Oxford</a></p>
+
+
+
+<p class="wp-block-paragraph">Mathematics is in turmoil following the increasingly striking results obtained using frontier LLMs. Understandably, mathematicians (me included) fear for their jobs and worry about changes to the status quo, and many recent statements and opinion pieces reflect this. However, these often conflate such concerns with the aim of mathematical research and with the value of mathematics in education.</p>
+
+
+
+<p class="wp-block-paragraph">Pure mathematics sits on the borderline of science and art. It grew out of attempts to describe the natural world, but, unlike most sciences, it is not experimental. Large swathes of mathematics were developed because people found the subject aesthetically pleasing and its questions intellectually challenging. Interestingly, many of these results turned out to have practical applications later on. This duality has often made it difficult for mathematicians to justify their work to the general public, including funding agencies.</p>
+
+
+
+<p class="wp-block-paragraph">Recent media statements, petitions, and personal opinions (I will intentionally not single out any particular author) argue that the goal of doing mathematics is for humans to develop personal intuition and understanding, and this must come through the slow, contemplative approach that has characterised mathematical research until now. Some even argue that certain problems should be ring-fenced from AI attempts, while others want a blanket ban on AI-assisted mathematics. To a non-mathematician, this might sound strange. Surely, the goal of mathematics should be to advance public knowledge and understanding, not to provide researchers with a rewarding journey or opportunities for personal growth. Questions about sustaining the mathematical community, education, and human agency are important, and I return to them below. Here, I want to consider another question: what justifies deliberately excluding a route to a discovery that would benefit the public?</p>
+
+
+
+<p class="wp-block-paragraph">Let&#8217;s first take a utilitarian view and replace mathematics with medical research, and the problem immediately becomes apparent. Imagine cancer researchers stating that, even though we could find a cure for cancer in a few weeks using AI, what really matters is the human process of running numerous experiments and the deep understanding the researchers gain from them. Consider the suggestions to exclude AI from mathematical problem solving simply to preserve the human process of discovery: either the problems mathematicians study are unimportant, in the sense that solving them has no value for the wider public, or these suggestions go against advancing science and the public good. If the former were true, that would raise the uncomfortable societal question of why we pursue these problems. Now assume that the problems are indeed important, which is my personal opinion. For example, dynamics, partial differential equations, and topological data analysis have all been applied to research on cancer detection and treatment. Even seemingly abstract branches of mathematics can have future applications or provide foundations for more immediately applicable areas. When an LLM produces a checkable, human-readable proof rather than a yes-or-no answer, that proof and the new techniques developed become available for study and generalisation. Those proposing to exclude the use of AI from tackling certain problems should explain what public benefit justifies their position.</p>
+
+
+
+<p class="wp-block-paragraph">Prohibiting the use of AI in mathematical research to preserve a familiar form of human work even when AI can produce substantial discoveries is, in my view, a form of Luddism. Imagine a coachman threatened by the first cars arguing that the real goal of travel was not getting from A to B, but rather experiencing the journey itself and taking in the beauty of nature and the cultural experiences along the way.</p>
+
+
+
+<p class="wp-block-paragraph">Even if we do not take such a utilitarian view but consider mathematics to be more art than science, it should enrich society as a whole culturally. It is not clear to me why a purely human solution is superior to an AI-assisted discovery when presented to the general public. Value can still be attached to a human proof or theory as a human achievement, as with handcrafted products. I think the two can coexist, and the human study of AI-assisted results can enhance our understanding and the aesthetic value of the subject.</p>
+
+
+
+<p class="wp-block-paragraph">Some argue that when big open problems are solved, the corresponding areas of mathematics will lose their guiding beacon. While I agree that certain problems have been instrumental in guiding research, saying that reaching these goals is damaging makes one question the importance of those goals in themselves, for the aforementioned reasons. Most solved problems open new doors, and our horizon broadens, leading to deeper questions we can ask. This is how mathematics has always functioned. It will just happen at a faster pace now.</p>
+
+
+
+<p class="wp-block-paragraph">Mathematical activity roughly falls into two categories: problem solving and theory building, with some overlap, of course. Until now, the majority of mathematicians seemed to value problem solving highly and many viewed theory building as a means to an end. The older the problem, the better. This is evidenced by publications in top journals and prizes awarded (with some notable exceptions, such as Grothendieck). Solving a famous 100-year-old problem has been the pinnacle of one’s career and has almost guaranteed publication in a top journal. Now that AI has surpassed the problem-solving ability of humans in some areas, views have started circulating that these problems are just proxies for developing theories, which is what really matters and something AI is not yet good at. However, even that might soon change.</p>
+
+
+
+<p class="wp-block-paragraph">In what follows, I am not excusing the recent conduct of OpenAI over alleged failures of attribution and confidentiality, but would like to draw attention to the fact that such conduct is unfortunately more common than the community would like to admit. Several interesting statements have appeared in the press after OpenAI’s announcement of a proposed solution to the Navier–Stokes problem. These statements portrayed an open mathematical community where scooping is rare and punished. The history of mathematics is full of famous cases of scooping and controversy. I always think twice before discussing any of my ideas and ongoing projects with others. If they are honest, it can lead to receiving helpful advice or even to a fruitful collaboration. In less fortunate cases, they might just run with the idea. Sometimes, this is intentional. Such conduct is unacceptable, but nothing new, unfortunately. It can also happen subconsciously, as follows: the individual forgets the conversation, then “independently” rediscovers the idea. This is a bit like an LLM having the conversation in its training data (I am not claiming this was the case for Navier–Stokes, and OpenAI has officially denied this happened).</p>
+
+
+
+<p class="wp-block-paragraph">We need to separate the discourse around competition from the need for proper attribution and how ideas communicated in confidence are handled. Some were upset that OpenAI jumped in after it heard rumours about Alpöge and Buckmaster’s progress. They claimed that this is not how mathematicians operate. Again, I would dispute that claim. Many mathematicians grow up taking part in various competitions and go through competitive university admissions and exams. Getting jobs is extremely competitive, with relatively few reaching tenured positions. Competition is ingrained in the culture. The first person to solve a problem gets most of the accolades (publication in top journals, prestigious jobs, and prizes). There have been numerous competitive situations in history. The main difference in this case is that a big company entered the competition. I do not know exactly what OpenAI’s main motivations were. In my collaboration with DeepMind, however, I saw several motivations at work: improving and benchmarking AI systems, furthering science, and generating publicity through major breakthroughs.</p>
+
+
+
+<p class="wp-block-paragraph">Once large corporations solve a few more famous problems, they will likely lose interest in pure mathematics, as the publicity and benchmarking value of these achievements will diminish. My expectation is that scientific interest alone will not sustain comparable investment once the publicity and benchmarking returns decline. It is not yet clear whether mathematicians will have the computational resources required to continue making such advances. For now, maybe we should be grateful that big corporations are willing to invest so heavily in solving some of our most challenging mathematical problems. For universities to remain competitive and independent of corporate interests, it seems desirable for groups of universities to host open-weight LLMs in their own data centres. Such efforts are best coordinated at the national level and through funding agency policies.</p>
+
+
+
+<p class="wp-block-paragraph">Some have stated that OpenAI’s work damages mathematics as it did not arise from the usual process of doing mathematics in the community. In this respect, there are parallels between the proposed solution to the Navier–Stokes problem and Wiles’s proof of Fermat’s Last Theorem, though they were obtained on different timescales. Wiles worked in complete secrecy for seven years until he announced his result. OpenAI obtained the proposed solution to the Navier–Stokes problem internally over a few days. People are free to inspect OpenAI’s manuscript and try to understand it in depth. They can even use AI to help analyse the proof.</p>
+
+
+
+<p class="wp-block-paragraph">A separate issue is how AI contributions should be acknowledged in research. According to recent publishing policies, AI cannot be a co-author and one must include a detailed AI statement about how exactly AI was used. This seems to go against the spirit of how mathematics has been done until recently. Firstly, mathematics is very egalitarian. In mathematics, unlike in many other subjects, authors are listed in alphabetical order, and their individual contributions are rarely specified. It is possible that one of the authors simply asked a question and outlined a few ideas, which the other authors worked out. That does not diminish that author’s role as far as the outside world is concerned. The Hungarian mathematician Paul Turán said that asking about such details of a collaboration is like asking a couple about their bedroom secrets.</p>
+
+
+
+<p class="wp-block-paragraph">Secondly, if it is deemed that discussions with XYZ do not warrant including that person as an author, they are typically mentioned in the acknowledgements as follows: “We thank XYZ for helpful discussions.” I have seen very few papers where details of what those discussions entailed were given. However, now that one can have helpful discussions with an LLM, suddenly some are calling for mathematicians to give a detailed account of what the LLM’s contributions were, and maybe even provide a full transcript of prompts and LLM responses. That may be straightforward in some cases, but imagine a scenario where the authors conducted hundreds of conversations with an LLM over many months. How is it possible to decide who contributed what? Also, some of the questions the authors ask an LLM may seem silly in retrospect, so having to publish all prompts could lead to self-censorship. Disclosure should identify the system and its broad contribution. It should not become a demand to reconstruct the origin of every idea across a lengthy collaboration.</p>
+
+
+
+<p class="wp-block-paragraph">I think the cleanest solution would be to simply list the LLM as an author if the contributions were substantial, and mention it in the acknowledgements for minor contributions. The main objection to this proposal concerns accountability. Under current publishing ethics standards, authorship is not only about credit for intellectual contribution, but also about accountability, and hence publishers exclude AI systems from being authors. The Committee on Publication Ethics, a nonprofit organisation concerned with publication ethics, also points out that AI tools lack legal capacity to make conflict-of-interest declarations or manage copyright and licensing agreements. I would distinguish credit from responsibility: an LLM could receive authorship credit for a substantial contribution, while at least one human author remains accountable for the paper.</p>
+
+
+
+<p class="wp-block-paragraph">In the summer of 2025, I was of the view that if AI became so capable that it started generating meaningful papers by the thousands, then humans would be unable to process all the new information, and the whole endeavour would lose its purpose. However, recently I realised that this would still be of considerable value: we would have an extensive database of mathematical results that one could turn to when trying to answer a question arising from a particular real-world application. This mirrors the way some pure mathematics results found applications in the past. The main difference is that AI would produce and retrieve the results. This could take the form of a version of arXiv for AI. AI agents would submit papers written in natural language, each accompanied by a Lean certificate. AI would also moderate the submissions and retrieve relevant results.</p>
+
+
+
+<p class="wp-block-paragraph">So is this the end of human mathematics? AI may profoundly change how research mathematics is done. Here are two reasons why humans should remain involved. First, we cannot completely give up control to AI. A loose analogy is that a commercial airliner can pretty much fly itself automatically, but we still have pilots in the cockpit to make certain key decisions and in case things go wrong. For humans to have agency, it is important to have enough people who can understand and direct state-of-the-art mathematics.</p>
+
+
+
+<p class="wp-block-paragraph">Second, mathematics must remain part of education and human culture. And this is where many of the opinions about the value of deep thinking, gaining personal intuition, and restricting AI use fit in. I strongly believe the main purpose of mathematical education is to teach people how to think logically. Few people will ever need to be able to solve quadratic equations or use the Pythagorean theorem in their professional careers (though there are plenty of jobs where they are useful), but logical thinking is a skill that is transferable to any walk of life that requires problem solving. The perseverance and deep thinking that solving mathematical problems develops are qualities that we must strive not to lose. As over-reliance on AI can prevent students from developing these qualities, it seems desirable to limit AI use in the learning process and preserve human-led education. Restricting AI during learning is different from restricting discovery: the aim is to develop the learner’s abilities, not to keep a problem unsolved.</p>
+
+
+
+<p class="wp-block-paragraph">To ensure that grades reflect students’ own understanding, I would restrict graded assessment to invigilated written and oral examinations. It is difficult to establish which parts of a project a student produced independently as a declaration of AI use does not itself verify the student&#8217;s contribution. A subsequent invigilated assessment can gauge understanding, but understanding a solution is not the same as having developed it. A project submission alone therefore cannot be relied upon as evidence of the student’s independent problem-solving and research ability.</p>
+
+
+
+<p class="wp-block-paragraph">Teaching graduate-level courses requires people who can engage deeply with research. Hopefully, intellectual curiosity and the mission to educate the next generation will continue to draw people into the profession and sustain a human mathematical community.</p>
+
+
+
+<p class="wp-block-paragraph">We should preserve the human ability to understand and explore mathematics, not preserve unsolved problems merely to protect a familiar way of working. The goal should be to enlarge public mathematical knowledge and understanding, whether the discoveries are made by humans, AI, or a collaboration between them.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Crossposted from my <a href="https://people.maths.ox.ac.uk/juhasza/AI_and_math.html">homepage</a>.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 22 September 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/24/ai-and-mathematics-public-good-credit-and-education/feed/</wfw:commentRss>
+			<slash:comments>14</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1466</post-id>	</item>
+		<item>
+		<title>On disclosure and shame</title>
+		<link>https://proofsandprompts.com/2026/10/24/on-disclosure-and-shame/</link>
+					<comments>https://proofsandprompts.com/2026/10/24/on-disclosure-and-shame/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Sat, 24 Oct 2026 09:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Contribution]]></category>
+		<category><![CDATA[Disclosure]]></category>
+		<category><![CDATA[Norms]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=1583</guid>
+
+					<description><![CDATA[“The arXiv is full of papers now that include a section, usually either after the acknowledgments or at the end of the paper, entitled ‘AI disclosure’. I strongly object to this phrase and I think it is a tremendous mistake to use it. […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://max.lieblich.us" data-type="link" data-id="max.lieblich.us">Max Lieblich</a>, Professor at the <a href="https://math.washington.edu/">University of Washington</a></p>
+
+
+
+<p class="wp-block-paragraph">The arXiv is full of papers now that include a section, usually either after the acknowledgments or at the end of the paper, entitled &#8220;AI disclosure&#8221;. I strongly object to this phrase and I think it is a tremendous mistake to use it. Let me tell you why.</p>
+
+
+
+<p class="wp-block-paragraph">The word &#8220;disclosure&#8221; often brings with it connotations of shame or conflict of interest. I have to disclose otherwise-shadowy information that could have an impact on how other people view my work, my connections, or my incentives. I disclose when I receive money from a company that made a product I am studying in an experiment. I disclose that I was once convicted of stealing and crushing chalk. (These are purely hypothetical; the author has never done a physical experiment with corporate products or been accused or convicted of chalk theft and destruction.) I have to disclose certain defects when I sell a house. A company has to disclose a data breach resulting in theft of my personal information. Disclosure is about revealing information that a person or other entity could or would rather keep secret for its own advantage, or that could bring shame on those making the disclosure.</p>
+
+
+
+<p class="wp-block-paragraph">When telling people that I like chocolate, or that drinking tea helped me wake up in the midst of jet lag, I would not say &#8220;I disclose that I enjoy 70% bars made from Madagascar beans&#8221; or &#8220;I disclose that I had tea this morning&#8221;. When I write a paper with a friend, I don&#8217;t &#8220;disclose&#8221; that we wrote it together; we are co-authors. When I get a good idea in a conversation with a colleague, I graciously acknowledge the assistance. It would indeed be shameful not to recognize this help or collaboration. If I were to publish a paper under my name that was entirely produced and written by someone else, that should bring shame and would deserve disclosure.</p>
+
+
+
+<p class="wp-block-paragraph">There is a history of human/machine collaboration in mathematics. Many people have openly used computers in a range of areas for decades. Doron Zeilberger and (his computer) Shalosh B Ekhad have been writing papers together for years. We are now discussing mathematics with and writing papers with AI. Why should we be ashamed of this? What is there to disclose? Perhaps for some people the perception that these tools have agency (they are more like dogs than hammers) lends a tinge of shame to using them. More concerning to me is that the disclosure-shame connection incentivizes early-career mathematicians to hide their use of AI, rather than be clear about how a team of humans and machines produced the work. This has complex implications for training, hiring, and career trajectories.</p>
+
+
+
+<p class="wp-block-paragraph">In many fields, a list of coauthors on a paper includes information about what each author contributed to the work. We have not generally done this in mathematics, but when I look at the &#8220;AI disclosure&#8221; statements, that is really what I see. I propose that, at the very least, we change the name to &#8220;AI contributions&#8221;. If an AI model made contributions significant enough that a human doing the same thing would be a coauthor, the model(s) should be listed as coauthors (with their contributions explained). If, on the other hand, the interactions with AI were of a sort that would only merit acknowledgment and not coauthorship were they human, we should simply acknowledge the AI the same way we would humans: in the Acknowledgments section of the paper (with a clear statement of the contributions).</p>
+
+
+
+<p class="wp-block-paragraph">To me, this is how we can build a healthy relationship with our new, increasingly powerful, tools. There is no shame in harnessing the collective knowledge of humanity to ask new questions and find new answers. Let&#8217;s embrace it and acknowledge how the teams engaging with mathematics are changing.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 25 September 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/24/on-disclosure-and-shame/feed/</wfw:commentRss>
+			<slash:comments>12</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1583</post-id>	</item>
+		<item>
 		<title>A Response to “Who will become the new mathematicians of Math 2.0?”</title>
 		<link>https://proofsandprompts.com/2026/10/23/a-response-to-who-will-become-the-new-mathematicians-of-math-2-0/</link>
 					<comments>https://proofsandprompts.com/2026/10/23/a-response-to-who-will-become-the-new-mathematicians-of-math-2-0/#comments</comments>
@@ -266,7 +521,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/23/a-response-to-who-will-become-the-new-mathematicians-of-math-2-0/feed/</wfw:commentRss>
-			<slash:comments>7</slash:comments>
+			<slash:comments>9</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2888</post-id>	</item>
@@ -388,7 +643,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/23/disgusted-by-ai/feed/</wfw:commentRss>
-			<slash:comments>14</slash:comments>
+			<slash:comments>15</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">1579</post-id>	</item>
@@ -1365,286 +1620,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">1637</post-id>	</item>
-		<item>
-		<title>Mathematics of the Future</title>
-		<link>https://proofsandprompts.com/2026/10/21/mathematics-of-the-future/</link>
-					<comments>https://proofsandprompts.com/2026/10/21/mathematics-of-the-future/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Wed, 21 Oct 2026 11:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[In practice]]></category>
-		<category><![CDATA[Application season]]></category>
-		<category><![CDATA[Teaching]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2114</guid>
-
-					<description><![CDATA[“Rapid advances in AI are transforming research, and for the growth of mathematical knowledge, this is thrilling. For our profession, however, this raises critical questions: Will there be a role for human mathematicians to play? How should mathematicians be trained and evaluated? […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://math.mit.edu/~etingof/">Pavel Etingof</a> (<a href="https://en.wikipedia.org/wiki/Pavel_Etingof">Wikipedia</a>), Professor of Mathematics at <a href="https://www.mit.edu/">MIT</a>, <a href="https://math.mit.edu/research/highschool/primes/">PRIMES</a> Chief Research adviser; and <a href="https://web.mit.edu/slava/homepage/">Slava Gerovitch</a> (<a href="https://en.wikipedia.org/wiki/Slava_Gerovitch">Wikipedia</a>), Senior Lecturer, <a href="https://math.mit.edu/">Department of Mathematics</a> at <a href="https://www.mit.edu/">MIT</a>, <a href="https://math.mit.edu/research/highschool/primes/">PRIMES</a> Director</p>
-
-
-
-<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · As application deadlines approach, Proofs and Prompts is publishing a series of posts from 19 to 23 October for people considering a PhD, doing a PhD or looking for a postdoc: guidelines, discussions and speculation about what to do and what careers in mathematics will look like. This post is one of them. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/application-season/">All posts in the series</a></p>
-
-<p class="wp-block-paragraph">AI use: ChatGPT was used to improve the exposition of our ideas.</p>
-
-
-
-<p class="wp-block-paragraph">The following is a short summary of a longer text with references, which can be viewed <a href="https://www.dropbox.com/scl/fi/zmqzdrneyunkueu1th9iq/futuremath8.pdf?rlkey=oarhqm8savaef4umcb60ldb4e&amp;e=1&amp;dl=0">here</a>. </p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Rapid advances in AI are transforming research, and for the growth of mathematical knowledge, this is thrilling. For our profession, however, this raises critical questions: Will there be a role for human mathematicians to play? How should mathematicians be trained and evaluated? Will there be enough jobs in mathematics? Does it still make sense to pursue a career in mathematics?</p>
-
-
-
-<p class="wp-block-paragraph">We argue that the four main functions of mathematics – discovering truths, being part of human culture and understanding of the world, providing methods for applications, and fostering intellectual growth – will continue to be central in the age of AI. Human mathematicians will still be needed to formulate and prioritize questions, interpret and communicate mathematical results, contribute to AI safety, sustain the social aspects of teaching, and hone analytical and critical thinking skills applicable far beyond academic mathematics.</p>
-
-
-
-<p class="wp-block-paragraph">Given huge uncertainties about the future, nobody can predict which expertise will be in greatest demand. Such expertise cannot be created instantly; it requires years of training, research, and immersion in a professional culture. A strong mathematical community provides a powerful intellectual reserve of such expertise applicable across a wide range of scientific disciplines and industries. This frontier competence can be sustained only by constantly exercising. Just like society needs to maintain fire departments for emergencies, it must support mathematical expertise to preserve and further develop the human capacity to understand and respond to future challenges.</p>
-
-
-
-<p class="wp-block-paragraph">To retain its relevance, however, mathematical culture will need to evolve. For centuries, mathematics relied on the “ownership culture”: competition for priority, with lasting claims to credit for discovering new theorems, enforced through citation and converted into careers, prizes, and reputations via publication lists. This culture is no longer sustainable. If LLMs do most of the heavy lifting, individual credit loses much of its meaning. This may even be healthy: clashing egos have generated much conflict, and mathematics may be better off once egos retreat from “owning” results.</p>
-
-
-
-<p class="wp-block-paragraph">Evaluation criteria based on the ownership culture will have to be revised and rely instead on intellectual agency: broad and deep knowledge, genuine understanding of mathematics and its connections, sound judgment, independent vision, and effective communication skills. Hiring must rely far more on direct mathematical interaction – talks, interviews, sustained conversation – with recommendation letters still important but grounded in substantial personal contact. In the AI era, a theorem proved with heavy AI help should be valued equally to one proved without. Hiring committees should assess mathematicians, not the provenance of their theorems.</p>
-
-
-
-<p class="wp-block-paragraph">The mathematical culture of the future will emphasize a set of new practices. First, it will open a wider mathematical world: instead of focusing on a narrow area, mathematicians will be able to explore a much wider research landscape. Creativity will not disappear; it will simply operate on a frontier moving outward faster than ever. Second, mathematicians will serve as interpreters of massive AI-produced results, helping the wider intellectual community to understand, absorb, connect, and use them. And since the library of available results is always finite while mathematics is infinite, humans will remain contributors, not only readers. Third, mathematicians will use AI to conduct the “big cleanup” of existing mathematical literature, identifying and resolving errors, gaps, obscure arguments, incompatible conventions, and results rediscovered under different names. Mathematicians will use Lean formalization and verification of proofs, but will also complement it with human-readable exposition. The goal is to make the corpus of mathematical literature more reliable and better organized than ever before. Finally, publication formats will evolve to include AI-produced texts, recorded talks, interactive companions, and papers as virtual agents. Publication should become a vibrant infrastructure for navigation, understanding, and further development, rather than a passive record.</p>
-
-
-
-<p class="wp-block-paragraph">Problem solving will decline as professional output but will remain essential as a training tool; discovery-based learning (in the spirit of Alekseev “Abel’s Theorem in Problems and Solutions”) becomes especially valuable. Used well, AI will enable better active and personalized learning: hints rather than solutions, clarifying examples, and diagnostic problems. To test understanding, supervised written tests will need to be supplemented with oral examinations. The aim is to obtain better evidence of subject mastery, not to build a perfect technological defense against dishonesty.</p>
-
-
-
-<p class="wp-block-paragraph">Graduate study will shift emphasis from early specialization and rapid publication toward breadth, depth, communication, and judgment. Faculty-led seminars, reading groups, and advanced courses will grow in importance; as will live mentoring and blackboard exposition. The thesis need not contain the first proof of anything; originality can reside in ideas, methods, questions, connections, or synthesis.</p>
-
-
-
-<p class="wp-block-paragraph">We make a concrete institutional proposal: a small faculty-led lab open to students sharing a background, aiming to combine collaborative research with powerful AI while building the ability to check and understand AI output. The group will meet and brainstorm together, with students taking notes, then the faculty lead will ask AI to respond to the notes, the group will study, check, and discuss the response, with different students focusing on different parts, and the resulting ideas will be written down in a shared document, regularly revised with peer, faculty, and AI comments. The model scales from high-school to graduate research, and success is measured by both the mathematics produced and the growth of the participants.</p>
-
-
-
-<p class="wp-block-paragraph">Finally, we share a few pieces of advice for young mathematicians:</p>
-
-
-
-<ul class="wp-block-list">
-<li>Accept fundamental uncertainty: build skills robust across many futures rather than organizing life around AI forecasts.</li>
-
-
-
-<li>Learn broadly and deeply; follow your heart: resist early specialization, but achieve genuine mastery in some subjects.</li>
-
-
-
-<li>Put collaboration ahead of competition: find people you enjoy thinking with; help one another understand mathematics.</li>
-
-
-
-<li>Cultivate intellectual agency, with or without AI: whether using powerful models or building understanding by other means, keep solving problems, asking questions, writing explanations, and testing your knowledge.</li>
-
-
-
-<li>Plan around strengths and aspirations, not anxiety: keep multiple career paths open, but do not abandon a beloved subject just because some other occupation looks “safe.” Nothing can provide full security in the age of AI; draw on your talents, skills, and knowledge to build your career.</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">Rather than trying to salvage the old order, we should preserve what is essential – curiosity, knowledge, understanding, intellectual agency, and the joy of doing and sharing mathematics – as we open our minds to the vast and thrilling mathematical world that we can now explore.</p>
-
-
-
-<p class="wp-block-paragraph">P.E.’s disclaimer: I have been part-time consulting for Anthropic since July 14, 2026. However, this essay represents my own views, which pre-date this engagement and are consistent with my recommendations in “Use of AI in mathematical research: a guide for young mathematicians” (May 2026). My views on the subject have not changed since then.</p>
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 7 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/21/mathematics-of-the-future/feed/</wfw:commentRss>
-			<slash:comments>36</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2114</post-id>	</item>
-		<item>
-		<title>The Power of Beauty and Elegance</title>
-		<link>https://proofsandprompts.com/2026/10/21/the-power-of-beauty-and-elegance/</link>
-					<comments>https://proofsandprompts.com/2026/10/21/the-power-of-beauty-and-elegance/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Wed, 21 Oct 2026 09:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Beauty]]></category>
-		<category><![CDATA[Competition]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=1552</guid>
-
-					<description><![CDATA[ What machines have: colossal knowledge and massive compute power. What humans have: intuition for beauty and elegance. The ultimate question is whether colossal knowledge and massive compute power wins over human intuition. If no, we only face some big changes. If yes, then human mathematics will degrade into exotic art.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://people.maths.bris.ac.uk/~mb13434/">Márton Balázs</a>, Professor at the <a href="https://www.bristol.ac.uk/maths/">University of Bristol</a></p>
-
-
-
-<p class="wp-block-paragraph">I see an element of competition in the current situation. On one side are LLM&#8217;s with the colossal knowledge of pretty much anything humans ever invented, and the massive compute power behind it to search and combine this knowledge. On the other side are humans, each with limited knowledge and compute power, but possessing something very precious: intuition for beauty and elegance. These have guided human explorers through the vast ocean of potential constructions to use and theorems to prove, allowing for some brilliant discoveries in the past.</p>
-
-
-
-<p class="wp-block-paragraph">The Ultimate Question is whether the colossal knowledge and massive compute power can win over human intuition in all areas.</p>
-
-
-
-<p class="wp-block-paragraph">Here is why I think this is indeed the ultimate question. We are paid to do our research and to educate the next generation of researchers because some of our output is fundamentally useful for society. Continuing our journey we certainly face some big changes in the near future, and thinking of how to adapt our profession is essential. I read some deeply insightful opinions on human-scale mathematics, the importance of human knowledge and understanding, or the way new research makes it into core knowledge of humanity by settling in useful human-edited textbooks. Such thoughts are very important contributions but: they seem to exist under the assumption that the answer to the Ultimate Question is NO, hence humans will still be needed in the future.</p>
-
-
-
-<p class="wp-block-paragraph">If the answer to the Ultimate Question is YES then, I think, all of this insightful guidance becomes irrelevant. If LLMs get better than humans in all aspects of mathematics, then there is no reason for us to be paid anymore. The machine will be able to do it faster, better, cheaper; our profession will degrade into an exotic art that benefits a teeny-tiny proportion of society who find it interesting for its own sake. Funding will be squeezed accordingly. The good(?) news is that we won&#8217;t be the only ones. If LLMs can do better than humans with all of mathematics, I expect them to do better in all other areas of science and engineering as well. And the LLM designing engineering structures/clever gadgets/medications/healthcare methodologies/financial or climate models/etc. won&#8217;t need our great textbooks with the core of mathematics nicely organised in them. It will have the compute power to go through the ocean of mostly useless theorems spit out by the mathematics LLMs and pick the relevant ones for its actual job.</p>
-
-
-
-<p class="wp-block-paragraph">I&#8217;m still optimistic and think that the answer to the Ultimate Question is NO, at least for many years to come. There certainly have been spectacular results by machines but I don&#8217;t feel like this applies to all problems in mathematics. My (limited) understanding is that LLM&#8217;s are, at the moment, very far from developing a useful sense of beauty and elegance in our fields. And without that, it is really difficult to efficiently navigate the vast ocean of potential theorems waiting to be proved.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 24 September 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/21/the-power-of-beauty-and-elegance/feed/</wfw:commentRss>
-			<slash:comments>5</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1552</post-id>	</item>
-		<item>
-		<title>Who will become the new mathematicians of Math 2.0?</title>
-		<link>https://proofsandprompts.com/2026/10/20/who-will-become-the-new-mathematicians-of-math-2-0/</link>
-					<comments>https://proofsandprompts.com/2026/10/20/who-will-become-the-new-mathematicians-of-math-2-0/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Tue, 20 Oct 2026 14:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Reactions]]></category>
-		<category><![CDATA[Application season]]></category>
-		<category><![CDATA[PhD students]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2706</guid>
-
-					<description><![CDATA[“I am mathematics PhD student. Up until recently, I fully intended to pursue a career in academic research. I deeply love mathematics, and I entered graduate school because of this. However I have made the decision to leave academia once I finish my doctorate and I am heartbroken; I would like to explain why. […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph">Anonymous, PhD student</p>
-
-
-
-<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · As application deadlines approach, Proofs and Prompts is publishing a series of posts from 19 to 23 October for people considering a PhD, doing a PhD or looking for a postdoc: guidelines, discussions and speculation about what to do and what careers in mathematics will look like. This post is one of them. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/application-season/">All posts in the series</a></p>
-
-<p class="wp-block-paragraph">To the mathematicians shaping the future of our profession,</p>
-
-
-
-<p class="wp-block-paragraph">I am mathematics PhD student. Up until recently, I fully intended to pursue a career in academic research. I deeply love mathematics, and I entered graduate school because of this. However I have made the decision to leave academia once I finish my doctorate and I am heartbroken; I would like to explain why.</p>
-
-
-
-<p class="wp-block-paragraph">This decision is not because of job security, nor is it because AI can do better mathematics than I ever could. Rather, I am becoming increasingly convinced that this profession is morphing into something unrecognizable, something alien, something I did not sign up for. OpenAI’s paper dump on October 6th only reinforces my conviction. The speed with which a commercial company can alter and disrupt an entire academic discipline is frightening and should concern anyone involved in academia, not just mathematics. However, what has troubled me more is the response from established mathematicians. There are indeed a mix of reactions to October 6th, but seeing mathematicians greet this release of papers with excitement and joy is beyond confusing. Many celebrate the possibility that AI will relieve them of the burden of difficult calculations, technical lemmas, and other supposedly tedious aspects of mathematical research. Have they forgotten what it was like to become a mathematician in the first place?</p>
-
-
-
-<h2 class="wp-block-heading">1. The mathematics I came here for</h2>
-
-
-
-<p class="wp-block-paragraph">I love technical work. I love spending days, weeks, months working on a lemma or an idea without success. I love failing at solving a problem, going on a walk to clear my head, sleeping on it and coming up with a new idea, then repeating this process. I love slowly realizing the shape of a solution and why it needed to be that way all along. More importantly, I love the intuition formed from the process of constant failure. These are not unpleasant obstacles that stand in the way of me proving a more interesting result. These are the reasons I wanted to become a mathematician. When mathematicians talk about being relieved from the burden of doing technical work (or mathematicians welcoming a future of no longer doing this work), I cannot help but wonder if they appreciate what this kind of labor represents to someone at the beginning of their career. I viewed this process as an opportunity to develop the skills necessary to become an independent researcher.</p>
-
-
-
-<p class="wp-block-paragraph">This struggle is not incidental to mathematical education. It is the principle way that education occurs. As AI has now become highly capable of performing this kind of work, I see shockingly little from the mathematics community about how this kind of crisis in education will be addressed.</p>
-
-
-
-<h2 class="wp-block-heading">2. Is Math 2.0 really the future you want?</h2>
-
-
-
-<p class="wp-block-paragraph">Terence Tao has proposed a vision of a new way of doing mathematics, Math 2.0, where the emphasis moves away from solving open problems and toward a more holistic approach. His vision includes exposition, conceptual understanding, discovering new principles, developing mathematical frameworks, and synthesizing the enormous quantity of mathematical knowledge that increasingly capable AI systems can produce. Obviously these are valuable pursuits and practices that are already important to mathematical research. But I feel like I am asking the obvious question that has not been addressed: What if I do not want to spend my professional life doing these activities?</p>
-
-
-
-<p class="wp-block-paragraph">I did not go to graduate school to organize, interpret, and curate an increasingly vast collection of mathematical results produced by machines. I came here to learn techniques, develop my own understanding, and use these techniques to discover things I did not previously know. There is a clear distinction between understanding an argument and discovering one yourself. There is a clear distinction between curating a research direction and experience the process of producing it. I do not deny that Math 2.0 will accelerate progress in the field beyond anything I can even imagine right now. However, will these activities appeal to the same people who entered mathematics because they love independently solving difficult problems? A profession centered on interpretation, synthesization, and communication of mathematical knowledge will be worthwhile pursuit. But if independent discovery becomes a secondary activity, then it is not the profession I intended to join. Do we disregard the human fulfillment that comes from experience in exchange for knowledge and understanding produced by AI? Preserving mathematical knowledge and preserving mathematics as a fulfilling human intellectual pursuit clearly are not the same thing. As things are going, we will accomplish the former and disregard the latter. I am not claiming that one is inherently better than the other. But what I can say is that the experience of one is fundamentally different than the other.</p>
-
-
-
-<h2 class="wp-block-heading">3. Who will train the mathematicians of Math 2.0?</h2>
-
-
-
-<p class="wp-block-paragraph">There is a problem with the proposed future of mathematics, and it is more concerning than my personal dissatisfaction. How exactly do you expect to train the next generation of mathematicians?</p>
-
-
-
-<p class="wp-block-paragraph">Established researchers possess something far more valuable than understanding of existing theorems. You possess the special sauce of intuition, judgment, taste, and an understanding of what questions are worth pursuing. These skills are precisely what makes you capable of using AI effectively. You know when an idea is promising and when it hints at something greater. You know how to formulate new research directions. Where did these skills come from? I doubt they were developed by reading successful proofs or listening to an explanation of an idea. Rather, they were probably developed through years of sustained thought with hard problems. The activities you now want to disregard are what made you who you are. These activities are what taught you to be a mathematician. AI systems will now do that work for you and from the perspective of someone who possesses years (possibly decades) of experience, this might be an attractive offer. Your students do not possess the special sauce. How do you expect them to develop it? How do we acquire good taste and intuition without technical understanding? How do we learn to recognize promising proof strategies if we have never failed at a proof? How do we learn to direct a research program if we have never experienced the difficulty of conducting one ourselves?</p>
-
-
-
-<p class="wp-block-paragraph">Tao himself has already expressed concern about intellectual deskilling and emphasized the importance of preserving productive struggle in education. More needs to happen to address this concern rather than just expressing excitement about new results being proved. Maybe the answer is to preserve independent problem solving in graduate training. To me, this does not appear to be a sufficient answer though. Why would I develop skills through independent technical work and suffering when I can just use AI to solve these problems for me? More importantly, do we really expect students to independently suffer, only to enter a profession in which the skills they suffered to develop are delegated to AI? Even disregarding this though, if the proposal really is independent suffering during graduate training, why should they choose to even undergo this training? Will they be allowed to spend years developing their own ideas when their peers can produce numerous sophisticated results using AI? Will hiring committees and funding agencies value intellectual development that comes from independent research, even when it produces far less tangible results? How do we even deem what a successful graduate student is when AI systems are becoming increasingly capable? If we say that going forward we value organization, interpretation, and curation, why would we assume AI will not be able to do this even a few months from now?</p>
-
-
-
-<p class="wp-block-paragraph">There might be satisfactory answers to these questions, but there has not been an account from any of you as to how this will be addressed. Math 2.0 appears to heavily depend on the accumulated expertise of mathematicians trained under Math 1.0. However, a sustainable profession cannot rely on expertise developed under a system it has abandoned.</p>
-
-
-
-<h2 class="wp-block-heading">4. What kind of students will your future attract?</h2>
-
-
-
-<p class="wp-block-paragraph">Let’s suppose we devise an adequate training system for Math 2.0. What kind of people will this profession attract? I entered this field because I love solving hard problems and relish in the problem solving process. If the future consists of interpreting AI generated results, organizing knowledge, and directing automated research, why should I remain in academia? It is entirely possible that Math 2.0 attracts people who find these activities fulfilling, but will that generation possess the same motivations as the mathematicians who preceded them? Will Math 2.0 attract people who are inclined to develop a deep technical understanding of the field for which this future now depends? The training problem and recruitment problem are intertwined. Removing the value of technical problem solving may weaken the process by which we develop expertise and discourage the people who most enjoy developing this expertise. I find this deeply troubling. You seem enthusiastic at imagining what can be accomplished with powerful AI systems. You need an equivalent enthusiasm for understanding what kind of mathematicians you will be breeding under this new profession. You plan the future of mathematics from the perspective of someone who has already become a mathematician, but who are going to be the mathematicians of the future? Are you comfortable with them continuing your legacy?</p>
-
-
-
-<h2 class="wp-block-heading">5. A warning from someone who still loves mathematics</h2>
-
-
-
-<p class="wp-block-paragraph">Mathematics is never going to be the same and I recognize that the way I did research and found fulfillment from it are no longer here. I am not demanding you refuse to use these technologies nor am I suggesting that you ignore the opportunities it provides. What I am demanding from you is to recognize that your enthusiasm to use this new technology does not necessarily reflect the aspirations of the people you are currently training. I recently heard a mathematician say that it is “paradoxical” to not want to study a field that is undergoing a scientific revolution in reference to October 6th. This mindset completely misses the point of why I do mathematics, and I suspect this is true for many other graduate students and even other established mathematicians. You may find this future exciting. Some of us find this future discouraging and troubling. You may find it exciting to see that answers to problems you deeply care about are being answered which then allows you to develop conceptual frameworks and interpret massive collections of AI generated results. Some of us entered mathematics because of the very human experience of suffering through a problem ourselves. You may believe that Math 2.0 will usher in an extraordinary period of progress and understanding. Maybe it will. But who will follow in your footsteps? How can you reproduce the expertise you have? How do you know we even want to participate in this new landscape?</p>
-
-
-
-<p class="wp-block-paragraph">I cannot speak for every graduate student, I can only share my feelings and I certainly would not presume to speak for my entire generation. But I can tell you that I entered graduate school fully intending to pursue a career as a research mathematician. The actions of October 6th have reversed this, and I’m probably not the only one. Before ending this letter, I want to emphasize something: I do not want to stop being a mathematician. My love for mathematics is eternal and I am deeply grateful to this field for not only developing my skills as a researcher, but developing me as a human. I do not believe that academics want to keep a space open for the kind of intellectual work that made me fall in love with this subject. I want to pursue discoveries myself. I want to struggle, to suffer, to grow.</p>
-
-
-
-<p class="wp-block-paragraph">I am not asking you to agree with my personal preferences. I am asking you to explain how your proposed future will train its successors, who it will attract, and why that is a future worth pursuing. These are questions that concern generational sustainability of the profession itself and cannot be ignored. I hope you begin treating these questions with the urgency they deserve. Because while you are discussing what your future will be, some of us have already decided that we no longer want to be a part of that future.</p>
-
-
-
-<p class="wp-block-paragraph">—A PhD student</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 19 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/20/who-will-become-the-new-mathematicians-of-math-2-0/feed/</wfw:commentRss>
-			<slash:comments>62</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2706</post-id>	</item>
 	</channel>
 </rss>

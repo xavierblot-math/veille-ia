@@ -13,7 +13,7 @@
 	<atom:link href="https://terrytao.wordpress.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://terrytao.wordpress.com</link>
 	<description>Updates on my research and expository papers, discussion of open problems, and other maths-related topics.  By Terence Tao</description>
-	<lastBuildDate>Sun, 25 Oct 2026 22:17:58 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 26 Oct 2026 20:32:22 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -23,13 +23,71 @@
 <site xmlns="com-wordpress:feed-additions:1">817149</site><cloud domain='terrytao.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
 <source:cloud xmlns:source='https://source.scripting.com/'>https://terrytao.wordpress.com/?rsscloud=notify</source:cloud>
 <image>
-		<url>https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fwebclip.png</url>
+		<url>https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Fwebclip.png</url>
 		<title>What&#039;s new</title>
 		<link>https://terrytao.wordpress.com</link>
 	</image>
 	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://terrytao.wordpress.com/osd.xml" title="What&#039;s new" />
 	<atom:link rel='hub' href='https://terrytao.wordpress.com/?pushpress=hub'/>
 	<item>
+		<title>More additional blog posts and articles</title>
+		<link>https://terrytao.wordpress.com/2026/10/26/more-additional-blog-posts-and-articles/</link>
+					<comments>https://terrytao.wordpress.com/2026/10/26/more-additional-blog-posts-and-articles/#respond</comments>
+		
+		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
+		<pubDate>Tue, 27 Oct 2026 07:01:00 +0000</pubDate>
+				<category><![CDATA[opinion]]></category>
+		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18468</guid>
+
+					<description><![CDATA[Pavel Etingof, Slava Gerovitch, &#8220;Mathematics of the Future&#8220; Timothy Gowers, &#8220;How worried should we be about extinction risk from AI?&#8220; Elchanan Mossel, &#8220;LLMs, Reasoning and Plagiarism&#8220;. (See also this related petition.) nihilunbounded, &#8220;Who Watches the Watchmen&#8220; Sung-Jin Oh, &#8220;What does it mean for a mathematician to understand? A case study in the age of AI&#8220; [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<ul class="wp-block-list">
+<li>Pavel Etingof, Slava Gerovitch, &#8220;<a href="https://math.mit.edu/~etingof/futuremath.pdf">Mathematics of the Future</a>&#8220;</li>
+
+
+
+<li>Timothy Gowers, &#8220;<a href="https://gowers.wordpress.com/2026/10/16/how-worried-should-we-be-about-extinction-risk-from-ai/">How worried should we be about extinction risk from AI?</a>&#8220;</li>
+
+
+
+<li>Elchanan Mossel, &#8220;<a href="https://arxiv.org/abs/2601.02380">LLMs, Reasoning and Plagiarism</a>&#8220;.  (See also <a href="https://math.mit.edu/~elmos/petition.html">this related petition</a>.)</li>
+
+
+
+<li>nihilunbounded, &#8220;<a href="https://nihilunbounded.substack.com/p/who-watches-the-watchmen">Who Watches the Watchmen</a>&#8220;</li>
+
+
+
+<li>Sung-Jin Oh, &#8220;<a href="https://math.berkeley.edu/~sjoh/index.html#essay">What does it mean for a mathematician to understand? A case study in the age of AI</a>&#8220;</li>
+
+
+
+<li>Ben Recht, &#8220;<a href="https://www.argmin.net/p/the-world-is-something-we-make">The World Is Something We Make</a>&#8220;</li>
+
+
+
+<li>Manuel Luis Rivera, &#8220;<a href="https://vislumbres.github.io/#/post/raw-mathematics">Raw Mathematics</a>&#8220;</li>
+
+
+
+<li>Grant Sanderson, &#8220;<a href="https://www.youtube.com/watch?v=LKrwhjOI8Nc">There&#8217;s never been a better time to go into math</a>&#8220;</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">As before, readers are invited to contribute links to additional posts not already covered here (or at Proofs and Prompts) in the comments.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/26/more-additional-blog-posts-and-articles/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">18468</post-id>
+		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
+			<media:title type="html">Terry</media:title>
+		</media:content>
+	</item>
+		<item>
 		<title>Disadvantages of Designating Mathematicians for AI Output Releases</title>
 		<link>https://terrytao.wordpress.com/2026/10/25/disadvantages-of-designating-mathematicians-for-ai-output-releases/</link>
 					<comments>https://terrytao.wordpress.com/2026/10/25/disadvantages-of-designating-mathematicians-for-ai-output-releases/#comments</comments>
@@ -83,7 +141,7 @@ Full details of our recommendations are provided in our <a href="https://agmai.o
 </p>]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/25/disadvantages-of-designating-mathematicians-for-ai-output-releases/feed/</wfw:commentRss>
-			<slash:comments>18</slash:comments>
+			<slash:comments>20</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18584</post-id>
@@ -773,52 +831,6 @@ In the meantime<b>, I think mathematicians have the huge responsibility of prese
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18496</post-id>
-		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
-			<media:title type="html">Terry</media:title>
-		</media:content>
-	</item>
-		<item>
-		<title>Starting a new journal</title>
-		<link>https://terrytao.wordpress.com/2026/10/17/starting-a-new-journal/</link>
-					<comments>https://terrytao.wordpress.com/2026/10/17/starting-a-new-journal/#comments</comments>
-		
-		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
-		<pubDate>Sun, 18 Oct 2026 03:11:00 +0000</pubDate>
-				<category><![CDATA[guest blog]]></category>
-		<category><![CDATA[journals]]></category>
-		<category><![CDATA[Shaoming Guo]]></category>
-		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18470</guid>
-
-					<description><![CDATA[[This is a guest post by Shaoming Guo &#8211; T.] Several math colleagues and I are preparing to launch a new journal. As we considered which values we wanted the journal to uphold, we realized that there may be many other values worth exploring as a community, potentially through the creation of additional journals. We [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph"><em>[This is a guest post by <a href="https://sites.google.com/view/shaomingguo">Shaoming Guo</a> &#8211; T.]</em></p>
-
-
-
-<p class="wp-block-paragraph">Several math colleagues and I are preparing to launch a new journal. As we considered which values we wanted the journal to uphold, we realized that there may be many other values worth exploring as a community, potentially through the creation of additional journals. We would like to use Terry’s blog to open a discussion of these possibilities.&nbsp;There are many dimensions to this discussion: what journals should aim to accomplish, what kinds of mathematical contributions they should recognize and reward, how papers should be evaluated, and how mathematical knowledge can best be communicated and made reliable. As new tools change the way mathematics is developed and shared, we have an opportunity to reconsider long standing conventions and imagine new possibilities for mathematical publishing.</p>
-
-
-
-<p class="wp-block-paragraph">For the journal we are currently planning, we envision two core values (in additional to traditional values like open access):</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Prioritizing understanding over being first.</strong> We place far greater value on how much a paper deepens our understanding of its results and proofs than on whether it provides the first proof of those results.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Ensuring rigor through formal verification.</strong> As large language models (LLMs) are increasingly used to develop mathematical proofs, the potential for subtle, hard-to-detect errors is a growing concern. To be accepted, a paper will need to have its proofs formally verified in Lean.</p>
-
-
-
-<p class="wp-block-paragraph">Alongside feedback on this proposal, we welcome ideas for substantially different visions of future journals: the values they might uphold, the needs they might serve, and the practices they might adopt. A single journal is unlikely to accommodate every worthwhile idea, and combining too many requirements could place excessive constraints on authors. We hope this discussion will inspire a variety of new journals and other platforms, allowing the community to explore different approaches to the future of mathematical publishing.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/17/starting-a-new-journal/feed/</wfw:commentRss>
-			<slash:comments>35</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">18470</post-id>
 		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
 			<media:title type="html">Terry</media:title>
 		</media:content>

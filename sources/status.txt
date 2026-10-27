@@ -1,9 +1,9 @@
-fetched_at: 2026-10-27 04:42 UTC
+fetched_at: 2026-10-27 08:18 UTC
 xena: ok (169443 bytes) https://xenaproject.wordpress.com/feed/
 gowers: ok (1023655 bytes) https://gowers.wordpress.com/feed/
-tao-blog: ok (331308 bytes) https://terrytao.wordpress.com/feed/
+tao-blog: ok (330574 bytes) https://terrytao.wordpress.com/feed/
 tao-mastodon: ok (27970 bytes) https://mathstodon.xyz/@tao.rss
-proofsandprompts: ok (122469 bytes) https://proofsandprompts.com/feed/
+proofsandprompts: ok (122471 bytes) https://proofsandprompts.com/feed/
 siliconreckoner: FAILED (HTTP 403) https://siliconreckoner.substack.com/feed
 siliconreckoner: FAILED (HTTP 403) https://siliconreckoner.substack.com/feed?format=rss
 siliconreckoner: FAILED (HTTP 403) https://siliconreckoner.substack.com/api/v1/archive?sort=new&limit=10

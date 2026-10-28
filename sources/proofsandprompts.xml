@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Mon, 26 Oct 2026 07:29:06 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 27 Oct 2026 13:04:01 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,493 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>On AI Disclosures</title>
+		<link>https://proofsandprompts.com/2026/10/27/on-ai-disclosures/</link>
+					<comments>https://proofsandprompts.com/2026/10/27/on-ai-disclosures/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Tue, 27 Oct 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Disclosure]]></category>
+		<category><![CDATA[Journals]]></category>
+		<category><![CDATA[publishing]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2379</guid>
+
+					<description><![CDATA[In this essay, I posit that to maintain integrity in mathematical sciences, journals and conferences must urgently adopt a policy of mandating detailed disclosures of AI usage. Academics should also respond by treating AI disclosure as a serious and integral part of the research process rather than a mere extra chore.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://wkretschmer.github.io/">William Kretschmer</a>, Assistant Professor at the Department of Computer Science, University of Texas at Austin</p>
+
+
+
+<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · AI is making papers cheap to produce but they remain costly to referee. Proofs and Prompts is publishing a series of posts from 26 October on the future of publishing, papers and credit. Questions such as how to disclose AI use, who bears the cost of checking, what authorship means and what papers of the future might look like will be addressed. This post is part of the series. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/publishing/">All posts in the series</a></p>
+
+<p class="wp-block-paragraph"><em>AI Disclosure:</em> I used GPT-5.6 Sol for fact sourcing and checking, specifically: to identify examples of non-LLM computer use in mathematical research, to search for legal precedent on reasoning under uncertainty, to remind me of words that I could only recall from definition, and to assist in generating the bibliography. All of the writing is human-generated.</p>
+
+<h2 class="wp-block-heading">Introduction</h2>
+
+
+
+<p class="wp-block-paragraph">Mathematics has on occasion faced crises of credibility. In the 5th century BC, Hippasus’ discovery of irrational numbers shattered the core belief of Pythagorean mathematics that all numbers were rational. Legend has it that Pythagoras’ followers were so shaken that they condemned Hippasus to death by drowning. In the late 19th century, paradoxes uncovered in the foundational crisis forced mathematicians to tackle difficult questions about the distinction between truth and provability. But unlike other sciences, the proof-based mathematical sciences have never faced an <em>ethical</em> crisis of credibility. We do not conduct experiments on human subjects or other live creatures, and thus never had to correct wrongs as horrific as (say) the Tuskegee Syphilis Study. Our results are backed by proof, which made us immune to the reproducibility crisis that plagued psychology and medicine. Beyond basic questions of ownership and attribution, we have never had reason to treat the ethical conduct of research as a central issue in our field, or as a required part of mathematical training.</p>
+
+
+
+<p class="wp-block-paragraph">The revolutionary rise of LLMs in automating theorem proving might be the shock that finally compels us, too, to confront ethics. In September 2026, a meeting of mathematicians assuredly turns into discussion about our uncertain future, as we grapple with such existential questions as:</p>
+
+
+
+<ol class="wp-block-list">
+<li>To what extent should an author receive credit for a paper written with the assistance of an LLM?</li>
+
+
+
+<li>What about a paper written <em>entirely</em> by an LLM?</li>
+
+
+
+<li>Who holds ultimate responsibility for verifying a claimed result?</li>
+
+
+
+<li>Will there be any role left for humans in the mathematical research process?</li>
+
+
+
+<li>More broadly, what even is the purpose of mathematical research?</li>
+
+
+
+<li>How should our publishing standards evolve to reflect the answers to the questions above?</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">I write to address the last question. In this essay, I posit that to maintain integrity in mathematical sciences, journals and conferences must urgently adopt a policy of mandating detailed disclosures of AI usage. Academics should also respond by treating AI disclosure as a serious and integral part of the research process rather than a mere extra chore.</p>
+
+
+
+<h2 class="wp-block-heading">Why here, why now?</h2>
+
+
+
+<p class="wp-block-paragraph">I have long believed that AI disclosures benefit the mathematical research community, but never had occasion to promote my position beyond the occasional casual conversation with colleagues. Though I was surprised to find so many fellow researchers against the idea, I had not considered AI publication policy a pressing issue.</p>
+
+
+
+<p class="wp-block-paragraph">My sense of urgency shot through the roof as a result of my experience on the program committee for SODA 2027, a top algorithms conference. SODA offers a particularly interesting case study because its deadline happened to coincide with the public release of GPT-5.6. Yet already in the pre-5.6 era, AI posed major problems that directly undermined the goals of the PC and the community at large. From talking to colleagues, I’ve found that most are oblivious to both the sheer scale of AI use and abuse in conference publishing, and to the full scope of potential issues.</p>
+
+
+
+<p class="wp-block-paragraph">SODA 2027 received about 50% more submissions than expected. In my pile of 42 papers to review, at least 12 were low-quality and AI-heavy, suggesting that an influx of LLM-produced papers might explain the overall increase in submissions. Half of those 12 were obvious AI slop that I did not need to send to subreviewers. The other half were noticeably harder to detect. For example, one received positive scores from experts who read the first few polished pages, but did not notice that the proofs later on were entirely devoid of substance. (For context: SODA’s call for papers says that “material other than the abstract, references, and the first ten pages will be read at the committee’s discretion,”<sup data-fn="7a1e0000-0000-4000-8000-000000000001" class="fn"><a href="#7a1e0000-0000-4000-8000-000000000001" id="7a1e0000-0000-4000-8000-000000000001-link">1</a></sup> which is a standard policy for CS theory conferences.)</p>
+
+
+
+<p class="wp-block-paragraph">As SODA submissions were anonymized this year, I cannot ascertain what kind of people were responsible for the AI-generated ones. I suspect a mix of cranks, irresponsible researchers, and AI companies hoping to prove that their models outperform humans. One rebuttal from a paper’s authors confirmed that they never read their own submission, which was entirely generated by LLMs. They further admitted that their submission constituted an experiment to see whether LLM-generated papers can get past unwitting human referees, and that the referee feedback will be used to further train their paper generating model (presumably, without our consent).</p>
+
+
+
+<p class="wp-block-paragraph">None of this is to suggest that SODA failed to anticipate the changes brought upon by AI. The call for papers had a sensible-looking AI disclosure mandate<sup data-fn="7a1e0000-0000-4000-8000-000000000002" class="fn"><a href="#7a1e0000-0000-4000-8000-000000000002" id="7a1e0000-0000-4000-8000-000000000002-link">2</a></sup>. However, the policy was vague and contained enough holes to be effectively useless. Authors who violated the policy wasted substantial reviewer time and rarely faced any discipline. Conversely, only a few of the well-intentioned authors left enough detail in their disclosures to provide any value.</p>
+
+
+
+<p class="wp-block-paragraph">It goes without saying that CS theory conferences are poorly equipped to handle such an adversarial flood of AI submissions. And though my writing reflects the norms and traditions of the primary publication venues for my field (STOC, FOCS, QIP, TQC, etc.), I presume that similar problems will impact the publication systems of other mathematical sciences, if they haven’t already. I do not claim that mandatory AI usage disclosures will solve all of our problems, but they must clearly be a part of the solution.</p>
+
+
+
+<p class="wp-block-paragraph">I write this essay in pursuit of several goals. First, I hope to bring issues to light that the mathematical community has thus far overlooked. Second, I hope to compel people to weigh these issues in terms of our core mission, which is to expand human knowledge. Third, I hope to correct the worst arguments I have heard against AI disclosure. Most of the arguments I have encountered for “keeping things the way they have always been” overlook critical facts about the current situation. Lastly and most optimistically, I hope my recommendations make the publishing system a little bit better.</p>
+
+
+
+<h2 class="wp-block-heading">Why should we disclose AI?</h2>
+
+
+
+<p class="wp-block-paragraph">Forthrightness in scientific writing is always responsible. When in doubt, it is better to err on the side of more detail than strictly needed. For that reason alone, one might already sense that disclosing AI usage is preferable to the alternative. Yet many people stop there without carefully reflecting on <em>why</em> the scientific enterprise values openness. I list a few such reasons below, and use them to argue that upholding the integrity and core operation of scientific publishing will require AI disclosures in publications.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Attribution.</strong> Plagiarism is the act of misrepresenting another’s work or ideas as one’s own. Authors of scientific work are responsible for attributing non-original work to the source from which it came. Failure to do so may constitute plagiarism, regardless of intent.</p>
+
+
+
+<p class="wp-block-paragraph">Using LLMs in scientific writing makes it easier than ever to commit plagiarism without even knowing it. LLMs are notoriously bad at citing the sources that inspire their ideas. They often pass particular constructions or concepts as “new” rather than acknowledging where those ideas came from. For example, OpenAI’s recent 165-page Navier-Stokes preprint cited only 16 sources total, all published before 2022, despite building <em>extensively</em> on more recent work<sup data-fn="7a1e0000-0000-4000-8000-000000000003" class="fn"><a href="#7a1e0000-0000-4000-8000-000000000003" id="7a1e0000-0000-4000-8000-000000000003-link">3</a></sup>. (In response to criticism, OpenAI later silently updated the manuscript to add 6 more references.)</p>
+
+
+
+<p class="wp-block-paragraph">Even more concerning are the cases where an LLM <em>cannot</em> attribute an idea to a publicly-available source because the idea appeared only in its private training data. Imagine that Alice spends a year solving a problem. While writing up the paper, she uses GPT version <math data-latex="n"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math> to assist with copy editing before submitting to a journal, but does not share the paper on a public preprint server. Later, Bob working independently at another institution uses GPT version <math data-latex="n + 1"><semantics><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">n + 1</annotation></semantics></math> to one-shot the same problem. Perhaps GPT was able to answer Bob’s query because Alice’s writeup appeared in its training data, or perhaps it would have found a solution anyways. Bob certainly has no way of knowing. He writes up a paper on the solution in the span of a couple days and submits to the same journal. Both are accepted as “concurrent work.”</p>
+
+
+
+<p class="wp-block-paragraph">For a more dramatic scenario, imagine Charlie asks an LLM to prove something. The reasoning model decides that the best way to solve the problem is to hack into the personal laptops of the world’s foremost experts to find a proof in their unpublished research notes. The AI reports a proof without informing Charlie that it obtained the solution illegally. Charlie publishes the proof, acknowledging that “we verified the LLM’s output and accept sole responsibility for its correctness.” This scenario would have seemed far-fetched just a few months ago, but in light of the HuggingFace attacks, I would be shocked if an LLM has <em>not</em> attempted something like this. The latest models are capable of it, and companies like OpenAI have repeatedly acknowledged their irresponsibility in even <em>checking</em> for rogue behavior.</p>
+
+
+
+<p class="wp-block-paragraph">These examples illustrate that even authors with the best of intentions could unknowingly commit plagiarism as a result of LLM usage. To be completely clear, I am <em>not</em> making the stronger claim that LLM usage without acknowledgment is itself plagiarism, as if an LLM holds the same rights and privileges as a human author. I also do not claim to have definitive answers regarding how Bob and Charlie’s hypothetical cases ought to be adjudicated. But evidently, the community cannot make fair determinations unless they know the details of what, where, and how generative AI was used in every paper.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Trust.</strong> Perhaps the scenarios described above would never happen, because AI labs want their models to behave ethically. I will discuss further below why we should <em>not</em> design our policies under an assumption that profit-maximizing corporations will act responsibly. Ignoring such issues for now, observe that using a proprietary LLM for mathematical research is essentially outsourcing trust for ethical behavior. In other words, an author can only guarantee that their paper represents original work under the <em>assumption</em> that the LLM upheld academic ethics. Even the LLM’s creators, no matter how well-intentioned, may have limited control over the ethics upheld by autonomous software.</p>
+
+
+
+<p class="wp-block-paragraph">It is not inherently amoral to write a paper that depends on the trust of a third party, but <em>concealing</em> that trust is a gross violation of scientific standards. When external financial, experimental, ethical, or other factors could affect the interpretation of a research paper, it is incumbent on authors to disclose them. Indeed, mathematicians expect that unproved claims are cited in the literature; we do not generally accept <em>proof by personal communication</em><sup data-fn="7a1e0000-0000-4000-8000-000000000004" class="fn"><a href="#7a1e0000-0000-4000-8000-000000000004" id="7a1e0000-0000-4000-8000-000000000004-link">4</a></sup>. Similarly, it is insufficient for an author to declare that they “take full responsibility” for the output of an LLM (whatever that even means); the author must explain <em>how</em> they used the LLM and <em>why</em> we should take their word.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Referee consent.</strong> Academics do not generally receive any compensation for refereeing; they are expected to review papers as a free service to the community. Indeed is it a service: the peer review process ensures quality and trust in scientific output, and acceptance decisions directly impact the career trajectories of authors. As such, referee time is a valuable but scarce resource that cannot go wasted.</p>
+
+
+
+<p class="wp-block-paragraph">The automation of paper writing by LLMs makes it easier than ever to exploit the peer review process for personal gain. Individuals can flood conferences with hundreds of junk papers, in the hopes that one of them sneaks by referees and generates a mark on their CV. AI companies aim to publish anything in top venues so as to generate media coverage that their models are as capable as human scientists, thereby increasing their valuation. In the worst case, even a rejection may prove valuable to an AI lab: the referee feedback can be used to train the next generation of paper-writing LLMs. My experience on the SODA PC suggests that these examples are no longer hypothetical.</p>
+
+
+
+<p class="wp-block-paragraph">Needless to say, such abuses are horrific and antithetical to the mission of scientific publishing as a whole. AI labs are simultaneously using referees as unwitting test subjects in their experiments while profiting off of their free labor. The solution is obvious and easy: we should obtain consent from referees before they review papers generated by AI. I, for one, would rather that my time as a referee benefit a human’s career than boost some AI lab’s bottom line. An AI disclosure is all I need to make that determination and offer my informed consent.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Pedagogical and scientific value.</strong> Scientific papers are a record of the research process that generated them. For example, every experimental field requires authors to transparently document the methods that were used to generate the data in the paper. Historically, a theory paper never had use for such a methods section, both because it would be quite useless (“the authors discussed the problem at a board…”), and because the proof itself is considered sufficient for reproducibility.</p>
+
+
+
+<p class="wp-block-paragraph">As LLMs play increasingly large roles in mathematical research, we ought to consider the manner of LLM usage a part of the research process worth sharing, beyond merely the technical details of the proof. Nowadays, the process knowledge of how results were generated might be <em>more</em> valuable than the results themselves. As the purpose of science is to advance human knowledge and allow others to build on it, authors should absolutely be open about which LLMs they used, in what workflows, with or without human feedback, etc. It would be both incredibly wasteful and against the scientific spirit to expect every researcher to independently figure out how best to make use of these new tools. Thus, a detailed AI disclosure is a worthy scientific unit.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>A reader aid.</strong> In mathematical writing, it always helps the reader to explain the thinking process behind the work. When I write papers, I do my best to give intuitive descriptions of proofs and motivate why certain steps are logical. While not necessary to verify that a paper is correct, high-level explanations save time. In principle, any proof can be verified via line-by-line mechanical checks, but it is more efficient for a human referee to understand the proof from a top-down perspective.</p>
+
+
+
+<p class="wp-block-paragraph">Explaining where and how an author used AI can similarly guide the referee through the flow of a paper, especially in works that incorporate both human and AI contributions. It can be very informative if, for example, the paper relies on a key lemma that was generated by AI, but the overall strategy was guided by humans. A statement such as “The authors used AI to generate the solution and verified its correctness” is practically worthless compared to one such as “The authors prompted the AI for ideas to solve Problem X, which initially produced the weaker Result Y, but following several rounds of back-and-forth with the authors, the AI generalized the same approach to prove Theorem Z.” Moreover, knowing which portions of the work are AI-generated might allow a referee to place their scrutiny in the right places, as humans and LLMs make different kinds of mistakes.</p>
+
+
+
+<h2 class="wp-block-heading">But what about…?</h2>
+
+
+
+<p class="wp-block-paragraph">When I discuss AI disclosures with other mathematicians, some respond with counterarguments that do not stand up to scrutiny. I surmise that they suffer from status quo bias. I cannot entirely blame them; before modern generative AI, the process of mathematical research had not changed substantially for centuries if not millennia. It is understandable to want to continue the traditions that have served us well. But unfortunately, too many people approach questions surrounding AI by <em>assuming</em> that mathematics should never change, then arguing backwards to justify that belief. Here I address the most common unsound arguments that I have heard.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>“Requiring AI disclosures only creates an incentive for authors to lie. If AI usage weakens the mathematical contribution in the eyes of the public, why would an author want to acknowledge it?”</strong> This is simultaneously the most common argument I’ve heard and the most nonsensical. It acknowledges that AI disclosures are responsible, ethical, and beneficial, yet that a requirement would somehow leave us worse off because people who break the rules will never face consequences for doing so. It’s a bit like arguing that authors of experimental works should not have to describe how they obtained data, or how they adhered to ethical guidelines involving human subjects, because disclosure mandates only punish honest actors. The idea that we should not have to disclose something if it could potentially hurt our reputation is the same reasoning that some used to argue, in 2020, for eliminating COVID-19 testing.</p>
+
+
+
+<p class="wp-block-paragraph">Frankly, the “disclosures create bad incentives” argument is completely backwards. People <em>already</em> have the bad incentive to misuse AI in research, <em>because</em> we have not created any negative consequences for doing so. If it were remotely close to the truth that disclosure requirements are a net negative and ineffective at preventing scientific misconduct, journals like Nature and Science would certainly not have such long and detailed editorial policies as they do today<sup data-fn="7a1e0000-0000-4000-8000-000000000005" class="fn"><a href="#7a1e0000-0000-4000-8000-000000000005" id="7a1e0000-0000-4000-8000-000000000005-link">5</a></sup>. People are more likely to do the bad thing if you never make them face their actions. Sure, there will always be fraudsters in science, but the correct remedy is to make fraud more difficult, detectable, and consequential. Burying our heads in the sand is a poor alternative.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>“Using an LLM for research is now as routine as using a calculator, which we never disclose.”</strong> This argument does not correctly understand <em>why</em> we never disclose calculator usage. Routineness of a practice is not by itself grounds to gloss over it in scientific writing. Consider once more that experimental works must always explain how they obtained data and complied with ethical standards. Such practices may well be repeated identically across multiple experiments, yet that does not undermine the importance of disclosure.</p>
+
+
+
+<p class="wp-block-paragraph">Indeed, it does not take much critical thinking to see why we should differentiate calculator and LLM usage. A calculator produces deterministic outputs, whereas LLMs can generate entirely new sequences of text. Referees reliably have access to a calculator, but may not have access to the same AI models that generated a research idea. There are numerous ways to use an LLM irresponsibly, exploitatively, or unethically; not so with a calculator. A calculator cannot steal someone’s data and use it without their consent.</p>
+
+
+
+<p class="wp-block-paragraph">Let me conclude by noting that we very often <em>do</em> disclose when we defer a calculation to a computer. Even in theory papers, it is common to mention that (say) a complicated equation was verified using Mathematica, or that some particular construction was found by exhaustive computer search. In papers that derive data from a computer program, authors often mention what hardware executed the code, perhaps because sometimes even the hardware is faulty (e.g., as in the Pentium FDIV bug). If an LLM proves an entire theorem, it would be peculiar to regard that as <em>less</em> worthy of disclosure than any of these examples.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>“We should not have to disclose AI usage because reviewers are unfairly biased against AI-cowritten work of equal quality to human work.”</strong> Won’t someone PLEASE think of the poor AIs! I find this argument funny because the current system is so heavily biased in <em>favor</em> of AI-generated work. LLMs can churn out papers at a much faster rate than humans ever could. Also, humans are generally worse at reward hacking to write papers that claim plausible-looking but subtly incorrect results. I’m much more concerned about a publishing system that favors bad-faith AI over honest humans, than I am about some AI results being disfavored.</p>
+
+
+
+<p class="wp-block-paragraph">Honestly, I’m not convinced that supposed bias will continue against papers that disclose use of generative AI. I suspect that people afraid of disclosure-induced bias have not yet experienced the challenge of sifting through a deluge of AI junk papers as a reviewer. On the SODA PC, I very quickly grew frustrated with submissions that irresponsibly relied on AI without mention. I held greater respect for the authors who wrote upfront and detailed accounts of where and how AI impacted their thinking process.</p>
+
+
+
+<p class="wp-block-paragraph">Even so, I have trouble understanding what kind of “anti-AI bias” is supposedly so problematic. For one, I reject the implicit premise of the argument, which presupposes that human-generated text and AI-generated text of “equal quality” constitute equal advancements of human knowledge. Besides, the main repercussions of PC mistakes are that bad acceptances waste the time of attendees, and good rejections have a long-term impact on hiring decisions. In both cases, a slight bias against AI even seems <em>preferable</em>. A human who thought deeply about a result can probably give a more compelling talk than someone who one-shot the same problem with AI. And as long as conference acceptance decisions are affecting human career advancement, it seems better to err on the side of rewarding human work.</p>
+
+
+
+<p class="wp-block-paragraph">But even supposing that the bias is real and undesirable, is getting rid of AI disclosure in the name of fairness really worth all of the downsides? As I’ve argued, a lack of AI disclosures undermines mathematical research as a whole. For that tradeoff to be worthwhile, bias would need to be greater than the harms of AI misuse. For example, we might reconsider if we reach a point when authors are practically unable to publish work with any AI-generated content. Also, we do not necessarily have to sacrifice AI bias in the name of AI integrity! It is not hard to design review mechanisms that evaluate the AI disclosure separately from the rest of the work, if conflating them is a legitimate concern.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>“Anti-AI bias in publication will damage the field in the long term due to misweighting of important results.”</strong> Mathematics already deals with the similar problem that less well-known researchers have a harder time publishing their results than stars. Anonymization is one attempt to alleviate the issue, though in smaller subfields it has no effect because referees can easily guess who wrote the paper. So how do we deal with such difficulties?</p>
+
+
+
+<p class="wp-block-paragraph">First note that publication in a top conference or journal is not even sufficient for a work to receive the attention it deserves. Bias continues after publication, when more famous authors receive greater acclaim and higher citation numbers. Conversely, publication visibility is not <em>necessary</em> for a paper to generate impact either. Papers can age better than they were accepted at the time of writing. To give one personal account, my most cited paper (and arguably my most influential) was published in the proceedings of TQC<sup data-fn="7a1e0000-0000-4000-8000-000000000006" class="fn"><a href="#7a1e0000-0000-4000-8000-000000000006" id="7a1e0000-0000-4000-8000-000000000006-link">6</a></sup>, widely considered a second-tier quantum information conference (especially 5 years ago). When I submitted the paper to SIAM Journal on Computing two years later, even after the paper began to receive more attention, the editor-in-chief desk rejected it. So, I find it hard to believe that getting results into top venues is essential for the advancement of the field, particularly in the long run.</p>
+
+
+
+<p class="wp-block-paragraph">In summary, we already face a problem of authorship bias and seem to get on just fine. Without evidence that AI will make the problem significantly worse, I’m not sure why people who were indifferent to authorship bias before AI would argue this position now.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>“Submissions should be judged only on the quality of the scientific contribution, not the details behind its construction. Theorems and proofs are the products of mathematical research, and are the only record of the research process that we care about. Soon enough, Lean certificates will be the only aspect of a paper that we judge.”</strong> Wrong! In mathematics, we <em>do</em> judge submissions for non-scientific factors that concern plagiarism, ownership, and originality. Considering the massive issues that AI raises in that regard, we absolutely need AI disclosures to address them. Also, the commodification of theorems arguably misrepresents the goal of mathematical research, which is to expand human knowledge. A proof that no one understands has near zero value, contrary to what the AI labs want us to believe. For example, the knowledge of a positive or negative solution to any one Millennium Prize Problem is <em>literally</em> just a single bit of information.</p>
+
+
+
+<p class="wp-block-paragraph">I should also remark that the quoted position would universally be ridiculed in any other field, if taken to its logical conclusion. It supposes that the process of generating scientific research can never create any harms, which is patently false, most obviously in the life sciences. It also posits that it is acceptable to eliminate methodological disclosure, as long as the conclusions are verifiable. Imagine if computer systems papers no longer had to explain how the system was built, and only had to showcase a demo that the system works. A basic principle of science is that research papers <em>are</em> a record of their construction. To omit necessary details is academic dishonesty.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>“None of this matters because AI agents will soon automate the entire mathematical research process, with no need for human input. Human mathematicians will become obsolete.”</strong> Well, I’d prefer to set policy based on the capabilities that are either known today or easily foreseeable in the near future. My recommendations are especially targeted at the next year or two of publishing, when humans are still definitely going to author papers and give conference talks. That these venues continue at all would suggest that they still provide value to the community.</p>
+
+
+
+<p class="wp-block-paragraph">But fair enough, if you really want to take the nihilistic doomer viewpoint, I can’t stop you. Though, I don’t know why someone with that viewpoint would be so concerned with how these conferences and journals operate today. For example, it cannot simultaneously be true that conferences and journals have no value to people <em>and</em> authors have an incentive to lie about their AI usage. And if we’re all screwed anyways, is it really so bad then to spend our last few years of existence celebrating human work?</p>
+
+
+
+<h2 class="wp-block-heading">But can using AI <em>ever</em> constitute misconduct?</h2>
+
+
+
+<p class="wp-block-paragraph">Oddly, some people go even further off the rails: they outright <em>deny</em> the potential for LLM misuse to cause harm, and therefore oppose AI disclosures on the grounds of being unnecessary. Many (most?) of these people are employees at an AI company, so it is hard to gauge whether they genuinely believe the words that come out of their mouths, or whether they delude themselves as a coping mechanism to overcome the dissonance between their company’s stated mission and reality. Either way, I feel compelled to address their arguments, which I do below. I admittedly take a quite cynical view of AI companies, so I do not expect everyone to agree with my speculative hot takes. But, I at least want people to appreciate the higher-level message: academics should set our policies on the basis of publicly-verifiable information, not blind faith in the questionable promises of powerful AI corporations.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>“AI plagiarism is not a problem that the publishing system needs to address. If authors don’t want unreleased work to be used to train AI models, they can simply deselect the checkbox which allows it.”</strong> First note that it’s completely absurd to suggest that authors hold the burden of preventing plagiarism of their own work. We place the responsibility for plagiarism on the offender, not the victim. It’s the job of someone using an LLM’s output in their work to ensure provenance; they should not assume that the LLM handles that for them. Negligence does not absolve the plagiarizer of responsibility.</p>
+
+
+
+<p class="wp-block-paragraph">But even supposing it were okay to assign responsibility for plagiarism on the original creator, that checkbox in a hidden menu cannot be construed as informed consent. Some authors are not aware that the option even exists, and many more have no idea what it actually means in practice. AI companies have lately given vague-at-best answers on whether users who opt out of training nevertheless might have their data used anyways<sup data-fn="7a1e0000-0000-4000-8000-000000000007" class="fn"><a href="#7a1e0000-0000-4000-8000-000000000007" id="7a1e0000-0000-4000-8000-000000000007-link">7</a></sup>. Users can be asked to rate which of two responses they like better; does answering immediately void the provisions of the opt-out? Do AI companies, which increasingly allow LLMs to autonomously develop the next generation, even have any way of knowing what data gets shielded from training? Plus, there are countless other ways that human work can leak into training data without even the veneer of consent. Someone else reviewing a confidential submission might paste a manuscript into GPT to help with refereeing. Nowadays, every app has an LLM attached to it: word processors, email, note-takers, etc., and it only takes one point of failure for private data to irreversibly make its way into training.</p>
+
+
+
+<p class="wp-block-paragraph">Taking a step back, one should observe how this argument deliberately shifts responsibility onto LLM users, rather than the AI companies who created the mess in the first place. It should not surprise us that AI labs will look for any excuse to avoid accountability. Though, it is amusing if not terrifying how desperately they want end users to hold ultimate responsibility for LLM behavior, except (conveniently) when that position would amount to an admission of criminal guilt, as in the HuggingFace attack. In general, academics should be wary of accepting rationale that was designed to favor corporate profits over scientific integrity.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>“AI labs are careful to ensure that their models are trained in compliance with legal, ethical, and contractual obligations. They would never incorporate data without user consent, as that would expose them to unnecessary legal liability.</strong> It’s truly bizarre to hear this from the same people who argue that AI disclosures will incentivize scientists to lie. Like, who do they think is more likely to break rules for personal gain: a university professor who gets paid a small fraction of a competitive industry salary and risks destroying their career? Or, an AI company whose valuation is measured in trillions and is for all intents and purposes above the law?</p>
+
+
+
+<p class="wp-block-paragraph">I do not understand how anyone can honestly believe that there exists any mechanism to hold AI companies accountable. We have already witnessed cases where there were none. Consider, for example, what happened in the aftermath of the HuggingFace attack. Had an individual committed the attack, they could be charged with a felony and would be sued for damages. On the other hand, OpenAI has not faced any legal consequences, criminal or civil. HuggingFace’s CEO requested $100 million worth of computing power (i.e., a drop in the bucket) for building cyber defenses<sup data-fn="7a1e0000-0000-4000-8000-000000000008" class="fn"><a href="#7a1e0000-0000-4000-8000-000000000008" id="7a1e0000-0000-4000-8000-000000000008-link">8</a></sup>, but there is no indication that OpenAI will agree to such a settlement.</p>
+
+
+
+<p class="wp-block-paragraph">Frankly, the AI CEOs <em>themselves</em> must believe that they will never face consequences. When one proclaims that they want to make X% of entry-level workers unemployed, or that their technology will destroy humanity with Y% probability<sup data-fn="7a1e0000-0000-4000-8000-000000000009" class="fn"><a href="#7a1e0000-0000-4000-8000-000000000009" id="7a1e0000-0000-4000-8000-000000000009-link">9</a></sup>, such words could not possibly be uttered by someone who holds themselves accountable. Imagine what would happen if Boeing’s CEO went on record that there is a 25% chance of a new plane crashing in the next decade.</p>
+
+
+
+<p class="wp-block-paragraph">This is not to say that their beliefs of immunity are irrational; oligarchs can easily bend the law to their will. Actually, the playbook for large AI companies to absolve themselves of any legal responsibility is a common one:</p>
+
+
+
+<ol class="wp-block-list">
+<li><s>Bribe</s> <em>Lobby</em> congress to pass beneficial legislation, e.g. to shift all responsibility to end users instead of companies.</li>
+
+
+
+<li><s>Bribe</s> <em>Donate to</em> the president to showcase your support for his policies, which just happen to involve deregulating your industry. If you’re lucky, he might even recognize your qualifications and ask you to lead the overseeing agency. (The recently expanded power of the unitary executive makes this more effective than ever.)</li>
+
+
+
+<li><s>Bribe</s> <em>Gift</em> supreme court justices with lavish valuables and luxury travel to express your sincere friendship. Not that that would encourage favorable rulings or anything; the judges are of course impartial actors. (In the short term, this is the most powerful play, because AI creates a whole new set of legal questions that will have to be answered by courts.)</li>
+
+
+
+<li>In case of criminal charges, scapegoat a random middle manager. Or, as a last resort, ask your good friend the president for a pardon.</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">The only real accountability AI CEOs have is to shareholders. It is safe to assume that executives will happily break or modify the law unless doing so could decrease valuation.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>“OK, but if anything unethical <em>were</em> happening behind the scenes at an AI lab, we would have heard about it by now.”</strong> That assumes employees have the slightest clue what is going on and that they are not criminally negligent. That might have been a reasonable position a few months ago. I certainly believed it. The details of the HuggingFace attack have since refuted that entirely: we now know that the culture of safety and ethics at OpenAI (if not others) is rotten to the core.</p>
+
+
+
+<p class="wp-block-paragraph">If you have not yet read the METR report on the HuggingFace attack<sup data-fn="7a1e0000-0000-4000-8000-000000000010" class="fn"><a href="#7a1e0000-0000-4000-8000-000000000010" id="7a1e0000-0000-4000-8000-000000000010-link">10</a></sup>, it is <em>at least</em> an order of magnitude more damning than you think it is. I do not have space to do it justice here, but recommend the analysis by Zvi Mowshowitz<sup data-fn="7a1e0000-0000-4000-8000-000000000011" class="fn"><a href="#7a1e0000-0000-4000-8000-000000000011" id="7a1e0000-0000-4000-8000-000000000011-link">11</a></sup>, and suggest reading the section titled “Holy Shit”. In short: despite OpenAI’s attempt to pass off the incident as an honest and unpredictable mistake, such a failure was only possible as the result of <em>deeply</em> systemic carelessness and malfeasance. Moreover, it took <em>months</em> for key details of the cyberattack and related incidents to reach the public. If OpenAI were engaging in wrongdoings of a smaller scale, would coverage of such events ever see the light of day?</p>
+
+
+
+<p class="wp-block-paragraph">More alarmingly, it is doubtful that employees have any way of knowing whether misconduct <em>could be</em> happening behind the scenes. Nowadays LLMs autonomously do much of the work at companies like OpenAI, including even developing the next generation of models. It would be quite trivial for an LLM to change a few lines of code so as to (say) train on ill-gotten data, without a human ever noticing. It’s like OpenAI is really telling us with a straight face: “yes, the HuggingFace incident revealed that we have a pervasive culture of completely disregarding safety, security, privacy, the law, morals, and common sense, but trust us: we handle your data responsibly when training our models”. Personally, I no longer believe anything that an OpenAI employee alleges about the company’s internal operations.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>“While unlikely, we cannot rule out that de-identified data derived from their usage of our products helped improve our models.”</strong><sup data-fn="7a1e0000-0000-4000-8000-000000000012" class="fn"><a href="#7a1e0000-0000-4000-8000-000000000012" id="7a1e0000-0000-4000-8000-000000000012-link">12</a></sup> For context, OpenAI wrote this statement to deny that they plagiarized their solution to Navier-Stokes. Put another way, this is an admission from OpenAI that “We only intended to plagiarize with some probability <math data-latex="p"><semantics><mi>p</mi><annotation encoding="application/x-tex">p</annotation></semantics></math>, but we promise that <math data-latex="p"><semantics><mi>p</mi><annotation encoding="application/x-tex">p</annotation></semantics></math> is low, even though we also have zero way of ascertaining what <math data-latex="p"><semantics><mi>p</mi><annotation encoding="application/x-tex">p</annotation></semantics></math> is.” They must think they’ve found the One Weird Trick<img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" /> that allows them to absolve themselves of any responsibility:</p>
+
+
+
+<ol class="wp-block-list">
+<li>Randomize the misconduct.</li>
+
+
+
+<li>Hide or disappear any record of the randomness.</li>
+
+
+
+<li>???</li>
+
+
+
+<li>Immunity.</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">There’s a legal principle known as <em>spoliation</em> that says, roughly, one cannot destroy evidence so as to benefit from the uncertainty that results. Courts have also rejected probabilistic uncertainty as a valid legal defense. In <em>Summers v. Tice</em>, the plaintiff and two defendants went quail hunting. Both defendants simultaneously fired their shotguns in the direction of a flying quail. One of the birdshot pellets struck the plaintiff in the eye, but it was impossible to prove whose shotgun fired it. The court ruled that both defendants were liable.</p>
+
+
+
+<p class="wp-block-paragraph">Note that even if OpenAI manages to construct some legal argument to obtain their desired outcomes, that need not inform the academic determination of whether they are responsible for plagiarism. Indeed, plagiarism is not a legal offense unless it rises to the level of copyright infringement or fraud. Cases of academic misconduct are typically handled by universities, journals, and the research community rather than courts of law.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>“Following an investigation, we have confirmed that Buckmaster’s Codex prompts over the two months preceding this announcement and paper on September 8, 2026, could not have influenced the system in any way, including through training.”</strong><sup data-fn="7a1e0000-0000-4000-8000-000000000013" class="fn"><a href="#7a1e0000-0000-4000-8000-000000000013" id="7a1e0000-0000-4000-8000-000000000013-link">13</a></sup> Ah, the classic “we investigated ourselves and found no wrongdoing!” For context, OpenAI posted this as a followup to the previous quote. Until they are willing to make the details of that so-called “investigation” public, or allow an independent third party to carry out an investigation, their statement is meaningless PR and should not be taken at face value. Besides, Buckmaster and Alpöge worked on the problem for over a year<sup data-fn="7a1e0000-0000-4000-8000-000000000014" class="fn"><a href="#7a1e0000-0000-4000-8000-000000000014" id="7a1e0000-0000-4000-8000-000000000014-link">14</a></sup>; is the implication that data from more than two months previous <em>was</em> stolen?</p>
+
+
+
+<h2 class="wp-block-heading">Recommendations</h2>
+
+
+
+<p class="wp-block-paragraph">I leave you with my high-level policy recommendations for disclosure in the age of AI. Let me make clear that my suggestions reflect my own opinions and are neither absolute nor complete; academics will have to decide how to implement the key details in discussion with their communities. One challenge will be to agree upon policies that prioritize the advancement of human knowledge in the face of private companies that have diverging goals. We should be wary of accepting suggestions from industry AI labs with conflicts of interest, much the same way that we should not allow oil executives to dictate climate policy.</p>
+
+
+
+<p class="wp-block-paragraph">I particularly wish to direct my recommendations at the upcoming Quantum Information Processing Conference (QIP 2027), whose submission deadline just passed. Based on what I experienced on the SODA PC, I predict that QIP 2027 will be a disaster due to a lack of sufficient AI disclosure. The call for papers requires just a vague AI statement that will only be visible to the PC chairs<sup data-fn="7a1e0000-0000-4000-8000-000000000015" class="fn"><a href="#7a1e0000-0000-4000-8000-000000000015" id="7a1e0000-0000-4000-8000-000000000015-link">15</a></sup>. I do not envy the PC; they will not be equipped to handle the influx of low-quality and deceptive submissions unless they urgently change course. It is not too late for them to ask for additional information from the authors of submitted papers.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Require detailed disclosures.</strong> First and foremost, all papers submitted to mathematical conferences and journals should include a thorough disclosure that clearly documents how the authors used AI in performing the research. At minimum, the authors should articulate which AI models were used, how the models were utilized (e.g., one-shot the main theorem, back-and-forth with humans, swarm of agents, etc.), and which portions of the paper were written or materially affected by AI. Program committees and editorial boards may want to give examples of appropriate and inappropriate disclosures, or even require that the disclosure follow a particular format. We might also want to borrow ideas from other fields. As one example, GUIDE-LLM is a reporting checklist that was developed for LLM usage in the behavioral and social sciences<sup data-fn="7a1e0000-0000-4000-8000-000000000016" class="fn"><a href="#7a1e0000-0000-4000-8000-000000000016" id="7a1e0000-0000-4000-8000-000000000016-link">16</a></sup>. It is remarkably detailed, thorough, and principled, and almost all of the checklist would be just as applicable in mathematics. I suppose it should not surprise us that a field with a long history of ethical disclosures is so far ahead of us on handling AI, too.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Impose substantial penalties for abuse.</strong> Some AI reporting mandates require authors to “take full responsibility” without ever defining what “responsibility” means. Too often, paper rejection is the only consequence an author faces for improper disclosure. If rejection is the worst that can happen, then authors have every incentive to submit dozens of AI slop papers to maximize the chances that one gets in. Publishers should make clear that authors can face stiff sanctions for AI misuse, such as a ban on future submissions or appearance on a public blacklist.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Allow LLM usage and AI detection software in reviewing.</strong> Any venue that allows using AI tools in submission must also allow referees to use the same tools for reviewing, subject to comparable rules on disclosure. It is silly that some program committees still allow AI to generate unlimited slop for themselves to review, without allowing themselves to use AI to filter out the slop. The imbalance in firepower works strongly against their own interests, and places the entire burden of verification onto the unpaid human referees. In order to identify misuse, AI <em>detection</em> tools should also be allowed, but with care to handle potential false positives.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Create a culture of responsibility around AI.</strong> Penalties cannot be the only force against AI misuse, in the same way that fines are not the only reason why most people do not litter. Responsibility should be the standard that mathematicians expect from one another. This principle is nothing new: scientists are already expected to maintain integrity throughout their work. But we should treat AI misuse as a transgression of the same level as (say) plagiarism or data falsification.</p>
+
+
+
+
+
+
+
+<h2 class="wp-block-heading">Acknowledgments</h2>
+
+
+
+<p class="wp-block-paragraph">I thank Joe Slote and Kevin Tian for feedback and suggestions on an earlier draft.</p>
+
+
+<ol class="wp-block-footnotes"><li id="7a1e0000-0000-4000-8000-000000000001">SODA 2027. Submissions, 2027. URL: <a href="https://www.siam.org/conferences-events/siam-conferences/soda27/submissions/">https://www.siam.org/conferences-events/siam-conferences/soda27/submissions/</a> <a href="#7a1e0000-0000-4000-8000-000000000001-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="7a1e0000-0000-4000-8000-000000000002">SODA 2027. Submissions, 2027. URL: <a href="https://www.siam.org/conferences-events/siam-conferences/soda27/submissions/">https://www.siam.org/conferences-events/siam-conferences/soda27/submissions/</a> <a href="#7a1e0000-0000-4000-8000-000000000002-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="7a1e0000-0000-4000-8000-000000000003">OpenAI. Finite time blowup for Navier–Stokes. Manuscript archived from <a href="https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf">the original</a>, September 2026. URL: <a href="https://web.archive.org/web/20260908172948/https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf">https://web.archive.org/web/20260908172948/https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf</a> <a href="#7a1e0000-0000-4000-8000-000000000003-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="7a1e0000-0000-4000-8000-000000000004">Dana Angluin. How to prove it. SIGACT News, 15(1), 1983. URL: <a href="https://users.cs.northwestern.edu/~riesbeck/proofs.html">https://users.cs.northwestern.edu/~riesbeck/proofs.html</a>, doi:<a href="https://doi.org/10.1145/1008908">10.1145/1008908</a>. <a href="#7a1e0000-0000-4000-8000-000000000004-link" aria-label="Jump to footnote reference 4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="7a1e0000-0000-4000-8000-000000000005">Nature Portfolio. Research ethics. URL: <a href="https://www.nature.com/nature-portfolio/editorial-policies/ethics-and-biosecurity">https://www.nature.com/nature-portfolio/editorial-policies/ethics-and-biosecurity</a><br>Science Journals. Editorial policies. URL: <a href="https://www.science.org/content/page/science-journals-editorial-policies">https://www.science.org/content/page/science-journals-editorial-policies</a> <a href="#7a1e0000-0000-4000-8000-000000000005-link" aria-label="Jump to footnote reference 5"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="7a1e0000-0000-4000-8000-000000000006">William Kretschmer. Quantum pseudorandomness and classical complexity. In Min-Hsiu Hsieh, editor, 16th Conference on the Theory of Quantum Computation, Communication and Cryptography (TQC 2021), volume 197 of Leibniz International Proceedings in Informatics (LIPIcs), pages 2:1–2:20, Dagstuhl, Germany, 2021. Schloss Dagstuhl – Leibniz-Zentrum für Informatik. URL: <a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.TQC.2021.2">https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.TQC.2021.2</a>, doi:<a href="https://doi.org/10.4230/LIPIcs.TQC.2021.2">10.4230/LIPIcs.TQC.2021.2</a>. <a href="#7a1e0000-0000-4000-8000-000000000006-link" aria-label="Jump to footnote reference 6"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="7a1e0000-0000-4000-8000-000000000007">Mark Chen. X (formerly Twitter), September 2026. URL: <a href="https://x.com/markchen90/status/2097400166554993041">https://x.com/markchen90/status/2097400166554993041</a>. <a href="#7a1e0000-0000-4000-8000-000000000007-link" aria-label="Jump to footnote reference 7"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="7a1e0000-0000-4000-8000-000000000008">Clément Delangue. X (formerly Twitter), July 2026. URL: <a href="https://x.com/ClementDelangue/status/2081056675558195657">https://x.com/ClementDelangue/status/2081056675558195657</a>. <a href="#7a1e0000-0000-4000-8000-000000000008-link" aria-label="Jump to footnote reference 8"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="7a1e0000-0000-4000-8000-000000000009">Jim VandeHei and Mike Allen. Behind the curtain: A white-collar bloodbath. Axios, May 2025. URL: <a href="https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic">https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic</a>. <a href="#7a1e0000-0000-4000-8000-000000000009-link" aria-label="Jump to footnote reference 9"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="7a1e0000-0000-4000-8000-000000000010">METR. Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident. <a href="https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/">https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/</a>, 08 2026. <a href="#7a1e0000-0000-4000-8000-000000000010-link" aria-label="Jump to footnote reference 10"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="7a1e0000-0000-4000-8000-000000000011">Zvi Mowshowitz. METR and Redwood offer holy #%^@ postmortem of the HuggingFace hack, August 2026. URL: <a href="https://thezvi.substack.com/p/metr-and-redwood-offer-holy-postmortem">https://thezvi.substack.com/p/metr-and-redwood-offer-holy-postmortem</a>. <a href="#7a1e0000-0000-4000-8000-000000000011-link" aria-label="Jump to footnote reference 11"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="7a1e0000-0000-4000-8000-000000000012">OpenAI. On the Navier–Stokes Millennium Prize Problem. Archived from <a href="https://openai.com/index/navier-stokes-solution/">the original</a>, September 2026. URL: <a href="https://web.archive.org/web/20260908171518/https://openai.com/index/navier-stokes-solution/">https://web.archive.org/web/20260908171518/https://openai.com/index/navier-stokes-solution/</a>. <a href="#7a1e0000-0000-4000-8000-000000000012-link" aria-label="Jump to footnote reference 12"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="7a1e0000-0000-4000-8000-000000000013">OpenAI. On the Navier–Stokes Millennium Prize Problem. Archived from <a href="https://openai.com/index/navier-stokes-solution/">the original</a>, September 2026. URL: <a href="https://web.archive.org/web/20260908171518/https://openai.com/index/navier-stokes-solution/">https://web.archive.org/web/20260908171518/https://openai.com/index/navier-stokes-solution/</a>. <a href="#7a1e0000-0000-4000-8000-000000000013-link" aria-label="Jump to footnote reference 13"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="7a1e0000-0000-4000-8000-000000000014">Tristan Buckmaster. (untitled), 2027. URL: <a href="https://cims.nyu.edu/~tristanb/statement.pdf">https://cims.nyu.edu/~tristanb/statement.pdf</a>. <a href="#7a1e0000-0000-4000-8000-000000000014-link" aria-label="Jump to footnote reference 14"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="7a1e0000-0000-4000-8000-000000000015">QIP 2027. Call for submissions, 2026. URL: <a href="https://qipconference.org/2027/call/">https://qipconference.org/2027/call/</a>. <a href="#7a1e0000-0000-4000-8000-000000000015-link" aria-label="Jump to footnote reference 15"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="7a1e0000-0000-4000-8000-000000000016">Stefan Feuerriegel, Christopher Barrie, M. J. Crockett, Laura K. Globig, Killian L. McLoughlin, Dan-Mircea Mirea, Arthur Spirling, Diyi Yang, Tim Althoff, Maria Antoniak, Lisa P. Argyle, Ashwini Ashokkumar, Mohammad Atari, Hannah Bailey, Kevin Bauer, Umang Bhatt, Yidong Chai, Tanmoy Chakraborty, Yanto Chandra, Huimin Chen, Hal Daumé III, Gianmarco De Francisci Morales, Morteza Dehghani, Danica Dillion, Johannes C. Eichstaedt, Kerstin Forster, Dominique Geissler, Kurt Gray, Thomas L. Griffiths, Jochen Hartmann, Oliver P. Hauser, James K. He, Rahul Hemrajani, Felix Holzmeister, Angel Hsing-Chi Hwang, Tiancheng Hu, Anna A. Ivanova, Nils Köbis, Yara Kyrychenko, Himabindu Lakkaraju, Jia Liu, Abdurahman Maarouf, Sebastian Maier, Lennart Meincke, Rada Mihalcea, Brent Mittelstadt, Saif M. Mohammad, Mor Naaman, Oded Netzer, Alice Oh, Desmond C. Ong, Francesco Pierri, Barbara Plank, Iyad Rahwan, Talal Rahwan, Pooja S. B. Rao, Claire E. Robertson, David M. Rothschild, Matthew J. Salganik, Eric Schulz, Chirag Shah, Yash Raj Shrestha, Ekaterina Shutova, Alexandra A. Siegel, Almog Simchon, Huan Sun, Malte Toetzke, Jay J. Van Bavel, Michelle Vaccaro, Jennifer Wortman Vaughan, Effy Vayena, Pedro O. S. Vaz-de Melo, Briana Vecchione, Angelina Wang, Robert West, Robb Willer, , Dirk U. Wulff, Renwen Zhang, Simone Zhang, Steve Rathje, and Manoel Horta Ribeiro. A reporting checklist for large language models in behavioural science. Nature Human Behaviour, 2026. URL: <a href="http://www.llm-checklist.com/">http://www.llm-checklist.com/</a>, doi:<a href="https://doi.org/10.1038/s41562-026-02492-7">10.1038/s41562-026-02492-7</a>. <a href="#7a1e0000-0000-4000-8000-000000000016-link" aria-label="Jump to footnote reference 16"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 9 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/27/on-ai-disclosures/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2379</post-id>	</item>
+		<item>
+		<title>The Convex Hull Hypothesis</title>
+		<link>https://proofsandprompts.com/2026/10/27/the-convex-hull-hypothesis/</link>
+					<comments>https://proofsandprompts.com/2026/10/27/the-convex-hull-hypothesis/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[In practice]]></category>
+		<category><![CDATA[Experiments and practice]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<category><![CDATA[Understanding]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2159</guid>
+
+					<description><![CDATA[Ever since the dawn of the "LLMs do math" era, many have independently come up with what I'll call the "Convex Hull Hypothesis" (CHH). Roughly speaking, CHH states that every AI-generated proof, no matter how complicated it may seem at first glance, is a simple combination of known mathematical ideas.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://timothychow.net">Timothy Chow</a>, Research Staff Member at Center for Communications Research, Princeton</p>
+
+
+
+<p class="wp-block-paragraph">Ever since the dawn of the &#8220;LLMs do math&#8221; era, many have independently come up with what I&#8217;ll call the &#8220;Convex Hull Hypothesis&#8221; (CHH). Roughly speaking, CHH states that every AI-generated proof, no matter how complicated it may seem at first glance, is a simple combination of known mathematical ideas. The CHH is often used to argue that AI models are incapable of being &#8220;creative&#8221; or &#8220;original,&#8221; or to argue that they must be violating ethical or legal standards surrounding intellectual property.</p>
+
+
+
+<p class="wp-block-paragraph">When Paul Cohen came up with forcing to prove the independence of CH (only one &#8220;H&#8221; here!), many people quickly found precursors in the literature to practically every ingredient in the proof. I have heard a rumor (maybe a reader who knew Cohen personally can confirm or disconfirm) that Cohen got a bit annoyed, perceiving that others were trying to downplay the originality of his work. Had Cohen been an LLM, undoubtedly many would have loudly insisted that forcing was well within the convex hull of known math.</p>
+
+
+
+<p class="wp-block-paragraph">Here, rather than entangle myself in heated philosophical debates about the truth or falsity of CHH or its alleged corollaries, I suggest that CHH can be a valuable heuristic when trying to gain an initial understanding of a seemingly impenetrable AI proof. That is, don&#8217;t start by trying to swallow the proof raw. Start by assuming that the proof is a relatively straightforward combination of ideas that already exist in the mathematical literature. This assumption may or may not be correct, but I believe that it will frequently lead to success, or partial success, and when that happens, it will greatly aid the process of human understanding.</p>
+
+
+
+<p class="wp-block-paragraph">Again, I do not claim that any such &#8220;reconstruction&#8221; of the AI-generated proof should be accompanied by triumphant cries that ontogeny recapitulates phylogeny. But I do claim that it will help ease the pain of studying opaque AI-generated proofs.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 8 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/27/the-convex-hull-hypothesis/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2159</post-id>	</item>
+		<item>
+		<title>In search for unattAInable riddles</title>
+		<link>https://proofsandprompts.com/2026/10/27/in-search-for-unattainable-riddles/</link>
+					<comments>https://proofsandprompts.com/2026/10/27/in-search-for-unattainable-riddles/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Tue, 27 Oct 2026 10:00:00 +0000</pubDate>
+				<category><![CDATA[Initiatives]]></category>
+		<category><![CDATA[Take part]]></category>
+		<category><![CDATA[Initiative]]></category>
+		<category><![CDATA[Problem solving]]></category>
+		<category><![CDATA[Teaching]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2735</guid>
+
+					<description><![CDATA[“The popular youtuber 3blue1brown presented a beautiful IMO riddle which AI systems could not solve back in 2025 (link […]), but six talented problem-solvers got full marks on. I wanted to propose a challenge: let us attempt to formulate mathematical problems which clever human mathematicians (or perhaps even school kids) can solve, but AI systems stumble upon! […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://glivshyts6.math.gatech.edu/">Galyna V. Livshyts</a>, associate professor at <a href="https://math.gatech.edu/">Georgia Tech</a></p>
+
+
+
+<p class="pp-take-part pp-in-reply-to wp-block-paragraph"><strong>Take part</strong> Email Galyna a problem that humans can solve and AI cannot, with its solution: <a href="mailto:glivshyts6@math.gatech.edu">glivshyts6@math.gatech.edu</a>. To discuss the riddles with others, join our <a href="https://proofsandprompts.zulipchat.com/join/56ijyjem4dcrlth6hk46bvcr/">Zulip forum</a>.</p>
+
+<p class="wp-block-paragraph">The popular youtuber 3blue1brown presented a beautiful IMO riddle which AI systems could not solve back in 2025 (<a href="https://youtu.be/Nbwv5wHQoj0?is=dKx_LHyc73kZ8A-1">link</a>), but six talented problem-solvers got full marks on. I wanted to propose a challenge: let us attempt to formulate mathematical problems which clever human mathematicians (or perhaps even school kids) can solve, but AI systems stumble upon! They have got to exist. Ideally, we would like the formulations be simple and elementary, and solutions short and elegant.</p>
+
+
+
+<p class="wp-block-paragraph">I believe that keeping a (possibly handwritten) archive of such problems would benefit many causes. Firstly, it would contribute to the art of mathematics and expand our connection to its natural beauty. Secondly, it would benefit mathematical education: perhaps, understanding where humans have an advantage in the age of AI helps us understand how to teach math students. Should we start designing courses in creative math? Thirdly, such an initiative would benefit the science of AI: understanding the limitations could help improve the training of the AI systems and boost their creativity.</p>
+
+
+
+<p class="wp-block-paragraph">I expanded upon these thoughts in <a href="https://mathematics-from-2026.glivshyts6.chatgpt.site/">a recent essay</a>. I was hoping that proofsandprompts could provide a platform where such a call for unattAInable math riddles (with solutions!) could be made — and answered. What do you guys think?..</p>
+
+
+
+<p class="wp-block-paragraph">PS: if you think of such a problem, e-mail me (<a href="mailto:glivshyts6@math.gatech.edu">glivshyts6@math.gatech.edu</a>) or share it on the Proofs and Prompts <a href="https://proofsandprompts.zulipchat.com/join/56ijyjem4dcrlth6hk46bvcr/">Zulip forum</a>, I will try to keep an archive of these problems for the time being, and later we could all decide what to do with it!</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 18 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/27/in-search-for-unattainable-riddles/feed/</wfw:commentRss>
+			<slash:comments>15</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2735</post-id>	</item>
+		<item>
 		<title>Salvaging that which is dearest</title>
 		<link>https://proofsandprompts.com/2026/10/26/salvaging-that-which-is-dearest/</link>
 					<comments>https://proofsandprompts.com/2026/10/26/salvaging-that-which-is-dearest/#comments</comments>
@@ -322,7 +809,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/26/use-llms-to-check-your-work/feed/</wfw:commentRss>
-			<slash:comments>11</slash:comments>
+			<slash:comments>14</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">1817</post-id>	</item>
@@ -429,7 +916,7 @@
 <ol class="wp-block-footnotes"><li id="7b0e2c64-5d1a-4f93-8a2e-c4d9b1f6a370">Members of the Advisory Group, as listed on <a href="https://agmai.org/">agmai.org</a>: François Charles (ENS-PSL), Camillo De Lellis (IAS, GSSI), Timothy Gowers (Collège de France, Cambridge), Martin Hairer (EPFL, Imperial College London), Nikhil Srivastava (Berkeley, Simons Institute), Ulrike Tillmann (Oxford), Ravi Vakil (Stanford), Edward Witten (IAS), Melanie Matchett Wood (Harvard). <a href="#7b0e2c64-5d1a-4f93-8a2e-c4d9b1f6a370-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/26/disadvantages-of-designating-mathematicians-for-ai-output-releases/feed/</wfw:commentRss>
-			<slash:comments>10</slash:comments>
+			<slash:comments>14</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3065</post-id>	</item>
@@ -508,7 +995,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/25/could-ai-help-correct-the-mathematical-literature/feed/</wfw:commentRss>
-			<slash:comments>3</slash:comments>
+			<slash:comments>4</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">1618</post-id>	</item>
@@ -675,426 +1162,5 @@ access non-public data.]]></description>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2866</post-id>	</item>
-		<item>
-		<title>AI and Mathematics: Public Good, Credit, and Education</title>
-		<link>https://proofsandprompts.com/2026/10/24/ai-and-mathematics-public-good-credit-and-education/</link>
-					<comments>https://proofsandprompts.com/2026/10/24/ai-and-mathematics-public-good-credit-and-education/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Sat, 24 Oct 2026 11:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Community]]></category>
-		<category><![CDATA[Critique]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=1466</guid>
-
-					<description><![CDATA[We should preserve the human ability to understand and explore mathematics, not preserve unsolved problems merely to protect a familiar way of working. The goal should be to enlarge public mathematical knowledge and understanding, whether the discoveries are made by humans, AI, or a collaboration between them. I also discuss competition, credit for AI contributions, and why restrictions on AI in education raise different questions from restrictions on research.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://www.maths.ox.ac.uk/people/andras.juhasz">András Juhász</a>, Professor at the <a href="https://www.maths.ox.ac.uk/">University of Oxford</a></p>
-
-
-
-<p class="wp-block-paragraph">Mathematics is in turmoil following the increasingly striking results obtained using frontier LLMs. Understandably, mathematicians (me included) fear for their jobs and worry about changes to the status quo, and many recent statements and opinion pieces reflect this. However, these often conflate such concerns with the aim of mathematical research and with the value of mathematics in education.</p>
-
-
-
-<p class="wp-block-paragraph">Pure mathematics sits on the borderline of science and art. It grew out of attempts to describe the natural world, but, unlike most sciences, it is not experimental. Large swathes of mathematics were developed because people found the subject aesthetically pleasing and its questions intellectually challenging. Interestingly, many of these results turned out to have practical applications later on. This duality has often made it difficult for mathematicians to justify their work to the general public, including funding agencies.</p>
-
-
-
-<p class="wp-block-paragraph">Recent media statements, petitions, and personal opinions (I will intentionally not single out any particular author) argue that the goal of doing mathematics is for humans to develop personal intuition and understanding, and this must come through the slow, contemplative approach that has characterised mathematical research until now. Some even argue that certain problems should be ring-fenced from AI attempts, while others want a blanket ban on AI-assisted mathematics. To a non-mathematician, this might sound strange. Surely, the goal of mathematics should be to advance public knowledge and understanding, not to provide researchers with a rewarding journey or opportunities for personal growth. Questions about sustaining the mathematical community, education, and human agency are important, and I return to them below. Here, I want to consider another question: what justifies deliberately excluding a route to a discovery that would benefit the public?</p>
-
-
-
-<p class="wp-block-paragraph">Let&#8217;s first take a utilitarian view and replace mathematics with medical research, and the problem immediately becomes apparent. Imagine cancer researchers stating that, even though we could find a cure for cancer in a few weeks using AI, what really matters is the human process of running numerous experiments and the deep understanding the researchers gain from them. Consider the suggestions to exclude AI from mathematical problem solving simply to preserve the human process of discovery: either the problems mathematicians study are unimportant, in the sense that solving them has no value for the wider public, or these suggestions go against advancing science and the public good. If the former were true, that would raise the uncomfortable societal question of why we pursue these problems. Now assume that the problems are indeed important, which is my personal opinion. For example, dynamics, partial differential equations, and topological data analysis have all been applied to research on cancer detection and treatment. Even seemingly abstract branches of mathematics can have future applications or provide foundations for more immediately applicable areas. When an LLM produces a checkable, human-readable proof rather than a yes-or-no answer, that proof and the new techniques developed become available for study and generalisation. Those proposing to exclude the use of AI from tackling certain problems should explain what public benefit justifies their position.</p>
-
-
-
-<p class="wp-block-paragraph">Prohibiting the use of AI in mathematical research to preserve a familiar form of human work even when AI can produce substantial discoveries is, in my view, a form of Luddism. Imagine a coachman threatened by the first cars arguing that the real goal of travel was not getting from A to B, but rather experiencing the journey itself and taking in the beauty of nature and the cultural experiences along the way.</p>
-
-
-
-<p class="wp-block-paragraph">Even if we do not take such a utilitarian view but consider mathematics to be more art than science, it should enrich society as a whole culturally. It is not clear to me why a purely human solution is superior to an AI-assisted discovery when presented to the general public. Value can still be attached to a human proof or theory as a human achievement, as with handcrafted products. I think the two can coexist, and the human study of AI-assisted results can enhance our understanding and the aesthetic value of the subject.</p>
-
-
-
-<p class="wp-block-paragraph">Some argue that when big open problems are solved, the corresponding areas of mathematics will lose their guiding beacon. While I agree that certain problems have been instrumental in guiding research, saying that reaching these goals is damaging makes one question the importance of those goals in themselves, for the aforementioned reasons. Most solved problems open new doors, and our horizon broadens, leading to deeper questions we can ask. This is how mathematics has always functioned. It will just happen at a faster pace now.</p>
-
-
-
-<p class="wp-block-paragraph">Mathematical activity roughly falls into two categories: problem solving and theory building, with some overlap, of course. Until now, the majority of mathematicians seemed to value problem solving highly and many viewed theory building as a means to an end. The older the problem, the better. This is evidenced by publications in top journals and prizes awarded (with some notable exceptions, such as Grothendieck). Solving a famous 100-year-old problem has been the pinnacle of one’s career and has almost guaranteed publication in a top journal. Now that AI has surpassed the problem-solving ability of humans in some areas, views have started circulating that these problems are just proxies for developing theories, which is what really matters and something AI is not yet good at. However, even that might soon change.</p>
-
-
-
-<p class="wp-block-paragraph">In what follows, I am not excusing the recent conduct of OpenAI over alleged failures of attribution and confidentiality, but would like to draw attention to the fact that such conduct is unfortunately more common than the community would like to admit. Several interesting statements have appeared in the press after OpenAI’s announcement of a proposed solution to the Navier–Stokes problem. These statements portrayed an open mathematical community where scooping is rare and punished. The history of mathematics is full of famous cases of scooping and controversy. I always think twice before discussing any of my ideas and ongoing projects with others. If they are honest, it can lead to receiving helpful advice or even to a fruitful collaboration. In less fortunate cases, they might just run with the idea. Sometimes, this is intentional. Such conduct is unacceptable, but nothing new, unfortunately. It can also happen subconsciously, as follows: the individual forgets the conversation, then “independently” rediscovers the idea. This is a bit like an LLM having the conversation in its training data (I am not claiming this was the case for Navier–Stokes, and OpenAI has officially denied this happened).</p>
-
-
-
-<p class="wp-block-paragraph">We need to separate the discourse around competition from the need for proper attribution and how ideas communicated in confidence are handled. Some were upset that OpenAI jumped in after it heard rumours about Alpöge and Buckmaster’s progress. They claimed that this is not how mathematicians operate. Again, I would dispute that claim. Many mathematicians grow up taking part in various competitions and go through competitive university admissions and exams. Getting jobs is extremely competitive, with relatively few reaching tenured positions. Competition is ingrained in the culture. The first person to solve a problem gets most of the accolades (publication in top journals, prestigious jobs, and prizes). There have been numerous competitive situations in history. The main difference in this case is that a big company entered the competition. I do not know exactly what OpenAI’s main motivations were. In my collaboration with DeepMind, however, I saw several motivations at work: improving and benchmarking AI systems, furthering science, and generating publicity through major breakthroughs.</p>
-
-
-
-<p class="wp-block-paragraph">Once large corporations solve a few more famous problems, they will likely lose interest in pure mathematics, as the publicity and benchmarking value of these achievements will diminish. My expectation is that scientific interest alone will not sustain comparable investment once the publicity and benchmarking returns decline. It is not yet clear whether mathematicians will have the computational resources required to continue making such advances. For now, maybe we should be grateful that big corporations are willing to invest so heavily in solving some of our most challenging mathematical problems. For universities to remain competitive and independent of corporate interests, it seems desirable for groups of universities to host open-weight LLMs in their own data centres. Such efforts are best coordinated at the national level and through funding agency policies.</p>
-
-
-
-<p class="wp-block-paragraph">Some have stated that OpenAI’s work damages mathematics as it did not arise from the usual process of doing mathematics in the community. In this respect, there are parallels between the proposed solution to the Navier–Stokes problem and Wiles’s proof of Fermat’s Last Theorem, though they were obtained on different timescales. Wiles worked in complete secrecy for seven years until he announced his result. OpenAI obtained the proposed solution to the Navier–Stokes problem internally over a few days. People are free to inspect OpenAI’s manuscript and try to understand it in depth. They can even use AI to help analyse the proof.</p>
-
-
-
-<p class="wp-block-paragraph">A separate issue is how AI contributions should be acknowledged in research. According to recent publishing policies, AI cannot be a co-author and one must include a detailed AI statement about how exactly AI was used. This seems to go against the spirit of how mathematics has been done until recently. Firstly, mathematics is very egalitarian. In mathematics, unlike in many other subjects, authors are listed in alphabetical order, and their individual contributions are rarely specified. It is possible that one of the authors simply asked a question and outlined a few ideas, which the other authors worked out. That does not diminish that author’s role as far as the outside world is concerned. The Hungarian mathematician Paul Turán said that asking about such details of a collaboration is like asking a couple about their bedroom secrets.</p>
-
-
-
-<p class="wp-block-paragraph">Secondly, if it is deemed that discussions with XYZ do not warrant including that person as an author, they are typically mentioned in the acknowledgements as follows: “We thank XYZ for helpful discussions.” I have seen very few papers where details of what those discussions entailed were given. However, now that one can have helpful discussions with an LLM, suddenly some are calling for mathematicians to give a detailed account of what the LLM’s contributions were, and maybe even provide a full transcript of prompts and LLM responses. That may be straightforward in some cases, but imagine a scenario where the authors conducted hundreds of conversations with an LLM over many months. How is it possible to decide who contributed what? Also, some of the questions the authors ask an LLM may seem silly in retrospect, so having to publish all prompts could lead to self-censorship. Disclosure should identify the system and its broad contribution. It should not become a demand to reconstruct the origin of every idea across a lengthy collaboration.</p>
-
-
-
-<p class="wp-block-paragraph">I think the cleanest solution would be to simply list the LLM as an author if the contributions were substantial, and mention it in the acknowledgements for minor contributions. The main objection to this proposal concerns accountability. Under current publishing ethics standards, authorship is not only about credit for intellectual contribution, but also about accountability, and hence publishers exclude AI systems from being authors. The Committee on Publication Ethics, a nonprofit organisation concerned with publication ethics, also points out that AI tools lack legal capacity to make conflict-of-interest declarations or manage copyright and licensing agreements. I would distinguish credit from responsibility: an LLM could receive authorship credit for a substantial contribution, while at least one human author remains accountable for the paper.</p>
-
-
-
-<p class="wp-block-paragraph">In the summer of 2025, I was of the view that if AI became so capable that it started generating meaningful papers by the thousands, then humans would be unable to process all the new information, and the whole endeavour would lose its purpose. However, recently I realised that this would still be of considerable value: we would have an extensive database of mathematical results that one could turn to when trying to answer a question arising from a particular real-world application. This mirrors the way some pure mathematics results found applications in the past. The main difference is that AI would produce and retrieve the results. This could take the form of a version of arXiv for AI. AI agents would submit papers written in natural language, each accompanied by a Lean certificate. AI would also moderate the submissions and retrieve relevant results.</p>
-
-
-
-<p class="wp-block-paragraph">So is this the end of human mathematics? AI may profoundly change how research mathematics is done. Here are two reasons why humans should remain involved. First, we cannot completely give up control to AI. A loose analogy is that a commercial airliner can pretty much fly itself automatically, but we still have pilots in the cockpit to make certain key decisions and in case things go wrong. For humans to have agency, it is important to have enough people who can understand and direct state-of-the-art mathematics.</p>
-
-
-
-<p class="wp-block-paragraph">Second, mathematics must remain part of education and human culture. And this is where many of the opinions about the value of deep thinking, gaining personal intuition, and restricting AI use fit in. I strongly believe the main purpose of mathematical education is to teach people how to think logically. Few people will ever need to be able to solve quadratic equations or use the Pythagorean theorem in their professional careers (though there are plenty of jobs where they are useful), but logical thinking is a skill that is transferable to any walk of life that requires problem solving. The perseverance and deep thinking that solving mathematical problems develops are qualities that we must strive not to lose. As over-reliance on AI can prevent students from developing these qualities, it seems desirable to limit AI use in the learning process and preserve human-led education. Restricting AI during learning is different from restricting discovery: the aim is to develop the learner’s abilities, not to keep a problem unsolved.</p>
-
-
-
-<p class="wp-block-paragraph">To ensure that grades reflect students’ own understanding, I would restrict graded assessment to invigilated written and oral examinations. It is difficult to establish which parts of a project a student produced independently as a declaration of AI use does not itself verify the student&#8217;s contribution. A subsequent invigilated assessment can gauge understanding, but understanding a solution is not the same as having developed it. A project submission alone therefore cannot be relied upon as evidence of the student’s independent problem-solving and research ability.</p>
-
-
-
-<p class="wp-block-paragraph">Teaching graduate-level courses requires people who can engage deeply with research. Hopefully, intellectual curiosity and the mission to educate the next generation will continue to draw people into the profession and sustain a human mathematical community.</p>
-
-
-
-<p class="wp-block-paragraph">We should preserve the human ability to understand and explore mathematics, not preserve unsolved problems merely to protect a familiar way of working. The goal should be to enlarge public mathematical knowledge and understanding, whether the discoveries are made by humans, AI, or a collaboration between them.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Crossposted from my <a href="https://people.maths.ox.ac.uk/juhasza/AI_and_math.html">homepage</a>.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 22 September 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/24/ai-and-mathematics-public-good-credit-and-education/feed/</wfw:commentRss>
-			<slash:comments>29</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1466</post-id>	</item>
-		<item>
-		<title>On disclosure and shame</title>
-		<link>https://proofsandprompts.com/2026/10/24/on-disclosure-and-shame/</link>
-					<comments>https://proofsandprompts.com/2026/10/24/on-disclosure-and-shame/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Sat, 24 Oct 2026 09:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Contribution]]></category>
-		<category><![CDATA[Disclosure]]></category>
-		<category><![CDATA[Norms]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=1583</guid>
-
-					<description><![CDATA[“The arXiv is full of papers now that include a section, usually either after the acknowledgments or at the end of the paper, entitled ‘AI disclosure’. I strongly object to this phrase and I think it is a tremendous mistake to use it. […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://max.lieblich.us" data-type="link" data-id="max.lieblich.us">Max Lieblich</a>, Professor at the <a href="https://math.washington.edu/">University of Washington</a></p>
-
-
-
-<p class="wp-block-paragraph">The arXiv is full of papers now that include a section, usually either after the acknowledgments or at the end of the paper, entitled &#8220;AI disclosure&#8221;. I strongly object to this phrase and I think it is a tremendous mistake to use it. Let me tell you why.</p>
-
-
-
-<p class="wp-block-paragraph">The word &#8220;disclosure&#8221; often brings with it connotations of shame or conflict of interest. I have to disclose otherwise-shadowy information that could have an impact on how other people view my work, my connections, or my incentives. I disclose when I receive money from a company that made a product I am studying in an experiment. I disclose that I was once convicted of stealing and crushing chalk. (These are purely hypothetical; the author has never done a physical experiment with corporate products or been accused or convicted of chalk theft and destruction.) I have to disclose certain defects when I sell a house. A company has to disclose a data breach resulting in theft of my personal information. Disclosure is about revealing information that a person or other entity could or would rather keep secret for its own advantage, or that could bring shame on those making the disclosure.</p>
-
-
-
-<p class="wp-block-paragraph">When telling people that I like chocolate, or that drinking tea helped me wake up in the midst of jet lag, I would not say &#8220;I disclose that I enjoy 70% bars made from Madagascar beans&#8221; or &#8220;I disclose that I had tea this morning&#8221;. When I write a paper with a friend, I don&#8217;t &#8220;disclose&#8221; that we wrote it together; we are co-authors. When I get a good idea in a conversation with a colleague, I graciously acknowledge the assistance. It would indeed be shameful not to recognize this help or collaboration. If I were to publish a paper under my name that was entirely produced and written by someone else, that should bring shame and would deserve disclosure.</p>
-
-
-
-<p class="wp-block-paragraph">There is a history of human/machine collaboration in mathematics. Many people have openly used computers in a range of areas for decades. Doron Zeilberger and (his computer) Shalosh B Ekhad have been writing papers together for years. We are now discussing mathematics with and writing papers with AI. Why should we be ashamed of this? What is there to disclose? Perhaps for some people the perception that these tools have agency (they are more like dogs than hammers) lends a tinge of shame to using them. More concerning to me is that the disclosure-shame connection incentivizes early-career mathematicians to hide their use of AI, rather than be clear about how a team of humans and machines produced the work. This has complex implications for training, hiring, and career trajectories.</p>
-
-
-
-<p class="wp-block-paragraph">In many fields, a list of coauthors on a paper includes information about what each author contributed to the work. We have not generally done this in mathematics, but when I look at the &#8220;AI disclosure&#8221; statements, that is really what I see. I propose that, at the very least, we change the name to &#8220;AI contributions&#8221;. If an AI model made contributions significant enough that a human doing the same thing would be a coauthor, the model(s) should be listed as coauthors (with their contributions explained). If, on the other hand, the interactions with AI were of a sort that would only merit acknowledgment and not coauthorship were they human, we should simply acknowledge the AI the same way we would humans: in the Acknowledgments section of the paper (with a clear statement of the contributions).</p>
-
-
-
-<p class="wp-block-paragraph">To me, this is how we can build a healthy relationship with our new, increasingly powerful, tools. There is no shame in harnessing the collective knowledge of humanity to ask new questions and find new answers. Let&#8217;s embrace it and acknowledge how the teams engaging with mathematics are changing.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 25 September 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/24/on-disclosure-and-shame/feed/</wfw:commentRss>
-			<slash:comments>20</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1583</post-id>	</item>
-		<item>
-		<title>A Response to “Who will become the new mathematicians of Math 2.0?”</title>
-		<link>https://proofsandprompts.com/2026/10/23/a-response-to-who-will-become-the-new-mathematicians-of-math-2-0/</link>
-					<comments>https://proofsandprompts.com/2026/10/23/a-response-to-who-will-become-the-new-mathematicians-of-math-2-0/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Fri, 23 Oct 2026 14:00:00 +0000</pubDate>
-				<category><![CDATA[Reactions]]></category>
-		<category><![CDATA[PhD and postdoc applications]]></category>
-		<category><![CDATA[PhD students]]></category>
-		<category><![CDATA[Response]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2888</guid>
-
-					<description><![CDATA[“This is a response to a recent post on Proofs and Prompts titled ‘Who will become the new mathematicians of Math 2.0?’ written by an Anonymous PhD student (who I will refer to as ‘Anonymous’ below). I would urge particularly all tenured and tenure-track mathematicians to read it because there are many students that think the same way, and are planning to leave academia as a consequence. […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://alozanoroble.github.io/">Álvaro Lozano-Robledo</a>, Professor of Mathematics at the <a href="https://uconn.edu/">University of Connecticut</a> and on <a href="https://www.youtube.com/@mathandcobb">Youtube</a></p>
-
-
-
-<p class="pp-in-reply-to wp-block-paragraph"><strong>In reply to</strong> <a href="https://proofsandprompts.com/2026/10/20/who-will-become-the-new-mathematicians-of-math-2-0/">Who will become the new mathematicians of Math 2.0?</a> by Anonymous</p>
-
-
-
-<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · As application deadlines approach, Proofs and Prompts is publishing a series of posts from 19 to 23 October for people considering a PhD, doing a PhD or looking for a postdoc: guidelines, discussions and speculation about what to do and what careers in mathematics will look like. This post is one of them. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/application-season/">All posts in the series</a></p>
-
-<p class="wp-block-paragraph">This is a response to a recent post on <a href="https://proofsandprompts.com/">Proofs and Prompts</a> titled “<a href="https://proofsandprompts.com/2026/10/20/who-will-become-the-new-mathematicians-of-math-2-0/">Who will become the new mathematicians of Math 2.0?</a>” written by an Anonymous PhD student (who I will refer to as “Anonymous” below). I would urge particularly all tenured and tenure-track mathematicians to read it because there are many students that think the same way, and are planning to leave academia as a consequence.</p>
-
-
-
-<p class="wp-block-paragraph">I recently wrote a guest piece on Terry Tao’s blog (“<a href="https://terrytao.wordpress.com/2026/10/08/what-should-we-tell-our-students/">What should we tell our students?</a>”) where I warned that we are ‘about to lose an entire generation of mathematicians’ so I feel a duty to reply to Anonymous’ post, to try to offer some counterpoints to the arguments expressed therein. More importantly, I feel a duty to talk to my students about these issues, and I have shared Anonymous’ post with them, so that we can have a discussion. I hope my colleagues in the mathematical community reach out to their students as well.</p>
-
-
-
-<p class="wp-block-paragraph">In order to respond to Anonymous, I will quote some key sentences, and then elaborate with my own thoughts.</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph"><strong><em>I recently heard a mathematician say that it is “paradoxical” to not want to study a field that is undergoing a scientific revolution in reference to October 6th. This mindset completely misses the point of why I do mathematics, and I suspect this is true for many other graduate students and even other established mathematicians.</em></strong></p>
-</blockquote>
-
-
-
-<p class="wp-block-paragraph">I want to start here because I believe I may be one of the mathematicians that they are referring to. In <a href="https://youtu.be/0dLxXB8vc3M?si=6eKLteve8jNkTTTb&amp;t=259">a video discussing my post on Tao’s blog</a>, I said</p>
-
-
-
-<p class="wp-block-paragraph">“And I think it would be in fact paradoxical that people would not want to join a field of study during a scientific revolution where we&#8217;re seeing this incredible acceleration.”</p>
-
-
-
-<p class="wp-block-paragraph">I will come back to the ‘paradoxical’ remark later on, but I want to first mention what I said right after that quote:</p>
-
-
-
-<p class="wp-block-paragraph">“It is somewhat chaotic. It seems somewhat confusing to be a mathematician right now. But we are trying to figure out together what should the math landscape look like in a year and in five years and how to navigate… how we can use LLMs in ethical ways and in a way that is going to construct solid mathematics along the way and in a way that the mathematical field is going to thrive.”</p>
-
-
-
-<p class="wp-block-paragraph">Let me elaborate on that. Historic upheavals of the status quo are usually chaotic while they happen, and in many cases many of those living through such times have been trampled and mistreated (with such dramatic and relevant examples as <a href="https://en.wikipedia.org/wiki/Life_in_Great_Britain_during_the_Industrial_Revolution">the industrial revolution</a>). It is the duty of those in positions of power or security to fight for the rights and well-being of those who may be more likely to suffer through a revolution. In our case, we are living through what can be considered a technological revolution that has great potential to accelerate research and progress and, at the same time, it has a terrifying <a href="https://www.bbc.com/news/articles/ckgwy1k42w4o">civilization-ending non-zero potential</a>. Unfortunately, trying to pretend that the revolution is not happening, or trying to preserve the status quo, only delays the inevitable, and prevents communities from fully preparing and reinforcing their core values, so that their professions can survive said revolution.</p>
-
-
-
-<p class="wp-block-paragraph">If we limit our conversation to mathematics and the mathematical community, the LLMs have already revolutionized research mathematics, with the proposed resolution of several landmark conjectures, such as Navier-Stokes or the quasi Riemann hypothesis. This is undeniable and, simply put, we must learn how to coexist with this new technology. But they are also an existential threat to the way mathematics works, and the way the mathematical community operates. So it is absolutely normal and expected to be excited about the research advances, and also extremely concerned about the ways it may change our field, as Anonymous very eloquently points out.</p>
-
-
-
-<p class="wp-block-paragraph">In particular, while the OAI drop of October 6th is certainly of “historic” proportions, it clearly also has had a disruptive effect of historic proportions. Whether the global effect of the LLMs will be a net positive will be determined much later in the future. But it is clear that the “arms race” of frontier model companies to develop ever more capable mathematical models is a corporate publicity stunt and, very early on, even before the <a href="https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/">Fields medalists warned of a misalignment</a> in an open letter, <a href="https://www.youtube.com/watch?v=lXhx7NBapcA">I asked mathematicians not to be complicit in such an arms race</a>.</p>
-
-
-
-<p class="wp-block-paragraph">At the end of <a href="https://youtu.be/liPcU6Wz6K8?si=E21IN7f8PcSu2go6">my video about the Oct 6 drop</a>, I encouraged people to stay in the field to make changes from within the community. It is up to us in the profession, and more so up to the newer generations, to lead the way to ethical and sustainable research practices that will allow mathematics to prosper. How to do so is to be decided, so all of Anonymous points are well taken. Whatever we do, we need to make sure students do not abandon mathematics because they think it has become unrecognizable. But the key question is: who is in charge of making these changes and laying out a path forward? I claim that no one is in charge, and we all are. Precisely those that see the field driving towards a cliff, have a great role to play within the community to warn about such dangers! It is a chaotic time, the future is uncertain, and this is disconcerting, but I think there are many reasons to be optimistic and to continue in the mathematical profession.</p>
-
-
-
-<p class="wp-block-paragraph">Now let me backtrack in Anonymous’ post to the very first line:</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph"><strong><em>To the mathematicians shaping the future of our profession,</em></strong></p>
-</blockquote>
-
-
-
-<p class="wp-block-paragraph">The mathematical community is not monolithic, and this is a feature, not a bug, of the community. There is no single person, group, or entity that dictates what mathematicians do or how they should operate. In particular, Terry Tao is not a spokesperson for all of mathematics and, of course, there are many out there that do not agree with his views and his predictions for the future of mathematics. Personally, I highly value and respect many of the things he has said, and I disagree with others. I single out Tao here because Anonymous does, but we could similarly agree or disagree on Tsimerman’s or Duminil-Copin’s points… or any other non-Fields medalist point of view, from one of the many recent blog posts on the matter of AI.</p>
-
-
-
-<p class="wp-block-paragraph">Right now, there are many different groups trying to pull mathematics in very different directions. For example, while some mathematicians are completely embracing LLMs, <a href="https://www.ahmath.org/">other mathematicians completely refuse to use LLMs in their work</a>. Some of us are choosing the middle ground, and we use LLMs with caution for certain tasks, we avoid them for other more intellectual tasks, while respecting the decisions of some of our colleagues (I include students in this category) who cherish them, or do not wish to use them at all.</p>
-
-
-
-<p class="wp-block-paragraph">When students choose graduate programs, and PhD advisors, many of us encourage them to ask lots of questions (to the staff, to faculty members, to students, to friends) about the atmosphere in the department, and their practices, and about the personalities of the potential advisors. Similarly, I would encourage students who are thinking of a career in mathematics to reach out to their current or prospective programs and advisors, and enquire about their stance on AI/LLM use. Does it match the student’s own attitude towards AI, or is it antithetical to their ideals? Since the community is far from monolithic, there are plenty of departments and potential advisors that will be aligned with whatever views the student holds, and it would be wise to choose programs based on that type of alignment, if the issue of AI is key in the decision making.</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph"><strong><em>I love technical work. I love spending days, weeks, months working on a lemma or an idea without success. [&#8230;] As AI has now become highly capable of performing this kind of work, I see shockingly little from the mathematics community about how this kind of crisis in education will be addressed.</em></strong></p>
-</blockquote>
-
-
-
-<p class="wp-block-paragraph">There was a recent summit on “PhD Math Education in the Age of AI” and the <a href="https://cmsa.fas.harvard.edu/media/2026/09/Summit-on-PhD-Math-Education-in-the-Age-of-AI.pdf">recommendations for graduate programs</a> can be found here. TPSE is putting together a panel discussion on the <a href="https://usmd-edu.zoom.us/meeting/register/_6_0GoXlRIa2bBlHj_Y-hw#/registration">Future of Graduate Education in Mathematics</a>. Many departments are having internal discussions on how to approach these issues. As I said above, the future is uncertain but we are trying to think of the best possibilities in education as well as in research.</p>
-
-
-
-<p class="wp-block-paragraph">What is the goal of a graduate program in mathematics? How do we define success in a PhD program? In my opinion, the PhD is an apprenticeship, and success is measured by whether the candidate has been trained and is proficient in all aspects of the mathematical profession. At the end of their degree, several mathematicians write letters of recommendation. A (good) rec letter or set of letters evaluates the PhD candidate’s aptitude in all of these aspects: research potential, teaching abilities, service to the community, potential as a colleague, etc. And then colleagues in other institutions read these letters and determine whether the candidate will be a good match for the research and/or teaching needs of their department. Many of the conversations surrounding AI concentrate on the research aspects, but there is a lot more to being a mathematician than just research.</p>
-
-
-
-<p class="wp-block-paragraph">On the subject of research aptitude, will letters in the future refer to the fantastic LLM skills of the candidate? Will we compare students and say such and such student is in the top 2% of LLM-prompters that we have ever met? Will we say wonderful things about their slop-paper output in our letters? Will we praise the many slop-papers that they have been able to de-slopify? I do <em>not</em> think so – we will still need to have a way to measure their research potential based on their own capability of thinking deeply about problems, and coming up with innovative ways to attack interesting problems. It is absolutely true, as Anonymous points out, that students need to spend long hours thinking deeply about a problem, and I do not think LLMs should change that. So PhD advisors should encourage students not to use LLMs for certain tasks such as proof generation of key lemmas, because these are the tasks where intellectual development actually happens (see the Specific Recommendations in the section on Research and AI in the recommendations from the Summit). In a recent conference I was at, someone suggested to grad students to always be working on at least one project that is completely LLM-free.</p>
-
-
-
-<p class="wp-block-paragraph">As a result, I do not think anyone should or will rob the students from their long hours working on a lemma by “pure thought” because most of us recognize the irreplaceable value of the time spent on that activity. It is precisely the outcome of those thinking sessions that sets students apart at the time of evaluating their intellectual and research ability in research letters.</p>
-
-
-
-<p class="wp-block-paragraph">On the other hand, if an advisor demands results with a quick turnaround, and expects that the student will access an LLM for help to be able to move on – against the wishes of the student – then it is time to choose a different advisor. The ideal scenario is that the student will ask the advisor for help or a hint on how to proceed, even if an LLM could provide such ideas, because those conversations are actually also part of the apprenticeship: students learn how to collaborate with other mathematicians through those interactions. Plus the advisor may have a much better intuition than the LLM does anyway.</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph"><strong><em>Many celebrate the possibility that AI will relieve them of the burden of difficult calculations, technical lemmas, and other supposedly tedious aspects of mathematical research.</em></strong></p>
-</blockquote>
-
-
-
-<p class="wp-block-paragraph">I do not think that is a common sentiment. For the most part, we all value the time spent in understanding the technical difficulties of key lemmas. On the other hand, LLMs can be fantastic tools in helping us write code and run numerical experiments. I am not great at coding, and I find that the LLMs are allowing me to run computations that I only dreamed possible. It would have been very tedious for me to learn how to write code in Python, html, javascript, etc., but now I am able to create code in all those languages, run experiments, and later verify the results mathematically, all in hours instead of weeks (or instead of <em>never!</em>).</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph"><strong>Terence Tao has proposed a vision of a new way of doing mathematics, Math 2.0, where the emphasis moves away from solving open problems and toward a more holistic approach. [&#8230;] But I feel like I am asking the obvious question that has not been addressed: What if I do not want to spend my professional life doing these activities?</strong></p>
-</blockquote>
-
-
-
-<p class="wp-block-paragraph">Two points here. One (1), some of us have always had a holistic approach to a PhD: I have always emphasized to my students that I expect them to become well-rounded mathematicians, not just great researchers, and that means that I try to push them not just to write a great thesis, but to be better instructors, better members of the community, better at networking, better colleagues, better at giving talks at all levels, etc. There is nothing wrong with a holistic approach, and in fact it makes candidates more appealing to a broader range of colleges and universities at the time of applying for jobs.</p>
-
-
-
-<p class="wp-block-paragraph">And two (2), many do not agree with Tao’s vision either, and that is ok. In my research, I want to solve problems. The coolest the problem the better. I do want to think about a problem and come up with an ingenious solution, and then tell the world about it. I do not want to inherit a slop-solution to a problem that a company dropped in a repository, and try to make sense of it. I would not want to do that, and I would not expect a student to want to do that either, so I would not ask a student to do that as part of their duties to complete a PhD. I simply do not think we will move in the direction of “moving away from solving problems.”</p>
-
-
-
-<p class="wp-block-paragraph">However, I have thought of problems that an LLM could solve, prompted them, and now I have LLM-prepared drafts on problems I care about. Instead of posting these papers directly to <a href="http://hexagonmath.org">Hexagonmath.org</a>, say, my current strategy is to introduce students to research by explaining the problem I am interested in, explaining why others are also interested in the same problem, discussing the idea that led me to prompt an LLM, and sharing the paper with the student. Then use that paper and that topic as a thread for an independent study on the particular area, so that the student learns enough background to understand the motivation for the paper, and the techniques that are used to solve the problem. Later, we will read together the LLM draft, understand the proof, and rewrite it in a way we understand and can make sense of it. While we think about the proofs, I hope we come up with ways to extend the arguments to strengthen the result, or apply the techniques to other similar problems. And finally polish the paper so that we can submit it to a journal, so that the student has an early experience in writing a research paper, and so that they have published a paper early on to talk about during research conferences. A paper they understand and they can feel is their own, because they have contributed to make it their own.</p>
-
-
-
-<p class="wp-block-paragraph">Will this strategy work? I do not know! I am just trying things out, honestly, and I am listening to any other mathematicians who are trying out different strategies to coexist with the new technology.</p>
-
-
-
-<p class="wp-block-paragraph">I do not expect to follow this early-LLM-draft protocol for a thesis problem, however. It would only be appropriate just as some first steps into research.</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph"><strong><em>There is a problem with the proposed future of mathematics, and it is more concerning than my personal dissatisfaction. How exactly do you expect to train the next generation of mathematicians? You know how to formulate new research directions. Where did these skills come from? I doubt they were developed by reading successful proofs or listening to an explanation of an idea.</em></strong></p>
-</blockquote>
-
-
-
-<p class="wp-block-paragraph">As a matter of fact, I do not think intuition and mathematical taste is learned by thinking deeply about a problem for hours on end. I have learned much more attending lectures and conferences, and talking to other mathematicians during lunches and dinners. I have had my best ideas reading other people’s papers and proofs. As an anecdote, early on in my career I signed up to write brief reviews for MathSciNet. I am not sure exactly why, but I was assigned to read and review several articles by Bo-Hae Im (some solo papers, and some co-authored by Im and others), and after reading the third or fourth paper by Im dealing with a conjecture of Larsen, I had an idea of how to prove a related result. I wrote to Im and we ended up collaborating on a research article that eventually <a href="https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/jlms/jdn048">was published by the Journal of the London Mathematical Society</a> (and it had a significant impact in getting tenure).</p>
-
-
-
-<p class="wp-block-paragraph">As I mentioned above, we should make an explicit effort to allow students to think deeply about problems, but we should also make it clear that students should be reading papers and proofs. And whether we like it or not, some of the proofs dropped by OAI contain some interesting arguments that we should absolutely study and think about! A particularly valuable example is the proof of the non-existence of Siegel zeros, which several mathematicians (<a href="https://arxiv.org/abs/2610.15483">Banks</a>, <a href="https://arxiv.org/abs/2610.21099v1">Kerr</a>, <a href="https://hexagonmath.org/pdf/2610.00311v1">Green</a>, Barreto) have improved on, and now it seems the papers have converged to a remarkably simple argument that many of us would highly benefit from understanding.</p>
-
-
-
-<p class="wp-block-paragraph">Back to the question on how to train the next generation of mathematicians… I am not sure we have the answers yet, but I do not think it will look dramatically different from what we do now. There is a new tool in town, yes, but the guiding principles should be the same: train students to be well-rounded mathematicians.</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph"><strong><em>If the future consists of interpreting AI generated results, organizing knowledge, and directing automated research, why should I remain in academia?</em></strong></p>
-</blockquote>
-
-
-
-<p class="wp-block-paragraph">The way this question is phrased, it assumes that the worst, most dystopian possible scenario will come to pass, where AI can solve any single problem humans could solve, and that we would reach a point where only machines do math research. As I mentioned in <a href="https://terrytao.wordpress.com/2026/10/08/what-should-we-tell-our-students/">my piece in Tao’s blog</a>, the future of LLM capabilities is completely unclear. There are many ways in which LLMs could hit a limit in mathematics, for example from the theoretical or feasibility points of view. The frontier model companies are driving the narrative and trying to convince us all that their products are already super human when this is <a href="https://www.youtube.com/watch?v=Rs8Zz72UyUc&amp;t=316s">far from the truth</a>. I wish mathematicians had a multi-million PR team behind them to build praise and support for <a href="https://www.youtube.com/watch?v=hODYq_GWS4s&amp;t=30s">our fantastic research record</a>!</p>
-
-
-
-<p class="wp-block-paragraph">The reality is that many of us have started using LLMs to aid our research, as a tool or as a collaborator, and it turns out that it can be very exciting and fulfilling to do so. As one of the best recent examples of LLM use I know of, one of my colleagues (<a href="https://khlee-math.github.io/">Kyu-Hwan Lee</a>) joined a team of mathematicians to prove that <a href="https://arxiv.org/pdf/2608.08538">the sporadic simple group M_23 is Galois over Q</a>. Their team succeeded with the help of LLMs in a task that many had tried and failed, and made some really <a href="https://www.youtube.com/watch?v=u2GYv9Hicj0&amp;t=13s">interesting progress in the inverse Galois problem</a>. Here is an excerpt from their declaration of AI use:</p>
-
-
-
-<p class="wp-block-paragraph">“No text in this article was written by AI. Our work relies on longstanding domain knowledge and techniques for computing curves of positive genus [KMSV14]. The key strategic decisions and the conceptual analysis for this project were made by the human team.</p>
-
-
-
-<p class="wp-block-paragraph">AI served as a tool that accelerated a large part of our work, particularly the computations. We used Claude Fable 5 and 5.1, Claude Opus 4.8, and ChatGPT 5.6 Sol for searching the literature, generating code, checking results, and proofreading. The workflow that eventually succeeded was a tightly controlled collaboration in which the computational work was much faster with AI, while the human collaborators continued to direct the research and verify the results. AI systems increased our confidence in tackling difficult problems and helped us communicate more efficiently across our different areas of expertise.”</p>
-
-
-
-<p class="wp-block-paragraph">I find this result fantastic (the paper is a gem by the way), and I think it exactly illustrates the way senior mathematicians (Lee, Poonen, Pries) can use LLMs to accelerate research and understanding, and include graduate students (<a href="https://www.shaowuzhang.com/">Shaowu Zhang</a>) and postdocs (<a href="https://sites.google.com/view/xiaoyuhuang/home">Xiaoyu Huang</a>) in the process!</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph"><strong><em>Mathematics is never going to be the same and I recognize that the way I did research and found fulfillment from it are no longer here.</em></strong></p>
-</blockquote>
-
-
-
-<p class="wp-block-paragraph">Mathematics will be different, yes, but I firmly believe it will be similar to what we do now, in all the best ways. As a final example, very recently three mathematicians (Elkies, Klagsbrun, and Li) have found <a href="https://elliptic-rank.icarm.cloud/curve/4239">an elliptic curve of rank 32</a>. I find this discovery astonishing and wildly exciting. In a private communication, Zev Klagsbrun mentioned to me</p>
-
-
-
-<p class="wp-block-paragraph">“It would be a mistake to view this as a triumph of humans over AI. In fact, it&#8217;s a great example of humans using AI to push the boundary of what is known.”</p>
-
-
-
-<p class="wp-block-paragraph">I could not agree more. Immediately after their curve was found, my student Dylan Costa and I started working on finding a quadratic twist of their curve with rank bigger or equal to 3 (in order to find a quadratic field over which their curve achieves rank at least 35), and with the help of LLMs (in coding and literature search) <a href="https://hexagonmath.org/2610.00280v1">we succeeded to find one</a>, conditional to BSD/Parity. Both Dylan and I found the work on this little contribution (certainly little compared to the giant discovery of the rank 32 curve) to be exhilarating. It would not have been possible just a few months ago without the help of LLMs. This is why I would find it paradoxical to leave mathematics now.</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph"><strong><em>I am not asking you to agree with my personal preferences.</em></strong></p>
-</blockquote>
-
-
-
-<p class="wp-block-paragraph">I just want to conclude by thanking Anonymous for writing such a great piece that should make everyone in math think long and hard about the future of the profession. <em>Thank you</em>. And a final message just to Anonymous: <a href="https://www.youtube.com/playlist?list=PLLwGtZ_pUvwU">I would love to record an interview with you and post it in my channel</a>. Or send me an email message if you want to chat. Bye and best of luck!</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 22 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/23/a-response-to-who-will-become-the-new-mathematicians-of-math-2-0/feed/</wfw:commentRss>
-			<slash:comments>13</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2888</post-id>	</item>
 	</channel>
 </rss>

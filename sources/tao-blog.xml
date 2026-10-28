@@ -23,7 +23,7 @@
 <site xmlns="com-wordpress:feed-additions:1">817149</site><cloud domain='terrytao.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
 <source:cloud xmlns:source='https://source.scripting.com/'>https://terrytao.wordpress.com/?rsscloud=notify</source:cloud>
 <image>
-		<url>https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fwebclip.png</url>
+		<url>https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Fwebclip.png</url>
 		<title>What&#039;s new</title>
 		<link>https://terrytao.wordpress.com</link>
 	</image>
@@ -1003,7 +1003,7 @@ Full details of our recommendations are provided in our <a href="https://agmai.o
 </p>]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/25/disadvantages-of-designating-mathematicians-for-ai-output-releases/feed/</wfw:commentRss>
-			<slash:comments>25</slash:comments>
+			<slash:comments>26</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18584</post-id>
@@ -1350,7 +1350,7 @@ I am looking forward to the results of this experimental challenge, both for the
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/feed/</wfw:commentRss>
-			<slash:comments>86</slash:comments>
+			<slash:comments>87</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18525</post-id>

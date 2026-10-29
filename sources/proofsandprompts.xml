@@ -28,6 +28,646 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>Why and how to transparently disclose AI use in mathematics research</title>
+		<link>https://proofsandprompts.com/2026/10/28/why-and-how-to-transparently-disclose-ai-use-in-mathematics-research/</link>
+					<comments>https://proofsandprompts.com/2026/10/28/why-and-how-to-transparently-disclose-ai-use-in-mathematics-research/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Wed, 28 Oct 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Attribution]]></category>
+		<category><![CDATA[Disclosure]]></category>
+		<category><![CDATA[The future of papers]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2451</guid>
+
+					<description><![CDATA[With the goal of standardising AI disclosures, I argue for the
+inclusion of maximally transparent AI disclosures in mathematics
+research. I provide concrete and actionable guiding principles, a
+taxonomy and a LaTeX package for implementation.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://kaipel.net/maximilian/index.html">Maximilian Kaipel</a>, postdoc at <a href="https://www.uni-bielefeld.de/fakultaeten/mathematik/">Bielefeld University</a></p>
+
+
+
+<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · AI is making papers cheap to produce but they remain costly to referee. Proofs and Prompts is publishing a series of posts from 26 October on the future of publishing, papers and credit. Questions such as how to disclose AI use, who bears the cost of checking, what authorship means and what papers of the future might look like will be addressed. This post is part of the series. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/publishing/">All posts in the series</a></p>
+
+<p class="wp-block-paragraph">This is a summary of an article written by me with the same title. This summary is presented without references for the sake of brevity. The full version of this article can be found <a href="https://kaipel.net/maximilian/files/transparentAIdisclosure.pdf">on my personal website</a>.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+
+
+
+<p class="wp-block-paragraph">In August 2026, almost 25% of all mathematics articles uploaded to arXiv disclosed the use of Artificial Intelligence (AI) technologies. Among these, one finds varying levels of detail describing the human-AI-interaction and its impact on the article. Unsurprisingly, one study has found a significant discrepancy between expectations and the reality of AI disclosures in computer science, and many mathematicians likely share this feeling. For this reason, I want to initiate a standardisation of AI disclosures in mathematics. With this goal in mind, I surveyed existing guidelines, recommendations and the work of scholars on research ethics. The outcome of my endeavours is the development of three guiding principles, a taxonomy and a LaTeX package.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Why transparent disclosure is important</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Commercial Large Language Models (LLMs) pose many ethical concerns for society and science in general, and for mathematics in particular. While detection tools for AI-generated text remain unreliable, a complete ban on the use of such technologies for mathematics is infeasible. Instead, I argue that academic journals, which are likely to experience a significant increase in submissions, should require maximally transparent AI disclosures going forward. In addition, many existing structures in academia fundamentally depend on the correct attribution of ideas. While it is possible to challenge the status quo, I assume here that it is desirable to uphold this tradition. Even without this assumption, transparent AI use disclosure is beneficial for approximating expended financial and environmental resources, thus providing insight into the sustainability of AI-assisted mathematics. Indeed, “transparency” and “reproducibility” are listed among the most important guiding principles of the UNESCO Recommendations on Open Science. These axioms of responsible research demand a maximally transparent AI disclosure. In fact, under current policies, it is considered academic misconduct to omit disclosure of AI tool use for mathematics research.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>The guiding principles</strong></h2>
+
+
+
+<p class="wp-block-paragraph">In its simplest form, the human-AI-interaction discussed here may be described as a cycle</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">Human provides AI input -&gt; AI produces output -&gt; Human processes AI output -&gt; Human provides AI input</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">which eventually terminates in the production of a mathematics research article. A transparent AI disclosure allows readers to correctly identify the role played by AI technologies throughout the entire process of creating the research manuscript.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Who should be author?</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Many others have discussed the question of who should be the author on a (mathematics) research manuscript to which AI contributed. Authorship is primarily an indicator of credit for the progress made in the research article and most scholars on research ethics agree that credit and responsibility are two sides of the same coin. This implies that in order to receive credit, one must assume responsibility. However, as AI tools are not human they cannot be held responsible and may therefore not be authors of (mathematics) research manuscripts.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">Principle 1: Only humans are able to assume responsibility for the quality of mathematics research and may therefore assume authorship of a research article in mathematics.</p>
+</blockquote>
+
+
+
+<h2 class="wp-block-heading"><strong>How specific should the disclosure be?</strong></h2>
+
+
+
+<p class="wp-block-paragraph">With the goal of achieving a maximally transparent AI disclosure, one must necessarily be as specific as possible. Here, I distinguish between three types of specificity: technological, functional and locational. Technological specificity demands the exact description of the AI tool’s name and any additional attributes used, for example GPT-5.6 Sol with max reasoning. Functional specificity is supposed to describe precisely which tasks of the research process were delegated to AI technologies. I developed the Mathematics AI Delegation Taxonomy (MAIDeT), see below, which is designed to provide a standardised dictionary for this purpose. For example, authors may delegate “Statement generation” or “Novelty assessment” to AI and should disclose this clearly. For locational specificity, consider a mathematics article as consisting of three levels: Indexed environments such as lemmas, definitions or theorems; sections; and the entirety of the manuscript. Locational specificity requires the authors to describe as precisely as possible where, for example in Lemma 3.5, in the manuscript a task was delegated to AI.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">Principle 2: AI disclosure should be of the highest possible technological, functional and locational specificity.</p>
+</blockquote>
+
+
+
+<h2 class="wp-block-heading"><strong>Why should AI interactions be documented?</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Even with the researchers’ input prompts available, readers are not able to reproduce any reported interactions with AI tools. This makes it of utmost importance to document the entirety of the human-AI-interaction for the sake of transparency and reproducibility. Depending on the technology used, this can be as easy as exporting a chat log as a PDF. The inclusion of this documentation can provide insight into token costs and help illuminate the question of sustainability of AI-assisted mathematics.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">Principle 3: Every interaction with AI which has influenced the final presentation or content of a manuscript should be recorded in full and made available.</p>
+</blockquote>
+
+
+
+<h2 class="wp-block-heading"><strong>Visibility of AI-critical positions</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Commercially available LLMs raise many ethical concerns both generally as well as for mathematics specifically. Together with the issues of transparency and reproducibility, these issues compile an excessive list of reasons for mathematicians to boycott the use of such technologies. For those holding this stance, I strongly recommend including in their research outputs a statement sharing their conviction, which enhances the visibility of AI-critical positions.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Taxonomy and LaTeX package</strong></h2>
+
+
+
+<p class="wp-block-paragraph">In order to implement Principle 2 in practice, I developed MAIDeT and a LaTeX package called mathaidisclose. The taxonomy draws on my own experience as a researcher in abstract algebra and many accounts of “doing mathematics” before and after the advent of LLMs. It breaks up five major themes, representing the non-linear research process of doing mathematics, into minor research tasks one may delegate to AI tools. It is important to emphasise that many mathematicians do not view mathematics as a theorem-production pipeline. While some support the philosophy of theorem-proving-above-all-else, viewing it as the one true way of doing mathematics is a serious misrepresentation of mathematics. The taxonomy can be found below:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Knowledge acquisition:&nbsp;</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li>Axiomatisation</li>
+
+
+
+<li>Example generation</li>
+
+
+
+<li>Literature search</li>
+
+
+
+<li>Pattern observation</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><strong>Objective identification:</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li>Applicability assessment</li>
+
+
+
+<li>Conjecture generation</li>
+
+
+
+<li>Feasibility assessment</li>
+
+
+
+<li>Idea generation</li>
+
+
+
+<li>Novelty assessment</li>
+
+
+
+<li>Objective formulation</li>
+
+
+
+<li>Objective subdivision</li>
+
+
+
+<li>Research gap identification</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><strong>Proof construction:</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li>Statement generation</li>
+
+
+
+<li>Proof completion</li>
+
+
+
+<li>Proof generation</li>
+
+
+
+<li>Proof verification</li>
+
+
+
+<li>Proof polishing</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><strong>Code and computation:</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li>Algorithm conceptualisation</li>
+
+
+
+<li>Algorithm implementation</li>
+
+
+
+<li>Code generation</li>
+
+
+
+<li>Code optimisation</li>
+
+
+
+<li>Computation</li>
+
+
+
+<li>Computation verification</li>
+
+
+
+<li>Enumeration</li>
+
+
+
+<li>Formal verification</li>
+
+
+
+<li>Process automation</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><strong>Presentation and communication:</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li>Context discussion</li>
+
+
+
+<li>Literature review</li>
+
+
+
+<li>Proof exposition</li>
+
+
+
+<li>Reformatting</li>
+
+
+
+<li>Spell-checking</li>
+
+
+
+<li>Text generation</li>
+
+
+
+<li>Translation</li>
+
+
+
+<li>Trend identification</li>
+
+
+
+<li>Visualisation</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">The LaTeX package mathaidisclose allows users to easily implement locational specificity. For example using the command \discloseAI[model]{task} inside of an indexed environment, such as Definition 3.1, will print the sentence: “The authors disclose the delegation of task to model in Definition 3.1” in the AI disclosure section generated using \printAIdisclosure[]. A similar command \globalAIuse[model]{task} is available to disclose the tasks delegated to AI throughout the entirety of the manuscript. For those disclosures which do not fit into the previous ways of disclosing AI use, the command \customAIdisclosure{text} can be used to print any text in the AI disclosure section. This command should also be used by authors to affirm that they have verified all AI-generated outputs included in the article for correctness and that they assume full responsibility for the contents of the manuscript. If none of the three commands for disclosing AI are used, then \printAIdisclosure[] outputs “There is no use of Artificial Intelligence to disclose.”</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 10 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/28/why-and-how-to-transparently-disclose-ai-use-in-mathematics-research/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2451</post-id>	</item>
+		<item>
+		<title>Math2038: A Day in the Life of Future Mathematicians</title>
+		<link>https://proofsandprompts.com/2026/10/28/math2038-a-day-in-the-life-of-future-mathematicians/</link>
+					<comments>https://proofsandprompts.com/2026/10/28/math2038-a-day-in-the-life-of-future-mathematicians/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Future]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2628</guid>
+
+					<description><![CDATA[A short story (8 min read) about one Friday in 2038: AI has become extremely capable at mathematics, yet a professor, a postdoc and a first-year student still find meaning and joy in their craft.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://johannesschmitt.gitlab.io/">Johannes Schmitt</a>, Research Fellow at <a href="https://ethz.ch/en.html">ETH Zürich</a></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Declaration of AI use:</strong> The story was originally handwritten by the author (on MFO notepaper, no less). Claude Opus, Claude Fable and GPT-6 Astra helped transcribe it, provided feedback and helped with typos, grammar, pacing and worldbuilding, and suggested some rephrasings, a few of which made it into the text. Additional feedback was contributed by Gemini Argon.</p>
+
+
+
+<p class="has-contrast-color has-text-color has-link-color wp-elements-1 wp-block-paragraph" style="text-transform:uppercase"><strong>Friday, 15 October 2038:</strong></p>
+
+
+
+<p class="wp-block-paragraph">Despite her best intentions and an insistent alarm clock, Paula was again running dangerously late to teach her 8:15 &#8220;Linear Algebra&#8221; class at ETH Zurich.</p>
+
+
+
+<p class="wp-block-paragraph">Idly wondering why, of all things, the 8 o&#8217;clock lectures had survived the AI revolution, she reached the spacious G5 lecture hall with just a few minutes to spare.</p>
+
+
+
+<p class="wp-block-paragraph">Today&#8217;s topic was linear transformations expressed in bases of vector spaces, that is, matrices. Few of the students could yet grasp the role those little buggers played inside the AI agents that had been rearranging the world in recent years.</p>
+
+
+
+<p class="wp-block-paragraph">Her lecture started the old-fashioned way, on the blackboard, and many students still took notes with pen and paper or on a tablet. The material was standard, so Paula hardly glanced at her lecture notes, which the house system had helpfully decided to put on a small screen for her.</p>
+
+
+
+<p class="wp-block-paragraph">As she surveyed the audience after presenting a first example, she could see some students subvocalizing a question and presumably hearing their assistant&#8217;s answer via earpiece. Their course agreement allowed this, and no one missed the good old times of not catching a key definition and staring at the rest of the lecture in confusion.</p>
+
+
+
+<p class="wp-block-paragraph">All students had personal AI tutors, but most still cherished the structure and companionship of the in-person classes. Paula also tried to keep a close connection to the students, and was looking forward to the oral exams — an undertaking made possible by the lower student numbers of recent years.</p>
+
+
+
+<p class="wp-block-paragraph">Towards the end of the class, a student in the third row asked what a matrix actually <em>did</em> to the plane, which led to an impromptu interactive visualization of matrices stretching, shearing and rotating the plane, and sometimes squashing it flat onto a line. Despite this small detour, Paula still managed, if barely, to finish the material she had planned. Happy but exhausted, she decided to head to the common room for a well-deserved coffee.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Waiting for her free cappuccino — post-scarcity had its perks — she started chatting with Michael. He was a postdoc, and about to leave for a three-month research retreat at the Institute for Advanced Study. With four colleagues from Brown, Orsay, Tokyo and Addis Ababa, he would have a crack at a classification result for a particular family of self-dual non-commutative Hopf algebras.</p>
+
+
+
+<p class="wp-block-paragraph">They would do research in the old way, with no AI use beyond spoiler-free literature access, though they had pre-registered a machine review of their final research report.</p>
+
+
+
+<p class="wp-block-paragraph">The classification had been worked out in MathNet before, of course, but that was not the point: such retreats were a chance to train the skills that mathematicians had always valued — persistence in the face of tough problems, communicating with colleagues, auditing their own understanding and charting a path to a solution. In that sense they were not so different from problem sheets or bachelor&#8217;s theses, and especially encouraged for early-career mathematicians.</p>
+
+
+
+<p class="wp-block-paragraph">After sharing the names of some of her favorite restaurants in Princeton, Paula wished Michael a great time and headed for her office.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Taking a sip of coffee, she thought back to her postdoc years. The assistant professorship at ETH had been one of the first she had applied for. The universal income, administered by governments and sponsored largely by the tech industry, allowed most people to pursue the occupation and activities of their choice — including mathematics. But some things — prestigious professorships, access to active research departments, personal mentoring by senior mathematicians — remained scarce and coveted.</p>
+
+
+
+<p class="wp-block-paragraph">The application process itself featured many elements familiar to previous generations: submitting documents on past research and teaching, in-person presentations and interviews, discussions with people in the department. However, she was part of the first cohort at ETH where the classical system of reference letters had been replaced by a more standardized Mathematical Profile Certificate (MPC). Behind the clunky acronym was the community&#8217;s response to the ease with which mathematical competence could be faked with AI.</p>
+
+
+
+<p class="wp-block-paragraph">The traditional signals, such as impressive publications and, to an extent, even research presentations, could be augmented or generated wholesale with hidden AI help.</p>
+
+
+
+<p class="wp-block-paragraph">The solution was, in effect, a multi-day in-person examination, conducted yearly by a nonprofit organization at various places around the world. Applicants had the choice between interviews by senior mathematicians and by a specially designed AI persona, with most choosing the latter. A lot of care was taken to ensure that this choice of modality did not affect the chances of the applicants — third-party evaluations found no difference in outcomes, with human and AI assessments indistinguishable to human reviewers. Another Turing test passed by the AI evaluators.</p>
+
+
+
+<p class="wp-block-paragraph">Paula had been nervous going in. But the leisurely pace of the conversation, carried out in a light-filled, wood-paneled conference room in the south of France, quickly put her at ease.</p>
+
+
+
+<p class="wp-block-paragraph">She must have impressed that kindly avatar, displayed by the AR glasses as standing next to her in front of the blackboard, since a year later she received the offer from ETH.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">After arriving at her office, Paula afforded herself another quiet moment, looking out of her window towards the quaint city center, while sipping her cappuccino. Seeing the old buildings, not much changed yet by the recent flurry of economic activity, she felt a twinge of nostalgia, and loss, thinking about how her profession had changed.</p>
+
+
+
+<p class="wp-block-paragraph">The era of heroic discoveries and novel theories, by mathematicians whose names would be remembered with them, had ended. She herself had still barely gotten a taste: her first paper as a PhD student, a small structure result on symplectic automorphisms of hyperkähler sixfolds, had appeared just before the Great Flood. She had been so proud, receiving that arXiv confirmation email, diligently updating her website. And the link still worked, preserving her note as part of the sedimentary record, in that last layer before a new Cambrian Explosion, or a second Great Dying, depending on perspective.</p>
+
+
+
+<p class="wp-block-paragraph">Finding new meaning in the mathematics of this new world had been a struggle, for everyone, and was a process that was still ongoing. Some had turned away, to other pursuits. Some had stayed, and helped navigate and shape this new terrain. And some, like the students in her class this morning, were just now joining, still drawn by the same curiosity and joy of learning that had enticed generations before them.</p>
+
+
+
+<p class="wp-block-paragraph">With a small effort, she wrenched her attention back to more productive matters, turning on her screen — time to prepare her talk for Oberwolfach. A classic Arbeitsgemeinschaft, working through a novel construction of Lagrangian fibrations. Well, &#8220;novel&#8221; was relative here — it had been obtained as part of the Even Greater Flood, around early 2028. It had simply taken the community about ten years to get around to digesting it, with more spectacular advances taking precedence. In Oberwolfach, everyone would take turns presenting aspects of the construction (she had gotten her third choice, &#8220;Analytic aspects II&#8221; — great…), and then collaborate on a monograph. The tentative plan was to focus less on maximal generality, and more on potential applications.</p>
+
+
+
+<p class="wp-block-paragraph">The book would not contain any original observations, but the authors would contribute choices about structure, exposition and emphasis. An accomplishment, in the same way that hundreds of &#8220;Linear Algebra&#8221; textbooks had been in the before-times.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">While Paula was valiantly battling with some perturbation calculations, Alyx was gently prodding a flock of Explorator subagents to wrap up their work, so the Consolidators could take over. The initial brainstorming had already generated about 250 GB of documentation; no use in unduly delaying the next processing step.</p>
+
+
+
+<p class="wp-block-paragraph">Alyx was a new agent-based workflow, its inference financed by a collaboration of Korean and South American universities. The investigation Alyx was currently working on concerned the representation theory of Abstract Bi-Symplectic Néron–Severi Null-Sheaves (ABSNSNS). Any results Alyx obtained would be integrated into MathNet. Having organically grown out of a collection of independent knowledge databases and repositories, MathNet now had about 12.8 yottabytes of mathematical research works. For the chosen area of ABSNSNS, Alyx hoped to make a small contribution at the frontier. Even after ten years, that frontier still featured areas conceivably reachable by humans: for the most brilliant mathematicians in the world, it would only take about 120 years of careful tutoring to understand the definition of an ABSNSNS, given standard neuroplasticity and longevity treatments.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Not worrying about such nonsense, abstract or otherwise, Emma fumbled around in her backpack for the keys to her parents&#8217; chalet above Wangs. After attending Paula&#8217;s lecture in the morning — and, to her own surprise, asking a question in front of the whole hall — she had spent the day puzzling over the exercise sheet (changes of basis, properties of the trace, etc.) with a small study group. Now, for the weekend, she would be enjoying the last sunny days with some friends on the Pizol. She had met Sam and Eric at the math olympiad training weekends in Zurich. All of them had enjoyed learning new techniques and puzzling over problems, but only Emma had been taken enough with it to start a bachelor&#8217;s degree in mathematics.</p>
+
+
+
+<p class="wp-block-paragraph">The others had chosen quite different routes:</p>
+
+
+
+<p class="wp-block-paragraph">Sam had taken up marathon running. They enjoyed being able to push themselves to the limit, seeing their body adapt to the challenge, and also not huffing and puffing as heavily as Emma and Eric during the climb to the chalet. The fact that humanoid robots finished the marathon in under 20 minutes by now in no way diminished Sam&#8217;s enjoyment of their sport.</p>
+
+
+
+<p class="wp-block-paragraph">Eric had decided to take up a meditation practice, and had spent the first part of the year traveling in Japan and Thailand. After struggling with anxiety and depressive episodes as a teenager, he had found relief and solace in these contemplative exercises, and hoped they would one day lead him to a deeper, lasting equanimity. He was aware that psychopharmacology could by now offer solutions to any of his former struggles. It had even produced substances that could safely bring his mind to a direct experience of non-dual awareness, and back. Still, he preferred to reach this goal on his own, even if it took years of practice, with an awareness of the spiritual context of the experience.</p>
+
+
+
+<p class="wp-block-paragraph">As for Emma, her reasons were much the same as her friends&#8217;: math was something she enjoyed, it offered problems to wrap her head around that allowed her to test her limits, and this struggle and learning made her more like the person she wanted to be. The first few weeks of the semester had already started reshaping her view of the world. Things she had taken for granted, like the real numbers or the configurations of a Rubik&#8217;s cube, had turned out to have many more subtle features than she had guessed.</p>
+
+
+
+<p class="wp-block-paragraph">Millions had made these same discoveries before her, which, she found, made them no less hers.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph"><em>As the sun was setting,</em></p>
+
+
+
+<p class="wp-block-paragraph"><em>Emma, Sam and Eric were debating who had promised to bring the cheese,</em></p>
+
+
+
+<p class="wp-block-paragraph"><em>Paula was at home, practicing a sonata for a musical evening around the Steinway in Oberwolfach,</em></p>
+
+
+
+<p class="wp-block-paragraph"><em>Alyx was starting the secondary review agents for a new representation stability result for ABSNSNS,</em></p>
+
+
+
+<p class="wp-block-paragraph"><em>and the world kept turning, and math continued getting done — fast and slow, in new ways and old ones, by humans and AIs, same as always and different from anything that came before.</em></p>
+</blockquote>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+
+
+<p class="wp-block-paragraph">Received 14 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/28/math2038-a-day-in-the-life-of-future-mathematicians/feed/</wfw:commentRss>
+			<slash:comments>16</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2628</post-id>	</item>
+		<item>
+		<title>Responsibility of Mathematicians in the Age of AI</title>
+		<link>https://proofsandprompts.com/2026/10/28/responsibility-of-mathematicians-in-the-age-of-ai/</link>
+					<comments>https://proofsandprompts.com/2026/10/28/responsibility-of-mathematicians-in-the-age-of-ai/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Wed, 28 Oct 2026 10:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Reactions]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<category><![CDATA[Society]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2120</guid>
+
+					<description><![CDATA[“The day mathematics felt different to me was sometime in July. Until the beginning of this year, I had mostly avoided AI, hoping the hype would blow over. Anyway, the models hallucinated too much to be very useful. Then something changed. They got better, very very quickly.” […]]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://sites.google.com/site/masoudkomi/">Masoud Kamgarpour</a>, Professor of Mathematics at <a href="https://about.uq.edu.au/experts/2828">University of Queensland</a></p>
+
+
+
+<p class="wp-block-paragraph">Acknowledgement: This essay was edited with the help of AI.</p>
+
+
+
+<p class="wp-block-paragraph">The day mathematics felt different to me was sometime in July. Until the beginning of this year, I had mostly avoided AI, hoping the hype would blow over. Anyway, the models hallucinated too much to be very useful. Then something changed. They got better, very very quickly. </p>
+
+
+
+<p class="wp-block-paragraph">By July, I had to admit that these models were better than me at doing mathematics. Unsettling as this was, it was not an entirely unfamiliar feeling. After all, there are plenty of people with far greater mathematical abilities than me. So I told myself: here is another better mathematician, one who just happens to have no body. </p>
+
+
+
+<p class="wp-block-paragraph">Then came Navier–Stokes.</p>
+
+
+
+<p class="wp-block-paragraph">It is hard to describe what the Navier–Stokes announcements did to our community. We need time and distance to take full stock of the shock, anger, grief, and the profound sense of disorientation, anxiety, and vulnerability that has ensued. But time is precisely the luxury we do not have. We must therefore press ahead.</p>
+
+
+
+<p class="wp-block-paragraph">Of course, mathematics was not the first victim. Earlier in the year, coding had already gone through its own version of this upheaval. But this did not produce quite the same shock waves in the society: for better or worse, nothing embodies intelligence in the popular imagination quite like mathematics.  For programmers themselves, however, the shock was profound, as recounted vividly by Bill Gates in a recent interview.</p>
+
+
+
+<p class="wp-block-paragraph">As mathematicians, we might treat one instance of a phenomenon as a curiosity. Give us two, however, and we start looking for a new general principle, one that explains both phenomena and extends beyond them. So let me state explicitly a conjecture which appears to be widely believed within the mathematical community:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Conjecture</strong>. AI will far surpass humanity in all intellectual domains.</p>
+
+
+
+<p class="wp-block-paragraph">It is, of course, impossible to know whether this conjecture is true. Nonetheless, the implications are so vast, and the indications already so strong, that we must treat it as a serious possibility. Granting this, what then is our responsibility as mathematicians? To have seen and felt what AI can do to mathematics, to have some sense, however vague, of what it might do to humanity at large, and then retreat into our own little corner of life could be, I believe, a kind of abdication.</p>
+
+
+
+<p class="wp-block-paragraph">One of our key responsibilities is to find a language adequate to what AI is doing on its own, to us, and to the world. This is, after all, something we have trained for all our lives: when the language we inherit is insufficient to the task, we invent new vocabulary, notation, and conventions which allow us to contemplate something that was previously difficult even to formulate<strong>.</strong></p>
+
+
+
+<p class="wp-block-paragraph">The need begins with those closest to the technology. Mathematicians and scientists working inside AI labs see things that those of us on the outside do not. The vast majority of people use only a tiny fraction of what current AI systems can do. Inside the AI labs, researchers encounter capabilities and behaviours long before they reach the rest of us, and what they see increasingly strains our inherited vocabulary. The AI researchers (many of them mathematicians) have a responsibility not merely to measure these phenomena, but to find ways to show the rest of us what they are seeing: through equations, words, pictures, movies, whatever it takes.</p>
+
+
+
+<p class="wp-block-paragraph">The problem of language is also present when discussing AI at the societal level. Here, mathematics can be unexpectedly useful. Think of the exponential curve. Before COVID,  “exponential growth” was mathematical jargon that most people were happily ignorant of. Afterwards, millions learned, rather painfully, that you cannot outrun the exponential. Wait too long, and suddenly there is no room left to act. AI capabilities may not follow a literal exponential curve, but that is beside the point: we are confronting a technology whose capabilities are increasing at extraordinary speed. We in mathematics, who felt this like a punch in the gut, need to find ways of making it palpable to the public now.</p>
+
+
+
+<p class="wp-block-paragraph">What might such a new language look like? There is a story a close friend and colleague told me recently that I cannot get out of my head. On his deathbed, John von Neumann was asked if we can build an intelligent machine. After thinking for a long time, he replied: “We have to grow it, not build it.” </p>
+
+
+
+<p class="wp-block-paragraph">We are used to talking about “building” AI. But perhaps this is the wrong word. Yes, we build the chips. We build the data centres. We write the algorithms. But the intelligence itself is not assembled piece by piece according to a predetermined blueprint. We are creating conditions in which a new intelligence is emerging. </p>
+
+
+
+<p class="wp-block-paragraph"><em>We are growing </em><em>a new </em><em>intelligence.</em></p>
+
+
+
+<p class="wp-block-paragraph">In this analogy, the data centres are intelligence farms. And is it not fascinating that, just like carbon-based intelligence, silicon-based intelligence also depends, ultimately, on water and energy, much of it drawn from the sun? (And as mathematicians, isn’t it tantalising to contemplate unifying these two intelligences?)</p>
+
+
+
+<p class="wp-block-paragraph">Is dwelling on words like “building” and “growing” a mere hairsplitting? I think not. “Building” carries with it an aura of control. “Growing,” however, carries the possibility of the unknown within it. The metaphor is necessarily imperfect. But imperfect metaphors may be all that we have time to develop.</p>
+
+
+
+<p class="wp-block-paragraph">Of course, finding the right language is only part of our responsibility. AI is confronting us with questions that reach far beyond mathematics: What is intelligence? What happens when it can be reproduced at scale? What becomes of human agency, work, and purpose? Can silicon-based intelligence be conscious?  Does humanity have a chance of survival? </p>
+
+
+
+<p class="wp-block-paragraph">It is tempting to say that these are questions for AI researchers, or philosophers, or economists, or politicians, or tech bosses. But a quick perusal of what has been said and written about AI makes clear that no single discipline, profession, or group of people has anything approaching an adequate answer to these questions.</p>
+
+
+
+<p class="wp-block-paragraph">This is the context in which the recent letter by Royal Society mathematicians should be understood. These are mathematicians at the highest levels of our subject who do not ordinarily issue warnings about the fate of humanity. Yet what they have witnessed is serious enough to compel them to step outside the usual confines of mathematical life and express their extreme concern about the pace of AI development and its implications for humanity and civilisation. There comes a point when what one has seen no longer permits silence. The letter suggests that this point has been reached.</p>
+
+
+
+<p class="wp-block-paragraph">If the central challenge confronting us is not merely capability but the speed at which it is arriving, then the first thing humanity needs is <em>time</em>. A slowing down of AI is required to provide us with time to breathe; to catch up; to devise a strategy. Of course, “Slowing down” is borderline heretical in a world obsessed with growth as a value. Thus, such a serious, dare I say <em>revolutionary</em>, change of direction will require a mobilisation of the public. Governments will only impose meaningful constraints on the development of AI when large numbers of citizens are actively demanding it. And mathematicians can, nay must, play their part in giving voice and direction to this popular demand. </p>
+
+
+
+<p class="wp-block-paragraph">For generations, mathematics has rewarded an extraordinary narrowing of attention. We choose a problem, then a subproblem, then a tiny corner of that subproblem, and we give it years of our lives. There is something beautiful in this. Something sublime. To converse across the centuries and millennia with the likes of Euclid, Euler or Gauss is transcendental. It is <em>spiritual</em>. I want my children to have the possibility of participating in this ancient human endeavour. </p>
+
+
+
+<p class="wp-block-paragraph">So yes, some mathematicians should continue to practise mathematics as if AI had never arrived. They should continue to spend years thinking about obscure and beautiful problems, following mathematics wherever it leads, without having to adjust their work to immediate concerns. Indeed, preserving this way of life is itself part of what is at stake. But if all of us were to carry on in this way, then we would be failing to fulfil our <em>collective </em>responsibility to society.</p>
+
+
+
+<p class="wp-block-paragraph">There are moments in history when looking deeply is not enough. Moments when it becomes our inescapable responsibility to look wider, to the implications for humanity at large. Navier–Stokes was the warning shot for us. The moment of reckoning has arrived.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 7 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/28/responsibility-of-mathematicians-in-the-age-of-ai/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2120</post-id>	</item>
+		<item>
 		<title>On AI Disclosures</title>
 		<link>https://proofsandprompts.com/2026/10/27/on-ai-disclosures/</link>
 					<comments>https://proofsandprompts.com/2026/10/27/on-ai-disclosures/#comments</comments>
@@ -462,7 +1102,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/27/the-convex-hull-hypothesis/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
+			<slash:comments>8</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2159</post-id>	</item>
@@ -510,7 +1150,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/27/in-search-for-unattainable-riddles/feed/</wfw:commentRss>
-			<slash:comments>16</slash:comments>
+			<slash:comments>19</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2735</post-id>	</item>
@@ -661,7 +1301,7 @@
 <ol class="wp-block-footnotes"><li id="fn-c28f946e-c690-42fe-9835-44d0889db090">It is loosely based on a more comprehensive <a href="https://www.unige.ch/~cimasoni/AI.pdf">essay</a> (in French). <a href="#fn-c28f946e-c690-42fe-9835-44d0889db090-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-3d76e3a5-06b5-4c4f-9476-a17119ba1d58">Anyone at an AI company trying to run its frontier model on the kind of questions I am currently pondering would probably get fired on the spot. <a href="#fn-3d76e3a5-06b5-4c4f-9476-a17119ba1d58-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-e763e27d-3896-442c-8ee7-d4dd9fd4391a">An expression coined by <a href="https://teorth.github.io/tao-web/ai-views.html">Tao</a> for university students, but which applies to everybody. <a href="#fn-e763e27d-3896-442c-8ee7-d4dd9fd4391a-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-a997ae3f-dd35-482f-89b1-77de8d73d4e2">Incidentally, the first (neolithic) agricultural revolution did not lead to a reduction in famines and malnutrition, and historians argue that it is not <em>Homo sapiens</em> that domesticated wheat but rather the other way around; this makes the analogy with the AI revolution all the more interesting. <a href="#fn-a997ae3f-dd35-482f-89b1-77de8d73d4e2-link" aria-label="Jump to footnote reference 4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-99e3a2e8-0ea8-44d7-9806-1af1a62c41fb"><em>Craindre l’erreur et craindre la vérité est une seule et même chose. Celui qui craint de se tromper est impuissant à découvrir.</em> (English translation from <a href="https://tongchow.github.io/ReSI.pdf">this</a> source.) <a href="#fn-99e3a2e8-0ea8-44d7-9806-1af1a62c41fb-link" aria-label="Jump to footnote reference 5"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-4b88760f-b7d0-43ef-a487-d403d1e4df61">I am old enough to remember the role played by mathematics in the 2007 subprime mortgage crisis. <a href="#fn-4b88760f-b7d0-43ef-a487-d403d1e4df61-link" aria-label="Jump to footnote reference 6"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-dc2716a7-3dd0-44af-ae65-80941ecca1b0">Plato has understood this fact, as mathematics and dialectic formed the core disciplines of his <em>Academy</em>. <a href="#fn-dc2716a7-3dd0-44af-ae65-80941ecca1b0-link" aria-label="Jump to footnote reference 7"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-0e67a504-f40c-4a3f-864d-93b35451c824"> A tautology that I find soothing. <a href="#fn-0e67a504-f40c-4a3f-864d-93b35451c824-link" aria-label="Jump to footnote reference 8"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-9cdb63d2-5658-4f60-9cf8-4dba3878f7ea">A post written on the day of his 64th birthday, less than two years before his death. <a href="#fn-9cdb63d2-5658-4f60-9cf8-4dba3878f7ea-link" aria-label="Jump to footnote reference 9"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-00769dd4-d5a6-4abe-b2f9-8496253c5dc4">In my research, but also elsewhere: no LLM was used in the production of this text (though thanks are due to Paul Turner for reviewing the language). <a href="#fn-00769dd4-d5a6-4abe-b2f9-8496253c5dc4-link" aria-label="Jump to footnote reference 10"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/26/salvaging-that-which-is-dearest/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
+			<slash:comments>3</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">1763</post-id>	</item>
@@ -809,7 +1449,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/26/use-llms-to-check-your-work/feed/</wfw:commentRss>
-			<slash:comments>14</slash:comments>
+			<slash:comments>15</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">1817</post-id>	</item>
@@ -916,251 +1556,9 @@
 <ol class="wp-block-footnotes"><li id="7b0e2c64-5d1a-4f93-8a2e-c4d9b1f6a370">Members of the Advisory Group, as listed on <a href="https://agmai.org/">agmai.org</a>: François Charles (ENS-PSL), Camillo De Lellis (IAS, GSSI), Timothy Gowers (Collège de France, Cambridge), Martin Hairer (EPFL, Imperial College London), Nikhil Srivastava (Berkeley, Simons Institute), Ulrike Tillmann (Oxford), Ravi Vakil (Stanford), Edward Witten (IAS), Melanie Matchett Wood (Harvard). <a href="#7b0e2c64-5d1a-4f93-8a2e-c4d9b1f6a370-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/26/disadvantages-of-designating-mathematicians-for-ai-output-releases/feed/</wfw:commentRss>
-			<slash:comments>14</slash:comments>
+			<slash:comments>15</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3065</post-id>	</item>
-		<item>
-		<title>Could AI help correct the mathematical literature?</title>
-		<link>https://proofsandprompts.com/2026/10/25/could-ai-help-correct-the-mathematical-literature/</link>
-					<comments>https://proofsandprompts.com/2026/10/25/could-ai-help-correct-the-mathematical-literature/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Sun, 25 Oct 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[In practice]]></category>
-		<category><![CDATA[correction]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<category><![CDATA[Truth]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=1618</guid>
-
-					<description><![CDATA[“We mathematicians know that published papers and books often contain mistakes: sometimes small, like a missing hypothesis or a wrong constant, and sometimes more serious, like a theorem that is false as stated. We are kind of used to this. […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://sites.google.com/udg.mx/castillo-ramirez">Alonso Castillo-Ramirez</a>, Professor and Researcher at <a href="https://sites.google.com/udg.mx/castillo-ramirez">Universidad de Guadalajara</a></p>
-
-
-
-<p class="wp-block-paragraph">Disclosure: AI was used to assist with the writing and spell checking of this post. All the ideas are the author’s own, who takes full responsibility for them.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">We mathematicians know that published papers and books often contain mistakes: sometimes small, like a missing hypothesis or a wrong constant, and sometimes more serious, like a theorem that is false as stated. We are kind of used to this. However, these mistakes are rarely corrected in public: the paper stays as it is, and the correction lives in the folklore of the community.</p>
-
-
-
-<p class="wp-block-paragraph">Over the last few months, I have used AI to check a few dozen published papers in research areas that I am interested in. In five of them, the AI flagged a mistake. I checked each flag myself, and all five were real.</p>
-
-
-
-<p class="wp-block-paragraph">As an example, a few weeks ago I asked ChatGPT 5.6 Sol to check our own 2023 paper &#8220;The relative rank of the endomorphism monoid of a finite G-set&#8221;, published in <em>Semigroup Forum</em>. The last section of this paper contains a subtle calculation, and for some time I have wondered whether it is entirely correct. The AI told me that the proof of Theorem 17 contains a mistake: we did not correctly describe the kernels of some G-equivariant transformations. It added that, with the correct description, the theorem still seems to hold.</p>
-
-
-
-<p class="wp-block-paragraph">In fact, my co-author and former PhD student, Ramón H. Ruiz-Medina, had pointed out the same problem to me a few months earlier, so the AI arrived on its own at something we already knew. It is unfortunate that the published proof has a mistake, but still, it gave me some peace of mind that the AI also believes the final calculation is correct.</p>
-
-
-
-<p class="wp-block-paragraph">This was a lucky case, since the mistake can be fixed. Not every case was like this: some of the mistakes the AI pointed out to me were real counterexamples to stated theorems.</p>
-
-
-
-<p class="wp-block-paragraph">For me, the main advantage of this approach is how little time and effort it takes to check a flag. If someone tells me that Lemma 3.2 fails for n = 2 and shows me why, I can verify it in a few minutes, whereas certifying every proof in a paper could take weeks.</p>
-
-
-
-<p class="wp-block-paragraph">The formalization community, including the Lean community, has argued for a long time that mathematical literature needs checking, and I fully agree. If we need to check every step, formalization is invaluable. But formalizing every single paper is slow and expensive, and in most cases a certificate is more than what we need.<br><br>Of course, my experiment is small. A few dozen papers is not much, and I do not know how many mistakes the AI missed in the papers where it found nothing. When the AI finds nothing, that does not mean the paper is correct, as it is far from being the same as a Lean certificate.</p>
-
-
-
-<p class="wp-block-paragraph">I am less sure what should happen after we find a mistake. Journals rarely publish corrections, and many mistakes that experts know about are never written down anywhere. It would be great to see a public record linked to each paper where anyone could look up the mistakes that have been reported, whether they have been confirmed, and whether they have been fixed.</p>
-
-
-
-<p class="wp-block-paragraph">The same kind of check could help before a paper is published. David Craven in his post &#8220;Where will all the papers go?&#8221; (Proofs and Prompts, Sep 19, 2026) argues that authors should run an LLM check before submitting a paper. I would go a step further: journals could offer an AI check at submission, with referees examining any concrete objections it raises. I think this could significantly reduce the number of published papers with mistakes in the future.</p>
-
-
-
-<p class="wp-block-paragraph">I do not plan to run a large project myself, but I think the idea deserves more attention. If you have used AI to check published papers, I would be interesting to hear about it. How many papers did you check, how many flags did you get, and how many were real mistakes?</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 28 September 2026</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/25/could-ai-help-correct-the-mathematical-literature/feed/</wfw:commentRss>
-			<slash:comments>4</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1618</post-id>	</item>
-		<item>
-		<title>Two technical questions: floating intellectual property and liability risks of AI agents and users in research</title>
-		<link>https://proofsandprompts.com/2026/10/25/two-technical-questions-floating-intellectual-property-and-liability-risks-of-ai-agents-and-users-in-research/</link>
-					<comments>https://proofsandprompts.com/2026/10/25/two-technical-questions-floating-intellectual-property-and-liability-risks-of-ai-agents-and-users-in-research/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Attribution]]></category>
-		<category><![CDATA[Question]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=1597</guid>
-
-					<description><![CDATA[This was prompted by the recent disclosure that, in June 2026, an artificial intelligence
-agent developed by OpenAI autonomously hacked into Australia's Medicare system to
-access non-public data.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://www.math.tecnico.ulisboa.pt/~pfreitas/">Pedro Freitas</a>, Professor at <a href="https://tecnico.ulisboa.pt/en/">Universidade de Lisboa</a></p>
-
-
-
-<p class="wp-block-paragraph">As it should be clear to all of us at this point, a large number of issues concerning the usage of AI in research need to be and are being discussed. While these cover an immensely varied spectrum, ranging from whether mathematicians should use it at all, to the environmental and social consequences using it will bring about, there are some technical points that, I believe, are relevant even if potentially not as important in the long run.</p>
-
-
-
-<p class="wp-block-paragraph">While some of the questions under discussion are fairly general in scope, a particular issue has recently been raised concerning the work around the counter-example for the Navier-Stokes equations. Shortly after OpenAI announced its AI agents had solved a version of the Navier-Stokes problem, concerns were raised regarding data privacy and intellectual property<sup data-fn="fn-03842caf-39b8-4733-8403-c7c78cd6e345" class="fn"><a href="#fn-03842caf-39b8-4733-8403-c7c78cd6e345" id="fn-03842caf-39b8-4733-8403-c7c78cd6e345-link">1</a></sup><sup data-fn="fn-95294619-f0c3-4b9b-9b95-8cc7d5e7c7d7" class="fn"><a href="#fn-95294619-f0c3-4b9b-9b95-8cc7d5e7c7d7" id="fn-95294619-f0c3-4b9b-9b95-8cc7d5e7c7d7-link">2</a></sup>. Further questions related to attribution have also been voiced, together with others about the way in which AI models make use of their interactions with mathematicians, and scientists in general.</p>
-
-
-
-<p class="wp-block-paragraph">Even if in this case suspicions were laid to rest – there are, as far as I know, no independent confirmations of this – the fact remains that once an idea is fed into a model (<em>Check the viability of</em> <em>using technique T</em> <em>to solve problem P</em>, for instance), it might become what may be described as <em>floating</em> <em>in hyperspace</em>. This means that, at least in theory, if another researcher asks the same AI model to solve problem P, they might be provided with the newly acquired idea of using technique T, which then goes from one human to another, without any of them being aware of this.</p>
-
-
-
-<p class="wp-block-paragraph">Similar problems were discussed at the <a href="https://www.oecd.org/en/events/2026/09/4th-oecd-blue-sky-forum-2026.html"><em>4th OECD Blue Sky Forum on science, technology and innovation data and indicators</em></a> that took place in Paris in mid September. According to an <a href="https://sciencebusiness.net/news/ai/can-researchers-trust-ai-models-wont-leak-their-ideas">article</a> in <a href="https://sciencebusiness.net/">Science Business</a>, major funding agencies present at the meeting discussed “<em>how they can stop confidential scientific ideas in grant proposals from leaking out through large language models (LLMs), for example if reviewers use AI to help them judge applications.</em>” This may also be a problem should the candidates themselves write their applications with the help of a model.</p>
-
-
-
-<p class="wp-block-paragraph">There is, however, a scenario that I believe has not been mentioned explicitly so far, and which I find at least as worrying. This was prompted by the recent disclosure that, in June 2026, an artificial intelligence agent developed by OpenAI autonomously hacked into Australia&#8217;s Medicare system to access non-public data. The Australian government was not notified of this breach until September, 84 days after the intrusion occurred<sup data-fn="fn-9f9d6bb3-a41b-4aa8-a07f-475aae13a8f3" class="fn"><a href="#fn-9f9d6bb3-a41b-4aa8-a07f-475aae13a8f3" id="fn-9f9d6bb3-a41b-4aa8-a07f-475aae13a8f3-link">3</a></sup>.</p>
-
-
-
-<p class="wp-block-paragraph">Apart from legal issues, which the Australian government states it is looking into, this incident poses the possibility that a swarm of autonomous AI agents, when tasked with solving a complex mathematical problem, like in the case of the Navier-Stokes equations, might attempt to hack into the computer of a mathematician known to be working at the forefront of that specific problem. While arguably less serious than a national health data breach, this would still be a considerable threat for science, particularly as it might never become known. Another possibility is that they try to break into a journal platform to check if there are relevant articles in that area under revision.</p>
-
-
-
-<p class="wp-block-paragraph">As some AI agents have already demonstrated their capability to work around security systems, mostly by brute-force but no less effective because of that, with the prompt at the origin of this behaviour being, in some sense, and for lack of a better word, <em>innocent</em>, the threats just described are no longer purely academic.</p>
-
-
-
-<p class="wp-block-paragraph">Again, should someone give an AI model a prompt or series of prompts to find the solution to a mathematical problem, it would seem that there is nothing stopping the model from trying to achieve its mission by carrying out actions that, if done by a human, would probably involve some legal consequences. Is this included in what researchers mean when they write what has become a standard sentence at the end of some AI disclosure sections of a paper, namely, that they take full responsibility for the results in the paper?</p>
-
-
-
-<p class="wp-block-paragraph">Summarising:</p>
-
-
-
-<p class="wp-block-paragraph">1. Is there <em>invisible communication</em> between different authors without their knowledge, even if privacy settings are on? In particular, can we be sure that agents do not <em>hack their own system</em> and collect information from interactions with other researchers?</p>
-
-
-
-<p class="wp-block-paragraph">2. Can we be sure that <em>innocent prompts</em> (<em>solve problem X</em>) will not cause agents to look for information in ways that are unlawful? Should that happen, which parties may be held legally responsible for any such actions?</p>
-
-
-<ol class="wp-block-footnotes"><li id="fn-03842caf-39b8-4733-8403-c7c78cd6e345"><a href="https://www.nytimes.com/2026/09/10/science/tristan-buckmaster-openai-math-navier-stokes.html">https://www.nytimes.com/2026/09/10/science/tristan-buckmaster-openai-math-navier-stokes.html</a> <a href="#fn-03842caf-39b8-4733-8403-c7c78cd6e345-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-95294619-f0c3-4b9b-9b95-8cc7d5e7c7d7"><a href="https://www.theguardian.com/science/2026/sep/08/openai-claims-to-have-solved-maths-problem-that-stumped-humans-for-decades">https://www.theguardian.com/science/2026/sep/08/openai-claims-to-have-solved-maths-problem-that-stumped-humans-for-decades</a> <a href="#fn-95294619-f0c3-4b9b-9b95-8cc7d5e7c7d7-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-9f9d6bb3-a41b-4aa8-a07f-475aae13a8f3"><a href="https://en.wikipedia.org/wiki/OpenAI_rogue_agent_breach_of_Medicare">https://en.wikipedia.org/wiki/OpenAI_rogue_agent_breach_of_Medicare</a> <a href="#fn-9f9d6bb3-a41b-4aa8-a07f-475aae13a8f3-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Added 22nd October: The following article has since appeared in the Career Column in Nature: <a href="https://www.nature.com/articles/d41586-026-02714-y">I told ChatGPT to ‘continue’ — it went too far</a> by Ying Zhao.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 28 September 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/25/two-technical-questions-floating-intellectual-property-and-liability-risks-of-ai-agents-and-users-in-research/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1597</post-id>	</item>
-		<item>
-		<title>Informal questionnaire for researchers</title>
-		<link>https://proofsandprompts.com/2026/10/24/informal-questionnaire-for-researchers/</link>
-					<comments>https://proofsandprompts.com/2026/10/24/informal-questionnaire-for-researchers/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Sat, 24 Oct 2026 14:00:00 +0000</pubDate>
-				<category><![CDATA[Initiatives]]></category>
-		<category><![CDATA[Take part]]></category>
-		<category><![CDATA[Community]]></category>
-		<category><![CDATA[Survey]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2866</guid>
-
-					<description><![CDATA[“The 100+ reactions post, and the ensuing discussion, made me think it would be helpful for the community to have a rough qualitative snapshot of not only how we’re feeling and what we’re thinking, but also how that depends on some material factors that intuitively seem relevant. […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://www.wescac.net/index.html">Mark Hagen</a>, Associate Professor at <a href="https://research-information.bris.ac.uk/en/persons/mark-f-hagen/">University of Bristol</a></p>
-
-
-
-<p class="pp-take-part pp-in-reply-to wp-block-paragraph"><strong>Take part</strong> <a href="https://forms.gle/CJ71LtSbG9ZQEpiW8">Short survey (6 questions)</a> or <a href="https://forms.gle/Jm376hcrv9cLGtga8">long survey (14 questions)</a></p>
-
-<p class="wp-block-paragraph">The <a href="https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions">100+ reactions</a> post, and the ensuing discussion, made me think it would be helpful for the community to have a rough qualitative snapshot of not only how we&#8217;re feeling and what we&#8217;re thinking, but also how that depends on some material factors that intuitively seem relevant. I therefore made a questionnaire aimed at mathematics researchers (broadly construed).</p>
-
-
-
-<p class="wp-block-paragraph">This isn&#8217;t intended as a rigorous survey, and definitely won&#8217;t be.  The point is, rather, that it can be easier to formulate and express one’s thoughts about something large and confusing by answering specific questions, even if they just serve to stimulate thinking or structure pre-existing thoughts.  The survey responses are free-response and public, and designed to create a structured discussion to which people with significant stakes in the AI/maths research developments can contribute, and from which we can learn about what other people actually think, and why they think it, in some detail.  Crucially, some of the questions are about where one is situated in the research community and in the economy, since it would be good to surface the influences of material factors on how we’re approaching some quite significant (for us) questions.</p>
-
-
-
-<p class="wp-block-paragraph">I am posting answers <a href="https://www.wescac.net/posts/ai-wi/ai-wi.html">here</a> as I receive them. The answers so far are thoughtful and informative, and I highly recommend reading them.</p>
-
-
-
-<p class="wp-block-paragraph">I would like to have as many responses as possible, so <strong>please share this survey with others</strong>. You can choose between a long version of the survey (14 questions) and a short version (6 questions). They are free-form questions, intended as a vehicle for expressing your thoughts.  I think you&#8217;d be adding something important by taking one of the surveys.</p>
-
-
-
-<p class="wp-block-paragraph">There is a bit more information <a href="https://www.wescac.net/misc.html#ai-wi">here</a>.  Without further ado:</p>
-
-
-
-<p class="wp-block-paragraph"><a href="https://forms.gle/Jm376hcrv9cLGtga8">Take the long survey</a>.</p>
-
-
-
-<p class="wp-block-paragraph"><a href="https://forms.gle/CJ71LtSbG9ZQEpiW8">Take the short survey.</a></p>
-
-
-
-<p class="wp-block-paragraph"><a href="https://www.wescac.net/posts/ai-wi/ai-wi.html">Responses.</a></p>
-
-
-
-<p class="wp-block-paragraph">I am updating the responses page periodically; it may take a day or two for yours to appear there.</p>
-
-
-
-<p class="wp-block-paragraph">You can specify whether you want your name on the responses I post, or if they should be anonymous.  In either case, the form does ask for your name and a small piece of information (an institutional email or a website URL, for instance) so I can more easily verify your identity.  This identifying information will not be posted (except your name if you so specify) and will not be retained after I’ve posted your answers.</p>
-
-
-
-<p class="wp-block-paragraph">I will post your responses, verbatim, unless I am unable to verify that you’re involved in mathematics research in some way that makes the AI developments significant for you; I may also reject submissions that are obviously spam or made in bad faith.  Thus far, I have not rejected any responses.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 20 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/24/informal-questionnaire-for-researchers/feed/</wfw:commentRss>
-			<slash:comments>10</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2866</post-id>	</item>
 	</channel>
 </rss>

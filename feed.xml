@@ -6,7 +6,48 @@
 <atom:link href="https://xavierblot-math.github.io/veille-ia/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Daily summary of Xena, Proofs and Prompts, Silicon Reckoner, Tao (blog and Mastodon) and Gowers.</description>
 <language>en</language>
-<lastBuildDate>Wed, 28 Oct 2026 04:43:51 +0000</lastBuildDate>
+<lastBuildDate>Thu, 29 Oct 2026 04:42:21 +0000</lastBuildDate>
+<item>
+<title>Digest — 29 October 2026 (4 new posts)</title>
+<link>https://xavierblot-math.github.io/veille-ia/#2026-10-29</link>
+<guid isPermaLink="false">veille-ia-2026-10-29</guid>
+<pubDate>Thu, 29 Oct 2026 04:00:00 +0000</pubDate>
+<description><![CDATA[
+<p><em>Nothing new: Xena (Buzzard), Gowers, Tao on Mastodon.</em></p>
+
+<h3>Terence Tao — <a href="https://terrytao.wordpress.com/2026/10/28/on-the-diameter-and-distribution-of-sidon-sets/">On the diameter and distribution of Sidon sets</a></h3>
+<ul>
+<li>New arXiv preprint with Daniel Carter and Kevin O'Bryant improving the upper bound on the size of Sidon sets in {1,…,N} (Erdős problem #30); it grew out of a blog discussion last year about AlphaEvolve improving the record.</li>
+<li>Method: the distinct-differences property gives a convolution inequality, tested against carefully chosen weight and autocorrelation functions; replacing sharp cutoffs by optimised (and finally random) cutoffs lowers the constant in the second-order term.</li>
+<li>Tao says the method seems to have hit its limit, and a slightly sharper constant (0.942809522) was just obtained by a different approach; the authors deliberately did not use current AI tools to optimise their own bound.</li>
+<li>The technique also extends to generalised Golomb rulers, where each difference may repeat a bounded number of times.</li>
+</ul>
+
+<h3>Proofs and Prompts (Maximilian Kaipel) — <a href="https://proofsandprompts.com/2026/10/28/why-and-how-to-transparently-disclose-ai-use-in-mathematics-research/">Why and how to transparently disclose AI use in mathematics research</a></h3>
+<ul>
+<li>Part of the publishing/credit series. Notes that about a quarter of August 2026 math arXiv papers disclosed AI use, with very uneven detail, and proposes a standard.</li>
+<li>Three principles: only humans can take responsibility and so be authors; disclosures should name the exact model, the task delegated and where in the paper (e.g. Lemma 3.5); all AI interactions that shaped the paper should be archived in full.</li>
+<li>Offers a taxonomy (MAIDeT) of delegable tasks in five groups (knowledge acquisition, objective identification, proof construction, computation, presentation), plus a LaTeX package, <code>mathaidisclose</code>, that generates the disclosure section from per-environment commands.</li>
+<li>Also suggests that mathematicians who refuse AI state this explicitly in their papers.</li>
+<li>👉 Practical and ready to use; relevant for your own papers and for PhD students.</li>
+</ul>
+
+<h3>Proofs and Prompts (Johannes Schmitt) — <a href="https://proofsandprompts.com/2026/10/28/math2038-a-day-in-the-life-of-future-mathematicians/">Math2038: A Day in the Life of Future Mathematicians</a></h3>
+<ul>
+<li>A short story set at ETH in 2038: frontier research is done by agent workflows feeding a vast "MathNet", while humans teach, digest decade-old AI results into monographs (an Oberwolfach Arbeitsgemeinschaft on Lagrangian fibrations), and do AI-free research retreats as training.</li>
+<li>Imagines hiring based on an in-person "Mathematical Profile Certificate" exam replacing reference letters, since publications can no longer be trusted as signals.</li>
+<li>Ends on mathematics as something still pursued for its own sake, like amateur marathon running alongside faster robots.</li>
+<li>👉 Light reading with a symplectic flavour (hyperkähler and Lagrangian fibration references).</li>
+</ul>
+
+<h3>Proofs and Prompts (Masoud Kamgarpour) — <a href="https://proofsandprompts.com/2026/10/28/responsibility-of-mathematicians-in-the-age-of-ai/">Responsibility of Mathematicians in the Age of AI</a></h3>
+<ul>
+<li>A personal essay: the author concluded by July that models outdid him at mathematics, and describes the Navier–Stokes announcements as a shock to the community.</li>
+<li>Argues mathematicians should help find language for what AI is doing (e.g. intelligence being "grown" rather than built) and convey the speed of progress to the public.</li>
+<li>Endorses the recent Royal Society mathematicians' letter and calls for public mobilisation to slow AI development, while keeping room for traditional, AI-free mathematics.</li>
+</ul>
+]]></description>
+</item>
 <item>
 <title>Digest — 28 October 2026 (6 new posts)</title>
 <link>https://xavierblot-math.github.io/veille-ia/#2026-10-28</link>

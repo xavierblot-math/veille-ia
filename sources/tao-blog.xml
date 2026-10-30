@@ -13,7 +13,7 @@
 	<atom:link href="https://terrytao.wordpress.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://terrytao.wordpress.com</link>
 	<description>Updates on my research and expository papers, discussion of open problems, and other maths-related topics.  By Terence Tao</description>
-	<lastBuildDate>Wed, 28 Oct 2026 19:45:35 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 29 Oct 2026 00:06:11 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -23,16 +23,159 @@
 <site xmlns="com-wordpress:feed-additions:1">817149</site><cloud domain='terrytao.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
 <source:cloud xmlns:source='https://source.scripting.com/'>https://terrytao.wordpress.com/?rsscloud=notify</source:cloud>
 <image>
-		<url>https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fwebclip.png</url>
+		<url>https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Fwebclip.png</url>
 		<title>What&#039;s new</title>
 		<link>https://terrytao.wordpress.com</link>
 	</image>
 	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://terrytao.wordpress.com/osd.xml" title="What&#039;s new" />
 	<atom:link rel='hub' href='https://terrytao.wordpress.com/?pushpress=hub'/>
 	<item>
+		<title>AI, Mathematics, Education, and a public goods problem</title>
+		<link>https://terrytao.wordpress.com/2026/10/29/ai-mathematics-education-and-a-public-goods-problem/</link>
+					<comments>https://terrytao.wordpress.com/2026/10/29/ai-mathematics-education-and-a-public-goods-problem/#respond</comments>
+		
+		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
+		<pubDate>Thu, 29 Oct 2026 23:27:54 +0000</pubDate>
+				<category><![CDATA[guest blog]]></category>
+		<category><![CDATA[opinion]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Gireeja Ranade]]></category>
+		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18598</guid>
+
+					<description><![CDATA[[This is a guest post by Gireeja Ranade. This blog post was initially written in a different file format and converted using AI. &#8212; T.] The day after the Navier-Stokes result was announced, a student came to my office hours. They said, &#8220;Can we please talk about the Navier-Stokes result and what it means? I [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>
+ <em>[This is a guest post by <a href="https://people.eecs.berkeley.edu/~gireeja/">Gireeja Ranade</a>. This blog post was initially written in a different file format and converted using AI. &#8212; T.]</em>
+</p><p>
+The day after the Navier-Stokes result was announced, a student came to my office hours. They said, &#8220;Can we please talk about the Navier-Stokes result and what it means? I really need some therapy.&#8221; Two days ago another student mentioned, &#8220;I used to be really motivated, but now that all the models can do everything with just a prompt, I don&#8217;t feel like putting in any effort at all.&#8221;
+</p><p>
+Every time I have such a conversation with students, I appreciate how lucky my generation has been. We didn&#8217;t have to grapple with the temptations or threats of AI when we were students. Not being able to quickly look up answers forced us to challenge ourselves, and do it together with our friends. And years of challenging ourselves somehow made us love it [1], and led us to challenging jobs across academia and industry. These jobs are simultaneously wonderful and hard. But I wonder and worry for my students, for the next generation. What do we need to do to make sure these jobs [2] are (1) available for the next generation and (2) that we have enough students who are motivated to train for them?
+</p><p>
+<span id="more-18598"></span>
+</p><p>
+I&#8217;ve been in conversations where people are concerned about whether mathematics will survive. I&#8217;m actually not concerned about this &#8212; I&#8217;m fairly sure it will, so let us set that aside for the moment. But what I want to think about is, what do we need to do to make sure <em>all</em> mathematicians survive? And not just the `great&#8217; mathematicians, but also regular, ordinary mathematicians? Because even if we decide society only really needs the `greats [3],&#8217; we need to train many tens of thousands of students to identify who those greats are. If we want one Steph Curry, we need to make basketball exciting for a whole generation of people, and we need to support college basketball, and after-school basketball, and neighbourhood basketball.
+</p><p>
+We&#8217;ve seen that by treating mathematical problems as a benchmark, humans have been able to train AI models to be very good at solving hard math problems and writing proofs. Soon we will create benchmarks about `asking good questions&#8217; and `giving clear explanations&#8217; and then AI models will be good at those tasks too. They will do the thinking and the meta-thinking. This is the reality we need to plan for.
+</p><p>
+For this post I will talk about &#8220;mathematics,&#8221; but I often mean mathematics broadly construed (the sciences, engineering, social sciences, and even many humanities subjects that require complex reasoning and critical thinking).
+</p><p>
+<b>Background</b>
+</p><p>
+People are attracted to mathematics and mathematical sciences for a variety of reasons. But importantly, whatever the motivation, mathematics has always been a `safe&#8217; subject to study. Historically, being good at math has led to a solid job and a stable lifestyle. Why? Because along the way, by studying beautiful mathematics (which in itself might not be exactly what leads to employment), the student learns critical thinking and perseverance, and becomes stronger. The transferable skills are helpful for employment.
+</p><p>
+As a result, society has encouraged students to do math, even when they might not be `great&#8217; at math. For example, as a teenager, I was part of a special program called <em>Gold 2002</em>, [4] which trained students for the International Mathematical Olympiad (IMO). I was not among the `greats&#8217; in this program. I did not make it to the IMO, unlike some of my friends. And today, I have no hope of ever winning a Fields medal. But I still enjoy doing mathematics, and (thanks to some hard work as a teenager) I&#8217;m good enough at it to be paid to do it (again broadly construed, I&#8217;m a professor in an EECS department [5]). But one of the reasons that my parents let me spend months and years working on crazy math problems was that math was a `good&#8217; thing. And so it was ok to do this, even if I didn&#8217;t win any gold medals.
+</p><p>
+But today people wonder &#8212; does mathematics still have the same status? Do we need critical thinking if a prompt can do it for us? My students ask &#8212; is it worth their time to get a PhD, in mathematics, or any theoretical field, without an immediate application? Or should they focus on learning to train better deep learning models? When previously I would have many undergraduate researchers from my lab applying for PhD programs, many now prefer to go straight to industry. What do we say to them?
+</p><p>
+I have heard people say &#8212; in this new era, math will become more like the humanities. We will continue to pursue mathematics because it is beautiful and because we love it. While this may be the case, will as many students pursue it if it does not lead to a good job and a steady life [6]?
+</p><p>
+Which leads to the thought &#8212; well, does society really need all these mathematicians? We will have only our strongest, most passionate students do the very hard math, or those who love mathematics enough to do it even as `starving artists&#8217;. With AI, if one mathematician can do the job of five or ten, should we shrink our departments and our graduate programs? What jobs do we expect our students to get when they graduate? And if there are no jobs for `thinkers,&#8217; and `intellectual explorers&#8217;, then why should students pursue a path towards a PhD in math or a theoretical science?
+</p><p>
+This brings us to a public goods problem, which I elaborate on further below. I believe it is essential for us, the human society, to maintain our intellectual culture. And for this we need lots of students getting degrees in mathematics, sciences, and the humanities, but we need to find ways to actually motivate the students to want these degrees and the associated training.
+</p><p>
+<b>What is our culture and why is it important?</b>
+</p><p>
+As a child, I would see a big splash in the newspaper about the Nobel prizes every year. I didn&#8217;t understand the science or why the literature was meaningful. I just understood that this stuff was important, and that humans valued creativity, expression and intellectual and scientific achievement. And until recently, I had never consciously wondered about the cultural importance of Alfred Nobel establishing those prizes. I had always taken for granted that we should strive for excellence&#8230; but I see now that this was an impact of our culture, and that there are so many conscious decisions that have led to this culture.
+</p><p>
+But now, people have begun to worry about `<a href="https://www.noahpinion.blog/p/the-end-of-the-age-of-heroes">The end of the age of heroes</a>&#8216;. In his blog post, Noah Smith makes multiple interesting points, but I will paraphrase one: even as mathematicians will likely retain their jobs as math-understanders [7] (since mathematicians are relatively cheap), they will lose their status as heroes.
+</p><p>
+My question is: while it may be ok for the mathematician to lose their hero status, what impact does this have on the next generation? In my younger days, and even now, I know I benefitted from being around, and hearing about, heroes &#8212; the brilliant, blazingly quick, hardworking minds, with the humblest of personalities to match. It gave me someone to look up to and goals to aspire to. With heroes gone, how would we orient our cultural compass?
+</p><p>
+Aspects of our culture are built on respect for facts about the universe. Nvidia CEO Jensen Huang said in an <a href="https://www.nytimes.com/2026/09/23/opinion/ezra-klein-podcast-jensen-huang.html">interview with Ezra Klein</a> a few weeks ago that it doesn&#8217;t matter if the multiplication table is starting to be forgotten, and that &#8220;we&#8217;re going to lose some finer intellectual dexterity &#8230; I don&#8217;t know how valuable it is for most people to learn how to do surface integrals or partial differential equations. I don&#8217;t really know how important that is, but it&#8217;s important to some people.&#8221;
+</p><p>
+I was bothered reading this, because I was worried about the implications for our culture.
+</p><p>
+Multiplication tables matter not just for their own sake but for what they represent [8]. Yes, knowing <img src="https://s0.wp.com/latex.php?latex=11+%5Ctimes+12&#038;bg=ffffff&#038;fg=545454&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=11+%5Ctimes+12&#038;bg=ffffff&#038;fg=545454&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=11+%5Ctimes+12&#038;bg=ffffff&#038;fg=545454&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="11 &#92;times 12" class="latex" /> builds fine intellectual dexterity. But they also show young children that there are fundamental, unchanging facts about the world. Invariants. And starting from this, we can build up confidence that allows kids to grow into students who are grounded and questioning because they can both see and understand why there are invariants [9].
+</p><p>
+Our understanding of partial differential equations allowed us to develop numerical computer programs that can solve them for us. And when the computer does solve them, it is amazing that we (as a human society, not every individual) are able to understand exactly what the computer did. But this is not true when AI does all the work for us; we lose the essential human understanding. I will come back to the value of this soon.
+</p><p>
+It is important to maintain a culture where we value and respect intellectual dexterity and expertise. And admire the young children who know their multiplication tables, and the older people who win Fields medals and Nobel prizes. And respect those people who care deeply about partial differential equations, and create space for them to develop their expertise, even if not everyone understands them. The goal of expanding and developing human expertise in subjects can and should be independent of the state of AI [10]. So that we can ensure generations of students will continue to want to study and experience the &#8220;unreasonable effectiveness&#8221; of mathematics.
+</p><p>
+<b>Education: Canary in the coal mine</b>
+</p><p>
+Every professor and teacher I know has grappled with AI-based academic dishonesty by students. Students cheat when `doing it the right way&#8217; doesn&#8217;t seem worth the time and effort. And because our culture for students (especially in the United States) has focused on achievements/badges (or, as I tell my students, `sticker collection&#8217;), instead of building true understanding and intellectual depth, students want to do more and do it faster, even if they are not doing it deeper or better.
+</p><p>
+We need to realize that this is just the canary in the coal mine. Students are turning in proofs/essays/code they don&#8217;t fully understand. But this behavior is not limited to academic settings. It is likely that engineers are checking in code they didn&#8217;t fully read. It is only a matter of time before a researcher publishes a result they don&#8217;t fully understand, or an administrator signs off on a decision they don&#8217;t fully comprehend. And soon enough, AI systems will be making ever more complex decisions that we just sign off on, because we don&#8217;t understand the foundation of the system and we gave up questioning.
+</p><p>
+If we go down the slippery slope, we risk becoming AI-sock puppets [11]. Faced with AI-output, we will take quick looks and &#8220;sanity checks&#8221; to make sure AI output is reasonable and move on, but it won&#8217;t have the same gravitas and deliberation that comes from a human-authored proof/document. We will have no choice but to use AI, because that will be the only way to keep up. Sanity checks themselves may become illusions &#8212; because we will be out of practice at true understanding. It is likely that we will have verified Lean proofs that assure us of correctness, but now we have to evaluate the faithfulness of the theorem statements. (And Lean itself has a very steep learning curve. There is a lot of work to be done to make sure such verification tools are universally accessible to all [12].)
+</p><p>
+The only thing that can protect us against this is culture. A culture where the point of pride is in the understanding of the work and in the exposition of it. A culture where it is ok to say we don&#8217;t understand, ask for clarification, or (respectfully) push back. And where such requests are valued (instead of saying, &#8220;let us move on, we only have a few minutes&#8221;).
+</p><p>
+A culture that appreciates being slow and steady and careful. A culture where a student can pursue a more theoretical research area for their PhD, but also be assured that this does not destroy their chance to get a stable, enjoyable job.
+</p><p>
+<b>So how do we cultivate this culture?</b>
+</p><p>
+Such culture building must start in the classroom. We must teach harder, better, and stronger [13]. We need to train students so that they know what they know and don&#8217;t know &#8212; students who can identify proof by intimidation and by authority, and have the confidence to push back. We should provide homework problems that let students explore concepts in depth, and force them to confront ideas they do not understand. Students thrive when they are challenged (with support) and then succeed. This needs resources.
+</p><p>
+We must walk away from classes that teach students the &#8220;high-level ideas&#8221; but do not expect students to fully grasp the rigorous details &#8220;because AI can do this stuff nowadays, [14]&#8221; or because &#8220;it is too hard for the students [15].&#8221; Because these can create a generation of students who don&#8217;t know the difference between understanding things deeply versus superficially. And then this can propagate.
+</p><p>
+This is now a bigger deal than it was a few years ago. It used to be that knowing a solution strategy or the right algorithm to apply was sufficient for students to become productive members of society. But now that this work can be done by AI systems, we have to be able to understand what the AI has generated, process it and question it, which requires not just knowing the names of the algorithms but also the proofs of why they work, what the key assumptions are, and where and how they break down.
+</p><p>
+A theorem may be correct given its assumptions. But the gap between assumptions and what we actually care about might admit counterexamples. Identifying such counterexamples requires knowing the modeling and the math at multiple levels. Interpretation matters and ambiguity can creep in when identifying if a formal Lean statement is faithful to the natural language. For such tasks mathematical mental muscles are essential.
+</p><p>
+<a href="https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/">Amit Sahai</a>, <a href="https://terrytao.wordpress.com/2026/09/19/why-do-we-need-human-mathematicians-anymore/">Po-Shen Loh</a>, and others have beautifully argued why we are going to need more (highly trained) mathematicians. I won&#8217;t repeat their argument here. But I will add to their point &#8212; it is important that we have a large, diverse set of people, with different life paths and trajectories, becoming mathematicians. People who do not all think exactly the same way, who can interpret, debate, disagree and convince one another.
+</p><p>
+<b>A public goods problem</b>
+</p><p>
+This brings us to a public goods problem. We need to maintain our culture. For this, we need to engage and excite lots of different students. We know that if we don&#8217;t incentivize students to learn, many of them won&#8217;t, and our (humankind&#8217;s) mental muscles will atrophy. We know that when humans moved from working in the fields to having indoor desk jobs, our bodies suffered. And to compensate, we invented things like the gym to make sure our bodies stayed fit.
+</p><p>
+But there is a catch. We pay to go to the gym, not the other way around. Entry-level jobs in fact used to train people while also getting useful contributions from them. Entry-level jobs, or PhD programs, are like being paid to go to the gym. If these are taken away by AI, how do we train people? And how do we convince people that they should be trained?
+</p><p>
+There is a tremendous investment needed in thinking about what future sustainable solutions to this will look like. This is just the beginning of that conversation. But in the short term, it is important culturally to celebrate and reward the work of understanding and communicating mathematical results &#8212; and not just by mathematicians but by society at large. We also need to advocate for educational institutions at all levels and for what they represent for our culture. Teachers need more resources, not less, to be able to teach in the AI-age, because we need to be teaching more, not less. There is no silver bullet. AI tools alone cannot solve problems in the education sector &#8212; these come with their own set of challenges. We should be able to offer individualized, 1-1 human tutoring to help students at different levels. I hope we can collectively build a positive future, where we use AI-tools effectively to help us in ways that raise everyone up together.
+</p><p>
+As a concrete first step in this direction, I invite university leaders to declare their commitment to hiring across departments in the sciences, engineering, social sciences and humanities, and announce their unwavering support for human intellectual growth and exploration. Similarly I invite philanthropists and funding agencies to declare their support for open-ended research, theoretical pursuits and rigorous, grounded education in the fundamentals. Students need to know that we have got their back, and that we are working for their future &#8212; because they are our future.
+</p><p>
+
+</p><p>
+I would like to thank Terry Tao and Nestor Guillen for the invitation to write this post, and also Ted Theodosopoulos, whose <a href="https://www.youtube.com/watch?v=7pukV1WtkO0">1st Relatorium dialogue on Mathematics and AI</a> started part of this conversation. Thanks also to Anant Sahai for many conversations that have helped refine these thoughts, as well as Vinayak Ranade, Sukhada Fadnavis, Shubhangi Saraf and Amit Sahai for their helpful feedback. Thank you also to the organizers and participants of the <a href="https://www.renaissancephilanthropy.org/ai-for-math-fund">Renaissance Philanthropy AI for Math Workshop 2026</a> &#8212; conversations there also influenced my thoughts.
+</p><p>
+<b>Notes</b>
+</p><p>
+[1] I understand that challenge and struggle does not work for all students, but it does help a good number. In this post, I will focus on that set. There is a longer discussion about education to be had more broadly at another time.
+</p><p>
+[2] Jobs that are typically held by PhDs that apply mathematical/other critical thinking skills. I understand that there are far more complex questions regarding jobs in the age of AI, and I&#8217;m not trying to tackle them. For now I focus on the narrow question of jobs for highly-trained scientists/mathematicians/humanists.
+</p><p>
+[3] I argue that we need far more than just the `greats,&#8217; but just hypothetically.
+</p><p>
+[4] I am forever indebted to M. Prakash sir, out of the Bhaskaracharya Pratishthan. He intensively trained 200+ highschoolers across Pune, India, and several from the group went on to win IMO medals (another example of the Steph Curry argument). And the rest of us benefitted on the side. It was a privilege to participate.
+</p><p>
+[5] I teach courses on the mathematical side of the department, such as optimization, probability, and deep learning.
+</p><p>
+[6] I also love to dance, it is beautiful. But I am nowhere good enough to earn a living doing this. Luckily the math worked out ;-).
+</p><p>
+[7] Human understanding can never be developed by an AI, no matter how good AIs get. AI-augmentation of humans cannot generate human understanding.
+</p><p>
+[8] Perhaps we will find skills that are a suitable substitute for multiplication tables, that do everything that tables do and are `better&#8217; in other ways. I&#8217;m ok with teaching those skills instead.
+</p><p>
+[9] As Picard said &#8220;<a href="https://en.wikipedia.org/wiki/Chain_of_Command_(Star_Trek:_The_Next_Generation)">there are four lights</a>.&#8221;
+</p><p>
+[10] And every PhD granted is a new human expert in a subject.
+</p><p>
+[11] Not quite a <a href="https://www.urbandictionary.com/define.php?term=Meat+proxy">meat proxy</a>, but still bad.
+</p><p>
+[12] Some of our work to make lean accessible is available at leantutor.org
+</p><p>
+[13] not faster. <a href="https://www.youtube.com/watch?v=gAjR4_CbPpQ">https://www.youtube.com/watch?v=gAjR4_CbPpQ</a>
+</p><p>
+[14] There is a space in this system for courses that teach students how to &#8220;use&#8221; tools (e.g. prompt engineering courses that have recently come up at many community colleges in California), or general AI literacy courses. But we must not confuse the role of these courses. Those may be helpful (in the current climate) for maintaining employment. But they do not replace the role of courses that fundamentally teach critical thinking, and should not take resources away from such courses.
+</p><p>
+[15] To cater to the fact that students come in at different levels, we need to have scaffolding classes at the lower-division level. A student may take longer to graduate, but should be able to take even the hardest class given enough time and hard work.
+</p><p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/29/ai-mathematics-education-and-a-public-goods-problem/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">18598</post-id>
+		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
+			<media:title type="html">Terry</media:title>
+		</media:content>
+	</item>
+		<item>
 		<title>On the diameter and distribution of Sidon sets</title>
 		<link>https://terrytao.wordpress.com/2026/10/28/on-the-diameter-and-distribution-of-sidon-sets/</link>
-					<comments>https://terrytao.wordpress.com/2026/10/28/on-the-diameter-and-distribution-of-sidon-sets/#respond</comments>
+					<comments>https://terrytao.wordpress.com/2026/10/28/on-the-diameter-and-distribution-of-sidon-sets/#comments</comments>
 		
 		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
 		<pubDate>Thu, 29 Oct 2026 04:05:18 +0000</pubDate>
@@ -70,7 +213,7 @@ One can improve this bound by replacing the sharply truncated cutoff functions <
 </p>]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/28/on-the-diameter-and-distribution-of-sidon-sets/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>1</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18606</post-id>
@@ -933,7 +1076,7 @@ This gives the following alternate proof of Proposition <a href="#ulpi">44</a>. 
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/27/the-quasi-riemann-hypothesis/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
+			<slash:comments>3</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18595</post-id>
@@ -991,7 +1134,7 @@ This gives the following alternate proof of Proposition <a href="#ulpi">44</a>. 
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/26/more-additional-blog-posts-and-articles/feed/</wfw:commentRss>
-			<slash:comments>19</slash:comments>
+			<slash:comments>20</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18468</post-id>
@@ -1339,71 +1482,6 @@ For the next generation of mathematicians to flourish, we need protections and c
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18522</post-id>
-		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
-			<media:title type="html">Terry</media:title>
-		</media:content>
-	</item>
-		<item>
-		<title>An experimental AI-math challenge: using tenth discriminant bounds to explore arguments ruling out Siegel zeroes</title>
-		<link>https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/</link>
-					<comments>https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/#comments</comments>
-		
-		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
-		<pubDate>Tue, 20 Oct 2026 15:35:00 +0000</pubDate>
-				<category><![CDATA[math.NT]]></category>
-		<category><![CDATA[polymath]]></category>
-		<category><![CDATA[AI]]></category>
-		<category><![CDATA[class number formula]]></category>
-		<category><![CDATA[Deuring-Heilbronn repulsion]]></category>
-		<category><![CDATA[Math 2.0]]></category>
-		<category><![CDATA[Siegel's theorem]]></category>
-		<category><![CDATA[tenth discriminant]]></category>
-		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18525</guid>
-
-					<description><![CDATA[In the spirit of my recent &#8220;Math 2.0&#8221; talk on new ways to use AI assistance to enhance the human understanding of mathematics, rather than substitute for it, I am using this post to propose an experimental challenge, inspired by the recent activity around excluding Landau&#8211;Siegel zeroes, as discussed in this previous post. There is [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>
- In the spirit of my recent &#8220;<a href="https://aimath.org/videos/terry-tao-pl/">Math 2.0</a>&#8221; talk on new ways to use AI assistance to enhance the human understanding of mathematics, rather than substitute for it, I am using this post to propose an experimental challenge, inspired by the recent activity around excluding Landau&#8211;Siegel zeroes, as discussed in <a href="https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/">this previous post</a>.
-</p><p>
-There is a well-known connection between Landau&#8211;Siegel zeroes and the tenth discriminant problem, which I will briefly recall here; an in-depth discussion on this problem can be found in <a href="https://www.ams.org/journals/spmj/2014-25-04/S1061-0022-2014-01312-X/S1061-0022-2014-01312-X.pdf">this survey of Shafarevich</a>. As far back as the work of Gauss, it was observed that there were nine discriminants <img src="https://s0.wp.com/latex.php?latex=%7B-d%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7B-d%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7B-d%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{-d}" class="latex" /> whose rings of integers for the associated quadratic field <img src="https://s0.wp.com/latex.php?latex=%7B%7B%5Cbf+Q%7D%28%5Csqrt%7B-d%7D%29%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7B%7B%5Cbf+Q%7D%28%5Csqrt%7B-d%7D%29%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7B%7B%5Cbf+Q%7D%28%5Csqrt%7B-d%7D%29%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{{&#92;bf Q}(&#92;sqrt{-d})}" class="latex" /> enjoyed unique factorization, namely </p><p align="center"><img src="https://s0.wp.com/latex.php?latex=%5Cdisplaystyle++d+%3D+1%2C+2%2C+3%2C+7%2C+11%2C+19%2C+43%2C+67%2C+163.&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cdisplaystyle++d+%3D+1%2C+2%2C+3%2C+7%2C+11%2C+19%2C+43%2C+67%2C+163.&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cdisplaystyle++d+%3D+1%2C+2%2C+3%2C+7%2C+11%2C+19%2C+43%2C+67%2C+163.&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;displaystyle  d = 1, 2, 3, 7, 11, 19, 43, 67, 163." class="latex" /></p>
- Gauss believed this list of nine to be the complete list of such discriminants (the &#8220;class number one problem&#8221;), but this was only proven by Heegner in 1952 by introducing the concept of a <a href="https://en.wikipedia.org/wiki/Heegner_point">Heegner point</a> on the modular curve; and the above numbers are now known as <a href="https://en.wikipedia.org/wiki/Heegner_number">Heegner numbers</a>.
-<p>
-Prior to Heegner&#8217;s solution was the <a href="https://doi.org/10.1093/qmath/os-5.1.293">work of Heilbronn and Linfoot in 1934</a>, who used what we now call the Deuring&#8211;Heilbronn repulsion phenomenon to show that the existence of a tenth discriminant in the above list can be used to &#8220;repel&#8221; any further such discriminants, so that there was at most one further Heegner number beyond the nine already known. However, this argument was <a href="https://en.wikipedia.org/wiki/Effective_results_in_number_theory">ineffective</a>: no upper bound on this putative tenth discriminant was given, and so there was no obvious way to solve the class number one problem purely from this result. 
-</p><p>
-There is a close connection to Landau&#8211;Siegel zeroes: if <img src="https://s0.wp.com/latex.php?latex=%7Bd%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7Bd%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7Bd%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{d}" class="latex" /> is a Heegner number, and <img src="https://s0.wp.com/latex.php?latex=%7B%5Cchi%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7B%5Cchi%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7B%5Cchi%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{&#92;chi}" class="latex" /> is the quadratic character associated to this quadratic field, then the <a href="https://en.wikipedia.org/wiki/Class_number_formula">class number formula</a> gives <img src="https://s0.wp.com/latex.php?latex=%7BL%281%2C%5Cchi%29+%3D+%5Cfrac%7B%5Cpi%7D%7B%5Csqrt%7Bd%7D%7D%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7BL%281%2C%5Cchi%29+%3D+%5Cfrac%7B%5Cpi%7D%7B%5Csqrt%7Bd%7D%7D%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7BL%281%2C%5Cchi%29+%3D+%5Cfrac%7B%5Cpi%7D%7B%5Csqrt%7Bd%7D%7D%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{L(1,&#92;chi) = &#92;frac{&#92;pi}{&#92;sqrt{d}}}" class="latex" />, and with a bit more work one can produce a Landau&#8211;Siegel zero <img src="https://s0.wp.com/latex.php?latex=%7BL%28%5Cbeta%2C%5Cchi%29%3D0%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7BL%28%5Cbeta%2C%5Cchi%29%3D0%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7BL%28%5Cbeta%2C%5Cchi%29%3D0%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{L(&#92;beta,&#92;chi)=0}" class="latex" /> with <img src="https://s0.wp.com/latex.php?latex=%7B1-%5Cbeta+%5Casymp+%5Cfrac%7B1%7D%7B%5Csqrt%7Bd%7D%7D%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7B1-%5Cbeta+%5Casymp+%5Cfrac%7B1%7D%7B%5Csqrt%7Bd%7D%7D%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7B1-%5Cbeta+%5Casymp+%5Cfrac%7B1%7D%7B%5Csqrt%7Bd%7D%7D%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{1-&#92;beta &#92;asymp &#92;frac{1}{&#92;sqrt{d}}}" class="latex" />. For sufficiently large <img src="https://s0.wp.com/latex.php?latex=%7Bd%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7Bd%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7Bd%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{d}" class="latex" />, this is inconsistent with <a href="https://en.wikipedia.org/wiki/Siegel_zero#Landau%E2%80%93Siegel_estimates">Siegel&#8217;s theorem</a>; but the standard proofs of this theorem also relied on the repulsion phenomenon and were also ineffective. It was only in 1976 that <a href="http://www.numdam.org/item/?id=ASNSP_1976_4_3_4_623_0">Goldfeld</a> gave an effective version of Siegel&#8217;s theorem that was enough to at least bound the tenth discriminant, given a suitable high rank elliptic curve. In <a href="https://numdam.org/item/SB_1983-1984__26__309_0/">followup work of Oesterlé</a>, combined with a high rank elliptic curve of <a href="https://zbmath.org/0538.14023">Gross and Zagier</a>, the bound <img src="https://s0.wp.com/latex.php?latex=%7Bd+%5Cleq+e%5E%7B7000%7D%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7Bd+%5Cleq+e%5E%7B7000%7D%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7Bd+%5Cleq+e%5E%7B7000%7D%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{d &#92;leq e^{7000}}" class="latex" /> was obtained; using a later <a href="https://projecteuclid.org/journals/duke-mathematical-journal/volume-44/issue-4/The-rank-of-elliptic-curves/10.1215/S0012-7094-77-04431-3.full">elliptic curve of Brumer and Kramer</a>, proven to have high rank by Mestre, Oesterlé, and Serre, the bound was improved to <img src="https://s0.wp.com/latex.php?latex=%7Bd+%5Cleq+e%5E%7B55%7D%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7Bd+%5Cleq+e%5E%7B55%7D%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7Bd+%5Cleq+e%5E%7B55%7D%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{d &#92;leq e^{55}}" class="latex" />. See <a href="https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-13/issue-1/Gauss-class-number-problem-for-imaginary-quadratic-fields/bams/1183552617.pdf">this survey of Goldfeld</a> for more discussion.
-</p><p>
-But now we have a fair number of new (and effective) ways to rule out Siegel zeroes, either by establishing a quasi-Riemann hypothesis, or by some version of the argument in <a href="https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/">this previous post</a>. In principle, each version of these arguments should also give a bound on the tenth discriminant <img src="https://s0.wp.com/latex.php?latex=%7Bd%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7Bd%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7Bd%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{d}" class="latex" /> (without using Heegner&#8217;s solution to the class number one problem that rules out this discriminant). The task of making each of these estimates explicit enough to create such a bound is rather tedious for humans. However, it seems eminently suitable for AI.
-</p><p>
-Thus, the challenge I pose is, for each of the new manuscripts or digestions relating to either the quasi-Riemann hypothesis or the Landau&#8211;Siegel zero problem (or by some novel argument), to use an AI tool to work out an effective upper bound for a hypothetical tenth discriminant <img src="https://s0.wp.com/latex.php?latex=%7Bd%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7Bd%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7Bd%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{d}" class="latex" />, without using Heegner&#8217;s methods, and to make best efforts to optimize this constant. This serves several purposes: 
-
-</p><ul><li> If the threshold is low enough to resolve the remaining discriminants by direct computation, this would yield a new solution of the class number one problem &#8212; possibly one that is formalizable in Lean in a high quality fashion (suitable for instance for upstreaming to Mathlib).
-</li><li> By performing this exercise on each of the different writeups, we obtain a way to compare the &#8220;strength&#8221; of each such writeup (after performing whatever optimizations are available for each writeup), which could give insight as to the relative advantages or disadvantages of different arrangements of the methods.
-</li><li> The exercise of minimizing the upper bound may spur the creation of entirely new arguments to solve either the class number one problem, or the elimination of Landau&#8211;Siegel zeroes.
-</li><li> There are many previous &#8220;failed&#8221; attempts at excluding the Landau&#8211;Siegel zero. It is possible that some of them contain ideas that can be combined with the newer solutions to this problem to &#8220;repair&#8221; the proofs, or at least improve the bound on the tenth discriminant.
-</li><li> Efforts here may also help improve the state of knowledge on higher class number problems, which by the work of Watkins in 2004 is currently solved up to class number 100.
-</li></ul>
-
-
-<p></p><p></p><p>
-Furthermore, as both of these problems are already solved (for over seven decades, in the case of the class number one problem), there is little risk of such a competition inadvertently disrupting an ongoing research project.
-</p><p>
-I am therefore inviting interested readers to contribute in the comments any effective bounds on the tenth discriminant they can extract from either an existing argument, or a novel one, with any amount of AI use permitted for this challenge so long as it is disclosed. Note that the challenge is broader than simply getting the &#8220;best&#8221; bound overall amongst all possible approaches; I am also interested in what bounds one can extract from any specific approach, even if they are worse than, say, the bounds of Goldfeld or Oesterlé. In particular, &#8220;negative&#8221; results in which the bounds obtained from a given method end up being rather large are still scientifically useful pieces of information that are worth reporting. One could also explore other directions, such as bounds that avoid using extensive compute to squeeze out the maximal amount of optimization, but are instead clean enough that their arguments are human-verifiable.
-</p><p>
-Any large outputs should be posted as links rather than as plain text; for instance, pointing to a Github repository containing one&#8217;s work would be a reasonable way to submit an entry (but a human-generated summary should be provided in the main text of the comment).
-</p><p>
-I would ask contributors to not prioritize speed above quality; this is not intended to be a race regarding who is &#8220;first&#8221; to claim any given bound. The spirit is intended to be collaborative rather than competitive: think of a Polymath style project, updated for the AI era. In particular, as with traditional mathematical research, it would be appropriate to build upon previous contributions to obtain an improved bound for a given proof technique. (But in such cases, one should of course give appropriate attribution to the prior source.)
-</p><p>
-I will not insist on formal verification (e.g., in Lean) of the results, though I would ask anyone submitting a purely AI-generated solution to do enough due diligence to check the output (e.g., with an independent AI tool) before posting it here.
-</p><p>
-I am looking forward to the results of this experimental challenge, both for the mathematical insights gained, and for the lessons learned on how to crowdsource AI assistance in mathematics in a responsible fashion.
-</p><p></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/feed/</wfw:commentRss>
-			<slash:comments>89</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">18525</post-id>
 		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
 			<media:title type="html">Terry</media:title>
 		</media:content>

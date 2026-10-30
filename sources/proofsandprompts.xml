@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Tue, 27 Oct 2026 13:04:01 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 29 Oct 2026 15:50:27 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,303 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>The (human) emotional part of doing maths</title>
+		<link>https://proofsandprompts.com/2026/10/29/the-human-emotional-part-of-doing-maths/</link>
+					<comments>https://proofsandprompts.com/2026/10/29/the-human-emotional-part-of-doing-maths/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Thu, 29 Oct 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Creativity]]></category>
+		<category><![CDATA[Personal experience]]></category>
+		<category><![CDATA[Response]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=1502</guid>
+
+					<description><![CDATA[ "All the relationships are emotional," shouted a stranger on the street. Turns out that's true even for mathematics. Emotion may be one of the most human things we have.  Judging by what AI still can't do, perhaps we should cherish this irrational part more.]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">A follow-up to <a href="https://proofsandprompts.com/2026/08/11/what-i-feel-like-when-i-work-with-an-ai/">Shmuel Weinberger&#8217;s post</a></h2>
+
+
+
+<p class="author-line wp-block-paragraph"><a href="https://luisegehaijing.github.io/">Luise Ge</a>, PhD student in computer science at <a href="https://cse.washu.edu/">Washington University St Louis</a></p>
+
+
+
+<h3 class="wp-block-heading"><strong>First, the not so serious part: emotions</strong></h3>
+
+
+
+<p class="wp-block-paragraph">Someone was shouting in her vernacular accent: &#8220;Because all the relationships are emotional!” just now, at 11pm.</p>
+
+
+
+<p class="wp-block-paragraph">It was so loud that I heard it as clearly as possible from the fifth floor.</p>
+
+
+
+<p class="wp-block-paragraph">It broke my concentration and made my mind switch to something different: maybe instead of saying I am a mathematician which actually made me feel nervous because i am no longer in a math department, I should say I am someone that have a deep relationship with it. How do i prove it? Because I have had and plan to continue having so many strong emotions with it!</p>
+
+
+
+<p class="wp-block-paragraph">Here is a list:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Euphoria:</strong> When I proved something successfully, blimey, I am the happiest person in the world.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Empowered:</strong> I am so grateful that I can understand a lot of physics, biology, chemistry, computer science or <a href="https://dmitri.mycpanel.princeton.edu/geometry-of-music.html">music</a> because I know maths.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Humbled:</strong> Why are large number so large? Why are we still knowing so little about everything?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Dread:</strong> I was not good at maths during high school, and maths exams at that time gave me tremendous nerves. I think it was to the level of panic attacks.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Sublimity:</strong> To me the Euler equation is like a Flemish painting I could hang on my wall; the aesthetic experience of an elegant is as haughty as listening to Bach&#8217;s music, but a little bit scary when thinking about higher dimensional space and topology (see, for example, <a href="https://www.youtube.com/watch?v=QcLfb0PhfO0&amp;feature=youtu.be">this video</a>).</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Anticipation:</strong> When I was going to learn a new topic, I would feel super excited.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Repose:</strong> I remember, for example, going over lecture notes for revision, and seeing all the definitions and theorems and lemmas connecting with each other makes me feel extremely organized and calm.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Camaraderie:</strong> The quarrels between you and your teammate can get so intense and heated that outsiders wouldn&#8217;t understand, but when the problem&#8217;s solved, we are the best teammates together.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Isolation:</strong> I felt sour when all my friends went out on Friday night.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Desolation:</strong> Does the never-ending tunnel resonates with you?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Tenacity: </strong>Is it about faith in myself, faith in the conjecture, or just because there is no exit?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Grounding:</strong> As I am doing CS, formal verification of things and some provable bounds give me something i can grip on and feel grounded by.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Bewilderment:</strong> Just dazed and confused.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Second, are they really not so serious?</strong><math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math><strong>or,</strong> <strong>what are emotions good for?</strong></h3>
+
+
+
+<p class="wp-block-paragraph">I travelled to an AI conference recently focused on integrating reasoning and learning; one of the main goals of this community (check inductive logic programming, for instance) is automated discovery, defining new entities and finding relationships between them, from atoms to genes. This is not a new dream either. As brought up by keynote speaker Prof. Stephen Muggleton, <a href="https://www.cs.ox.ac.uk/activities/ieg/e-library/sources/t_article.pdf">Turing</a><sup data-fn="fn-ddd06433-8f8b-4ca0-aee9-446fd791d9d9" class="fn"><a href="#fn-ddd06433-8f8b-4ca0-aee9-446fd791d9d9" id="fn-ddd06433-8f8b-4ca0-aee9-446fd791d9d9-link">1</a></sup> once pondered a question about whether a machine can generate new ideas like a nuclear chain reaction.</p>
+
+
+
+<p class="wp-block-paragraph">Discovery to me is the most exciting, and grandiose objective of AI, as it has truly propelled the development of our civilization.</p>
+
+
+
+<p class="wp-block-paragraph">As for <a href="https://henripoincarepapers.univ-nantes.fr/chp/hp-pdf/hp1910moa.pdf">mathematical creation</a>, it feels like these mysterious emotions, like the sense of “rightness”, or surprise, curiosity are like the little fairies guiding us to the destinations.</p>
+
+
+
+<p class="wp-block-paragraph">And this is the part current AI has not be able to do yet.</p>
+
+
+
+<p class="wp-block-paragraph">Maybe partially it’s because AI doesn&#8217;t have emotions yet but we do?</p>
+
+
+
+<p class="wp-block-paragraph">Maybe our human emotions will still make us better mathematicians, sometimes, and for a while?</p>
+
+
+
+<p class="wp-block-paragraph">Maybe we should try to always keep it this way?</p>
+
+
+
+<p class="wp-block-paragraph">And be wary that when we work with AI, our feelings seem to be less deep, and less varied.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 24 September 2026.</p>
+
+
+<ol class="wp-block-footnotes"><li id="fn-ddd06433-8f8b-4ca0-aee9-446fd791d9d9">The passage (responding to Lady Lovelace&#8217;s objection that a machine can only do what it&#8217;s told) reads: a person can &#8220;inject&#8221; an idea into a mind or machine, and it will respond to some extent and then die away <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> like a piano string struck by a hammer. Turing then extends the simile to an atomic pile below critical size: an injected idea corresponds to a neutron entering the pile from outside, causing a disturbance that eventually dies away <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> unless the pile is large enough, in which case the disturbance keeps growing until the whole pile goes up.<br>He then applies this directly to minds: most human minds seem to be &#8220;sub-critical,&#8221; meaning an idea presented to them gives rise, on average, to less than one idea in reply, while a smaller proportion are &#8220;supercritical,&#8221; where an idea can set off a whole cascade of secondary and tertiary ideas. He notes animal minds seem clearly sub-critical, and then poses the question your talk seems to have been built around: can a machine be made to be super-critical? <a href="#fn-ddd06433-8f8b-4ca0-aee9-446fd791d9d9-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/29/the-human-emotional-part-of-doing-maths/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1502</post-id>	</item>
+		<item>
+		<title>Axioms v.1.0.</title>
+		<link>https://proofsandprompts.com/2026/10/29/axioms-v-1-0/</link>
+					<comments>https://proofsandprompts.com/2026/10/29/axioms-v-1-0/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Norms]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<category><![CDATA[Understanding]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=1898</guid>
+
+					<description><![CDATA[“As many of you, I feel lost in the new world. I am gaining experience and face questions I find hard to answer and choices I find hard to make. For this reason, I wanted to create a very minimal set of axioms which I can quickly apply when I am not sure. […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph">Jarek Kędra, Professor at University of Aberdeen</p>
+
+
+
+<p class="wp-block-paragraph">As many of you, I feel lost in the new world. I am gaining experience and face questions I find hard to answer and choices I find hard to make. For this reason, I wanted to create a very minimal set of axioms which I can quickly apply when I am not sure. Also, I wanted them to be helpful in discussions about the new shape of mathematical research and education. They are not original very likely obvious to many of you, and they go back to Thurston, at least. I wrote them mainly for my personal use. Here is version 1.0.</p>
+
+
+
+<p class="wp-block-paragraph">AXIOMS v.1.0</p>
+
+
+
+<ol class="wp-block-list">
+<li>Mathematics is done to deepen human understanding.</li>
+
+
+
+<li>Mathematics advances only through human understanding.</li>
+
+
+
+<li>Independent human mathematical thought must be preserved.</li>
+</ol>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 4 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/29/axioms-v-1-0/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1898</post-id>	</item>
+		<item>
+		<title>Mathematics Year Zero</title>
+		<link>https://proofsandprompts.com/2026/10/29/mathematics-year-zero/</link>
+					<comments>https://proofsandprompts.com/2026/10/29/mathematics-year-zero/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Thu, 29 Oct 2026 10:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Norms]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2496</guid>
+
+					<description><![CDATA[It was the image of a bombardment that came to my mind on the day OpenAI announced the resolution of 372 major problems in mathematics: destroyed theses, shattered  academic lives, research fields in ruins, and the evidence of a brutal shift of era in which a company asserts its superpower without regard for those it has just crushed.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://www.i2m.univ-amu.fr/perso/charles.bordenave/start" data-type="link" data-id="https://www.i2m.univ-amu.fr/perso/charles.bordenave/start">Charles Bordenave</a>, CNRS research director at <a href="https://www.i2m.univ-amu.fr/">Aix-Marseille University</a></p>
+
+
+
+<p class="wp-block-paragraph"><strong>AI use:</strong> I did not use generative AI to write this text (apart grammar/ proof checking). It was originally written in French and it was translated with the help of QWEN3.8, an open weight model.</p>
+
+
+
+<p class="wp-block-paragraph">It was the image of a bombardment that came to my mind on the day OpenAI announced the resolution of 372 major problems in mathematics across 719 manuscripts: destroyed theses, shattered academic lives, research fields in ruins, and the evidence of a brutal shift of era in which a company asserts its superpower without regard for those it has just crushed.</p>
+
+
+
+<p class="wp-block-paragraph">I am not in the habit of giving my opinion publicly on my discipline. I trust collective deliberations more, which carry far more weight and legitimacy. But reading the very numerous high-quality contributions on this site, I wanted to add my small stone to this collective work of mourning our past life, of which this site is becoming, day by day, the place.</p>
+
+
+
+<p class="wp-block-paragraph">Why be so dramatic? The young people who embrace the demanding path of mathematics are our most precious collective asset. They may be the first victims of the revolution underway. A decline in positions is to be feared as early as 2027 in North American universities, and it could spread throughout the world. Students risk turning away from mathematics. Without even speaking of uncertainties in the job market, the symbolic and romantic force of our discipline has collapsed, and without it, we will no longer attract young people seeking understanding and universalism.</p>
+
+
+
+<p class="wp-block-paragraph">Obviously, the production of new knowledge in mathematics has exploded and one can only marvel at the truly superhuman feats accomplished by generative AIs. I will not dwell on the reasons pushing OpenAI, Anthropic and others toward this trophy race to theorems, we are but collateral victims of stakes that far exceed our community. Even when these companies turn away from mathematics, the AI revolution in our discipline will continue its development. It might perhaps even open up desirable horizons. But for that, we must organize ourselves to collectively survive this change of era.</p>
+
+
+
+<p class="wp-block-paragraph">Here are some proposals:</p>
+
+
+
+<ul class="wp-block-list">
+<li><em>Let us preserve the unity of our community</em> and keep dialogue open between our different opinions and strategies in the face of this revolution. The transparency on AI tools and models used, if any, should be the norm in our works.</li>
+
+
+
+<li><em>Let us stop using OpenAI tools to conduct research and let us write in our articles “We did not use for this project generative AI provided by OpenAI, whose practices do not meet the standards of our community”.</em> As highlighted by the Association for Human Mathematics, this company is out of step with the ethics of our profession and has shown us nothing but contempt, even in the face of our dialogue initiatives such as that of the Advisory Group on Mathematics and Artificial Intelligence, or as illustrated by the testimony of Tristan Buckmaster. Its practices are opaque and take advantage of our completely open academic world. I know of no real necessity for such an acceleration of mathematical research to meet the needs of other sciences or of society. Let us take the time to digest what has been produced in a few months.</li>
+</ul>
+
+
+
+
+
+<p class="wp-block-paragraph">Beyond the case of OpenAI, we should demand of all concerned companies that they accept the most elementary ethical recommendations, such as those formulated in the Leiden Declaration or by the Advisory Group on Mathematics and Artificial Intelligence. In a few years, we could have an open-source generative AI model controlled by the academic world. With such a model, we will have control over the financial and ecological costs we are willing to bear to advance our discipline, and we will be able to protect ourselves against a multi-speed discipline, depending on the wealth of universities and their proximity to AI companies.</p>
+
+
+
+<ul class="wp-block-list">
+<li><em>Let us fight to preserve positions,</em> at least initially. We have trained young mathematicians: it is our duty to help them find employment, security and guarantee fair conditions of access to these jobs regardless of their use of generative AIs.</li>
+
+
+
+<li><em>Let us redefine the contours of our discipline and our profession.</em> New fields and practices of mathematics will emerge, interdisciplinary research will develop, public outreach and mathematical culture could enter a golden age, mathematics becoming so accessible. This could prevent the foreseeable decline in the number of mathematics students.</li>
+
+
+
+<li><em>Let us invest in the field of AI safety.</em> We are experiencing this directly: AI raises very numerous critical challenges for our societies, such as cybersecurity and financial security, or the risk of cognitive collapse. Mathematics can contribute to this emerging field. We cannot leave it to the companies developing AI to decide what is the proper use of AI for tomorrow&#8217;s society.</li>
+
+
+
+<li><em>Let us defend a right to non-use of AI in all professional tasks, in all professions,</em> in the same way that we have a right to digital disconnection.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+<p class="wp-block-paragraph">The title of this text refers to&nbsp;Germany Year Zero, a masterpiece by Roberto Rossellini. It follows a child, alone in a Berlin in ruins, who brings to mind our young mathematicians. I hope that we will know how to avoid a tragedy.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 12 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/29/mathematics-year-zero/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2496</post-id>	</item>
+		<item>
 		<title>Why and how to transparently disclose AI use in mathematics research</title>
 		<link>https://proofsandprompts.com/2026/10/28/why-and-how-to-transparently-disclose-ai-use-in-mathematics-research/</link>
 					<comments>https://proofsandprompts.com/2026/10/28/why-and-how-to-transparently-disclose-ai-use-in-mathematics-research/#comments</comments>
@@ -329,7 +626,7 @@ taxonomy and a LaTeX package for implementation.]]></description>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/28/why-and-how-to-transparently-disclose-ai-use-in-mathematics-research/feed/</wfw:commentRss>
-			<slash:comments>6</slash:comments>
+			<slash:comments>8</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2451</post-id>	</item>
@@ -535,7 +832,7 @@ taxonomy and a LaTeX package for implementation.]]></description>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/28/math2038-a-day-in-the-life-of-future-mathematicians/feed/</wfw:commentRss>
-			<slash:comments>17</slash:comments>
+			<slash:comments>22</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2628</post-id>	</item>
@@ -663,7 +960,7 @@ taxonomy and a LaTeX package for implementation.]]></description>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/28/responsibility-of-mathematicians-in-the-age-of-ai/feed/</wfw:commentRss>
-			<slash:comments>3</slash:comments>
+			<slash:comments>4</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2120</post-id>	</item>
@@ -1054,7 +1351,7 @@ taxonomy and a LaTeX package for implementation.]]></description>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/27/on-ai-disclosures/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
+			<slash:comments>2</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2379</post-id>	</item>
@@ -1305,260 +1602,5 @@ taxonomy and a LaTeX package for implementation.]]></description>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">1763</post-id>	</item>
-		<item>
-		<title>Mathematics and mysticism: another defense of human mathematics</title>
-		<link>https://proofsandprompts.com/2026/10/26/mathematics-and-mysticism-another-defense-of-human-mathematics/</link>
-					<comments>https://proofsandprompts.com/2026/10/26/mathematics-and-mysticism-another-defense-of-human-mathematics/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Mon, 26 Oct 2026 12:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Creativity]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<category><![CDATA[Understanding]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=1640</guid>
-
-					<description><![CDATA[My intention here is to contribute to the discussion by pointing at an aspect of mathematics which I believe is under threat and has been forgotten in the rubble of this ongoing earthquake: the mystical aspect of mathematics. I am aware that using the word “mystical” in the mathematics community comes with some risks; yet I will try to defend it, because I think that this is one of the crucial aspects of human engagement with mathematics.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://sites.google.com/view/ibarros/">Ignacio Barros</a>, Assistant Professor at <a href="https://www.uantwerpen.be/en/about-uantwerp/faculties/faculty-of-science/research/departments-and-research-groups/department-of-mathematics/">University of Antwerp</a></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Acknowledgments and AI Disclosure:</strong> No ai was used. In exchange for coffee, I lured my colleague Edward Bryden (a human!) into my office to check my text. He generously corrected it and made suggestions that resulted in a definite improvement. I have left some of my spanish influenced mistakes for expository proposes and to, again, keep writing human!</p>
-
-
-
-<p class="wp-block-paragraph">We have all witnessed how the arrival and display of power of a foreign technology, to be found a few years ago in Philip Dick novels, has forced us into a healthy and long due discussion about the purpose and future of our doing as mathematicians. The range of answers and public reactions has been rather motley, yet at times elitist and riddled with moralizing considerations on our shared responsibility. One hears from some that we are to maintain the human aspect of mathematics at all costs and from others that we have to accept the reality as it changes and keep mathematics engaged in a world where artificial intelligence dominates larger territories of human intellectuality. All voices come from our shared love for mathematics.</p>
-
-
-
-<p class="wp-block-paragraph">I am writing not to offer an alternative point of view, I am much too slow of a thinker to form an articulated standpoint regarding artificial intelligence in the middle of this very loud maelstrom. My mind goes immediately to Quino’s genius expressing what many of us feel now.</p>
-
-
-
-<figure class="wp-block-image size-large wp-duotone-default"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1582" height="818" data-attachment-id="1643" data-permalink="https://proofsandprompts.com/2026/10/26/mathematics-and-mysticism-another-defense-of-human-mathematics/mafalda/" data-orig-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/mafalda.png?fit=1582%2C818&amp;ssl=1" data-orig-size="1582,818" data-comments-opened="1" data-image-title="mafalda" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/mafalda.png?fit=1024%2C529&amp;ssl=1" src="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/mafalda.png?resize=1582%2C818&#038;ssl=1" alt="Cartoon by Quino: Mafalda, sitting on the floor beside a small radio, looks glumly at a globe on a table." class="wp-image-1643" srcset="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/mafalda.png?w=1582&amp;ssl=1 1582w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/mafalda.png?resize=300%2C155&amp;ssl=1 300w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/mafalda.png?resize=1024%2C529&amp;ssl=1 1024w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/mafalda.png?resize=768%2C397&amp;ssl=1 768w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/09/mafalda.png?resize=1536%2C794&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Cartoon by Quino.</figcaption></figure>
-
-
-
-<p class="wp-block-paragraph">My intention here is to contribute to the discussion of an aspect of mathematics which I believe is under threat and has been forgotten in the rubble of this ongoing earthquake: the mystical aspect of mathematics. I am aware that using the word “mystical” in the mathematics community comes with some risks; yet I will try to defend it, because I think that this is one of the crucial aspects of human engagement with mathematics. Not only has it been there all along, certainly for the several thousand years of recorded mathematics, but it is in urgent need of protection from the settlers and their powerful machines.</p>
-
-
-
-<p class="wp-block-paragraph">We have fallen too easily into the comforting belief that science is a societal response to the human need for understanding the world, and that mathematics, as such, will never disappear. Even when the settlers and their machines are capable of answering all our questions, proving all our theorems, perhaps even formulating the questions, embarking on homeric research explorations and explaining their findings with soft patience and exemplary clarity, we say to ourselves, as long as we are humans, mathematics will not disappear because it comes from one of our defining ways to be in this world: trying to understand it. Our ways of doing mathematics might change, and perhaps the type of mathematics we do in the future will be reshaped, but our need for engaging with mathematics will always be there. As a warm someone in this blog offering comfort said: we can always take joy in the beauty of mathematics, independent of its creator. I agree with all this. Yet, just as our personal and communal relationship with the world is much more complex and mysterious than simply trying to understand it, the same is true for mathematics. In my eyes, it is a fatal mistake to cling to this optimistic premise and, to use the language of the settlers, wait until the sea is calm again and the machines open the way to a new era of mathematical research.</p>
-
-
-
-<p class="wp-block-paragraph">One could argue that the only other universal product of human culture present throughout our history that distinctly uses symbolism as much as we do in mathematics is our myths. Religion being the most prominent example. Although mathematics and myths use symbols in very different ways, it is not a coincidence that it is in these two places that we can find them sprouting from every branch. Religion accepts its relationship to the mystery, and it is perhaps because we want to mark some distance that we ignore the mystery in our doing.</p>
-
-
-
-<p class="wp-block-paragraph">We are not always aware of this, but whenever we write “Let X be a <math data-latex="\ldots"><semantics><mo lspace="0em" rspace="0em">…</mo><annotation encoding="application/x-tex">\ldots</annotation></semantics></math> ” we are doing something much deeper than just fixing a name for a mathematical object; we are spelling some form of life to a mind-conceived object, and once it has been spelled, we can observe it interact with us and with its peers. This points directly at our anemic, yet desperately human power of creation. This permeates our work, from leaders in our fields conceiving game changing mathematical constructions to small decorations on a lemma intended to help us overcome a harmless obstacle.</p>
-
-
-
-<p class="wp-block-paragraph">Creativity covers a large portion of our relationship to the world. We place creativity in the realm of intuition; reason and understanding are only there to shape, order, and filter, as clothes that wrap around them, giving shelter and warmth. Understanding comes after creating, yet both are needed, both drive us to do mathematics, and both are a deep and unavoidable response to our awe at being thrown into this world. The discourse that it doesn’t matter what creates new mathematics, as long as we as humans engage in appreciating and understanding it, is a fallacy. If it is not us the ones breathing life into our delicate, glacial, and often beautiful objects, then human mathematics dies. Maybe not in a decade, maybe not in a century, but eventually our creative pulsion will take us somewhere else.</p>
-
-
-
-<p class="wp-block-paragraph">We all know that academia has its fair share of big egos, but for the overwhelming majority of mathematicians, conjectures are there not to find heroism in solving them. They do play a central role in helping us orient ourselves and our research communities in our explorations of the ever growing landscape of mathematics. But this is not their only role. They also help us stay in contact, as a community, with the fact that we are part of a living mystery, and that no matter how far we go in our explorations, darkness, the unknown, the mystery is always around us. Conjectures are attractive and grounding because of this.</p>
-
-
-
-<p class="wp-block-paragraph">If you think about it, most of our time is spent in the unknown. Our most common state of mind is confusion, disorientation, and at times desperation. The goal of this never ending doing that we call mathematics is never to find comfort in the questions answered. We are almost allergic to that comfort. As soon as we get there, we move on as quickly as possible, we find the next mystery, we jump almost as a reaction into the darkness again. Why do we do this? I don’t think it is because we hopelessly suffer from the fever of “progress”, whose premise is that reality as it is needs to be changed as fast and as radically as possible. No, we have been doing mathematics for much longer than the rampant pandemic of progress. We do this because of our human need to collectively and individually stay in touch with that ancestral awe that made science and mathematics possible, to remind us that our place in this world is not under the encandilating light of answers, but rather under the dim light over the space between the answers and complete darkness.</p>
-
-
-
-<p class="wp-block-paragraph">Someone please tell the settlers to use their machines for something else!</p>
-
-
-
-<p class="wp-block-paragraph">Ignacio Barros,<br>September 29, 2026.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 29 September 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/26/mathematics-and-mysticism-another-defense-of-human-mathematics/feed/</wfw:commentRss>
-			<slash:comments>4</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1640</post-id>	</item>
-		<item>
-		<title>Use LLMs to check your work</title>
-		<link>https://proofsandprompts.com/2026/10/26/use-llms-to-check-your-work/</link>
-					<comments>https://proofsandprompts.com/2026/10/26/use-llms-to-check-your-work/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Mon, 26 Oct 2026 10:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Critique]]></category>
-		<category><![CDATA[Norms]]></category>
-		<category><![CDATA[The future of papers]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=1817</guid>
-
-					<description><![CDATA[Most discussions about LLMs in mathematics seem to focus on their (rapidly advancing) proof discovery abilities and the effects these abilities may have on professional mathematics. I write here about a different use of these technologies, to make the following point: we have a professional duty to use LLMs to proofread our work.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph">Anonymous</p>
-
-
-
-<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · AI is making papers cheap to produce but they remain costly to referee. Proofs and Prompts is publishing a series of posts from 26 October on the future of publishing, papers and credit. Questions such as how to disclose AI use, who bears the cost of checking, what authorship means and what papers of the future might look like will be addressed. This post is part of the series. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/publishing/">All posts in the series</a></p>
-
-<p class="wp-block-paragraph"><em>AI disclosure.</em> This essay was composed on the Notes app of the author’s iPhone. This app provides AI assistance with spelling, grammar, and auto-completion of words being typed.</p>
-
-
-
-<p class="wp-block-paragraph">Most discussions about LLMs in mathematics seem to focus on their (rapidly advancing) proof discovery abilities and the effects these abilities may have on professional mathematics. I write here about a different use of these technologies, to make the following point: we have a professional duty to use LLMs to proofread our work. I use “proofread” to mean both copy editing of no mathematical substance, as well as the detection and correction of mathematical errors and gaps in arguments. By “our work,” I mean our research papers, though the arguments below extend with straightforward modifications to teaching materials.</p>
-
-
-
-<p class="wp-block-paragraph">First, a fundamental community norm is that we should make all reasonable efforts to ensure that our proofs are correct. Modern LLMs are tools that, when used appropriately, can provide this assurance with high confidence and little effort.</p>
-
-
-
-<p class="wp-block-paragraph">Second, incorrect or inadequately justified proofs exact a substantial human cost. I have refereed many papers in my career; the vast majority had at least some minor mathematical issues, and a not insignificant minority had issues that required new contributions by the author(s) to patch. Identifying these issues and writing a detailed referee report to alert the author(s) takes many hours, especially for long and technical papers.</p>
-
-
-
-<p class="wp-block-paragraph">Before LLMs, I executed my referee responsibilities with pride, knowing that authors were (typically) putting forth the best work they could, and that operating on the frontier of mathematical knowledge would inevitably involve some mistakes. Now, however, when I see clear mistakes in papers I am reviewing, I just feel disrespected. The author(s) had a tool they could have used to eliminate the mistakes and did not, wasting my time. (Certainly, LLMs are not perfect, but it is easy to tell when a cursory check has not been done.)</p>
-
-
-
-<p class="wp-block-paragraph">Recent events in my personal life have emphasized for me the value and precariousness of human life, and how death and life-limiting illness can strike unpredictably. Submitting work that has not gone through an LLM check to a journal may cost a conscientious referee many hours of their time. To ask someone to spend their most precious resource correcting errors that could have been caught with the push of a button is both rude and professionally negligent.</p>
-
-
-
-<p class="wp-block-paragraph">Some may argue that abstention from LLM checking is justified on ethical grounds. If this objection rests on the behavior of frontier labs, one can simply use open-weight models. If the objection rests on resource use, a simple calculation shows that the resource use from a few minutes of LLM computation pales in comparison to other activities we regularly undertake to advance mathematics, such as conference travel. I am sure there will be other creative objections, but it is hard for me to see how they can outweigh the cost refereeing erroneous mathematics has on human life (especially in combination with the cost to all other readers who might be interested in the result).</p>
-
-
-
-<p class="wp-block-paragraph">I also believe we have a duty to use LLMs for literature searches, to ensure correct attribution, and to make sure our arguments are as simple and straightforward as possible. The reasons are similar.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 30 September 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/26/use-llms-to-check-your-work/feed/</wfw:commentRss>
-			<slash:comments>15</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1817</post-id>	</item>
-		<item>
-		<title>Disadvantages of Designating Mathematicians for AI Output Releases</title>
-		<link>https://proofsandprompts.com/2026/10/26/disadvantages-of-designating-mathematicians-for-ai-output-releases/</link>
-					<comments>https://proofsandprompts.com/2026/10/26/disadvantages-of-designating-mathematicians-for-ai-output-releases/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Mon, 26 Oct 2026 07:29:06 +0000</pubDate>
-				<category><![CDATA[Initiatives]]></category>
-		<category><![CDATA[AI companies]]></category>
-		<category><![CDATA[Community]]></category>
-		<category><![CDATA[Norms]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3065</guid>
-
-					<description><![CDATA[“In our September 29 recommendations, we outlined an approach to the release of AI-generated mathematical output by AI labs. Since then, we have been asked by people from multiple labs and by several mathematicians about a specific aspect of the recommendations — that the development of human understanding following a release must remain organic and community led — and what it says about the question of the labs choosing specific mathematicians to participate in various ways in the release of their output. […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://agmai.org/">Advisory Group on Mathematics and Artificial Intelligence</a><sup data-fn="7b0e2c64-5d1a-4f93-8a2e-c4d9b1f6a370" class="fn"><a href="#7b0e2c64-5d1a-4f93-8a2e-c4d9b1f6a370" id="7b0e2c64-5d1a-4f93-8a2e-c4d9b1f6a370-link">1</a></sup>, cross-posted at <a href="https://agmai.org/">agmai.org</a></p>
-
-
-
-<p class="wp-block-paragraph">In our <a href="https://agmai.org/general-sep29/">September 29 recommendations</a>, we outlined an approach to the release of AI-generated mathematical output by AI labs. Since then, we have been asked by people from multiple labs and by several mathematicians about a specific aspect of the recommendations — that the development of human understanding following a release must remain organic and community led — and what it says about the question of the labs choosing specific mathematicians to participate in various ways in the release of their output. The purpose of this document is to clarify this point and to explain the reasoning behind our position on it. We welcome further feedback from the community and engagement with these arguments.</p>
-
-
-
-<p class="wp-block-paragraph">In some past releases an AI company has designated mathematicians to receive the output on a problem, often before anyone else. Those mathematicians then worked to uncover the ideas in the output, check them, develop them, and present them to the wider community. The appeal of this release model is easy to see: it puts expert eyes on the output early, can lead to a better initial public writeup, and gives each result a knowledgeable point of contact.</p>
-
-
-
-<p class="wp-block-paragraph">After consideration of many negative effects that this release plan has, however, we have come to the conclusion that on balance the disadvantages outweigh the advantages. This should in no way be construed as criticism of the mathematicians who have taken on such a role: they have acted in good faith and done valuable work. Nonetheless, we recommend that AI companies do not adopt this practice for future releases, for the reasons below.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Delayed or unequal access</strong>. In cases where designated mathematicians see material before everyone else, they get a head start on problems others may have worked on for years. Other mathematicians may have valuable contributions to make based on the material but may not have access to it, and may be dissuaded from working on it.</p>
-
-
-
-<p class="wp-block-paragraph">The remaining reasons apply even if all the material is released publicly at once.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Denied agency</strong>. The choice of who works to understand, check, and write up an important AI-generated result is consequential, both for those chosen and for the field, especially in the current period of transition when norms around credit for mathematical activities are in flux. If an AI company designates a particular mathematician to undertake or lead this task, it is to an extent making this decision for the community and denying it agency over its field of study. Further, this choice may discourage other mathematicians from contributing to the understanding of the results.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Biased selection</strong>. Any choice of designated mathematicians by the AI companies reflects their networks and priorities, which are different from those of the mathematical community. However carefully the choice is made, it is opaque and unaccountable. Moreover, this practice could incentivize mathematicians to align with whatever they perceive the AI companies’ priorities to be.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Borrowed reputation</strong>. In practice, designated mathematicians&#8217; names end up vouching for the release and shielding the AI company from criticism. Given the wide range of views on the release of results by companies in the mathematical community, that puts the designated mathematicians in a difficult position that could compromise their role of helping with understanding.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>It is unnecessary</strong>. Recent experience has shown that human understanding can develop organically and efficiently when AI-generated material is made available. In many cases recently, mathematicians have independently read released AI output, worked to understand it, and written useful papers providing clear arguments that solve the problems. We are also aware of several reading groups, workshops and websites being organized to understand other AI-generated output, and there are new funding opportunities for such activities.</p>
-
-
-
-<h2 class="wp-block-heading">What we recommend instead</h2>
-
-
-
-<p class="wp-block-paragraph">We recommend that any lab releasing AI-generated mathematical output should follow either pathway 2A of our recommendations (for scholarly articles produced by AI lab employees, adhering to standards set by the mathematical community) or pathway 2B (for unfinished products that the employees do not intend to write up as scholarly articles). A brief summary of pathway 2B is:</p>
-
-
-
-<ol class="wp-block-list">
-<li>AI labs should make a serious good faith effort to improve citations and exposition, including scouring the literature for any ideas that should be cited.</li>
-
-
-
-<li>Products should be posted on scholarly repositories that are not controlled by the posting AI lab, have citable identifiers, and record modifications.</li>
-
-
-
-<li>Products should be accompanied by information about the process that produced them: the name of the model, prompts, chains of thought, number of attempts, compute used, and costs.</li>
-
-
-
-<li>Proofs should be Lean-formalized where possible, unless it leads to unacceptable delays. Formalization artifacts should meet several community standards.</li>
-
-
-
-<li>AI labs should state how the problems were chosen and how many problems were attempted.</li>
-
-
-
-<li>AI companies should provide support, including funding, for the development of human understanding of the released products through academic workshops, working groups, and other activities. Decisions about which particular efforts are supported should be taken neither by AGMAI nor by AI companies, but by separate, independent nonprofit institutions.</li>
-</ol>
-
-
-
-<p class="wp-block-paragraph">Full details of our recommendations are provided in our <a href="https://agmai.org/general-sep29/">September 29 recommendations</a>. We recall that our recommendations are intended for mathematics, and not necessarily for other areas of science.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 25 October 2026.</p>
-
-
-<ol class="wp-block-footnotes"><li id="7b0e2c64-5d1a-4f93-8a2e-c4d9b1f6a370">Members of the Advisory Group, as listed on <a href="https://agmai.org/">agmai.org</a>: François Charles (ENS-PSL), Camillo De Lellis (IAS, GSSI), Timothy Gowers (Collège de France, Cambridge), Martin Hairer (EPFL, Imperial College London), Nikhil Srivastava (Berkeley, Simons Institute), Ulrike Tillmann (Oxford), Ravi Vakil (Stanford), Edward Witten (IAS), Melanie Matchett Wood (Harvard). <a href="#7b0e2c64-5d1a-4f93-8a2e-c4d9b1f6a370-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/26/disadvantages-of-designating-mathematicians-for-ai-output-releases/feed/</wfw:commentRss>
-			<slash:comments>15</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3065</post-id>	</item>
 	</channel>
 </rss>

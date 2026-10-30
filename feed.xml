@@ -6,7 +6,7 @@
 <atom:link href="https://xavierblot-math.github.io/veille-ia/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Daily summary of Xena, Proofs and Prompts, Silicon Reckoner, Tao (blog and Mastodon) and Gowers.</description>
 <language>en</language>
-<lastBuildDate>Fri, 30 Oct 2026 04:42:58 +0000</lastBuildDate>
+<lastBuildDate>Fri, 30 Oct 2026 04:43:06 +0000</lastBuildDate>
 <item>
 <title>Digest — 30 October 2026 (4 new posts)</title>
 <link>https://xavierblot-math.github.io/veille-ia/#2026-10-30</link>
@@ -17,7 +17,7 @@
 
 <h3>Terence Tao (guest post by Gireeja Ranade) — <a href="https://terrytao.wordpress.com/2026/10/29/ai-mathematics-education-and-a-public-goods-problem/">AI, Mathematics, Education, and a public goods problem</a></h3>
 <ul>
-<li>Ranade (EECS professor, Berkeley side of optimization/probability) starts from students demoralised after the Navier–Stokes announcement and asks not whether mathematics survives, but whether ordinary mathematicians and the pipeline that trains them do.</li>
+<li>Ranade (an EECS professor who teaches optimization and probability) starts from students demoralised after the Navier–Stokes announcement and asks not whether mathematics survives, but whether ordinary mathematicians and the pipeline that trains them do.</li>
 <li>Core argument: PhD programmes and entry-level jobs are like "being paid to go to the gym"; if AI removes them, society loses its means of keeping human reasoning in shape — a public goods problem no individual student will solve.</li>
 <li>Education is the "canary in the coal mine": students handing in proofs they don't understand foreshadow researchers publishing results they don't understand; even with Lean, someone must judge whether formal statements are faithful.</li>
 <li>Proposals: teach harder rather than shallower, fund 1-1 tutoring, and ask university leaders and funders to publicly commit to hiring and to open-ended theoretical research.</li>

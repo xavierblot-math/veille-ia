@@ -6,7 +6,45 @@
 <atom:link href="https://xavierblot-math.github.io/veille-ia/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Daily summary of Xena, Proofs and Prompts, Silicon Reckoner, Tao (blog and Mastodon) and Gowers.</description>
 <language>en</language>
-<lastBuildDate>Thu, 29 Oct 2026 04:42:21 +0000</lastBuildDate>
+<lastBuildDate>Fri, 30 Oct 2026 04:42:58 +0000</lastBuildDate>
+<item>
+<title>Digest — 30 October 2026 (4 new posts)</title>
+<link>https://xavierblot-math.github.io/veille-ia/#2026-10-30</link>
+<guid isPermaLink="false">veille-ia-2026-10-30</guid>
+<pubDate>Fri, 30 Oct 2026 04:00:00 +0000</pubDate>
+<description><![CDATA[
+<p><em>Nothing new: Xena (Buzzard), Gowers, Tao on Mastodon.</em></p>
+
+<h3>Terence Tao (guest post by Gireeja Ranade) — <a href="https://terrytao.wordpress.com/2026/10/29/ai-mathematics-education-and-a-public-goods-problem/">AI, Mathematics, Education, and a public goods problem</a></h3>
+<ul>
+<li>Ranade (EECS professor, Berkeley side of optimization/probability) starts from students demoralised after the Navier–Stokes announcement and asks not whether mathematics survives, but whether ordinary mathematicians and the pipeline that trains them do.</li>
+<li>Core argument: PhD programmes and entry-level jobs are like "being paid to go to the gym"; if AI removes them, society loses its means of keeping human reasoning in shape — a public goods problem no individual student will solve.</li>
+<li>Education is the "canary in the coal mine": students handing in proofs they don't understand foreshadow researchers publishing results they don't understand; even with Lean, someone must judge whether formal statements are faithful.</li>
+<li>Proposals: teach harder rather than shallower, fund 1-1 tutoring, and ask university leaders and funders to publicly commit to hiring and to open-ended theoretical research.</li>
+<li>👉 Directly relevant to PhD supervision and to arguing for positions in theoretical fields.</li>
+</ul>
+
+<h3>Proofs and Prompts (Luise Ge) — <a href="https://proofsandprompts.com/2026/10/29/the-human-emotional-part-of-doing-maths/">The (human) emotional part of doing maths</a></h3>
+<ul>
+<li>A CS PhD student (WashU St Louis), replying to Shmuel Weinberger, lists the emotions mathematics gives her, from euphoria and camaraderie to isolation and bewilderment.</li>
+<li>Her serious point: feelings such as surprise or a sense of "rightness" steer discovery, which she sees as what current AI still lacks; she warns that working with AI may make those feelings shallower.</li>
+<li>Draws on Turing's "sub-critical vs super-critical minds" passage, raised in a Stephen Muggleton keynote at a reasoning-and-learning conference.</li>
+</ul>
+
+<h3>Proofs and Prompts (Jarek Kędra) — <a href="https://proofsandprompts.com/2026/10/29/axioms-v-1-0/">Axioms v.1.0.</a></h3>
+<ul>
+<li>The Aberdeen professor proposes three minimal, Thurston-inspired principles to guide decisions: mathematics exists to deepen human understanding, advances only through it, and independent human thought must be preserved.</li>
+</ul>
+
+<h3>Proofs and Prompts (Charles Bordenave) — <a href="https://proofsandprompts.com/2026/10/29/mathematics-year-zero/">Mathematics Year Zero</a></h3>
+<ul>
+<li>The CNRS research director (Aix-Marseille) describes OpenAI's announcement of 372 problems solved across 719 manuscripts as a "bombardment" of theses and careers, and fears falling hiring from 2027 and a collapse of the discipline's appeal to students.</li>
+<li>Proposals: mandatory transparency on AI use; a boycott of OpenAI tools for research, with an explicit statement in papers; pressure on companies to adopt the Leiden Declaration and the Advisory Group's recommendations; an open-source model controlled by academia.</li>
+<li>Also: defend positions for young mathematicians regardless of their AI use, invest in AI safety, and recognise a "right to non-use" of AI at work. Written in French, title after Rossellini's <em>Germany Year Zero</em>.</li>
+<li>👉 A strong position from the French community, likely to be discussed among colleagues.</li>
+</ul>
+]]></description>
+</item>
 <item>
 <title>Digest — 29 October 2026 (4 new posts)</title>
 <link>https://xavierblot-math.github.io/veille-ia/#2026-10-29</link>

@@ -23,7 +23,7 @@
 <site xmlns="com-wordpress:feed-additions:1">1659011</site><cloud domain='gowers.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
 <source:cloud xmlns:source='https://source.scripting.com/'>https://gowers.wordpress.com/?rsscloud=notify</source:cloud>
 <image>
-		<url>https://s2.wp.com/i/webclip.png</url>
+		<url>https://s0.wp.com/i/webclip.png</url>
 		<title>Gowers&#039;s Weblog</title>
 		<link>https://gowers.wordpress.com</link>
 	</image>
@@ -1509,7 +1509,7 @@
 
 
 <figure class="wp-block-embed is-type-rich is-provider-embed-handler wp-block-embed-embed-handler wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe class="youtube-player" width="450" height="254" src="https://www.youtube.com/embed/N4jv33q3_NM?si=WVWugmOaAjRZY2LZ&#038;version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox"></iframe>
+<iframe class="youtube-player" title="YouTube video player" width="450" height="254" src="https://www.youtube.com/embed/N4jv33q3_NM?si=WVWugmOaAjRZY2LZ&#038;version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox"></iframe>
 </div></figure>
 
 

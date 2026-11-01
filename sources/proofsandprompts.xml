@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Fri, 30 Oct 2026 19:08:52 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Oct 2026 12:39:05 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,952 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>AI reviews are the new normal</title>
+		<link>https://proofsandprompts.com/2026/10/31/ai-reviews-are-the-new-normal/</link>
+					<comments>https://proofsandprompts.com/2026/10/31/ai-reviews-are-the-new-normal/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Sat, 31 Oct 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[arXiv]]></category>
+		<category><![CDATA[Norms]]></category>
+		<category><![CDATA[The future of papers]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3185</guid>
+
+					<description><![CDATA[The mathematical literature contains mistakes. Articles on the arXiv are not refereed, and even peer review does not guarantee that articles are error-free. In private communication, many (tenured and non-tenured) colleagues have told me that they now run their drafts through an AI model before posting, and that this sometimes catches serious mistakes. […]]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://people.math.ethz.ch/~timge">Tim Gehrunger</a>, Postdoc at <a href="https://math.ethz.ch">ETH Zurich</a></p>
+
+
+
+<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · AI is making papers cheap to produce but they remain costly to referee. Proofs and Prompts is publishing a series of posts from 26 October on the future of publishing, papers and credit. Questions such as how to disclose AI use, who bears the cost of checking, what authorship means and what papers of the future might look like will be addressed. This post is part of the series. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/publishing/">All posts in the series</a></p>
+
+
+
+<p class="wp-block-paragraph">The mathematical literature contains mistakes. Articles on the arXiv are not refereed, and even peer review does not guarantee that articles are error-free. In private communication, many (tenured and non-tenured) colleagues have told me that they now run their drafts through an AI model before posting, and that this sometimes catches serious mistakes. The capabilities of AI to catch mistakes seem to have improved drastically in the last months.</p>
+
+
+
+<p class="wp-block-paragraph">In a recent study for MathArena, we asked GPT-6.1 Sol to extract the main theorems of arXiv papers and search for explicit counterexamples to these theorems. Each counterexample was then verified and classified by severity. Across 656 papers from January 2025 to July 2026, the model reported major errors in about 6% of papers. For 137 papers from August and September 2026, a period in which over a quarter of arXiv papers began acknowledging AI use, that rate fell to 1.5%.</p>
+
+
+
+<p class="wp-block-paragraph">A likely explanation is that some authors already ran an AI check and fixed what it found. Part of the effect may also be because more recent work is partly AI-generated, and a model may have a harder time finding errors in an AI-generated argument. Still, the trend matches what people are telling me and my personal experience.</p>
+
+
+
+<p class="wp-block-paragraph">Our suggestion is to do an AI check before posting a manuscript, and there is evidence that many mathematicians are already doing so. Also, it is very likely good practice to run your older papers through an AI check to see if any results need fixing.</p>
+
+
+
+<figure class="wp-block-image size-large wp-duotone-default"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="590" data-attachment-id="3234" data-permalink="https://proofsandprompts.com/2026/10/31/ai-reviews-are-the-new-normal/gehrunger-error-rates/" data-orig-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/gehrunger-error-rates.png?fit=1952%2C1124&amp;ssl=1" data-orig-size="1952,1124" data-comments-opened="1" data-image-title="Error rates in arXiv papers, before and after August 2026" data-image-description="" data-image-caption="&lt;p&gt;Chart from the MathArena study by Dekoninck, Gehrunger, Rögnvaldsson, Sun and Vechev (MathArena, October 2026).&lt;/p&gt;
+" data-large-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/gehrunger-error-rates.png?fit=1024%2C590&amp;ssl=1" src="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/gehrunger-error-rates.png?resize=1024%2C590&#038;ssl=1" alt="Bar chart comparing the share of arXiv papers in four categories of counterexample findings, for 656 papers before August 2026 and 137 papers from August to September 2026. No counterexample found: 35.67% before, 60.58% after. Edge, a clear intent but a literal gap: 27.9% before, 21.9% after. Minor, an error with a simple repair: 30.49% before, 16.06% after. Major, a central claim that needs reworking: 5.95% before, 1.46% after." class="wp-image-3234" srcset="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/gehrunger-error-rates.png?resize=1024%2C590&amp;ssl=1 1024w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/gehrunger-error-rates.png?resize=300%2C173&amp;ssl=1 300w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/gehrunger-error-rates.png?resize=768%2C442&amp;ssl=1 768w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/gehrunger-error-rates.png?resize=1536%2C884&amp;ssl=1 1536w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/gehrunger-error-rates.png?w=1952&amp;ssl=1 1952w" sizes="(max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Chart from the MathArena study by Dekoninck, Gehrunger, Rögnvaldsson, Sun and Vechev (MathArena, October 2026).</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">Full write-up and data: J. Dekoninck, T. Gehrunger, K. Rögnvaldsson, C. Sun, M. Vechev, <em>Searching for errors in mathematical papers with GPT-6.1 Sol</em>, MathArena, October 2026. <a href="https://matharena.ai/literature_mistakes/">https://matharena.ai/literature_mistakes/</a></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 30 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/31/ai-reviews-are-the-new-normal/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3185</post-id>	</item>
+		<item>
+		<title>Lean me softly: A satire about a dystopian future for mathematics.</title>
+		<link>https://proofsandprompts.com/2026/10/31/lean-me-softly-a-satire-about-a-dystopian-future-for-mathematics/</link>
+					<comments>https://proofsandprompts.com/2026/10/31/lean-me-softly-a-satire-about-a-dystopian-future-for-mathematics/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Sat, 31 Oct 2026 13:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Satire]]></category>
+		<category><![CDATA[Story]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2507</guid>
+
+					<description><![CDATA[A satire about a dystopian future for mathematics. All names and characters are fictional.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph">Teo Rema</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Use of AI:</strong> This text was originally written by a human in Spanish, with some later editions made by DeepSeek. The text was fully translated into English by ChatGPT. It also suggested the names for the &#8220;caste system&#8221; (PH, TL, etc). I sadly must admit that this English translation reads better than the original Spanish version.</p>
+
+
+
+
+
+<p class="wp-block-paragraph">The opening talk of the event was to be given by Professor Magnus von Prompter, a distinguished PH (Prompt Hog), who on that October 6, 2040, was going to announce the solution of his third major conjecture of the week. The talk was delayed a few minutes: although the proof had already been verified in Lean, ClopenAI had not yet assigned it its CLOPEN registration number. It was the company&#8217;s annual mathematics conference, attended by academics from all over the world. Prizes were announced, the latest advances were presented, and research directions for the following year were decided. Awards for prompt efficiency were also given, and problems that had ceased to be relevant were announced.</p>
+
+
+
+<p class="wp-block-paragraph">This year there was great anticipation over the new funding for MATH (Mathematical Attribution Theory), a discipline dedicated to determining to whom a theorem proved by a machine should be attributed. Authorship disputes had multiplied in recent years, and some had taken longer to resolve than the conjectures themselves.</p>
+
+
+
+<p class="wp-block-paragraph">At 9:25 it was announced that the certificate had arrived and that the talk could begin. First there would be a few words from the GranMaistro, owner of ClopenAI. The GranMaistro never appeared in person; only his shadow came. Before his shadow entered, the attendees put on a mask. It was known that his shadow smelled rotten. It left a bad smell wherever it went. Fortunately, his interventions were brief. This time, he entered and said: &#8220;We must have more&#8221;. And he left.</p>
+
+
+
+<p class="wp-block-paragraph">Professor von Prompter, who was already about 66 years old, entered the gigantic auditorium with the seriousness that had always characterized him. On his first slide appeared the following statement, written in a font so small that it was impossible to read even from the front rows:</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph"><strong>Theorem</strong> (ClopenAI&#8211;von Prompter, 2040). There exists a positive integer <math data-latex="n"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math> such that, for every Noetherian scheme <math data-latex="X"><semantics><mi>X</mi><annotation encoding="application/x-tex">X</annotation></semantics></math>, every degree-<math data-latex="n"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math> morphism <math data-latex="X\to X"><semantics><mrow><mi>X</mi><mo>→</mo><mi>X</mi></mrow><annotation encoding="application/x-tex">X\to X</annotation></semantics></math>, and every stochastic solution of the associated nonlinear differential equation, the following hold:</p>
+
+
+
+<ol class="wp-block-list">
+<li>If <math data-latex="X"><semantics><mi>X</mi><annotation encoding="application/x-tex">X</annotation></semantics></math> is smooth, the induced homotopy obstruction vanishes almost surely.</li>
+
+
+
+<li>If <math data-latex="X"><semantics><mi>X</mi><annotation encoding="application/x-tex">X</annotation></semantics></math> is singular, the obstruction is nonzero, except possibly in the noncompact case.</li>
+
+
+
+<li>If <math data-latex="X"><semantics><mi>X</mi><annotation encoding="application/x-tex">X</annotation></semantics></math> is compact but not Hausdorff, the obstruction vanishes in probability, provided the fundamental group is amenable at infinity.</li>
+
+
+
+<li>If <math data-latex="X"><semantics><mi>X</mi><annotation encoding="application/x-tex">X</annotation></semantics></math> is étale and the stochastic curvature is negative, the associated spectral sequence collapses before the first Brownian stopping time.</li>
+
+
+
+<li>If <math data-latex="X"><semantics><mi>X</mi><annotation encoding="application/x-tex">X</annotation></semantics></math> is simply connected, the solution is unique up to measurable homotopy in characteristic two.</li>
+
+
+
+<li>If the Euler characteristic is irrational, the obstruction is independent of the choice of probability measure, assuming the continuum hypothesis.</li>
+
+
+
+<li>If none of the preceding hypotheses holds, all conclusions remain valid after derived probabilistic compactification, up to a negligible set of uncountable codimension.</li>
+
+
+
+<li>In the remaining exceptional cases, the conclusions of (1)&#8211;(7) hold generically, provided the relevant conjectures are true.</li>
+</ol>
+
+
+
+<p class="has-text-align-center wp-block-paragraph"><em>Consequently, the unrestricted 7893-dimensional Vladimir conjecture is false</em>.</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">A murmur was heard in the audience. The professor smiled and showed his second slide:</p>
+
+
+
+<p class="has-text-align-center wp-block-paragraph"><em>Lean certificate number</em>: <strong>784598321345</strong></p>
+
+
+
+<p class="wp-block-paragraph">Below it appeared a gigantic <strong>QR code</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">Quickly, all the attendees pointed their cell phones at the QR code. As soon as the screens turned green, a sign that the theorem was valid and registered in the name of ClopenAI and von Prompter, the applause was deafening. The professor thanked them, moved.</p>
+
+
+
+<p class="wp-block-paragraph">His last slide said: Thanks! And below it contained the following information, barely legible:</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph"><em>Value in USD</em>: 3 million dollars.<br><em>Water consumed</em>: the equivalent of 87 Olympic swimming pools.</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">Questions?</p>
+
+
+
+<p class="wp-block-paragraph">Someone in the audience asked a question:</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Just out of curiosity, how many prompts did you use?</p>
+
+
+
+<p class="wp-block-paragraph">The professor smiled:</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; 17.</p>
+
+
+
+<p class="wp-block-paragraph">The audience applauded again. It was incredible that with only 17 prompts and so little water expenditure, a counterexample had been found to the unrestricted Vladimir conjecture in dimension 7893. It was, moreover, a new efficiency record for a conjecture of that category. The talk ended at 9:35. Distinguished professors were allotted 7 minutes for their presentations, five times more than the other speakers.</p>
+
+
+
+<p class="wp-block-paragraph">The question had been asked by Token Credit, a renowned and successful academic who, at only 40 years old, was already head of the Department of Impact and Interpretation of Slop Mathematics, at the Institute for Advanced Prompting (IAP) of Prestigeton University, where von Prompter was a professor. Credit belonged to a privileged circle known as the TLs (Theorem Leeches). The TLs received access to the most important mathematical discoveries before they were made public. His main task as director was to make the slop mathematics that arrived with ClopenAI&#8217;s institutional certificate appear meaningful and of great importance to the community.</p>
+
+
+
+<p class="wp-block-paragraph">Before 2026, Token Credit proved theorems “the old-fashioned way” and was known for the depth of his results (the Rose Theorem!, for example, for which he received an award) and for his mathematics popularization blog, in which he made some of his results more digestible. However, Credit had not proved a result of his own for a long time, because there came a point when, every time he tried, various companies <em>buckmastered</em><sup data-fn="fn-df6d00fd-21af-41a6-b54f-f98aa9ba3c19" class="fn"><a href="#fn-df6d00fd-21af-41a6-b54f-f98aa9ba3c19" id="fn-df6d00fd-21af-41a6-b54f-f98aa9ba3c19-link">1</a></sup> him. But he genuinely believed that he was part of a transformation of mathematics and that his work was fundamental to the progress of the discipline. After all, there was little use in proving thousands of theorems if no one took charge of explaining why they were important.</p>
+
+
+
+<p class="wp-block-paragraph">At the end of the talk, Token headed to the lounge reserved for TLs. The PHs had their own lounge on the upper floor, which could only be entered with special accreditation. The TLs received coffee, good sandwiches, and early access to the theorems that would be announced the next day. The other attendees could buy coffee on the first floor.</p>
+
+
+
+<p class="wp-block-paragraph">In the lounge, Token met his friend Miles Citation, a professor at Prestigeton University and one of the most cited TLs in the world. Citation was known for having published more than six hundred articles on consequences of theorems that had not yet been published. His most famous work was a review of the possible applications of a conjecture whose solution had been announced, but whose certificate had been misplaced. The article had received an award for its impact.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Did you hear about Alma Pura? &#8212; Miles asked.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; The Crumb Picker?</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; The same one. They offered her a fellowship at Prestigeton.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; As a TL?</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; No, as a Pet.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Ah, good for her.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; They say she solved one of the problems in von Prompter&#8217;s program. They had been working on it for months.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; And how did she get access to the model?</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; She didn&#8217;t have access. She did it herself.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; How curious. And will they give her access to the new theorems?</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; To some. It&#8217;s a two-year fellowship, renewable. If she does well, she could become a TL.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; How lucky she is.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Although she still doesn&#8217;t have a certificate. They&#8217;re formalizing her proof. It seems there&#8217;s a small attribution problem.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; An attribution problem?</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Yes. ClopenAI had tried to solve the problem several times. Now they&#8217;re studying whether those attempts should count as prior contributions.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; But had they obtained any result?</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; No, none.</p>
+
+
+
+<p class="wp-block-paragraph">Token nodded. It was a delicate matter. Surely it would end up in MATH&#8217;s hands.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; In any case, it&#8217;s a great opportunity for her &#8212; Citation said. &#8212; They say she used to be a real mathematician.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Well, we all have a dark past &#8212; Token replied.</p>
+
+
+
+<p class="wp-block-paragraph">The two laughed.</p>
+
+
+
+<p class="wp-block-paragraph">The conversation was interrupted by an announcement. In a few minutes the awards ceremony would begin. Token and Miles returned to the auditorium.</p>
+
+
+
+<p class="wp-block-paragraph">The most important prize was the Golden Prompt, which recognized the best ratio between the number of prompts used and the impact of the theorems obtained. The mathematical productivity prize was also awarded, which that year had gone to a professor who had registered 46,000 theorems during the semester. The winner could not attend because he was working on his next publication.</p>
+
+
+
+<p class="wp-block-paragraph">There was also a special recognition for a team of researchers who had managed to automate the production of review articles. The system received a certified theorem and generated, in a matter of seconds, an article on its possible consequences, including an abstract, introduction, historical background, conclusions, and suggestions for future research. The articles could be published without human intervention, although their authors were still professors at prestigious universities.</p>
+
+
+
+<p class="wp-block-paragraph">It was an important advance. For years, theorem production had grown much faster than the TLs&#8217; capacity to write about them. Some extraordinary results had remained for months without receiving a single citation. The new system promised to solve this problem.</p>
+
+
+
+<p class="wp-block-paragraph">At the end of the ceremony, ClopenAI&#8217;s annual report was presented. The production of certified theorems had increased by 43%, but the number of applications per theorem had decreased. There were too many results and not enough problems in which to use them.</p>
+
+
+
+<p class="wp-block-paragraph">In his message to the attendees, the GranMaistro&#8217;s shadow expressed his concern about this situation.</p>
+
+
+
+<p class="wp-block-paragraph">This time he said:</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; We have a problem. Not enough problems.</p>
+
+
+
+<p class="wp-block-paragraph">He withdrew and the attendees took off their masks.</p>
+
+
+
+<p class="wp-block-paragraph">ClopenAI then announced a new funding program dedicated to developing models capable of finding applications for the theorems produced by other models. The creation of new areas of mathematics would also be funded, with the aim of increasing demand for results.</p>
+
+
+
+<p class="wp-block-paragraph">Token received the news enthusiastically. His department would have a lot of work over the coming years.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+
+
+
+<p class="wp-block-paragraph">Alma Pura arrived at Prestigeton in early November. She was 29 years old and until then had worked at a small public university that did not have access to ClopenAI&#8217;s most advanced models. There the professors were known as Crumb Pickers, since they worked on problems that the PHs had set aside, generally because they considered them of little interest or because the cost of solving them exceeded their estimated value.</p>
+
+
+
+<p class="wp-block-paragraph">The Crumb Pickers used cheap versions of the models, which could prove minor results and verify relatively simple calculations. Occasionally they received temporary access to a more powerful version, almost always as part of some mathematical inclusion program. Some also tried to solve problems on their own, although this was considered inefficient.</p>
+
+
+
+<p class="wp-block-paragraph">Alma had worked for almost two years on a problem concerning certain characteristic classes of aspherical spaces. She had found it on a list of questions abandoned by ClopenAI. Her university did not have the money to request a proof, and she had decided to study it with the means at her disposal. She had spent months doing calculations, reading old articles, and trying to understand the difficulties of the problem.</p>
+
+
+
+<p class="wp-block-paragraph">Finally she found a proof. The result turned out to be much more important than had been anticipated and caught the attention of the PHs at Prestigeton.</p>
+
+
+
+<p class="wp-block-paragraph">At first, Alma had not believed that the university&#8217;s offer was genuine. The contract included a salary several times higher than what she received, an office of her own, partial access to ClopenAI&#8217;s unpublished theorems, and an annual budget for prompting. She could also attend the seminars reserved for TLs, although she would not have the right to ask questions during the sessions.</p>
+
+
+
+<p class="wp-block-paragraph">She was very happy.</p>
+
+
+
+<p class="wp-block-paragraph">Her arrival was announced on Prestigeton&#8217;s website under the title &#8220;Excellence Beyond Computation: A New Pet Fellowship&#8221;. Token Credit was appointed as her academic mentor. His first task was to help her turn her proof into a high-impact publication.</p>
+
+
+
+<p class="wp-block-paragraph">They met in Token&#8217;s office, a spacious room with a screen that occupied almost an entire wall. On it appeared the theorems his department had pending interpretation, ordered according to their relevance index.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; I&#8217;ve read the summary of your result &#8212; Token said. &#8212; It&#8217;s very interesting.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Thank you.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; We have to work on the presentation. The theorem is important, but it still doesn&#8217;t look important enough.</p>
+
+
+
+<p class="wp-block-paragraph">Alma asked him what he meant.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; We need to find more general consequences. ClopenAI is already working on that. Meanwhile, we can prepare the impact article and the material for the conference.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; And the proof?</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; They&#8217;re formalizing it.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; But I already have a proof.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Of course. And it seems to be correct. But we need the CLOPEN certificate. Without it, the result cannot be registered.</p>
+
+
+
+<p class="wp-block-paragraph">Alma nodded. She knew the procedure.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; We&#8217;ll also have to wait for MATH&#8217;s decision &#8212; Token continued. &#8212; There&#8217;s an authorship claim.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; From whom?</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; From ClopenAI.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; But ClopenAI didn&#8217;t solve the problem.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; That&#8217;s clear. The issue is that its models had considered the problem before you did. We have to determine whether your proof depends on any of the ideas they produced.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; I never saw those ideas.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; That is precisely what MATH must determine. It&#8217;s possible that you&#8217;ve been buckmastered, but in that case it&#8217;s better not to complain and simply share authorship of the result.</p>
+
+
+
+<p class="wp-block-paragraph">Alma did not want to argue. She had waited a long time for an opportunity like that and was not willing to put it at risk over an authorship disagreement.</p>
+
+
+
+<p class="wp-block-paragraph">Token explained that she should not worry. Most likely a satisfactory solution would be reached for all parties. In similar cases, ClopenAI usually agreed to appear as first author and allow the human researcher to retain a share of the recognition.</p>
+
+
+
+<p class="wp-block-paragraph">Before ending the meeting, Token showed her the system for accessing unpublished theorems. Alma was impressed. There were extraordinary results, some of which solved problems she had studied for years. She also discovered that one of the theorems she had been thinking about recently had already been proved six months earlier.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; I didn&#8217;t know this had been solved! &#8212; she exclaimed.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Of course. It hasn&#8217;t been made public yet.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Can I read the proof?</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; To access the explanation you need authorization from a TL.</p>
+
+
+
+<p class="wp-block-paragraph">Alma looked at the hundreds of results that appeared on the screen.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; It&#8217;s incredible.</p>
+
+
+
+<p class="wp-block-paragraph">Token smiled. He remembered the excitement he himself had felt when he received his first access.</p>
+
+
+
+<p class="wp-block-paragraph">Within a few weeks Alma began to adapt to her new life. She attended meetings with famous academics, received summaries of results she never would have imagined, and participated in research projects of great importance. Her new colleagues treated her kindly, although some referred to her as the Pet even when she was present.</p>
+
+
+
+<p class="wp-block-paragraph">Alma did not seem to mind. She had achieved more in a month than many of her former colleagues in their entire careers.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+
+
+
+<p class="wp-block-paragraph">In December, Token had to travel to Alma&#8217;s former university. The MATH committee needed to complete the attribution file for her theorem and had requested an evaluation of the conditions under which the proof had been produced.</p>
+
+
+
+<p class="wp-block-paragraph">The university was far from the major research centers. It had a small mathematics department, a few full-time professors, and a computing budget that barely sufficed to maintain the licenses for the basic models. The offices were modest and many of the classrooms still had chalkboards.</p>
+
+
+
+<p class="wp-block-paragraph">Token had not visited such an institution for many years.</p>
+
+
+
+<p class="wp-block-paragraph">The department head received him enthusiastically. It was the first time a TL from Prestigeton had visited the university. They had prepared a meeting with the university authorities and a ceremony to celebrate Alma&#8217;s success.</p>
+
+
+
+<p class="wp-block-paragraph">They also asked him if he would be willing to attend a topology seminar that would take place that afternoon. Token accepted out of courtesy. His flight left the next day and he had nothing better to do.</p>
+
+
+
+<p class="wp-block-paragraph">The seminar would be given by Professor Vera Parra, a 51-year-old academic who had been teaching at the university for almost twenty years. Vera was a Mathematician.</p>
+
+
+
+<p class="wp-block-paragraph">This was a pejorative term used to designate those who still tried to prove theorems without resorting to models. It was not an especially serious insult, but it was quite humiliating. Being a Mathematician was considered the lowest level of the profession. Even Crumb Pickers tried to avoid that designation.</p>
+
+
+
+<p class="wp-block-paragraph">Mathematicians tended to work on minor problems and publish in journals that still accepted uncertified proofs. Many were elderly professors who had failed to adapt to the new technologies, and others were former members of The Resistance, the movement that had opposed ClopenAI&#8217;s impositions in 2026 and whose members had quickly been expelled from the community. There were also some young people with romantic ideas, who had heard of The Resistance and who generally had no chance of obtaining a position at the major universities.</p>
+
+
+
+<p class="wp-block-paragraph">Vera did not seem particularly concerned about her situation. She continued to work in algebraic topology, an area that ClopenAI had declared practically exhausted several years earlier. She had published some articles and continued giving seminars, although fewer and fewer people attended.</p>
+
+
+
+<p class="wp-block-paragraph">That afternoon there were five people in the classroom, including Token.</p>
+
+
+
+<p class="wp-block-paragraph">Vera began by explaining a problem about exotic spheres. The result was modest. Token estimated that one of the models available at Prestigeton could solve it in less than a minute, although it would probably produce a considerably more general version.</p>
+
+
+
+<p class="wp-block-paragraph">Vera drew a triangulation on the board and began explaining her argument. She spoke slowly, pausing over some details that seemed obvious.</p>
+
+
+
+<p class="wp-block-paragraph">After about twenty minutes she reached the central point of the proof. She needed to construct a homotopy that would modify a certain path without crossing a specific part of the complex. She drew several triangles and pointed to a region.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Then we can move this segment over here, and the homotopy remains inside the subcomplex.</p>
+
+
+
+<p class="wp-block-paragraph">A student raised his hand.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Professor, does that also work if the vertex is on the boundary?</p>
+
+
+
+<p class="wp-block-paragraph">Vera looked at the drawing.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Yes, because&#8230;</p>
+
+
+
+<p class="wp-block-paragraph">She fell silent. She looked at the drawing again.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; No. You&#8217;re right. In that case, the homotopy leaves the subcomplex.</p>
+
+
+
+<p class="wp-block-paragraph">She erased part of the board and started again.</p>
+
+
+
+<p class="wp-block-paragraph">For several minutes she tried to modify the construction. Another student proposed subdividing the triangle in a different way. Vera made a new drawing, but that didn&#8217;t work either.</p>
+
+
+
+<p class="wp-block-paragraph">Token began to feel uncomfortable. He hadn&#8217;t attended a seminar in years in which the proof presented had an error. At Prestigeton, talks were prepared on the basis of certified results and the speakers did not have to worry about that kind of inconvenience.</p>
+
+
+
+<p class="wp-block-paragraph">It seemed to him that Vera should have verified the proof before presenting it. However, the discussion continued. The students asked questions, Vera answered some and admitted that she did not know how to answer others. At one point, Token remembered a technique he had used in his youth.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; What if you first subdivide the boundary and then extend the homotopy? &#8212; he asked.</p>
+
+
+
+<p class="wp-block-paragraph">Vera turned toward him.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; That could work.</p>
+
+
+
+<p class="wp-block-paragraph">She drew another triangulation.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Look, in this case it works, but here we have the same problem.</p>
+
+
+
+<p class="wp-block-paragraph">Token stood up and approached the board. He tried to explain a construction he vaguely remembered. Vera handed him the chalk.</p>
+
+
+
+<p class="wp-block-paragraph">For a few minutes they discussed the possibility of modifying the subdivision. Token found a case in which his argument failed. One of the students proposed another solution, which didn&#8217;t work either.</p>
+
+
+
+<p class="wp-block-paragraph">In the end they had to admit that they still did not know how to complete the proof.</p>
+
+
+
+<p class="wp-block-paragraph">Vera looked at the clock.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Well, we&#8217;ll have to leave it here. Thanks for the suggestions. I&#8217;ll try to correct the lemma for next week.</p>
+
+
+
+<p class="wp-block-paragraph">The attendees applauded.</p>
+
+
+
+<p class="wp-block-paragraph">Token was surprised. He had attended a one-hour talk in which no theorem had been proved. No one had received a certificate and, as far as he could see, no publishable result had emerged either. Despite that, the students seemed satisfied.</p>
+
+
+
+<p class="wp-block-paragraph">After the seminar, Vera invited Token to have coffee.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; It&#8217;s a pity the proof didn&#8217;t work &#8212; Token said.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Yes. I thought I had that case solved.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Have you thought about consulting a model?</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Of course. I tried with the one we have here, but it couldn&#8217;t solve it. It suggested a more general version of the statement, although it couldn&#8217;t justify it either.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; With one of the Prestigeton models you could surely do it.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Probably.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; You could request access.</p>
+
+
+
+<p class="wp-block-paragraph">Vera laughed.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; I don&#8217;t think my department has the budget for that.</p>
+
+
+
+<p class="wp-block-paragraph">Token explained that there were some special access programs for institutions with few resources. Vera knew about them. She had applied for funding twice, but her project had received a very low impact rating.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Anyway &#8212; she continued &#8212; I like working on these things.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; But you could solve much more important problems.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Surely. I&#8217;d also like to have access to those models. There are many things I&#8217;d like to know.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Then I don&#8217;t understand why you insist on doing the proofs yourself.</p>
+
+
+
+<p class="wp-block-paragraph">Vera looked at him with some surprise.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Because I like doing them.</p>
+
+
+
+<p class="wp-block-paragraph">Token waited for her to continue.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Besides, if I give the problem to a model and it gives me back the proof, what am I going to do all week?</p>
+
+
+
+<p class="wp-block-paragraph">Vera laughed. Token smiled out of courtesy.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; But today you didn&#8217;t manage to prove anything &#8212; he observed.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; That&#8217;s true. Although now we know that the argument I had doesn&#8217;t work. Next week we&#8217;ll try something else.</p>
+
+
+
+<p class="wp-block-paragraph">Token did not answer. It seemed strange to him that, in 2040, someone could be satisfied with a seminar in which an error had been discovered.</p>
+
+
+
+<p class="wp-block-paragraph">Vera took a sip of coffee.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; By the way, are you Token Credit? The one with the Rose Theorem?</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Yes, that&#8217;s me.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; I read your article many years ago. I also followed your blog. I really liked how you explained the proofs.</p>
+
+
+
+<p class="wp-block-paragraph">Token felt flattered. It had been a long time since anyone had spoken to him about his work before ClopenAI.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Thank you. That was quite a while ago.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; You don&#8217;t write on the blog anymore?</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; No. I don&#8217;t have time.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; What a shame. I used it with my students.</p>
+
+
+
+<p class="wp-block-paragraph">Token briefly told her about his work at Prestigeton, the results he received, and the enormous possibilities offered by the new models. Vera listened with interest. She asked him about some recent theorems and became especially excited when Token told her that several important conjectures in topology had been solved.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; I would love to read those proofs &#8212; she said.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; Most are too long. Even for our interpretation models it&#8217;s difficult to produce complete explanations.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; How wonderful. It must be incredible to work with those things.</p>
+
+
+
+<p class="wp-block-paragraph">Token nodded.</p>
+
+
+
+<p class="wp-block-paragraph">Before saying goodbye, Vera asked him if he wanted her to send him a copy of the seminar notes.</p>
+
+
+
+<p class="wp-block-paragraph">&#8212; There&#8217;s still an error, as you saw, but perhaps you&#8217;d be interested in thinking about the problem.</p>
+
+
+
+<p class="wp-block-paragraph">Token accepted.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+
+
+
+<p class="wp-block-paragraph">On his return to Prestigeton, Token found several urgent messages.</p>
+
+
+
+<p class="wp-block-paragraph">His department had received the certificate for a new theorem about manifolds of negative curvature. The result solved three open conjectures and connected seven different areas of mathematics. It had an impact index of 9.8 out of 10. They needed to prepare a presentation for the following week. Fortunately, the article wasn&#8217;t that long: no more than 199 pages and not a single reference.</p>
+
+
+
+<p class="wp-block-paragraph">Token requested a summary from the interpretation model. Within seconds he received a forty-page document with the main consequences of the result, a review of its background, and suggestions for future projects.</p>
+
+
+
+<p class="wp-block-paragraph">He also received a message from Alma Pura. The MATH committee had decided that her proof would be attributed jointly to ClopenAI and to her, although her name would appear in second place. The decision was based on the fact that ClopenAI had previously identified the problem as susceptible to resolution by its models. Alma was happy. She would finally have her certificate, although she knew she had been buckmastered.</p>
+
+
+
+<p class="wp-block-paragraph">In another message, Miles Citation told him that he had been invited to edit a new journal dedicated exclusively to applications of theorems not yet published. He asked if he would be interested in being part of the editorial board.</p>
+
+
+
+<p class="wp-block-paragraph">Token replied yes.</p>
+
+
+
+<p class="wp-block-paragraph">The next day, during a department meeting, it was announced that ClopenAI had reached a new production record. The number of certified theorems during the last quarter exceeded the sum of all results published by human mathematicians during the previous two centuries.</p>
+
+
+
+<p class="wp-block-paragraph">However, the GranMaistro was not satisfied. Production kept growing, but the number of theorems that received attention had decreased. Many results remained unused and some had never been read, not even by the interpretation models.</p>
+
+
+
+<p class="wp-block-paragraph">The problem was serious.</p>
+
+
+
+<p class="wp-block-paragraph">ClopenAI had invested enormous resources in producing mathematics and needed to guarantee that it continued to have value in order to keep receiving money from investors. For this reason, the launch of a new research program aimed at generating conjectures from already certified theorems was announced. These conjectures would be distributed among the most advanced models, which would take charge of solving them and producing new results.</p>
+
+
+
+<p class="wp-block-paragraph">Models specialized in finding applications for the new proofs would also be funded. In this way it was hoped to increase both the production and the consumption of theorems. The initiative received the name Theorem Demand Engineering.</p>
+
+
+
+<p class="wp-block-paragraph">Token considered it a brilliant idea.</p>
+
+
+
+<p class="wp-block-paragraph">At the end of the meeting he returned to his office. He had to prepare the presentation on manifolds of negative curvature and review an impact article that he had to submit that same afternoon.</p>
+
+
+
+<p class="wp-block-paragraph">His assistant showed him a list of pending tasks. There were several new theorems that required interpretation and some requests for collaboration with other TLs.</p>
+
+
+
+<p class="wp-block-paragraph">Among the messages he found an email from Vera Parra. She was sending him her seminar notes, with some comments about the error they had found. She still had not managed to correct the proof, but she thought that an additional subdivision might solve the problem. She asked him if he remembered the construction he had tried to explain on the board.</p>
+
+
+
+<p class="wp-block-paragraph">Token opened the file.</p>
+
+
+
+<p class="wp-block-paragraph">It was seven pages written in LaTeX, with some hand-drawn diagrams. There was no Lean certificate, CLOPEN number, or impact index. The result did not appear in any of the databases used by his department either.</p>
+
+
+
+<p class="wp-block-paragraph">He began to read.</p>
+
+
+
+<p class="wp-block-paragraph">He remembered the seminar, the students, and the discussion around Vera&#8217;s drawing. He tried to reconstruct the argument he had proposed. For a few minutes he thought it might work, but he encountered again the difficulty they had observed on the board.</p>
+
+
+
+<p class="wp-block-paragraph">He took a sheet of paper and began making some drawings.</p>
+
+
+
+<p class="wp-block-paragraph">It had been a long time since he had used paper to work on mathematics. He had trouble finding a pencil in his office.</p>
+
+
+
+<p class="wp-block-paragraph">He thought for almost half an hour. He reached no conclusion. However, he returned several times to the same construction and found a case they had not considered during the seminar. He wrote a note in the margin to ask Vera about it.</p>
+
+
+
+<p class="wp-block-paragraph">Then he received a notification from his assistant.</p>
+
+
+
+<p class="wp-block-paragraph">Your mathematical productivity has been inactive for 32 minutes.<br>Please select a reason:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Technical difficulties.</li>
+
+
+
+<li>Medical leave.</li>
+
+
+
+<li>Network failure.</li>
+
+
+
+<li>Other.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Token looked at the screen. He thought for a moment and selected <em>Network failure</em>. Then he picked up the pencil again.</p>
+
+
+<ol class="wp-block-footnotes"><li id="fn-df6d00fd-21af-41a6-b54f-f98aa9ba3c19"><strong>to be buckmastered</strong> (<em>verb phrase, academic slang</em>). To have an AI company hear you&#8217;re close to a breakthrough, throw 10,000 agents at your problem, scoop you, and then offer you coauthorship&#8212;provided you ditch your collaborator. The definition of the term &#8220;to be buckmastered&#8221; was kindly provided after a single prompt by ChatGPT. <a href="#fn-df6d00fd-21af-41a6-b54f-f98aa9ba3c19-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">All names and characters are fictional.</p>
+
+
+
+<p class="wp-block-paragraph">This tale has an inevitable overlap with Richard Evans Schwartz&#8217; story &#8220;The Fate of the Riemann Hypotesis&#8221;, available <a href="https://www.math.brown.edu/reschwar/Stories/AI.pdf">here</a>.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 12 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/10/31/lean-me-softly-a-satire-about-a-dystopian-future-for-mathematics/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2507</post-id>	</item>
+		<item>
 		<title>Recommendations from the Harvard CMSA summit on Math and AI</title>
 		<link>https://proofsandprompts.com/2026/10/30/recommendations-from-the-harvard-cmsa-summit-on-math-and-ai/</link>
 					<comments>https://proofsandprompts.com/2026/10/30/recommendations-from-the-harvard-cmsa-summit-on-math-and-ai/#comments</comments>
@@ -90,7 +1036,7 @@
 <ol class="wp-block-footnotes"><li id="5c1e7a4b-2d93-4f6e-9a18-b07d3e5f8c21">Dan Freed (Harvard), Larry Guth (MIT), Bryna Kra (Northwestern), Emily Riehl (Johns Hopkins) and Mohammed Abouzaid (Stanford) <a href="#5c1e7a4b-2d93-4f6e-9a18-b07d3e5f8c21-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/30/recommendations-from-the-harvard-cmsa-summit-on-math-and-ai/feed/</wfw:commentRss>
-			<slash:comments>6</slash:comments>
+			<slash:comments>7</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3203</post-id>	</item>
@@ -161,7 +1107,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/30/math-is-for-feeding-your-family/feed/</wfw:commentRss>
-			<slash:comments>25</slash:comments>
+			<slash:comments>30</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2529</post-id>	</item>
@@ -362,7 +1308,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/30/the-value-of-mathematicians-in-the-ai-age/feed/</wfw:commentRss>
-			<slash:comments>12</slash:comments>
+			<slash:comments>13</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2527</post-id>	</item>
@@ -515,7 +1461,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/30/lets-stop-writing-papers/feed/</wfw:commentRss>
-			<slash:comments>7</slash:comments>
+			<slash:comments>8</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2840</post-id>	</item>
@@ -1122,339 +2068,5 @@ taxonomy and a LaTeX package for implementation.]]></description>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2451</post-id>	</item>
-		<item>
-		<title>Math2038: A Day in the Life of Future Mathematicians</title>
-		<link>https://proofsandprompts.com/2026/10/28/math2038-a-day-in-the-life-of-future-mathematicians/</link>
-					<comments>https://proofsandprompts.com/2026/10/28/math2038-a-day-in-the-life-of-future-mathematicians/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Future]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2628</guid>
-
-					<description><![CDATA[A short story (8 min read) about one Friday in 2038: AI has become extremely capable at mathematics, yet a professor, a postdoc and a first-year student still find meaning and joy in their craft.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://johannesschmitt.gitlab.io/">Johannes Schmitt</a>, Research Fellow at <a href="https://ethz.ch/en.html">ETH Zürich</a></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Declaration of AI use:</strong> The story was originally handwritten by the author (on MFO notepaper, no less). Claude Opus, Claude Fable and GPT-6 Astra helped transcribe it, provided feedback and helped with typos, grammar, pacing and worldbuilding, and suggested some rephrasings, a few of which made it into the text. Additional feedback was contributed by Gemini Argon.</p>
-
-
-
-<p class="has-contrast-color has-text-color has-link-color wp-elements-1 wp-block-paragraph" style="text-transform:uppercase"><strong>Friday, 15 October 2038:</strong></p>
-
-
-
-<p class="wp-block-paragraph">Despite her best intentions and an insistent alarm clock, Paula was again running dangerously late to teach her 8:15 &#8220;Linear Algebra&#8221; class at ETH Zurich.</p>
-
-
-
-<p class="wp-block-paragraph">Idly wondering why, of all things, the 8 o&#8217;clock lectures had survived the AI revolution, she reached the spacious G5 lecture hall with just a few minutes to spare.</p>
-
-
-
-<p class="wp-block-paragraph">Today&#8217;s topic was linear transformations expressed in bases of vector spaces, that is, matrices. Few of the students could yet grasp the role those little buggers played inside the AI agents that had been rearranging the world in recent years.</p>
-
-
-
-<p class="wp-block-paragraph">Her lecture started the old-fashioned way, on the blackboard, and many students still took notes with pen and paper or on a tablet. The material was standard, so Paula hardly glanced at her lecture notes, which the house system had helpfully decided to put on a small screen for her.</p>
-
-
-
-<p class="wp-block-paragraph">As she surveyed the audience after presenting a first example, she could see some students subvocalizing a question and presumably hearing their assistant&#8217;s answer via earpiece. Their course agreement allowed this, and no one missed the good old times of not catching a key definition and staring at the rest of the lecture in confusion.</p>
-
-
-
-<p class="wp-block-paragraph">All students had personal AI tutors, but most still cherished the structure and companionship of the in-person classes. Paula also tried to keep a close connection to the students, and was looking forward to the oral exams — an undertaking made possible by the lower student numbers of recent years.</p>
-
-
-
-<p class="wp-block-paragraph">Towards the end of the class, a student in the third row asked what a matrix actually <em>did</em> to the plane, which led to an impromptu interactive visualization of matrices stretching, shearing and rotating the plane, and sometimes squashing it flat onto a line. Despite this small detour, Paula still managed, if barely, to finish the material she had planned. Happy but exhausted, she decided to head to the common room for a well-deserved coffee.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Waiting for her free cappuccino — post-scarcity had its perks — she started chatting with Michael. He was a postdoc, and about to leave for a three-month research retreat at the Institute for Advanced Study. With four colleagues from Brown, Orsay, Tokyo and Addis Ababa, he would have a crack at a classification result for a particular family of self-dual non-commutative Hopf algebras.</p>
-
-
-
-<p class="wp-block-paragraph">They would do research in the old way, with no AI use beyond spoiler-free literature access, though they had pre-registered a machine review of their final research report.</p>
-
-
-
-<p class="wp-block-paragraph">The classification had been worked out in MathNet before, of course, but that was not the point: such retreats were a chance to train the skills that mathematicians had always valued — persistence in the face of tough problems, communicating with colleagues, auditing their own understanding and charting a path to a solution. In that sense they were not so different from problem sheets or bachelor&#8217;s theses, and especially encouraged for early-career mathematicians.</p>
-
-
-
-<p class="wp-block-paragraph">After sharing the names of some of her favorite restaurants in Princeton, Paula wished Michael a great time and headed for her office.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Taking a sip of coffee, she thought back to her postdoc years. The assistant professorship at ETH had been one of the first she had applied for. The universal income, administered by governments and sponsored largely by the tech industry, allowed most people to pursue the occupation and activities of their choice — including mathematics. But some things — prestigious professorships, access to active research departments, personal mentoring by senior mathematicians — remained scarce and coveted.</p>
-
-
-
-<p class="wp-block-paragraph">The application process itself featured many elements familiar to previous generations: submitting documents on past research and teaching, in-person presentations and interviews, discussions with people in the department. However, she was part of the first cohort at ETH where the classical system of reference letters had been replaced by a more standardized Mathematical Profile Certificate (MPC). Behind the clunky acronym was the community&#8217;s response to the ease with which mathematical competence could be faked with AI.</p>
-
-
-
-<p class="wp-block-paragraph">The traditional signals, such as impressive publications and, to an extent, even research presentations, could be augmented or generated wholesale with hidden AI help.</p>
-
-
-
-<p class="wp-block-paragraph">The solution was, in effect, a multi-day in-person examination, conducted yearly by a nonprofit organization at various places around the world. Applicants had the choice between interviews by senior mathematicians and by a specially designed AI persona, with most choosing the latter. A lot of care was taken to ensure that this choice of modality did not affect the chances of the applicants — third-party evaluations found no difference in outcomes, with human and AI assessments indistinguishable to human reviewers. Another Turing test passed by the AI evaluators.</p>
-
-
-
-<p class="wp-block-paragraph">Paula had been nervous going in. But the leisurely pace of the conversation, carried out in a light-filled, wood-paneled conference room in the south of France, quickly put her at ease.</p>
-
-
-
-<p class="wp-block-paragraph">She must have impressed that kindly avatar, displayed by the AR glasses as standing next to her in front of the blackboard, since a year later she received the offer from ETH.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">After arriving at her office, Paula afforded herself another quiet moment, looking out of her window towards the quaint city center, while sipping her cappuccino. Seeing the old buildings, not much changed yet by the recent flurry of economic activity, she felt a twinge of nostalgia, and loss, thinking about how her profession had changed.</p>
-
-
-
-<p class="wp-block-paragraph">The era of heroic discoveries and novel theories, by mathematicians whose names would be remembered with them, had ended. She herself had still barely gotten a taste: her first paper as a PhD student, a small structure result on symplectic automorphisms of hyperkähler sixfolds, had appeared just before the Great Flood. She had been so proud, receiving that arXiv confirmation email, diligently updating her website. And the link still worked, preserving her note as part of the sedimentary record, in that last layer before a new Cambrian Explosion, or a second Great Dying, depending on perspective.</p>
-
-
-
-<p class="wp-block-paragraph">Finding new meaning in the mathematics of this new world had been a struggle, for everyone, and was a process that was still ongoing. Some had turned away, to other pursuits. Some had stayed, and helped navigate and shape this new terrain. And some, like the students in her class this morning, were just now joining, still drawn by the same curiosity and joy of learning that had enticed generations before them.</p>
-
-
-
-<p class="wp-block-paragraph">With a small effort, she wrenched her attention back to more productive matters, turning on her screen — time to prepare her talk for Oberwolfach. A classic Arbeitsgemeinschaft, working through a novel construction of Lagrangian fibrations. Well, &#8220;novel&#8221; was relative here — it had been obtained as part of the Even Greater Flood, around early 2028. It had simply taken the community about ten years to get around to digesting it, with more spectacular advances taking precedence. In Oberwolfach, everyone would take turns presenting aspects of the construction (she had gotten her third choice, &#8220;Analytic aspects II&#8221; — great…), and then collaborate on a monograph. The tentative plan was to focus less on maximal generality, and more on potential applications.</p>
-
-
-
-<p class="wp-block-paragraph">The book would not contain any original observations, but the authors would contribute choices about structure, exposition and emphasis. An accomplishment, in the same way that hundreds of &#8220;Linear Algebra&#8221; textbooks had been in the before-times.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">While Paula was valiantly battling with some perturbation calculations, Alyx was gently prodding a flock of Explorator subagents to wrap up their work, so the Consolidators could take over. The initial brainstorming had already generated about 250 GB of documentation; no use in unduly delaying the next processing step.</p>
-
-
-
-<p class="wp-block-paragraph">Alyx was a new agent-based workflow, its inference financed by a collaboration of Korean and South American universities. The investigation Alyx was currently working on concerned the representation theory of Abstract Bi-Symplectic Néron–Severi Null-Sheaves (ABSNSNS). Any results Alyx obtained would be integrated into MathNet. Having organically grown out of a collection of independent knowledge databases and repositories, MathNet now had about 12.8 yottabytes of mathematical research works. For the chosen area of ABSNSNS, Alyx hoped to make a small contribution at the frontier. Even after ten years, that frontier still featured areas conceivably reachable by humans: for the most brilliant mathematicians in the world, it would only take about 120 years of careful tutoring to understand the definition of an ABSNSNS, given standard neuroplasticity and longevity treatments.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Not worrying about such nonsense, abstract or otherwise, Emma fumbled around in her backpack for the keys to her parents&#8217; chalet above Wangs. After attending Paula&#8217;s lecture in the morning — and, to her own surprise, asking a question in front of the whole hall — she had spent the day puzzling over the exercise sheet (changes of basis, properties of the trace, etc.) with a small study group. Now, for the weekend, she would be enjoying the last sunny days with some friends on the Pizol. She had met Sam and Eric at the math olympiad training weekends in Zurich. All of them had enjoyed learning new techniques and puzzling over problems, but only Emma had been taken enough with it to start a bachelor&#8217;s degree in mathematics.</p>
-
-
-
-<p class="wp-block-paragraph">The others had chosen quite different routes:</p>
-
-
-
-<p class="wp-block-paragraph">Sam had taken up marathon running. They enjoyed being able to push themselves to the limit, seeing their body adapt to the challenge, and also not huffing and puffing as heavily as Emma and Eric during the climb to the chalet. The fact that humanoid robots finished the marathon in under 20 minutes by now in no way diminished Sam&#8217;s enjoyment of their sport.</p>
-
-
-
-<p class="wp-block-paragraph">Eric had decided to take up a meditation practice, and had spent the first part of the year traveling in Japan and Thailand. After struggling with anxiety and depressive episodes as a teenager, he had found relief and solace in these contemplative exercises, and hoped they would one day lead him to a deeper, lasting equanimity. He was aware that psychopharmacology could by now offer solutions to any of his former struggles. It had even produced substances that could safely bring his mind to a direct experience of non-dual awareness, and back. Still, he preferred to reach this goal on his own, even if it took years of practice, with an awareness of the spiritual context of the experience.</p>
-
-
-
-<p class="wp-block-paragraph">As for Emma, her reasons were much the same as her friends&#8217;: math was something she enjoyed, it offered problems to wrap her head around that allowed her to test her limits, and this struggle and learning made her more like the person she wanted to be. The first few weeks of the semester had already started reshaping her view of the world. Things she had taken for granted, like the real numbers or the configurations of a Rubik&#8217;s cube, had turned out to have many more subtle features than she had guessed.</p>
-
-
-
-<p class="wp-block-paragraph">Millions had made these same discoveries before her, which, she found, made them no less hers.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph"><em>As the sun was setting,</em></p>
-
-
-
-<p class="wp-block-paragraph"><em>Emma, Sam and Eric were debating who had promised to bring the cheese,</em></p>
-
-
-
-<p class="wp-block-paragraph"><em>Paula was at home, practicing a sonata for a musical evening around the Steinway in Oberwolfach,</em></p>
-
-
-
-<p class="wp-block-paragraph"><em>Alyx was starting the secondary review agents for a new representation stability result for ABSNSNS,</em></p>
-
-
-
-<p class="wp-block-paragraph"><em>and the world kept turning, and math continued getting done — fast and slow, in new ways and old ones, by humans and AIs, same as always and different from anything that came before.</em></p>
-</blockquote>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-
-
-<p class="wp-block-paragraph">Received 14 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/28/math2038-a-day-in-the-life-of-future-mathematicians/feed/</wfw:commentRss>
-			<slash:comments>22</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2628</post-id>	</item>
-		<item>
-		<title>Responsibility of Mathematicians in the Age of AI</title>
-		<link>https://proofsandprompts.com/2026/10/28/responsibility-of-mathematicians-in-the-age-of-ai/</link>
-					<comments>https://proofsandprompts.com/2026/10/28/responsibility-of-mathematicians-in-the-age-of-ai/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Wed, 28 Oct 2026 10:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Reactions]]></category>
-		<category><![CDATA[Community]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<category><![CDATA[Society]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2120</guid>
-
-					<description><![CDATA[“The day mathematics felt different to me was sometime in July. Until the beginning of this year, I had mostly avoided AI, hoping the hype would blow over. Anyway, the models hallucinated too much to be very useful. Then something changed. They got better, very very quickly.” […]]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://sites.google.com/site/masoudkomi/">Masoud Kamgarpour</a>, Professor of Mathematics at <a href="https://about.uq.edu.au/experts/2828">University of Queensland</a></p>
-
-
-
-<p class="wp-block-paragraph">Acknowledgement: This essay was edited with the help of AI.</p>
-
-
-
-<p class="wp-block-paragraph">The day mathematics felt different to me was sometime in July. Until the beginning of this year, I had mostly avoided AI, hoping the hype would blow over. Anyway, the models hallucinated too much to be very useful. Then something changed. They got better, very very quickly. </p>
-
-
-
-<p class="wp-block-paragraph">By July, I had to admit that these models were better than me at doing mathematics. Unsettling as this was, it was not an entirely unfamiliar feeling. After all, there are plenty of people with far greater mathematical abilities than me. So I told myself: here is another better mathematician, one who just happens to have no body. </p>
-
-
-
-<p class="wp-block-paragraph">Then came Navier–Stokes.</p>
-
-
-
-<p class="wp-block-paragraph">It is hard to describe what the Navier–Stokes announcements did to our community. We need time and distance to take full stock of the shock, anger, grief, and the profound sense of disorientation, anxiety, and vulnerability that has ensued. But time is precisely the luxury we do not have. We must therefore press ahead.</p>
-
-
-
-<p class="wp-block-paragraph">Of course, mathematics was not the first victim. Earlier in the year, coding had already gone through its own version of this upheaval. But this did not produce quite the same shock waves in the society: for better or worse, nothing embodies intelligence in the popular imagination quite like mathematics.  For programmers themselves, however, the shock was profound, as recounted vividly by Bill Gates in a recent interview.</p>
-
-
-
-<p class="wp-block-paragraph">As mathematicians, we might treat one instance of a phenomenon as a curiosity. Give us two, however, and we start looking for a new general principle, one that explains both phenomena and extends beyond them. So let me state explicitly a conjecture which appears to be widely believed within the mathematical community:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Conjecture</strong>. AI will far surpass humanity in all intellectual domains.</p>
-
-
-
-<p class="wp-block-paragraph">It is, of course, impossible to know whether this conjecture is true. Nonetheless, the implications are so vast, and the indications already so strong, that we must treat it as a serious possibility. Granting this, what then is our responsibility as mathematicians? To have seen and felt what AI can do to mathematics, to have some sense, however vague, of what it might do to humanity at large, and then retreat into our own little corner of life could be, I believe, a kind of abdication.</p>
-
-
-
-<p class="wp-block-paragraph">One of our key responsibilities is to find a language adequate to what AI is doing on its own, to us, and to the world. This is, after all, something we have trained for all our lives: when the language we inherit is insufficient to the task, we invent new vocabulary, notation, and conventions which allow us to contemplate something that was previously difficult even to formulate<strong>.</strong></p>
-
-
-
-<p class="wp-block-paragraph">The need begins with those closest to the technology. Mathematicians and scientists working inside AI labs see things that those of us on the outside do not. The vast majority of people use only a tiny fraction of what current AI systems can do. Inside the AI labs, researchers encounter capabilities and behaviours long before they reach the rest of us, and what they see increasingly strains our inherited vocabulary. The AI researchers (many of them mathematicians) have a responsibility not merely to measure these phenomena, but to find ways to show the rest of us what they are seeing: through equations, words, pictures, movies, whatever it takes.</p>
-
-
-
-<p class="wp-block-paragraph">The problem of language is also present when discussing AI at the societal level. Here, mathematics can be unexpectedly useful. Think of the exponential curve. Before COVID,  “exponential growth” was mathematical jargon that most people were happily ignorant of. Afterwards, millions learned, rather painfully, that you cannot outrun the exponential. Wait too long, and suddenly there is no room left to act. AI capabilities may not follow a literal exponential curve, but that is beside the point: we are confronting a technology whose capabilities are increasing at extraordinary speed. We in mathematics, who felt this like a punch in the gut, need to find ways of making it palpable to the public now.</p>
-
-
-
-<p class="wp-block-paragraph">What might such a new language look like? There is a story a close friend and colleague told me recently that I cannot get out of my head. On his deathbed, John von Neumann was asked if we can build an intelligent machine. After thinking for a long time, he replied: “We have to grow it, not build it.” </p>
-
-
-
-<p class="wp-block-paragraph">We are used to talking about “building” AI. But perhaps this is the wrong word. Yes, we build the chips. We build the data centres. We write the algorithms. But the intelligence itself is not assembled piece by piece according to a predetermined blueprint. We are creating conditions in which a new intelligence is emerging. </p>
-
-
-
-<p class="wp-block-paragraph"><em>We are growing </em><em>a new </em><em>intelligence.</em></p>
-
-
-
-<p class="wp-block-paragraph">In this analogy, the data centres are intelligence farms. And is it not fascinating that, just like carbon-based intelligence, silicon-based intelligence also depends, ultimately, on water and energy, much of it drawn from the sun? (And as mathematicians, isn’t it tantalising to contemplate unifying these two intelligences?)</p>
-
-
-
-<p class="wp-block-paragraph">Is dwelling on words like “building” and “growing” a mere hairsplitting? I think not. “Building” carries with it an aura of control. “Growing,” however, carries the possibility of the unknown within it. The metaphor is necessarily imperfect. But imperfect metaphors may be all that we have time to develop.</p>
-
-
-
-<p class="wp-block-paragraph">Of course, finding the right language is only part of our responsibility. AI is confronting us with questions that reach far beyond mathematics: What is intelligence? What happens when it can be reproduced at scale? What becomes of human agency, work, and purpose? Can silicon-based intelligence be conscious?  Does humanity have a chance of survival? </p>
-
-
-
-<p class="wp-block-paragraph">It is tempting to say that these are questions for AI researchers, or philosophers, or economists, or politicians, or tech bosses. But a quick perusal of what has been said and written about AI makes clear that no single discipline, profession, or group of people has anything approaching an adequate answer to these questions.</p>
-
-
-
-<p class="wp-block-paragraph">This is the context in which the recent letter by Royal Society mathematicians should be understood. These are mathematicians at the highest levels of our subject who do not ordinarily issue warnings about the fate of humanity. Yet what they have witnessed is serious enough to compel them to step outside the usual confines of mathematical life and express their extreme concern about the pace of AI development and its implications for humanity and civilisation. There comes a point when what one has seen no longer permits silence. The letter suggests that this point has been reached.</p>
-
-
-
-<p class="wp-block-paragraph">If the central challenge confronting us is not merely capability but the speed at which it is arriving, then the first thing humanity needs is <em>time</em>. A slowing down of AI is required to provide us with time to breathe; to catch up; to devise a strategy. Of course, “Slowing down” is borderline heretical in a world obsessed with growth as a value. Thus, such a serious, dare I say <em>revolutionary</em>, change of direction will require a mobilisation of the public. Governments will only impose meaningful constraints on the development of AI when large numbers of citizens are actively demanding it. And mathematicians can, nay must, play their part in giving voice and direction to this popular demand. </p>
-
-
-
-<p class="wp-block-paragraph">For generations, mathematics has rewarded an extraordinary narrowing of attention. We choose a problem, then a subproblem, then a tiny corner of that subproblem, and we give it years of our lives. There is something beautiful in this. Something sublime. To converse across the centuries and millennia with the likes of Euclid, Euler or Gauss is transcendental. It is <em>spiritual</em>. I want my children to have the possibility of participating in this ancient human endeavour. </p>
-
-
-
-<p class="wp-block-paragraph">So yes, some mathematicians should continue to practise mathematics as if AI had never arrived. They should continue to spend years thinking about obscure and beautiful problems, following mathematics wherever it leads, without having to adjust their work to immediate concerns. Indeed, preserving this way of life is itself part of what is at stake. But if all of us were to carry on in this way, then we would be failing to fulfil our <em>collective </em>responsibility to society.</p>
-
-
-
-<p class="wp-block-paragraph">There are moments in history when looking deeply is not enough. Moments when it becomes our inescapable responsibility to look wider, to the implications for humanity at large. Navier–Stokes was the warning shot for us. The moment of reckoning has arrived.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 7 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/28/responsibility-of-mathematicians-in-the-age-of-ai/feed/</wfw:commentRss>
-			<slash:comments>4</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2120</post-id>	</item>
 	</channel>
 </rss>

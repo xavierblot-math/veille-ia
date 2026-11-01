@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Sat, 31 Oct 2026 12:39:05 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 01 Nov 2026 09:33:49 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -34,7 +34,7 @@
 		
 		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
 		<pubDate>Sat, 31 Oct 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
+				<category><![CDATA[In practice]]></category>
 		<category><![CDATA[arXiv]]></category>
 		<category><![CDATA[Norms]]></category>
 		<category><![CDATA[The future of papers]]></category>
@@ -83,7 +83,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/31/ai-reviews-are-the-new-normal/feed/</wfw:commentRss>
-			<slash:comments>4</slash:comments>
+			<slash:comments>6</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3185</post-id>	</item>
@@ -94,7 +94,7 @@
 		
 		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
 		<pubDate>Sat, 31 Oct 2026 13:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
+				<category><![CDATA[Creative writing]]></category>
 		<category><![CDATA[Satire]]></category>
 		<category><![CDATA[Story]]></category>
 		<guid isPermaLink="false">https://proofsandprompts.com/?p=2507</guid>
@@ -969,7 +969,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/31/lean-me-softly-a-satire-about-a-dystopian-future-for-mathematics/feed/</wfw:commentRss>
-			<slash:comments>5</slash:comments>
+			<slash:comments>6</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2507</post-id>	</item>
@@ -981,6 +981,7 @@
 		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
 		<pubDate>Fri, 30 Oct 2026 19:08:52 +0000</pubDate>
 				<category><![CDATA[Initiatives]]></category>
+		<category><![CDATA[Take part]]></category>
 		<category><![CDATA[Community]]></category>
 		<category><![CDATA[Evaluation]]></category>
 		<category><![CDATA[Profession]]></category>
@@ -1036,7 +1037,7 @@
 <ol class="wp-block-footnotes"><li id="5c1e7a4b-2d93-4f6e-9a18-b07d3e5f8c21">Dan Freed (Harvard), Larry Guth (MIT), Bryna Kra (Northwestern), Emily Riehl (Johns Hopkins) and Mohammed Abouzaid (Stanford) <a href="#5c1e7a4b-2d93-4f6e-9a18-b07d3e5f8c21-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/30/recommendations-from-the-harvard-cmsa-summit-on-math-and-ai/feed/</wfw:commentRss>
-			<slash:comments>7</slash:comments>
+			<slash:comments>8</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3203</post-id>	</item>
@@ -1107,7 +1108,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/30/math-is-for-feeding-your-family/feed/</wfw:commentRss>
-			<slash:comments>30</slash:comments>
+			<slash:comments>31</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2529</post-id>	</item>
@@ -1473,6 +1474,7 @@
 		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
 		<pubDate>Thu, 29 Oct 2026 15:00:00 +0000</pubDate>
 				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Reactions]]></category>
 		<category><![CDATA[Creativity]]></category>
 		<category><![CDATA[Personal experience]]></category>
 		<category><![CDATA[Response]]></category>
@@ -1671,6 +1673,7 @@
 		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
 		<pubDate>Thu, 29 Oct 2026 10:00:00 +0000</pubDate>
 				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Reactions]]></category>
 		<category><![CDATA[Community]]></category>
 		<category><![CDATA[Norms]]></category>
 		<category><![CDATA[Reflection]]></category>
@@ -1769,7 +1772,7 @@
 		
 		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
 		<pubDate>Wed, 28 Oct 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
+				<category><![CDATA[In practice]]></category>
 		<category><![CDATA[Attribution]]></category>
 		<category><![CDATA[Disclosure]]></category>
 		<category><![CDATA[The future of papers]]></category>

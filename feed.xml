@@ -6,7 +6,41 @@
 <atom:link href="https://xavierblot-math.github.io/veille-ia/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Daily summary of Xena, Proofs and Prompts, Silicon Reckoner, Tao (blog and Mastodon) and Gowers.</description>
 <language>en</language>
-<lastBuildDate>Sun, 01 Nov 2026 04:43:10 +0000</lastBuildDate>
+<lastBuildDate>Mon, 02 Nov 2026 04:43:12 +0000</lastBuildDate>
+<item>
+<title>Digest — 2 November 2026 (3 new posts)</title>
+<link>https://xavierblot-math.github.io/veille-ia/#2026-11-02</link>
+<guid isPermaLink="false">veille-ia-2026-11-02</guid>
+<pubDate>Mon, 02 Nov 2026 04:00:00 +0000</pubDate>
+<description><![CDATA[
+<p><em>Nothing new from: Xena (Kevin Buzzard), Timothy Gowers, Terence Tao on Mastodon.</em></p>
+
+<h3>Terence Tao's blog (guest post by Frank Calegari) — <a href="https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/">Mathematics has changed. Let’s act like it</a></h3>
+<ul>
+<li>An optimistic response to the gloom after OpenAI's October 6 release of 700+ AI papers: those papers are badly written, often misattributed and sometimes wrong, but the community controls hiring, publishing and training, and should act there rather than lament.</li>
+<li>Draws on the classification of finite simple groups as a precedent: solving a field's "famous problem" can chill it, so the real work is revision, digestion and refusing to declare subjects finished (cites Duminil-Copin's reaction that all his open problems were claimed at once).</li>
+<li>Argues AI lowers the barrier to speculative, cross-field programs; his own example links compact arithmetic hyperbolic 3-manifolds, Bloch groups and a hoped-for integral Jacquet–Langlands / Kolyvagin-system picture.</li>
+<li>Concrete proposals: judge every paper as if AI-assisted (value only what a machine couldn't trivially produce), interview postdoc and PhD candidates in person, demand more of journals or abandon them, broaden graduate training, give context-first seminars, and "take ownership" of AI results on behalf of humanity.</li>
+<li>👉 Directly relevant to PhD supervision: he says the classic "problem in the overhang" thesis is now a button-press, so training must emphasise breadth and the ability to explain mathematics.</li>
+</ul>
+
+<h3>Proofs and Prompts (Alexander Van Werde) — <a href="https://proofsandprompts.com/2026/11/01/collaborative-work-groups-on-exposition-problems/">Collaborative work groups on exposition problems</a></h3>
+<ul>
+<li>Part of the publishing/credit series. Worry: AI makes first proofs cheap but expertise is still needed to digest and write them up, and a race to post the first acceptable exposition could replicate scooping pressure.</li>
+<li>Proposal: openly announced "collaborative work groups" (not necessarily led by the original author) that digest an AI-generated preprint, publish partial reports on a blog or Git repo, and aim for a human-written paper submittable to classical venues.</li>
+<li>Rationale: individual ownership feels odd for autonomous AI output, groups spread the ideas, and announcing protects a slow digestion process; he flags the risk of legitimising badly written preprints.</li>
+</ul>
+
+<h3>Proofs and Prompts (Andrew Ng, Bonn) — <a href="https://proofsandprompts.com/2026/11/01/a-new-system-of-accreditation/">A new system of accreditation</a></h3>
+<ul>
+<li>A PhD student proposes abolishing refereed journals (no refereeing for submissions after 1 January 2029) in favour of thesis-scale "publications" defended publicly once a year, administered centrally (e.g. by the IMU), with a named examiner and signed community reviews.</li>
+<li>arXiv results stay the author's to defend for two years, then become "folklore" usable by anyone who digests them — e.g. a cleaned-up rewrite of an AI company's 100-page preprint would earn the credit.</li>
+<li>Also argues for credit for outreach, public/open LLMs allocated like supercomputer time, and draws lessons from chess training; discusses drawbacks (subjectivity, burden on examiners, small results) and offers his own 2027 defence as a test run.</li>
+<li>👉 Mentions CNRS's reported €3M in 2025 publishing fees, a point for the French debate.</li>
+</ul>
+<p><em>Sources refreshed 2 November 2026, 04:42 UTC; all sources fetched successfully.</em></p>
+]]></description>
+</item>
 <item>
 <title>Digest — 1 November 2026 (3 new posts)</title>
 <link>https://xavierblot-math.github.io/veille-ia/#2026-11-01</link>

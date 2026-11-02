@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Sun, 01 Nov 2026 09:33:49 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 01 Nov 2026 16:43:19 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,274 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>Collaborative work groups on exposition problems</title>
+		<link>https://proofsandprompts.com/2026/11/01/collaborative-work-groups-on-exposition-problems/</link>
+					<comments>https://proofsandprompts.com/2026/11/01/collaborative-work-groups-on-exposition-problems/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Sun, 01 Nov 2026 17:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Exposition]]></category>
+		<category><![CDATA[Norms]]></category>
+		<category><![CDATA[The future of papers]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3011</guid>
+
+					<description><![CDATA[Fear of being scooped leads to unpolished preprints intended to claim priority. Could such undesirable flag-planting behavior also arise for expository work on key results? Starting from this premise, this post proposes that collaborative working groups offer a healthier way forward.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://alexandervanwerde.be/">Alexander Van Werde</a>, Postdoctoral Researcher at <a href="https://www.uni-muenster.de/MathematicsMuenster/">Mathematics Münster</a>, Germany</p>
+
+
+
+<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · AI is making papers cheap to produce but they remain costly to referee. Proofs and Prompts is publishing a series of posts from 26 October on the future of publishing, papers and credit. Questions such as how to disclose AI use, who bears the cost of checking, what authorship means and what papers of the future might look like will be addressed. This post is part of the series. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/publishing/">All posts in the series</a></p>
+
+
+
+<p class="wp-block-paragraph">A significant worry in our community is a potential widening gap between human understanding and formal problem solutions. This issue has been increasingly apparent due to AI systems’ ability to generate long formally verified proofs. A common sentiment is that it would help if we assigned more credit to exposition.</p>
+
+
+
+<p class="wp-block-paragraph">A related issue is the pressure that authors experience to put an unpolished preprint online to avoid being scooped. Sometimes, this unpolished state may only be temporary. However, the expertise needed to polish the writeup is not always present for AI-generated results. The expertise required for a first proof was reduced by AI systems, but it is likely still needed for digestion and exposition.</p>
+
+
+
+<p class="wp-block-paragraph">Could the rush that leads to unpolished preprints arise for exposition too? If an author gets recognized for an acceptable writeup, then others may get less credit for better exposition. For well-known problems, it is plausible that multiple people are working independently. This makes accidental scooping more likely, so authors might be incentivized to rush.</p>
+
+
+
+<p class="wp-block-paragraph">One approach is for authors to announce that they are working on it. However, this encourages the exact flag-planting behavior that initial unpolished preprints are associated with. Moreover, others may also want to digest the ideas, and collaboration could be beneficial!</p>
+
+
+
+<p class="wp-block-paragraph">I propose that it may be better to announce <em>collaborative work groups</em>:</p>
+
+
+
+<ol class="wp-block-list">
+<li>Someone in the field, who may not be the original author, forms a group intended to work on the exposition and digestion of a preprint. This group announces its existence. Further, the group states what additional expertise it would benefit from.</li>
+
+
+
+<li>The group creates a blog or Git repository where it openly reports on partial progress. For instance, an initial report could discuss the previous literature, addressing a common problem in AI-generated manuscripts. Subsequent reports could release expositions on parts of the technical content, as the digestion proceeds.<br><br>Such reports would be valuable to the community. The ideas used to resolve a central problem may also be relevant elsewhere, so having some quick updates would be useful. Further, this would make it clear that the group is not merely a flag-planting operation.</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">The end goal could be to produce a human-written manuscript with good exposition that can be submitted at classical venues. This would allow the hard work of exposition to be acknowledged within the incentive structures that currently exist.</p>
+
+
+
+<p class="wp-block-paragraph">The reasons why such groups could be particularly suitable for expository work are as follows:</p>
+
+
+
+<ol class="wp-block-list">
+<li>A single author asserting ownership feels silly when the solution was generated by an autonomous AI system. The solution then properly belongs to the community. An open collaborative approach would hence be more natural, while still rewarding the people that worked on the exposition with demonstrable research output.</li>
+
+
+
+<li>The engagement of a group of people would help to disseminate the ideas. This group would naturally be trained to pursue and appreciate follow-up activities, such as searching for generalizations or applications of the tools in different problems.</li>
+
+
+
+<li>While a proof can in principle be generated and formally verified in an arbitrarily short time span, human digestion has natural limits. Hence, the latter activity particularly requires a slower process. This would be aided by the protection from accidental scooping that follows from the announcement of the group’s existence.</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">Such groups do not need to be huge. Having too many collaborators incurs communication difficulties and can lead to “design by committee” where the exposition lacks a unified vision. However, the idea is that the term “collaborative work group” would signal an open attitude, where collaborators are welcome subject to reasonable constraints. Initial arXiv announcements of unpolished preprints often feel like an author marking their territory, the exact opposite signal.</p>
+
+
+
+<p class="wp-block-paragraph">I am curious what others think. It appears that a central repository with such work group announcements could be useful. There could however also be downsides. For example, the act of engaging with improperly written preprints might appear to legitimize their production.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">This is a condensed version of a <a href="https://alexandervanwerde.be/collaborative-work-groups-on-open-exposition-problems/">post on the author’s blog</a>.</p>
+
+
+
+<p class="wp-block-paragraph">Received 15 October 2026, revised 1 November 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/01/collaborative-work-groups-on-exposition-problems/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3011</post-id>	</item>
+		<item>
+		<title>A new system of accreditation</title>
+		<link>https://proofsandprompts.com/2026/11/01/a-new-system-of-accreditation/</link>
+					<comments>https://proofsandprompts.com/2026/11/01/a-new-system-of-accreditation/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Sun, 01 Nov 2026 13:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Credit]]></category>
+		<category><![CDATA[Norms]]></category>
+		<category><![CDATA[The future of papers]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3154</guid>
+
+					<description><![CDATA[I propose the following: the main way that a mathematician obtains "credit" for new results should be by writing publications which are at the level of doctoral theses and defending them in front of the mathematical community. The community can then give this publicly available reviews. Hiring committees then look at someone's list of such publications, taking into account the community's comments to judge quality if they so desire, and make hiring decisions based on that.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://clandrei.github.io/">Andrew Ng</a>, PhD student at the <a href="https://www.math.uni-bonn.de/">University of Bonn</a></p>
+
+
+
+<p class="pp-series-note wp-block-paragraph has-text-color" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · AI is making papers cheap to produce but they remain costly to referee. Proofs and Prompts is publishing a series of posts from 26 October on the future of publishing, papers and credit. Questions such as how to disclose AI use, who bears the cost of checking, what authorship means and what papers of the future might look like will be addressed. This post is part of the series. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/publishing/">All posts in the series</a></p>
+
+
+
+<p class="wp-block-paragraph">It has become clear in recent years, and especially after the advent of LLMs, that the current publication system of journals is untenable and inequitable. I think this is an excellent opportunity to reform the system, so let me outline a suggestion.</p>
+
+
+
+<p class="wp-block-paragraph">I propose the following: the main way that a mathematician obtains &#8220;credit&#8221; for new results should be by writing publications which are at the level of doctoral theses and defending them in front of the mathematical community. The community can then give this publicly available reviews. Hiring committees then look at someone&#8217;s list of such publications, taking into account the community&#8217;s comments to judge quality if they so desire, and make hiring decisions based on that.</p>
+
+
+
+<p class="wp-block-paragraph">Concretely, how this would work is the following. Every year, everybody who has defended a PhD thesis has the right to ask for a defence of one of their preprints. (PhD theses are defended the same way as before.)</p>
+
+
+
+<p class="wp-block-paragraph">These are not submitted to any journals; we abolish journals by agreeing that nothing which is received from the 1st of January 2029 will be refereed or quick opinioned or given any of the unpaid and unacknowledged labour that journals need to function. In place of journals, some sort of international organisation, such as the IMU, receives requests from mathematicians to defend a preprint, which is uploaded to said organisation&#8217;s website and/or the arXiv. For simplicity&#8217;s sake let&#8217;s pretend that the IMU does this so I don&#8217;t have to write international organisation, but I want to emphasise that it need not be the IMU or any existing organisation: it could be a new thing entirely. The IMU then appoints someone to examine the publication, akin to how examiners examine doctoral theses. Theses should be tagged with keywords/ MSC codes etc, and all mathematicians who have defended a thesis or publication in related areas have the right to rate this by writing comments on a system hosted by the IMU&#8217;s server. These are publicly available and must be tied to the reviewing mathematician somehow. For instance, one might have to use ORCID to access this system, but the ORCID would not be publicly available (probably only to the examiner, if at all). The criteria used could be elegance of the argument, novelty of the techniques, and depth, as measured by establishing connections to other problems which are not obviously related or connections to other areas of mathematics.<sup data-fn="fn-5e352a5e-e71c-4334-a0d9-d41699757c69" class="fn"><a href="#fn-5e352a5e-e71c-4334-a0d9-d41699757c69" id="fn-5e352a5e-e71c-4334-a0d9-d41699757c69-link">1</a></sup></p>
+
+
+
+<p class="wp-block-paragraph">After a period of at least 3 months (also subject to debate, but some time so that there is enough time for others to read the publication and for the author incorporate comments, corrections etc.), a defence of the preprint should take place, broadcast online so that other people may take part. The purpose of this is for the author to convince the community of the correctness and interest of the results in the preprint, and to explain the proof/methods to all those who are interested. I cannot stress the importance of the latter enough: it is imperative that we cure ourselves of Hardy&#8217;s disease<sup data-fn="fn-8c917b79-a056-4315-a412-98ddc2a97027" class="fn"><a href="#fn-8c917b79-a056-4315-a412-98ddc2a97027" id="fn-8c917b79-a056-4315-a412-98ddc2a97027-link">2</a></sup>. All present should additionally rate the defence on quality of exposition. At the end of the defence, the examiner should compile the opinions of the mathematicians who have rated the preprint, decide whether the defence was successful, and write a longer report. If successful, the preprint is published along with the examiner&#8217;s report and all the opinions of others who have rated them. The quality of a publication is judged by the examiner&#8217;s report and the collective opinion of the mathematicians who have rated it, but there are no more or less prestigious &#8220;places&#8221; to defend since all defences are centrally administered. This sort of publication is what is considered in the &#8220;proving results&#8221; part of hiring/promotion decisions.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Why do this, and how do other existing practices change/adapt?</strong></h2>
+
+
+
+<p class="wp-block-paragraph">This may sound like a lot of work. That&#8217;s because it is. However, I believe that in the age of generative LLMs a publication should merit this amount of work in order to be deserving of publication. As we all know by now, just having a proof of some theorem is not indicative of anything. It should form part of some larger body of work that points to new directions in research, and that is what, allegedly, a doctoral thesis is meant to be.</p>
+
+
+
+<p class="wp-block-paragraph">Since this is a lot of work for the examiner in particular, I believe that in career-related decisions, committees should weight examining a publication as highly as defending one. Examiners should be given credit for their work regardless of acceptance. Since the examiner is supposed to understand the publication well, responsibility for explanation and exposition of the results in the publication should fall on both the author and the examiner.</p>
+
+
+
+<p class="wp-block-paragraph">I think this proposal has a reasonable claim to stopping the arms race in publishing papers. I have heard senior people lament that students are now pressured to publish papers earlier and earlier, and that has the effect that often students don&#8217;t think about things as deeply as they used to. The proposed system incentivises everybody, not just PhD students, to think deeply about whatever mathematics they are engaged in. To prevent people from just shoving random results together and calling that a preprint, I suggest that we give the examiners the right to say that the results of a preprint are incoherent and there is no unifying theme. I would also say that preprints can be defended jointly if most of the results were obtained in collaboration, but the preprint should count towards the quota of all the authors.</p>
+
+
+
+<p class="wp-block-paragraph">I believe that a defence where one can grill the speaker is much better for communicating understanding/expositional purposes. I agree with Frank Calegari <a href="https://galoisrepresentations.org/2026/09/17/ways-to-improve-mathematics-an-introduction/">here</a> that &#8220;the median mathematics seminar could (perhaps harshly) be described as a waste of time for both the participants and the speaker&#8221;. In talks where I am actually interested in the speaker&#8217;s results, I have found the introductory spiel to be uninspiring, and to take up too much time so that the new results are only very cursorily alluded to. I cannot press the speaker on the details of their methods, because this could be considered heckling, derail the conference schedule, and disturb their flow. Consequently, I get nothing out of the talk and have to resort to pestering the speaker afterwards. I think if we really wanted to get anything more than a superficial acquaintance with the speaker&#8217;s work out of a talk, that talk has to resemble a doctoral defence more than it does a conference talk in the current model.</p>
+
+
+
+<p class="wp-block-paragraph">What of the arXiv? I think this is a great endeavour and we should work to preserve it. I think people should continue uploading preprints to the arXiv, and that the authors of a preprint have the right to use the results in it in a defence and call those &#8220;their results&#8221; <em>for the next two years</em><sup data-fn="fn-1024b057-1511-4993-a3ef-bf022adcc301" class="fn"><a href="#fn-1024b057-1511-4993-a3ef-bf022adcc301" id="fn-1024b057-1511-4993-a3ef-bf022adcc301-link">3</a></sup> after uploading. This is so that people can stake claims to results and not get scooped while they work on building their narrative. After the two year period, the results should be considered as folklore<sup data-fn="fn-7563f04d-2b49-4e7d-a177-c35c9a2cad26" class="fn"><a href="#fn-7563f04d-2b49-4e7d-a177-c35c9a2cad26" id="fn-7563f04d-2b49-4e7d-a177-c35c9a2cad26-link">4</a></sup>: they can be used by anyone in a defence. The purpose of having an expiry date at all is this: some people choose not to fully explain or clean up their arguments, sometimes never publishing them. This results in an undesirable situation: obviously someone should do this work so that it can be verified, digested, and incorporated into the community&#8217;s repertoire, but there is currently no incentive to do this, since it would be, generally speaking, unacknowledged labour. Having an expiry date rewards someone who is willing to put in the effort to understand the mathematics in an orphaned preprint and integrate it into the community. This also deals with the issue of AI company produced preprints. Let&#8217;s take the construction of a complex structure on <math data-latex="S^6"><semantics><msup><mi>S</mi><mn>6</mn></msup><annotation encoding="application/x-tex">S^6</annotation></semantics></math> as an example. Engel took the initial 100 page preprint and turned it into a much more readable 20 page preprint (although I tried to read it, it is still beyond me since I don&#8217;t have the background in complex geometry, but I am told it is much better). In my proposed system, the result is his to claim, and I think this is fair.</p>
+
+
+
+<p class="wp-block-paragraph">While we are on the topic of reforming the system, I would also like to propose that the IMU have a dedicated branch towards public outreach and exposition, and substantial contributions towards this goal should be weighted the same as contributions such as defending or examining publications. Converting mathematics into something that the general public can appreciate is very hard work which deserves to be recognised. The public has funded our research and they deserve to get something out of it as well. If we do not want to rely on the blood money of the finance and tech companies and be beholden to their whims, we must convince the public that what we do is of value to them<sup data-fn="fn-db8b71fe-1ac4-422b-beef-110d9dd5401e" class="fn"><a href="#fn-db8b71fe-1ac4-422b-beef-110d9dd5401e" id="fn-db8b71fe-1ac4-422b-beef-110d9dd5401e-link">5</a></sup>. I admit that I do not know how best to do this, but there are many people who have experience with successfully engaging with the public, and that expertise should be tapped.</p>
+
+
+
+<p class="wp-block-paragraph">I have dreamt up this system based on the assumption that it is depth of understanding that we want to preserve and encourage. I would like to address the concern that this is somehow unfair to the people who prefer problem solving, and I will say what I mean using combinatorics as an example. I think that it is fine to enjoy problem solving. I do. But I think that when doing research, especially in this day and age, just solving the problem isn&#8217;t enough. One should find better and/or alternative ways of solving the problem<sup data-fn="fn-73540454-3950-4d1a-8571-0906af9bf6d8" class="fn"><a href="#fn-73540454-3950-4d1a-8571-0906af9bf6d8" id="fn-73540454-3950-4d1a-8571-0906af9bf6d8-link">6</a></sup>, and try to hit on methods/techniques/heuristics which apply more generally. For instance, Turan&#8217;s theorem has a number of different proofs, many of which generalise to other problems or hint at more general theory which can be explored. If, in a hypothetical universe which had adopted this system, somebody had discovered what we call Turan&#8217;s theorem, then what they could do next is solve more Turan like problems and publish a treatise on forbidden subgraphs. Similarly, Erdos&#8217; introduction of the probabilistic method to bound Ramsey numbers is an ingenious and extremely elegant argument, and one which is taught to many undergraduates for good reason: it generalises. If someone had discovered the probabilistic method, they could then prove some number of other results that were previously inaccessible and then write a publication on this method and how great and good it is. I have been taught, and have taught others, that solving problems helps you solve more problems. Research papers should show this in action.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>LLMs</strong></h3>
+
+
+
+<p class="wp-block-paragraph">I have thus far been a bit coy about the exact status of LLMs in mathematics in this proposed universe. Only time will tell, but from my perspective the current unregulated system poses an existential risk comparable to that of nuclear weapons, if not worse. In my opinion, private companies absolutely should not be allowed to train any sort of <em>large</em> language model or AI. I agree with others who believe that such LLMs, trained on so much public data, should also be a public good whose benefits the public should reap<sup data-fn="fn-2502760a-2db2-4b8f-9ee8-7d85c7599d8c" class="fn"><a href="#fn-2502760a-2db2-4b8f-9ee8-7d85c7599d8c" id="fn-2502760a-2db2-4b8f-9ee8-7d85c7599d8c-link">7</a></sup>. If we do believe that LLMs should continue to exist and play an important role, then they should be set up in such a way that it is accessible to as large a proportion of the public as we can manage, run on sustainable energy, and not have data centres popping up left right and centre. Mathematicians would then have access to this (open source) LLM. Perhaps access to LLMs/tokens/queries could be allocated in a similar way computing time on supercomputer clusters is. I have added this partly because, at a Maths and AI panel in Bonn, a panelist asks whether we would be willing to accept access to a slightly weaker model than what the AI companies have, and someone responded it depends on how we are assessed as junior mathematicians. I believe that the proposed system mitigates, to some extent, the inevitable difference between levels of AI access across different institutions.</p>
+
+
+
+<p class="wp-block-paragraph">There is also the massive uncertainty of what LLMs will be capable of in the future. They will, with high probability, be able to formalise arguments without much difficulty, so I have not paid much attention to verifying the formal correctness of preprints. I assume this will be dealt with as the times change.</p>
+
+
+
+<p class="wp-block-paragraph">There is still the issue of whether LLMs could generate publications at the level of doctoral theses that seem to be as good as human ones and have viewpoints which we find aesthetically agreeable. It would be foolish to bet against this, and I do not know how to get around this (yet), but I find Tarik Aougab statement from a previous <a href="https://proofsandprompts.com/2026/09/23/navigating-the-ai-crisis-a-humble-guide-for-students/">post</a> appealing: &#8221; By definition, AI cannot be better than humans in the activity of human beings talking to one another. So insofar as humans sharing ideas with other humans is an essential part of what it means for mathematics to exist, this question is actually beside the point. In fact, there is nothing automatically wrong or bad about a human using an AI to help themselves understand some piece of mathematics in order to then go and explain it in a new or interesting way to another human or group of humans. But this is only doable at all if human mathematicians learn to value– and even reward – conversation.&#8221;.</p>
+
+
+
+<p class="wp-block-paragraph">I have a bit more to say about this sort of question/objection. First of all, I believe that, as Uri Bader said in an earlier post, maths just exists. The Poincare conjecture and Fermat&#8217;s Last Theorem have always both been true, but the point of research in these directions was to uncover why they are true, what structure lies beneath, and how they are connected to a great many other, often unexpected, questions in mathematics. And then communicate all of this to other people so that they might further build on that and learn even more about the mathematical universe. The Book of God has been written since the dawn of time and just because someone/something else can read it doesn&#8217;t that any individual or community has to stop trying to read it.</p>
+
+
+
+<p class="wp-block-paragraph">Second of all, suppose that tomorrow some alien race came to Earth and said that they are technologically much more advanced so we puny Earthlings should cede control over all our institutions, stop all research and scientific endeavours, and just do what they tell us. If this happened in a film and the people collectively shrugged their shoulders and said ok, I think most viewers would rightly call those people idiots. Now that this is happening in real life<sup data-fn="fn-4f8a3a63-78d9-4498-aaa9-502f1c9de6ec" class="fn"><a href="#fn-4f8a3a63-78d9-4498-aaa9-502f1c9de6ec" id="fn-4f8a3a63-78d9-4498-aaa9-502f1c9de6ec-link">8</a></sup>, I don&#8217;t think it is wise or prudent of us to leave our fates in the hands of people or technology of dubious<sup data-fn="fn-b0e79e27-7819-413d-85ec-f55a7e685ff3" class="fn"><a href="#fn-b0e79e27-7819-413d-85ec-f55a7e685ff3" id="fn-b0e79e27-7819-413d-85ec-f55a7e685ff3-link">9</a></sup> trustworthiness.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Training students</strong></h3>
+
+
+
+<p class="wp-block-paragraph">On the topic of training students, I think very little has to change if we adopt these community norms. We can still teach and test for understanding, creativity, quality of exposition, choice of direction/questions, perseverance etc. All of the things which the system claimed to teach before the advent of LLMs. Perhaps some amount of work would have to go into thinking about how best to integrate LLMs into one&#8217;s workflow, but that is a relatively minor issue.</p>
+
+
+
+<p class="wp-block-paragraph">I would also like to address the oft-repeated analogy with chess, as somebody who, in a past life, spent a lot of time playing and studying chess. As other commentators have pointed out, chess is fundamentally different to maths: it is a finite game, played as a competition between two players. Maths is not finite, as far as I can tell, and it is not a competition in my view: it is a search for the truth. When chess engines arrived, this changed the game in the sense that the best player is no longer a human being, but it is still as enjoyable as it was before, and competitions are still between human players. The existence of extremely powerful LLMs impacts the field of maths differently, of course, but for illuminating which parts of the infinite search space we, as humans, find interesting, it seems to me that humans should be the ones to decide.</p>
+
+
+
+<p class="wp-block-paragraph">The most important lesson to be learned from chess, however, is when it comes to training students. The reader may already know this, but chess players have never ever improved by just reading what the chess engines spit out. Coaches always tell students to think about positions without an engine first, and only after a fair amount of thought maybe turn on the engine to see what they have missed. For all intents and purposes, the most powerful chess engines are oracles, and there are correct ways to use them to improve. I believe the same applies to mathematical oracles too, and it is up to the individual mathematician to figure out what the correct way is<sup data-fn="fn-4accaf9d-009e-4678-af5f-2066919798e2" class="fn"><a href="#fn-4accaf9d-009e-4678-af5f-2066919798e2" id="fn-4accaf9d-009e-4678-af5f-2066919798e2-link">10</a></sup>, but we cannot possibly hope to do so in the current journal system which has such perversely distorted incentives.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>2. Criticisms, Drawbacks, Alternatives</strong></h2>
+
+
+
+<p class="wp-block-paragraph">I admit that this proposal is far from perfect. For instance, there is still a fair amount of subjectivity and bias in this system, but I don&#8217;t see how we could eliminate that completely if we insist on a large human aspect of the profession. I don&#8217;t know if we want to argue that we can/should eliminate subjectivity completely. This proposal is very much inspired by thinking about how academia in other disciplines works: in computer science papers are defended at conferences, but they also have the problem of slop, so one must raise the bar somehow, and I have opted for something similar to the practice of writing books that is commonplace in the humanities.</p>
+
+
+
+<p class="wp-block-paragraph">In earlier conversations about a version of this proposal I was told that I was insanely optimistic and had never experienced a system where widespread corruption was the norm<sup data-fn="fn-b3d495fd-a29c-4841-b32b-51d3d7b9f4f5" class="fn"><a href="#fn-b3d495fd-a29c-4841-b32b-51d3d7b9f4f5" id="fn-b3d495fd-a29c-4841-b32b-51d3d7b9f4f5-link">11</a></sup>. This is because I suggested that there should additionally be numerical ratings for the judging criteria, and that the person attached to ratings/comments should be public. There are good reasons for having anonymous refereeing: to prevent &#8220;you scratch my back, I scratch yours&#8221; kind of behaviour, and because people might feel uncomfortable giving their peers honest negative feedback if their name is attached to it<sup data-fn="fn-c3425ff2-2f8d-4d3f-a12c-477b516bed53" class="fn"><a href="#fn-c3425ff2-2f8d-4d3f-a12c-477b516bed53" id="fn-c3425ff2-2f8d-4d3f-a12c-477b516bed53-link">12</a></sup>. It is still possible that it is worth having numerical ratings which are only available to the examiner, but many people have pointed out to me the drawbacks of having explicit numerical ratings that are public, such as these being one-dimensional metrics which committees will use instead of considering mathematicians holistically, or this devolving into a social media-esque popularity contest.</p>
+
+
+
+<p class="wp-block-paragraph">As for choosing the examiners, in this industry it is usually an open secret who is corrupt or who doesn&#8217;t get along, so this can be avoided when choosing examiners, who I believe really should be publicly known. This is of course very much up for debate, but I think that journals deciding what to publish based on the opinions of a couple of arbitrarily chosen referees and a handful of overworked editors who often aren&#8217;t that related to the area of the submitted manuscript is insane and fertile ground for corruption. There is also the concern that this puts too much burden on the &#8216;senior&#8217; people. I would imagine that the examiner doesn&#8217;t have to be the most senior person in the field: anybody who is competent and objective would do perfectly well, just as postdocs referee papers currently.</p>
+
+
+
+<p class="wp-block-paragraph">I have gotten multiple questions on the issue of how to assess the standards of examiners&#8217; work. I think this has to be because their identity and the report that they write are public. The argument that anonymous refereeing is objective is, in my opinion, dubious since it offers no way of ensuring that the referee did their job properly. I also expect that no person will be allocated the task of examining more than once or twice a year, so there shouldn&#8217;t be any incentive to do a bad job to collect more &#8216;examining credits&#8217;.</p>
+
+
+
+<p class="wp-block-paragraph">I was asked an interesting question that I had not thought of: if I insist that every publication be at the level/scope of a doctoral thesis, what happens to small/cute results that don&#8217;t manage to get used/fit into some narrative? My suggestion is that they simply get left as preprints on the arXiv. It seems to me impossible to award very many credits for a small thing which might end up really being a prompt and not very many tokens away in the age of powerful generative LLMs. Perhaps they could get published in a sort of maths magazine like EMS press, or one could send them to a maths contest (e.g. Miklos&#8211;Schweitzer), or if enough of these are accumulated one could publish them as a book. Alternatively, one could obtain two types of credit: big theses level credits which are what is taken into consideration in career decisions, and smaller community level credits for this sort of thing.</p>
+
+
+
+<p class="wp-block-paragraph">This question in turn arose because, in an earlier draft, I considered the possibility of everyone having the right to 3 defences a year. I&#8217;d argue that very few people can consistently write 3 doctoral theses a year, but this probably does not alleviate the pressure to publish. This lead me to the suggestion of everyone having the right to a single defence every year, which I got from Lawk Mineh, where they report on what they have done since their last defence (but are not obliged to defend every year). This potentially lets the small/cute results in. However, if there are too many small results that are spread across too wide an area, it makes it difficult for any single examiner to assess the publication as a whole. I&#8217;m sure there are refinements/ways around this, but I do favour more directed efforts to tell a story about a part of mathematics rather than just a smattering of very loosely related results.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>3. Conclusion</strong></h2>
+
+
+
+<p class="wp-block-paragraph">I do think that most versions of what I have suggested are strictly better than the current unsustainable journal system<sup data-fn="fn-00b6a261-ee19-4164-b979-402af26231ea" class="fn"><a href="#fn-00b6a261-ee19-4164-b979-402af26231ea" id="fn-00b6a261-ee19-4164-b979-402af26231ea-link">13</a></sup>, and absent any better suggestions this system is something that we should move towards. It has also been pointed out to me there is no need to try to enforce this very much, since it is aligned with the interests of the community and the institutions that fund us. I was told that CNRS spent a whopping 3 million euros on publishing fees in 2025, and not a single cent of this went to anybody who did any mathematical work. I think that, upon reflection, mathematicians will collectively realise just how ridiculous the publishing system is and how little it actually serves the interests of the community. It would be best if the proposal were to get tested, and given the new journals for video recordings of talks, I hope it&#8217;s not too much of a stretch for some slightly more senior people to give a proposal like this a test run and see what works, what doesn&#8217;t, what needs tweaking, whether it is workable etc.<sup data-fn="fn-2fa4292e-bf34-494e-ae61-7012dcd47be6" class="fn"><a href="#fn-2fa4292e-bf34-494e-ae61-7012dcd47be6" id="fn-2fa4292e-bf34-494e-ae61-7012dcd47be6-link">14</a></sup> Let me also offer something so that it doesn&#8217;t seem like I am just telling others what to do<sup data-fn="fn-4cffcf05-411e-49a8-8934-cbaa7152a5de" class="fn"><a href="#fn-4cffcf05-411e-49a8-8934-cbaa7152a5de" id="fn-4cffcf05-411e-49a8-8934-cbaa7152a5de-link">15</a></sup>. If there is consensus around a proposal for what defences should look like and people would want to test it to see how that works, I am willing to test that out on my defence in summer 2027. If it comes to it, every single mathematician in the world is welcome to come and grill me about my thesis.</p>
+
+
+
+<p class="wp-block-paragraph"><em><strong>Acknowledgements:</strong></em> The views expressed here are my own, but it is a great pleasure to thank Emile Averous, Marius Fischer, Sam Fisher, Francesco Fournier-Facio, Liam Hanany, Giovanni Italiano, Glen Lim, Matteo Migliorini, Lawk Mineh, Chiara Molinari, Konstantin Recke, William Thomas, Dylan Toh, Ric Wade for their thoughtful comments, feedback, insights, and suggestions that have improved this post in every way.</p>
+
+
+<ol class="wp-block-footnotes"><li id="fn-5e352a5e-e71c-4334-a0d9-d41699757c69">Obviously the exact criteria are up for debate, but I want to make it clear that I don&#8217;t think that papers which are just technically hard for the sake of being technically hard should be rewarded. In my opinion, this is human generated slop, to borrow a phrase I heard from a friend. <a href="#fn-5e352a5e-e71c-4334-a0d9-d41699757c69-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-8c917b79-a056-4315-a412-98ddc2a97027">From G. H. Hardy&#8217;s A Mathematician&#8217;s Apology: &#8220;There is no scorn more profound, or on the whole more justifiable, than that of the men who make for the men who explain. Exposition, criticism, appreciation, is work for second-rate minds.&#8221; I can think of no single sentence in the history of mankind that has done more harm to mathematics. <a href="#fn-8c917b79-a056-4315-a412-98ddc2a97027-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-1024b057-1511-4993-a3ef-bf022adcc301">exact time also up for debate <a href="#fn-1024b057-1511-4993-a3ef-bf022adcc301-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-7563f04d-2b49-4e7d-a177-c35c9a2cad26">Weinreich suggested the opposite: that everybody who can explain a theorem owns it. I like this very much in principle, but I am concerned that this does not sufficiently incentivise pushing the boundaries of knowledge. For instance, I would probably spend too much time learning other people&#8217;s results, since I enjoy this, but at some point someone ought to produce something new. <a href="#fn-7563f04d-2b49-4e7d-a177-c35c9a2cad26-link" aria-label="Jump to footnote reference 4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-db8b71fe-1ac4-422b-beef-110d9dd5401e">in my biased opinion, it is <a href="#fn-db8b71fe-1ac4-422b-beef-110d9dd5401e-link" aria-label="Jump to footnote reference 5"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-73540454-3950-4d1a-8571-0906af9bf6d8">what&#8217;s worth proving is worth proving again <a href="#fn-73540454-3950-4d1a-8571-0906af9bf6d8-link" aria-label="Jump to footnote reference 6"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-2502760a-2db2-4b8f-9ee8-7d85c7599d8c">I hesitate to say that an open source model should be run as a cooperation between governments or large universities, but I don&#8217;t see very many other alternatives. I would be glad to hear suggestions. <a href="#fn-2502760a-2db2-4b8f-9ee8-7d85c7599d8c-link" aria-label="Jump to footnote reference 7"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-4f8a3a63-78d9-4498-aaa9-502f1c9de6ec">LLMs may look like an alien race in the near future and tech bros have always looked like an alien race to me. <a href="#fn-4f8a3a63-78d9-4498-aaa9-502f1c9de6ec-link" aria-label="Jump to footnote reference 8"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-b0e79e27-7819-413d-85ec-f55a7e685ff3">A strong contender for the greatest understatement of all time. <a href="#fn-b0e79e27-7819-413d-85ec-f55a7e685ff3-link" aria-label="Jump to footnote reference 9"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-4accaf9d-009e-4678-af5f-2066919798e2">see also Frank Calegari&#8217;s <a href="https://galoisrepresentations.org/2026/09/09/look-mom-i-pressed-a-button-go-edition/">post</a>. <a href="#fn-4accaf9d-009e-4678-af5f-2066919798e2-link" aria-label="Jump to footnote reference 10"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-b3d495fd-a29c-4841-b32b-51d3d7b9f4f5">Thanks for saying nice things about Cambridge and Bonn I guess. <a href="#fn-b3d495fd-a29c-4841-b32b-51d3d7b9f4f5-link" aria-label="Jump to footnote reference 11"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-c3425ff2-2f8d-4d3f-a12c-477b516bed53">in short, because we are fallible and live in an imperfect world. <a href="#fn-c3425ff2-2f8d-4d3f-a12c-477b516bed53-link" aria-label="Jump to footnote reference 12"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-00b6a261-ee19-4164-b979-402af26231ea">for almost every criticism I think of I can think of a very similar criticism of the journal system. <a href="#fn-00b6a261-ee19-4164-b979-402af26231ea-link" aria-label="Jump to footnote reference 13"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-2fa4292e-bf34-494e-ae61-7012dcd47be6">it is indeed a huge shift away from what is usually done and there are questions of feasibility. My answer is that as researchers we spend our time and energy trying to do things that other people find unfeasible, so why stop now? <a href="#fn-2fa4292e-bf34-494e-ae61-7012dcd47be6-link" aria-label="Jump to footnote reference 14"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-4cffcf05-411e-49a8-8934-cbaa7152a5de">Clearly I am not sticking my neck out enough by going directly against the financial interests of every journal in the world. <a href="#fn-4cffcf05-411e-49a8-8934-cbaa7152a5de-link" aria-label="Jump to footnote reference 15"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 23 September 2026, revised 21 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/01/a-new-system-of-accreditation/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3154</post-id>	</item>
+		<item>
 		<title>AI reviews are the new normal</title>
 		<link>https://proofsandprompts.com/2026/10/31/ai-reviews-are-the-new-normal/</link>
 					<comments>https://proofsandprompts.com/2026/10/31/ai-reviews-are-the-new-normal/#comments</comments>
@@ -83,7 +351,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/31/ai-reviews-are-the-new-normal/feed/</wfw:commentRss>
-			<slash:comments>6</slash:comments>
+			<slash:comments>11</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3185</post-id>	</item>
@@ -969,7 +1237,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/31/lean-me-softly-a-satire-about-a-dystopian-future-for-mathematics/feed/</wfw:commentRss>
-			<slash:comments>6</slash:comments>
+			<slash:comments>8</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2507</post-id>	</item>
@@ -1108,7 +1376,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/30/math-is-for-feeding-your-family/feed/</wfw:commentRss>
-			<slash:comments>31</slash:comments>
+			<slash:comments>34</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2529</post-id>	</item>
@@ -1309,7 +1577,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/30/the-value-of-mathematicians-in-the-ai-age/feed/</wfw:commentRss>
-			<slash:comments>13</slash:comments>
+			<slash:comments>14</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2527</post-id>	</item>
@@ -1665,411 +1933,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">1898</post-id>	</item>
-		<item>
-		<title>Mathematics Year Zero</title>
-		<link>https://proofsandprompts.com/2026/10/29/mathematics-year-zero/</link>
-					<comments>https://proofsandprompts.com/2026/10/29/mathematics-year-zero/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Thu, 29 Oct 2026 10:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Reactions]]></category>
-		<category><![CDATA[Community]]></category>
-		<category><![CDATA[Norms]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2496</guid>
-
-					<description><![CDATA[It was the image of a bombardment that came to my mind on the day OpenAI announced the resolution of 372 major problems in mathematics: destroyed theses, shattered  academic lives, research fields in ruins, and the evidence of a brutal shift of era in which a company asserts its superpower without regard for those it has just crushed.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://www.i2m.univ-amu.fr/perso/charles.bordenave/start" data-type="link" data-id="https://www.i2m.univ-amu.fr/perso/charles.bordenave/start">Charles Bordenave</a>, CNRS research director at <a href="https://www.i2m.univ-amu.fr/">Aix-Marseille University</a></p>
-
-
-
-<p class="wp-block-paragraph"><strong>AI use:</strong> I did not use generative AI to write this text (apart grammar/ proof checking). It was originally written in French and it was translated with the help of QWEN3.8, an open weight model.</p>
-
-
-
-<p class="wp-block-paragraph">It was the image of a bombardment that came to my mind on the day OpenAI announced the resolution of 372 major problems in mathematics across 719 manuscripts: destroyed theses, shattered academic lives, research fields in ruins, and the evidence of a brutal shift of era in which a company asserts its superpower without regard for those it has just crushed.</p>
-
-
-
-<p class="wp-block-paragraph">I am not in the habit of giving my opinion publicly on my discipline. I trust collective deliberations more, which carry far more weight and legitimacy. But reading the very numerous high-quality contributions on this site, I wanted to add my small stone to this collective work of mourning our past life, of which this site is becoming, day by day, the place.</p>
-
-
-
-<p class="wp-block-paragraph">Why be so dramatic? The young people who embrace the demanding path of mathematics are our most precious collective asset. They may be the first victims of the revolution underway. A decline in positions is to be feared as early as 2027 in North American universities, and it could spread throughout the world. Students risk turning away from mathematics. Without even speaking of uncertainties in the job market, the symbolic and romantic force of our discipline has collapsed, and without it, we will no longer attract young people seeking understanding and universalism.</p>
-
-
-
-<p class="wp-block-paragraph">Obviously, the production of new knowledge in mathematics has exploded and one can only marvel at the truly superhuman feats accomplished by generative AIs. I will not dwell on the reasons pushing OpenAI, Anthropic and others toward this trophy race to theorems, we are but collateral victims of stakes that far exceed our community. Even when these companies turn away from mathematics, the AI revolution in our discipline will continue its development. It might perhaps even open up desirable horizons. But for that, we must organize ourselves to collectively survive this change of era.</p>
-
-
-
-<p class="wp-block-paragraph">Here are some proposals:</p>
-
-
-
-<ul class="wp-block-list">
-<li><em>Let us preserve the unity of our community</em> and keep dialogue open between our different opinions and strategies in the face of this revolution. The transparency on AI tools and models used, if any, should be the norm in our works.</li>
-
-
-
-<li><em>Let us stop using OpenAI tools to conduct research and let us write in our articles “We did not use for this project generative AI provided by OpenAI, whose practices do not meet the standards of our community”.</em> As highlighted by the Association for Human Mathematics, this company is out of step with the ethics of our profession and has shown us nothing but contempt, even in the face of our dialogue initiatives such as that of the Advisory Group on Mathematics and Artificial Intelligence, or as illustrated by the testimony of Tristan Buckmaster. Its practices are opaque and take advantage of our completely open academic world. I know of no real necessity for such an acceleration of mathematical research to meet the needs of other sciences or of society. Let us take the time to digest what has been produced in a few months.</li>
-</ul>
-
-
-
-
-
-<p class="wp-block-paragraph">Beyond the case of OpenAI, we should demand of all concerned companies that they accept the most elementary ethical recommendations, such as those formulated in the Leiden Declaration or by the Advisory Group on Mathematics and Artificial Intelligence. In a few years, we could have an open-source generative AI model controlled by the academic world. With such a model, we will have control over the financial and ecological costs we are willing to bear to advance our discipline, and we will be able to protect ourselves against a multi-speed discipline, depending on the wealth of universities and their proximity to AI companies.</p>
-
-
-
-<ul class="wp-block-list">
-<li><em>Let us fight to preserve positions,</em> at least initially. We have trained young mathematicians: it is our duty to help them find employment, security and guarantee fair conditions of access to these jobs regardless of their use of generative AIs.</li>
-
-
-
-<li><em>Let us redefine the contours of our discipline and our profession.</em> New fields and practices of mathematics will emerge, interdisciplinary research will develop, public outreach and mathematical culture could enter a golden age, mathematics becoming so accessible. This could prevent the foreseeable decline in the number of mathematics students.</li>
-
-
-
-<li><em>Let us invest in the field of AI safety.</em> We are experiencing this directly: AI raises very numerous critical challenges for our societies, such as cybersecurity and financial security, or the risk of cognitive collapse. Mathematics can contribute to this emerging field. We cannot leave it to the companies developing AI to decide what is the proper use of AI for tomorrow&#8217;s society.</li>
-
-
-
-<li><em>Let us defend a right to non-use of AI in all professional tasks, in all professions,</em> in the same way that we have a right to digital disconnection.</li>
-</ul>
-
-
-
-
-
-
-
-
-
-<p class="wp-block-paragraph">The title of this text refers to&nbsp;Germany Year Zero, a masterpiece by Roberto Rossellini. It follows a child, alone in a Berlin in ruins, who brings to mind our young mathematicians. I hope that we will know how to avoid a tragedy.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 12 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/29/mathematics-year-zero/feed/</wfw:commentRss>
-			<slash:comments>7</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2496</post-id>	</item>
-		<item>
-		<title>Why and how to transparently disclose AI use in mathematics research</title>
-		<link>https://proofsandprompts.com/2026/10/28/why-and-how-to-transparently-disclose-ai-use-in-mathematics-research/</link>
-					<comments>https://proofsandprompts.com/2026/10/28/why-and-how-to-transparently-disclose-ai-use-in-mathematics-research/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Wed, 28 Oct 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[In practice]]></category>
-		<category><![CDATA[Attribution]]></category>
-		<category><![CDATA[Disclosure]]></category>
-		<category><![CDATA[The future of papers]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2451</guid>
-
-					<description><![CDATA[With the goal of standardising AI disclosures, I argue for the
-inclusion of maximally transparent AI disclosures in mathematics
-research. I provide concrete and actionable guiding principles, a
-taxonomy and a LaTeX package for implementation.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://kaipel.net/maximilian/index.html">Maximilian Kaipel</a>, postdoc at <a href="https://www.uni-bielefeld.de/fakultaeten/mathematik/">Bielefeld University</a></p>
-
-
-
-<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · AI is making papers cheap to produce but they remain costly to referee. Proofs and Prompts is publishing a series of posts from 26 October on the future of publishing, papers and credit. Questions such as how to disclose AI use, who bears the cost of checking, what authorship means and what papers of the future might look like will be addressed. This post is part of the series. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/publishing/">All posts in the series</a></p>
-
-<p class="wp-block-paragraph">This is a summary of an article written by me with the same title. This summary is presented without references for the sake of brevity. The full version of this article can be found <a href="https://kaipel.net/maximilian/files/transparentAIdisclosure.pdf">on my personal website</a>.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-
-
-
-<p class="wp-block-paragraph">In August 2026, almost 25% of all mathematics articles uploaded to arXiv disclosed the use of Artificial Intelligence (AI) technologies. Among these, one finds varying levels of detail describing the human-AI-interaction and its impact on the article. Unsurprisingly, one study has found a significant discrepancy between expectations and the reality of AI disclosures in computer science, and many mathematicians likely share this feeling. For this reason, I want to initiate a standardisation of AI disclosures in mathematics. With this goal in mind, I surveyed existing guidelines, recommendations and the work of scholars on research ethics. The outcome of my endeavours is the development of three guiding principles, a taxonomy and a LaTeX package.</p>
-
-
-
-<h2 class="wp-block-heading"><strong>Why transparent disclosure is important</strong></h2>
-
-
-
-<p class="wp-block-paragraph">Commercial Large Language Models (LLMs) pose many ethical concerns for society and science in general, and for mathematics in particular. While detection tools for AI-generated text remain unreliable, a complete ban on the use of such technologies for mathematics is infeasible. Instead, I argue that academic journals, which are likely to experience a significant increase in submissions, should require maximally transparent AI disclosures going forward. In addition, many existing structures in academia fundamentally depend on the correct attribution of ideas. While it is possible to challenge the status quo, I assume here that it is desirable to uphold this tradition. Even without this assumption, transparent AI use disclosure is beneficial for approximating expended financial and environmental resources, thus providing insight into the sustainability of AI-assisted mathematics. Indeed, “transparency” and “reproducibility” are listed among the most important guiding principles of the UNESCO Recommendations on Open Science. These axioms of responsible research demand a maximally transparent AI disclosure. In fact, under current policies, it is considered academic misconduct to omit disclosure of AI tool use for mathematics research.</p>
-
-
-
-<h2 class="wp-block-heading"><strong>The guiding principles</strong></h2>
-
-
-
-<p class="wp-block-paragraph">In its simplest form, the human-AI-interaction discussed here may be described as a cycle</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">Human provides AI input -&gt; AI produces output -&gt; Human processes AI output -&gt; Human provides AI input</p>
-</blockquote>
-
-
-
-<p class="wp-block-paragraph">which eventually terminates in the production of a mathematics research article. A transparent AI disclosure allows readers to correctly identify the role played by AI technologies throughout the entire process of creating the research manuscript.</p>
-
-
-
-<h2 class="wp-block-heading"><strong>Who should be author?</strong></h2>
-
-
-
-<p class="wp-block-paragraph">Many others have discussed the question of who should be the author on a (mathematics) research manuscript to which AI contributed. Authorship is primarily an indicator of credit for the progress made in the research article and most scholars on research ethics agree that credit and responsibility are two sides of the same coin. This implies that in order to receive credit, one must assume responsibility. However, as AI tools are not human they cannot be held responsible and may therefore not be authors of (mathematics) research manuscripts.</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">Principle 1: Only humans are able to assume responsibility for the quality of mathematics research and may therefore assume authorship of a research article in mathematics.</p>
-</blockquote>
-
-
-
-<h2 class="wp-block-heading"><strong>How specific should the disclosure be?</strong></h2>
-
-
-
-<p class="wp-block-paragraph">With the goal of achieving a maximally transparent AI disclosure, one must necessarily be as specific as possible. Here, I distinguish between three types of specificity: technological, functional and locational. Technological specificity demands the exact description of the AI tool’s name and any additional attributes used, for example GPT-5.6 Sol with max reasoning. Functional specificity is supposed to describe precisely which tasks of the research process were delegated to AI technologies. I developed the Mathematics AI Delegation Taxonomy (MAIDeT), see below, which is designed to provide a standardised dictionary for this purpose. For example, authors may delegate “Statement generation” or “Novelty assessment” to AI and should disclose this clearly. For locational specificity, consider a mathematics article as consisting of three levels: Indexed environments such as lemmas, definitions or theorems; sections; and the entirety of the manuscript. Locational specificity requires the authors to describe as precisely as possible where, for example in Lemma 3.5, in the manuscript a task was delegated to AI.</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">Principle 2: AI disclosure should be of the highest possible technological, functional and locational specificity.</p>
-</blockquote>
-
-
-
-<h2 class="wp-block-heading"><strong>Why should AI interactions be documented?</strong></h2>
-
-
-
-<p class="wp-block-paragraph">Even with the researchers’ input prompts available, readers are not able to reproduce any reported interactions with AI tools. This makes it of utmost importance to document the entirety of the human-AI-interaction for the sake of transparency and reproducibility. Depending on the technology used, this can be as easy as exporting a chat log as a PDF. The inclusion of this documentation can provide insight into token costs and help illuminate the question of sustainability of AI-assisted mathematics.</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">Principle 3: Every interaction with AI which has influenced the final presentation or content of a manuscript should be recorded in full and made available.</p>
-</blockquote>
-
-
-
-<h2 class="wp-block-heading"><strong>Visibility of AI-critical positions</strong></h2>
-
-
-
-<p class="wp-block-paragraph">Commercially available LLMs raise many ethical concerns both generally as well as for mathematics specifically. Together with the issues of transparency and reproducibility, these issues compile an excessive list of reasons for mathematicians to boycott the use of such technologies. For those holding this stance, I strongly recommend including in their research outputs a statement sharing their conviction, which enhances the visibility of AI-critical positions.</p>
-
-
-
-<h2 class="wp-block-heading"><strong>Taxonomy and LaTeX package</strong></h2>
-
-
-
-<p class="wp-block-paragraph">In order to implement Principle 2 in practice, I developed MAIDeT and a LaTeX package called mathaidisclose. The taxonomy draws on my own experience as a researcher in abstract algebra and many accounts of “doing mathematics” before and after the advent of LLMs. It breaks up five major themes, representing the non-linear research process of doing mathematics, into minor research tasks one may delegate to AI tools. It is important to emphasise that many mathematicians do not view mathematics as a theorem-production pipeline. While some support the philosophy of theorem-proving-above-all-else, viewing it as the one true way of doing mathematics is a serious misrepresentation of mathematics. The taxonomy can be found below:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Knowledge acquisition:&nbsp;</strong></p>
-
-
-
-<ul class="wp-block-list">
-<li>Axiomatisation</li>
-
-
-
-<li>Example generation</li>
-
-
-
-<li>Literature search</li>
-
-
-
-<li>Pattern observation</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph"><strong>Objective identification:</strong></p>
-
-
-
-<ul class="wp-block-list">
-<li>Applicability assessment</li>
-
-
-
-<li>Conjecture generation</li>
-
-
-
-<li>Feasibility assessment</li>
-
-
-
-<li>Idea generation</li>
-
-
-
-<li>Novelty assessment</li>
-
-
-
-<li>Objective formulation</li>
-
-
-
-<li>Objective subdivision</li>
-
-
-
-<li>Research gap identification</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph"><strong>Proof construction:</strong></p>
-
-
-
-<ul class="wp-block-list">
-<li>Statement generation</li>
-
-
-
-<li>Proof completion</li>
-
-
-
-<li>Proof generation</li>
-
-
-
-<li>Proof verification</li>
-
-
-
-<li>Proof polishing</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph"><strong>Code and computation:</strong></p>
-
-
-
-<ul class="wp-block-list">
-<li>Algorithm conceptualisation</li>
-
-
-
-<li>Algorithm implementation</li>
-
-
-
-<li>Code generation</li>
-
-
-
-<li>Code optimisation</li>
-
-
-
-<li>Computation</li>
-
-
-
-<li>Computation verification</li>
-
-
-
-<li>Enumeration</li>
-
-
-
-<li>Formal verification</li>
-
-
-
-<li>Process automation</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph"><strong>Presentation and communication:</strong></p>
-
-
-
-<ul class="wp-block-list">
-<li>Context discussion</li>
-
-
-
-<li>Literature review</li>
-
-
-
-<li>Proof exposition</li>
-
-
-
-<li>Reformatting</li>
-
-
-
-<li>Spell-checking</li>
-
-
-
-<li>Text generation</li>
-
-
-
-<li>Translation</li>
-
-
-
-<li>Trend identification</li>
-
-
-
-<li>Visualisation</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">The LaTeX package mathaidisclose allows users to easily implement locational specificity. For example using the command \discloseAI[model]{task} inside of an indexed environment, such as Definition 3.1, will print the sentence: “The authors disclose the delegation of task to model in Definition 3.1” in the AI disclosure section generated using \printAIdisclosure[]. A similar command \globalAIuse[model]{task} is available to disclose the tasks delegated to AI throughout the entirety of the manuscript. For those disclosures which do not fit into the previous ways of disclosing AI use, the command \customAIdisclosure{text} can be used to print any text in the AI disclosure section. This command should also be used by authors to affirm that they have verified all AI-generated outputs included in the article for correctness and that they assume full responsibility for the contents of the manuscript. If none of the three commands for disclosing AI are used, then \printAIdisclosure[] outputs “There is no use of Artificial Intelligence to disclose.”</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 10 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/28/why-and-how-to-transparently-disclose-ai-use-in-mathematics-research/feed/</wfw:commentRss>
-			<slash:comments>8</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2451</post-id>	</item>
 	</channel>
 </rss>

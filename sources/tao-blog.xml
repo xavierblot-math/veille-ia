@@ -13,7 +13,7 @@
 	<atom:link href="https://terrytao.wordpress.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://terrytao.wordpress.com</link>
 	<description>Updates on my research and expository papers, discussion of open problems, and other maths-related topics.  By Terence Tao</description>
-	<lastBuildDate>Fri, 30 Oct 2026 15:18:00 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Oct 2026 18:29:57 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -30,6 +30,156 @@
 	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://terrytao.wordpress.com/osd.xml" title="What&#039;s new" />
 	<atom:link rel='hub' href='https://terrytao.wordpress.com/?pushpress=hub'/>
 	<item>
+		<title>Mathematics has changed. Let&#8217;s act like it</title>
+		<link>https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/</link>
+					<comments>https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/#comments</comments>
+		
+		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
+		<pubDate>Sun, 01 Nov 2026 18:28:00 +0000</pubDate>
+				<category><![CDATA[guest blog]]></category>
+		<category><![CDATA[opinion]]></category>
+		<category><![CDATA[Frank Calegari]]></category>
+		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18632</guid>
+
+					<description><![CDATA[[This is a guest post by Frank Calegari. This blog post was initially written in a different file format and converted using AI. &#8212; T.] Why we should not be sad The release by OpenAI on October 6 of over 700 research papers was a watershed in the history of mathematics. AI is now undeniably [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>
+ <em>[This is a guest post by <a href="https://math.uchicago.edu/~fcale/">Frank Calegari</a>. This blog post was initially written in a different file format and converted using AI. &#8212; T.]</em>
+</p><p>
+<b>Why we should not be sad</b>
+</p><p>
+The release by OpenAI on October 6 of over 700 research papers was a watershed in the history of mathematics. AI is now undeniably capable of making groundbreaking contributions across many areas of mathematics. So why are some mathematicians so unhappy?
+</p><p>
+<span id="more-18632"></span>
+</p><p>
+Some of it is the apparent disregard by AI companies for the practice of mathematics. The OpenAI papers &#8212; despite some tremendous ideas &#8212; are atrociously written and violate our community expectations of attribution. Some of them are even wrong. We have much more control over how we hire mathematicians, publish papers, and train students than over the behavior of trillion-dollar companies, and that is where our efforts would be better spent.
+</p><p>
+Much of the reaction seems to reflect a feeling that the subject that they love is under attack, and is being &#8220;hollowed out&#8221;. The recent OpenAI dump made barely a dent on the general problems of functoriality and reciprocity in the Langlands program. But even if it <em>had</em> solved every problem in the Langlands program, to imagine that would have &#8220;solved number theory&#8221; would be as naive as saying that the construction of the periodic table solved chemistry. Mathematicians should do a better job explaining that when we talk about the central problems in any area, we are merely discussing the most natural boundaries of our understanding &#8212; and that unlocking them is not the end but the first step to finding new playgrounds to explore. Of course, this takes time. I looked for areas of mathematics which were &#8220;harder hit&#8221;. It is hard not to be struck by Hugo Duminil-Copin&#8217;s <a href="https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/">lament</a>:
+</p><p>
+<blockquote>
+<p>
+Not a single one of the major open problems I have publicly mentioned throughout my career (whether in a talk, a lecture, an article, or even a grant proposal) was left untouched by the announcement. Everything has been claimed to be proved.
+</p><p>
+I expected to see a few of them in the list. But not all of them. Not all at once. Not with such nonchalance.
+</p><p>
+</p></blockquote>
+</p><p>
+How would I respond to that?
+</p><p>
+<b>The classification of finite simple groups.</b>
+</p><p>
+I can&#8217;t say much about percolation theory, but there is another historical precedent I think mathematicians should take note of. In 1972, Dan Gorenstein announced a program towards the classification of finite simple groups. After a flurry of activity over around a decade, the &#8220;classification&#8221; was announced by Gorenstein in 1983 (somewhat prematurely, with the case of quasithin groups not being completed for another two decades by Aschbacher and Smith).
+</p><p>
+The classification of finite simple groups was in many ways a huge success, but it was also a failure in that it &#8212; apologies to my group theorist friends and collaborators &#8212; cooled a lot of the interest around the subject. The &#8220;famous problem&#8221; had gone, and mathematicians on the whole turned their attention elsewhere. And yet, there remain very rich questions in finite group theory and even about the classification itself (to name just one: John Conway&#8217;s favorite question is <a href="https://youtu.be/xOCe5HUObD4?si=qLrOZGG3F4lUBDUO&amp;t=428">why does the Monster group exist?</a>). Perhaps for some fields, the OpenAI dump feels like how a group theorist may have felt in 1970 if the classification was dumped in their office, not in the form of the actual papers, but printed out on a spirit duplicator, smudged a little, then spread randomly like confetti all over the floor.
+</p><p>
+Right now, we need efforts like that of Gorenstein, Lyons, and Solomon and their work on the revised classification. If this was all we had to do, then it would be a fairly thankless task. But we also have the responsibility not to pronounce the subject &#8220;done&#8221; but rather &#8212; with these new tools available &#8212; ripe for further investigation. When mathematicians lament the winding paths missed by the construction of a galactic bypass, they need to realize that those old paths still exist and seek them out. And we need to reward that behavior when it comes to offering people jobs.
+</p><p>
+<b>The promise of AI, and the (dis)-unity of mathematics:</b>
+</p><p>
+Since I was 15, I&#8217;ve wanted to know what <img src="https://s0.wp.com/latex.php?latex=%7B%5Czeta%283%29%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7B%5Czeta%283%29%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7B%5Czeta%283%29%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{&#92;zeta(3)}" class="latex" /> was. First, there was the childhood fantasy of finding a formula that Euler missed. But soon one learns more: how Grothendieck&#8217;s period conjecture, together with a sufficiently fine understanding of the geometry of mixed Tate motives (following work of Don Zagier, Sasha Goncharov, Francis Brown, and others) gives a completely satisfying structural, conjectural explanation of what&#8217;s going on. The irrationality of <img src="https://s0.wp.com/latex.php?latex=%7B%5Czeta%283%29%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7B%5Czeta%283%29%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7B%5Czeta%283%29%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{&#92;zeta(3)}" class="latex" />, or even its transcendence, is a mere shadow of the actual interesting underlying problem. Ap&eacute;ry&#8217;s proof of the irrationality of <img src="https://s0.wp.com/latex.php?latex=%7B%5Czeta%283%29%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7B%5Czeta%283%29%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7B%5Czeta%283%29%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{&#92;zeta(3)}" class="latex" /> has inspired me for over <img src="https://s0.wp.com/latex.php?latex=%7B30%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7B30%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7B30%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{30}" class="latex" /> years not because of its conclusion, but for how it reveals the tiniest hints of some still secret story relating algebraic <img src="https://s0.wp.com/latex.php?latex=%7BG%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7BG%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7BG%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{G}" class="latex" />-functions to arithmetic.
+</p><p>
+I hope AI can help mathematicians break out of the straitjacket of being constrained by the first natural conjecture they cannot prove, and work on unraveling the deeper mysteries woven throughout our subject. In the last thirty years, progress in mathematics by humans has been remarkable. But at the same time, I have felt a growing unease; the number of times I have seen mathematicians of all levels being unable to explain to someone even slightly outside their field why what they are doing is interesting has been distressing. The natural grooves of our profession have very much been bent toward more narrow technical expertise than a bigger vision. AI allows us an amazing opportunity to broaden ourselves as mathematicians.
+</p><p>
+I have tried (not always successfully) to be broad as a mathematician. I had some help by the fact that, while I knew since I was 17 that I wanted to work in algebraic number theory and the Langlands program, I grew up in the crucible of Melbourne University, which was a home to many Thurston students and low-dimensional topologists. This meant I was bathed in the sweet liqueur of hyperbolic 3-manifolds. That exposure has helped my career immeasurably. As with any two deep areas of mathematics, hyperbolic three-manifolds and arithmetic are much more closely connected than would first appear. But it&#8217;s still hard to be an expert on both, let alone pursue a crazy idea combining them. Let me get technical for a moment. For every imaginary quadratic field <img src="https://s0.wp.com/latex.php?latex=%7BF%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7BF%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7BF%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{F}" class="latex" />, there are many commensurability classes of compact arithmetic hyperbolic three-manifolds indexed by non-split quaternion algebras <img src="https://s0.wp.com/latex.php?latex=%7BD%2FF%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7BD%2FF%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7BD%2FF%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{D/F}" class="latex" />. Manifolds <img src="https://s0.wp.com/latex.php?latex=%7BM%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7BM%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7BM%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{M}" class="latex" /> in each of these commensurability classes give rise to elements in <img src="https://s0.wp.com/latex.php?latex=%7BK_3%28F%29%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7BK_3%28F%29%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7BK_3%28F%29%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{K_3(F)}" class="latex" /> via the decomposition of <img src="https://s0.wp.com/latex.php?latex=%7BM%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7BM%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7BM%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{M}" class="latex" /> into hyperbolic tetrahedra, and their volumes are always rational multiples of <img src="https://s0.wp.com/latex.php?latex=%7B%5Czeta_F%282%29+%5Ccdot+%5Cpi%5E%7B-2%7D+%5Ccdot+%5Csqrt%7B%7C%5CDelta_F%7C%7D%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7B%5Czeta_F%282%29+%5Ccdot+%5Cpi%5E%7B-2%7D+%5Ccdot+%5Csqrt%7B%7C%5CDelta_F%7C%7D%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7B%5Czeta_F%282%29+%5Ccdot+%5Cpi%5E%7B-2%7D+%5Ccdot+%5Csqrt%7B%7C%5CDelta_F%7C%7D%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{&#92;zeta_F(2) &#92;cdot &#92;pi^{-2} &#92;cdot &#92;sqrt{|&#92;Delta_F|}}" class="latex" />. I have always had this idea that one could conceive of elements in these different commensurability classes as forming some type of geometric Kolyvagin system (&#8220;Heegner points&#8221;) associated to <img src="https://s0.wp.com/latex.php?latex=%7BK_3%28F%29%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7BK_3%28F%29%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7BK_3%28F%29%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{K_3(F)}" class="latex" />, which one could yoke together by some unknown integral arithmetic version of the Jacquet&#8211;Langlands correspondence. This is not a question I have pursued, for two reasons. First, there were so many underlying conjectures involved that any result I could prove was going to be conditional on many of them, something that&#8217;s not always appreciated by the mathematical community. Second, assembling all the technical background to formulate such an idea precisely would have taken a huge amount of background work. Now, with AI, the barriers to trying such a problem are much lower. It&#8217;s not trying to prove a theorem. It&#8217;s trying to explore some completely new direction that may or may not be nonsense. There are so many problems in mathematics that are still so fresh and vital but were previously untouchable that the opportunity to approach them is massively exciting. We need to be more ambitious, to create bold research plans that weren&#8217;t even conceivable a year ago.
+</p><p>
+This is not to say that everyone must (or must not) use AI. But we have to rethink and readjust what&#8217;s important. Proofs of major conjectures, using AI or otherwise, are going to remain part of the new mathematics. But working toward broader programs (new and old) and structural understanding is going to play a more fundamental role. Christian Szegedy raised the <a href="https://docs.google.com/document/u/1/d/e/2PACX-1vTSh-pyNP3Gi99WMmsinnLmE9V5CDI0HEm6WGbIPMNt3V5SGlClHF8-BetotKHOImrvQDSXmFdiOw8D/pub">following point:</a>
+</p><p>
+<blockquote>
+<p>
+Mathematics prided itself on being meritocratic, with deep reverence for the explorers: the people who could climb what nobody else could. That specific kind of heroism will matter less, and other skills will matter more: choosing which terrain is worth exploring, steering fleets of airplanes, and explaining what they find to the rest of the world.
+</p><p>
+</p></blockquote>
+</p><p>
+I&#8217;m ready to board the plane, because I want to see what&#8217;s there. At the same time, I would add that people who previously have been walking around on earth with their eyes closed are not going to recognize anything however high they fly; I still believe that many of the skills that mathematicians have now will not only be transferable but vital to the new world order.
+</p><p>
+The difference in reaction between the optimists and the pessimists is that, for the pessimists, the game is over. For the optimists, the game has just changed. I acknowledge that there are aspects of our mathematical culture that we treasure that won&#8217;t survive, and it is only human to grieve that loss. But there now exists an amazing new tool to study mathematics. To turn away and say that the community of mathematics as it currently exists is more important than mathematics itself would be a terrible mistake.
+</p><p>
+<b>The ugly truth.</b>
+</p><p>
+For all that everyone has been saying on this blog and elsewhere about how mathematics is about understanding, it takes one look at the arXiv to see many people in our profession rushing out AI-assisted papers in a somewhat unsightly rush to be the &#8220;first&#8221; to prove things. As many others have noted, there is quickly becoming a gulf between the ability to produce novel proofs and the ability to either demonstrate understanding or push the subject in new and interesting directions. As people crank out more and more results, the Leiden declaration is being honored more in name than in spirit, and it seems like &#8220;business as usual&#8221; except with a much more compressed time scale and the constant threat of being scooped hanging over people&#8217;s heads.
+</p><p>
+To me, someone who chooses a worthwhile problem, obtains a proof completely using AI, understands it thoroughly, and uses it to develop interesting further questions or directions has made a substantial mathematical contribution. I would give that person substantial credit even if they supplied no new ingredient in the original proof. Choosing worthwhile problems may end up mattering more than producing proofs.
+</p><p>
+Our obsession with conjectures tends to greatly undervalue the exploratory work that makes answering (or even asking) these problems possible. We are in danger of making that mistake a hundredfold now by encouraging or rewarding the rush for everyone to press the button to get these new results out as soon as possible. I would encourage all senior mathematicians (with the privilege of tenure) to take up the work of creating future problems and exploring new ideas rather than simply using AI to answer existing questions. If you, as a senior mathematician, are stressed about being scooped by AI, then you are not being ambitious enough.
+</p><p>
+<b>So what are we actually going to do?</b>
+</p><p>
+Think pieces are ultimately pointless unless they propose some mechanism for actually affecting how people act. The tools that are going to be the most effective are going to be economic rather than rhetorical. Mathematicians want recognition, mathematicians want jobs, mathematicians want grants. The tools that we currently have to affect this are hiring and accepting papers at journals.
+</p><p>
+Let me offer some very basic concrete suggestions, followed by a few details.
+</p><p>
+
+
+<ol> <li> Evaluate all work as if it is AI-assisted. </li><li> Make hiring much more about personal interactions rather than a paper file. Interview postdocs and graduate students in person. </li><li> Demand more from journals, and abandon those that do not adapt. </li><li> Put a greater emphasis on breadth in graduate education, but do not abandon technical skills. </li><li> Give better seminars. </li><li> Take more ownership of the results of AI. 
+</li></ol>
+
+
+</p><p>
+<b>Evaluations:</b>
+</p><p>
+Nelson Cole famously spent <a href="https://en.wikipedia.org/wiki/Frank_Nelson_Cole">three years of Sundays</a> discovering the prime factorization
+</p><p>
+</p><p align="center"><img src="https://s0.wp.com/latex.php?latex=%5Cdisplaystyle+2%5E%7B67%7D-1+%3D+193707721+%5Ccdot+761838257287.&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cdisplaystyle+2%5E%7B67%7D-1+%3D+193707721+%5Ccdot+761838257287.&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cdisplaystyle+2%5E%7B67%7D-1+%3D+193707721+%5Ccdot+761838257287.&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;displaystyle 2^{67}-1 = 193707721 &#92;cdot 761838257287." class="latex" /></p>
+
+<p>
+In <img src="https://s0.wp.com/latex.php?latex=%7B1903%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7B1903%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7B1903%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{1903}" class="latex" />, this was a contribution to mathematics. Factoring the same number in <img src="https://s0.wp.com/latex.php?latex=%7B2003%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%7B2003%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%7B2003%7D&#038;bg=ffffff&#038;fg=000000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="{2003}" class="latex" /> by hand would be an equally impressive feat of arithmetic, but its contribution to mathematics (even if it had not previously been known) would be far less, since this can be done on a computer algebra system in far less than a second. It&#8217;s obvious that AI is changing the economics of what is &#8220;easy&#8221; or &#8220;hard&#8221; &#8212; much has already been said about the coming collapse of the theorem economy. In time (perhaps quickly) there will emerge a new sense of what remains a substantial contribution to mathematics, whether it be asking interesting questions, developing new programs, or something completely different. In the future, I see no reason to reward a paper based <em>purely</em> on a result that could be produced by machine, whether it was or not. A new proof can still deserve substantial credit for the ideas it introduces, even when its conclusion is already obtainable by machine. So why not start now? Importantly, I do not think this in any way means that access to AI will be required to make progress in mathematics &#8212; as long as we continue to value human understanding. While I feel that this is the most controversial recommendation, I also feel it is the most inevitable. It requires relinquishing an aspect of our reward structure that has been around for a long time, but at the same time a structure that will make no sense in the future. Right now, the use of AI carries a stigma, and the phrasing of many AI disclosures reads more like an attempt to minimize the contribution of the machine. If we evaluate every paper as potentially AI-assisted, then we must insist that its authors explain why the mathematics is interesting, what questions it raises, and how it connects to the broader subject. Don&#8217;t we want people to be doing this anyway?
+</p><p>
+<b>Hiring:</b>
+</p><p>
+It&#8217;s not going to be possible to get people to change unless we change how we evaluate people at the level of hiring. Lazy committees in the past have sometimes pointed toward a JAMS paper, an Annals paper, or some other collection of publications to justify how a candidate is impressive. I am looking for a narrative of where you want mathematics to go, the technical ability to explain why this may be possible, being able to converse about many areas of mathematics, and a demonstrable record of having done all of this in the past. This is not in any way a radical new idea. The hiring process is going to have to be much more about personal interactions than a paper file.
+</p><p>
+It should become standard practice to interview not only for tenure-track jobs, but also for postdocs and graduate student positions. I&#8217;m sure we have all had the experience of admitting a graduate student who was &#8220;working on higher homotopy theory&#8221; to only find out after they are admitted they can&#8217;t compute the homology of the circle. At the same time, I have interviewed candidates at the tenure level whom I was initially ambivalent about, but after a 30 minute conversation in my office I was totally convinced that here was someone who not only had a deep vision of mathematics but who was also able to communicate this to their colleagues. Once we take this approach, we then have the responsibility to train our own graduate students to be better able to communicate mathematics, something that we should take much more seriously. Note there is also a difference between knowing mathematics deeply and explaining it fluently; they are related but different skills. Ideally I want both, but it is the first that I ultimately value more highly.
+</p><p>
+<b>Journals:</b>
+</p><p>
+The journal system was in dire need of reform even before AI. Our current incentives already are to produce more and more incremental mathematics which is only flooding the system. The radical overhaul required is not going to happen through consensus agreements with editorial boards. (Do you know how hard it is to get academics to agree on anything?) Being accepted by a journal has long since ceased to be a guarantee of correctness (if it ever was) and has simply acted as an imprimatur of quality. I explained above the philosophy of how I think we should evaluate manuscripts going forward. On that basis, I would say that a significant proportion of papers posted to the arXiv should not be published anywhere. If journals demand much more from a paper in terms of writing, ideas, and exposition, I think that would make life better for everyone &#8212; editors, reviewers, and even ultimately authors.
+</p><p>
+If editorial boards are unable to adjust, then a more radical idea is to (at least temporarily) abandon journals altogether. (I still see a place for journals which emphasize exceptional utility and clarity (consider <a href="https://msp.org/ent/about/journal/about.html">Essential Number Theory</a>)). I am not advocating that people stop writing papers, but removing the fig leaf of journal publication forces the paper to stand on its own merits. Is the paper telling a compelling story? Is it Lean-verified? We should be producing fewer (and better) papers, not more. Autonomously AI-produced proofs, hopefully Lean-checked, also have their place, and should be recorded as part of our collective body of knowledge. (see <a href="https://hexagonmath.org/">hexagonmath</a>.)
+</p><p>
+<b>Graduate students, first-year courses, and seminars.</b>
+</p><p>
+One of the thorniest issues we face is how to train graduate students. The typical thesis has always been to assign a problem in the overhang, an exercise that will teach the student the technical skills to solve a variation on some old problem, with the expectation that, as they continue, they can expand the techniques they&#8217;ve learned to new cases and then hopefully branch out to wider problems. In an age where such a thesis can be produced by the press of a button, we need to re-evaluate based on what we hope a good student will be doing in the future. Even with AI resources, no one is going to be able to explore the links between compact arithmetic hyperbolic three-manifolds and Kolyvagin systems if they don&#8217;t know what either of these terms means. (And even if somehow they could, why would they care?) It has become much more important to give students a broader overview of mathematics as a discipline. What I want a graduate student to achieve at the end of their PhD is a view of mathematics that extends well beyond their discipline, and yet with demonstrable technical skills on at least some class of problems. Often, students graduate with technical skills in a subarea, but their experience with other aspects of their area, let alone other areas of mathematics, consists of technical instruction which they have since forgotten, without any real vision. I advocated above that we need to evaluate work as if AI was involved. But this does not imply that we don&#8217;t need to teach students to do deep mathematics without AI just as the existence of computers doesn&#8217;t mean we should no longer teach children arithmetic.
+</p><p>
+This has consequences for what we teach, as well as how students learn to talk about it. A graduate course should leave students with some understanding of what the topic makes possible elsewhere in mathematics. We should expect them to retain a sense of the questions and connections, even when they have forgotten some of the technical details.
+</p><p>
+If we are to evaluate people more on how they can demonstrate understanding in person, we clearly need to be far more conscious of training our students to explain mathematics to other people, either in person, or in seminars, and to their peers. We need to work on giving our students opportunities to learn this skill. Remember that the most successful cohorts of students are the ones who learn together and who talk mathematics with each other.
+</p><p>
+We should also not forget that not everyone who completes a PhD in mathematics goes on to academia. We should also ask whether the length and structure of doctoral training serve students who will pursue careers outside academia.
+</p><p>
+<b>Seminars:</b>
+</p><p>
+Seminars are traditionally where someone presents the details of their latest result. Because math is difficult, this almost always consists of explaining some minor tweak to a previous method, often without anywhere near enough broader context to make it interesting. Instead, seminars should rarely be focused entirely on new work. They should be framed around the broader interesting questions, explaining the avenues on which we are stuck, on which we can make progress, on which we are hopeful, and then perhaps at the very end explaining some novelty, if there is any. This is how I have always encouraged my students to give talks! As senior faculty we all need to be vocal in our seminars demanding more from our speakers.
+</p><p>
+<b>Ownership.</b>
+</p><p>
+Mathematicians <em>as a profession</em> would do well to take more ownership of these results. What has come out of the machine has been built on the intellectual foundations of several millennia of human mathematical endeavor. Once you start to take credit on behalf of humanity (rather than attributing these results to either a Silicon Valley tycoon or a mathematical Twitter buffoon), you&#8217;ll immediately start to feel much better.
+</p><p>
+<b>The world is looking at us.</b>
+</p><p>
+My dean recently visited New York to meet with donors and other friends of the University of Chicago, and everyone she spoke to, regardless of whether they were a math major or not, wanted to talk to her about mathematics. The world is looking at us. There are many many people who care about mathematics without necessarily having a deep technical background (<a href="https://www.youtube.com/c/3blue1brown">3Blue1Brown</a> has over six million subscribers!). All of my friends in the humanities truly believe that having mathematicians in society both as custodians of one of humanity&#8217;s oldest intellectual activities and explorers of the frontiers of knowledge is important. I understand that some part of the culture we so deeply care about will disappear, and as humans, an emotional response to that is very natural. But this is a time to explain to everyone that there are so many great new opportunities, possibilities, and reasons to be optimistic. We are on the verge of a new era of mathematics, and I am excited to see what happens.
+</p><p>
+<b>Notes:</b>
+</p><p>
+For more context on Duminil-Copin&#8217;s remarks, see also <a href="https://www.youtube.com/watch?v=Zh86i_azaQw">this numberphile video</a>. His full quote also says &#8220;We are a resilient community, and I have no doubt that we will adapt&#8221;.
+</p><p>
+Many of the themes mentioned here have been brought up in other posts. To give three examples:
+</p><p>
+
+
+<ul> <li> The idea that mathematicians should take more ownership of the results produced by AI was also explored in <a href="https://terrytao.wordpress.com/2026/09/13/happy-those-able-to-know-the-causes-of-things/">Nestor Guillen&#8217;s post</a>. </li><li> The idea that AI gives us the opportunity to be far more ambitious is raised in <a href="https://terrytao.wordpress.com/2026/09/15/fast-math-slow-math/">Ben Antieau&#8217;s post</a>. </li><li> The idea that we need to revisit our reward structure to create the right incentives was explored in <a href="https://terrytao.wordpress.com/2026/09/13/deep-theorems-were-scarce-and-difficult-and-so-became-an-effective-mechanism-to-identify-deep-thought-ai-has-broken-this-system/">Bryna Kra&#8217;s post.</a> 
+</li></ul>
+</p>]]></content:encoded>
+					
+					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/feed/</wfw:commentRss>
+			<slash:comments>15</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">18632</post-id>
+		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
+			<media:title type="html">Terry</media:title>
+		</media:content>
+	</item>
+		<item>
 		<title>The mathematical sciences in an AI-enabled world</title>
 		<link>https://terrytao.wordpress.com/2026/10/31/the-mathematical-sciences-in-an-ai-enabled-world/</link>
 					<comments>https://terrytao.wordpress.com/2026/10/31/the-mathematical-sciences-in-an-ai-enabled-world/#comments</comments>
@@ -69,7 +219,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/31/the-mathematical-sciences-in-an-ai-enabled-world/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
+			<slash:comments>5</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18624</post-id>
@@ -122,7 +272,7 @@ Our <a href="https://cmsa.fas.harvard.edu/media/2026/10/Summit-on-Math-Research-
 		<item>
 		<title>Collaborative retreat: New developments in the theory of zeta functions</title>
 		<link>https://terrytao.wordpress.com/2026/10/30/collaborative-retreat-new-developments-in-the-theory-of-zeta-functions/</link>
-					<comments>https://terrytao.wordpress.com/2026/10/30/collaborative-retreat-new-developments-in-the-theory-of-zeta-functions/#respond</comments>
+					<comments>https://terrytao.wordpress.com/2026/10/30/collaborative-retreat-new-developments-in-the-theory-of-zeta-functions/#comments</comments>
 		
 		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
 		<pubDate>Fri, 30 Oct 2026 15:02:45 +0000</pubDate>
@@ -147,7 +297,7 @@ Our <a href="https://cmsa.fas.harvard.edu/media/2026/10/Summit-on-Math-Research-
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/30/collaborative-retreat-new-developments-in-the-theory-of-zeta-functions/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>1</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18588</post-id>
@@ -290,7 +440,7 @@ I would like to thank Terry Tao and Nestor Guillen for the invitation to write t
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/29/ai-mathematics-education-and-a-public-goods-problem/feed/</wfw:commentRss>
-			<slash:comments>10</slash:comments>
+			<slash:comments>11</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18598</post-id>
@@ -1326,54 +1476,6 @@ Full details of our recommendations are provided in our <a href="https://agmai.o
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18584</post-id>
-		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
-			<media:title type="html">Terry</media:title>
-		</media:content>
-	</item>
-		<item>
-		<title>oai-math-revised: a community hub for revising OpenAI’s math write-ups</title>
-		<link>https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/</link>
-					<comments>https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/#comments</comments>
-		
-		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
-		<pubDate>Sat, 24 Oct 2026 15:08:02 +0000</pubDate>
-				<category><![CDATA[advertising]]></category>
-		<category><![CDATA[Abhinav Nellore]]></category>
-		<category><![CDATA[Johannes Schmitt]]></category>
-		<category><![CDATA[Rachel Ward]]></category>
-		<category><![CDATA[Soledad Villar]]></category>
-		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18557</guid>
-
-					<description><![CDATA[[This is a guest post by Abhinav Nellore, Johannes Schmitt, Soledad Villar, and Rachel Ward &#8211; T.] OpenAI&#8217;s math write-ups at https://github.com/openai/math can be difficult to understand and can have incomplete citations. https://github.com/mathcommunity/oai-math-revised/ seeks to be an inclusive effort to improve these write-ups, and the broader math community&#8211;students, postdocs, professors, and enthusiasts&#8211;is invited to participate. [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph"><em>[This is a guest post by <a href="https://www.ohsu.edu/people/abhinav-nellore-phd">Abhinav Nellore</a>, <a href="https://johannesschmitt.gitlab.io/">Johannes Schmitt</a>, <a href="https://www.ams.jhu.edu/villar/">Soledad Villar</a>, and <a href="https://oden.utexas.edu/people/directory/rachel--ward/">Rachel Ward</a> &#8211; T.]</em></p>
-
-
-
-<p class="wp-block-paragraph">OpenAI&#8217;s math write-ups at <a href="https://github.com/openai/math">https://github.com/openai/math</a> can be difficult to understand and can have incomplete citations.</p>
-
-
-
-<p class="wp-block-paragraph"><a href="https://github.com/mathcommunity/oai-math-revised/ ">https://github.com/mathcommunity/oai-math-revised/ </a>seeks to be an inclusive effort to improve these write-ups, and the broader math community&#8211;students, postdocs, professors, and enthusiasts&#8211;is invited to participate.</p>
-
-
-
-<p class="wp-block-paragraph">The repo is browsable at <a href="https://mathcommunity.github.io/oai-math-revised/">https://mathcommunity.github.io/oai-math-revised/</a></p>
-
-
-
-<p class="wp-block-paragraph">We also invite the community to email <a href="mailto:mathcommunityadmin@gmail.com">mathcommunityadmin@gmail.com</a> if they want to serve as admins/reviewers and for which categories from <a href="https://github.com/openai/math/blob/main/overview.pdf">https://github.com/openai/math/blob/main/overview.pdf</a> they&#8217;d be appropriate for reviews.</p>
-
-
-
-<p class="wp-block-paragraph"></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/feed/</wfw:commentRss>
-			<slash:comments>28</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">18557</post-id>
 		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
 			<media:title type="html">Terry</media:title>
 		</media:content>

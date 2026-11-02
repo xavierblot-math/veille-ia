@@ -6,7 +6,7 @@
 <atom:link href="https://xavierblot-math.github.io/veille-ia/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Daily summary of Xena, Proofs and Prompts, Silicon Reckoner, Tao (blog and Mastodon) and Gowers.</description>
 <language>en</language>
-<lastBuildDate>Mon, 02 Nov 2026 04:43:12 +0000</lastBuildDate>
+<lastBuildDate>Mon, 02 Nov 2026 04:43:20 +0000</lastBuildDate>
 <item>
 <title>Digest — 2 November 2026 (3 new posts)</title>
 <link>https://xavierblot-math.github.io/veille-ia/#2026-11-02</link>
@@ -19,7 +19,7 @@
 <ul>
 <li>An optimistic response to the gloom after OpenAI's October 6 release of 700+ AI papers: those papers are badly written, often misattributed and sometimes wrong, but the community controls hiring, publishing and training, and should act there rather than lament.</li>
 <li>Draws on the classification of finite simple groups as a precedent: solving a field's "famous problem" can chill it, so the real work is revision, digestion and refusing to declare subjects finished (cites Duminil-Copin's reaction that all his open problems were claimed at once).</li>
-<li>Argues AI lowers the barrier to speculative, cross-field programs; his own example links compact arithmetic hyperbolic 3-manifolds, Bloch groups and a hoped-for integral Jacquet–Langlands / Kolyvagin-system picture.</li>
+<li>Argues AI lowers the barrier to speculative, cross-field programs; his own example links compact arithmetic hyperbolic 3-manifolds of imaginary quadratic fields with a hoped-for integral Jacquet–Langlands / Kolyvagin-system picture.</li>
 <li>Concrete proposals: judge every paper as if AI-assisted (value only what a machine couldn't trivially produce), interview postdoc and PhD candidates in person, demand more of journals or abandon them, broaden graduate training, give context-first seminars, and "take ownership" of AI results on behalf of humanity.</li>
 <li>👉 Directly relevant to PhD supervision: he says the classic "problem in the overhang" thesis is now a button-press, so training must emphasise breadth and the ability to explain mathematics.</li>
 </ul>

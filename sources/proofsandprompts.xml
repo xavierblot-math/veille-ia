@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Sun, 01 Nov 2026 16:43:19 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 02 Nov 2026 08:49:59 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,314 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>Please STOP writing papers! (there is another way)</title>
+		<link>https://proofsandprompts.com/2026/11/02/please-stop-writing-papers-there-is-another-way/</link>
+					<comments>https://proofsandprompts.com/2026/11/02/please-stop-writing-papers-there-is-another-way/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Mon, 02 Nov 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[arXiv]]></category>
+		<category><![CDATA[Digestion]]></category>
+		<category><![CDATA[The future of papers]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3130</guid>
+
+					<description><![CDATA[The number of papers submitted to the mathematics sections of arXiv is exploding, recently prompting arXiv to impose a cap on submissions per author. As an editor, I also see a substantial rise in submissions to mathematics journals. This is very worrying: the current publication system cannot absorb such a volume of papers. […]]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://www.ceremade.dauphine.fr/~lewin/">Mathieu Lewin</a>, CNRS and University Paris Dauphine PSL</p>
+
+
+
+<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · AI is making papers cheap to produce but they remain costly to referee. Proofs and Prompts is publishing a series of posts from 26 October on the future of publishing, papers and credit. Questions such as how to disclose AI use, who bears the cost of checking, what authorship means and what papers of the future might look like will be addressed. This post is part of the series. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/publishing/">All posts in the series</a></p>
+
+
+
+<p class="wp-block-paragraph"><strong>AI statement:</strong> I wrote the initial draft and revised it with ChatGPT’s assistance to polish the English and improve clarity. ChatGPT was also used to screen the arXiv submissions automatically.</p>
+
+
+
+<p class="wp-block-paragraph">The number of papers submitted to the mathematics sections of arXiv is exploding, recently prompting arXiv to impose a cap on submissions per author. As an editor, I also see a substantial rise in submissions to mathematics journals. This is very worrying: the current publication system cannot absorb such a volume of papers. Many will have to remain unpublished. Some journals have even <a href="https://smf.emath.fr/actualites-smf/19-10-26-communique-fermeture-journaux-de-probabilites">temporarily stopped accepting new submissions</a>.</p>
+
+
+
+<p class="wp-block-paragraph">I took a closer look at arXiv’s “Analysis of PDEs” section (math.AP). The number of papers in this section has increased by a factor of 2.45 in one year: from September 15 to October 14, there were 1,302 papers in 2026, compared with 531 over the same period in 2025. That is 771 additional papers in PDE alone.</p>
+
+
+
+<p class="wp-block-paragraph">Much of this increase is likely due to AI, even indirectly (some authors may be rushing to finish their old-fashioned “brain-crafted” papers before AI supersedes their results). An automated screening of the 1,302 PDE papers found that 493 explicitly disclosed using AI. Most of these, however, reported using it only for language editing and proofreading, which alone cannot explain such a sharp increase. Only 173 papers (13.3%) explicitly reported using AI to generate or develop parts of their proofs.</p>
+
+
+
+<p class="wp-block-paragraph">This is going nowhere. We should use these new AI tools to do new things, rather than ten times more of what we were already doing before AI.</p>
+
+
+
+<p class="wp-block-paragraph">In this post, I will argue that much of the problem comes from our obsession with writing papers, even when another form of publication would be more appropriate. I will propose a new type of technical report, which I will call an “AI proof report.” Establishing guidelines for these AI proof reports is one of our community’s most urgent tasks if we are to prevent our publication system from collapsing. Finally, I will discuss what I believe belongs on arXiv and in mathematics journals.</p>
+
+
+
+<h2 class="wp-block-heading">The obsession with papers</h2>
+
+
+
+<p class="wp-block-paragraph">This obsession is already built into the AI models themselves, probably reflecting the fact that we mathematicians do not know what else to do. ChatGPT and Claude tend to present their answers as mathematical papers, complete with a title and abstract, using the amsart LaTeX document class, even when we have not asked for this.</p>
+
+
+
+<p class="wp-block-paragraph">This tendency reached an unprecedented level when OpenAI posted more than <a href="https://github.com/openai/math">700 “papers” on GitHub</a> on October 6. All were dressed up as mathematical articles, but none could seriously qualify as one in its present form. Even those that resolve an important conjecture would require substantial further work before publication in a mathematics journal. The proofs are largely unreadable. The introductions are generally poor and overlook important contributions to the subject. The choice of references is puzzling. Too little technical detail is provided about how the proofs were produced.</p>
+
+
+
+<p class="wp-block-paragraph">I am deeply concerned to see some of our colleagues also turning to the industrial-scale production of AI-generated papers. I will refrain from naming names, but many readers will recognize the pattern. These colleagues pick whatever conjectures they can find, even outside their own areas of expertise, and race to solve them first, as though playing a video game. Once they obtain a proof, they upload a paper to arXiv, submit it to a leading journal, and move on to the next conjecture. They do not take the time to make the proofs readable, perhaps because they do not understand the arguments themselves.</p>
+
+
+
+<p class="wp-block-paragraph">These AI-generated proofs may have considerable scientific value. For the sake of discussion, let us assume that they are correct (although establishing this for the most complicated arguments may require formalization and verification in a proof assistant such as Lean). Correctness alone, however, does not make an argument a mathematical paper. We still need to turn it into something we can understand and reuse in other contexts. Until that work has been done, these outputs should not be dressed up as papers. Instead, we should treat them for what they are: valuable raw data that require further scientific analysis.</p>
+
+
+
+<h2 class="wp-block-heading">AI-generated proofs as raw data</h2>
+
+
+
+<p class="wp-block-paragraph">I have read many blog posts and essays about AI in mathematics, including on this website, and I am surprised by how rarely contributors draw comparisons with other fields. We occupy a small corner of science, both in numbers and in funding (in France, mathematics accounts for only about 3% of public research). I cannot help wondering what other scientists think of our current situation.</p>
+
+
+
+<p class="wp-block-paragraph">Mathematics is unusual in how little its day-to-day practice has changed over the past century. By contrast, most other scientific disciplines rely on experiments, often using sophisticated and expensive equipment. Obtaining good experimental data requires considerable expertise. The data must be carefully collected and organized according to established protocols. Only then can scientists analyze them and draw conclusions.</p>
+
+
+
+<p class="wp-block-paragraph">There are well-established standards for producing, presenting, and sharing data. Data should be structured, clearly labeled, and stored in an open, nonproprietary format. A data report should include enough technical and descriptive metadata to allow others to interpret and reuse the data.</p>
+
+
+
+<p class="wp-block-paragraph">I believe we should take a similar approach to AI-generated proofs. An AI proof report should briefly describe the context and history of the problem, without necessarily providing the full introduction expected of a research article. It should state which parts have been checked and how, identify any known gaps, and provide access to the code, formal proofs, or other supporting files needed to examine the argument. It should explain how the proofs were produced, specifying the model and prompts used and, in the case of a multi-agent system, the number of AI agents, their respective roles, and how they interacted. It should also make the structure of the proof clear. For long arguments, a map showing the logical dependencies between intermediate statements could be useful. The report should make the role of AI explicit, rather than presenting the generated arguments as the authors’ own work. We could develop a dedicated LaTeX class for these AI proof reports and require AI models to use it. Such AI proof reports could also contain supporting computations for a research article.</p>
+
+
+
+<p class="wp-block-paragraph">These AI proof reports should be collected in a community-owned repository where everyone can read, comment on, revise, and reuse the material. They should not be posted to arXiv or submitted to mathematics journals. They can serve as starting points for further research or as supporting material for a paper, without having to take the form of a journal article.</p>
+
+
+
+<p class="wp-block-paragraph">Throughout this discussion, I am treating arXiv as a preprint server for papers intended for journal publication. With that role in mind, we need a separate repository for AI proof reports. The recently launched website <a href="https://hexagonmath.org/">hexagonmath.org</a> seems to reflect some of the concerns outlined above and could serve this purpose. For now, however, it accepts “research works of all kinds,” and clear guidelines for presenting AI-generated proofs seem to be missing.</p>
+
+
+
+<h2 class="wp-block-heading">What belongs in journals and on arXiv</h2>
+
+
+
+<p class="wp-block-paragraph">Our research papers are already far more technical and less accessible than those in other scientific disciplines. Very few people read the technical parts of a mathematics paper in detail. We should not let AI make this situation worse. We could even use this opportunity to make our papers more accessible.</p>
+
+
+
+<p class="wp-block-paragraph">I strongly believe that research articles should be written primarily for <strong>human readers</strong>, who should be able to follow the argument from beginning to end. Giving readers greater priority is what will save our publication system.</p>
+
+
+
+<p class="wp-block-paragraph">Experimental sciences offer a useful model: because the full data cannot be included in an article, authors must select and explain the evidence needed to support their conclusions. When the LIGO and Virgo collaborations announced the <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.116.061102">first direct observation of gravitational waves</a>, they did not reproduce all the data in the paper. Instead, they made the relevant data available through a <a href="https://gwosc.org/events/GW150914/">dedicated website</a>, with documentation and a DOI. Readers could thus examine and analyze the data underlying the published results without those data having to appear in the article itself.</p>
+
+
+
+<p class="wp-block-paragraph">We should take the same approach to AI-generated proofs. Unless they are short and simple, or have been fully rewritten and explained in a way that human readers can follow, they should not appear in our papers. Initially, they might be included as supplementary material. But I expect that they will soon become so long and difficult to read that storing them separately and citing the relevant AI proof report will make more sense.</p>
+
+
+
+<p class="wp-block-paragraph">Like other forms of raw data, AI-generated proofs require careful scientific analysis before they can lead to a research article that humans can fully understand. This takes time and effort. We value simple, general arguments because we can understand and remember them. These are the insights we should try to extract from an AI-generated proof and ultimately present in a mathematical paper.</p>
+
+
+
+<p class="wp-block-paragraph">Extracting an idea does not necessarily mean reading an AI-generated proof line by line, which may be impractical for the longest arguments. And we should certainly not offload the task of checking these arguments line by line onto PhD students or postdocs! In fact, experts may be better placed to spot a promising idea because they know the background and previous attempts. I do not yet know how best to gain insight from a complicated AI-generated proof, such as those OpenAI recently dumped on the mathematical community. We may need help from the AI models themselves in this process. What I do know is that the papers emerging from this material will need to be very different from the texts produced by the models.</p>
+
+
+
+<p class="wp-block-paragraph">I am deliberately leaving open what counts as “human-readable.” It certainly means more than a proof that can, in principle, be checked line by line. Many proofs written by humans are not particularly readable either! As always, referees and editors will have to judge whether the exposition is sufficiently clear. None of OpenAI’s 700 “papers” would pass that test in its present form.</p>
+
+
+
+<p class="wp-block-paragraph">In the future, some steps in our proofs may still require computer assistance, with their correctness certified by Lean or another proof assistant. There is no shame in this: computer-assisted proofs already have a long history, from Appel and Haken’s proof of the four-color theorem in 1976 to Hales and Ferguson’s proof of the Kepler conjecture, announced in 1998. Some areas of mathematics require extensive computations. Wherever possible, these should be confined to a few clearly identified steps, with the code and details of their verification provided separately.</p>
+
+
+
+<p class="wp-block-paragraph">The lengthy and demanding work of analyzing an AI-generated proof need not be carried out by those who produced it. Producing the material and extracting mathematical insight from it can be separate contributions. Anyone can use prompts to generate potential proofs, including people who pursue mathematics as a hobby: this is a form of citizen science. Recognizing a genuinely new and useful idea in the output, however, requires expertise. We may need to form working groups and undertake this analysis more collectively than before, which could be a welcome development.</p>
+
+
+
+<p class="wp-block-paragraph">Even after we have digested an AI-generated proof, rewritten it, or developed something entirely different from it, it may still be worth preserving the original output in an AI proof report. This would make our own contribution clearer and give others the opportunity to draw different insights from the same material.</p>
+
+
+
+<h2 class="wp-block-heading">Final recommendations</h2>
+
+
+
+<p class="wp-block-paragraph">Whether we like it or not, AI is already part of mathematical research and is likely to remain so. Many mathematicians already use it daily. My message in this post has two parts. First, we should give greater priority to readability in research articles. I am not sure that banning AI from research papers would solve the problem, since we cannot reliably verify authors’ declarations of how they used it. As editors and referees, we should instead apply a familiar principle more firmly than before: recommend for publication papers that we like and think other human readers will like too. Papers that are original, well written, and likely to have a substantial scientific impact. Papers whose arguments we can follow and understand. The difficulty and technical complexity of a proof should no longer be the main criterion.</p>
+
+
+
+<p class="wp-block-paragraph">Second, we should recognize the potential scientific value of AI-generated proofs, even in their raw form, before the work of analysis and interpretation has been done. We should encourage those who produce them to share their findings as AI proof reports in an appropriate repository, following common guidelines. These reports should be recognized as valuable contributions in their own right, with proper credit given to their authors.</p>
+
+
+
+<p class="wp-block-paragraph">So, if you have obtained an AI-generated proof of an important conjecture but are not prepared to do the hard work needed to turn it into a paper that others can understand, please do not dress it up as one. Share it first as an AI proof report, rather than posting it to arXiv or submitting it to a mathematics journal. Unreadable proofs are likely to be rejected. Establishing that a theorem is true is no longer enough to justify a research article. Deposit the report in an appropriate repository. Then contact experts on the problem and let them know what you have found. They may suggest revising parts of the argument or testing other approaches. Your report can receive a DOI and be credited to you. Good data can attract many citations, bring you recognition, and make a valuable contribution to mathematical knowledge.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 27 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/02/please-stop-writing-papers-there-is-another-way/feed/</wfw:commentRss>
+			<slash:comments>11</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3130</post-id>	</item>
+		<item>
+		<title>What Does AI Do for Olympiad Students?</title>
+		<link>https://proofsandprompts.com/2026/11/02/what-does-ai-do-for-olympiad-students/</link>
+					<comments>https://proofsandprompts.com/2026/11/02/what-does-ai-do-for-olympiad-students/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Mon, 02 Nov 2026 12:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Competition]]></category>
+		<category><![CDATA[Problem solving]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=1648</guid>
+
+					<description><![CDATA[“There's a solid argument that AI has solved the IMO, in terms of being able to output LaTeX that would score a 7 on most or all of the questions, virtually guaranteeing highest honors there and at similar contests. Despite this, what I've seen within the community is that AI has not meaningfully affected contests or preparation for them. […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph">Beckett Bradford, high school student in New York City, taking college classes at <a href="https://www.nyu.edu/">NYU</a></p>
+
+
+
+<p class="wp-block-paragraph">There&#8217;s a solid argument that AI has solved the IMO, in terms of being able to output LaTeX that would score a 7 on most or all of the questions, virtually guaranteeing highest honors there and at similar contests. Despite this, what I&#8217;ve seen within the community is that AI has not meaningfully affected contests or preparation for them. AI has definitely changed how many students study, and has, for example, proved Erdős #4<sup data-fn="3a7d1c52-8e4b-4f19-b6a0-2d9c5e7f1a01" class="fn"><a href="#3a7d1c52-8e4b-4f19-b6a0-2d9c5e7f1a01" id="3a7d1c52-8e4b-4f19-b6a0-2d9c5e7f1a01-link">1</a></sup>, though only after prompting by a former gold medalist. Yet it hasn&#8217;t caused a crisis in contest integrity or massively enhanced students&#8217; abilities.</p>
+
+
+
+<p class="wp-block-paragraph">This is not to say AI is having no effect on competitions. At Canada&#8217;s take-home test, the Repêchage, a potential route to their IMO team, the cutoff for advancement was a perfect score for the first time in the test&#8217;s history, prompting its discontinuation because of cheating concerns. At proctored tests, though, student performance has thus far been more or less unaffected.</p>
+
+
+
+<p class="wp-block-paragraph">I&#8217;ve heard some people dismiss AI solving contest problems as not a meaningful capability, since those problems are explicitly designed to be solved with techniques a competition-inclined high schooler would know, rather than the vast corpus available to people designing AI systems. I disagree with this. AI&#8217;s ability to solve these problems is notable and can be useful, even if such abilities, from my own experience, translate poorly to being able to write good olympiad problems. Not all old problems have readily available solutions, and many students use these tools as a search substitute if they&#8217;re stuck, or researching a topic.</p>
+
+
+
+<p class="wp-block-paragraph">AI solutions often use unanticipated, sometimes circuitous, approaches. Occasionally they write very good ones. In my own experience, I came up with a problem I found interesting and was able to solve it in about forty minutes with a rough write-up. Afterward, I gave the problem to GPT-6, and it found a much cleaner solution with a different approach in about three minutes.</p>
+
+
+
+<p class="wp-block-paragraph">AI&#8217;s lack of impact on learning beyond writing solutions and fixing grammar is, I think, an interesting divergence from the human, since many fantastic contests are organized and run by former olympiad students. For the past few years there&#8217;s been noise about how AI will &#8220;revolutionize&#8221; learning by giving everyone an on-demand personal tutor that adjusts to them, designing personalized tests, and so on. Khan Academy launched its own effort towards this with an experimental chatbot<sup data-fn="9c2e6b84-1f3a-4d57-8a90-6b4d2e8c7f02" class="fn"><a href="#9c2e6b84-1f3a-4d57-8a90-6b4d2e8c7f02" id="9c2e6b84-1f3a-4d57-8a90-6b4d2e8c7f02-link">2</a></sup>, with the ambition that it would &#8220;prompt critical thinking.&#8221; Now, after three years of advancements in AI, usage remains low. And the major labs have mostly abandoned their respective study modes.</p>
+
+
+
+<p class="wp-block-paragraph">AI has, thus far, not been a step change from regular search engines. Notably, Google has shied away from continuing to pour hundreds of billions of dollars into frontier intelligence, while still pursuing less ambitious AI products.</p>
+
+
+
+<p class="wp-block-paragraph">Thankfully, most students and peers I talk to aren&#8217;t excessively concerned about the future of human math&#8217;s relevance. They are happily trying to complete their projects, study a new textbook, and share their enjoyment of the field.</p>
+
+
+
+<p class="wp-block-paragraph">A privilege of studying mathematics is its unusual openness. At the competition level, we practice old olympiads from the Netherlands to Indonesia. In the past month I&#8217;ve spoken to people from Hong Kong, Italy, Brazil and more, about various bits of problem solving. Interestingly, US AI labs withhold their products from Hong Kong.</p>
+
+
+
+<p class="wp-block-paragraph">By and large, I feel the effects of AI on non-technical tasks are negative, from the prevalence of slop images to the cavalcade of vibe-coded websites. Removing friction mostly invites users who have either momentary interest or are compelled by &#8220;AI UNLOCKS INFINITE MONEY!!! CLICK HERE!!!&#8221; AI has recharged perennial memes from &#8220;college is dead&#8221; to &#8220;this is the final generation that will experience scarcity.&#8221; I notice a lot of this is reminiscent of early internet excitement, with claims like &#8220;Google has made college irrelevant&#8221; and &#8220;we are now at the beginnings of a global civilization, a new civilization of civilizations, that will blossom through the coming century.&#8221; I&#8217;m sure some people thought the same when their local public library opened. AI does not seem to be a step change so much as it is one of efficiently routing existing knowledge, often leaving its origin obscured.</p>
+
+
+
+<p class="wp-block-paragraph">The costs of AI use and investment, particularly in the USA, have also been rising. At time of writing, the latest publicly available OpenAI model saturated a major evaluation at a cost of roughly twenty-six thousand dollars<sup data-fn="e5b8f0a3-7c61-4a2d-9e14-1f6a3c9d8b03" class="fn"><a href="#e5b8f0a3-7c61-4a2d-9e14-1f6a3c9d8b03" id="e5b8f0a3-7c61-4a2d-9e14-1f6a3c9d8b03-link">3</a></sup>, and these labs will need to move their revenue at least one order of magnitude to keep pace with projections over the next two years.</p>
+
+
+
+<p class="wp-block-paragraph">From my perspective, with, I admit, limited experience in higher math, but a good deal in problem solving and exposure to people involved in higher math, I don&#8217;t think math is in crisis, or, I hope, that pure math majors will not face significantly worse prospects than five years ago.</p>
+
+
+
+<p class="wp-block-paragraph">Along with near-unlimited funding and laissez-faire regulation, the AI companies behave recklessly and have created large amounts of public distrust, with the explicit goal of making &#8220;intelligence&#8221; a utility akin to energy. Where between inept investor relations and a truly held belief in the cyber eschaton this originates from isn&#8217;t relevant here. Most notable to math, of course, has been the Navier-Stokes controversy, which I won&#8217;t comment on beyond saying that the USA AI labs&#8217; view of research principally as an investor slide has made many influential people who were enthusiastic about AI&#8217;s potential uses weary of the labs&#8217; idea of &#8220;cooperation.&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">The labs, perhaps noticing a bad news cycle, have been quick to move on to bigger things like armageddon. Unfortunately, the drumbeat of doom, and calls for government intervention, are succeeding in convincing some people to fear a rogue AI apocalypse. Anxieties about the future are constant and wide-ranging, from awards cutoffs and college admissions to climate change. Yet concern that discovery itself will soon be automated by USA companies is the most directly commercial I&#8217;ve heard.</p>
+
+
+
+<p class="wp-block-paragraph">Despite the companies&#8217; behavior, I remain optimistic about AI&#8217;s overall use as an assistive tool. I&#8217;ve personally found it great at turning sketches into clean TikZ diagrams. And I&#8217;ve seen sincerely interested people use AI in creative ways, leveraging it to improve their own work. The best AI is now probably better than any individual at olympiad problems, but this is a narrow piece of olympiad math. Broadly speaking, AI can&#8217;t be a community of ambitious students or create good handouts. We can only know if its solutions are relevant if we solve the questions ourselves.</p>
+
+
+
+<p class="wp-block-paragraph">Below are two articles skeptical of AI&#8217;s economic future I think are worth reading:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://newleftreview.org/sidecar/posts/warning-signs">Warning Signs</a> (New Left Review, Sidecar)</li>
+
+
+
+<li><a href="https://cepr.net/publications/ai-bubble-monitor/">AI Bubble Monitor</a> (CEPR)</li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 26 September 2026.</p>
+
+
+<ol class="wp-block-footnotes"><li id="3a7d1c52-8e4b-4f19-b6a0-2d9c5e7f1a01"><a href="https://github.com/DottedCalculator/ai-math/blob/main/Erdos_4_GPT_5.6_Sol.pdf">https://github.com/DottedCalculator/ai-math/blob/main/Erdos_4_GPT_5.6_Sol.pdf</a> <a href="#3a7d1c52-8e4b-4f19-b6a0-2d9c5e7f1a01-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="9c2e6b84-1f3a-4d57-8a90-6b4d2e8c7f02"><a href="https://support.khanacademy.org/hc/en-us/articles/14394953976333--Update-Introducing-Khanmigo-Khan-Academy-s-AI-Tool">https://support.khanacademy.org/hc/en-us/articles/14394953976333&#8211;Update-Introducing-Khanmigo-Khan-Academy-s-AI-Tool</a> <a href="#9c2e6b84-1f3a-4d57-8a90-6b4d2e8c7f02-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="e5b8f0a3-7c61-4a2d-9e14-1f6a3c9d8b03"><a href="https://arcprize.org/leaderboard">https://arcprize.org/leaderboard</a> <a href="#e5b8f0a3-7c61-4a2d-9e14-1f6a3c9d8b03-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/02/what-does-ai-do-for-olympiad-students/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1648</post-id>	</item>
+		<item>
+		<title>Updates from the AHM: guidelines on doctoral advising</title>
+		<link>https://proofsandprompts.com/2026/11/02/updates-from-the-ahm-guidelines-on-doctoral-advising/</link>
+					<comments>https://proofsandprompts.com/2026/11/02/updates-from-the-ahm-guidelines-on-doctoral-advising/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Mon, 02 Nov 2026 10:00:00 +0000</pubDate>
+				<category><![CDATA[Initiatives]]></category>
+		<category><![CDATA[Take part]]></category>
+		<category><![CDATA[PhD and postdoc applications]]></category>
+		<category><![CDATA[PhD students]]></category>
+		<category><![CDATA[Teaching]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3229</guid>
+
+					<description><![CDATA[“We are happy to announce that the Teaching Working Group of the Association for Human Mathematics wrote a set of recommendations on doctoral advising aimed at departments, advisors, and students. The document contains five guidelines centered on prioritizing human-authored writing, avoiding overreliance on AI, confronting the ethical concerns of AI use, and improving the wellbeing of students, as well as concrete proposals on how to implement them. […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph">AHM communications group</p>
+
+
+
+<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · As application deadlines approach, Proofs and Prompts is publishing a series of posts for people considering a PhD, doing a PhD or looking for a postdoc: guidelines, discussions and speculation about what to do and what careers in mathematics will look like. This post is one of them. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/application-season/">All posts in the series</a></p>
+
+<p class="wp-block-paragraph">We are happy to announce that the Teaching Working Group of the Association for Human Mathematics wrote <a href="https://www.ahmath.org/doctoraladvising" target="_blank" rel="noreferrer noopener">a set of recommendations on doctoral advising</a> aimed at departments, advisors, and students. The document contains five guidelines centered on prioritizing human-authored writing, avoiding overreliance on AI, confronting the ethical concerns of AI use, and improving the wellbeing of students, as well as concrete proposals on how to implement them. We encourage everyone to read and share the document, and we especially look forward to feedback and suggestions.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 30 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/02/updates-from-the-ahm-guidelines-on-doctoral-advising/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3229</post-id>	</item>
+		<item>
 		<title>Collaborative work groups on exposition problems</title>
 		<link>https://proofsandprompts.com/2026/11/01/collaborative-work-groups-on-exposition-problems/</link>
 					<comments>https://proofsandprompts.com/2026/11/01/collaborative-work-groups-on-exposition-problems/#comments</comments>
@@ -291,7 +599,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/01/a-new-system-of-accreditation/feed/</wfw:commentRss>
-			<slash:comments>4</slash:comments>
+			<slash:comments>6</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3154</post-id>	</item>
@@ -351,7 +659,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/31/ai-reviews-are-the-new-normal/feed/</wfw:commentRss>
-			<slash:comments>11</slash:comments>
+			<slash:comments>15</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3185</post-id>	</item>
@@ -1581,357 +1889,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2527</post-id>	</item>
-		<item>
-		<title>Let&#8217;s stop writing papers&#8230;</title>
-		<link>https://proofsandprompts.com/2026/10/30/lets-stop-writing-papers/</link>
-					<comments>https://proofsandprompts.com/2026/10/30/lets-stop-writing-papers/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Fri, 30 Oct 2026 10:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Community]]></category>
-		<category><![CDATA[Journals]]></category>
-		<category><![CDATA[The future of papers]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2840</guid>
-
-					<description><![CDATA[In this essay, I put forward some ideas on what the future of mathematical culture could look like as well as thoughts and concrete suggestions for how we get there. My focus is centred around a more diverse ecosystem of mathematical output, moving away from traditional practices of writing and submitting papers to journals.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph" style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)"><a href="https://sites.google.com/site/patrickmorriscombinatorics">Patrick Morris</a>, Ramón y Cajal Fellow (Post-doc) at <a href="https://www.upc.edu/en">Universitat Politècnica de Catalunya (UPC)</a>, Barcelona</p>
-
-
-
-<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · AI is making papers cheap to produce but they remain costly to referee. Proofs and Prompts is publishing a series of posts from 26 October on the future of publishing, papers and credit. Questions such as how to disclose AI use, who bears the cost of checking, what authorship means and what papers of the future might look like will be addressed. This post is part of the series. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/publishing/">All posts in the series</a></p>
-
-<p class="wp-block-paragraph" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><strong>AI Disclosure:</strong> All sentiments and words are my own. I used Chat GPT 6 medium to suggest other essays discussing changes in mathematical culture and to inform myself about initiatives. Another chat was used to understand the process of atlasing, after Google AI suggested it as a term that is ‘like mapping out but starting with an a’ (which admittedly I probably could have got to myself if I had thought for a moment).</p>
-
-
-
-<p class="wp-block-paragraph">In this essay, I put forward some ideas on what the future of mathematical culture could look like as well as thoughts and concrete suggestions for how we get there. My focus is centred around a more diverse ecosystem of mathematical output, moving away from traditional practices of writing and submitting papers to journals. My vision is aspirational, formed through a fair amount of dreaming, as well as insights from others. Through my research, it became clear to me that as a community we have vastly different views on how we approach the use of AI in maths as well as its current and predicted capabilities. As much as possible, I have tried to envisage a robust community that can adapt to developments in AI whilst making space for people to contribute in the way they feel most comfortable.</p>
-
-
-
-<h2 class="wp-block-heading">Stop writing papers, really?!</h2>
-
-
-
-<p class="wp-block-paragraph">My main aim is to provide some direction and cultivate positivity around the future of mathematics. Before that though, let me address what I believe we should not do. The title of this essay is purposefully incendiary and stems from a deep feeling that we cannot simply try to do business as usual. The pressure to publish has been the prominent driving force in most mathematicians’ careers, often drowning out the rest of what we do. Arguably the community was long overdue some introspection but the advent of AI gives us no choice.</p>
-
-
-
-<p class="wp-block-paragraph">The situation requires a monumental shift in how we approach mathematics as well as a complete reform of our value system, rather than clunky attempts to try and accommodate new advances into the status quo. (I realise that this view is not held by everyone, but it is beyond the scope of this essay to convince people of this <sup id="note-ref-1"><a href="#note-1">1</a></sup>). This is why we urgently need to stop writing papers and focus on other activities.</p>
-
-
-
-<p class="wp-block-paragraph">In reality, I know that this is idealistic and that there are many obstacles to change. Our institutions are built around the current system and will be slow to adjust, a problem that disproportionately affects junior academics and especially students. I am a post-doc and am acutely aware that my publication list will remain the most influential factor in obtaining a permanent job and grants in the coming years. If I do get tenure at my current university, as I hope I will, my pay is affected by how many papers I write.</p>
-
-
-
-<p class="wp-block-paragraph">There is another issue which is simply that this is what we know. I myself will contradict my own advice. I have a pile of unfinished projects that I plan to complete for a variety of reasons, some because I am invested, some because I feel that I owe it to younger colleagues who will benefit from the experience and just one that I believe provides new ideas that cannot (currently) be obtained by pushing a button. Nonetheless I believe I am not alone in at times feeling quite lost<sup id="note-ref-2"><a href="#note-2">2</a></sup> over the last months and I hope that my suggestions can provide some purpose moving forward.</p>
-
-
-
-<h2 class="wp-block-heading">Ok, so let’s at least write fewer papers. What should we do instead?</h2>
-
-
-
-<p class="wp-block-paragraph">Below I lay out different axes of activities (in no particular order), briefly explaining how we currently approach them and some ideas of what we can do differently. All of them are broadly aimed at advancing and facilitating human understanding of mathematics.</p>
-
-
-
-<ol style="list-style-type:upper-alpha" class="wp-block-list">
-<li style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)"><strong>Atlasing:</strong> In neuroscience<sup id="note-ref-3"><a href="#note-3">3</a></sup>, <em>atlasing</em> refers to creating models of the brain that provide a standardised framework for many individual brain maps. I like this as a metaphor for the process of collating and canonising different mathematical works. This has typically been done through books and surveys, which remain incredibly valuable resources. One particularly ambitious example of this was <a href="https://press.princeton.edu/books/hardcover/9780691118802/the-princeton-companion-to-mathematics">The Princeton Companion to Mathematics</a> which aimed to overview all of modern mathematics. Moving forward we should be more systematic and dynamic in our efforts to atlas. I don’t think it is so crazy to aim for a comprehensive online mathematical encyclopaedia that catalogues topics, theorems, concepts, proof methods and their interconnections and which is continually being expanded and refined. On the formal level, this is already happening<sup id="note-ref-4"><a href="#note-4">4</a></sup>.</li>
-
-
-
-<li style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)"><strong>Big Mathematics:</strong> This is a term used by Tao to mean<sup id="note-ref-5"><a href="#note-5">5</a></sup> ‘large-scale decentralised collaboration between humans and machines’. I would like to slightly broaden this definition by not imposing the use of machines. Indeed, I see the crowdsourcing <a href="https://polymathprojects.org/">Polymath project</a> as an innovative example of big mathematics. Once we move away from a system that lauds individual ownership of results, we can become more open and collaborative on a large scale. I would love to see more accounts of failed attempts or half-proven results, as well as logs of what cannot be currently achieved by AI. In this way, I think we will save a lot of duplication by people working in secrecy.</li>
-
-
-
-<li style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)"><strong>Curation:</strong> By definition, to curate is to select, organise and present. Whilst similar to A, I would contrast them by placing A as an attempt to create permanence, whilst C is concerned with processing the torrent of brand-new mathematics. Good curation picks out results/progress, places it in a wider context and tells you why you should care about it. This is a role that has been underserved with the exceptions I know of being some blogs<sup id="note-ref-6"><a href="#note-6">6</a></sup>, <a href="https://www.quantamagazine.org/mathematics/">Quanta magazine</a> and the <a href="https://www.bourbaki.fr/seminaires/">Bourbaki seminar</a> (and to some extent <a href="https://www.ams.org/publications/math-reviews/math-reviews">MathReviews</a> and workshops on current trends). With more maths being generated and the fall of many guiding conjectures, we will need more curation. This can take the form of podcasts, blogs, magazines and newsletters both for maths as a whole and for specialists in its many corners.</li>
-
-
-
-<li style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)"><strong>Dialogue:</strong> Mathematicians talk to each other all the time, whether sharing ideas at a blackboard, debating our culture over coffee or catching up at conferences. These ongoing conversations are deeply useful but are mostly localised. Our global community also needs spaces to discuss and debate more widely and they are lacking<sup id="note-ref-7"><a href="#note-7">7</a></sup>. Comments sections on blogs such as Bloom’s <a href="https://www.erdosproblems.com/">Erdős problem website</a> have almost accidentally become forums. We should create avenues for meaningful conversations, both about maths itself and about the culture. For example, a repository where people can share feedback, questions, answers and comments on papers/preprints would surely be useful. Maybe even a mathematics focused social media or a shared discord or slack. I don’t mean that we should move completely online. On the contrary, I think we should also create more seminars, reading groups and round-table discussions. There is space for both to flourish.</li>
-
-
-
-<li><strong>Exposition:</strong> This one has been grabbing a lot of attention<sup id="note-ref-8"><a href="#note-8">8</a></sup> due to AI’s current inability to present ideas well. If we’re honest with ourselves, we were also lacking in this as humans. I know plenty of highly influential papers that are terribly written and a bunch more that contain some beautiful idea that is completely obscured by the technicalities needed to get the proof over the line. The situation with talks is even worse, with the plenary lectures at our biggest conferences essentially being awards for research and with no expectation on the speaker or from the audience to understand after 5 minutes in. On the flip side, there are certainly some amazing storytellers in our community and reading their work or seeing them speak has made me realise what an art it is. It is exciting to see what we can achieve in terms of exposition when we give it the real weight and respect it deserves. It can and should come in many different forms and for the full spectrum of audiences, from experts, to students and researchers in other areas, to the general public.</li>
-</ol>
-
-
-
-<h2 class="wp-block-heading">Ok but what should we actually do now?</h2>
-
-
-
-<p class="wp-block-paragraph">The areas outlined above are not new but need much more attention and, most importantly, the development of platforms and infrastructure to highlight and reward them. This is the time to innovate and it is happening already<sup id="note-ref-9"><a href="#note-9">9</a></sup>. <a href="https://proofsandprompts.com/">Proofs and Prompts</a>, for example, is a great example facilitating D and the new video journal <a href="https://www.mathematicaldiscourse.org/">Mathematical Discourse</a> feels like an important move towards developing E. Further initiatives include the <a href="https://mathathonchallenge.com/">Mathathon</a> coding project to develop new proofs and expositions of known results (B,E), the open-source mathematical formalisation project <a href="http://mathlib-initiative.org/">Mathlib</a> (A,B) and <a href="https://www.quantamagazine.org/updates/transformation/">Transformation</a>, a new weekly digest from Quanta tracking news in maths and AI (C).</p>
-
-
-
-<p class="wp-block-paragraph">I hope to see many more exciting projects come to fruition and I believe we all have a part to play in revolutionising what modern mathematics looks like. In the past, we have placed a great deal of responsibility on relatively few, those that have established themselves to the extent that they can take time away from proving theorems to serve as editors, give colloquia and write books. These people have an important role to play in providing leadership, expertise and stature to new initiatives but we cannot rely solely on them to build everything, there is simply too much to do. Moreover, we should take this opportunity to diversify the voices at the table. In particular, young researchers as well as groups that are underrepresented in our current community will bring vital new perspectives to the conversation. I encourage everyone to think about how the future can look and how they want to contribute to it. Apply for grants to help realise your ideas and support and contribute to the ideas of others.</p>
-
-
-
-<p class="wp-block-paragraph">We should think with longevity and establish long-term alternatives to traditional journals. We can borrow from what worked before and aim to incentivise contribution by creating venues for other types of mathematical output that are competitive and prestigious. However, we should also explore new ways of rewarding output. We can look at measuring forms of engagement from the community that go beyond citations, maybe through views or voting systems (as used by Math Overflow, for example). Learning also from our mistakes in the past, we should avoid outsourcing ownership of our infrastructure and should celebrate community-led alternatives.</p>
-
-
-
-<p class="wp-block-paragraph">It is incredibly difficult to predict the future of maths but for now, developing along axes A-E represents a tremendous workload of things that we can be focusing on, all of which I can only see as being beneficial.</p>
-
-
-
-<p class="wp-block-paragraph" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><strong>Acknowledgements:</strong> I am very grateful to my many colleagues whom I have spoken with at length about this topic. In particular I thank Richard Lang, Miquel Ortega and Tibor Szabó for their insights and Tássio Naia and my dad, Tim Morris, for their comments on an earlier draft. I also thank my wife Jiselle for her patience and help in processing my thoughts and writing in a format I am not so used to.</p>
-
-
-
-<ol class="wp-block-list pp-small-endnotes">
-<li class="has-medium-font-size">Many eloquent arguments can be found elsewhere, see e.g. <a href="https://terrytao.wordpress.com/2026/09/13/deep-theorems-were-scarce-and-difficult-and-so-became-an-effective-mechanism-to-identify-deep-thought-ai-has-broken-this-system/">this essay of Bryna Kra</a>, <a href="https://www.daniellitt.com/blog/2026/8/11/the-end-of-mathematics/">Daniel Litt’s The end of mathematics</a> and <a href="https://proofsandprompts.com/2026/09/25/dear-conferences-journals-and-hiring-committees-dont-wait-for-everyone-else/">Amit Harlev’s Dear conferences, journals, and hiring committees: don’t wait for everyone else.</a> <a aria-label="Back to note 1" href="#note-ref-1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-medium-font-size"><a href="https://kirwinhampshire.substack.com/p/the-dark-night-of-mathematics">Kirwin Hampshire’s The Dark Night of Mathematics</a> captures the feeling beautifully. <a aria-label="Back to note 2" href="#note-ref-2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-medium-font-size">See, for example, A. W. Toga and P. M. Thompson, <a href="https://onlinelibrary.wiley.com/doi/10.1002/ar.1057">Maps of the Brain</a>, The Anatomical Record, 265(2), 2002. The notion also appears in topology and differential geometry where an atlas is a collection of coordinate charts that covers a geometric space. <a aria-label="Back to note 3" href="#note-ref-3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-medium-font-size">The mathlib Community, <a href="https://arxiv.org/abs/1910.09336">The Lean mathematical library</a>, arXiv:1910.09336, 2019. <a aria-label="Back to note 4" href="#note-ref-4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-medium-font-size">According to <a href="https://teorth.github.io/tao-web/ai-views.html">Terence Tao on AI in mathematics (and beyond)</a> at the time of writing. He also talks of <a href="https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf">Math 2.0</a> and highlights many interesting examples and ideas for rethinking mathematical research. <a aria-label="Back to note 5" href="#note-ref-5"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-medium-font-size"><a href="https://terrytao.wordpress.com/">Terence Tao’s</a> and <a href="https://gilkalai.wordpress.com/">Gil Kalai’s</a> spring to mind for me. <a aria-label="Back to note 6" href="#note-ref-6"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-medium-font-size"><a href="https://math.stackexchange.com/">Maths Stack Exchange</a> and <a href="https://mathoverflow.net/">Math Overflow</a> are notable exceptions but they seem to be in <a href="https://math.meta.stackexchange.com/questions/39600/is-the-large-decline-in-questions-over-past-few-years-due-to-people-losing-interest">decline</a>, sadly. <a aria-label="Back to note 7" href="#note-ref-7"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-medium-font-size">See e.g. Grant Sanderson’s essay <a href="https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/">If math is more than proof, we need to better celebrate the rest of it</a> <a aria-label="Back to note 8" href="#note-ref-8"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-medium-font-size">There are also some examples of older initiatives that were ahead of their time and have sadly stunted. <a href="https://www.tricki.org/">Tricki</a>, for example, aimed to create a database for problem solving techniques (A,B), see also the incredibly ambitious <a href="https://www.stat.berkeley.edu/~mathsurv/">The Mathematics Survey</a> project of David Aldous and Jim Pitman (A,E). Maybe it is time to revisit these ideas. <a aria-label="Back to note 9" href="#note-ref-9"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-</ol>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 19 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/30/lets-stop-writing-papers/feed/</wfw:commentRss>
-			<slash:comments>8</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2840</post-id>	</item>
-		<item>
-		<title>The (human) emotional part of doing maths</title>
-		<link>https://proofsandprompts.com/2026/10/29/the-human-emotional-part-of-doing-maths/</link>
-					<comments>https://proofsandprompts.com/2026/10/29/the-human-emotional-part-of-doing-maths/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Thu, 29 Oct 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Reactions]]></category>
-		<category><![CDATA[Creativity]]></category>
-		<category><![CDATA[Personal experience]]></category>
-		<category><![CDATA[Response]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=1502</guid>
-
-					<description><![CDATA[ "All the relationships are emotional," shouted a stranger on the street. Turns out that's true even for mathematics. Emotion may be one of the most human things we have.  Judging by what AI still can't do, perhaps we should cherish this irrational part more.]]></description>
-										<content:encoded><![CDATA[
-<h2 class="wp-block-heading">A follow-up to <a href="https://proofsandprompts.com/2026/08/11/what-i-feel-like-when-i-work-with-an-ai/">Shmuel Weinberger&#8217;s post</a></h2>
-
-
-
-<p class="author-line wp-block-paragraph"><a href="https://luisegehaijing.github.io/">Luise Ge</a>, PhD student in computer science at <a href="https://cse.washu.edu/">Washington University St Louis</a></p>
-
-
-
-<h3 class="wp-block-heading"><strong>First, the not so serious part: emotions</strong></h3>
-
-
-
-<p class="wp-block-paragraph">Someone was shouting in her vernacular accent: &#8220;Because all the relationships are emotional!” just now, at 11pm.</p>
-
-
-
-<p class="wp-block-paragraph">It was so loud that I heard it as clearly as possible from the fifth floor.</p>
-
-
-
-<p class="wp-block-paragraph">It broke my concentration and made my mind switch to something different: maybe instead of saying I am a mathematician which actually made me feel nervous because i am no longer in a math department, I should say I am someone that have a deep relationship with it. How do i prove it? Because I have had and plan to continue having so many strong emotions with it!</p>
-
-
-
-<p class="wp-block-paragraph">Here is a list:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Euphoria:</strong> When I proved something successfully, blimey, I am the happiest person in the world.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Empowered:</strong> I am so grateful that I can understand a lot of physics, biology, chemistry, computer science or <a href="https://dmitri.mycpanel.princeton.edu/geometry-of-music.html">music</a> because I know maths.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Humbled:</strong> Why are large number so large? Why are we still knowing so little about everything?</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Dread:</strong> I was not good at maths during high school, and maths exams at that time gave me tremendous nerves. I think it was to the level of panic attacks.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Sublimity:</strong> To me the Euler equation is like a Flemish painting I could hang on my wall; the aesthetic experience of an elegant is as haughty as listening to Bach&#8217;s music, but a little bit scary when thinking about higher dimensional space and topology (see, for example, <a href="https://www.youtube.com/watch?v=QcLfb0PhfO0&amp;feature=youtu.be">this video</a>).</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Anticipation:</strong> When I was going to learn a new topic, I would feel super excited.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Repose:</strong> I remember, for example, going over lecture notes for revision, and seeing all the definitions and theorems and lemmas connecting with each other makes me feel extremely organized and calm.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Camaraderie:</strong> The quarrels between you and your teammate can get so intense and heated that outsiders wouldn&#8217;t understand, but when the problem&#8217;s solved, we are the best teammates together.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Isolation:</strong> I felt sour when all my friends went out on Friday night.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Desolation:</strong> Does the never-ending tunnel resonates with you?</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Tenacity: </strong>Is it about faith in myself, faith in the conjecture, or just because there is no exit?</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Grounding:</strong> As I am doing CS, formal verification of things and some provable bounds give me something i can grip on and feel grounded by.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Bewilderment:</strong> Just dazed and confused.</p>
-
-
-
-<h3 class="wp-block-heading"><strong>Second, are they really not so serious?</strong><math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math><strong>or,</strong> <strong>what are emotions good for?</strong></h3>
-
-
-
-<p class="wp-block-paragraph">I travelled to an AI conference recently focused on integrating reasoning and learning; one of the main goals of this community (check inductive logic programming, for instance) is automated discovery, defining new entities and finding relationships between them, from atoms to genes. This is not a new dream either. As brought up by keynote speaker Prof. Stephen Muggleton, <a href="https://www.cs.ox.ac.uk/activities/ieg/e-library/sources/t_article.pdf">Turing</a><sup data-fn="fn-ddd06433-8f8b-4ca0-aee9-446fd791d9d9" class="fn"><a href="#fn-ddd06433-8f8b-4ca0-aee9-446fd791d9d9" id="fn-ddd06433-8f8b-4ca0-aee9-446fd791d9d9-link">1</a></sup> once pondered a question about whether a machine can generate new ideas like a nuclear chain reaction.</p>
-
-
-
-<p class="wp-block-paragraph">Discovery to me is the most exciting, and grandiose objective of AI, as it has truly propelled the development of our civilization.</p>
-
-
-
-<p class="wp-block-paragraph">As for <a href="https://henripoincarepapers.univ-nantes.fr/chp/hp-pdf/hp1910moa.pdf">mathematical creation</a>, it feels like these mysterious emotions, like the sense of “rightness”, or surprise, curiosity are like the little fairies guiding us to the destinations.</p>
-
-
-
-<p class="wp-block-paragraph">And this is the part current AI has not be able to do yet.</p>
-
-
-
-<p class="wp-block-paragraph">Maybe partially it’s because AI doesn&#8217;t have emotions yet but we do?</p>
-
-
-
-<p class="wp-block-paragraph">Maybe our human emotions will still make us better mathematicians, sometimes, and for a while?</p>
-
-
-
-<p class="wp-block-paragraph">Maybe we should try to always keep it this way?</p>
-
-
-
-<p class="wp-block-paragraph">And be wary that when we work with AI, our feelings seem to be less deep, and less varied.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 24 September 2026.</p>
-
-
-<ol class="wp-block-footnotes"><li id="fn-ddd06433-8f8b-4ca0-aee9-446fd791d9d9">The passage (responding to Lady Lovelace&#8217;s objection that a machine can only do what it&#8217;s told) reads: a person can &#8220;inject&#8221; an idea into a mind or machine, and it will respond to some extent and then die away <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> like a piano string struck by a hammer. Turing then extends the simile to an atomic pile below critical size: an injected idea corresponds to a neutron entering the pile from outside, causing a disturbance that eventually dies away <math data-latex="\text{\textemdash}"><semantics><mtext>—</mtext><annotation encoding="application/x-tex">\text{\textemdash}</annotation></semantics></math> unless the pile is large enough, in which case the disturbance keeps growing until the whole pile goes up.<br>He then applies this directly to minds: most human minds seem to be &#8220;sub-critical,&#8221; meaning an idea presented to them gives rise, on average, to less than one idea in reply, while a smaller proportion are &#8220;supercritical,&#8221; where an idea can set off a whole cascade of secondary and tertiary ideas. He notes animal minds seem clearly sub-critical, and then poses the question your talk seems to have been built around: can a machine be made to be super-critical? <a href="#fn-ddd06433-8f8b-4ca0-aee9-446fd791d9d9-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/29/the-human-emotional-part-of-doing-maths/feed/</wfw:commentRss>
-			<slash:comments>3</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1502</post-id>	</item>
-		<item>
-		<title>Axioms v.1.0.</title>
-		<link>https://proofsandprompts.com/2026/10/29/axioms-v-1-0/</link>
-					<comments>https://proofsandprompts.com/2026/10/29/axioms-v-1-0/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Norms]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<category><![CDATA[Understanding]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=1898</guid>
-
-					<description><![CDATA[“As many of you, I feel lost in the new world. I am gaining experience and face questions I find hard to answer and choices I find hard to make. For this reason, I wanted to create a very minimal set of axioms which I can quickly apply when I am not sure. […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://jarek-kedra.github.io/">Jarek Kędra</a>, Professor at <a href="https://www.abdn.ac.uk/ncs/departments/mathematics/index.php">University of Aberdeen</a></p>
-
-
-
-<p class="wp-block-paragraph">As many of you, I feel lost in the new world. I am gaining experience and face questions I find hard to answer and choices I find hard to make. For this reason, I wanted to create a very minimal set of axioms which I can quickly apply when I am not sure. Also, I wanted them to be helpful in discussions about the new shape of mathematical research and education. They are not original very likely obvious to many of you, and they go back to Thurston, at least. I wrote them mainly for my personal use. Here is version 1.0.</p>
-
-
-
-<p class="wp-block-paragraph">AXIOMS v.1.0</p>
-
-
-
-<ol class="wp-block-list">
-<li>Mathematics is done to deepen human understanding.</li>
-
-
-
-<li>Mathematics advances only through human understanding.</li>
-
-
-
-<li>Independent human mathematical thought must be preserved.</li>
-</ol>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 4 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/29/axioms-v-1-0/feed/</wfw:commentRss>
-			<slash:comments>6</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1898</post-id>	</item>
 	</channel>
 </rss>

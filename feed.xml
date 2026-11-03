@@ -6,7 +6,47 @@
 <atom:link href="https://xavierblot-math.github.io/veille-ia/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Daily summary of Xena, Proofs and Prompts, Silicon Reckoner, Tao (blog and Mastodon) and Gowers.</description>
 <language>en</language>
-<lastBuildDate>Mon, 02 Nov 2026 04:43:20 +0000</lastBuildDate>
+<lastBuildDate>Tue, 03 Nov 2026 04:43:36 +0000</lastBuildDate>
+<item>
+<title>Digest — 3 November 2026 (4 new posts)</title>
+<link>https://xavierblot-math.github.io/veille-ia/#2026-11-03</link>
+<guid isPermaLink="false">veille-ia-2026-11-03</guid>
+<pubDate>Tue, 03 Nov 2026 04:00:00 +0000</pubDate>
+<description><![CDATA[
+<p><em>Nothing new from: Xena (Kevin Buzzard), Timothy Gowers, Terence Tao on Mastodon.</em></p>
+
+<h3>Terence Tao (guest post) — <a href="https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/">Egoless Mathematics in the AI Era</a></h3>
+<ul>
+<li>Guest essay by Karthik C. S., Amit Sahai and Jie Xue: AI anxiety shows that we already judged mathematicians by output (papers, citations, prizes), a measure that suits machines.</li>
+<li>They take a Platonist view: truths exist apart from whoever finds them, so a result found by AI is not worth less, and the joy of understanding is not a contest.</li>
+<li>They also argue that retreating to "uniquely human" traits (taste, intuition) keeps the same competitive framing; their answer is humility, letting the pursuit of truth come before personal standing.</li>
+<li>They offer this as common ground between colleagues who use AI under agreed rules and those who refuse it, and they end with a thought experiment about Ramanujan.</li>
+</ul>
+
+<h3>Proofs and Prompts (Mathieu Lewin) — <a href="https://proofsandprompts.com/2026/11/02/please-stop-writing-papers-there-is-another-way/">Please STOP writing papers! (there is another way)</a></h3>
+<ul>
+<li>Data point: math.AP submissions for mid-Sept to mid-Oct grew 2.45× in a year (531 → 1,302). An automated screen found 493 disclosing AI use, but only 173 used it for proofs.</li>
+<li>He criticises OpenAI's dump of 700+ "papers" on GitHub and colleagues racing through conjectures outside their field: correct but unreadable proofs are not papers.</li>
+<li>His proposal: treat AI proofs as raw data, published as "AI proof reports" (context, what was checked and how, model, prompts and agent setup, dependency map, Lean files) in a community repository such as hexagonmath.org, with a DOI, and not on arXiv or in journals.</li>
+<li>For journals he wants papers written for human readers and judged on readability, not technical difficulty, and he says PhD students should not be the ones checking AI proofs line by line.</li>
+<li>👉 A concrete, French-based (CNRS/Dauphine) editor's proposal on the publication crisis; worth reading in full.</li>
+</ul>
+
+<h3>Proofs and Prompts (Beckett Bradford) — <a href="https://proofsandprompts.com/2026/11/02/what-does-ai-do-for-olympiad-students/">What Does AI Do for Olympiad Students?</a></h3>
+<ul>
+<li>A NYC high-school student reports that, although AI has essentially solved the IMO, proctored contests and training are mostly unaffected. One exception: Canada dropped its take-home Repêchage after a perfect-score cutoff raised cheating concerns.</li>
+<li>Students use AI mainly as a search engine and a solution checker. AI tutoring has seen little uptake, and he finds AI poor at writing good problems.</li>
+<li>He is sceptical of the labs: high costs, a bubble narrative, and the Navier–Stokes controversy hurting trust.</li>
+</ul>
+
+<h3>Proofs and Prompts (AHM communications group) — <a href="https://proofsandprompts.com/2026/11/02/updates-from-the-ahm-guidelines-on-doctoral-advising/">Updates from the AHM: guidelines on doctoral advising</a></h3>
+<ul>
+<li>The Association for Human Mathematics has released <a href="https://www.ahmath.org/doctoraladvising">five recommendations on doctoral advising</a> for departments, advisors and students.</li>
+<li>Topics: putting human-authored writing first, avoiding overreliance on AI, the ethics of AI use, and student wellbeing, with concrete steps for each. They are asking for feedback.</li>
+<li>👉 Directly relevant to PhD supervision.</li>
+</ul>
+]]></description>
+</item>
 <item>
 <title>Digest — 2 November 2026 (3 new posts)</title>
 <link>https://xavierblot-math.github.io/veille-ia/#2026-11-02</link>

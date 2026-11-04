@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Mon, 02 Nov 2026 08:49:59 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 03 Nov 2026 11:34:17 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,312 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>Keeping Mathematical Conferences Human</title>
+		<link>https://proofsandprompts.com/2026/11/03/keeping-mathematical-conferences-human/</link>
+					<comments>https://proofsandprompts.com/2026/11/03/keeping-mathematical-conferences-human/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[The future of papers]]></category>
+		<category><![CDATA[Understanding]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=1825</guid>
+
+					<description><![CDATA[As AI makes it increasingly easy to produce polished mathematical papers, slides, and explanations, conferences may have an opportunity to become more interactive and more human. I suggest experimenting with conversational talk formats, where chairs and audiences can ask questions throughout, encouraging discussion, clarification, and a deeper shared understanding of mathematics.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://www.docenti.unina.it/teacher/4d4152434f54524f4d424554544954524d4d52433839523234463833394b/profile/references">Marco Trombetti</a>, Professor at <a href="https://www.matematica.unina.it/">Università degli Studi di Napoli</a></p>
+
+
+
+<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · AI is making papers cheap to produce but they remain costly to referee. Proofs and Prompts is publishing a series of posts from 26 October on the future of publishing, papers and credit. Questions such as how to disclose AI use, who bears the cost of checking, what authorship means and what papers of the future might look like will be addressed. This post is part of the series. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/publishing/">All posts in the series</a></p>
+
+<p class="wp-block-paragraph">For a long time, the standard format of a mathematical conference talk has been remarkably stable. A mathematician stands in front of a room. There are slides, or a blackboard. For twenty, thirty, or fifty minutes, the speaker explains a piece of work. At the end, if time remains, there may be a few questions. This format has always had limitations. But I wonder whether the arrival of increasingly capable AI systems gives us a new reason to reconsider it.</p>
+
+
+
+<p class="wp-block-paragraph">In <a href="https://proofsandprompts.com/2026/09/22/proofforum-keeping-ai-generated-mathematics-human/">a previous post</a>, I argued that one of the important problems of AI-generated mathematics will be <em>humanization</em>. It is not enough that a mathematical argument exists, or even that it is correct. Someone should understand it, reorganize it, explain why it works, and connect it to the rest of mathematics. Perhaps conferences will have to adapt to the same problem.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>A polished talk no longer tells us very much</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Suppose I want to talk about a paper at a conference. An AI system may have helped substantially in producing the mathematics. It may have written parts of the argument, reorganized the exposition, prepared the slides, generated examples, suggested explanations, and perhaps even written the script of my talk. In principle, I could give a very polished presentation of a piece of mathematics that I understand only superficially.</p>
+
+
+
+<p class="wp-block-paragraph">Of course, something similar was possible before AI. People have always been able to present work they did not completely understand, and talks have never been examinations of their speakers. But AI changes the scale of the problem. Producing twenty beautiful slides explaining a technical argument is becoming very cheap. Producing a plausible explanation of why a theorem is interesting is becoming cheap. Producing answers to anticipated questions is becoming cheap.</p>
+
+
+
+<p class="wp-block-paragraph">Understanding the mathematics is not necessarily becoming equally cheap.</p>
+
+
+
+<p class="wp-block-paragraph">There is therefore a strange possibility: mathematical communication may become increasingly polished at exactly the same time that the connection between the person communicating the mathematics and the person (or machine) that actually produced the ideas becomes weaker. Perhaps the traditional conference talk is not particularly well designed for this situation.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>What if a talk were a conversation?</strong></h2>
+
+
+
+<p class="wp-block-paragraph">I have been wondering about a different format. Imagine something closer to an interview than to a lecture. The speaker sits with a chair or moderator in front of the audience. The speaker still presents the work, perhaps with slides or a blackboard, but the presentation is not a forty-minute uninterrupted monologue. Instead, the chair interrupts.</p>
+
+
+
+<p class="wp-block-paragraph">Why did you introduce this definition?</p>
+
+
+
+<p class="wp-block-paragraph">What happens if this hypothesis is removed?</p>
+
+
+
+<p class="wp-block-paragraph">Can you explain the main idea without the technical machinery?</p>
+
+
+
+<p class="wp-block-paragraph">Where exactly does the difficult part of the proof occur?</p>
+
+
+
+<p class="wp-block-paragraph">Is this lemma really necessary?</p>
+
+
+
+<p class="wp-block-paragraph">How did you arrive at this argument?</p>
+
+
+
+<p class="wp-block-paragraph">What is the simplest example in which the phenomenon appears?</p>
+
+
+
+<p class="wp-block-paragraph">The chair would have read at least part of the paper beforehand and prepared a few questions. Members of the audience could also intervene during the discussion rather than waiting for the final three minutes. In spirit, it might look a little more like a late-night interview than a traditional mathematical lecture.</p>
+
+
+
+<p class="wp-block-paragraph">I do not mean that mathematics conferences should become entertainment shows. There need not be a desk, a band, and applause after every theorem. Although I would not completely rule out the band. The important difference would be that the presentation becomes interactive.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Understanding becomes visible</strong></h2>
+
+
+
+<p class="wp-block-paragraph">There is something that is quite difficult to fake in a sustained mathematical conversation. If you really understand an argument, you can usually move around inside it.</p>
+
+
+
+<p class="wp-block-paragraph">You can explain it from another direction. You can say which assumptions are essential. You can produce a small example. You can explain what you tried before finding the right proof. You can react when someone asks a question you did not anticipate. You can admit which part you do not understand as well as you would like.</p>
+
+
+
+<p class="wp-block-paragraph">This does not prove that you personally discovered the mathematics. Nor should it. Mathematics is collaborative, and AI will presumably become another participant in that collaboration. I do not think conferences should become detective agencies attempting to determine which sentence was written by a human and which by a machine. The interesting question is different. Has the mathematics passed through a human mind? Can the person presenting it actually discuss it? Can the result enter a mathematical community as something that people understand, rather than merely another object that has been produced?</p>
+
+
+
+<p class="wp-block-paragraph">If the answer is yes, then I care much less about whether AI was involved in obtaining it.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>There would be some pressure</strong></h2>
+
+
+
+<p class="wp-block-paragraph">There is an obvious objection. This format would be more stressful. Standing in front of an audience is already stressful enough for many people. Being interrupted by a senior mathematician asking questions could make things considerably worse. I do not think this objection should be dismissed.</p>
+
+
+
+<p class="wp-block-paragraph">In particular, younger researchers should not be placed in a situation where a conference talk becomes a public oral examination. The same is true for mathematicians who are not comfortable speaking English, people who are naturally less quick in conversation, or anyone for whom this kind of interaction creates a substantial disadvantage. Understanding mathematics and performing well under pressure are not the same ability.</p>
+
+
+
+<p class="wp-block-paragraph">Any new format would have to recognize this. Perhaps junior researchers could receive some or all of the questions in advance. Perhaps the chair could meet the speaker before the session and discuss the structure of the conversation. Perhaps traditional talks could remain available for people who prefer them. Perhaps questions could be deliberately explanatory rather than adversarial. The point should not be to catch the speaker making a mistake. The point should be to create a setting in which understanding naturally becomes part of the presentation.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>But perhaps a little pressure is useful</strong></h2>
+
+
+
+<p class="wp-block-paragraph">At the same time, I am not sure that all pressure is bad. If I know that presenting a paper means that someone may ask me why Lemma 4.7 is true, I have a rather strong incentive to understand Lemma 4.7 before I submit the paper. If I know that I may have to explain why a certain definition is natural, I may spend some time thinking about whether I actually know why it is natural. And if an AI system has generated an argument that I do not understand, perhaps I will be less tempted to immediately turn it into a conference submission if I know that eventually I will have to sit in front of other mathematicians and discuss it.</p>
+
+
+
+<p class="wp-block-paragraph">This seems healthy. At present, AI dramatically reduces the cost of producing mathematical text. Perhaps our institutions should increase the reward for understanding that text.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>The chair would have a new role</strong></h2>
+
+
+
+<p class="wp-block-paragraph">This would also change the role of the session chair. At many conferences, chairing a session currently consists mainly of introducing the speaker, watching the clock, and saying “perhaps one last question.” In a conversational format, the chair would have a genuine intellectual role. The chair might read the paper beforehand, identify its central ideas, and prepare questions that help the audience understand what matters. A good chair could rescue a difficult presentation by asking exactly the question that half the room wants to ask but does not know how to formulate.</p>
+
+
+
+<p class="wp-block-paragraph">This work would take time, of course. But perhaps it should. We spend enormous amounts of collective time attending conferences. It seems slightly strange that so little time is usually invested in designing the actual intellectual interaction that happens there.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>It might make conferences better anyway</strong></h2>
+
+
+
+<p class="wp-block-paragraph">There is another possibility. Perhaps this would be a better conference format even if AI did not exist. Many mathematical talks are extremely difficult to follow. A speaker has fifty slides and forty-five minutes, the notation accumulates, one crucial definition is missed, and twenty minutes later a significant fraction of the audience has become spectators rather than participants. A chair who can interrupt and say, “Before we continue, could you explain again what this object is supposed to represent?” might improve the talk enormously.</p>
+
+
+
+<p class="wp-block-paragraph">Questions during the presentation could reveal which ideas actually interest people. The speaker might spend less time covering every theorem in the paper and more time explaining the one idea that people will remember six months later. We might discover that the purpose of a conference was never really to reproduce the contents of papers orally. Papers are quite good at containing the contents of papers. A conference should perhaps do something else.</p>
+
+
+
+<p class="wp-block-paragraph">It should create understanding, discussion, disagreement, connections, and memories.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Conferences as part of verification</strong></h2>
+
+
+
+<p class="wp-block-paragraph">I have argued elsewhere that AI-generated mathematics may require new mechanisms of verification and humanization. Perhaps conferences could become part of that process too. Not formal verification. Not peer review. Not an examination establishing authorship. Something softer.</p>
+
+
+
+<p class="wp-block-paragraph">A result arrives in the mathematical community, and someone has to stand behind it, or perhaps better, sit beside it, and talk about it with other mathematicians. The audience sees not only a theorem and a proof, but a human being navigating the ideas around them.</p>
+
+
+
+<p class="wp-block-paragraph">Questions expose unclear points. Experts notice connections. Someone asks about a missing case. Another person suggests a simpler argument. The speaker realizes that one explanation is much better than the one in the paper.</p>
+
+
+
+<p class="wp-block-paragraph">The talk becomes another stage through which mathematical output is transformed into shared mathematical understanding.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>An experiment</strong></h2>
+
+
+
+<p class="wp-block-paragraph">I certainly do not think every conference should replace all talks with interviews next year. Perhaps the format would fail completely. Maybe the speakers would hate it, or the chairs would not prepare enough. Perhaps discussions would constantly run over time. Perhaps the best researchers would turn out to be terrible interviewers and the best interviewees would not necessarily be the best mathematicians. These are good reasons to experiment rather than legislate.</p>
+
+
+
+<p class="wp-block-paragraph">A conference could try one session. Five speakers. Twenty or thirty minutes each. A chair who has received the papers beforehand. Ten minutes of presentation mixed with questions and discussion. Questions from the audience throughout. For junior participants, the questions could be discussed in advance. Then ask everyone whether they learned more.</p>
+
+
+
+<p class="wp-block-paragraph">My suspicion is that we eventually need to rethink several mathematical institutions that were built for a world in which producing mathematical text was expensive. Journals are one of them. Authorship is another. Conferences may be another.</p>
+
+
+
+<p class="wp-block-paragraph">If machines can increasingly produce papers, proofs, slides, summaries, and polished explanations, then perhaps the scarce object is no longer mathematical text. Perhaps the scarce object is understanding. And if that is true, our conferences should be designed to make understanding visible.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 1 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/03/keeping-mathematical-conferences-human/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1825</post-id>	</item>
+		<item>
+		<title>Slow Maths</title>
+		<link>https://proofsandprompts.com/2026/11/03/slow-maths/</link>
+					<comments>https://proofsandprompts.com/2026/11/03/slow-maths/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=1746</guid>
+
+					<description><![CDATA[For a long time, I had the ideal job. As a teacher, I passed on not just mathematics, but also the taste for critical thinking, for confrontation, and the joy of discovery.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://webusers.imj-prg.fr/~isabelle.gallagher/indexenglish.php">Isabelle Gallagher</a>, head of the <a href="https://smf.emath.fr/">French Mathematical Society</a></p>
+
+
+
+<p class="wp-block-paragraph">For a long time, I had the ideal job. As a teacher, I passed on not just mathematics, but also the taste for critical thinking, for confrontation, and the joy of discovery. As a researcher, I contributed my small part to the greater endeavour, alongside the wider mathematical community. I was part of this collective adventure, which I believed would never end. Slowly, insidiously, however, some flaws began to appear. We elevated colleagues to the status of heroes and heroines for their technical prowess and for the number of their publications in so called prestigious journals. We awarded an ever-increasing number of prizes, with ever-larger sums, to a small number of individuals, organisations or institutions, often focusing more on their productivity and reputation than on the substance of their work, or its inherently collective nature. We watched, amused or even flattered, as a Foundation placed a prize in dollars on a small list of mathematical problems to be solved within the millennium. And we used international competition and the lack of institutional funds as excuses to embark on a frantic race for publication, without taking the time to reflect on the fundamental purpose of our work. Over the past few months, doping has become a major issue in our profession. You can obtain it by yourself, or sometimes the institution provides unlimited access to it. At first, it was simply a matter of asking ChatGPT to check a bibliography, rephrase a paragraph, proofread a calculation or improve it. Then it became possible to ask directly to perform the calculation, or even to work out the correct calculation to perform. Now we can act as ‘super-prompters’, putting hundreds or thousands of agents to work to explore as many avenues as possible, having them correct each other’s work, letting them come up with ideas, and thus ‘crack’ one after the other doctoral subjects, problems that colleagues are working on, or those that the Clay Foundation has considered to be the most important. The ecological cost of this new way of practicing<br>mathematics is not addressed. What price is the mathematical community prepared to make humanity pay to answer its questions? Soon, the AI industries will have grown tired of testing and refining their models on our questions, using our very work we make available to them. In the meantime, we will have turned our profession into an ultra-doped race. In the face of this transformation, it is both urgent and essential that we return to the original purpose of our work and rethink the way we assess it. I dream of a new way of practicing mathematics, one that does not require us to resort to ‘doping’ just to stay in the race. It would be ‘slow maths’, just as there is ‘slow food’ or ‘slow tourism’. A form of maths where we have a firm control of its structure and objectives. Maths that allows us to stray down side paths which sometimes turn out to be more beautiful and more interesting than the one we originally set out to explore. Maths where we take the time to reflect, to write, to explain, and to share. This practice of ‘slow-math’ is essential because it is not the final result that matters and enables us to go further, but rather the process itself, the detours, and the collective endeavour. I am convinced that it is ‘slow-math’ that will help society progress collectively and soundly, and enable young people to continue wanting to learn, to question and to understand. This practice is now only possible if we collectively decide to put an end to the race to publish, and if we agree to value the idea that can lead to a result just as much as the techniques that finalize the proof, and just as much as proofreading, rewriting, and the sharing of ideas and methods. Only then will we be able to leave the race behind, take the time to understand things in depth, and once again practice the ideal profession.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 29 September 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/03/slow-maths/feed/</wfw:commentRss>
+			<slash:comments>6</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1746</post-id>	</item>
+		<item>
+		<title>Our Survey of Early Career Mathematicians</title>
+		<link>https://proofsandprompts.com/2026/11/03/our-survey-of-early-career-mathematicians/</link>
+					<comments>https://proofsandprompts.com/2026/11/03/our-survey-of-early-career-mathematicians/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+				<category><![CDATA[Initiatives]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[PhD students]]></category>
+		<category><![CDATA[Survey]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3296</guid>
+
+					<description><![CDATA[“In late September and early October, we (three graduate students from MIT) conducted a survey of early career mathematicians. Our goal was to give grad students and postdocs a centralized, targeted platform to share their views on AI. The personal stakes are highest for grad students and postdocs, who face job insecurity and funding instability. […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://sites.google.com/view/dora-woodruffs-website?usp=sharing">Dora Woodruff</a>, <a href="https://math.mit.edu/~hannamul/">Hanna Mularczyk</a> and <a href="https://abrandenberger.github.io/">Anna Brandenberger</a>, graduate students at <a href="https://www.mit.edu">MIT</a></p>
+
+
+
+<p class="wp-block-paragraph">In late September and early October, we (three graduate students from MIT) conducted a survey of early career mathematicians. Our goal was to give grad students and postdocs a centralized, targeted platform to share their views on AI. The personal stakes are highest for grad students and postdocs, who face job insecurity and funding instability. We worry that our concerns will be deprioritized, or even misrepresented, without collective resources like this survey.</p>
+
+
+
+<p class="wp-block-paragraph">On October 29th, we posted the results of this survey to the <a href="https://arxiv.org/abs/2610.40584">arXiv (history and overview)</a>. In the end, over 260 mathematicians, representing around 60 institutions and 5 countries, filled the survey out. Many of them left long, thoughtful free responses in addition to answering the multiple choice questions.</p>
+
+
+
+<p class="wp-block-paragraph">This post is an invitation to take a look at the survey results. Some questions surprised and/or dismayed us: in particular, Question 3.2, Question 3.3, and Question 5.2. It’s also important to point out that nearly all of the responses were collected before October 6th: we nervously wonder how different this data would look today. As journals, hiring committees, and faculty members make decisions about the community’s future, we urge you to take these survey results into account — and keep proactively talking with the junior researchers in your orbits.</p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://arxiv.org/abs/2610.40584">[ArXiv Link]</a></p>
+
+
+
+<p class="wp-block-paragraph">AI was not used to write/edit the post or the arXiv article.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 2 November 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/03/our-survey-of-early-career-mathematicians/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3296</post-id>	</item>
+		<item>
 		<title>Please STOP writing papers! (there is another way)</title>
 		<link>https://proofsandprompts.com/2026/11/02/please-stop-writing-papers-there-is-another-way/</link>
 					<comments>https://proofsandprompts.com/2026/11/02/please-stop-writing-papers-there-is-another-way/#comments</comments>
@@ -190,7 +496,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/02/please-stop-writing-papers-there-is-another-way/feed/</wfw:commentRss>
-			<slash:comments>16</slash:comments>
+			<slash:comments>20</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3130</post-id>	</item>
@@ -430,7 +736,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/01/collaborative-work-groups-on-exposition-problems/feed/</wfw:commentRss>
-			<slash:comments>7</slash:comments>
+			<slash:comments>10</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3011</post-id>	</item>
@@ -599,7 +905,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/01/a-new-system-of-accreditation/feed/</wfw:commentRss>
-			<slash:comments>6</slash:comments>
+			<slash:comments>10</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3154</post-id>	</item>
@@ -659,7 +965,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/31/ai-reviews-are-the-new-normal/feed/</wfw:commentRss>
-			<slash:comments>15</slash:comments>
+			<slash:comments>17</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3185</post-id>	</item>
@@ -1545,349 +1851,9 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/10/31/lean-me-softly-a-satire-about-a-dystopian-future-for-mathematics/feed/</wfw:commentRss>
-			<slash:comments>8</slash:comments>
+			<slash:comments>9</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2507</post-id>	</item>
-		<item>
-		<title>Recommendations from the Harvard CMSA summit on Math and AI</title>
-		<link>https://proofsandprompts.com/2026/10/30/recommendations-from-the-harvard-cmsa-summit-on-math-and-ai/</link>
-					<comments>https://proofsandprompts.com/2026/10/30/recommendations-from-the-harvard-cmsa-summit-on-math-and-ai/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Fri, 30 Oct 2026 19:08:52 +0000</pubDate>
-				<category><![CDATA[Initiatives]]></category>
-		<category><![CDATA[Take part]]></category>
-		<category><![CDATA[Community]]></category>
-		<category><![CDATA[Evaluation]]></category>
-		<category><![CDATA[Profession]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3203</guid>
-
-					<description><![CDATA[“Last week we organized an intensive two-day summit Math Research in the Age of AI. It was held at the Harvard Center for Mathematical Sciences and Applications (CMSA). Thirty-two mathematicians from academia, government, and industry came together to help navigate this period of rapid change in mathematics and, most importantly, to offer ideas for building the future. […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph">The organizers of the <a href="https://cmsa.fas.harvard.edu/aimathresearch_summit/">Harvard CMSA summit</a><sup data-fn="5c1e7a4b-2d93-4f6e-9a18-b07d3e5f8c21" class="fn"><a href="#5c1e7a4b-2d93-4f6e-9a18-b07d3e5f8c21" id="5c1e7a4b-2d93-4f6e-9a18-b07d3e5f8c21-link">1</a></sup></p>
-
-
-
-<p class="wp-block-paragraph">Last week we organized an intensive two-day summit <em>Math Research in the Age of AI</em>. It was held at the Harvard Center for Mathematical Sciences and Applications (<a href="https://cmsa.fas.harvard.edu">CMSA</a>). Thirty-two mathematicians from academia, government, and industry came together to help navigate this period of rapid change in mathematics and, most importantly, to offer ideas for building the future. There were five working groups organized around the following themes:</p>
-
-
-
-<ul class="wp-block-list">
-<li>Evaluation, production, and dissemination of research</li>
-
-
-
-<li>Coordinated actions for the AI era</li>
-
-
-
-<li>Open-source tools</li>
-
-
-
-<li>Formalization in mathematics</li>
-
-
-
-<li>Collaboration between academia and AI labs</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">Our <a href="https://cmsa.fas.harvard.edu/media/2026/10/Summit-on-Math-Research-in-the-Age-of-AI.pdf">report</a> can be found on the <a href="https://cmsa.fas.harvard.edu/aimathresearch_summit/">summit website</a>. There you&#8217;ll also find a <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6_RDRhjfDmBs1rjzzH5mFNjkGslkzXenaY7pjbQBU6NrPiw/viewform">link</a> to provide feedback.</p>
-
-
-
-<p class="wp-block-paragraph">Portions of the recommendations, particularly those in the section on evaluation, production, and dissemination of research, offer immediately actionable suggestions for review and hiring in mathematics departments. We encourage departments to act on those they can implement at this time and to begin longer-term conversations to rethink evaluation practices. We recognize that many of these changes may temporarily place greater burdens on faculty. These efforts are necessary to facilitate transitions to new norms for the field and are especially important in light of the need to support our students and young colleagues. Our recommendations go beyond academia; they impact government and industry as well.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 30 October 2026.</p>
-
-
-<ol class="wp-block-footnotes"><li id="5c1e7a4b-2d93-4f6e-9a18-b07d3e5f8c21">Dan Freed (Harvard), Larry Guth (MIT), Bryna Kra (Northwestern), Emily Riehl (Johns Hopkins) and Mohammed Abouzaid (Stanford) <a href="#5c1e7a4b-2d93-4f6e-9a18-b07d3e5f8c21-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/30/recommendations-from-the-harvard-cmsa-summit-on-math-and-ai/feed/</wfw:commentRss>
-			<slash:comments>8</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3203</post-id>	</item>
-		<item>
-		<title>Math is for Feeding your Family</title>
-		<link>https://proofsandprompts.com/2026/10/30/math-is-for-feeding-your-family/</link>
-					<comments>https://proofsandprompts.com/2026/10/30/math-is-for-feeding-your-family/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Fri, 30 Oct 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Evaluation]]></category>
-		<category><![CDATA[Labour]]></category>
-		<category><![CDATA[Profession]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2529</guid>
-
-					<description><![CDATA[“Math has only one application that I care about: To feed my family. Any other application has largely been to the detriment of us all. Look no further than Hiroshima and Nagasaki to see why matrices were not meant to be multiplied.”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph">Anonymous, Early Career Researcher</p>
-
-
-
-<p class="wp-block-paragraph">Math has only one application that I care about: To feed my family. Any other application has largely been to the detriment of us all. Look no further than Hiroshima and Nagasaki to see why matrices were not meant to be multiplied.</p>
-
-
-
-<p class="wp-block-paragraph">Now the one application I care about is being threatened. I am tenure track at a good institution where I teach amazing students and have fantastic coworkers who all fill me with joy. I love my job, and I want to keep it. To keep it, I need to get tenure, but what does research work for tenure mean now? I have asked several people this question. Many don’t understand why this question is being asked, which is a major concern to me. I will explain why I ask. But even those I know who agree that this question must be answered tell me it is not up to them. Instead, it is up to famous people, those blessed by the Gods old and new who can speak math into being and tap dance and smoke a cigar in one long drag.</p>
-
-
-
-<p class="wp-block-paragraph">However, when looking for famous people’s opinions, I find in its place much discussion about philosophical issues. Uniformly I hear the sentiment that mathematics is about understanding. I don’t understand why people are saying this en masse. It is true of course but unhelpful for the problem at hand. The appropriate reaction to the situation is not to dig down deep and think: Why do we <em>really</em> do mathematics research? It’s so we can feed our families. It’s not an interesting question.</p>
-
-
-
-<p class="wp-block-paragraph">This is the obvious flaw of the <a href="https://proofsandprompts.com/2026/09/12/the-association-for-human-mathematics/">AHM</a>. They forget that if you have to decide between using AI or letting your family starve, the choice is obvious.</p>
-
-
-
-<p class="wp-block-paragraph">I believe many mathematicians do not understand that this is not an abstract discussion of AI’s capabilities anymore. Let me be concrete. In the last month I have solved so many distinct open problems with GPT Pro personally that I do not know what to do with the material. Under our traditional metrics, I should be publishing as much mathematics at as high of a quality as I can produce as fast as possible. But if I were to do that, I would release 10 papers this semester, which is clearly wrong. What should I be doing instead?</p>
-
-
-
-<p class="wp-block-paragraph">AI is better at proving stuff than us now. There’s no question anymore. We like to joke about it, but it’s not actually bad at explaining stuff either. If you ask GPT even without the pro version to explain a proof step by step, it does a phenomenal job. I know because I’ve done this with many results personally for more than a year now. Focusing on us giving the best explanations is not a solution either. I’ve seen that proposed. I don’t think that will work.</p>
-
-
-
-<p class="wp-block-paragraph">That’s the reality, which is why I ask how research is to be evaluated. AI can produce high quality research infinitely, better than us, at rapid rates, and it is only getting better. We urgently need to make a radical policy decision to account for this. To be clear what I am looking for, here is a candidate policy solution:</p>
-
-
-
-<p class="wp-block-paragraph">The only thing I can imagine valuing mathematicians for is as human beings who work to understand what the AI is producing. The sole question is how to verify that. Writing won’t work as AI can do that better than us and infinitely. Any sort of manufacturing of a product will not work for that same reason. As a result, we should end the journal system completely. The only way is for us to communicate about it with each other live human to human. The structure of the community would then surround research workshops organized around understanding particular topics. Our corporate overlords could fund some of them to get us to parse their breakthroughs. Then participants earn credit by presenting various lemmas and so on. These workshops focus moreso on compute allocation and yield a final product that is a mix of human and AI generation, which is published to the math community at large with no external refereeing as fodder for the models. The actual most relevant skills for the job are interpersonal. Teaching, mentoring, working with colleagues in meetings, and service work are the core of the job and all that really matters now. We should just hire based on the skills relevant for the job like other professions. We can ask for materials that are evidence of that in applications such as letters of recommendation, workshop participation, teaching, organizing events, and outreach activities.</p>
-
-
-
-<p class="wp-block-paragraph">Maybe you dislike this proposal. My point is not that I have the perfect solution. It is that we need to stop wasting time and answer: How are we going to evaluate research output now that our previous model is defunct? I have heard many of us in denial. There is no way for journals to survive, because AI can easily produce submissions of high quality from anyone independent of their skillset. At the very least, I don’t want to write 10 papers this semester or worse yet referee proportionately many papers. We need an alternative. This is not a hypothetical. I need to know the answer, so I know how to get tenure. PhD students and postdocs need to know because they are going on the job market. Faculty need to know because we are hiring people right now. The publication process is broken. We can’t use it anymore in its current form. I gave you an alternative. You don’t like it? I can totally understand that. Propose a better idea, or better yet, implement it at scale. I don’t actually care what the solution is as long as it works. Just tell me what I need to do to feed my family.</p>
-
-
-
-<p class="wp-block-paragraph">Let me end on a positive note. We need to remember that as a community we decide collectively what constitutes mathematical scholarship. OpenAI and the National Science Foundation do not control it. It’s not up to my mom either. I asked her, and she said no. There is no threat to mathematics at all. That’s why this is not the mathocalypse. Math will be fine. This is the math-research-normsocalypse, which is less catchy but easier to address. The only things that need to change here are our evaluation practices. Honestly, I hate the current norms anyway. Publishing makes me want to perish. So let’s pretend we’re back in our first graduate course in real analysis and see what happens when we change the mathematical norms.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 12 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/30/math-is-for-feeding-your-family/feed/</wfw:commentRss>
-			<slash:comments>34</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2529</post-id>	</item>
-		<item>
-		<title>The value of mathematicians in the AI age</title>
-		<link>https://proofsandprompts.com/2026/10/30/the-value-of-mathematicians-in-the-ai-age/</link>
-					<comments>https://proofsandprompts.com/2026/10/30/the-value-of-mathematicians-in-the-ai-age/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Fri, 30 Oct 2026 12:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Profession]]></category>
-		<category><![CDATA[The future of papers]]></category>
-		<category><![CDATA[Understanding]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2527</guid>
-
-					<description><![CDATA[Given the societal changes around the corner, discussing the value of professional mathematicians in the upcoming era is perhaps a scope too narrow: all in all, if AI kills us all or the singularity happens, who cares about these people? […]]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://sites.google.com/view/nicola-gigli">Nicola Gigli</a>, Professor at <a href="https://www.sissa.it/">SISSA</a></p>
-
-
-
-<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · AI is making papers cheap to produce but they remain costly to referee. Proofs and Prompts is publishing a series of posts from 26 October on the future of publishing, papers and credit. Questions such as how to disclose AI use, who bears the cost of checking, what authorship means and what papers of the future might look like will be addressed. This post is part of the series. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/publishing/">All posts in the series</a></p>
-
-<h2 class="wp-block-heading">What this is about</h2>
-
-
-
-<p class="wp-block-paragraph">Given the societal changes around the corner, discussing the value of professional mathematicians in the upcoming era is perhaps a scope too narrow: all in all, if AI kills us all or the singularity happens, who cares about these people? Even if things do not go that far, it is a plausible scenario that in a few years the combination of AI and robotics will be able to replace humans in most jobs, a fact that would radically transform society and, in relation to the scope of this essay, might lead someone to question the value of humans in general (I know: the value of what humans <em>do</em> is not the same as the value of what humans <em>are</em>. But still).</p>
-
-
-
-<p class="wp-block-paragraph">And yet, understanding whether there is value, as I think is the case, in one specific job that seems to be taken over by AI might help shed light on the bigger picture and this is a subject I have competence in. Also, and specifically for my profession, I believe that my role as an intellectual is to first recognise and accept a change that is occurring and then question which kind of future I want, so that in the current turmoil I can steer the wheel in the appropriate direction whenever I’m able to.</p>
-
-
-
-<p class="wp-block-paragraph">I am aware that the topics discussed here touch something quite deep, often somehow linked to our identities (despite what I wrote a few lines above, when asked what I do for a living I do not answer ‘I <em>do</em> math’ but rather ‘I <em>am</em> a mathematician’): this is another good reason to have an honest look at what is happening and reexamine the foundations of our value, if any, both toward society and within our community.</p>
-
-
-
-<p class="wp-block-paragraph">A lot has been written on the matter recently, and a lot I have read. While obviously I agree more with someone and less with someone else, I shall try not to criticise any specific position, but rather just express my own: many of us have strong opinions on the matter, and I believe these opinions should be openly discussed, so that each viewpoint, expectation, value and fear is brought to the surface.</p>
-
-
-
-<p class="wp-block-paragraph">Regardless of the specific view each of us might have, I think we can all agree that we are entering uncharted territory and that nobody has a clear view of how the future will be. This might certainly be scary, but I encourage all of us to embrace this new adventure with excitement and explore the new world, and contribute to its building, with the spirit of pioneers.</p>
-
-
-
-<h2 class="wp-block-heading">The value of mathematicians for society</h2>
-
-
-
-<p class="wp-block-paragraph">In the last decades, the unwritten reason why the work of mathematicians has been funded has been teaching and research. Now that research is soon to be done by machines, such a societal contract should be reexamined and rediscussed.</p>
-
-
-
-<p class="wp-block-paragraph">My core message is that the key added value brought by mathematicians is, and in fact has always been, in the human understanding of math<sup data-fn="5cda12df-090a-49eb-b75e-cb44ac6b9afc" class="fn"><a href="#5cda12df-090a-49eb-b75e-cb44ac6b9afc" id="5cda12df-090a-49eb-b75e-cb44ac6b9afc-link">1</a></sup>: the role of math as the basic language of science does not change if tomorrow new math is produced by machines, and in fact once freed from the need to do research, mathematicians will have much more time to study math than they have today.</p>
-
-
-
-<p class="wp-block-paragraph">If we, humanity, give up the idea of deep human understanding of math, then I’m afraid we will soon give up the idea of understanding any science at all, and thus soon any control over the world, including, in particular, AI. I strongly advise against this scenario, and thus insist that we should have a community of people able to understand math.</p>
-
-
-
-<p class="wp-block-paragraph">A few points in this direction:</p>
-
-
-
-<ul class="wp-block-list">
-<li>Despite being an atheist, I believe that the universe obeys some laws, and that the role of physics is to understand these laws. In doing so it has done a great job so far, but the task is not complete yet, and a theory of everything is still missing. Now, suppose that tomorrow an alien (for instance: an AI) tells us that indeed such a theory exists and gives us a book in which the theory is explained, but such a book is written in a language we cannot understand. In this case, will tomorrow’s situation really be different from today’s one for me? I mean, I already firmly believe that such a theory exists, so what am I gaining? Just the confirmation that my act of faith was correct? This surely is better than nothing, but not very much so. What I would really like is for me, or perhaps for us humans, to be able to understand what is written in that book, and to this aim the understanding of deep mathematical concepts will very likely be crucial.</li>
-
-
-
-<li>Somehow more concretely, suppose that tomorrow AI finds a cure for cancer. Then one might argue that even if humanity does not understand the mechanism behind it, surely we might be happy that a cure exists and just treat people with it. This is certainly true, but nevertheless I note that either we give up the idea of understanding what is going on with this cure, or we do not. It might be that I am just a curious person, but I am against giving up on understanding it, thus advocate the latter option, which requires us to understand medicine, biology, chemistry, physics (recall also the need of elaborate medical machinery) and thus surely also math.</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">To this I would add that while the pursuit of knowledge is, I think, noble per sé and thus needs no justification, at the practical level the societal impact of research at the frontiers of pure math has been mostly that of keeping alive and vibrant, through an intense intellectual challenge, a community of mathematicians, whose role has been to contribute to the culture broth of basic research from which innovation has typically sparked. To this extent, the actual math research achievements, say in the last decades, have not been that relevant: they mostly had a role just within pure math and certain branches of theoretical physics. Perhaps a good, and slightly brutal, illustration of this comes from the recent solution of the millennium problem, i.e. one of the most important problems in math, concerning the equations of fluid dynamics: now we know that the solutions of the forced Navier-Stokes equations can blow up in finite time, yet the plumbing industry won’t change a tiny bit.</p>
-
-
-
-<p class="wp-block-paragraph">In this sense the upcoming automation of research will not really change much from the perspective of usefulness of mathematicians for society. It does change a lot, however, for mathematicians themselves and if we want to have mathematicians in the future, these changes have to be thoroughly discussed.</p>
-
-
-
-<h2 class="wp-block-heading">The value of mathematicians for mathematicians</h2>
-
-
-
-<p class="wp-block-paragraph">Grant me for a moment that in the near future most, if not all, of the research in math will be done by AI<sup data-fn="fc3a07d6-f7c7-4955-88e3-5b1b12439d48" class="fn"><a href="#fc3a07d6-f7c7-4955-88e3-5b1b12439d48" id="fc3a07d6-f7c7-4955-88e3-5b1b12439d48-link">2</a></sup> and let me elaborate on what kind of future we might expect and what we should aim for in it. Even if you are not convinced by this claim, still notice that what I’m writing in this section is valid even if things remain as they are today, i.e. with about half of math papers produced via intensive use of AI<sup data-fn="d7da768b-b12c-4db8-b825-076600d3a440" class="fn"><a href="#d7da768b-b12c-4db8-b825-076600d3a440" id="d7da768b-b12c-4db8-b825-076600d3a440-link">3</a></sup>.</p>
-
-
-
-<p class="wp-block-paragraph">If the claim holds, then a tsunami is coming for math and due to the forces in place it is not reasonable to expect that academia will go on roughly as it is and AI will be tamed to the current state of affairs<sup data-fn="fc12edbd-13ce-45d2-943d-8671eb9e08f8" class="fn"><a href="#fc12edbd-13ce-45d2-943d-8671eb9e08f8" id="fc12edbd-13ce-45d2-943d-8671eb9e08f8-link">4</a></sup>. Rather, we should deeply reform research institutions to work in a world where AI will play a central role.</p>
-
-
-
-<p class="wp-block-paragraph">The core issue, as I see it, is that automated research will disrupt the current value system in academia: for ages, mathematicians have been assessed mostly by the research they produced (we can discuss whether this was a smart choice or not, but that was it). If research is going to be automated, then surely this won’t be the case anymore. Notice that this is true even if all mathematicians continue to do research in parallel with AI: once a process is automated, the outcome becomes cheaper and thus loses value. This has already happened thousands of times throughout history when a technological change occurred. This time is about research in math: what once required months of hard work, discussions, conferences, collaborations etc, now is, or soon will be, just one prompt away. I am not saying this lightly and as already mentioned I am aware of the psychological impact of the redefinition of our value system: up to now our entire professional validation, and thus for many also part of the personal validation, passed through the math we produced. This won’t be the case anymore.</p>
-
-
-
-<p class="wp-block-paragraph">It is thus imperative, if we want to still have a community of mathematicians, that we rediscuss and redefine the internal values upon which such a community is built. My perspective on this matter is that we should value knowing, understanding and communicating math, which are the keys needed to pursue the goal of human understanding of math I mentioned before. These have always been important in the field, but for some reason their relevance has been overshadowed by the imperative of doing as much research as possible, well described by the famous ‘publish or perish’ dictum: how often did we not study a topic just because we knew it would have been hard to publish on it? Now that we are relieved from the pressure of publishing, this — understandable given the old value system, but nevertheless rather crazy — line of thought has no reason to exist anymore. Admittedly, I take this part of the story with a bit of relief: for a person interested in studying math, this is actually the best time in history. Future practitioners will very likely know much more math than current ones and will likewise have more chances to know about neighbouring disciplines, with beneficial effects on human understanding of science in general.</p>
-
-
-
-<p class="wp-block-paragraph">Switching to a new value system will not be easy. Below I will briefly discuss two key challenges: the authorship issue and the next-generation side of the story.</p>
-
-
-
-<p class="wp-block-paragraph"><em>Authorship.</em> Among the changes caused by the automation of research, perhaps the one that will be the hardest to digest will be that future mathematicians will not author anything: they simply won’t have work to put their signature on. As of yesterday, if I had an idea I could write up a paper on it, and it didn’t matter how brilliant or insignificant the resulting work was: still on the first page, right below the title, there was my name. Signing papers was surely a key part of the gratification I got from my work: on one hand from it I could get some appreciation from colleagues and on the other it gave me the possibility of adding my tiny contribution to the Eternal Book of Math. In a world where AI is intensively used to produce papers, being an author loses its significance. What does it mean if I sign a paper that is mostly AI-generated? And what does it mean to sign a paper and to say that AI had little to no role in its preparation? Even assuming I am being honest in this declaration, why does this information matter in a world where, likely, the same result could have been obtained with a few prompts to a latest-generation AI model<sup data-fn="e4c50198-0a83-43e7-83c1-66d68c0bb4f7" class="fn"><a href="#e4c50198-0a83-43e7-83c1-66d68c0bb4f7" id="e4c50198-0a83-43e7-83c1-66d68c0bb4f7-link">5</a></sup>? Am I asking for some credit from the community? What for, precisely?</p>
-
-
-
-<p class="wp-block-paragraph">Perhaps one aspect where human authorship will still play a role will be in communicating math and creating stories around it. In a world overpopulated by theorems, likely more than those humanity can possibly navigate, we will need a certain critique of mathematics to guide us through this ocean of statements. Why is a subject relevant? On what grounds is it based? What are the core ideas? What the connections with other fields, both within and outside math? What should I be acquainted with if I want to understand a certain topic? Or even, very simply: why is this beautiful? These are all questions that a human Cicerone can offer answers to (I mean: to other humans) and creating these maps while having access to, de facto, Erdös’ book might actually turn out to be fascinating<sup data-fn="bed40da4-1ea7-4554-bc83-7f639df70538" class="fn"><a href="#bed40da4-1ea7-4554-bc83-7f639df70538" id="bed40da4-1ea7-4554-bc83-7f639df70538-link">6</a></sup>.</p>
-
-
-
-<p class="wp-block-paragraph">I am not saying that the loss of significance of authorship in research will happen quickly, but I do not see how it can survive for long in a context where most of the research is either machine-assisted or entirely machine-made. With this happening, the very same reasons for doing math will change and with them the kind of people attracted to the profession. For instance, I admit that if I were in my 20s I am not sure I would choose the same job today and, likewise, it might be that those who also enjoy the performative aspects of the work will simply lose interest and pick different career paths. On the other hand, people more inclined toward the genuine enjoyment of the intellectual activity might benefit from being relieved of the pressure to do research (and all that comes with it, such as sleepless nights, grant applications, paper submissions etc.) and actually decide to pick this career.</p>
-
-
-
-<p class="wp-block-paragraph">Again, I think it is up to us, the current generation of mathematicians, to ask what value, if any, there is in being a mathematician: the next generation of mathematicians will exist if and only if we find this value, both toward society and in our community, and communicate it properly. As written above, I believe there is such value and will fiercely fight for it. Should we fail to agree and communicate our values, well, then so be it: we will be the last human mathematicians and our research institutions will be converted into beautiful museums<sup data-fn="a793cfb7-381e-4cab-bbc9-14ae58f98b1e" class="fn"><a href="#a793cfb7-381e-4cab-bbc9-14ae58f98b1e" id="a793cfb7-381e-4cab-bbc9-14ae58f98b1e-link">7</a></sup>.</p>
-
-
-
-<p class="wp-block-paragraph">Another consequence of the automation of research is that the entire ecosystem built around research production will fall. For instance, properly crediting previous contributions will not really matter anymore if such contributions are machine-made. Also, scientific journals will not have any role tomorrow, as their main raison d’etre today is to grant status to the published papers, and thus to their authors.</p>
-
-
-
-<p class="wp-block-paragraph">In fact, even the necessity of having papers as we always had is in question now: will we really need an introduction and a collection of preliminary results for each new theorem? I am not so sure, and suggest that we should find new ways to organise and access the research. The human-made critique I mentioned above might be, among others, one of the options.</p>
-
-
-
-<p class="wp-block-paragraph"><em>Next generation.</em> In a world where knowing, understanding and communicating math are agreed and shared values, we will need ways to train the next generation of mathematicians and to evaluate them. Here are my two cents.</p>
-
-
-
-<p class="wp-block-paragraph">As for training, we should ‘simply’ shift the focus of PhD studies from the production of new results to understanding math (which has always been a good thing) and communicating math (which also has always been a good thing, even though too often not sufficiently appreciated). In particular, I would not push schools/students into getting the latest, most expensive, model of AI to assist them in research, as doing research won’t really be a thing in the typical PhD. Again, the release from the pressure to produce something new will give students, and teachers, the time to dig down into deep theories: it won’t be unreasonable to, say, have a PhD student study the blow-up in finite time of the forced Navier-Stokes, or any other cornerstone of modern mathematics.</p>
-
-
-
-<p class="wp-block-paragraph">When it comes to hiring, it won’t be difficult to assess candidates’ knowledge and understanding of math and their communication skills: they might for instance be given a few hours to write an essay on a given topic, and/or asked to prepare a lecture on a subject chosen by the committee. Interviews might also play a role. Let me stress that hiring in most of the already existing high-level jobs is based on a mixture of previous experience, recommendation letters and interviews. The possibility of supplementing all of this with a clear set of well-defined work outputs of the candidate, i.e. the publication list seasoned with a few bibliometric indicators, was an exception specific to academia, but the new ecosystem might certainly work well even without it (as in fact it should: if the job changes, so should the selection process).</p>
-
-
-
-<p class="wp-block-paragraph">I know of some concerns about the training of future PhD students. One is that if they do not work hard by doing research they will turn out to be weak mathematicians, another is that knowing the path to ‘the solution’ of the given problems will disrupt the possibility of exploring potentially interesting nearby areas. Maybe I am overly optimistic, but I do not have such concerns. Surely things worked well in the past, but, again, if the work of mathematicians changes, so should their training. On top of this:</p>
-
-
-
-<ol class="wp-block-list">
-<li>I believe that future generations will be as smart as the current one, thus if they perceive some lack of abilities in areas they believe important, then they will work to build up such abilities. Will this be too late for them to make use of our guidance? Maybe, but that just means that they will have to work a bit harder (which is what we want, right? Also, in any case I do not think I ever taught my students <em>how</em> to do research, but rather <em>what</em> they could research) to reach their goals, not that such goals cannot be reached at all.</li>
-
-
-
-<li>A relevant part of the math that I learned, in particular all the mathematics I studied as an undergraduate, I learned from books, not via research: it was ‘given’ to me, not explored by me. And thankfully so: this gave me a solid base of knowledge. In particular, I do not share the fear that knowing ‘the correct path’ from the get-go makes it harder to explore alternative routes. Quite the contrary: having a robust picture of a subject clearly in mind has always given, at least to me, a sense of safety in exploring the surroundings.</li>
-</ol>
-
-
-
-<h2 class="wp-block-heading">Math research in the AI age</h2>
-
-
-
-<p class="wp-block-paragraph">Here I argue why I do not think that in the near future humans will have any role at all in doing research in math, regardless of the actions that either individuals or the whole community will take<sup data-fn="c2d70a0b-e3d8-48fb-9d45-794a0f2e55fc" class="fn"><a href="#c2d70a0b-e3d8-48fb-9d45-794a0f2e55fc" id="c2d70a0b-e3d8-48fb-9d45-794a0f2e55fc-link">8</a></sup>.</p>
-
-
-
-<p class="wp-block-paragraph">Supporting arguments are:</p>
-
-
-
-<ul class="wp-block-list">
-<li>Current AI systems are the dumbest (whatever this means) they will ever be. I don’t know what intelligence is, but available commercial tools are already as good at producing research as most mathematicians, to say the least, and while we cannot improve our capabilities much, they surely can. In this regard notice that in the grand scheme of things Einstein (or your preferred superhero) was not much smarter than the average person. With this I certainly do not intend to minimise the incredible contributions he made to science, but just to underline that he was a human being. As such he ‘ran the same machine’ as everybody else, with a brain of a given size working on principles that are the same as those of everybody else. With experience and tools, we can certainly improve, but we are all still limited by our biology. This is not the same for AI: data centres can still grow significantly and more efficient algorithms can still be found, with both events being very likely. I am not saying that AI capabilities have no theoretical upper bound, nor that they will continue improving at the same pace we have witnessed in the last few years, but given that they are already better at doing research than many of us, they do not need to improve much to become better than all of us.</li>
-
-
-
-<li>AI can be as creative in math (whatever this means) as humans. Again, I do not know what creativity really is, but judging by my own experience I don’t see anything I have ever read and understood in my research area that could not have been, at least in principle, done by AI. I sincerely hope no colleague gets offended by this claim: if it is of any consolation, please notice that the mathematics I am referring to includes the work I have done myself (and, speaking of creativity, I would say my most important contributions are definitions, not theorems).<br><br>Surely there is a whole lot of math that I do not really understand and that feels like magic, and thus extremely creative, to me, meaning I cannot see a path of ‘little intuitions’ that led to the final results nor how these results might have been conceived in the first place (e.g. some of Gromov’s work). But still I would not declare AI incapable of producing such math: I would have no arguments to support the claim other than I am too dumb to argue otherwise, which sounds a bit like throwing the ball where I can’t see it to conclude that nobody can play with it.<br><br>Even if I’m wrong on this matter, e.g. say there will be room for human creation of theories, still given the current strength of existing models only a handful of mathematicians will actually be able to provide this sort of contribution. In particular, all the previous discourses around the value of mathematicians and the need to redesign our structures will still be in place.</li>
-
-
-
-<li>AI won’t be shut down. Of course in principle it could, but it won’t happen: the tool is just too useful to society (proof: most people use it) for society to abandon it, regardless of the risks it bears. Analogously, the internet hasn’t been shut down to prevent, e.g., the spread of fake news and factories have not all been closed to prevent pollution. Of course, given the power of these tools and the concentration of such power, I do nevertheless firmly believe that they should be heavily regulated, akin to how nuclear power facilities are.</li>
-
-
-
-<li>AI systems cannot be ignored by the math community. If you are a mathematician active today, then it is likely that in your field you have already witnessed serious advances made also thanks to AI. If we keep on with business as usual, which values research, then this research will mostly be done by somebody using AI, even if all professional mathematicians decide not to use it: it is just too easy, even for non-professionals, to produce research.<br><br>Not using AI is also complicated by the fact that it relies on an unprovable claim: suppose that next month I’ll post a paper on arXiv with the complete solution of a major and well-known problem and that I declare that I have not used AI in working on this. Should I be trusted? Would <em>you</em> trust me? It is a delicate issue, because on this trust depends my recognition in the community, which, if sufficiently high, brings money, prizes etc. I cannot prove I didn’t use AI, but if the value system in our community remains the one currently in use, where producing new research is the main career driver, then incentives to cheat are just too strong: somebody will simply use AI and declare otherwise. Of course I would never do that, I’m a good guy, and I am sure neither would you, my dear and trustworthy reader. Still, I advise against a system entirely based on mutual trust. For instance: how would you feel if in 2030 a Fields medal is awarded to a person who solved the Riemann hypothesis and declared heavy use of AI? And what if the same person declared no use of AI at all?</li>
-</ul>
-
-
-<ol class="wp-block-footnotes"><li id="5cda12df-090a-49eb-b75e-cb44ac6b9afc">This is, of course, very much in line with Thurston’s famous essay “On proof and progress in mathematics”, which is still very current (even in its title!) <a href="#5cda12df-090a-49eb-b75e-cb44ac6b9afc-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fc3a07d6-f7c7-4955-88e3-5b1b12439d48">I am aware that this is a controversial take: I will argue for this claim in the next section. Notice that I am not looking forward to such a future: I was happy the way things were (which does not mean I can’t be happy in tomorrow’s world). <a href="#fc3a07d6-f7c7-4955-88e3-5b1b12439d48-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="d7da768b-b12c-4db8-b825-076600d3a440">The number of arXiv submissions in math in September ’26 is 30% higher than that in August ’26 and more than twice that of September ’25 (data from arXiv monthly submissions). My assumption is that AI has something to do with this. <a href="#d7da768b-b12c-4db8-b825-076600d3a440-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fc12edbd-13ce-45d2-943d-8671eb9e08f8">I have just one kind question for the AI-workers that will mass-produce statements: please only put online stuff that either you understand as correct or that is lean-certified. <a href="#fc12edbd-13ce-45d2-943d-8671eb9e08f8-link" aria-label="Jump to footnote reference 4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="e4c50198-0a83-43e7-83c1-66d68c0bb4f7">This might not be the situation today, but as I shall argue in the next section I believe it will soon be the case for, at least, the vast majority of papers. <a href="#e4c50198-0a83-43e7-83c1-66d68c0bb4f7-link" aria-label="Jump to footnote reference 5"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="bed40da4-1ea7-4554-bc83-7f639df70538">There are a number of stimulating ontological questions related to this discussion, avoided by the pragmatic take of this essay that puts value in the human understanding of math. Unfortunately, I am not acquainted enough with the topic to say anything meaningful or to provide a roadmap to the existing literature, but a basic question is: does non-<em>human</em> knowledge exist at all?<br><br>With an AI tool capable of answering some (many? all?) mathematical questions we throw at it we can ask: when does this math start existing? The moment we switch on the tool, the moment the question is posed, or the moment the answer is provided? And what if also the question has been asked by the AI and the answer stored in some server no human has accessed yet? Our answers to these are related to how we will perceive our role in this world: will we be merely explorers, or will we have a part in the creative process? <a href="#bed40da4-1ea7-4554-bc83-7f639df70538-link" aria-label="Jump to footnote reference 6"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="a793cfb7-381e-4cab-bbc9-14ae58f98b1e">In this case I will make sure that in mine there will be a picture of myself at the blackboard, to witness those crazy old times when math was hand-made with a 1$ chalk and not crafted by a trillion$ machine. <a href="#a793cfb7-381e-4cab-bbc9-14ae58f98b1e-link" aria-label="Jump to footnote reference 7"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="c2d70a0b-e3d8-48fb-9d45-794a0f2e55fc">This essay has been prepared before OpenAI released more than 700 papers on October 6, 2026, a fact that strengthens the arguments collected here. <a href="#c2d70a0b-e3d8-48fb-9d45-794a0f2e55fc-link" aria-label="Jump to footnote reference 8"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 12 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/10/30/the-value-of-mathematicians-in-the-ai-age/feed/</wfw:commentRss>
-			<slash:comments>14</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2527</post-id>	</item>
 	</channel>
 </rss>

@@ -23,13 +23,72 @@
 <site xmlns="com-wordpress:feed-additions:1">817149</site><cloud domain='terrytao.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
 <source:cloud xmlns:source='https://source.scripting.com/'>https://terrytao.wordpress.com/?rsscloud=notify</source:cloud>
 <image>
-		<url>https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Fwebclip.png</url>
+		<url>https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fwebclip.png</url>
 		<title>What&#039;s new</title>
 		<link>https://terrytao.wordpress.com</link>
 	</image>
 	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://terrytao.wordpress.com/osd.xml" title="What&#039;s new" />
 	<atom:link rel='hub' href='https://terrytao.wordpress.com/?pushpress=hub'/>
 	<item>
+		<title>More of my interviews and talks</title>
+		<link>https://terrytao.wordpress.com/2026/11/04/more-of-my-interviews-and-talks/</link>
+					<comments>https://terrytao.wordpress.com/2026/11/04/more-of-my-interviews-and-talks/#respond</comments>
+		
+		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
+		<pubDate>Wed, 04 Nov 2026 18:52:00 +0000</pubDate>
+				<category><![CDATA[media]]></category>
+		<category><![CDATA[AI]]></category>
+		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18644</guid>
+
+					<description><![CDATA[I am continuing in this current era to open up my blog to a broader range of voices on math and AI, with the majority of posts now being guest posts by other authors. My own views on these topics (which often overlap with, but are not identical to, those of the guest authors) are [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">I am continuing in this current era to open up my blog to a broader range of voices on math and AI, with the majority of posts now being guest posts by other authors. My own views on these topics (which often overlap with, but are not identical to, those of the guest authors) are summarized on <a href="https://teorth.github.io/tao-web/ai-views.html">this page</a>. I have also given a number of recent interviews and talks on these topics; I am listing some of these here for reference.</p>
+
+
+
+<ul class="wp-block-list">
+<li>&#8220;<a href="https://open.spotify.com/episode/4R4RTCjawK92g33ipS2gP6">How maths underpins almost every aspect of our lives</a>&#8220;, Instant Genius podcast, BBC Science Focus, October 18, 2026.</li>
+
+
+
+<li>&#8220;<a href="https://youtu.be/TjeCcDkuyao">Terence Tao &amp; Yu Deng: Why We Build Open Math Model</a>&#8220;, SAIR Foundation, October 19, 2026.</li>
+
+
+
+<li>James Tapper, &#8220;<a href="https://observer.co.uk/news/science-technology/article/terence-tao-ai-race-turns-beautiful-mathematics-into-toxic-waste">Terence Tao: AI race turns beautiful mathematics into ‘toxic waste’</a>&#8220;, The Observer, October 23, 2026. </li>
+
+
+
+<li>&#8220;<a href="https://www.nature.com/articles/d41586-026-03389-1">Can maths survive AI? Fields medallist Terence Tao calls for a ‘Maths 2.0’ world</a>&#8220;, World View op-ed, Nature, October 22, 2026.</li>
+
+
+
+<li>&#8220;<a href="https://www.sciencefriday.com/segments/terence-tao-ai-math-solutions/">Terence Tao on how AI math solutions miss the point</a>&#8220;, interview with Flora Lichtman, Science Friday, October 28, 2026.  <a href="https://www.youtube.com/watch?v=9vetGqz4zXg">[Youtube version</a>]</li>
+
+
+
+<li>&#8220;<a href="https://www.youtube.com/watch?v=EYrlyxuyFbs">Inside AI’s Brutal Race to Solve a Famous Math Problem</a>&#8220;, New Scientist, October 28, 2026. </li>
+
+
+
+<li>Rivka Galchen, &#8220;<a href="https://www.newyorker.com/magazine/2026/11/09/the-year-math-changed-forever">The Year Math Changed Forever</a>&#8220;, The New Yorker, November 1, 2026. </li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Disclosure: while many of these articles were solicited due to current events, some are also related to a long-planned launch of a <a href="https://www.quantabooks.org/books/six-math-essentials/">book I wrote</a>, to be released Nov 10.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/04/more-of-my-interviews-and-talks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">18644</post-id>
+		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
+			<media:title type="html">Terry</media:title>
+		</media:content>
+	</item>
+		<item>
 		<title>Doctoral Advising Guidelines by the AHM</title>
 		<link>https://terrytao.wordpress.com/2026/11/03/doctoral-advising-guidelines-by-the-ahm/</link>
 					<comments>https://terrytao.wordpress.com/2026/11/03/doctoral-advising-guidelines-by-the-ahm/#comments</comments>
@@ -56,7 +115,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/03/doctoral-advising-guidelines-by-the-ahm/feed/</wfw:commentRss>
-			<slash:comments>6</slash:comments>
+			<slash:comments>15</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18659</post-id>
@@ -122,7 +181,7 @@ Statement of AI Usage: While the ideas expressed here are entirely our own, we g
 </p>]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/feed/</wfw:commentRss>
-			<slash:comments>38</slash:comments>
+			<slash:comments>43</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18635</post-id>
@@ -272,7 +331,7 @@ Many of the themes mentioned here have been brought up in other posts. To give t
 </p>]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/feed/</wfw:commentRss>
-			<slash:comments>55</slash:comments>
+			<slash:comments>56</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18632</post-id>
@@ -1426,37 +1485,6 @@ This gives the following alternate proof of Proposition <a href="#ulpi">44</a>. 
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18574</post-id>
-		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
-			<media:title type="html">Terry</media:title>
-		</media:content>
-	</item>
-		<item>
-		<title>The quasi-Riemann hypothesis</title>
-		<link>https://terrytao.wordpress.com/2026/10/27/the-quasi-riemann-hypothesis/</link>
-					<comments>https://terrytao.wordpress.com/2026/10/27/the-quasi-riemann-hypothesis/#comments</comments>
-		
-		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
-		<pubDate>Tue, 27 Oct 2026 22:12:50 +0000</pubDate>
-				<category><![CDATA[math.NT]]></category>
-		<category><![CDATA[talk]]></category>
-		<category><![CDATA[Maksym Radziwill]]></category>
-		<category><![CDATA[quasi-Riemann hypothesis]]></category>
-		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18595</guid>
-
-					<description><![CDATA[Just a short note that Maksym Radziwill will be giving a hybrid talk on the quasi-Riemann hypothesis at Courant tomorrow.]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">Just a short note that Maksym Radziwill will be <a href="https://math.nyu.edu/dynamic/calendars/seminars/mathematics-in-the-age-of-ai/4570/">giving a hybrid talk on the quasi-Riemann hypothesis at Courant tomorrow</a>.</p>
-
-
-
-<p class="wp-block-paragraph"></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/27/the-quasi-riemann-hypothesis/feed/</wfw:commentRss>
-			<slash:comments>5</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">18595</post-id>
 		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
 			<media:title type="html">Terry</media:title>
 		</media:content>

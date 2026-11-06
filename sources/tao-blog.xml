@@ -23,7 +23,7 @@
 <site xmlns="com-wordpress:feed-additions:1">817149</site><cloud domain='terrytao.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
 <source:cloud xmlns:source='https://source.scripting.com/'>https://terrytao.wordpress.com/?rsscloud=notify</source:cloud>
 <image>
-		<url>https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Fwebclip.png</url>
+		<url>https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fwebclip.png</url>
 		<title>What&#039;s new</title>
 		<link>https://terrytao.wordpress.com</link>
 	</image>
@@ -32,7 +32,7 @@
 	<item>
 		<title>Futures of Maths Launch</title>
 		<link>https://terrytao.wordpress.com/2026/11/05/futures-of-maths-launch/</link>
-					<comments>https://terrytao.wordpress.com/2026/11/05/futures-of-maths-launch/#respond</comments>
+					<comments>https://terrytao.wordpress.com/2026/11/05/futures-of-maths-launch/#comments</comments>
 		
 		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
 		<pubDate>Thu, 05 Nov 2026 17:14:20 +0000</pubDate>
@@ -69,7 +69,7 @@ If you have any suggestions or feature requests, please leave them in the commen
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/05/futures-of-maths-launch/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>1</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18669</post-id>
@@ -379,7 +379,7 @@ Many of the themes mentioned here have been brought up in other posts. To give t
 </p>]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/feed/</wfw:commentRss>
-			<slash:comments>57</slash:comments>
+			<slash:comments>58</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18632</post-id>

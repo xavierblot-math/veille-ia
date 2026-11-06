@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Wed, 04 Nov 2026 10:38:35 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 05 Nov 2026 14:15:32 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,170 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>I&#8217;m Not Done Doing Math! Don&#8217;t Ignore Me!</title>
+		<link>https://proofsandprompts.com/2026/11/05/im-not-done-doing-math-dont-ignore-me/</link>
+					<comments>https://proofsandprompts.com/2026/11/05/im-not-done-doing-math-dont-ignore-me/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Thu, 05 Nov 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Reactions]]></category>
+		<category><![CDATA[Critique]]></category>
+		<category><![CDATA[PhD students]]></category>
+		<category><![CDATA[The future of papers]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3295</guid>
+
+					<description><![CDATA[“But I am still interested in doing math. I still think my research direction has genuine merit, and I still feel like I have more mathematics to give to the world. Thanks to AI, it is now feasible for someone like me to keep going.” […]]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph">Anonymous, Math PhD student</p>
+
+
+
+<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · AI is making papers cheap to produce but they remain costly to referee. Proofs and Prompts is publishing a series of posts from 26 October on the future of publishing, papers and credit. Questions such as how to disclose AI use, who bears the cost of checking, what authorship means and what papers of the future might look like will be addressed. This post is part of the series. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/publishing/">All posts in the series</a></p>
+
+<p class="wp-block-paragraph">I am about to graduate with a math PhD,  with zero published papers, and a subpar thesis that&#8217;s just barely enough for me to graduate.</p>
+
+
+
+<p class="wp-block-paragraph">I have no illusions that I am on the same intellectual tier as the tenured professors, postdocs, and PhD students much more successful than me writing on this blog. I am no Yitang Zhang. I readily admit that I am a low-level mathematician compared to even the peers in my department. And much of this is my own fault. Significant stretches of my time in the program were spent procrastinating and being distracted, not to mention just plain being stuck on a project because I wasn&#8217;t good enough.</p>
+
+
+
+<p class="wp-block-paragraph">Realistically, I will not, and should not, be getting a research postdoc. I will end up in an overloaded teaching position or working a regular 9-to-5 job. And I do not have contempt for this future. I am sure I will manage to find a job that is fulfilling for me.</p>
+
+
+
+<p class="wp-block-paragraph">Under the old rules of academia, my life in mathematical research was over. I was supposed to quietly pack up my stuff, and leave research mathematics to the REAL mathematicians.</p>
+
+
+
+<p class="wp-block-paragraph">But I am still interested in doing math. I still think my research direction has genuine merit, and I still feel like I have more mathematics to give to the world. Thanks to AI, it is now feasible for someone like me to keep going. With language models accelerating the time-consuming parts of research, it is realistic for someone carrying a heavy teaching load or working a day job to produce novel, interesting mathematics in the little free time they have.</p>
+
+
+
+<p class="wp-block-paragraph">That is what I am going to try to do. And what is wrong with that?</p>
+
+
+
+<p class="wp-block-paragraph">I wanted to write this down because when I read essays here, whether pro-AI or anti-AI, people like me aren&#8217;t considered a part of the conversation.</p>
+
+
+
+<p class="wp-block-paragraph">We have an opportunity right now to &#8216;catch&#8217; the people who have fallen by the wayside. People who just barely survived their PhD program and still have good ideas. Or people with just a Master&#8217;s or a Bachelor&#8217;s in mathematics who didn&#8217;t want to go through the grueling 5+ years of low pay for a PhD. Or those that went through years of postdoc positions and failed to secure a tenure-track job. We, the people outside of research academia that still wish to continue with mathematical research, exist!</p>
+
+
+
+<p class="wp-block-paragraph">But almost every conversation among established researchers seems to forget that. This is understandable because, before AI, many of us could not feasibly do serious research mathematics outside of a research position. Research math is incredibly time-consuming. Even if someone had a novel mathematical insight, keeping up with the latest literature, checking citations, and writing things up in an understandable, presentable way was a time-consuming process. It was not feasible to do without a lengthy dedicated research time in their schedule, afforded by a research position. We were not considered &#8220;real mathematicians&#8221; for a good, understandable reason. (There are exceptions, of course. Those outside of research jobs have produced a great deal of amazing research before AI. But we must admit that it is now MUCH EASIER to do research math outside of an academic position.)</p>
+
+
+
+<p class="wp-block-paragraph">Now, with the advent of AI, it IS realistic for us to continue participating in mathematical research.</p>
+
+
+
+<p class="wp-block-paragraph">So could we be brought back into the conversation?</p>
+
+
+
+<p class="wp-block-paragraph">Because right now, when I read through the posts on this blog, people like us are completely ignored:</p>
+
+
+
+<ul class="wp-block-list">
+<li>I see reports from elite gatherings like the <a href="https://proofsandprompts.com/2026/10/30/recommendations-from-the-harvard-cmsa-summit-on-math-and-ai/">Harvard CMSA summit on Math and AI</a>, or calls for <a href="https://proofsandprompts.com/2026/10/18/who-will-lead-mathematical-ai/">societies to set norms</a>. Will those boards and summits ever include people like me? Will they care about the opinions of an overloaded teaching faculty member just wanting to continue exploring the direction of their thesis? Or the person doing math research in their free time after their 9-to-5? I am afraid that these organizations will just be another society of already successful mathematicians writing rules for themselves.</li>
+
+
+<li>There is some panic that AI will create a <a href="https://proofsandprompts.com/2026/09/19/where-will-all-the-papers-go/">torrent of papers and there simply won&#8217;t be enough qualified people to peer-review them</a>. <em>Really?</em> There aren&#8217;t enough people to review them? Thousands of math PhDs graduate every year without continuing a research career. Is there really a shortage of capable people, or is our definition of &#8220;capable&#8221; severely restricted? With AI, it is now much easier for those without research positions to keep up with the latest developments in their fields. Would that not drastically INCREASE the number of qualified peer reviewers?</li>
+
+
+<li>Several pro-AI posts suggest that because AI makes writing papers too easy, we should <a href="https://proofsandprompts.com/2026/10/30/lets-stop-writing-papers/">stop writing papers</a> or devalue them in favor of <a href="https://proofsandprompts.com/2026/09/14/a-beginning-for-mathematics/">live seminar talks</a> and <a href="https://proofsandprompts.com/2026/10/30/math-is-for-feeding-your-family/">in-person workshops</a>. Do people realize how exclusionary this is? It is a luxury that can only be afforded by those with grants and dedicated time off for travel.</li>
+
+
+<li>I see professors warning that because of AI, we might <a href="https://proofsandprompts.com/2026/10/23/a-response-to-who-will-become-the-new-mathematicians-of-math-2-0/">&#8220;lose an entire generation of mathematicians&#8221;</a>, while others decry that AI will reduce math from a <a href="https://proofsandprompts.com/2026/08/09/the-ai-dissenter-viewpoint/">profession to a mere &#8220;hobby&#8221; done in people&#8217;s spare time</a>. Where was this panic when the academic job market was throwing away the vast majority of every graduating PhD class for decades? And why is doing math in your spare time, for zero money and zero career credit, treated with such contempt?</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">I have lost the game of academic research careers, and I have made peace with that fact. What frustrates me is that the mathematical research establishment pretend I don&#8217;t exist. When a tool finally comes along that lets me keep doing the thing I love, making small but real contributions to my field from outside of a research position, I continue to be ignored. Instead, one side is telling me that my work doesn&#8217;t count for using AI, while the other side talks only about how it can be directed to better serve and preserve the scant few dedicated research positions.</p>
+
+
+
+<p class="wp-block-paragraph">It is telling that even in a <a href="https://proofsandprompts.com/2026/10/28/math2038-a-day-in-the-life-of-future-mathematicians/">fictional utopian vision of mathematics in 2038</a>, set in a literal post-scarcity world, one can only imagine the mathematical community through the eyes of&#46;&#46;&#46; an ETH Zurich professor and a postdoc heading to a three-month retreat in Princeton. Wow. Just wow. Even in the wildest, most utopian fantasies of the future, people like me don&#8217;t exist.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 1 November 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/05/im-not-done-doing-math-dont-ignore-me/feed/</wfw:commentRss>
+			<slash:comments>12</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3295</post-id>	</item>
+		<item>
+		<title>Futures of Maths Launch</title>
+		<link>https://proofsandprompts.com/2026/11/05/futures-of-maths-launch/</link>
+					<comments>https://proofsandprompts.com/2026/11/05/futures-of-maths-launch/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Thu, 05 Nov 2026 13:02:21 +0000</pubDate>
+				<category><![CDATA[Take part]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Initiative]]></category>
+		<category><![CDATA[Survey]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3365</guid>
+
+					<description><![CDATA[Today we launch Futures of Maths, a new, living platform that asks the mathematics community about the most pressing questions around maths and AI.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://www.fffmaths.com/">Francesco Fournier-Facio</a>, Assistant Professor at Heriot-Watt University; <a href="https://www.joh.cam.ac.uk/research/academics/fellows/yara-kyrychenko">Yara Kyrychenko</a>, Research Fellow at University of Cambridge (St John&#8217;s College); <a href="https://www.psychol.cam.ac.uk/people/jon-roozenbeek">Jon Roozenbeek</a>, Associate Professor at University of Cambridge and VU Amsterdam; <a href="https://sites.google.com/view/julian-wykowski">Julian Wykowski</a>, Postdoctoral Researcher at Karlsruhe Institute of Technology</p>
+
+
+
+<p class="wp-block-paragraph">Today we launch <a href="https://community.futuresofmaths.com">Futures of Maths</a>, a new, living platform that asks active research mathematicians about the most pressing questions around maths and AI. A string of solutions to famous maths problems, found with the help of AI, has provoked a great deal of discussion among research mathematicians. We built Futures of Maths to understand how mathematicians are dealing with this change in their research and teaching, and where they see the field heading.</p>
+
+
+
+<p class="wp-block-paragraph"><em><strong>How it works.</strong></em> The platform shows you short statements about maths and AI. You rate each one from “strongly disagree” to “strongly agree”, or skip it, and you can mark the ones you find exceptionally important. Once you have answered, you see how everyone has rated the statement so far. You don’t have to finish in one go: you can leave and come back at any time. Most importantly, you can post your own statements. A moderator checks each one, and then everyone else can rate it, so the set of statements keeps evolving with the community’s input.</p>
+
+
+
+<p class="wp-block-paragraph"><em><strong>Results.</strong></em> Once we have collected enough responses, we will publish the results and make them available to the community. We will post again on Proofs and Prompts when this happens.</p>
+
+
+
+<p class="wp-block-paragraph"><em><strong>Who can participate.</strong></em> You can take part if you are 18 or older and have at least one article published in the last 5 years in a mathematics journal, meaning one indexed by zbMATH Open (recently accepted articles also count). The quickest way in is to sign in with ORCID. The article must be on your public ORCID record, added by Crossref. Articles you enter yourself don’t count. If it isn’t there, accept Crossref’s permission request in your ORCID inbox and make the work public. If that doesn’t work, for example because your article is accepted but not yet published, you can request a manual review from your institutional email address. We review these case by case.<br>We appreciate that this is only an approximation of what an active research mathematician is, but we chose it for its <em>simplicity</em>, <em>objectivity </em>and <em>efficient verifiability</em>. We welcome proposals of alternative criteria that cover a more representative sample, and have these same three qualities, they could be implemented in future iterations.</p>
+
+
+
+<p class="wp-block-paragraph"><em><strong>Privacy.</strong></em> The survey is anonymous. Verification happens on a separate website, and the survey itself never learns your name, email address or ORCID iD. When you first register, you receive a personal link that lets you return as often as you like as the consultation evolves. Please save this link. We can’t look it up or resend it, because that is what keeps you anonymous. Questions about yourself are optional, under “My session”, and you can withdraw your answers at any time.</p>
+
+
+
+<p class="wp-block-paragraph"><em><strong>Inviting wide participation.</strong></em> The results will only be meaningful if a large and diverse group of people takes part, both proposing statements and rating them. Please share this widely, and especially with people whose point of view you feel is underrepresented in the discussion on maths and AI.</p>
+
+
+
+<p class="wp-block-paragraph">If you have any suggestions or feature requests, please leave them in the comments!</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 5 November 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/05/futures-of-maths-launch/feed/</wfw:commentRss>
+			<slash:comments>6</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3365</post-id>	</item>
+		<item>
 		<title>Reject the Neurosis, and Terrible Messaging, of our Loudest Voices — The Case for (Ir)rational Optimism</title>
 		<link>https://proofsandprompts.com/2026/11/04/reject-the-neurosis-and-terrible-messaging-of-our-loudest-voices-the-case-for-irrational-optimism/</link>
 					<comments>https://proofsandprompts.com/2026/11/04/reject-the-neurosis-and-terrible-messaging-of-our-loudest-voices-the-case-for-irrational-optimism/#comments</comments>
@@ -86,7 +250,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/04/reject-the-neurosis-and-terrible-messaging-of-our-loudest-voices-the-case-for-irrational-optimism/feed/</wfw:commentRss>
-			<slash:comments>11</slash:comments>
+			<slash:comments>13</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3024</post-id>	</item>
@@ -245,7 +409,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/04/in-defence-of-incremental-mathematics/feed/</wfw:commentRss>
-			<slash:comments>6</slash:comments>
+			<slash:comments>7</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3321</post-id>	</item>
@@ -865,142 +1029,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">1648</post-id>	</item>
-		<item>
-		<title>Updates from the AHM: guidelines on doctoral advising</title>
-		<link>https://proofsandprompts.com/2026/11/02/updates-from-the-ahm-guidelines-on-doctoral-advising/</link>
-					<comments>https://proofsandprompts.com/2026/11/02/updates-from-the-ahm-guidelines-on-doctoral-advising/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Mon, 02 Nov 2026 10:00:00 +0000</pubDate>
-				<category><![CDATA[Initiatives]]></category>
-		<category><![CDATA[Take part]]></category>
-		<category><![CDATA[PhD and postdoc applications]]></category>
-		<category><![CDATA[PhD students]]></category>
-		<category><![CDATA[Teaching]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3229</guid>
-
-					<description><![CDATA[“We are happy to announce that the Teaching Working Group of the Association for Human Mathematics wrote a set of recommendations on doctoral advising aimed at departments, advisors, and students. The document contains five guidelines centered on prioritizing human-authored writing, avoiding overreliance on AI, confronting the ethical concerns of AI use, and improving the wellbeing of students, as well as concrete proposals on how to implement them. […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph">AHM communications group</p>
-
-
-
-<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · As application deadlines approach, Proofs and Prompts is publishing a series of posts for people considering a PhD, doing a PhD or looking for a postdoc: guidelines, discussions and speculation about what to do and what careers in mathematics will look like. This post is one of them. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/application-season/">All posts in the series</a></p>
-
-<p class="wp-block-paragraph">We are happy to announce that the Teaching Working Group of the Association for Human Mathematics wrote <a href="https://www.ahmath.org/doctoraladvising" target="_blank" rel="noreferrer noopener">a set of recommendations on doctoral advising</a> aimed at departments, advisors, and students. The document contains five guidelines centered on prioritizing human-authored writing, avoiding overreliance on AI, confronting the ethical concerns of AI use, and improving the wellbeing of students, as well as concrete proposals on how to implement them. We encourage everyone to read and share the document, and we especially look forward to feedback and suggestions.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 30 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/02/updates-from-the-ahm-guidelines-on-doctoral-advising/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3229</post-id>	</item>
-		<item>
-		<title>Collaborative work groups on exposition problems</title>
-		<link>https://proofsandprompts.com/2026/11/01/collaborative-work-groups-on-exposition-problems/</link>
-					<comments>https://proofsandprompts.com/2026/11/01/collaborative-work-groups-on-exposition-problems/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Sun, 01 Nov 2026 17:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Exposition]]></category>
-		<category><![CDATA[Norms]]></category>
-		<category><![CDATA[The future of papers]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3011</guid>
-
-					<description><![CDATA[Fear of being scooped leads to unpolished preprints intended to claim priority. Could such undesirable flag-planting behavior also arise for expository work on key results? Starting from this premise, this post proposes that collaborative working groups offer a healthier way forward.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://alexandervanwerde.be/">Alexander Van Werde</a>, Postdoctoral Researcher at <a href="https://www.uni-muenster.de/MathematicsMuenster/">Mathematics Münster</a>, Germany</p>
-
-
-
-<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · AI is making papers cheap to produce but they remain costly to referee. Proofs and Prompts is publishing a series of posts from 26 October on the future of publishing, papers and credit. Questions such as how to disclose AI use, who bears the cost of checking, what authorship means and what papers of the future might look like will be addressed. This post is part of the series. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/publishing/">All posts in the series</a></p>
-
-
-
-<p class="wp-block-paragraph">A significant worry in our community is a potential widening gap between human understanding and formal problem solutions. This issue has been increasingly apparent due to AI systems’ ability to generate long formally verified proofs. A common sentiment is that it would help if we assigned more credit to exposition.</p>
-
-
-
-<p class="wp-block-paragraph">A related issue is the pressure that authors experience to put an unpolished preprint online to avoid being scooped. Sometimes, this unpolished state may only be temporary. However, the expertise needed to polish the writeup is not always present for AI-generated results. The expertise required for a first proof was reduced by AI systems, but it is likely still needed for digestion and exposition.</p>
-
-
-
-<p class="wp-block-paragraph">Could the rush that leads to unpolished preprints arise for exposition too? If an author gets recognized for an acceptable writeup, then others may get less credit for better exposition. For well-known problems, it is plausible that multiple people are working independently. This makes accidental scooping more likely, so authors might be incentivized to rush.</p>
-
-
-
-<p class="wp-block-paragraph">One approach is for authors to announce that they are working on it. However, this encourages the exact flag-planting behavior that initial unpolished preprints are associated with. Moreover, others may also want to digest the ideas, and collaboration could be beneficial!</p>
-
-
-
-<p class="wp-block-paragraph">I propose that it may be better to announce <em>collaborative work groups</em>:</p>
-
-
-
-<ol class="wp-block-list">
-<li>Someone in the field, who may not be the original author, forms a group intended to work on the exposition and digestion of a preprint. This group announces its existence. Further, the group states what additional expertise it would benefit from.</li>
-
-
-
-<li>The group creates a blog or Git repository where it openly reports on partial progress. For instance, an initial report could discuss the previous literature, addressing a common problem in AI-generated manuscripts. Subsequent reports could release expositions on parts of the technical content, as the digestion proceeds.<br><br>Such reports would be valuable to the community. The ideas used to resolve a central problem may also be relevant elsewhere, so having some quick updates would be useful. Further, this would make it clear that the group is not merely a flag-planting operation.</li>
-</ol>
-
-
-
-<p class="wp-block-paragraph">The end goal could be to produce a human-written manuscript with good exposition that can be submitted at classical venues. This would allow the hard work of exposition to be acknowledged within the incentive structures that currently exist.</p>
-
-
-
-<p class="wp-block-paragraph">The reasons why such groups could be particularly suitable for expository work are as follows:</p>
-
-
-
-<ol class="wp-block-list">
-<li>A single author asserting ownership feels silly when the solution was generated by an autonomous AI system. The solution then properly belongs to the community. An open collaborative approach would hence be more natural, while still rewarding the people that worked on the exposition with demonstrable research output.</li>
-
-
-
-<li>The engagement of a group of people would help to disseminate the ideas. This group would naturally be trained to pursue and appreciate follow-up activities, such as searching for generalizations or applications of the tools in different problems.</li>
-
-
-
-<li>While a proof can in principle be generated and formally verified in an arbitrarily short time span, human digestion has natural limits. Hence, the latter activity particularly requires a slower process. This would be aided by the protection from accidental scooping that follows from the announcement of the group’s existence.</li>
-</ol>
-
-
-
-<p class="wp-block-paragraph">Such groups do not need to be huge. Having too many collaborators incurs communication difficulties and can lead to “design by committee” where the exposition lacks a unified vision. However, the idea is that the term “collaborative work group” would signal an open attitude, where collaborators are welcome subject to reasonable constraints. Initial arXiv announcements of unpolished preprints often feel like an author marking their territory, the exact opposite signal.</p>
-
-
-
-<p class="wp-block-paragraph">I am curious what others think. It appears that a central repository with such work group announcements could be useful. There could however also be downsides. For example, the act of engaging with improperly written preprints might appear to legitimize their production.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">This is a condensed version of a <a href="https://alexandervanwerde.be/collaborative-work-groups-on-open-exposition-problems/">post on the author’s blog</a>.</p>
-
-
-
-<p class="wp-block-paragraph">Received 15 October 2026, revised 1 November 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/01/collaborative-work-groups-on-exposition-problems/feed/</wfw:commentRss>
-			<slash:comments>10</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3011</post-id>	</item>
 	</channel>
 </rss>

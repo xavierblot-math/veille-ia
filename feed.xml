@@ -6,7 +6,42 @@
 <atom:link href="https://xavierblot-math.github.io/veille-ia/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Daily summary of Xena, Proofs and Prompts, Silicon Reckoner, Tao (blog and Mastodon) and Gowers.</description>
 <language>en</language>
-<lastBuildDate>Fri, 06 Nov 2026 04:43:00 +0000</lastBuildDate>
+<lastBuildDate>Sat, 07 Nov 2026 04:42:52 +0000</lastBuildDate>
+<item>
+<title>Digest — 7 November 2026 (4 new posts)</title>
+<link>https://xavierblot-math.github.io/veille-ia/#2026-11-07</link>
+<guid isPermaLink="false">veille-ia-2026-11-07</guid>
+<pubDate>Sat, 07 Nov 2026 04:00:00 +0000</pubDate>
+<description><![CDATA[
+<p><em>Nothing new from Xena (Kevin Buzzard), Timothy Gowers or Terence Tao on Mastodon.</em></p>
+<h3>Proofs and Prompts (Nihar Gargava) — <a href="https://proofsandprompts.com/2026/11/06/its-a-great-time-to-be-an-amateur-mathematician/">It's a great time to be an amateur mathematician</a></h3>
+<ul>
+<li>A Paris-Saclay postdoc reflects on outsiders producing real results with AI. Opening story (told by Dinesh Thakur at a TIFR "AI for Math" meeting): a French car mechanic, who didn't know what a finite field was, used Claude to disprove a Thakur conjecture on Carlitz–Wieferich primes (arXiv:2607.15305).</li>
+<li>His own "Ramanujan–Hardy moment": Michael Simkin, an ex-IMO medallist and Game of Life constructor with no university training, sent him a messy AI write-up giving a new lower bound for lattice sphere packings in high dimensions. It became a joint paper with a PhD student (arXiv:2610.12619).</li>
+<li>Argues that professionals should engage with some of these hobbyists as a form of outreach. He advises hobbyists to learn how mathematicians actually communicate, and professionals to respect hobbyists' ambitions.</li>
+<li>👉 Paris-based author; a concrete model for handling the AI-assisted "outsider" emails that are becoming common.</li>
+</ul>
+<h3>Proofs and Prompts (Chenmin Sun) — <a href="https://proofsandprompts.com/2026/11/06/nothing-more-than-tools/">Nothing More than Tools?</a></h3>
+<ul>
+<li>A CNRS PDE researcher (UPEC) describes his journey from treating LLMs as cheap helpers to an "existential crisis", triggered by GPT-5.6 and by OpenAI's 6 October release of manuscripts grouped into 372 result families.</li>
+<li>Criticises the addictive practice of "drawing cards" on open problems with agent swarms, and asks who deserves authorship when the work comes from nearly context-free prompting.</li>
+<li>His answer is "toolization": the model handles bounded local tasks (estimates, numerics, case checks, learning other fields), while the human steers the key choices: blow-up profiles, ansätze, norms, Lyapunov functionals. If the model supplies a key idea, he would credit it as a collaborator.</li>
+<li>Suggests regular self-checks against deskilling, e.g. whether he can still do AI-free mathematics on a plane.</li>
+</ul>
+<h3>Proofs and Prompts (Alessio Figalli, Sobhan Seyfaddini) — <a href="https://proofsandprompts.com/2026/11/06/postdoc-hiring-in-the-age-of-ai-what-still-matters/">Postdoc Hiring in the Age of AI: What Still Matters</a></h3>
+<ul>
+<li>Two ETH professors, first entry in a series of advice from hiring committees: AI does not change the goal, which is to judge depth of understanding, the candidate's own contribution and potential.</li>
+<li>Publication counts are not a reliable signal; letters, CVs and a close reading of selected papers matter for shortlisting. The interview (a talk plus in-depth discussion of what failed and why the arguments work) is decisive.</li>
+<li>👉 Directly useful when advising your PhD students on postdoc applications this season.</li>
+</ul>
+<h3>Terence Tao — <a href="https://terrytao.wordpress.com/2026/11/06/more-posts/">More posts</a></h3>
+<ul>
+<li>A short list of further essays on AI and mathematics: Pavel Etingof's guide for young mathematicians on using AI in research, two pieces by Anna Gilbert, one by Larry Guth, and one by Atoosa Kasirzadeh. Readers are invited to add links in the comments.</li>
+<li>👉 Etingof's guide for young mathematicians looks worth passing to students.</li>
+</ul>
+<p><em>Silicon Reckoner not reachable from GitHub (not covered); all other sources fetched successfully.</em></p>
+]]></description>
+</item>
 <item>
 <title>Digest — 6 November 2026 (2 new posts)</title>
 <link>https://xavierblot-math.github.io/veille-ia/#2026-11-06</link>

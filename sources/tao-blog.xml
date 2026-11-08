@@ -32,7 +32,7 @@
 	<item>
 		<title>More posts</title>
 		<link>https://terrytao.wordpress.com/2026/11/06/more-posts/</link>
-					<comments>https://terrytao.wordpress.com/2026/11/06/more-posts/#respond</comments>
+					<comments>https://terrytao.wordpress.com/2026/11/06/more-posts/#comments</comments>
 		
 		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
 		<pubDate>Fri, 06 Nov 2026 18:05:00 +0000</pubDate>
@@ -67,7 +67,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/06/more-posts/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>1</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18615</post-id>
@@ -209,7 +209,7 @@ If you have any suggestions or feature requests, please leave them in the commen
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/03/doctoral-advising-guidelines-by-the-ahm/feed/</wfw:commentRss>
-			<slash:comments>27</slash:comments>
+			<slash:comments>28</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18659</post-id>

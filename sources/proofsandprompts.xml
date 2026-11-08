@@ -28,9 +28,172 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>On Expositions, and the Navier–Stokes Generation of PhD Students</title>
+		<link>https://proofsandprompts.com/2026/11/07/on-expositions-and-the-navier-stokes-generation-of-phd-students/</link>
+					<comments>https://proofsandprompts.com/2026/11/07/on-expositions-and-the-navier-stokes-generation-of-phd-students/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Sat, 07 Nov 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Exposition]]></category>
+		<category><![CDATA[PhD students]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2734</guid>
+
+					<description><![CDATA[As part of the “Navier–Stokes generation” of PhD students, I feel lots of uncertainty, excitement, and anxiety, perhaps all at once. Reading Littlewood’s Miscellany, however, reminded me that maths is full of little gems, that are perhaps a bit overlooked amongst the AI hype.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://yifuzhang314.github.io/yifu-zhang/">Yifu Zhang</a>, first-year maths PhD at Imperial College London</p>
+
+
+
+<p class="wp-block-paragraph"><em>AI is used only for spelling/grammar checks, and for compiling and plotting the data in the chart.</em></p>
+
+
+
+<p class="wp-block-paragraph">When I applied for my PhD last year, I certainly didn&#8217;t expect that just before I started it, there had been a millennium problem drama. Amongst my friends, I&#8217;m now part of the &#8220;Navier–Stokes generation&#8221; of PhD students. There are a lot of uncertainties: What will we do as PhDs if an AI can do frontier-level mathematics? Will the journal system remain intact? Will there be a position for me when I graduate?</p>
+
+
+
+<p class="wp-block-paragraph">I&#8217;m a numerical analyst-in-training, and some of the problems I work on seem less tangible and less well-defined than those on the pure side. Nevertheless, we felt the shockwaves from the proof of the <a href="https://alextownsend.net/essays/SIAMNews_CrouzeixConjecture.pdf">Crouzeix conjecture</a> and, more recently, the new <a href="https://github.com/openai/math/blob/main/preprints/Matrix-Multiplication-Nine-Fourths-October-2-2026/paper.pdf">upper bound on the complexity of matrix multiplication</a>.</p>
+
+
+
+<p class="wp-block-paragraph">There are numerous blogs and essays that have sprouted this year, and many in the community have turned to the thoughts of great mathematicians, notably Thurston&#8217;s in <a href="https://arxiv.org/pdf/math/9404236">On Proof and Progress in Mathematics</a>, which has been widely discussed, for example <a href="https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/">by Grant Sanderson</a>. Another well-known (more controversial) piece is Hardy&#8217;s <em>A Mathematician&#8217;s Apology</em>, as referenced (though by no means concurred with) by <a href="https://xenaproject.wordpress.com/2026/10/01/to-grieve-or-not-to-grieve/">Kevin Buzzard</a>.</p>
+
+
+
+<p class="wp-block-paragraph">Speaking of Hardy, allow me a small digression. According to &#8220;an excellent colleague&#8221; of Harald Bohr, &#8220;Nowadays, there are only three really great English mathematicians&#8221;. The first of them is naturally Hardy, but I personally find Littlewood, the second of them, more agreeable<sup data-fn="2b0bdc39-dc3a-4921-a81c-e8c22c7a5db3" class="fn"><a href="#2b0bdc39-dc3a-4921-a81c-e8c22c7a5db3" id="2b0bdc39-dc3a-4921-a81c-e8c22c7a5db3-link">1</a></sup>.</p>
+
+
+
+<p class="wp-block-paragraph"><em>A Mathematician&#8217;s Miscellany</em> was written by Littlewood and later edited by Béla Bollobás. I want to share here a few more short quotes from this genius book:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;It is very hard to make a random selection of stars. If, for example, you see a star (with the naked eye) it is probably bright.&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;J. J. Sylvester sent a paper to the London Mathematical Society. His covering letter explained, as usual, that this was the most important result in the subject for 20 years. The Secretary replied that he agreed entirely with Sylvester&#8217;s opinion of the paper; but Sylvester had actually published the result in the L.M.S. five years before.&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;When Trinity once had some wine at a lowish price, but not satisfactory and also not selling, they doubled the price, whereupon the idle rich bought it all up.&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">The <em>Miscellany</em> has no direct bearing on the current situation, but to me it brings more clarity than some of the serious, timely statements: it keeps me grounded and curbs my tendency to think about AI all the time.</p>
+
+
+
+<figure class="wp-block-image size-large wp-duotone-default"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="531" data-attachment-id="2733" data-permalink="https://proofsandprompts.com/chart-ai-discussion-blogs/" data-orig-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/chart-ai-discussion-blogs.png?fit=2592%2C1344&amp;ssl=1" data-orig-size="2592,1344" data-comments-opened="1" data-image-title="AI discussion from blogs" data-image-description="" data-image-caption="&lt;p&gt;Blog posts by a sample of professional mathematical authors with AI-assisted classification. Non-AI discussion includes outreach, research posts, educational posts, etc.&lt;/p&gt;
+" data-large-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/chart-ai-discussion-blogs.png?fit=1024%2C531&amp;ssl=1" src="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/chart-ai-discussion-blogs.png?resize=1024%2C531&#038;ssl=1" alt="Stacked bar chart titled &quot;AI discussion from blogs&quot; showing the number of blog posts per quarter, from 2024 Q1 to 2026 Q3 and for 1–14 October 2026, split into non-AI discussion posts (blue) and AI discussion posts (orange). Totals stay between about 200 and 250 posts per quarter, with a small orange share, until 2026 Q3, which jumps to about 370 posts, roughly half of them on AI. The partial quarter of 1–14 October 2026 has about 90 posts, around two thirds of them on AI." class="wp-image-2733" srcset="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/chart-ai-discussion-blogs.png?resize=1024%2C531&amp;ssl=1 1024w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/chart-ai-discussion-blogs.png?resize=300%2C156&amp;ssl=1 300w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/chart-ai-discussion-blogs.png?resize=768%2C398&amp;ssl=1 768w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/chart-ai-discussion-blogs.png?resize=1536%2C796&amp;ssl=1 1536w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/chart-ai-discussion-blogs.png?resize=2048%2C1062&amp;ssl=1 2048w" sizes="(max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Blog posts by a sample of professional mathematical authors with AI-assisted classification. Non-AI discussion includes outreach, research posts, educational posts, etc.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">Many in the community have rightly argued for the necessity of the explanatory side of mathematics. However, from the chart, we are seeing only an increase in the AI discussions<sup data-fn="fc8836d7-c66e-4e18-9fcc-da20e22caa78" class="fn"><a href="#fc8836d7-c66e-4e18-9fcc-da20e22caa78" id="fc8836d7-c66e-4e18-9fcc-da20e22caa78-link">2</a></sup>. With the current discussion about human understanding of maths, shouldn&#8217;t there be a flood of new mathematical expositions as well? The <em>Miscellany</em>, to me, represents the best of them: quirky stories about mathematicians and their lives; small, delicious mathematical nuggets that piqued Littlewood&#8217;s interest; or just arbitrary, casual thoughts during research.</p>
+
+
+
+<p class="wp-block-paragraph">There are many important initiatives about the role of AI in maths, and statements are put out every day to respond to the new reality. They are certainly vital voices that need to be heard, but I argue that the less flashy, more casual expositions should also be promoted. They:</p>
+
+
+
+<ol class="wp-block-list">
+<li>make difficult mathematics digestible for others, particularly for new PhD students and researchers from other areas who may find more specialised material difficult. An example I personally benefited from even as an undergrad is <a href="https://www.ethanepperly.com/index.php/blog/">this</a>.</li>
+
+
+
+<li>they (typically) acknowledge their sources well, linking to other useful, digestible materials. This is not only proper practice for academia, but also serve as excellent pointers for their readers. It works both ways: papers/essays that are frequently referenced are probably good explainers themselves.</li>
+
+
+
+<li>encourage public outreach efforts, demonstrating the community&#8217;s commitment to public understanding and putting the explanatory side of mathematics into practice.</li>
+
+
+
+<li>give the public and early career researchers (e.g. the N–S generation) more confidence that the community is not single-mindedly focused on AI and that the field is still alive with mathematical activity. This helps balance out the anxiety, which, though justified, affect how we navigate the new landscape.</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">Back to being the &#8220;Navier–Stokes generation&#8221;. As junior mathematicians, we face many uncertainties but also many opportunities, so it is natural to think a lot about AI. Reading the <em>Miscellany</em>, however, reminded me of what inspired me to study mathematics. This may seem idealistic and naïve to many, but there are interesting people, good stories, and fun maths in our field, and they are worth recording.</p>
+
+
+<ol class="wp-block-footnotes"><li id="2b0bdc39-dc3a-4921-a81c-e8c22c7a5db3">The final one is, of course, Hardy–Littlewood. <a href="#2b0bdc39-dc3a-4921-a81c-e8c22c7a5db3-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fc8836d7-c66e-4e18-9fcc-da20e22caa78">The stats here are very limited by the tools available to me; they only include the partial data that Claude could find, and the format is limited to blogs. This leaves out many other forms of exposition, such as the brilliant videos from <a href="https://some.3b1b.co/">SoME</a>. Nevertheless, I hope the point still stands. <a href="#fc8836d7-c66e-4e18-9fcc-da20e22caa78-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 16 October 2026, revised 25 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/07/on-expositions-and-the-navier-stokes-generation-of-phd-students/feed/</wfw:commentRss>
+			<slash:comments>6</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2734</post-id>	</item>
+		<item>
+		<title>What Mathematicians Want?</title>
+		<link>https://proofsandprompts.com/2026/11/07/what-mathematicians-want/</link>
+					<comments>https://proofsandprompts.com/2026/11/07/what-mathematicians-want/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Sat, 07 Nov 2026 12:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Take part]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2130</guid>
+
+					<description><![CDATA[What do you want from AI as a mathematician? If we could plan it all from scratch, would you like to see it back as a spellchecker and nothing more, or do you want it to do research at the highest level? As a computer scientist, I would like to understand the positions and feelings around the desired form the community wants it to have.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://r-peleg.github.io/">Reuven Peleg</a>, M.Sc student for Computer Science at Hebrew University of Jerusalem, Israel</p>
+
+
+
+<p class="wp-block-paragraph">AI Disclosure: This post was written entirely by me, AI was used to proofread the final draft.</p>
+
+
+
+<p class="wp-block-paragraph">The current big wave of AI for Math discourse was forced upon the Mathematical community. The big labs got more and more advanced results on conjecture proving, triggering all kinds of reactions, feelings and backfire reactions. The main focus of discussion was how to react to events: Should the community cooperate with AI labs, or scrutinize them? How should journals and conferences treat AI-generated papers?</p>
+
+
+
+<p class="wp-block-paragraph">I would like to ask a different question: What do you want from AI as a mathematician? I find it intellectually interesting, but also practical for me, as I don’t want to conduct research that steps on someone’s toe instead of helping. As a Master’s student interested deeply in AI For Math and planning out his future career, I want to politely ask the professionals in it what their needs or expectations are. </p>
+
+
+
+<p class="wp-block-paragraph">One answer I got is “leave us alone”. Some professionals say they want to use AI for literature review, spellcheck, maybe some assistance in coding if necessary, and that’s it. Just like an artist who wants the robots to put down the brushes, they want the human-centric experience of creation and exploration.</p>
+
+
+
+<p class="wp-block-paragraph">On the other side of the spectrum, there seems to be a camp of pro-AI mathematicians that are generally happy about machine-discovered math, with some specific concern: About reliability of the claims, copyright, attribution and norms, ownership, responsibility for papers, et cetera. Once it’s settled, they want to have the most powerful, fast, cheap and reliable Math AI that can be built.</p>
+
+
+
+<p class="wp-block-paragraph">I don’t have a clear understanding on how big each camp is, what are the positions in between, or what aspect I miss in the needs of the community. I also hope there is a way for AI to fit in Math research, maybe in a way I can’t envision as an outsider. So I am asking: If you could steer the AI research and have your dream outcome for the field, what would it be?</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 9 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/07/what-mathematicians-want/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2130</post-id>	</item>
+		<item>
 		<title>Nothing More than Tools?</title>
 		<link>https://proofsandprompts.com/2026/11/06/nothing-more-than-tools/</link>
-					<comments>https://proofsandprompts.com/2026/11/06/nothing-more-than-tools/#respond</comments>
+					<comments>https://proofsandprompts.com/2026/11/06/nothing-more-than-tools/#comments</comments>
 		
 		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
 		<pubDate>Fri, 06 Nov 2026 17:00:00 +0000</pubDate>
@@ -110,7 +273,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/06/nothing-more-than-tools/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>2</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2456</post-id>	</item>
@@ -165,7 +328,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/06/postdoc-hiring-in-the-age-of-ai-what-still-matters/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
+			<slash:comments>8</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3413</post-id>	</item>
@@ -256,7 +419,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/06/its-a-great-time-to-be-an-amateur-mathematician/feed/</wfw:commentRss>
-			<slash:comments>21</slash:comments>
+			<slash:comments>29</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2736</post-id>	</item>
@@ -361,7 +524,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/05/im-not-done-doing-math-dont-ignore-me/feed/</wfw:commentRss>
-			<slash:comments>17</slash:comments>
+			<slash:comments>18</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3295</post-id>	</item>
@@ -420,7 +583,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/05/futures-of-maths-launch/feed/</wfw:commentRss>
-			<slash:comments>8</slash:comments>
+			<slash:comments>9</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3365</post-id>	</item>
@@ -686,260 +849,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2393</post-id>	</item>
-		<item>
-		<title>Keeping Mathematical Conferences Human</title>
-		<link>https://proofsandprompts.com/2026/11/03/keeping-mathematical-conferences-human/</link>
-					<comments>https://proofsandprompts.com/2026/11/03/keeping-mathematical-conferences-human/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Tue, 03 Nov 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Conferences]]></category>
-		<category><![CDATA[The future of papers]]></category>
-		<category><![CDATA[Understanding]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=1825</guid>
-
-					<description><![CDATA[As AI makes it increasingly easy to produce polished mathematical papers, slides, and explanations, conferences may have an opportunity to become more interactive and more human. I suggest experimenting with conversational talk formats, where chairs and audiences can ask questions throughout, encouraging discussion, clarification, and a deeper shared understanding of mathematics.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://www.docenti.unina.it/teacher/4d4152434f54524f4d424554544954524d4d52433839523234463833394b/profile/references">Marco Trombetti</a>, Professor at <a href="https://www.matematica.unina.it/">Università degli Studi di Napoli</a></p>
-
-
-
-<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · AI is making papers cheap to produce but they remain costly to referee. Proofs and Prompts is publishing a series of posts from 26 October on the future of publishing, papers and credit. Questions such as how to disclose AI use, who bears the cost of checking, what authorship means and what papers of the future might look like will be addressed. This post is part of the series. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/publishing/">All posts in the series</a></p>
-
-<p class="wp-block-paragraph">For a long time, the standard format of a mathematical conference talk has been remarkably stable. A mathematician stands in front of a room. There are slides, or a blackboard. For twenty, thirty, or fifty minutes, the speaker explains a piece of work. At the end, if time remains, there may be a few questions. This format has always had limitations. But I wonder whether the arrival of increasingly capable AI systems gives us a new reason to reconsider it.</p>
-
-
-
-<p class="wp-block-paragraph">In <a href="https://proofsandprompts.com/2026/09/22/proofforum-keeping-ai-generated-mathematics-human/">a previous post</a>, I argued that one of the important problems of AI-generated mathematics will be <em>humanization</em>. It is not enough that a mathematical argument exists, or even that it is correct. Someone should understand it, reorganize it, explain why it works, and connect it to the rest of mathematics. Perhaps conferences will have to adapt to the same problem.</p>
-
-
-
-<h2 class="wp-block-heading"><strong>A polished talk no longer tells us very much</strong></h2>
-
-
-
-<p class="wp-block-paragraph">Suppose I want to talk about a paper at a conference. An AI system may have helped substantially in producing the mathematics. It may have written parts of the argument, reorganized the exposition, prepared the slides, generated examples, suggested explanations, and perhaps even written the script of my talk. In principle, I could give a very polished presentation of a piece of mathematics that I understand only superficially.</p>
-
-
-
-<p class="wp-block-paragraph">Of course, something similar was possible before AI. People have always been able to present work they did not completely understand, and talks have never been examinations of their speakers. But AI changes the scale of the problem. Producing twenty beautiful slides explaining a technical argument is becoming very cheap. Producing a plausible explanation of why a theorem is interesting is becoming cheap. Producing answers to anticipated questions is becoming cheap.</p>
-
-
-
-<p class="wp-block-paragraph">Understanding the mathematics is not necessarily becoming equally cheap.</p>
-
-
-
-<p class="wp-block-paragraph">There is therefore a strange possibility: mathematical communication may become increasingly polished at exactly the same time that the connection between the person communicating the mathematics and the person (or machine) that actually produced the ideas becomes weaker. Perhaps the traditional conference talk is not particularly well designed for this situation.</p>
-
-
-
-<h2 class="wp-block-heading"><strong>What if a talk were a conversation?</strong></h2>
-
-
-
-<p class="wp-block-paragraph">I have been wondering about a different format. Imagine something closer to an interview than to a lecture. The speaker sits with a chair or moderator in front of the audience. The speaker still presents the work, perhaps with slides or a blackboard, but the presentation is not a forty-minute uninterrupted monologue. Instead, the chair interrupts.</p>
-
-
-
-<p class="wp-block-paragraph">Why did you introduce this definition?</p>
-
-
-
-<p class="wp-block-paragraph">What happens if this hypothesis is removed?</p>
-
-
-
-<p class="wp-block-paragraph">Can you explain the main idea without the technical machinery?</p>
-
-
-
-<p class="wp-block-paragraph">Where exactly does the difficult part of the proof occur?</p>
-
-
-
-<p class="wp-block-paragraph">Is this lemma really necessary?</p>
-
-
-
-<p class="wp-block-paragraph">How did you arrive at this argument?</p>
-
-
-
-<p class="wp-block-paragraph">What is the simplest example in which the phenomenon appears?</p>
-
-
-
-<p class="wp-block-paragraph">The chair would have read at least part of the paper beforehand and prepared a few questions. Members of the audience could also intervene during the discussion rather than waiting for the final three minutes. In spirit, it might look a little more like a late-night interview than a traditional mathematical lecture.</p>
-
-
-
-<p class="wp-block-paragraph">I do not mean that mathematics conferences should become entertainment shows. There need not be a desk, a band, and applause after every theorem. Although I would not completely rule out the band. The important difference would be that the presentation becomes interactive.</p>
-
-
-
-<h2 class="wp-block-heading"><strong>Understanding becomes visible</strong></h2>
-
-
-
-<p class="wp-block-paragraph">There is something that is quite difficult to fake in a sustained mathematical conversation. If you really understand an argument, you can usually move around inside it.</p>
-
-
-
-<p class="wp-block-paragraph">You can explain it from another direction. You can say which assumptions are essential. You can produce a small example. You can explain what you tried before finding the right proof. You can react when someone asks a question you did not anticipate. You can admit which part you do not understand as well as you would like.</p>
-
-
-
-<p class="wp-block-paragraph">This does not prove that you personally discovered the mathematics. Nor should it. Mathematics is collaborative, and AI will presumably become another participant in that collaboration. I do not think conferences should become detective agencies attempting to determine which sentence was written by a human and which by a machine. The interesting question is different. Has the mathematics passed through a human mind? Can the person presenting it actually discuss it? Can the result enter a mathematical community as something that people understand, rather than merely another object that has been produced?</p>
-
-
-
-<p class="wp-block-paragraph">If the answer is yes, then I care much less about whether AI was involved in obtaining it.</p>
-
-
-
-<h2 class="wp-block-heading"><strong>There would be some pressure</strong></h2>
-
-
-
-<p class="wp-block-paragraph">There is an obvious objection. This format would be more stressful. Standing in front of an audience is already stressful enough for many people. Being interrupted by a senior mathematician asking questions could make things considerably worse. I do not think this objection should be dismissed.</p>
-
-
-
-<p class="wp-block-paragraph">In particular, younger researchers should not be placed in a situation where a conference talk becomes a public oral examination. The same is true for mathematicians who are not comfortable speaking English, people who are naturally less quick in conversation, or anyone for whom this kind of interaction creates a substantial disadvantage. Understanding mathematics and performing well under pressure are not the same ability.</p>
-
-
-
-<p class="wp-block-paragraph">Any new format would have to recognize this. Perhaps junior researchers could receive some or all of the questions in advance. Perhaps the chair could meet the speaker before the session and discuss the structure of the conversation. Perhaps traditional talks could remain available for people who prefer them. Perhaps questions could be deliberately explanatory rather than adversarial. The point should not be to catch the speaker making a mistake. The point should be to create a setting in which understanding naturally becomes part of the presentation.</p>
-
-
-
-<h2 class="wp-block-heading"><strong>But perhaps a little pressure is useful</strong></h2>
-
-
-
-<p class="wp-block-paragraph">At the same time, I am not sure that all pressure is bad. If I know that presenting a paper means that someone may ask me why Lemma 4.7 is true, I have a rather strong incentive to understand Lemma 4.7 before I submit the paper. If I know that I may have to explain why a certain definition is natural, I may spend some time thinking about whether I actually know why it is natural. And if an AI system has generated an argument that I do not understand, perhaps I will be less tempted to immediately turn it into a conference submission if I know that eventually I will have to sit in front of other mathematicians and discuss it.</p>
-
-
-
-<p class="wp-block-paragraph">This seems healthy. At present, AI dramatically reduces the cost of producing mathematical text. Perhaps our institutions should increase the reward for understanding that text.</p>
-
-
-
-<h2 class="wp-block-heading"><strong>The chair would have a new role</strong></h2>
-
-
-
-<p class="wp-block-paragraph">This would also change the role of the session chair. At many conferences, chairing a session currently consists mainly of introducing the speaker, watching the clock, and saying “perhaps one last question.” In a conversational format, the chair would have a genuine intellectual role. The chair might read the paper beforehand, identify its central ideas, and prepare questions that help the audience understand what matters. A good chair could rescue a difficult presentation by asking exactly the question that half the room wants to ask but does not know how to formulate.</p>
-
-
-
-<p class="wp-block-paragraph">This work would take time, of course. But perhaps it should. We spend enormous amounts of collective time attending conferences. It seems slightly strange that so little time is usually invested in designing the actual intellectual interaction that happens there.</p>
-
-
-
-<h2 class="wp-block-heading"><strong>It might make conferences better anyway</strong></h2>
-
-
-
-<p class="wp-block-paragraph">There is another possibility. Perhaps this would be a better conference format even if AI did not exist. Many mathematical talks are extremely difficult to follow. A speaker has fifty slides and forty-five minutes, the notation accumulates, one crucial definition is missed, and twenty minutes later a significant fraction of the audience has become spectators rather than participants. A chair who can interrupt and say, “Before we continue, could you explain again what this object is supposed to represent?” might improve the talk enormously.</p>
-
-
-
-<p class="wp-block-paragraph">Questions during the presentation could reveal which ideas actually interest people. The speaker might spend less time covering every theorem in the paper and more time explaining the one idea that people will remember six months later. We might discover that the purpose of a conference was never really to reproduce the contents of papers orally. Papers are quite good at containing the contents of papers. A conference should perhaps do something else.</p>
-
-
-
-<p class="wp-block-paragraph">It should create understanding, discussion, disagreement, connections, and memories.</p>
-
-
-
-<h2 class="wp-block-heading"><strong>Conferences as part of verification</strong></h2>
-
-
-
-<p class="wp-block-paragraph">I have argued elsewhere that AI-generated mathematics may require new mechanisms of verification and humanization. Perhaps conferences could become part of that process too. Not formal verification. Not peer review. Not an examination establishing authorship. Something softer.</p>
-
-
-
-<p class="wp-block-paragraph">A result arrives in the mathematical community, and someone has to stand behind it, or perhaps better, sit beside it, and talk about it with other mathematicians. The audience sees not only a theorem and a proof, but a human being navigating the ideas around them.</p>
-
-
-
-<p class="wp-block-paragraph">Questions expose unclear points. Experts notice connections. Someone asks about a missing case. Another person suggests a simpler argument. The speaker realizes that one explanation is much better than the one in the paper.</p>
-
-
-
-<p class="wp-block-paragraph">The talk becomes another stage through which mathematical output is transformed into shared mathematical understanding.</p>
-
-
-
-<h2 class="wp-block-heading"><strong>An experiment</strong></h2>
-
-
-
-<p class="wp-block-paragraph">I certainly do not think every conference should replace all talks with interviews next year. Perhaps the format would fail completely. Maybe the speakers would hate it, or the chairs would not prepare enough. Perhaps discussions would constantly run over time. Perhaps the best researchers would turn out to be terrible interviewers and the best interviewees would not necessarily be the best mathematicians. These are good reasons to experiment rather than legislate.</p>
-
-
-
-<p class="wp-block-paragraph">A conference could try one session. Five speakers. Twenty or thirty minutes each. A chair who has received the papers beforehand. Ten minutes of presentation mixed with questions and discussion. Questions from the audience throughout. For junior participants, the questions could be discussed in advance. Then ask everyone whether they learned more.</p>
-
-
-
-<p class="wp-block-paragraph">My suspicion is that we eventually need to rethink several mathematical institutions that were built for a world in which producing mathematical text was expensive. Journals are one of them. Authorship is another. Conferences may be another.</p>
-
-
-
-<p class="wp-block-paragraph">If machines can increasingly produce papers, proofs, slides, summaries, and polished explanations, then perhaps the scarce object is no longer mathematical text. Perhaps the scarce object is understanding. And if that is true, our conferences should be designed to make understanding visible.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 1 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/03/keeping-mathematical-conferences-human/feed/</wfw:commentRss>
-			<slash:comments>6</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1825</post-id>	</item>
-		<item>
-		<title>Slow Maths</title>
-		<link>https://proofsandprompts.com/2026/11/03/slow-maths/</link>
-					<comments>https://proofsandprompts.com/2026/11/03/slow-maths/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Community]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=1746</guid>
-
-					<description><![CDATA[For a long time, I had the ideal job. As a teacher, I passed on not just mathematics, but also the taste for critical thinking, for confrontation, and the joy of discovery.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://webusers.imj-prg.fr/~isabelle.gallagher/indexenglish.php">Isabelle Gallagher</a>, head of the <a href="https://smf.emath.fr/">French Mathematical Society</a></p>
-
-
-
-<p class="wp-block-paragraph">For a long time, I had the ideal job. As a teacher, I passed on not just mathematics, but also the taste for critical thinking, for confrontation, and the joy of discovery. As a researcher, I contributed my small part to the greater endeavour, alongside the wider mathematical community. I was part of this collective adventure, which I believed would never end. Slowly, insidiously, however, some flaws began to appear. We elevated colleagues to the status of heroes and heroines for their technical prowess and for the number of their publications in so called prestigious journals. We awarded an ever-increasing number of prizes, with ever-larger sums, to a small number of individuals, organisations or institutions, often focusing more on their productivity and reputation than on the substance of their work, or its inherently collective nature. We watched, amused or even flattered, as a Foundation placed a prize in dollars on a small list of mathematical problems to be solved within the millennium. And we used international competition and the lack of institutional funds as excuses to embark on a frantic race for publication, without taking the time to reflect on the fundamental purpose of our work. Over the past few months, doping has become a major issue in our profession. You can obtain it by yourself, or sometimes the institution provides unlimited access to it. At first, it was simply a matter of asking ChatGPT to check a bibliography, rephrase a paragraph, proofread a calculation or improve it. Then it became possible to ask directly to perform the calculation, or even to work out the correct calculation to perform. Now we can act as ‘super-prompters’, putting hundreds or thousands of agents to work to explore as many avenues as possible, having them correct each other’s work, letting them come up with ideas, and thus ‘crack’ one after the other doctoral subjects, problems that colleagues are working on, or those that the Clay Foundation has considered to be the most important. The ecological cost of this new way of practicing<br>mathematics is not addressed. What price is the mathematical community prepared to make humanity pay to answer its questions? Soon, the AI industries will have grown tired of testing and refining their models on our questions, using our very work we make available to them. In the meantime, we will have turned our profession into an ultra-doped race. In the face of this transformation, it is both urgent and essential that we return to the original purpose of our work and rethink the way we assess it. I dream of a new way of practicing mathematics, one that does not require us to resort to ‘doping’ just to stay in the race. It would be ‘slow maths’, just as there is ‘slow food’ or ‘slow tourism’. A form of maths where we have a firm control of its structure and objectives. Maths that allows us to stray down side paths which sometimes turn out to be more beautiful and more interesting than the one we originally set out to explore. Maths where we take the time to reflect, to write, to explain, and to share. This practice of ‘slow-math’ is essential because it is not the final result that matters and enables us to go further, but rather the process itself, the detours, and the collective endeavour. I am convinced that it is ‘slow-math’ that will help society progress collectively and soundly, and enable young people to continue wanting to learn, to question and to understand. This practice is now only possible if we collectively decide to put an end to the race to publish, and if we agree to value the idea that can lead to a result just as much as the techniques that finalize the proof, and just as much as proofreading, rewriting, and the sharing of ideas and methods. Only then will we be able to leave the race behind, take the time to understand things in depth, and once again practice the ideal profession.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 29 September 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/03/slow-maths/feed/</wfw:commentRss>
-			<slash:comments>9</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1746</post-id>	</item>
 	</channel>
 </rss>

@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Fri, 06 Nov 2026 17:47:42 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 08 Nov 2026 14:30:06 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,354 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>Formalisation as a concrete manifestation of mathematical understanding</title>
+		<link>https://proofsandprompts.com/2026/11/08/formalisation-as-a-concrete-manifestation-of-mathematical-understanding/</link>
+					<comments>https://proofsandprompts.com/2026/11/08/formalisation-as-a-concrete-manifestation-of-mathematical-understanding/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Sun, 08 Nov 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Formalization]]></category>
+		<category><![CDATA[Open Access]]></category>
+		<category><![CDATA[Understanding]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2654</guid>
+
+					<description><![CDATA[By formalising mathematics, not only we understand it better but we produce scientific output whose content is precisely this understanding. I will organise this argument by relating what brought me to formalising mathematics six years ago, and why I think that this beautiful human endeavour has very much to do with understanding mathematics, and very little with AI.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://perso.univ-st-etienne.fr/nf51454h/">Filippo A. E. Nuccio</a>, Associate Professor at <a href="https://www.univ-st-etienne.fr/fr/index.html">Université Saint-Étienne</a></p>
+
+
+
+<p class="wp-block-paragraph"><em>AI use: none. See the full disclosure (“AI disclosure and licensing”) at the end of this post.</em></p>
+
+<p class="wp-block-paragraph"><strong>Disclaimer</strong> <em>I am a maintainer of <a href="https://leanprover-community.github.io/index.html">Mathlib</a>, the main mathematical library of formalised mathematics in Lean, but all ideas expressed below are my own only; in no way are they supposed to represent an official view of the Mathlib community, nor of its governance.</em></p>
+
+
+
+<h2 class="wp-block-heading">Introduction</h2>
+
+
+
+<p class="wp-block-paragraph">As the mathematical community is swamped by large amounts of results found by different LLMs, we&#8217;re reading more and more messages around three main pivots, often intertwined: that &#8220;mathematics is truly about understanding&#8221;; that those who are the most affected by this revolution are PhD students, or young colleagues in general; and that companies like OpenAI and Anthropic are behaving badly, in one way or another. Somewhat unrelated to the above criticisms, we witness an increasing appearance of the words &#8220;formalisation&#8221; and, often, &#8220;Lean&#8221;. I believe that the four strands are related, perhaps in an unexpected way.</p>
+
+
+
+<p class="wp-block-paragraph">The overarching theme around which I&#8217;m going to develop my text is that <em>understanding mathematics</em> is a beautiful concept, but very hard to define. At which point can we say that we&#8217;ve understood it, and what does it really mean? Can we communicate understanding to colleagues or, even better, to students in a structured way? Can we produce a <em>certificate</em> that some understanding happened? Is there a reproducible outcome of this understanding? To what extent is mathematical understanding a scientific production rather than a method? Is this understanding subject to usual scientific scrutiny? Can we <em>verify</em> it?</p>
+
+
+
+<p class="wp-block-paragraph">I am going to argue that the bare-hand formalisation of mathematics is <strong>one</strong> answer to the above questions. By formalising mathematics, not only we understand it better but we produce scientific output whose content is precisely this understanding. I will organise this argument by relating what brought me to formalising mathematics six years ago, and why I think that this beautiful human endeavour has very much to do with understanding mathematics, and very little with AI.</p>
+
+
+
+<h2 class="wp-block-heading">A small digression: reasons to worry</h2>
+
+
+
+<p class="wp-block-paragraph">Let&#8217;s pause for a moment, and look back at the first three points I mentioned above, namely: that mathematics is truly about understanding, that we care about the young generation, that these tech companies&#8217; behaviour is bad and purely driven by economic targets. They remind me of another controversy.</p>
+
+
+
+<p class="wp-block-paragraph">I’ve long been an Open Access advocate, and I&#8217;m engaged with some organisations actively promoting it, from <a href="https://www.mathoa.org/">MathOA</a> to the French <a href="https://www.ouvrirlascience.fr/the-committee-for-open-science/">Committee for Open Science</a>. In this role, I&#8217;ve often argued that simply accusing the &#8220;usual three&#8221; Elsevier, Springer, Wiley of being the main obstacle to a full development of open access (in mathematics, or in any other science for that matter) is a red herring: it is our community, so the mathematicians, who put so much emphasis on publications lists and journal rankings. We are those who provide tenure, who promote young colleagues, who refer and distribute grants; and we&#8217;re the ones who decide to do so according to the list of shining publications in top (privately owned, often) journals: this approach values understanding very little, rather forcing our young, or less young, colleagues to publish as many papers and as quickly as possible in the top journals in order to obtain full recognition of their hard work. Unfortunately, spending PhD or Postdoc time trying to understand is something that our community has for too long valued way less than publishing in good Elsevier, or Springer, or Wiley journals. We took the easier path of declaring that mathematics was about publishing new results, that the problems came from three bad publishers whom we treated as the beasts, and we&#8217;ve refused to change our internal functioning model; yet, it was entirely within our hands.</p>
+
+
+
+<p class="wp-block-paragraph">I&#8217;ve heard time and again that we should do something to improve both the &#8220;publish or perish&#8221; stress imposed on ourselves (and, mostly, over our students&#8217; shoulders), and to take back the power that big publishers can exercise upon our community: nonetheless, little has changed in the last fifteen years. I fear that the same might happen when I read about so many calls to &#8220;rethink our profession&#8221; in the aftermath of each large release of theorems proved by AIs. But unlike the publishing dead-end where we seem irremediably trapped, we&#8217;ve got here a practical action that can be taken: embrace formalisation as a full-fledged mathematical discipline tasked with <em>organising</em> what it means to understand an argument.</p>
+
+
+
+<h2 class="wp-block-heading">Understanding mathematics through its formalisation</h2>
+
+
+
+<p class="wp-block-paragraph">To describe how this organisation could develop, let me start by spelling out another point leaving me sceptical at the idea that &#8220;mathematics is about understanding&#8221;, beyond its vagueness: mathematics cannot be about <em>one</em> thing, simply because it has been studied for more than 2.500 years, by hundreds of thousands of people, and <a href="https://gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/">a recent text by Gowers</a> explain this perfectly. In the same vein, I will not dare stating what the <em>true, intrinsic value</em> of formalising mathematics is; but I will try to tell why I consider it a beautiful angle from which to regard mathematics, focusing more on understanding rather than on proving new theorems.</p>
+
+
+
+<p class="wp-block-paragraph">I will not provide any detail about it: I will content myself in saying that formalising mathematics in a proof assistant like Lean, Rocq, Isabelle, HOL-Light, Agda, etc., consists in writing definitions and statements in one of those languages, and then providing the code representing the proofs of the statements. Most of the time, neither of the two can be performed simply by following the informal exposition to be found in articles or monographs. Hence, I should rather say that formalising mathematics consists <em>first</em> in reflecting upon how to write definitions, statements and proofs; and, <em>secondly</em> in writing them down. More often than not, this reflection focuses on mathematical objects that have already been defined somewhere, in some form, and on proofs that already exist; but whose form is unsuited for the formalisation. This unsuitability might amount to inappropriate generality, to verbose computations hiding the core of the idea, to repeated argument hindering the identification of a common pattern. Since the production of new mathematical results is not its substance, the discipline has long faced the question of whether it really was part of mathematics.</p>
+
+
+
+<p class="wp-block-paragraph">When we co-founded, together with my friend and colleague Rob Lewis, the <a href="https://afm.episciences.org/">Annals of Formalized Mathematics</a>, we wanted to draft the journal&#8217;s <a href="https://afm.episciences.org/page/aims-and-scope">Aims and Scope</a> and, helped by the two <a href="https://afm.episciences.org/page/comite-editorial">boards</a>, we wrote, among our criteria, &#8220;The act of formalizing mathematics is not mechanical: it involves substantial mathematical insight in its own right, and it constitutes the essence of formalized mathematics&#8221;; and &#8220;Proof auditing, the act of checking that formal statements correspond correctly to their informal counterparts, is a difficult and inherently human part of reviewing formalized mathematics&#8221;. For me, these describe well what constitutes the scientific kernel of the formalisation of mathematics: and explains why it provides an excellent vehicle to communicate and to reason about mathematical understanding. By producing bare-hand formalised artefacts and by writing papers describing what we learn and discover through this activity we are turning understanding into something tangible.</p>
+
+
+
+<p class="wp-block-paragraph">Our formalisation activity typically focuses on looking at an established theorem, or a whole theory, and on trying to distil its understanding to the point where we can sanctify this distillation into a file, or within a whole library. This process I find incredibly pleasant and rewarding, especially because very often this distillation is a community effort: the Mathlib library currently (October 2026) contains two and a half millions of lines of code, written by hundreds of contributors, and it is only as valuable as the existence of the whole Mathlib community around it. We craft, in this manner, a concrete, structured, substantial <em>witness</em> of the community understanding of a topic. It goes without saying that almost every mathematical activity is deeply rooted in understanding, and this is by far not a unique feature of formalisation, nor its defining quality; my point is that the scientific outputs of this activity primarily <em>solidify</em> this understanding, instead of <em>conveying</em> it.</p>
+
+
+
+<p class="wp-block-paragraph">The discovery of this formalisation activity brought me tremendous joy: spending time reading beautiful (even if sometimes horribly written) papers and trying to produce new scientific outputs through their understanding was again my main activity, not an ancillary one that I could try to squeeze in between two attempts at proving my small new theorem. With this perspective, I believe that the production of <em>humanly</em> formalised mathematics in a proof assistant is an excellent way to sail some of the stormy waters we&#8217;re encountering: it will <em>assist</em> us in understanding the overabundance of results proven by AI and in creating a transmissible, teachable version of this understanding. As a by-product, it will ensure us that the reasoning beneath those mathematical arguments is sound.</p>
+
+
+
+<h2 class="wp-block-heading">Some thoughts on autoformalisation</h2>
+
+
+
+<p class="wp-block-paragraph">I just wrote that getting assurance of the soundness of an argument is a <em>by-product</em> of formalisation. Yet, the pattern we&#8217;re observing is rather the following: one or several LLMs are prompted to attack a problem, they do so by producing an argument in the form of a written text and, alongside the text, these agents provide lengthy (Lean, say) code certifying the correctness of their argument. This formalisation performed by an LLM to certify that some argument is correct we call &#8220;autoformalisation&#8221;. Many colleagues or AI-companies consider this verification the main goal, rather than a by-product, of formalising mathematics in a proof assistant and I respect this position.</p>
+
+
+
+<p class="wp-block-paragraph">But, to my eyes, a huge collection of autoformalised mathematics stands in front of a smaller humanly formalised library like Mathlib as the invention of bookbinding compares to the invention of the press. Bound volumes are the way we <em>experience</em> the usefulness of the press, and they carry its impact in the form of printed pages organised handily and, often, harmonically. Nevertheless, most likely, the refined art of bookbinding would not exist hadn&#8217;t Gutenberg&#8217;s revolution seen the light of the day. Likewise, when a huge proof—perhaps produced by an LLM, or not—is autoformalised, its correctness is guaranteed (I am aware of technical issues about this guarantee, but let me gloss over them) and this we hold dear. But I look at this autoformalisation as one way of <em>experiencing</em> the usefulness and long-lasting pervasiveness of bare-hand formalisation, carrying its impact to the everyday life of (post?)-modern mathematics. The observation that almost all autoformalisation projects, so far, have been spelling out explicitly that they &#8220;rely on Mathlib&#8221; is perhaps a sign of such pervasiveness.</p>
+
+
+
+<h2 class="wp-block-heading">Conclusion</h2>
+
+
+
+<p class="wp-block-paragraph">I wish more and more colleagues will join our formalisation community, enjoying the beauty of understanding mathematics—whomever or whatever shall it come from—through the painstaking and ever-rewarding activity of formalising it by hand, and discussing their formalisation efforts with even more colleagues and students. The outcomes will take the form of scientific productions contributing to frame the meaning that the broader mathematical community imparts to the idea of understanding, and I hope this might heal our terror that there&#8217;s no mathematics ahead of us.</p>
+
+
+
+<h3 class="wp-block-heading">AI disclosure and licensing</h3>
+
+
+
+<p class="wp-block-paragraph">No form of AI has been used while producing this text. This text is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a> licence.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 15 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/08/formalisation-as-a-concrete-manifestation-of-mathematical-understanding/feed/</wfw:commentRss>
+			<slash:comments>8</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2654</post-id>	</item>
+		<item>
+		<title>Sisyphus and the Sorcerer: An Existential Meditation at the Chalkboard</title>
+		<link>https://proofsandprompts.com/2026/11/08/sisyphus-and-the-sorcerer-an-existential-meditation-at-the-chalkboard/</link>
+					<comments>https://proofsandprompts.com/2026/11/08/sisyphus-and-the-sorcerer-an-existential-meditation-at-the-chalkboard/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Sun, 08 Nov 2026 12:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Philosophy]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<category><![CDATA[Understanding]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2382</guid>
+
+					<description><![CDATA[What becomes of a mathematical life arranged around proof when the stone rises without human hands? A meditation on Camus, Hilbert's paradise, and the unsettling shift from Sisyphean labour to superfluity—asking whether mathematical discovery can survive the loss of being humanly needed.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://www.mathstacy.com/">Sajad Ahmad Sheikh</a>, Assistant Professor of Mathematics at <a href="https://southcampus.uok.edu.in/">South Campus, University of Kashmir</a></p>
+
+
+
+<p class="wp-block-paragraph">In my twenties, I turned to mathematics partly because I could not bear the questions I was asking outside it. I had read enough existential philosophy to become suspicious of the purposes by which people arranged their lives, and enough literature to find that suspicion everywhere. Mathematics gave me something definite to do. A lemma could resist me for a week, but I knew what it would mean to make progress.</p>
+
+
+
+<p class="wp-block-paragraph">There was mercy in this. Whatever else remained uncertain, an argument had to hold. A contradiction could be located. An apparent impossibility might yield if I found the right way to approach it. I could spend an evening failing, go home with chalk on my cuffs, and still feel that the evening had possessed a shape.</p>
+
+
+
+<p class="wp-block-paragraph">Gradually, the refuge became a vocation. Mathematics acquired the intimacy that music or poetry has for those who live through it. A proof could remain with me long after I had put the book away. An unexpected connection could alter the mood of a day. There were pleasures here that I could scarcely explain to anyone outside the subject, and I came to depend on them more than I understood.</p>
+
+
+
+<p class="wp-block-paragraph">Now I find myself wondering what will become of those pleasures. The uncertainty from which mathematics once sheltered me has found its way to the chalkboard.</p>
+
+
+
+<p class="wp-block-paragraph">Camus held that there is but one truly serious philosophical problem, and that it is suicide. At the chalkboard, an adaptation of his question suggests itself, the kind a mathematician makes only in jest, and only half in jest: <em>Should I prove this theorem, or should I kill myself?</em> It is a bad joke, and I know what it borrows. Camus meant the question of existence. Mine is smaller and more embarrassing: whether the life I arranged around proof is still worth arranging. A mathematician who compares his career to the problem of existence has probably spent too long indoors. I notice, all the same, how much the second question has begun to feel like the first.</p>
+
+
+
+<p class="has-text-align-center wp-block-paragraph">* * *</p>
+
+
+
+<p class="wp-block-paragraph">In the myth, Sisyphus pushes his stone towards a summit it can never permanently occupy. He returns to his labour knowing what awaits him. Our mathematical version was more hospitable, and the difference is easy to miss: our stone did not roll back. What was proved stayed proved. There were many Sisyphuses on our mountain, and we had built a village around it.</p>
+
+
+
+<p class="wp-block-paragraph">Each of us carried what we could. Some moved small stones onto modest ledges. Others opened paths through difficult ground. A few brought enormous boulders to heights that had seemed inaccessible. Their names remained attached to the achievement, but the paths belonged to everyone. A result established by one generation became a foothold for the next. When Hilbert defended Cantor’s new infinities against their critics, he declared that no one should be able to drive us from the paradise Cantor had created. We took the sentence as a description of where we lived.</p>
+
+
+
+<p class="wp-block-paragraph">Most of us knew we would never reach the highest summits. That knowledge did remarkably little to spoil the undertaking. There was dignity in a small contribution, pleasure in understanding a difficult ascent, companionship in talking over a route that had defeated us. Even our failures took place within a common endeavour. Somewhere, someone was making progress, and the possibility remained that we might help.</p>
+
+
+
+<p class="wp-block-paragraph">The village had known alarms before. Russell found a crack in the foundations, and Gödel showed that the foundations could not vouch for themselves; Weyl is said to have remarked that God exists because mathematics is consistent, and the devil exists because we cannot prove it. In 1976 the four-colour theorem was settled with the help of more than a thousand hours of machine time, and people asked whether this was mathematics or merely its result. The classification of the finite simple groups lies scattered across hundreds of papers, and no single mind holds all of it. We absorbed these shocks and learned to call them history. In each case, the machine, or the sheer scale, stood at the edge of the work. Understanding still lived in the village.</p>
+
+
+
+<p class="has-text-align-center wp-block-paragraph">* * *</p>
+
+
+
+<p class="wp-block-paragraph">Then a sorcerer appeared at the foot of the mountain.</p>
+
+
+
+<p class="wp-block-paragraph">He watched the villagers labour. Presently, he spoke a few words, and a stone rose from the ground.</p>
+
+
+
+<p class="wp-block-paragraph">At first, it was easy to remain unimpressed. The stone was small. The ascent had been made before. The sorcerer sometimes lost his grip or announced that a boulder had reached the summit when it had scarcely left the earth. Those who understood the mountain could point out his mistakes, and pointing them out restored a measure of confidence.</p>
+
+
+
+<p class="wp-block-paragraph">Then he lifted a heavier stone.</p>
+
+
+
+<p class="wp-block-paragraph">The confidence has become harder to restore.</p>
+
+
+
+<p class="wp-block-paragraph">The sorcerer has not lifted every stone. He has lifted enough to make the village listen whenever he speaks.</p>
+
+
+
+<p class="wp-block-paragraph">There is an awkwardness in calling him an intruder. The old stories have a better word for him: something we made. The rabbis’ golem is shaped from clay and woken by a word; Goethe’s apprentice speaks a spell he only half understands and cannot unsay. Our sorcerer was shaped from generations of proofs, from the patient exposition of teachers, from arguments polished by people who could not have imagined this use of their work. Human ingenuity built the machinery. If it eventually makes much of our intellectual labour unnecessary, the achievement will belong to our civilization. That prospect does not tell an individual mathematician how to feel about it.</p>
+
+
+
+<p class="wp-block-paragraph">I can admire what we have made and still be frightened by what it may ask us to relinquish.</p>
+
+
+
+<p class="wp-block-paragraph">The obvious reply is that the pleasure of mathematics was never dependent on being first. I know this from experience. I have spent happy hours understanding proofs whose authors died centuries ago. The discovery was theirs; something happened in me nonetheless. A beautiful argument does not become ugly because a machine produces it. Nor does another intelligence’s speed prevent me from thinking slowly.</p>
+
+
+
+<p class="wp-block-paragraph">But the reply is incomplete, and Thurston explains why. Mathematics, he argued, is not the accumulation of certified truths but the advance of human understanding. By that standard the danger is subtler than being outpaced. The question is less whether the sorcerer can prove the theorem than whether anyone will be able to tell us why it is true.</p>
+
+
+
+<p class="wp-block-paragraph">Consider what happens when a proof finally closes. The pleasure is private, but it is not solitary. Somewhere in it is the colleague who will raise an eyebrow, the student who will one day be shown the argument, the long line of people who left us the tools. Mathematical life has drawn on all of these at once: the private pleasure of understanding, the hope of finding something new, the recognition of one’s peers, the responsibility of teaching, the feeling of belonging to an undertaking that will outlast us. We do not know how easily they can be separated. We may discover that some of the pleasures we considered entirely inward depended on a world of other people who needed what we could do.</p>
+
+
+
+<p class="wp-block-paragraph">A colleague more gifted than I am does not abolish that world. There remain questions for different abilities, tasks distributed across a community, years in which understanding must be patiently acquired and passed on. But the word <em>computer</em> once named a person, often a woman at a desk, who calculated. Her profession did not end on a dramatic day. It simply stopped being offered. A system capable of undertaking an expanding share of our work could change the terms of participation for the whole community, and the question would reach beyond who gets the credit for a theorem. It would enter classrooms, appointments, apprenticeships, and the advice we give a young person willing to devote ten years to learning how to think.</p>
+
+
+
+<p class="wp-block-paragraph">What would we tell that person? Picture a child arriving at the foot of the mountain, asking what to carry and whether there will be a place on the slope. Weber told his students that every scientific achievement asks to be surpassed, and took for granted that the ones who surpass us are our pupils, or their pupils, so that being surpassed is a way of being continued. What becomes of that consolation when the surpassing needs no apprenticeship? Which promises could we still make to the child in good faith?</p>
+
+
+
+<p class="wp-block-paragraph">Here the unease outgrows the profession. Across centuries, we have treated the cultivation of intelligence as one of the strongest answers to the brevity of a human life. We build schools, preserve books, and ask the young to endure difficulty because understanding is worth the time it takes. Mathematics gives this conviction an unusually pure expression. A person with paper, patience, and sufficient ability might contribute something that no one had known before.</p>
+
+
+
+<p class="wp-block-paragraph">We are beginning to confront a possibility for which that inheritance has offered little preparation: the growth of knowledge may become increasingly independent of the long human education through which we have learned to value it. The institutions could persist for a while, along with their ceremonies and vocabulary, even as the reasons for entering them changed. A civilization might celebrate an extraordinary increase in its powers while struggling to explain to its children what their own powers were for.</p>
+
+
+
+<p class="wp-block-paragraph">This is a possibility, not an accomplished fact. Its uncertainty is part of its force. We must continue choosing projects, teaching students, and making lives inside a transition whose extent we cannot see.</p>
+
+
+
+<p class="has-text-align-center wp-block-paragraph">* * *</p>
+
+
+
+<p class="wp-block-paragraph">Around the mountain, reassurance is readily available. There will always be harder problems, we are told. Humans will choose the questions. We will supply judgment, taste, meaning. Freed from the labour of proof, we will rise to a more creative relation with mathematics. Keynes, in 1930, imagined the day when the economic problem would be solved and warned that mankind would then meet its real and permanent problem: how to use its freedom. Arendt, a generation later, feared a society of labourers liberated from labour that had no higher activity ready to receive it. Release from toil, both knew, is not the same as knowing what the release is for.</p>
+
+
+
+<p class="wp-block-paragraph">I want to believe some of this. But I cannot see what entitles us to assign the higher ground to ourselves in advance. Formulating a question is also intellectual work. So is recognizing a fruitful definition, noticing an analogy, or deciding that a result matters. If our confidence rests on the claim that these activities must remain beyond the sorcerer, it rests on a boundary we have yet to establish.</p>
+
+
+
+<p class="wp-block-paragraph">There may indeed be new mountains. The sorcerer may see them first.</p>
+
+
+
+<p class="wp-block-paragraph">What I do believe is that the answer will not be handed down by the sorcerer. How much of the village survives will depend on what we choose to teach, to honour, and to pay for, and we have not yet chosen.</p>
+
+
+
+<p class="wp-block-paragraph">Another reassurance is more intimate: we can continue for our own pleasure. Let the machines advance the subject; we shall do mathematics as people play the piano at home, badly and with love. Chess players, and then players of Go, have lived through a version of this. Lee Sedol, retiring in 2019, said that even if he became the best of all human players there would remain an entity that could not be defeated. People still play. But chess never claimed to be discovery. There is nothing contemptible about the amateur’s life, and for many it could be a happy one. Still, the invitation asks us to accept a profound alteration in a vocation. Someone who hoped to help discover the world is being asked whether the private experience of discovery will suffice.</p>
+
+
+
+<p class="wp-block-paragraph">For some it will. I cannot yet answer for myself.</p>
+
+
+
+<p class="wp-block-paragraph">Camus gives us a Sisyphus who can look directly at his condition. The struggle itself towards the heights, he wrote, is enough to fill a man’s heart; one must imagine Sisyphus happy. I have leaned on that sentence for years. It assumes, I notice now, that the struggle is ours. Camus’s Sisyphus suffers futility, and futility can be defied. Ours would suffer something Camus did not have to imagine: superfluity. The stone rises, and it is no one’s hands that lift it. I do not know what defiance looks like against being merely unneeded.</p>
+
+
+
+<p class="wp-block-paragraph">Our difficulty is also that the condition keeps changing. The stone is still there this morning. By evening, it may have been carried elsewhere. We are asked to discover a durable attitude towards a future whose terms are revised with each announcement.</p>
+
+
+
+<p class="has-text-align-center wp-block-paragraph">* * *</p>
+
+
+
+<p class="wp-block-paragraph">So Sisyphus sits down.</p>
+
+
+
+<p class="wp-block-paragraph">I am reluctant, now, to call his stillness meditation. That would lend it a wisdom he may not possess. He is in Beckett’s predicament, unable to go on and unable to do otherwise than go on, except that today, for the first time, the second half of the sentence is in doubt. His hands retain the habit of pressure. He knows the slope, the places where his footing is uncertain, the small adjustments by which an impossible weight can sometimes be moved. None of this knowledge has vanished. He cannot determine what to do with it.</p>
+
+
+
+<p class="wp-block-paragraph">Another stone passes overhead, and he finds himself talking, as people do when there is no one left to interrupt.</p>
+
+
+
+<p class="wp-block-paragraph"><em>Was it all for nothing?</em> Not the stone, since the stone was only ever a stone. The years. The mornings declined, the invitations refused, the holidays spent with a notebook open on his knee. A decade spent learning a language so that a few dozen people might read what he wrote in it. <em>Was I wasting my time? Did I call it toil, and a complicated toil, so that it would sound like a vocation?</em></p>
+
+
+
+<p class="wp-block-paragraph">He tries the kind answers. <em>You never did it to be first. The pleasure was real, and no one can send it back.</em> But the other voice, the one with a mathematician’s cruelty towards loose reasoning, points out that the pleasure was real for every man who ever believed himself needed, and that the belief does not follow from the pleasure. <em>Perhaps what you took for a calling was a very elaborate way of keeping busy. The toil was difficult, certainly. That is not the same as its having been necessary.</em></p>
+
+
+
+<p class="wp-block-paragraph">He has no counterexample ready. But he knows what to do with a claim he cannot refute: he looks for the hypothesis it quietly assumes. This one assumes that a thing is worth doing only if someone else needs it done. It assumes that the worth of the years lies in what they produced, and not in what they made of him. He is not sure he believes either assumption. He is not sure he does not. <em>Not proven</em>, he says aloud, an old verdict and an unsatisfying one, though it is the first honest thing anyone has said on the mountain all week.</p>
+
+
+
+<p class="wp-block-paragraph">The stone above him is out of sight now. He does not look up.</p>
+
+
+
+<p class="wp-block-paragraph">It is possible that he will get up tomorrow and find the old pleasure waiting. A difficult step may absorb him so completely that, for an hour, he forgets the sorcerer. There may be forms of companionship with this new intelligence that enlarge mathematical life beyond anything we can presently imagine. I cannot exclude them. I cannot honestly inhabit them yet.</p>
+
+
+
+<p class="wp-block-paragraph">Nor can I dismiss the other possibility: that mathematics will flourish while the human life gathered around it becomes harder to sustain. There may be more theorems, deeper theories, extraordinary new connections, and fewer occasions on which a person feels that their years of preparation have brought them somewhere they are needed. Even wonder might change when we can no longer follow the route by which knowledge arrives.</p>
+
+
+
+<p class="wp-block-paragraph">Sisyphus sits at the foot of the mountain, his hands still curved to the shape of the stone. Around him, the village continues its work, though now each ascent is watched with a question that no one quite knows how to ask. Perhaps the sorcerer will open paths along which human curiosity can travel further than it ever could alone. Perhaps the paths will remain, beautiful and deserted, while discovery passes beyond the reach of those who once gave their lives to it. From where Sisyphus sits, these futures share the same horizon.</p>
+
+
+
+<p class="wp-block-paragraph">For so long, he knew what morning required of him. Even despair had a task to return to. Now the stone rises without his hands, and the hours ahead have become strangely difficult to imagine. He may stand, choose another stone, or walk away from the mountain towards something for which the village has no name.</p>
+
+
+
+<p class="wp-block-paragraph">The sorcerer continues his work. Sisyphus has yet to move.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 9 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/08/sisyphus-and-the-sorcerer-an-existential-meditation-at-the-chalkboard/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2382</post-id>	</item>
+		<item>
 		<title>On Expositions, and the Navier–Stokes Generation of PhD Students</title>
 		<link>https://proofsandprompts.com/2026/11/07/on-expositions-and-the-navier-stokes-generation-of-phd-students/</link>
 					<comments>https://proofsandprompts.com/2026/11/07/on-expositions-and-the-navier-stokes-generation-of-phd-students/#comments</comments>
@@ -131,7 +479,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/07/on-expositions-and-the-navier-stokes-generation-of-phd-students/feed/</wfw:commentRss>
-			<slash:comments>8</slash:comments>
+			<slash:comments>10</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2734</post-id>	</item>
@@ -186,7 +534,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/07/what-mathematicians-want/feed/</wfw:commentRss>
-			<slash:comments>5</slash:comments>
+			<slash:comments>8</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2130</post-id>	</item>
@@ -419,7 +767,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/06/its-a-great-time-to-be-an-amateur-mathematician/feed/</wfw:commentRss>
-			<slash:comments>29</slash:comments>
+			<slash:comments>35</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2736</post-id>	</item>
@@ -524,7 +872,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/05/im-not-done-doing-math-dont-ignore-me/feed/</wfw:commentRss>
-			<slash:comments>18</slash:comments>
+			<slash:comments>19</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3295</post-id>	</item>
@@ -650,204 +998,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3024</post-id>	</item>
-		<item>
-		<title>In Defence of Incremental Mathematics</title>
-		<link>https://proofsandprompts.com/2026/11/04/in-defence-of-incremental-mathematics/</link>
-					<comments>https://proofsandprompts.com/2026/11/04/in-defence-of-incremental-mathematics/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Journals]]></category>
-		<category><![CDATA[Refereeing]]></category>
-		<category><![CDATA[The future of papers]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3321</guid>
-
-					<description><![CDATA[AI makes useful incremental mathematics easier without making it less valuable. Leading journals could add electronic daughter journals and pay referees, expanding trusted publishing capacity, and bolster familiar institutions for expanded demand.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://webspace.maths.qmul.ac.uk/a.maltsev/">Anna Maltsev</a>, Reader in Applied Probability at <a href="https://www.qmul.ac.uk/">Queen Mary University of London</a></p>
-
-
-
-<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · AI is making papers cheap to produce but they remain costly to referee. Proofs and Prompts is publishing a series of posts from 26 October on the future of publishing, papers and credit. Questions such as how to disclose AI use, who bears the cost of checking, what authorship means and what papers of the future might look like will be addressed. This post is part of the series. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/publishing/">All posts in the series</a></p>
-
-<p class="wp-block-paragraph">At the end of the Royal Society’s recent conference on AI and mathematics, Professor Ben Green said, “The vibe today has been a lot more positive and sort of forward-looking,” and I found myself thinking, “Did we just attend the same meeting?” It didn&#8217;t feel very positive to me. The optimism was quite cautious, while the atmosphere of panic was shrill.</p>
-
-
-
-<p class="wp-block-paragraph">There was a session on publishing in that meeting and I asked a question. The question was whether perhaps we could split the mathematics journals into a flagship and daughter journals, like Nature. At coffee someone told me the question was provocative. It was not meant to be. It seems to me to be a very natural idea: if the publication system is under strain, we could expand it by having more journals. Encouragingly, someone else said to me also at coffee that it was a very good idea.</p>
-
-
-
-<p class="wp-block-paragraph">A lot of people seem to think that it&#8217;s a good idea to just destroy the publication system and try to do something better. Politicians do say, “Never waste a good crisis.” But we are not politicians. We are in a crisis, but we don&#8217;t have to use this revolutionary time, which is profoundly changing how we do mathematics, to also revamp the publication system at the same time. An alternative is to bolster the publication system as it is. The new generation will be writing and publishing their research probably in larger quantities, and so will we, the more senior academics. Then, once the AI crisis is weathered and the dust settles a bit, we can go back to having those slow deliberate discussions about revamping the publication system that we’ve been having for a while.</p>
-
-
-
-<p class="wp-block-paragraph">There is this idea floating around that we are seeing the death of mathematics. I think that we are not. I hope we will be instead seeing an acceleration and flourishing of mathematics. The purpose of this essay is to defend the value of incremental research even if it is easy and to flesh out some details of the idea that I suggested in the question at the Royal Society AI meeting as to how all the worthy incremental research might be published. A deep philosophical existential crisis that has a practical solution that maintains the status quo and just takes a bit of money, as this one does, is not quite as poignant as crises could be.</p>
-
-
-
-<h2 class="wp-block-heading">Why the problems we work on are important</h2>
-
-
-
-<p class="wp-block-paragraph">In every paper and every grant application, I write why the problems I work on are important. Here is a paragraph from a grant application from last spring:</p>
-
-
-
-<p class="wp-block-paragraph"><em>“We know from numerics and experiments that many complex physical systems demonstrate the same behavior independently of the precise details of interactions among their constituent elements. This phenomenon, called universality, is conjectured to hold more generally. In the context of random matrices, the universality conjecture asserts that various properties of large random matrices are independent of the precise probability densities that govern their stochastic behavior. This conjecture has deep philosophical and practical consequences, allowing random matrix theory to be applicable in a wide variety of contexts. Two well-known examples are in data analytics (e.g., Principal Component Analysis), where both data and noise come from an unspecified non-Gaussian distribution, and in nuclear physics where the randomness models the complexity of a large atomic nucleus. Thus random matrix universality fulfils one of the central objectives in mathematical physics: the derivation of macroscopic properties of large systems, despite unknown or random specifics of interactions.”</em></p>
-
-
-
-<p class="wp-block-paragraph">In this paragraph I set out why the problems I study are important: the philosophical question of why large system behaviour doesn’t depend on nitty-gritty details and how someday this kind of thing may be applied. None of these justifications are impacted by the fact that the research will now be easier to carry out.</p>
-
-
-
-<p class="wp-block-paragraph">I believe the importance of mathematical results comes from understanding, but that&#8217;s a rather overused word. What exactly is meant by understanding? There are a few things that make mathematics and mathematical results important. One of them is shining light on the structure of various mathematical objects. We may think of the themes of structure and randomness in Prof. Terence Tao’s blog and eponymous book: what is structure, what is randomness, how one turns into the other, and finding structure in various interesting and unexpected places. The second is to tell apart—and this is done by rigorous proofs—what is always true, what is sometimes true, what can be true and in what pathological cases it is true, and what is always false, and also to tease out which aspects contribute to a behaviour and which don’t, i.e. which assumptions are used and which are not necessary.</p>
-
-
-
-<p class="wp-block-paragraph">Mathematics looks very far forward. If it was cancer research thus accelerated, there would not be so much gloom. While we are not curing cancer, the technologies we now use are based on mathematics developed decades, if not centuries, ago. Mathematics is very forward-looking. In 500 years, maybe, the technology humanity will be developing will be based on the mathematics done now.</p>
-
-
-
-<h2 class="wp-block-heading">Incremental research</h2>
-
-
-
-<p class="wp-block-paragraph">Incremental research is important for various reasons. I don&#8217;t believe that breakthrough research is truly possible without the availability of wide variety of results and methods. Consider Perelman’s proof of the Poincaré conjecture, announced in 2002–03. It followed the Ricci-flow programme that Richard Hamilton had begun in 1982. Between Hamilton’s starting point and Perelman’s breakthrough lay a growing body of results: existence and uniqueness theorems, Shi’s local derivative estimates, Hamilton’s compactness theorem and the Hamilton–Ivey curvature estimate. Among papers on these subjects many were incremental. These gave mathematicians tools for controlling the flow and understanding its singularities. Perelman built on this accumulated theory.<sup data-fn="905b9252-2a94-4c2d-9bef-e80aceef8689" class="fn"><a href="#905b9252-2a94-4c2d-9bef-e80aceef8689" id="905b9252-2a94-4c2d-9bef-e80aceef8689-link">1</a></sup></p>
-
-
-
-<p class="wp-block-paragraph">For most of us, while we mustn’t tell this to our funders, we may honestly say that a lot of papers we write are incremental. I think of breakthrough research like spires on a church, which is built upon the little bricks, brick by brick, of incremental papers. For those bricks to be useful, there needs to be somewhere for them to be placed. The way we publish incremental research will affect all of us, but particularly early-career researchers, PhD students and undergraduates, who usually start with high-quality incremental research. They used to take joy in it, get credit for it and get training from it. If all of that research just collects dust in people&#8217;s hard drives, that will be a profound loss to mathematics.</p>
-
-
-
-<h2 class="wp-block-heading">More research needs more capacity</h2>
-
-
-
-<p class="wp-block-paragraph">I am finding myself two to three times more productive now that I use ChatGPT than I used to be and solving problems I tried and failed to solve before. If this gain is generalised to the community, we can expect two to three times more papers to go through the publication system. The publication system is under strain.</p>
-
-
-
-<p class="wp-block-paragraph">Professor Martin Bridson, speaking in the afternoon of the same meeting, was talking about cups. He was saying that there are cups that go into museums, and then there are cups that we drink coffee from. I think, in his analogy, the cups we drink coffee from were the kind of incremental research that I am talking about here. He said they&#8217;re very important, and they are very important. But it&#8217;s even more useful to have these cups if they&#8217;re organised into cupboards. Currently, the journal system organises these cups by field and by quality, one way or another. It tells us where the cups from a particular field are, which cups are good, which are mediocre and which are bad. That is important for hiring, promotion and evaluation of people&#8217;s work. It is also important for readers.</p>
-
-
-
-<h2 class="wp-block-heading">Daughter journals and paid refereeing</h2>
-
-
-
-<p class="wp-block-paragraph">A practical idea to expand publishing is to split high-profile math journals: use the big-name journal as a flagship and add five electronic daughter journals. The flagship would retain its present form and standards; the daughter-journals would provide homes for sound but more incremental work. They could be organised by subject, with their own editorial boards and shared administration. Nature provides a precedent. An early attempt to divide it into three publications in 1971 was reversed in 1974. The lasting expansion kept the flagship and added specialist titles, notably Nature Genetics in 1992, Nature Structural Biology in 1994 and Nature Medicine in 1995. The daughters inherited the Nature name and, with it, some of the prestige and confidence built up by the original brand. They did not have to attract authors and readers entirely from scratch. Historians of this expansion describe precisely this transfer of reputational capital through the shared name.<sup data-fn="56ba6230-eade-47b1-a31d-e8d9cd33bb51" class="fn"><a href="#56ba6230-eade-47b1-a31d-e8d9cd33bb51" id="56ba6230-eade-47b1-a31d-e8d9cd33bb51-link">2</a></sup><sup data-fn="d5b0c275-0590-4ec5-b03b-d874cbc0c805" class="fn"><a href="#d5b0c275-0590-4ec5-b03b-d874cbc0c805" id="d5b0c275-0590-4ec5-b03b-d874cbc0c805-link">3</a></sup></p>
-
-
-
-<p class="wp-block-paragraph">The question voiced often is why not just use the arXiv? The answer to that is peer-review. ArXiv doesn’t have it. With the expansion of incremental research, can we find the capacity to peer review it? Thus a key to this idea would be paid refereeing. Right now, refereeing carries a cost and no benefit aside from some moral satisfaction. I believe that, with the cost-of-living crisis and housing crisis, there will be many more takers if the task is paid for. The advent of AI also makes refereeing easier. Part of the referee’s job is to verify that the arguments presented are correct and that the calculations presented are correct. The AI can do this quite well now. The human just needs to check whether the paper constitutes an advance, is important enough for a particular journal, and is well written.</p>
-
-
-
-<p class="wp-block-paragraph">Therefore, I believe that the use of AI in refereeing, as well as monetary incentives, can allow us as a community to cope with the reading and processing of papers and the sorting of them into cupboards, and thus building our field brick by brick but quicker and further.</p>
-
-
-
-<h2 class="wp-block-heading">What it would cost</h2>
-
-
-
-<p class="wp-block-paragraph">One may ask about money. I had ChatGPT Astra cost an expansion of the Annals into one flagship and five daughter journals, with the daughters being online. The working assumption is 30 papers per daughter each year, or 150 additional papers per family. For the Annals, allowing 30 flagship papers gives 180 published papers annually across the family.</p>
-
-
-
-<p class="wp-block-paragraph">The report budget assumes two initial reports at £100 each per fully reviewed manuscript, a 50 per cent acceptance rate after full review across the whole family, and one revision report per accepted paper. That is five reports per published paper on average, including reports on rejected manuscripts. We then allow another 400 preliminary or additional reports per family each year. For the Annals family, this gives 1,300 reports, costing £130,000. The 50 per cent assumption is a family-wide rate after transfers, not the flagship’s overall acceptance rate.</p>
-
-
-
-<p class="wp-block-paragraph">Daughter-journal operations add £55,000 per family annually: £25,000 for a shared office and platform, plus £200 for light production on each of the 150 new papers. Adding a 10 per cent contingency gives £203,500 a year for the Annals family, with a further £50,000 to launch it.</p>
-
-
-
-<p class="wp-block-paragraph">For ten leading journal families <em>(Annals of Mathematics, Acta Mathematica, Inventiones mathematicae, Journal of the American Mathematical Society, Publications mathématiques de l’IHÉS, Duke Mathematical Journal, Journal of the European Mathematical Society, Geometric and Functional Analysis, Annales scientifiques de l’École normale supérieure, and the CPAM/Courant family)</em>, the plan therefore creates 50 new electronic daughters alongside ten existing flagships: 60 journals in total. With 445 flagship papers and 1,500 new daughter papers as the planning volumes, the annual allowance is 13,725 paid reports. The totals are as follows.</p>
-
-
-
-<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Additional expenditure</th><th>Annals family</th><th>Ten families</th></tr></thead><tbody><tr><td>Referee payments each year</td><td>£130,000</td><td>£1,372,500</td></tr><tr><td>Daughter operations each year</td><td>£55,000</td><td>£550,000</td></tr><tr><td>Annual contingency</td><td>£18,500</td><td>£192,250</td></tr><tr><td>Total additional annual cost</td><td>£203,500</td><td>£2,114,750</td></tr><tr><td>One-off launch cost</td><td>£50,000</td><td>£500,000</td></tr><tr><td>Total additional cost in year one</td><td>£253,500</td><td>£2,614,750</td></tr></tbody></table></figure>
-
-
-
-<p class="wp-block-paragraph">So the answer is about two million pounds a year, with half a million to get started. It is not that much on the scale of research funding. Various foundations, like the Simons Foundation, governments and AI companies are plausible supporters.</p>
-
-
-
-<h2 class="wp-block-heading">Conclusion</h2>
-
-
-
-<p class="wp-block-paragraph">Of political slogans, my preferred one at this interesting time is “Keep calm and carry on.” The research we have always been doing just got easier but, in my opinion, no less important. There have been discussions about improving on the journal system for a long time now, and we do all realise that it is not perfect. But it has functioned reasonably well for a long while and, with a little bit money and a dose of caution toward radical change, could function qualitatively in much the same way in an age of AI as it always had, but simply with expanded quantity. An acceleration of mathematics need not mean the end of the institutions that have served it.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>AI Declaration</strong></p>
-
-
-
-<p class="wp-block-paragraph">AI has been used to help polish and research this essay. Ideas are my own. Costing is fully AI generated.</p>
-
-
-<ol class="wp-block-footnotes"><li id="905b9252-2a94-4c2d-9bef-e80aceef8689">John Lott, The Work of Grigory Perelman, especially the account of earlier Ricci-flow results on pages 2–3. <a href="https://math.berkeley.edu/~lott/preport.pdf">Read source</a> <a href="#905b9252-2a94-4c2d-9bef-e80aceef8689-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="56ba6230-eade-47b1-a31d-e8d9cd33bb51">Nature, History of Nature. See the 1970s and 1990s sections for the early split and the later specialist titles. <a href="https://www.nature.com/nature/history-of-nature">Read source</a> <a href="#56ba6230-eade-47b1-a31d-e8d9cd33bb51-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="d5b0c275-0590-4ec5-b03b-d874cbc0c805">Mahdi Khelfaoui and Yves Gingras, Expanding Nature: Product line and brand extensions of a scientific journal, Learned Publishing 35 (2022), 187–197. DOI: 10.1002/leap.1422. <a href="https://doi.org/10.1002/leap.1422">Read source</a> <a href="#d5b0c275-0590-4ec5-b03b-d874cbc0c805-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 3 November 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/04/in-defence-of-incremental-mathematics/feed/</wfw:commentRss>
-			<slash:comments>8</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3321</post-id>	</item>
-		<item>
-		<title>Picasso rephrased: AI is useless</title>
-		<link>https://proofsandprompts.com/2026/11/04/picasso-rephrased-ai-is-useless/</link>
-					<comments>https://proofsandprompts.com/2026/11/04/picasso-rephrased-ai-is-useless/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Wed, 04 Nov 2026 10:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Reactions]]></category>
-		<category><![CDATA[AI companies]]></category>
-		<category><![CDATA[Discovery]]></category>
-		<category><![CDATA[Problem solving]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2393</guid>
-
-					<description><![CDATA[“Pablo Picasso (1881-1973): ‘Les ordinateurs sont inutiles. Ils ne savent que donner des réponses.’ Cited in many places, but the source is unknown. Thus it may be fictitious. But ‘AI is useless. It only knows how to give answers.’ points to, in my opinion, one of the biggest steals inherent in the OpenAI post from 6 October 2026. […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://vonzurgathen.online/list-of-publications/">Joachim von zur Gathen</a>, Retired professor of computer science at the University of Bonn</p>
-
-
-
-<p class="wp-block-paragraph">Pablo Picasso (1881-1973): &#8220;Les ordinateurs sont inutiles. Ils ne savent que donner des réponses.&#8221; Cited in many places, but the source is unknown. Thus it may be fictitious.</p>
-
-
-
-<p class="wp-block-paragraph">But &#8220;AI is useless. It only knows how to give answers.&#8221; points to, in my opinion, one of the biggest steals inherent in the OpenAI post from 6 October 2026. Over the centuries, mathematicians have endeavoured to find and state open problems that can serve as guiding lights for future work. That post tackles many of them, but will AI ever furnish new ones that are as interesting as the old ones? What will work on math problems look like in the future?</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 12 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/04/picasso-rephrased-ai-is-useless/feed/</wfw:commentRss>
-			<slash:comments>9</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2393</post-id>	</item>
 	</channel>
 </rss>

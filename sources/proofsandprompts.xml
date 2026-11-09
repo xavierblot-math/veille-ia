@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Sun, 08 Nov 2026 14:30:06 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 09 Nov 2026 09:02:05 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,212 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>The shape of mathematical knowledge</title>
+		<link>https://proofsandprompts.com/2026/11/09/the-shape-of-mathematical-knowledge/</link>
+					<comments>https://proofsandprompts.com/2026/11/09/the-shape-of-mathematical-knowledge/#respond</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Mon, 09 Nov 2026 10:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Future]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=1862</guid>
+
+					<description><![CDATA[In this essay I discuss the opportunity to reimagine the way mathematics is organized, produced and transmitted, while at the same time reconsidering the values that guide our research.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://sites.google.com/view/lerario/home">Antonio Lerario</a>, Professor of Mathematics, <a href="https://www.sissa.it/">SISSA</a>, Trieste</p>
+
+
+
+<p class="wp-block-paragraph"><em>AI disclosure:</em> ChatGPT 5.6 was used during the preparation of this essay for language editing, discussions about exposition and clarity, assistance with bibliographic and factual checks. The ideas, arguments, and positions expressed herein are my own.</p>
+
+<p class="wp-block-paragraph">Large language models are today capable of exploring new mathematical ideas, developing arguments, producing examples and helping with formalization. This development belongs to a longer trajectory of externalization of aspects of the human cognitive process, a trajectory that now seems to include parts of mathematical reasoning itself. There may be theoretical, computational, economic, or physical limits that we cannot yet estimate. However, there is a concrete possibility that artificial intelligence will play an increasing role in the future of our research practice. Specifically for mathematics this possibility calls for a reflection on the relation between our capacities, our shared knowledge and our understanding of it. In this situation, I think we have an opportunity to reimagine the way mathematics is organized, produced and transmitted and at the same time to reconsider the values that lead our research. In this note I will explore such an opportunity by discussing a possible paradigm shift.</p>
+
+
+
+<p class="wp-block-paragraph">Before entering the argument, I would like to make a few preliminary remarks. First, I treat this short essay as a philosophical exercise. The consequences of artificial intelligence extend far beyond the scope of this text: they concern political and economic power, the distribution of resources, recognition of intellectual authorship, governance and the environment. At the extreme they concern the future of humanity itself: what will happen to mathematics has little importance in a world we can no longer inhabit. Moreover, any reasoning on the possible adoption of artificial intelligence in our research practice is conditional on this technology being aligned with human values and available at an ethically acceptable cost. I insist on this point, which I consider a non negotiable condition. Finally, a philosophical caution that runs through the essay: in a broadly Wittgensteinian spirit, I will use words such as <em>knowledge</em> or <em>understanding</em> in the sense they have acquired within our practices, without giving them any a priori metaphysical meaning. This is the perspective I will adopt here.</p>
+
+
+
+<p class="wp-block-paragraph">The argument that follows rests on three points. The first one concerns the aim of science: scientific progress should contribute to human life, improving our understanding of the world, elevating our culture and giving us new abilities to confront scientific and material problems. The second is an openness principle: we should remain open to the possibility that artificial intelligence may contribute effectively to the mathematical process and to accepting such contributions. This principle does not imply that we should accept such contributions without reservation. What I mean is that I do not see the fact that a contribution has an artificial origin as a sufficient reason to exclude it; I think we should assess it fairly, considering its validity and the opportunities it offers.<sup data-fn="fn-3f1fd980-0ab9-423a-ab4a-488c7c6f40a0" class="fn"><a href="#fn-3f1fd980-0ab9-423a-ab4a-488c7c6f40a0" id="fn-3f1fd980-0ab9-423a-ab4a-488c7c6f40a0-link">1</a></sup> The human benefit of scientific progress does not determine the relation we would want to have with knowledge and leaves still open the question of our participation. The third point is a value commitment: human participation in mathematics should be preserved as a choice. Even in the event that human minds are no longer necessary for the proof of new results, the capacity to understand, judge and contribute to mathematics, possibly in a limited way, is part of the culture we choose to maintain.</p>
+
+
+
+<p class="wp-block-paragraph">In the current paradigm, the development of mathematics is largely based on the human mathematical community, which produces, discusses and transmits knowledge. I would like to ask how we could transform this organization so that new capacities could make our knowledge more solid and available for further research, could amplify our possibilities and also enrich our cultural life. This is the proposal discussed here in a nutshell: as a first step, we should reorganize our knowledge and its form, through a new shared and persistent epistemic object that could provide an infrastructure for mathematical knowledge. Then, we could reorganize our research along more collective, continuous and ambitious programs. Finally, we should identify the educational and institutional conditions that could support our commitment to human participation.</p>
+
+
+
+<p class="wp-block-paragraph">The &#8220;shape&#8221; in the title reflects the idea that the form we give to mathematical knowledge affects what we can do with it. How ideas are connected, organized and made accessible helps determine which questions we can pursue and how we can take part in their exploration.</p>
+
+
+
+<h2 class="wp-block-heading">Reorganizing mathematical knowledge</h2>
+
+
+
+<p class="wp-block-paragraph">Let me start by examining the current way mathematical knowledge is organized. Most of its durable part is distributed among books, published papers and preprints, each with its own level of rigor. There is also an important part that lives in the minds of individuals in the form of ideas, relations and even emotions. These two parts sustain one another. This system is quite fascinating, but it has some limitations.</p>
+
+
+
+<p class="wp-block-paragraph">First of all, validation has largely relied on human judgement, with a standard of rigor that has changed with time. We have inherited a mathematical corpus where it is not always easy to reconstruct hypotheses, verify arguments and track the consequences of errors. I think that our knowledge is actually quite solid; still, because of this human practice, over the past millennia we have accumulated some sort of <em>epistemic debt</em>. No harsh criticism is intended: it was essentially the only available way to proceed. Very recently we have started to pay off this debt with the introduction of formal libraries and certified proofs.</p>
+
+
+
+<p class="wp-block-paragraph">Second, in a scenario where production of mathematics could scale at a different rate from our capabilities to understand and absorb it, the current knowledge infrastructure may no longer be adequate. For the mathematical community, the question is how to examine a rapidly growing<sup data-fn="fn-6b5b5878-eb35-4269-ab64-9d4dc7b5f00e" class="fn"><a href="#fn-6b5b5878-eb35-4269-ab64-9d4dc7b5f00e" id="fn-6b5b5878-eb35-4269-ab64-9d4dc7b5f00e-link">2</a></sup> body of mathematical results and the relations between them, and how to integrate these results into our shared knowledge. How should we proceed?<sup data-fn="fn-196cd391-0d7f-43c4-a0be-ace5a6549d3c" class="fn"><a href="#fn-196cd391-0d7f-43c4-a0be-ace5a6549d3c" id="fn-196cd391-0d7f-43c4-a0be-ace5a6549d3c-link">3</a></sup></p>
+
+
+
+<p class="wp-block-paragraph">Artificial systems could reduce the intellectual and practical cost of formalization, making more realistic the possibility of systematic work on the existing corpus; this would make our knowledge more robust from the epistemic point of view, but it would not by itself solve the problem of the possible volume of new mathematics. A large number of formalized results could still form a scattered cloud that is difficult to use. This is why formalization should go together with restructuring: the territory should be mapped and made more explorable.</p>
+
+
+
+<h2 class="wp-block-heading">A new epistemic object</h2>
+
+
+
+<p class="wp-block-paragraph">To address the two points above, I propose to restructure our knowledge in a new mathematical environment that I will call an <em>epistemic object</em>. This object should have a representational structure and be persistent and shared. By representational I mean that it should preserve explicit dependencies and navigable relations between mathematical objects; it should also be designed so that it is possible to keep track of the provenance of results and contributions. Persistent means that results, proofs and relations should be preserved and usable even if the methods and systems that we use to access them change. It should be shared<sup data-fn="fn-df8caf17-7053-4cad-9c2c-b0eb2e53b2d8" class="fn"><a href="#fn-df8caf17-7053-4cad-9c2c-b0eb2e53b2d8" id="fn-df8caf17-7053-4cad-9c2c-b0eb2e53b2d8-link">4</a></sup> in the sense that it should be accessible to and enriched by all participants, in such a way that contributions could be discussed and expanded by others.</p>
+
+
+
+<p class="wp-block-paragraph">The core of this object should be formalized and contain definitions, statements, assumptions and proofs. We should distinguish the certification of this corpus, its conceptual organization, and its assimilation by human beings. Of course, certification does not ultimately solve the epistemic problem; it makes some of our dependencies on trust more explicit. Trust would still be placed in the formal system,<sup data-fn="fn-b5a20c32-daab-46f6-b73b-5f38a911881f" class="fn"><a href="#fn-b5a20c32-daab-46f6-b73b-5f38a911881f" id="fn-b5a20c32-daab-46f6-b73b-5f38a911881f-link">5</a></sup> in the infrastructure and the software that preserve and verify the corpus, and in the semantic translation between mathematical and formal language. Meaning and conceptual context are supported by the surrounding semantic layers, which contain interpretations, explanations and connections, taking on some of the functions currently served by books and papers.</p>
+
+
+
+<p class="wp-block-paragraph">All the layers should be interconnected, with the epistemic status of their contents made explicit (a formally checked argument should have a status different from a heuristic analogy). The same result could be used as a single step in a proof, or explored through the structure of its proof; someone willing to understand it should be able to move from the general idea to its precise hypotheses and dependencies.</p>
+
+
+
+<p class="wp-block-paragraph">Human understanding belongs to minds rather than to the object itself: the living mathematical community interprets, discusses and transmits this knowledge.</p>
+
+
+
+<p class="wp-block-paragraph">A mental picture of what I have in mind is the following: a branching, enriched and layered hypergraph. I don&#8217;t have a technical proposal on how to implement or design such an object, but conceptual<sup data-fn="fn-a5966f1e-cea8-44b0-bf1a-366f4fe88dfa" class="fn"><a href="#fn-a5966f1e-cea8-44b0-bf1a-366f4fe88dfa" id="fn-a5966f1e-cea8-44b0-bf1a-366f4fe88dfa-link">6</a></sup> and concrete structured predecessors (<a href="https://mathhub.info/">MathHub</a>,<sup data-fn="fn-80b916b0-5db5-44f2-9e17-a68269412007" class="fn"><a href="#fn-80b916b0-5db5-44f2-9e17-a68269412007" id="fn-80b916b0-5db5-44f2-9e17-a68269412007-link">7</a></sup> <a href="https://github.com/leanprover/verso-blueprint">Verso Blueprint</a>, <a href="https://arxiv.org/abs/2606.25363">TheoremGraph</a>, <a href="https://stacks.math.columbia.edu/">The Stacks Project</a>), together with partial pieces of the semantic layers (e.g. formal libraries, MathSciNet, arXiv, Wikipedia, etc.) already exist, and could be starting points for its construction.</p>
+
+
+
+<h2 class="wp-block-heading">Qualitative growth</h2>
+
+
+
+<p class="wp-block-paragraph">Clearly, building and maintaining this infrastructure will require resources.<sup data-fn="fn-069d51d5-31a1-41db-b632-ad93a0437ab1" class="fn"><a href="#fn-069d51d5-31a1-41db-b632-ad93a0437ab1" id="fn-069d51d5-31a1-41db-b632-ad93a0437ab1-link">8</a></sup> Its justification depends therefore on what new possibilities it could offer to human beings and on the growth of knowledge that we would want to sustain within it. The growth of knowledge I am suggesting here is <em>qualitative</em> in the following sense: it should make new structures, connections and ways of thinking durably available for further research, and for improving human understanding and human life. In other words, its expansion should be guided by the first principle stated above. Such growth could even take the form of compression,<sup data-fn="fn-9a1c3e52-4b7d-4f08-9c61-2d5e8a7b0f13" class="fn"><a href="#fn-9a1c3e52-4b7d-4f08-9c61-2d5e8a7b0f13" id="fn-9a1c3e52-4b7d-4f08-9c61-2d5e8a7b0f13-link">9</a></sup> when a theory makes many separate results intelligible through a common principle. Expansion and restructuring would then be parts of the same research process.</p>
+
+
+
+<p class="wp-block-paragraph">The shape of knowledge itself might become an interesting object of study.<sup data-fn="fn-77e474cb-a576-479b-8a6e-a5b1d72e8aa5" class="fn"><a href="#fn-77e474cb-a576-479b-8a6e-a5b1d72e8aa5" id="fn-77e474cb-a576-479b-8a6e-a5b1d72e8aa5-link">10</a></sup> Reorganizing our corpus could give us a better comprehension of the mathematics already available. Its growth could give us new concepts and methods for problems that today we might not even be able to formulate. Human benefits, besides the cultural value of exploration, include the openness to these future possibilities.</p>
+
+
+
+<p class="wp-block-paragraph">For instance, there might be parts of the epistemic object that we will not be able to fully understand but that might support some new important technology. Having this technology available is the human benefit that we will have from the growth of the object in the related direction. In that case I would expect the relevant branch of mathematics to not be pruned from the epistemic object, even if it looks in some sense alien to us.<sup data-fn="fn-b22d66d8-b853-4464-a82e-fa356ca38291" class="fn"><a href="#fn-b22d66d8-b853-4464-a82e-fa356ca38291" id="fn-b22d66d8-b853-4464-a82e-fa356ca38291-link">11</a></sup></p>
+
+
+
+<p class="wp-block-paragraph">Moreover, such an organized corpus could help other disciplines to locate useful results, and comparison and feedback from the other sciences could in turn suggest new questions and research directions for the expansion of the epistemic object &#8212; in a sense this has always been the case; right now I am just proposing to make this more structural. (In fact, the possibility of a shared scientific infrastructure should probably extend beyond mathematics.)</p>
+
+
+
+<p class="wp-block-paragraph">In principle, we could imagine an agent that expands a formalized library indefinitely; every new result could be certified and related to the previous ones, but this, by itself, does not justify why we should sustain this process. Uncertainty about future applications leaves room for free research and serendipity; this, however, doesn&#8217;t make all directions equivalent and does not justify an unlimited expansion. We should therefore choose and revise the directions and the scale of this growth by considering the possibilities for understanding and research that they could open, and weighing these against the resources required.</p>
+
+
+
+<h2 class="wp-block-heading">Continuity of research</h2>
+
+
+
+<p class="wp-block-paragraph">In the transition to a new paradigm, I imagine that human beings will still have an active role in choosing the research directions, for example by formulating a conjecture, or proposing an idea or a definition. However, according to the openness principle stated above, we should consider the possibility that theories and research directions could originate in artificial systems. A research question could be explored with the help of AI, passing from the initial formulation to the verified core and then back to the semantic layers to understand meaning and revise the original question itself. This collaboration might allow us to address more ambitious questions, and to commit to programs that today would require an amount of work or a degree of coordination that is not practically sustainable, devoting more attention to the questions driving the research and less to the technical aspects of it. For example, we could imagine delegating part of the current activity of proving theorems to some artificial agent, especially what we now consider the heavy technical part (however, as I will discuss below, we should value the cognitive process behind this activity).</p>
+
+
+
+<p class="wp-block-paragraph">With the possibility that projects grow in scale and involve combinations of human and artificial contributors, their continuity could increasingly be carried by far-reaching persistent collective programmes within the epistemic object. A program could outlive its initiators, allowing others to resume or revise its questions. (An example of these far-reaching projects is the continuous restructuring of knowledge itself, shaping it according to the qualitative growth principle described above.) We should also be able to preserve a sort of research memory of these programs, keeping track of ideas, open questions and the obstacles revealed by failed approaches. Perhaps papers will then record and explain particular stages of the development of these programs.</p>
+
+
+
+<p class="wp-block-paragraph">Let me also attempt a guess at the possible limiting scenario. In the long term, it is possible that the growth of the core of mathematical knowledge will mostly be driven by artificial intelligence, with humans playing a progressively smaller role in its production. There might be new artificial perspectives that humans will witness and appreciate without being able to reconstruct their development in full. At that point our relation to mathematics might become increasingly exploratory: our access to an artificially expanded body of knowledge would be partial, mediated and increasingly observational<sup data-fn="fn-1bf95ada-48a2-46d6-885f-b92d69d7aa64" class="fn"><a href="#fn-1bf95ada-48a2-46d6-885f-b92d69d7aa64" id="fn-1bf95ada-48a2-46d6-885f-b92d69d7aa64-link">12</a></sup> &#8212; validity of results, though, would still rely on deductive proof!</p>
+
+
+
+<h2 class="wp-block-heading">Human participation as a choice</h2>
+
+
+
+<p class="wp-block-paragraph">There might be some aspects of the mathematical process that pertain only to human beings, but I see no valid reason to assume this.<sup data-fn="fn-ec0941cd-eaf9-4e87-87c4-0741ed2aed05" class="fn"><a href="#fn-ec0941cd-eaf9-4e87-87c4-0741ed2aed05" id="fn-ec0941cd-eaf9-4e87-87c4-0741ed2aed05-link">13</a></sup> Moreover, I do not see human comprehension as a logical necessity for the production of new mathematics and I think we should not found our participation on anything that we assume to be exclusively human. Our participation in this program will be a choice, reflecting the kind of mathematical culture we want to preserve. We will want to preserve our intellectual initiative. This includes asking our own questions and challenging the interpretations through which we encounter mathematics.</p>
+
+
+
+<p class="wp-block-paragraph">Even if we become &#8220;spectators&#8221; of much of the expansion of the certified core, we should preserve our capacity to understand parts of it, to discuss and transmit them, and to contribute to both the core and the semantic layers through which mathematics remains part of human culture. I think that even this partial understanding could enable meaningful human participation, as long as we are able to genuinely interact with our shared knowledge. Partial access should therefore also orient the paths we choose for understanding &#8212; it is possible that AI itself could create new bridges to parts of mathematics that today are difficult to access. I think human society should want to keep alive a community that is able to cross these bridges.<sup data-fn="fn-c47e8d10-6a2b-4e93-b5f7-1e0d9c3a8264" class="fn"><a href="#fn-c47e8d10-6a2b-4e93-b5f7-1e0d9c3a8264" id="fn-c47e8d10-6a2b-4e93-b5f7-1e0d9c3a8264-link">14</a></sup></p>
+
+
+
+<h2 class="wp-block-heading">Education</h2>
+
+
+
+<p class="wp-block-paragraph">This raises the following question: if we choose to preserve human participation, which capacities must we continue to cultivate for that participation to remain genuine rather than merely symbolic?</p>
+
+
+
+<p class="wp-block-paragraph">To answer this question, we should accept that our minds have biological limits, and that the cognitive process that leads to intellectual growth and understanding is slow. Given these premises, we should identify what types of intellectual experience contribute to the formation of mathematical maturity and, consequently, which practices we should preserve. Technical work can contribute to intellectual formation, besides producing a result; delegating this work therefore requires attention. We should understand which formative difficulties contribute to consolidation and which are just consequences of methods that are not efficient, and are therefore avoidable.</p>
+
+
+
+<p class="wp-block-paragraph">Here an analogy with the transition from the oral to the written tradition might be useful. Plato&#8217;s Socrates was already raising the problem of the separation between understanding and externalization of memory. But we have developed practices to think with books: reading, making notes, reconstructing arguments and discussing them. Analogously, we should understand which cognitive practices we should implement for active thinking with artificial systems. Such activities include &#8212; I think &#8212; reconstructing an argument, modifying hypotheses, finding counterexamples and following logical dependencies. Another possibility that I see is that we could treat LLMs as a form of synthetic collective intelligence<sup data-fn="fn-5d4dbb46-29b3-44a6-ba6d-cd2c1a3c9433" class="fn"><a href="#fn-5d4dbb46-29b3-44a6-ba6d-cd2c1a3c9433" id="fn-5d4dbb46-29b3-44a6-ba6d-cd2c1a3c9433-link">15</a></sup> and, taking a Socratic approach, we could try to engage with them as interlocutors with whom to articulate intuitions, ask for objections and revise arguments. (This operational approach would make no assumptions about consciousness.) Another possibility is that artificial systems will be able to generate ad-hoc explanations tuned on the background of the intended audience. These are possible examples, rather than an established educational programme. Our commitment to active participation calls for attention, but ultimately which practices really work in the presence of artificial systems is an open question that mathematicians should explore with neuroscientists and educational scientists.</p>
+
+
+
+<h2 class="wp-block-heading">Institutions and shared mathematical culture</h2>
+
+
+
+<p class="wp-block-paragraph">The possibility of delegating part of the mathematical process could give more space to understanding, to curiosity, collaboration and transmission of ideas. However, a shared corpus does not guarantee shared knowledge: if its exploration were carried out through private interactions between researchers and AI, we should make sure to encourage a shared mathematical culture. Mathematics already has a collective dimension, which I think we should strengthen.</p>
+
+
+
+<p class="wp-block-paragraph">At the same time, this commitment implies some institutional responsibility. Even as the work of a researcher changes, education should give new generations the capacity to enter and renew mathematical culture. Institutions should encourage study and occasions where ideas are discussed, taught and understood together, protecting the time needed for ideas to take root. They should sustain the continuity of access to the corpus and ensure community scrutiny. A practical possibility to explore is that departments should host their own local models connected to the shared object, thereby also reducing dependence on commercial interfaces.</p>
+
+
+
+<p class="wp-block-paragraph">We could give our collective dimension more space, for example, by supporting individual work also for what it makes possible for others. This means that we should reconsider the weight we give to individual priority and the prestige of single results. Work that makes a theory more understandable or reveals a connection that allows us to use results that seemed unrelated, enriching the semantic layers of the epistemic object, should receive greater recognition. Opening a direction or making a program easier for others to continue should also count in the way we evaluate and sustain research. A well-formulated question orients examples and attempts before it is solved; if making it public would increase the chances of a rapid solution due to AI, a system based on priority of solutions could encourage researchers to keep this question secret. We should therefore recognize the intellectual contribution of formulating questions that open new directions, and create incentives to share them. More collaborative research can still, I hope, leave space for individual ambition. (However, I think we should move away from established practices like &#8220;theorem ownership&#8221;.) Soon, the whole mechanism of evaluation and hiring should change to better recognize new forms of intellectual merit; ultimately, how this will be implemented will depend on the way the job is transformed.</p>
+
+
+
+<p class="wp-block-paragraph">It is not clear to me that journals and the peer review system will survive the paradigm shift, at least in their current form. Whether we will decide to invest into the epistemic object described above, I can imagine that in the near future the certified proofs accompanying a paper should be verified before the results being made publicly available, and maybe this certification will be done automatically by the repository itself, in the same way as it is now done by the built-in LaTeX compiler. At some point in this transition, human refereeing will also change: referees will be relieved of the burden of checking for correctness; maybe they will check whether the formalized part and the semantic part are well related. I think in this sense &#8212; verifying the semantic correspondence &#8212; some forms of review will be needed even in the proposed new paradigm.</p>
+
+
+
+<h2 class="wp-block-heading">Responsibility</h2>
+
+
+
+<p class="wp-block-paragraph">I would like to conclude with a few comments on our responsibility. Mathematicians have long benefited from a great intellectual freedom, which has allowed them to conduct their research without knowing where it would lead. (I have certainly benefited from this freedom.) If the development of AI frees some of the intellectual energy that we used to spend on technical aspects of our work, this raises the question of what we should do with this energy &#8212; already today. Perhaps part of it should be redirected to problems of fundamental importance, and the alignment problem is one of them. This proposal itself was conditional on a safe and aligned artificial intelligence, although it remains unclear whether this is technically feasible. We might need to develop new theory to approach this problem in a satisfactory way, and I hope that part of the mathematical community decides to deliberately redirect its attention to it. Mathematics can make a technical contribution, but ultimately this will also require ethical and political judgement.</p>
+
+
+
+<h2 class="wp-block-heading">Acknowledgements</h2>
+
+
+
+<p class="wp-block-paragraph">I would like to thank Daniela (my wife), Andrei Agrachev, Paolo Antonini, Fabio Cavalletti, Sandra Di Rocco, Barbara Fantechi, Nicola Gigli, Joe Kileel, Chiara Meroni, Giacomo Pedini, and Stefano Romano for interesting discussions and comments that helped me during the writing of this essay.</p>
+
+
+
+
+
+
+<ol class="wp-block-footnotes"><li id="fn-3f1fd980-0ab9-423a-ab4a-488c7c6f40a0">I understand that this principle may be more divisive than the first one. I guess a reason for this might be the different meaning that we give to &#8220;artificial intelligence&#8221;. The openness I am proposing remains conditional on the ethical and safety requirements stated in my opening remarks. <a href="#fn-3f1fd980-0ab9-423a-ab4a-488c7c6f40a0-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-6b5b5878-eb35-4269-ab64-9d4dc7b5f00e">The January&#8211;September total number of arxiv submissions in Mathematics rose from 27,052 in 2016 to 40,452 in 2025, an increase of approximately 50%. In 2026, the same nine-month total reached 57,422, approximately 42% higher than in 2025 alone. <a href="#fn-6b5b5878-eb35-4269-ab64-9d4dc7b5f00e-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-196cd391-0d7f-43c4-a0be-ace5a6549d3c">For a recent example of the relevance of questions of this type, see OpenAI, <em><a href="https://openai.com/index/advisory-group-on-mathematics-and-ai/">Advisory Group on Mathematics and Artificial Intelligence</a></em>, 21 September 2026, and the independent advisory group&#8217;s subsequent recommendations, <a href="https://agmai.org/general-sep29/">Responsible Release of AI-Generated Mathematics</a>, 29 September 2026. In fact, on 6 October 2026, OpenAI released <a href="https://github.com/openai/math/">a collection of 722 mathematical manuscripts</a>, organized into 372 families of related results at different stages of verification, some accompanied by Lean formalizations. I think this is an interesting example because it already shows what in the future we could potentially be called to handle. Even assuming only a fraction of these results is correct (on 7 October, 3 papers were withdrawn), I think the current infrastructure is not sufficient to properly absorb this volume of groundbreaking work. <a href="#fn-196cd391-0d7f-43c4-a0be-ace5a6549d3c-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-df8caf17-7053-4cad-9c2c-b0eb2e53b2d8">I believe it is of fundamental importance, for science and for humanity itself, to coordinate in such a way that AI becomes a shared technology, free of commercial purposes. When thinking about the epistemic object of this essay in more realistic terms, I have in mind something similar to <a href="https://milesbrundage.substack.com/p/my-recent-lecture-at-berkeley-and">CERN&#8211;for&#8211;AI</a>. <a href="#fn-df8caf17-7053-4cad-9c2c-b0eb2e53b2d8-link" aria-label="Jump to footnote reference 4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-b5a20c32-daab-46f6-b73b-5f38a911881f">For example, in Lean this means trusting the underlying mathematical theory &#8212; type theory &#8212; and the correctness of the kernel that verifies the results. Trusting the kernel concretely means trusting the C++ code where it is implemented; trusting the underlying theory is a more foundational problem, which is conceptually constrained by Gödel&#8217;s second incompleteness theorem. We can think of establishing relative consistency from a stronger metatheory, but again this would relocate the foundational dependence rather than eliminate it. <a href="#fn-b5a20c32-daab-46f6-b73b-5f38a911881f-link" aria-label="Jump to footnote reference 5"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-a5966f1e-cea8-44b0-bf1a-366f4fe88dfa">A conceptual predecessor was discussed for instance, in J. Carette, W. M. Farmer, M. Kohlhase and F. Rabe, <em><a href="https://doi.org/10.1007/s00283-020-10006-0" data-type="link" data-id="https://doi.org/10.1007/s00283-020-10006-0">Big Math and the One-Brain Barrier: The Tetrapod Model of Mathematical Knowledge</a></em>, The Mathematical Intelligencer <strong>43</strong> (2021), 78&#8211;87. <a href="#fn-a5966f1e-cea8-44b0-bf1a-366f4fe88dfa-link" aria-label="Jump to footnote reference 6"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-80b916b0-5db5-44f2-9e17-a68269412007">This project also gives an interesting way to describe the notion of different epistemic status, through the notion of <a href="https://docs.mathhub.info/legacy/FlexiForms"><em>FlexiForms</em></a>. <a href="#fn-80b916b0-5db5-44f2-9e17-a68269412007-link" aria-label="Jump to footnote reference 7"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-069d51d5-31a1-41db-b632-ad93a0437ab1">The long-term feasibility of such infrastructure should not be judged solely by today&#8217;s costs. Gundlach et al., <em><a href="https://arxiv.org/abs/2511.23455v2">The Price of Progress: Price Performance and the Future of AI</a></em>, estimate annual reductions by factors of five to ten in AI inference prices at fixed benchmark performance, including mathematical tasks. This suggests that currently expensive capabilities may become more affordable in the nearest future. Similar considerations apply to other aspects of the proposed infrastructure, for instance formalization. In any case, the possible cost of the proposed infrastructure remains uncertain and would also depend on its scale, maintenance and human oversight. <a href="#fn-069d51d5-31a1-41db-b632-ad93a0437ab1-link" aria-label="Jump to footnote reference 8"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-9a1c3e52-4b7d-4f08-9c61-2d5e8a7b0f13">In an epoch of abundance of results, theory compression might become even more important than theory expansion. <a href="#fn-9a1c3e52-4b7d-4f08-9c61-2d5e8a7b0f13-link" aria-label="Jump to footnote reference 9"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-77e474cb-a576-479b-8a6e-a5b1d72e8aa5">For example, it would be interesting to see if it is possible to produce, at least empirically, some sort of embedding of (parts of) the mathematical corpus into Euclidean space and actually visualize it. An embedding of this type might be obtained from LLM through vector representations of mathematical texts. Its geometry, of course, would depend on the model and the representation chosen. Using such embeddings, we could test experimentally whether new AI-produced mathematics belongs to the &#8220;convex hull&#8221; of already existing mathematics or if its geometry is more complicated. (The convex hull metaphor was proposed by Nestor Guillen in <em><a href="https://terrytao.wordpress.com/2026/09/13/happy-those-able-to-know-the-causes-of-things/">Happy, those able to know the causes of things</a></em>, and taken up by Alvaro Lozano-Robledo in <em><a href="https://terrytao.wordpress.com/2026/10/08/what-should-we-tell-our-students/">What should we tell our students?</a></em>). <a href="#fn-77e474cb-a576-479b-8a6e-a5b1d72e8aa5-link" aria-label="Jump to footnote reference 10"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-b22d66d8-b853-4464-a82e-fa356ca38291">Some friends believe that its relevance in the physical universe might be a hint that there is something deep and beautiful there, and therefore we should preserve it. <a href="#fn-b22d66d8-b853-4464-a82e-fa356ca38291-link" aria-label="Jump to footnote reference 11"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-1bf95ada-48a2-46d6-885f-b92d69d7aa64">This gives the certified core of the epistemic object some metaphysical flavor, against my Wittgensteinian spirit. Still, I think the image is quite suggestive and I decided to keep it. <a href="#fn-1bf95ada-48a2-46d6-885f-b92d69d7aa64-link" aria-label="Jump to footnote reference 12"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-ec0941cd-eaf9-4e87-87c4-0741ed2aed05">Which aspects of mathematics current LLMs are good at is a related empirical question. I think that in some respects they already outperform humans. An interesting discussion can be found in T. Gowers&#8217;s post <em><a href="https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/">What sort of maths are LLMs good at?</a></em> It would be interesting to conduct more detailed experiments on the kinds of mathematical arguments and constructions that AI systems produce. <a href="#fn-ec0941cd-eaf9-4e87-87c4-0741ed2aed05-link" aria-label="Jump to footnote reference 13"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-c47e8d10-6a2b-4e93-b5f7-1e0d9c3a8264">There is an interesting point to distinguish here, which is the difference between the value choice of the society and of the single individuals. What I have discussed so far is the society perspective. From the individual perspective, we will need to justify why new generations should want to devote themselves to mathematics. I think the aesthetic appeal of mathematics and the individual need to satisfy our sense of curiosity and understanding will remain important motivations. Because human understanding belongs to the minds, and human minds are physically embodied, with all their biological limits, the choice of individuals to participate to this program should exploit the stratified structure of the epistemic object, and in particular the &#8220;grey&#8221; areas of the exterior semantic layers, where interpretation opens to suggestions and ultimately to emotions (as opposed to what think the more dry certified core could look like). In this sense, as is discussed below, I think that the future paradigm, and the layered structure of the epistemic object, could still leave space to individual ambition. In fact, one interesting implication of a possible transformation of mathematics is that it could open to new individual intellectual experiences, expanding the possibilities of human mathematics. <a href="#fn-c47e8d10-6a2b-4e93-b5f7-1e0d9c3a8264-link" aria-label="Jump to footnote reference 14"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-5d4dbb46-29b3-44a6-ba6d-cd2c1a3c9433">I am not sure how accurate this is for the current models. I use this expression only to refer to their capacity to draw on knowledge and perspectives produced collectively. I do not want to imply that a model preserves the diversity or judgement of a human community. <a href="#fn-5d4dbb46-29b3-44a6-ba6d-cd2c1a3c9433-link" aria-label="Jump to footnote reference 15"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 2 October 2026, revised 9 November 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/09/the-shape-of-mathematical-knowledge/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1862</post-id>	</item>
+		<item>
 		<title>Formalisation as a concrete manifestation of mathematical understanding</title>
 		<link>https://proofsandprompts.com/2026/11/08/formalisation-as-a-concrete-manifestation-of-mathematical-understanding/</link>
 					<comments>https://proofsandprompts.com/2026/11/08/formalisation-as-a-concrete-manifestation-of-mathematical-understanding/#comments</comments>
@@ -144,7 +350,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/08/formalisation-as-a-concrete-manifestation-of-mathematical-understanding/feed/</wfw:commentRss>
-			<slash:comments>8</slash:comments>
+			<slash:comments>9</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2654</post-id>	</item>
@@ -371,7 +577,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/08/sisyphus-and-the-sorcerer-an-existential-meditation-at-the-chalkboard/feed/</wfw:commentRss>
-			<slash:comments>4</slash:comments>
+			<slash:comments>5</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2382</post-id>	</item>
@@ -676,7 +882,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/06/postdoc-hiring-in-the-age-of-ai-what-still-matters/feed/</wfw:commentRss>
-			<slash:comments>8</slash:comments>
+			<slash:comments>9</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3413</post-id>	</item>
@@ -767,7 +973,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/06/its-a-great-time-to-be-an-amateur-mathematician/feed/</wfw:commentRss>
-			<slash:comments>35</slash:comments>
+			<slash:comments>39</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2736</post-id>	</item>
@@ -935,68 +1141,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3365</post-id>	</item>
-		<item>
-		<title>Reject the Neurosis, and Terrible Messaging, of our Loudest Voices — The Case for (Ir)rational Optimism</title>
-		<link>https://proofsandprompts.com/2026/11/04/reject-the-neurosis-and-terrible-messaging-of-our-loudest-voices-the-case-for-irrational-optimism/</link>
-					<comments>https://proofsandprompts.com/2026/11/04/reject-the-neurosis-and-terrible-messaging-of-our-loudest-voices-the-case-for-irrational-optimism/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Wed, 04 Nov 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Critique]]></category>
-		<category><![CDATA[Optimism]]></category>
-		<category><![CDATA[PhD students]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3024</guid>
-
-					<description><![CDATA[“If you look up AI and math on any news site, you will read statements including ‘AI is destroying careers’ or ‘AI is nuking entire areas of math’ or even a prominent Field’s medalist saying ‘I cried so hard due to AI in math that I woke up my daughter’. […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph">Anonymous, Postdoc</p>
-
-
-
-<p class="wp-block-paragraph">If you look up AI and math on any news site, you will read statements including &#8220;AI is destroying careers&#8221; or &#8220;AI is nuking entire areas of math&#8221; or even a prominent Field&#8217;s medalist saying &#8220;I cried so hard due to AI in math that I woke up my daughter&#8221;. The news loves a good headline, and these extreme statements make for good headlines. Underneath these articles is the comment section, with many comments hostile to mathematicians. One comment read &#8220;Imagine being a seven year old and your father waking you up to cry that other people did math problems.&#8221; This comment, hostile to mathematics (and arguably bad faith), I think sums up a very common reaction of non-mathematicians to some of these articles. I wanted to argue with this commenter, but I realized that this reaction was, on some level, perfectly reasonable if you just read the article and were not a mathematician.</p>
-
-
-
-<p class="wp-block-paragraph">It is no secret that graduate students can be stressed out and neurotic. I have been talking to younger mathematicians, and some are taking the rhetoric of senior mathematicians very seriously. I feel badly for them — some are incredibly depressed. I&#8217;m not going to tell people how to feel, because this is pointless. However, I do try to be more balanced than senior mathematicians have been — both because I think it is correct, but also because I have been disgusted by poor leadership.</p>
-
-
-
-<p class="wp-block-paragraph">The purpose of this essay is to implore senior mathematicians to tone down the extreme rhetoric, especially when communicating with the media and with junior mathematicians. I am encouraging this both because I believe these extremes aren&#8217;t true, but more importantly because it is bad leadership. It is like going into battle, even if you&#8217;re all going to die, your captain shouldn&#8217;t cry to you about it.</p>
-
-
-
-<p class="wp-block-paragraph">One major effect AI will have is forcing us to move on from well-trodden ground. The Riemann hypothesis has been around since…well…Riemann. The Navier-Stokes equations were introduced in the early to mid 1800s. Since then, these problems have accumulated an immense amount of prestige. Maybe it is time to move on? There are new questions to ask, there are new theories to develop, and new math to do. It seems like a lot of the neurosis comes from senior mathematicians who have attached an inordinate amount of self-worth to solving specific, well-formulated, and difficult conjectures. This is just one style of math, and it should not be seen as the entirety of math. AI will force a shift away from this style, which will ultimately lower the prestige attached to certain areas. However, in my personal opinion, this is a very good thing. I welcome this shift.</p>
-
-
-
-<p class="wp-block-paragraph">A second major effect AI will have is an increase in the number of papers, particularly incremental or &#8220;slop&#8221; papers. This is unequivocally bad. This may have a silver lining though — hopefully paper counts will be devalued, and paper quality will be valued more. This is a good thing.</p>
-
-
-
-<p class="wp-block-paragraph">A third major shift, related to the second, is that we can no longer trust someone&#8217;s papers to accurately represent their understanding or ability. This, again, is bad. However, similarly, I hope that this makes other things emphasized more in assessment — chalk talks, qualifying exams and coursework in grad school, informal conversations, and so on. The grad school standard of publication being the most important has, in my opinion, gotten a bit out of control. One thing a PhD should qualify you to do, is to teach mathematics. At the bare minimum, a person with a PhD in mathematics should be able to teach any undergraduate mathematics class or core graduate mathematics class (analysis, algebra, and geometry) with little difficulty. In reality, I don&#8217;t know how common this is. I hope AI devalues &#8220;novel contribution&#8221; and increases the value on having a solid foundation of core areas of mathematics.</p>
-
-
-
-<p class="wp-block-paragraph">Beyond any of these specifics, I have a very strong prior in the belief &#8220;nothing ever happens&#8221;. Mathematics has been around for thousands of years; it has undergone many changes. This will be yet another change, and mathematics will come out the other side alive.</p>
-
-
-
-<p class="wp-block-paragraph">If you still aren&#8217;t convinced, then could you at least tone it down a touch when talking to the media and younger mathematicians? If we really are marching towards the mathematical equivalent of nuclear armageddon, it is the responsibility of senior mathematicians to maintain some level of calm.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 24 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/04/reject-the-neurosis-and-terrible-messaging-of-our-loudest-voices-the-case-for-irrational-optimism/feed/</wfw:commentRss>
-			<slash:comments>13</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3024</post-id>	</item>
 	</channel>
 </rss>

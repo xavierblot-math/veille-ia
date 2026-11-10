@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Mon, 09 Nov 2026 09:02:05 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 09 Nov 2026 15:35:33 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,9 +28,206 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>If Life Gives You Lemons&#8230;</title>
+		<link>https://proofsandprompts.com/2026/11/09/if-life-gives-you-lemons/</link>
+					<comments>https://proofsandprompts.com/2026/11/09/if-life-gives-you-lemons/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Mon, 09 Nov 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[PhD students]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2584</guid>
+
+					<description><![CDATA[“I am sorry but I just wanted to bombard a bunch of random people with a few thoughts about the AI thing. To be clear, although I find a lot of the reactions understandable, although it is clear that this changes what math is, and although it is clear that this touches (some) people's sense of relevance, I personally find this panicky end-of-the-world atmosphere kind of incomprehensible. […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://juan.perlora.eu/index.html">Juan Souto</a>, Directeur de Recherche at the CNRS, working at the <a href="https://irmar.univ-rennes.fr/">Institut de recherche mathématique de Rennes (IRMAR)</a>, Université de Rennes, France.</p>
+
+
+
+<p class="wp-block-paragraph"><em>This text was originally an e-mail I wrote to a bunch of people, hence the pretty colloquial style. AI use: none (see the author&#8217;s note at the end).</em></p>
+
+
+
+<p class="wp-block-paragraph">I am sorry but I just wanted to bombard a bunch of random people with a few thoughts about the AI thing.</p>
+
+<p class="wp-block-paragraph">To be clear, although I find a lot of the reactions understandable, although it is clear that this changes what math is, and although it is clear that this touches (some) people&#8217;s sense of relevance, I personally find this panicky end-of-the-world atmosphere kind of incomprehensible. It seems to me a proof that if one is looking for emotional maturity, there are better places to look for it than among mathematicians. I also find really weird that, although mathematicians are normally pretty good at keeping the different parts of a problem apart, here a salad is being done. The things I see mostly being mixed are the following:</p>
+
+
+
+<ul class="wp-block-list">
+<li>fear that in the future there will be less/no jobs</li>
+
+
+
+<li>the fact that now anybody can produce in a week enough good papers to have gotten you hired in Princeton</li>
+
+
+
+<li>the fact that nobody knows what to do about graduate students and what to tell them to do</li>
+
+
+
+<li>the doubt whether math will be fun, and if people will want to do math</li>
+
+
+
+<li>whether the world or society will collapse and we will become pets to AI</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">I will not say anything to that last point, because it is clear that if society collapses and AI takes over, then the fate of math is the last of our worries. So, let&#8217;s suppose that the world does not collapse and focus on the other things.<br>Well, when it comes to whether there will be jobs, I think that mathematicians have in general not asked themselves why they are being paid. I mean, if it were because of the cultural value of math, somebody should tell me why mathematicians in the aggregate are being paid so much more than poets or theologians. Now, if we are being paid because of teaching, are we really afraid that because AI can prove Cannon&#8217;s conjecture biology, economics or physics students are not going to be required to take calculus? And yes, one could be afraid about AI also taking over the teaching, but I would not put my money there. At the end of the day MOOCs were some times ago the threat because why would you go to Juan&#8217;s class if you can attend a lecture by the best of the best. Then, during COVID we also saw the effect of not having in person teaching (you cannot imagine how much furniture I built during online seminars, and you can take my word that I don&#8217;t remember any of what went on &#8211; at least for me, unless I am incredibly motivated, the discipline of having to sometimes show up seems crucial to follow lectures, and there is also the fact that human communication is much more than what AI offers and will be able to offer unless it can decide that I am not saying anything because I went to the loo or because I am thinking). Anyways, besides culture and teaching, some people do actually claim that we are paid because math is where the human intellect conquers the highest points or some bullshit like that &#8211; here I guess that I say bullshit because I never thought that my scientific work had anywhere close to the social value as the burgers being flipped by those guys in McDonald&#8217;s. So, why are we paid? If you ask anybody outside of math, it is because we do really useful things. We all know that, when it comes to our own work, this is bollocks. But math regularly produces, by sheer random, things that happen to have enormous economic value. Now, I am not much of a politician, but if I were talking to somebody deciding how money gets allocated, I would be making the case that we now have this super duper tool that will make progress much faster, and that therefore one should expect that more and faster progress is achieved, producing more high value advances. At the end of the day, if the NIH got a great machine that allowed them to find really fast cancer cures, instead of sending the people running the machine to sell ice-cream cones, you would tell them to see if it also helps to find cures for Parkinson or Alzheimer. Anyways, the main reason I see to fear that we are going to have less money is that a bunch of mathematicians go around crying and saying that math is over.</p>
+
+
+
+<p class="wp-block-paragraph">Now, it is clear that many things will have to change. First and foremost, how we give jobs and decide who is &#8220;high status&#8221; and who isn&#8217;t. Nobody is going to deny that when it came to hiring what we wanted was to hire &#8220;good mathematicians&#8221;. The issue is that in the moment of making a decision this was often set as being equivalent to publishing many and good papers journals (I would say that we were measuring these things by weight of the papers together with a factor for each journal) and that currency has been incredibly devalued. But also before AI, that currency was nowhere close to absolute because if you wanted to be hired somewhere you had first to convince somebody (local, or somebody writing a letter) that you were a good mathematician, and then that somebody used your papers to defend your case. That second step will be much harder, but everybody knows that if you keep Mladen B. and me around for a week, both armed with as much AI as we want, you will decide at the end that Mladen is a better mathematician than me (or you are out of your mind), and that you will not need to compare publication records to get to that same conclusion. I don&#8217;t know how are we going to decide as a community how we will decide who is a good mathematician, but it is clear that arguing that it is not possible to distinguish because now AI can write 10000 papers a minute is kind of silly (in countries like Spain or Italy it was decided, until not long ago, by having people solve exam problems in different areas of math &#8211; I am not advocating for that, but it shows that the system has not been stable since the Palaeolithic).</p>
+
+
+
+<p class="wp-block-paragraph">Now on to training of graduate students. Let me start by saying that I am glad to not have any graduate students starting this year, because I would not know what to tell them. The usual thing would be to give a problem one would like to work on oneself, but where one knows that if one does something, then something comes out. That is nowadays a 5 minute AI problem, and so that route seems closed. But the issue is that graduate students have been trained to write papers, because this is how we decided who is a good mathematician. When we have a clearer opinion about that, we will know how to train students.</p>
+
+
+
+<p class="wp-block-paragraph">Now about whether math will be fun or not. I guess that for some people math was a competitive sport, and these people are fucked because now that thing can easily beat you. I guess that this is the people who did math to climb the highest peaks of what human intellect can achieve, or some nonsense like that. Also, in the math bubble people&#8217;s perceived status was largely determined according to what they proved, and that has been incredibly devalued. I guess that this must hit some people really hard. Luckily for me, I was always aware that what I was doing was climbing heaps, having fun with it, finding new heaps to climb, and that while climbing around I was understanding math. I have always had a hard time answering why I did something, because I do whatever I do because I feel that there is something interesting to be understood. I don&#8217;t see how this changes now. The way I work might change (more about that below) but I am pretty sure that I will not wake up in the morning and get from AI a 15 minute summary telling me in what random directions it has been working and what random questions it has asked. It will be us who continue asking the questions. I mean, I am spending a month surrounded by statisticians who talk about Frechet means in Riemannian manifolds, and today it occurred to me to start thinking about what subsets of the round sphere can be realized as the Frechet mean of a measure&#8212;the Frechet mean is in this sense the set of global minima of the function <math data-latex="x \mapsto \int d(x,y)^2\,d\mu(y)"><semantics><mrow><mi>x</mi><mo stretchy="false">↦</mo><mo>∫</mo><mi>d</mi><mo form="prefix" stretchy="false">(</mo><mi>x</mi><mo separator="true">,</mo><mi>y</mi><msup><mo form="postfix" stretchy="false">)</mo><mn>2</mn></msup><mspace width="0.1667em"></mspace><mi>d</mi><mi>μ</mi><mo form="prefix" stretchy="false">(</mo><mi>y</mi><mo form="postfix" stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">x \mapsto \int d(x,y)^2\,d\mu(y)</annotation></semantics></math>. I am not sure if this is a good or a bad question, but I am sure that AI will not propose it to me, and that if I think about it I will understand something new. Even if I use AI. I really do not understand people who think that math stopped being fun. For me the fun is in the understanding, and I understand by climbing the next heap, and by looking from there for the next one to climb. At least for me, it is there. In my shallow mathematics.</p>
+
+
+
+<p class="wp-block-paragraph">I am a bad vegetarian. I mean, I don&#8217;t eat meat but I eat fish and lots of cheese and eggs. Not very logical, I know. But I think that I will also be a bad vegetarian when it comes to AI. I will use AI to explain things to me. I will use AI to answer random silly questions I have and that I know I would never pursue. But if there is a question I care about, for example one I discuss with somebody else (I never work alone: my mother used to say that otherwise I would never be able to write papers in English, but it is that math is for me a human endeavour, and that what I like is to talk math), then I will first think and proceed as if AI didn&#8217;t exist, and only when it comes to actually proving the painful lemma that always is there, once I know &#8220;why&#8221; that lemma is true, once I see how I would approach it, I will maybe/probably let AI do it for me. In other words, I will let AI break stones for me, but I will want to tell it what stones to break, and I will want to understand why they need to be broken, and why they can be broken. The point is that I want to understand. And I do not only want to understand because I like that, but also because I believe that this understanding is what leads me to see the next heap I want to climb. If I just went now and asked AI all the questions I might have collected over the years, then it would be done in no time, and I would have not learned anything (other people might learn by reading, but I learn by doing) and I would be afraid of not seeing anything else to do.</p>
+
+
+
+<p class="wp-block-paragraph">Something that really bothers me about the arrival of AI is that something I really value (valued?) about math is the openness of the community. The fact that mostly people shared freely what they were working about, and what problems they found cool and worth investigating. I am afraid that this will change / has changed and that given that questions are the new gold, this will largely stay like that. Even when it comes to writing research proposals. I mean, usually a research proposal would contain a combination of feasible and unfeasible questions. If you wanted to evaluate one now, you could just feed it to an AI and it could tell you how long it took for each problem, and so you could decide if the proposal had been a good one or not&#8230; I mean, while I don&#8217;t think that people are going to go total secretive, I am not sure how many people are going to send their &#8220;gold&#8221;, that&#8217;s their questions, in their applications to 50 universities. I also don&#8217;t see who is going to go and say &#8220;I think that this is a good problem&#8221; in a talk, knowing that it suffices for 2 people to talk about it for 5 minutes afterwards and decide to ask AI. That bothers me, and I hope that we as a community we will find some decent ethical standard to deal with these issues. I assume that once we have a clearer idea on how are we going to decide who is a good mathematician, we are going to also come closer to solving that problem.</p>
+
+
+
+<p class="wp-block-paragraph">Okay, if you made it here you are probably tired of reading. And I am tired of writing. But I still want to say something. People with permanent jobs can be as panicky as they want, but who are really freaking out are postdocs and people graduating this year. Somebody should tell them that the MPI, the IHES, ICMAT, NSF, most universities, and so on, are going to hire in the next year, and probably in the subsequent years, as many people as they hired before. I mean, the Max-Planck-Gesellschaft will not decide: &#8220;OpenAI proved the Cannon conjecture, and we can now close the MPI and make a haircutting saloon out of it&#8221;. Besides, contracts are signed for years, grants are valid as long as they were. All of that might change at some point, but it is not a question of a few years, the time scale at what postdocs think. So, somebody should tell them, because they are freaking out even more than the rest.</p>
+
+
+
+<p class="wp-block-paragraph">Anyways, sorry for the long rant, but I am sick of the doomsday attitude.</p>
+
+
+
+<p class="wp-block-paragraph">Juan (no AI was used here.)</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 14 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/09/if-life-gives-you-lemons/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2584</post-id>	</item>
+		<item>
+		<title>The Bigger Picture</title>
+		<link>https://proofsandprompts.com/2026/11/09/the-bigger-picture/</link>
+					<comments>https://proofsandprompts.com/2026/11/09/the-bigger-picture/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Mon, 09 Nov 2026 12:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[AI companies]]></category>
+		<category><![CDATA[Personal experience]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2483</guid>
+
+					<description><![CDATA[In this post, I advise mathematicians to also consider the effects on AI in mathematics as part of a much broader and extremely negative societal change. This is not to say that mathematicians should not continue discussing mathematics and its future; I would, in fact, advocate for the exact opposite. But I believe that if we want to retain control over shaping the future of our field, we are not going to get that strictly by opposing a trillion-dollar company with its own severely misaligned goals. Rather, change should come from zooming out and viewing the bigger picture, in which mathematicians are not the only victims of these turbulent times.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://senthilrajasekaran.github.io/">Senthil Rajasekaran</a>, postdoc at the <a href="https://sciences.ulb.be/departement-mathematique/le-departement-de-mathematique">Université Libre de Bruxelles</a></p>
+
+
+
+<p class="wp-block-paragraph">My older brother graduated from college with a degree in chemical engineering at an age at which most people start. He also graduated with a six-figure job offer. Given this clear example of success, my parents naturally assumed I would follow in his footsteps. I enrolled at the same college, declaring my own major to be chemical engineering.</p>
+
+
+
+<p class="wp-block-paragraph">But I just couldn’t really get into chemical engineering, and I didn’t really have my brother’s tremendous work ethic. I was capable of focusing on things, for sure, but only if they really spoke to me first. Chemical engineering, for whatever reason, just didn’t. I found myself doing mathematical puzzles to calm myself down after forcing myself through Organic Chemistry homework. I guess, upon reading that, the conclusion is somewhat obvious, right? Much to the dismay of nearly everyone close to me, I eschewed a stable, well-paying future and graduated with degrees in mathematics and economics. It’s not exactly becoming a starving artist, but you’d never know that if you asked my parents. Oddly enough, the economics degree was motivated by my desire to take courses in game theory, and I found that by the time I had the necessary economics pre-requisites to take such a course, I didn’t have that much further to go before getting the entire degree. See? Capable of focusing after all.</p>
+
+
+
+<p class="wp-block-paragraph">My undergraduate university, Tulane, was still recovering from the effects of Hurricane Katrina. Many faculties, including mathematics, were still recovering. Some faculties, like computer science, were entirely missing. I am forever proud to have gone to Tulane and am deeply impressed with the level of normalcy they managed after such a historic crisis, but after I graduated, I felt my mathematical skills were somewhat incomplete.</p>
+
+
+
+<p class="wp-block-paragraph">To address this, I utilized study abroad programs. Namely, Math in Moscow, which I did for a year after graduating, and the Budapest Semesters in Mathematics, which I did during my senior year of undergrad. These two programs did two important things for me. Namely, they introduced me to the joy of research-oriented mathematical problem-solving and introduced me to theoretical computer science. If you know either of these programs, then you intimately understand how *fun* they make problem-solving, and it should be no secret how I was enthralled. I now had a vision. I wanted to work in theoretical computer science, and I wanted to be the kind of person who could solve ridiculously hard problems with absurdly beautiful proofs. The kind of person that even other mathematicians look at with awe.</p>
+
+
+
+<p class="wp-block-paragraph">To that end, I did a Master’s in Mathematics and the Foundations of Computer Science at Oxford. It largely reinforced my beliefs, though I remained remarkably unfocused on *how* exactly I wanted to accomplish my goals. As a result, I had some trouble with my first round of PhD applications (I applied to four schools!), but, eventually, I found my way to Rice University, doing a PhD in (theoretical) computer science outright. The transition from math to TCS was complete.</p>
+
+
+
+<p class="wp-block-paragraph">My PhD supervisor challenged my vision of “big problem hunting”. He told me that research was much more about finding your own direction to explore, of inventing your own style of mathematics. He warned me with stories of promising researchers who spent their entire lives unsuccessfully battling with a single problem. He eventually convinced me. My style of research is now much more about definitions and conceptual understanding than difficult problems and hard proofs. My work is about choosing the “right” problem to solve, and part of that criterion is that the problem, as a stand-alone challenge, has an answer that’s easy to understand. I even came to see hard problems as roadblocks that stifled my own conceptual understanding, obstacles to be removed rather than goals in themselves.</p>
+
+
+
+<p class="wp-block-paragraph">Why did I write all of this? Two reasons. First, I wanted to tell you about my human relationship with mathematics, emphasis on the word human. And second, I wanted to tell you that I’m the type of researcher who would, theoretically, be the most excited about a theorem-proving machine. This is not to suggest that I view myself as above people who really like problem-solving. I do not at all, and I really hope that you do not take that message away from this post. It’s just, that style of research is no longer my style of research. If you’ll allow me to characterize my own style of research in a somewhat smug and self-congratulatory way, I’ll say it’s about “the bigger picture.”</p>
+
+
+
+<p class="wp-block-paragraph">See, I wanted to use that phrasing exactly because that’s what I wanted to talk about with this post, the bigger picture. Many of the posts here are wondering what will happen to the field of mathematical research, and with good cause. I’m not going to go over the timeline of events. If you’re reading this, you already know what has happened. I’ll briefly add that I believe that there is a meaningful way to do mathematical research in the age of LLMs (and that the technology can be used as the incredible tool it so clearly is), but you can take that with however many grains of salt you like. I’m no senior researcher with a bird’s-eye view of the field, just a postdoc on sinking ground.</p>
+
+
+
+<p class="wp-block-paragraph">If we want to talk about the future of mathematical research, though, I believe we should start by asking why mathematics was so uniquely targeted by AI companies. The answer, of course, is that it wasn’t. This is where the bigger picture comes in. The big stories before mathematics were artists and software engineers. Artists, however, never needed to justify the human element of their craft, which was widely understood by the public, even if it wasn’t particularly valued. Software engineers put financial reality before everything else, something that AI companies are still struggling with. Enter mathematics. Here was a field that, at least from the outside, could be characterized as completely results-oriented, so economical concerns could be thrown out the window. It was also a field that had undeniable connections to practical advancements and lots of prestige associated with it, so the artist&#8217;s defense falls short as well. The field of research mathematics wasn’t specifically targeted. It was a target of opportunity, a field with many unique and severely compromising aspects that made it exceptionally vulnerable to a hostile attack.</p>
+
+
+
+<p class="wp-block-paragraph">Yes, a hostile attack. Many people are arguing that OpenAI is testing its models on mathematics problems since it’s the only way they have to test their models. Is that true? Surely, there were ways to do this in ways that worked with the mathematical community instead of explicitly against it. In fact, the former scenario even involves willing free labor from the community, which would’ve been readily handed over. So again, let’s talk about the bigger picture. The goal of these companies is not to augment human capabilities; it is to replace human beings at scale. They want a system that achieves “AGI”, which is defined as having superhuman abilities in *every* domain simultaneously. Mathematics was just uniquely vulnerable as a base for an early demonstration of such suggestive capabilities.</p>
+
+
+
+<p class="wp-block-paragraph">And it’s not the only one, by far. Countless other jobs have been silently bulldozed without the fanfare of mathematics. I have a friend who loves languages and worked in freelance translation. How do you think the job market looks for my recently laid-off friend?</p>
+
+
+
+<p class="wp-block-paragraph">The bigger picture again. If we want a future for human beings in mathematical research, then we *need a future for human effort*. A lot of people here are talking about how to adapt. I don’t think you’re going to be able to, as long as a trillion-dollar company is explicitly putting its thumb on the scale to make sure you cannot.&nbsp; The entire point of their work is to demonstrate that mathematics can advance without humanity. It’s part of an overarching goal to advance everything else without human input.</p>
+
+
+
+<p class="wp-block-paragraph">The public is not going to uniquely feel hugely sympathetic for just mathematicians. They largely do not know a single mathematician. They know their friend who was recently laid off, though. Their friend who worked in a field that received no headlines or any form of sympathy. They know their kid, still in college, who was told to “learn to code, because it’s the only thing that will be left” two years ago, and is now being told they are useless. They know the artist whose style was shamelessly ripped off and doesn’t get commission work anymore, denying them the already unglamorous salary they had before. They know the entry-level office worker who was “deservedly” let go because “they don’t even do anything.” We are all human beings. They are us, and we are them.</p>
+
+
+
+<p class="wp-block-paragraph">AI may be capable of solving many important problems. I hear cancer cures being discussed quite frequently. But even if AI achieves that, I still want human understanding of the cure and a human organization to take responsibility for it. I want someone who can understand human pain to help those suffering from it. AI companies do not want this. They want knowledge that is specifically beyond our comprehension. They do not want, to quote Terence Tao, “the best of both worlds.” Because – and I really wish more people understood this – they do not want a civilization in which humanity remains in the driver’s seat. Many of them directly see us as a disposable precursor species to a digital successor, a “biological bootloader”.</p>
+
+
+
+<p class="wp-block-paragraph">I am deeply invested in the future of mathematical research. But the whole point of this post is to zoom out a bit, to the bigger picture. To write in the style of our overlords, this is not just an attack on the premise that humans should do mathematics. It’s an attack on the idea that human effort has meaning. And I really want to see other mathematicians also recognize and discuss this, in addition to discussing our situation with mathematical research. This is part of a larger effort of our far-right government in the US to invalidate enormous groups of people entirely. We are human, first and foremost, and we need to deal with the attack on our humanity before we can effectively take back control of our field. So please, continue discussing mathematics here. Please continue helping each other through this. But please, add to that as well, if you feel that you can. We are not the only ones hurting, and so much more is at stake. I will be right here with you.</p>
+
+
+
+<p class="wp-block-paragraph">Your fellow human being,</p>
+
+
+
+<p class="wp-block-paragraph">Senthil</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 11 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/09/the-bigger-picture/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2483</post-id>	</item>
+		<item>
 		<title>The shape of mathematical knowledge</title>
 		<link>https://proofsandprompts.com/2026/11/09/the-shape-of-mathematical-knowledge/</link>
-					<comments>https://proofsandprompts.com/2026/11/09/the-shape-of-mathematical-knowledge/#respond</comments>
+					<comments>https://proofsandprompts.com/2026/11/09/the-shape-of-mathematical-knowledge/#comments</comments>
 		
 		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
 		<pubDate>Mon, 09 Nov 2026 10:00:00 +0000</pubDate>
@@ -229,7 +426,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/09/the-shape-of-mathematical-knowledge/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>4</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">1862</post-id>	</item>
@@ -882,7 +1079,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/06/postdoc-hiring-in-the-age-of-ai-what-still-matters/feed/</wfw:commentRss>
-			<slash:comments>9</slash:comments>
+			<slash:comments>10</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3413</post-id>	</item>
@@ -973,173 +1170,9 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/06/its-a-great-time-to-be-an-amateur-mathematician/feed/</wfw:commentRss>
-			<slash:comments>39</slash:comments>
+			<slash:comments>45</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2736</post-id>	</item>
-		<item>
-		<title>I&#8217;m Not Done Doing Math! Don&#8217;t Ignore Me!</title>
-		<link>https://proofsandprompts.com/2026/11/05/im-not-done-doing-math-dont-ignore-me/</link>
-					<comments>https://proofsandprompts.com/2026/11/05/im-not-done-doing-math-dont-ignore-me/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Thu, 05 Nov 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Reactions]]></category>
-		<category><![CDATA[Critique]]></category>
-		<category><![CDATA[PhD students]]></category>
-		<category><![CDATA[The future of papers]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3295</guid>
-
-					<description><![CDATA[“But I am still interested in doing math. I still think my research direction has genuine merit, and I still feel like I have more mathematics to give to the world. Thanks to AI, it is now feasible for someone like me to keep going.” […]]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph">Anonymous, Math PhD student</p>
-
-
-
-<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · AI is making papers cheap to produce but they remain costly to referee. Proofs and Prompts is publishing a series of posts from 26 October on the future of publishing, papers and credit. Questions such as how to disclose AI use, who bears the cost of checking, what authorship means and what papers of the future might look like will be addressed. This post is part of the series. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/publishing/">All posts in the series</a></p>
-
-<p class="wp-block-paragraph">I am about to graduate with a math PhD,  with zero published papers, and a subpar thesis that&#8217;s just barely enough for me to graduate.</p>
-
-
-
-<p class="wp-block-paragraph">I have no illusions that I am on the same intellectual tier as the tenured professors, postdocs, and PhD students much more successful than me writing on this blog. I am no Yitang Zhang. I readily admit that I am a low-level mathematician compared to even the peers in my department. And much of this is my own fault. Significant stretches of my time in the program were spent procrastinating and being distracted, not to mention just plain being stuck on a project because I wasn&#8217;t good enough.</p>
-
-
-
-<p class="wp-block-paragraph">Realistically, I will not, and should not, be getting a research postdoc. I will end up in an overloaded teaching position or working a regular 9-to-5 job. And I do not have contempt for this future. I am sure I will manage to find a job that is fulfilling for me.</p>
-
-
-
-<p class="wp-block-paragraph">Under the old rules of academia, my life in mathematical research was over. I was supposed to quietly pack up my stuff, and leave research mathematics to the REAL mathematicians.</p>
-
-
-
-<p class="wp-block-paragraph">But I am still interested in doing math. I still think my research direction has genuine merit, and I still feel like I have more mathematics to give to the world. Thanks to AI, it is now feasible for someone like me to keep going. With language models accelerating the time-consuming parts of research, it is realistic for someone carrying a heavy teaching load or working a day job to produce novel, interesting mathematics in the little free time they have.</p>
-
-
-
-<p class="wp-block-paragraph">That is what I am going to try to do. And what is wrong with that?</p>
-
-
-
-<p class="wp-block-paragraph">I wanted to write this down because when I read essays here, whether pro-AI or anti-AI, people like me aren&#8217;t considered a part of the conversation.</p>
-
-
-
-<p class="wp-block-paragraph">We have an opportunity right now to &#8216;catch&#8217; the people who have fallen by the wayside. People who just barely survived their PhD program and still have good ideas. Or people with just a Master&#8217;s or a Bachelor&#8217;s in mathematics who didn&#8217;t want to go through the grueling 5+ years of low pay for a PhD. Or those that went through years of postdoc positions and failed to secure a tenure-track job. We, the people outside of research academia that still wish to continue with mathematical research, exist!</p>
-
-
-
-<p class="wp-block-paragraph">But almost every conversation among established researchers seems to forget that. This is understandable because, before AI, many of us could not feasibly do serious research mathematics outside of a research position. Research math is incredibly time-consuming. Even if someone had a novel mathematical insight, keeping up with the latest literature, checking citations, and writing things up in an understandable, presentable way was a time-consuming process. It was not feasible to do without a lengthy dedicated research time in their schedule, afforded by a research position. We were not considered &#8220;real mathematicians&#8221; for a good, understandable reason. (There are exceptions, of course. Those outside of research jobs have produced a great deal of amazing research before AI. But we must admit that it is now MUCH EASIER to do research math outside of an academic position.)</p>
-
-
-
-<p class="wp-block-paragraph">Now, with the advent of AI, it IS realistic for us to continue participating in mathematical research.</p>
-
-
-
-<p class="wp-block-paragraph">So could we be brought back into the conversation?</p>
-
-
-
-<p class="wp-block-paragraph">Because right now, when I read through the posts on this blog, people like us are completely ignored:</p>
-
-
-
-<ul class="wp-block-list">
-<li>I see reports from elite gatherings like the <a href="https://proofsandprompts.com/2026/10/30/recommendations-from-the-harvard-cmsa-summit-on-math-and-ai/">Harvard CMSA summit on Math and AI</a>, or calls for <a href="https://proofsandprompts.com/2026/10/18/who-will-lead-mathematical-ai/">societies to set norms</a>. Will those boards and summits ever include people like me? Will they care about the opinions of an overloaded teaching faculty member just wanting to continue exploring the direction of their thesis? Or the person doing math research in their free time after their 9-to-5? I am afraid that these organizations will just be another society of already successful mathematicians writing rules for themselves.</li>
-
-
-<li>There is some panic that AI will create a <a href="https://proofsandprompts.com/2026/09/19/where-will-all-the-papers-go/">torrent of papers and there simply won&#8217;t be enough qualified people to peer-review them</a>. <em>Really?</em> There aren&#8217;t enough people to review them? Thousands of math PhDs graduate every year without continuing a research career. Is there really a shortage of capable people, or is our definition of &#8220;capable&#8221; severely restricted? With AI, it is now much easier for those without research positions to keep up with the latest developments in their fields. Would that not drastically INCREASE the number of qualified peer reviewers?</li>
-
-
-<li>Several pro-AI posts suggest that because AI makes writing papers too easy, we should <a href="https://proofsandprompts.com/2026/10/30/lets-stop-writing-papers/">stop writing papers</a> or devalue them in favor of <a href="https://proofsandprompts.com/2026/09/14/a-beginning-for-mathematics/">live seminar talks</a> and <a href="https://proofsandprompts.com/2026/10/30/math-is-for-feeding-your-family/">in-person workshops</a>. Do people realize how exclusionary this is? It is a luxury that can only be afforded by those with grants and dedicated time off for travel.</li>
-
-
-<li>I see professors warning that because of AI, we might <a href="https://proofsandprompts.com/2026/10/23/a-response-to-who-will-become-the-new-mathematicians-of-math-2-0/">&#8220;lose an entire generation of mathematicians&#8221;</a>, while others decry that AI will reduce math from a <a href="https://proofsandprompts.com/2026/08/09/the-ai-dissenter-viewpoint/">profession to a mere &#8220;hobby&#8221; done in people&#8217;s spare time</a>. Where was this panic when the academic job market was throwing away the vast majority of every graduating PhD class for decades? And why is doing math in your spare time, for zero money and zero career credit, treated with such contempt?</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">I have lost the game of academic research careers, and I have made peace with that fact. What frustrates me is that the mathematical research establishment pretend I don&#8217;t exist. When a tool finally comes along that lets me keep doing the thing I love, making small but real contributions to my field from outside of a research position, I continue to be ignored. Instead, one side is telling me that my work doesn&#8217;t count for using AI, while the other side talks only about how it can be directed to better serve and preserve the scant few dedicated research positions.</p>
-
-
-
-<p class="wp-block-paragraph">It is telling that even in a <a href="https://proofsandprompts.com/2026/10/28/math2038-a-day-in-the-life-of-future-mathematicians/">fictional utopian vision of mathematics in 2038</a>, set in a literal post-scarcity world, one can only imagine the mathematical community through the eyes of&#46;&#46;&#46; an ETH Zurich professor and a postdoc heading to a three-month retreat in Princeton. Wow. Just wow. Even in the wildest, most utopian fantasies of the future, people like me don&#8217;t exist.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 1 November 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/05/im-not-done-doing-math-dont-ignore-me/feed/</wfw:commentRss>
-			<slash:comments>19</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3295</post-id>	</item>
-		<item>
-		<title>Futures of Maths Launch</title>
-		<link>https://proofsandprompts.com/2026/11/05/futures-of-maths-launch/</link>
-					<comments>https://proofsandprompts.com/2026/11/05/futures-of-maths-launch/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Thu, 05 Nov 2026 13:02:21 +0000</pubDate>
-				<category><![CDATA[Take part]]></category>
-		<category><![CDATA[Community]]></category>
-		<category><![CDATA[Initiative]]></category>
-		<category><![CDATA[Survey]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3365</guid>
-
-					<description><![CDATA[Today we launch Futures of Maths, a new, living platform that asks the mathematics community about the most pressing questions around maths and AI.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://www.fffmaths.com/">Francesco Fournier-Facio</a>, Assistant Professor at Heriot-Watt University; <a href="https://www.joh.cam.ac.uk/research/academics/fellows/yara-kyrychenko">Yara Kyrychenko</a>, Research Fellow at University of Cambridge (St John&#8217;s College); <a href="https://www.psychol.cam.ac.uk/people/jon-roozenbeek">Jon Roozenbeek</a>, Associate Professor at University of Cambridge and VU Amsterdam; <a href="https://sites.google.com/view/julian-wykowski">Julian Wykowski</a>, Postdoctoral Researcher at Karlsruhe Institute of Technology</p>
-
-
-
-<p class="wp-block-paragraph">Today we launch <a href="https://community.futuresofmaths.com">Futures of Maths</a>, a new, living platform that asks active research mathematicians about the most pressing questions around maths and AI. A string of solutions to famous maths problems, found with the help of AI, has provoked a great deal of discussion among research mathematicians. We built Futures of Maths to understand how mathematicians are dealing with this change in their research and teaching, and where they see the field heading.</p>
-
-
-
-<p class="wp-block-paragraph"><em><strong>How it works.</strong></em> The platform shows you short statements about maths and AI. You rate each one from “strongly disagree” to “strongly agree”, or skip it, and you can mark the ones you find exceptionally important. Once you have answered, you see how everyone has rated the statement so far. You don’t have to finish in one go: you can leave and come back at any time. Most importantly, you can post your own statements. A moderator checks each one, and then everyone else can rate it, so the set of statements keeps evolving with the community’s input.</p>
-
-
-
-<p class="wp-block-paragraph"><em><strong>Results.</strong></em> Once we have collected enough responses, we will publish the results and make them available to the community. We will post again on Proofs and Prompts when this happens.</p>
-
-
-
-<p class="wp-block-paragraph"><em><strong>Who can participate.</strong></em> You can take part if you are 18 or older and have at least one article published in the last 5 years in a mathematics journal, meaning one indexed by zbMATH Open (recently accepted articles also count). The quickest way in is to sign in with ORCID. The article must be on your public ORCID record, added by Crossref. Articles you enter yourself don’t count. If it isn’t there, accept Crossref’s permission request in your ORCID inbox and make the work public. If that doesn’t work, for example because your article is accepted but not yet published, you can request a manual review from your institutional email address. We review these case by case.<br>We appreciate that this is only an approximation of what an active research mathematician is, but we chose it for its <em>simplicity</em>, <em>objectivity </em>and <em>efficient verifiability</em>. We welcome proposals of alternative criteria that cover a more representative sample, and have these same three qualities, they could be implemented in future iterations.</p>
-
-
-
-<p class="wp-block-paragraph"><em><strong>Privacy.</strong></em> The survey is anonymous. Verification happens on a separate website, and the survey itself never learns your name, email address or ORCID iD. When you first register, you receive a personal link that lets you return as often as you like as the consultation evolves. Please save this link. We can’t look it up or resend it, because that is what keeps you anonymous. Questions about yourself are optional, under “My session”, and you can withdraw your answers at any time.</p>
-
-
-
-<p class="wp-block-paragraph"><em><strong>Inviting wide participation.</strong></em> The results will only be meaningful if a large and diverse group of people takes part, both proposing statements and rating them. Please share this widely, and especially with people whose point of view you feel is underrepresented in the discussion on maths and AI.</p>
-
-
-
-<p class="wp-block-paragraph">If you have any suggestions or feature requests, please leave them in the comments!</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 5 November 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/05/futures-of-maths-launch/feed/</wfw:commentRss>
-			<slash:comments>9</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3365</post-id>	</item>
 	</channel>
 </rss>

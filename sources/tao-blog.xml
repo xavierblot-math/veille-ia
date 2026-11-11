@@ -13,7 +13,7 @@
 	<atom:link href="https://terrytao.wordpress.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://terrytao.wordpress.com</link>
 	<description>Updates on my research and expository papers, discussion of open problems, and other maths-related topics.  By Terence Tao</description>
-	<lastBuildDate>Mon, 09 Nov 2026 16:57:09 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 10 Nov 2026 19:44:17 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -30,6 +30,67 @@
 	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://terrytao.wordpress.com/osd.xml" title="What&#039;s new" />
 	<atom:link rel='hub' href='https://terrytao.wordpress.com/?pushpress=hub'/>
 	<item>
+		<title>&#8220;Six Math Essentials&#8221; now available</title>
+		<link>https://terrytao.wordpress.com/2026/11/10/six-math-essentials-now-available/</link>
+					<comments>https://terrytao.wordpress.com/2026/11/10/six-math-essentials-now-available/#respond</comments>
+		
+		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
+		<pubDate>Tue, 10 Nov 2026 16:58:00 +0000</pubDate>
+				<category><![CDATA[advertising]]></category>
+		<category><![CDATA[book]]></category>
+		<category><![CDATA[math.GM]]></category>
+		<category><![CDATA[six math essentials]]></category>
+		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18690</guid>
+
+					<description><![CDATA[My popular mathematics book, &#8220;Six Math Essentials&#8221; (Six Maths Essentials in the UK), which was previously announced on this blog in February, is now available (in print, digital, and audiobook formats). Some related links: Review by Karmela Padavic-Callaghan (New Scientist) Review (Publishers Weekly) Review (Library Journal) Sample excerpt (via Science Friday), with related podcast interview [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">My popular mathematics book, &#8220;<a href="https://teorth.github.io/tao-web/six-math-essentials.html">Six Math Essentials</a>&#8221; (<a href="https://www.penguin.co.uk/books/482167/six-maths-essentials-by-tao-terence/9780241829486">Six Maths Essentials in the UK</a>), which was <a href="https://terrytao.wordpress.com/2026/02/16/six-math-essentials/">previously announced on this blog in February</a>, is <a href="https://www.quantabooks.org/books/six-math-essentials/">now available</a> (in print, digital, and audiobook formats).</p>
+
+
+
+<p class="wp-block-paragraph">Some related links:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.newscientist.com/article/2594471-terence-taos-six-maths-essentials-opens-his-field-to-all-of-us">Review by Karmela Padavic-Callaghan (New Scientist)</a></li>
+
+
+
+<li><a href="https://www.publishersweekly.com/9780374621797">Review (Publishers Weekly)</a></li>
+
+
+
+<li><a href="https://www.libraryjournal.com/review/six-math-essentials-100013537">Review (Library Journal</a>)</li>
+
+
+
+<li><a href="https://www.sciencefriday.com/articles/six-math-essentials-book-excerpt/">Sample excerpt (via Science Friday)</a>, with related <a href="https://www.sciencefriday.com/segments/terence-tao-ai-math-solutions/">podcast interview</a></li>
+
+
+
+<li><a href="https://www.youtube.com/watch?v=p2AAz24AzU4">Interview about the book with Numberphile</a></li>
+
+
+
+<li><a href="https://www.youtube.com/watch?v=OOMx2BHHWtE">Interview with Big Think</a></li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/10/six-math-essentials-now-available/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">18690</post-id>
+		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
+			<media:title type="html">Terry</media:title>
+		</media:content>
+	</item>
+		<item>
 		<title>Our Survey of Early Career Mathematicians</title>
 		<link>https://terrytao.wordpress.com/2026/11/09/our-survey-of-early-career-mathematicians/</link>
 					<comments>https://terrytao.wordpress.com/2026/11/09/our-survey-of-early-career-mathematicians/#comments</comments>
@@ -61,7 +122,7 @@ This blog post is an invitation to take a look at the survey results. Some of th
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/09/our-survey-of-early-career-mathematicians/feed/</wfw:commentRss>
-			<slash:comments>4</slash:comments>
+			<slash:comments>5</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18684</post-id>
@@ -191,7 +252,7 @@ This blog post is an invitation to take a look at the survey results. Some of th
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/08/what-should-we-teach-our-undergraduate-students/feed/</wfw:commentRss>
-			<slash:comments>9</slash:comments>
+			<slash:comments>10</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18678</post-id>
@@ -237,7 +298,7 @@ This blog post is an invitation to take a look at the survey results. Some of th
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/06/more-posts/feed/</wfw:commentRss>
-			<slash:comments>8</slash:comments>
+			<slash:comments>10</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18615</post-id>
@@ -379,7 +440,7 @@ If you have any suggestions or feature requests, please leave them in the commen
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/03/doctoral-advising-guidelines-by-the-ahm/feed/</wfw:commentRss>
-			<slash:comments>32</slash:comments>
+			<slash:comments>34</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18659</post-id>
@@ -595,7 +656,7 @@ Many of the themes mentioned here have been brought up in other posts. To give t
 </p>]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/feed/</wfw:commentRss>
-			<slash:comments>65</slash:comments>
+			<slash:comments>70</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18632</post-id>
@@ -647,48 +708,6 @@ Many of the themes mentioned here have been brought up in other posts. To give t
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18624</post-id>
-		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
-			<media:title type="html">Terry</media:title>
-		</media:content>
-	</item>
-		<item>
-		<title>Report of the Summit on Math Research in the Age of AI</title>
-		<link>https://terrytao.wordpress.com/2026/10/30/__trashed/</link>
-					<comments>https://terrytao.wordpress.com/2026/10/30/__trashed/#respond</comments>
-		
-		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
-		<pubDate>Sat, 31 Oct 2026 03:07:00 +0000</pubDate>
-				<category><![CDATA[paper]]></category>
-		<category><![CDATA[Bryna Kra]]></category>
-		<category><![CDATA[Dan Freed]]></category>
-		<category><![CDATA[Emily Riehl]]></category>
-		<category><![CDATA[Larry Guth]]></category>
-		<category><![CDATA[Mohammed Abouzaid]]></category>
-		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18618</guid>
-
-					<description><![CDATA[[This is a guest post by the organizers of the Summit on Math Research in the Age of AI: Dan Freed (Harvard), Larry Guth (MIT), Bryna Kra (Northwestern), Emily Riehl (Johns Hopkins), and Mohammed Abouzaid (Stanford). This blog post was initially written in a different file format and converted using AI. &#8212; T.] Last week [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>
- <em>[This is a guest post by the organizers of the <a href="https://cmsa.fas.harvard.edu/aimathresearch_summit/">Summit on Math Research in the Age of AI</a>: Dan Freed (Harvard), Larry Guth (MIT), Bryna Kra (Northwestern), Emily Riehl (Johns Hopkins), and Mohammed Abouzaid (Stanford). This blog post was initially written in a different file format and converted using AI. &#8212; T.]</em>
-</p><p>
-Last week we organized an intensive two-day summit <em>Math Research in the Age of AI</em>. It was held at the Harvard Center for Mathematical Sciences and Applications (<a href="https://cmsa.fas.harvard.edu">CMSA</a>). Thirty-two mathematicians from academia, government, and industry came together to help navigate this period of rapid change in mathematics and, most importantly, to offer ideas for building the future. There were five working groups organized around the following themes:
-</p><p>
-
-
-<ul> <li> Evaluation, production, and dissemination of research </li><li> Coordinated actions for the AI era </li><li> Open-source tools </li><li> Formalization in mathematics </li><li> Collaboration between academia and AI labs 
-</li></ul>
-
-
-</p><p>
-Our <a href="https://cmsa.fas.harvard.edu/media/2026/10/Summit-on-Math-Research-in-the-Age-of-AI.pdf">report</a> can be found on the <a href="https://cmsa.fas.harvard.edu/aimathresearch_summit/">summit website</a>. There you&#8217;ll also find a <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6_RDRhjfDmBs1rjzzH5mFNjkGslkzXenaY7pjbQBU6NrPiw/viewform">link</a> to provide feedback, and we also encourage open discussion in the comments section of this blog.
-</p><p>
-</p>]]></content:encoded>
-					
-					<wfw:commentRss>https://terrytao.wordpress.com/2026/10/30/__trashed/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">18618</post-id>
 		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
 			<media:title type="html">Terry</media:title>
 		</media:content>

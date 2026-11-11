@@ -9,9 +9,15 @@
       <title>Terence Tao</title>
       <link>https://mathstodon.xyz/@tao</link>
     </image>
-    <lastBuildDate>Thu, 08 Oct 2026 15:45:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 18:02:53 +0000</lastBuildDate>
     <webfeeds:icon>https://media.mathstodon.xyz/accounts/avatars/109/378/244/433/513/115/original/e7134404c3103f9a.jpg</webfeeds:icon>
     <generator>Mastodon v4.7.5</generator>
+    <item>
+      <guid isPermaLink="true">https://mathstodon.xyz/@tao/117593458177772386</guid>
+      <link>https://mathstodon.xyz/@tao/117593458177772386</link>
+      <pubDate>Tue, 10 Nov 2026 18:02:53 +0000</pubDate>
+      <description>&lt;p&gt;My popular mathematics book, “Six Math Essentials” (Six Maths Essentials in the UK), is now available: &lt;a href="https://www.quantabooks.org/books/six-math-essentials/" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class="ellipsis"&gt;quantabooks.org/books/six-math&lt;/span&gt;&lt;span class="invisible"&gt;-essentials/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <guid isPermaLink="true">https://mathstodon.xyz/@tao/117406062062897767</guid>
       <link>https://mathstodon.xyz/@tao/117406062062897767</link>
@@ -125,12 +131,6 @@
       <link>https://mathstodon.xyz/@tao/117233528517340774</link>
       <pubDate>Tue, 08 Sep 2026 04:28:02 +0000</pubDate>
       <description>&lt;p&gt;For the specific ansatz of perturbations chosen here, the amplitude-frequency dynamics turn out to be a remarkably simple ODE, at least for the model case of the Boussinesq equation, though there are still many technical details (involving spatial cutoffs etc.) that enlarge the size of that paper to 76 pages in length, even after the authors efforts to simplify the arguments.  &lt;/p&gt;&lt;p&gt;There does not seem to be anything in principle preventing the methods from extending all the way to Navier-Stokes, and there is even a non-negligible chance that the forcing term could be eliminated entirely, although there are an enormous number of technical difficulties that would ensue in implementing that program.  At this point, I would not be surprised if one could batter out such an extension by pouring an enormous amount of compute and AI assistance at such a task. But such an exercise does not particularly hold my interest; I am far more interested in digesting the proof methods and extracting out the key new insights uncovered by this approach.  I am still in the process of doing so, but the initial conversation with Tristan was extremely helpful, and the papers themselves, while still very much works in progress, do make a very good initial attempt at communicating the key ideas.  I will be definitely be looking forward to more talks and expositions by the authors on these results in the future! (2/2)&lt;/p&gt;</description>
-    </item>
-    <item>
-      <guid isPermaLink="true">https://mathstodon.xyz/@tao/117233527638291447</guid>
-      <link>https://mathstodon.xyz/@tao/117233527638291447</link>
-      <pubDate>Tue, 08 Sep 2026 04:27:49 +0000</pubDate>
-      <description>&lt;p class="quote-inline"&gt;RE: &lt;a href="https://mastodon.social/@tristanbuckmaster/117233413705701198" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;mastodon.social/@tristanbuckma&lt;/span&gt;&lt;span class="invisible"&gt;ster/117233413705701198&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;A remarkable achievement: Alpöge and Buckmaster have managed to push one of the major promising approaches towards constructing blowup solutions to fluid equations --- as developed by Cordoba and Martınez-Zoroa --- to establish finite time blowup for many key fluid equations, including 3D incompressible Euler, with a smooth forcing term. (Previous work by these authors on similar equations could obtain a smooth forcing term for the IPM equation, and a subcritical but not smooth regularity for other equations.) The arguments have been formalized in Lean.&lt;/p&gt;&lt;p&gt;Tristan Buckmaster kindly explained some of the key ideas to me over the phone, which made a refreshing change from AI-based communication modalities. (The arguments do contain significant AI input, although the authors have been working extensively in the past few weeks to rework them into an acceptable form. Unfortunately, they had to release far earlier than planned due to external events, as documented in the accompanying statement.)&lt;/p&gt;&lt;p&gt;The broad strategy of the Cordoba--Martınez-Zoroa approach is to iteratively build up solutions by repeatedly adding small, localized high frequency corrections to an existing solution, somewhat in the spirit of the method of convex integration, except that there is barely any feedback from the high frequency waves back into the low frequency components. Instead, the low frequency components are used to exponentially amplify the high frequency components, allowing them to take over the dynamics at just the right time before blowup for the next iteration to proceed. (1/2)&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

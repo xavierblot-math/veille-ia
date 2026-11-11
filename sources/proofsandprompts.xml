@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Mon, 09 Nov 2026 15:35:33 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 10 Nov 2026 10:36:23 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,216 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>Why we should reject AI in academia</title>
+		<link>https://proofsandprompts.com/2026/11/10/why-we-should-reject-ai-in-academia/</link>
+					<comments>https://proofsandprompts.com/2026/11/10/why-we-should-reject-ai-in-academia/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Tue, 10 Nov 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Critique]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2447</guid>
+
+					<description><![CDATA[I am writing this on the occasion of the OpenAI release, as I am now driven by a sense of urgency, but I have been planning to write a statement on AI in academia for a long time. I believe that we, as researchers and teachers, must reject AI-powered “papers” like these as legitimate research, because they are not.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://aeporreca.org/">Antonio E. Porreca</a>, a maître de conférences at <a href="https://www.univ-amu.fr/">Aix-Marseille Université</a> and at the <a href="https://www.lis-lab.fr/">Laboratoire d’Informatique et des Systèmes</a>.</p>
+
+
+
+<p class="wp-block-paragraph">I woke up in the middle of the night a few days ago and discovered that OpenAI had finally released those mathematical “results” they had been bragging about lately. We are talking about 722 (<em>seven hundred and twenty-two</em>) “papers” written by their private LLM or something. They apparently decided to do so after consulting the Advisory Group on Mathematics and Artificial Intelligence, a group of nine people who, frankly, could do better things for themselves and for society with their own time (like actual research, or teaching). I do not really care about the details, either of the secret OpenAI LLM, or the AGMAI or, perhaps surprisingly to some colleagues, of the “results” themselves.</p>
+
+
+
+<p class="wp-block-paragraph">I am writing this on the occasion of the OpenAI release, as I am now driven by a sense of urgency, but I have been planning to write a statement on AI in academia for a long time. I believe that we, as researchers and teachers, must reject AI-powered “papers” like these as legitimate research, because they are not. They do not follow any of the rules or the values of academia: building on the work of others with citations, not scooping your colleagues, collaborating, learning, teaching… and, you know, actually writing your own stuff in good faith. And even if they were legitimate research, it is research that is not worth doing: its negative side effects are just too many. We have a right not to read papers like these, we have a right and, I believe, a <em>duty</em>, not to cite them, and to refuse refereeing them.</p>
+
+
+
+<p class="wp-block-paragraph">Even if you, as a senior academician, believe that it is OK for yourself to do AI-powered “research”, you should first think about your students and your junior and future colleagues. AI-powered “research” is not self-sustaining: you will always need a human expert in the loop, even if it is just for writing prompts for your LLM chatbot, filtering all the bullshit answers, and interpreting and applying the results (a job that, frankly, I would not wish on my worst enemy). If AI-powered “research”, let alone “teaching”, becomes the norm, we will lose <em>at least</em> a generation of human experts. I have personally witnessed whole classes of students pressured (by peers and, above all, by the hypocritical behaviour of their teachers and the university bureaucrats) into using LLMs to write code they do not understand. These students are not learning. They will never be the human expert in the loop. And the same thing will happen to our junior colleagues, if you force them to use LLMs to do their job for fear of missing out. In fact, if we go on this way, one day there will be no expert at all. Even current experts will one day lose their expertise too, if they let LLMs do their science for them. Snap out of it.</p>
+
+
+
+<p class="wp-block-paragraph">And those colleagues who are actually doing research on LLMs as generators (even though I fear that I should probably say on LLMs <em>tout court</em> by now)… Yes, unfortunately you are part of the problem. Do something else. There is a world of research to be done that is actually useful, or at least not detrimental, to humanity. Yes, it is hard to change your research area, particularly when there is money in it, but I do not think it is ethically justifiable to contribute to the destruction of academia anymore.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Acknowledgements and AI statement.</strong> I would like to thank Pierre Clairambault, Barbara Fantechi, Maxime Folschette, Joshua Grochow, Lê Thành Dũng (Tito) Nguyễn, and Athénaïs Vaginay for their encouragement. Needless to say, no AI at all was involved in the preparation of this text (or anything else in my work).</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 10 October 2026, revised 27 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/10/why-we-should-reject-ai-in-academia/feed/</wfw:commentRss>
+			<slash:comments>11</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2447</post-id>	</item>
+		<item>
+		<title>I&#8217;m giving my theorems away</title>
+		<link>https://proofsandprompts.com/2026/11/10/im-giving-my-theorems-away/</link>
+					<comments>https://proofsandprompts.com/2026/11/10/im-giving-my-theorems-away/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
+				<category><![CDATA[Initiatives]]></category>
+		<category><![CDATA[Take part]]></category>
+		<category><![CDATA[Authorship]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Understanding]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3387</guid>
+
+					<description><![CDATA[Surely, we would learn more, enjoy the process more, and save a lot of money and resources if we just share the ideas and co-authorship credit openly. [...] This is my experiment; I hope some of you will join me and the other guinea pigs.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://jonathannoel.ca/">Jonathan Noel</a>, Associate Professor at <a href="https://www.uvic.ca/science/math-statistics/people/home/faculty/noel_jonathan.php">University of Victoria</a></p>
+
+
+
+<p class="wp-block-paragraph">Over the past couple of months, the same open problem may have been solved by prompting AI by 10 different people on 10 different days. Each of them knows that posting AI-generated text that they don&#8217;t understand is heavily frowned upon,<sup data-fn="3f0a6c1e-5b7d-4e21-9a40-1c2d8e7b0a01" class="fn"><a href="#3f0a6c1e-5b7d-4e21-9a40-1c2d8e7b0a01" id="3f0a6c1e-5b7d-4e21-9a40-1c2d8e7b0a01-link">1</a></sup> and so they keep their proof secret. They also know that anyone else with a subscription to the same AI might have access to this proof, and so they need to work fast. They send 50 more prompts to the AI to help understand the proof, most of which are unhelpful, and toil away independently to write it up. Eventually, one of them finishes and puts the paper on arXiv, and the rest abandon their work for zero credit, and vow to be faster—and more sloppy—with the next one.</p>
+
+
+
+<p class="wp-block-paragraph">This is incredibly wasteful, not only of mathematicians’ time and effort, but of money and computational and natural resources.<sup data-fn="7b92d4a8-0c3e-4f65-8d17-2e9a5c6b0b02" class="fn"><a href="#7b92d4a8-0c3e-4f65-8d17-2e9a5c6b0b02" id="7b92d4a8-0c3e-4f65-8d17-2e9a5c6b0b02-link">2</a></sup> It is also very lonely. Moreover, it is counterproductive if, as many have suggested, we are hoping to transition to a system that credits contributions to human understanding over generating proofs.<sup data-fn="c41e8f27-6a5b-4d93-b0e2-3f7d1a8c0c03" class="fn"><a href="#c41e8f27-6a5b-4d93-b0e2-3f7d1a8c0c03" id="c41e8f27-6a5b-4d93-b0e2-3f7d1a8c0c03-link">3</a></sup></p>
+
+
+
+<p class="wp-block-paragraph">I believe that the dystopian scenario described above, that many of us are living through now, is forced by three assumptions of the existing systems of mathematics: (1) if you prove something, then you should not make it public until you have a polished arXiv-worthy draft, (2) co-authorship is sacred and shouldn&#8217;t just be given away and, relatedly, (3) the person who generates a proof should always be a co-author. However, as many have observed, this system no longer makes sense in a world where everyone with a subscription to a top AI model has access to almost the same set of proofs as anyone else.<sup data-fn="e85b3d06-9f14-4a72-8c5d-4b6e2f9a0d04" class="fn"><a href="#e85b3d06-9f14-4a72-8c5d-4b6e2f9a0d04" id="e85b3d06-9f14-4a72-8c5d-4b6e2f9a0d04-link">4</a></sup></p>
+
+
+
+<p class="wp-block-paragraph">At first, it may seem difficult and painful to come up with a new system that does not feature these assumptions but, for the time being, I am hopeful that it may turn out to be much easier than we thought. Of course, the devil is always in the details. But, for now, I am holding onto this naive optimism because, without it, I may be paralyzed with indecision, and that has no chance of being valuable. As the 10th greatest Canadian of all time (as of 2004) said, &#8220;you miss 100% of the shots you don&#8217;t take.&#8221;<sup data-fn="1a6c9e43-d2b8-4057-a3f1-5c8e7b0d0e05" class="fn"><a href="#1a6c9e43-d2b8-4057-a3f1-5c8e7b0d0e05" id="1a6c9e43-d2b8-4057-a3f1-5c8e7b0d0e05-link">5</a></sup></p>
+
+
+
+<p class="wp-block-paragraph">So, here&#8217;s my shot; I&#8217;m calling it <a href="https://proofsandpeople.org/">proofsandpeople.org/</a>, inspired by the name of this blog. The concept is as follows. Anyone can submit a &#8220;project&#8221; to the webpage which consists of an AI-generated proof that has not yet been understood by humans. Each project will have a &#8220;leader&#8221; and a &#8220;team&#8221; of other researchers who are interested in working together to understand the proof, extract valuable human insights from it, teach them to each other and, eventually, write up the proof and submit it to arXiv for shared credit as co-authors. The leader has the option of allowing new team members to join openly, to close the project to new members, or even to remove it from the webpage. The person who submits a project may decide to lead it, join the team, or completely leave it to other people to carry forward. In the latter case, they should normally not retain any rights to co-authorship; however, the decision of how to assign credit for a project is left up to the leader, submitter and team members for an individual project.</p>
+
+
+
+<p class="wp-block-paragraph">I launched this site with 10 projects that I generated with AI myself, 2 of which I plan to lead and 8 that I am giving away for others to take forward. I recognize that my time, energy and attention are limited and it is unrealistic for me to bring all of these projects to fruition. So, I&#8217;m going to focus on working on the projects that I&#8217;m most deeply interested in, doing so at a pace that is appropriate for truly digesting the ideas, and sharing the journey with other people. I invite you all to join me in this.</p>
+
+
+
+<p class="wp-block-paragraph">While I believe that the main benefits of this initiative are to encourage collaboration, community and human understanding, I also have a financial motivation. I don&#8217;t want to pay hundreds of dollars every month to OpenAI anymore. In a system where we all work in secret and 99.9% of the credit is given to the person who posts to arXiv first, I feel that I would have no choice but to use all of the tools at my disposal to speed up my workflow. Meanwhile, all of my competitors are also pouring money and resources duplicating the same work that I&#8217;m doing in an attempt to beat me to arXiv. Surely, we would learn more, enjoy the process more, and save a lot of money and resources if we just share the ideas and co-authorship credit openly. Personally, partly because of this new initiative, I&#8217;ve recently gone from the US$200/month ChatGPT Pro account to a US$20/month Plus account, which is more than enough to support my productivity when I&#8217;m not trying to generate new proofs and working feverishly to write them up. Moreover, in this system, members of the community who are abstaining from using LLMs themselves may have an opportunity to get involved and share their insights and expertise, depending on their level of openness to doing this type of work.</p>
+
+
+
+<p class="wp-block-paragraph">I do not claim that this is a foolproof or long-term solution. You can probably already see some potential headaches that will emerge with this model; so can I. Moreover, the value of this system may decrease if/when AI figures out how to write a beautiful math paper. But, as Patrick Morris suggested in his recent essay, now is a time for us to innovate.<sup data-fn="9d27f5b1-4e80-4c36-b7a9-6d1f3e2a0f06" class="fn"><a href="#9d27f5b1-4e80-4c36-b7a9-6d1f3e2a0f06" id="9d27f5b1-4e80-4c36-b7a9-6d1f3e2a0f06-link">6</a></sup> I don&#8217;t believe that we will find the perfect solution by sitting in an armchair and theorizing about it without testing it in the real world.<sup data-fn="52e0a7c9-8b3d-4a15-9f64-7e2c4d1b1007" class="fn"><a href="#52e0a7c9-8b3d-4a15-9f64-7e2c4d1b1007" id="52e0a7c9-8b3d-4a15-9f64-7e2c4d1b1007-link">7</a></sup> This is my experiment; I hope some of you will join me and the other guinea pigs.</p>
+
+
+
+<p class="wp-block-paragraph">I apologize in advance if you find the system clunky. I hope that someone with better web development skills will take over one day. As with my AI-generated proofs, I would be happy to hand over ownership of the domain to anyone who is interested in taking this idea and making it bigger and better than I am able to.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AI Disclosure</strong></p>
+
+
+
+<p class="wp-block-paragraph">ChatGPT 6.1 Sol Max was used to help me consolidate my ideas and suggest most of the references below.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 4 November 2026.</p>
+
+
+<ol class="wp-block-footnotes"><li id="3f0a6c1e-5b7d-4e21-9a40-1c2d8e7b0a01">The Association for Human Mathematics’ <a href="https://www.ahmath.org/members">second membership commitment</a> asks members not to publish mathematical texts generated by AI models. Its <a href="https://www.ahmath.org/faq">FAQ</a> clarifies that this includes writing produced mainly by prompting a model. For explicit opposition to public release by AI companies, see Lorenzo Riva’s <a href="https://www.ahmath.org/agmai-comments">comments published by AHM</a>, urging companies not to release their results and to cease work on open mathematical problems. <a href="#3f0a6c1e-5b7d-4e21-9a40-1c2d8e7b0a01-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="7b92d4a8-0c3e-4f65-8d17-2e9a5c6b0b02">Alexandra Sasha Luccioni, Yacine Jernite and Emma Strubell, “<a href="https://arxiv.org/abs/2311.16863">Power Hungry Processing: Watts Driving the Cost of AI Deployment?</a>,” <em>ACM FAccT</em>, 2024, measures energy consumption and emissions during inference. Cooper Elsworth et al., “<a href="https://arxiv.org/abs/2508.15734">Measuring the environmental impact of delivering AI at Google Scale</a>,” 2025, reports energy, carbon and water measurements for Gemini Apps text prompts. <a href="#7b92d4a8-0c3e-4f65-8d17-2e9a5c6b0b02-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="c41e8f27-6a5b-4d93-b0e2-3f7d1a8c0c03">William P. Thurston, “<a href="https://arxiv.org/abs/math/9404236">On proof and progress in mathematics</a>,” <em>Bulletin of the American Mathematical Society</em> <strong>30</strong> (1994), 161–177, especially p. 162. For recent proposals responding specifically to AI, see Daniel Litt, “<a href="https://proofsandprompts.com/2026/09/14/a-beginning-for-mathematics/">A beginning for mathematics</a>,” <em>Proofs and Prompts</em>, 14 September 2026, especially “Producing high-quality mathematicians”; and <a href="https://terrytao.wordpress.com/2026/09/13/deep-theorems-were-scarce-and-difficult-and-so-became-an-effective-mechanism-to-identify-deep-thought-ai-has-broken-this-system/">Bryna Kra’s guest essay on Terence Tao’s blog</a>, 13 September 2026. Litt proposes evaluating demonstrated understanding and mathematical discussion more directly; Kra calls for incentives that recognize verification, explanation and collective understanding. <a href="#c41e8f27-6a5b-4d93-b0e2-3f7d1a8c0c03-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="e85b3d06-9f14-4a72-8c5d-4b6e2f9a0d04">For a related discussion of duplicated AI effort, shared verification and the distinction between generating an argument and understanding it, see Marco Trombetti, “<a href="https://proofsandprompts.com/2026/09/22/proofforum-keeping-ai-generated-mathematics-human/">ProofForum: Keeping AI-Generated Mathematics Human</a>,” <em>Proofs and Prompts</em>, 22 September 2026. <a href="#e85b3d06-9f14-4a72-8c5d-4b6e2f9a0d04-link" aria-label="Jump to footnote reference 4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="1a6c9e43-d2b8-4057-a3f1-5c8e7b0d0e05">Wayne Gretzky finished tenth in CBC’s 2004 <em>The Greatest Canadian</em> competition; see the <a href="https://en.wikipedia.org/wiki/The_Greatest_Canadian">results</a>. For Gretzky discussing the saying himself, see his <a href="https://www.masterclass.com/classes/wayne-gretzky-teaches-the-athlete-s-mindset/chapters/you-miss-100-of-the-shots-you-don-t-take">MasterClass lesson</a>. <a href="#1a6c9e43-d2b8-4057-a3f1-5c8e7b0d0e05-link" aria-label="Jump to footnote reference 5"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="9d27f5b1-4e80-4c36-b7a9-6d1f3e2a0f06">Patrick Morris, “<a href="https://proofsandprompts.com/2026/10/30/lets-stop-writing-papers/">Let’s stop writing papers…</a>,” <em>Proofs and Prompts</em>, 30 October 2026, especially “Big Mathematics” and “Ok but what should we actually do now?” <a href="#9d27f5b1-4e80-4c36-b7a9-6d1f3e2a0f06-link" aria-label="Jump to footnote reference 6"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="52e0a7c9-8b3d-4a15-9f64-7e2c4d1b1007">The armchair imagery is inspired by W. T. Gowers’s <a href="https://www.maths.tcd.ie/~bnick/Gowers.pdf#page=3">“The Two Cultures of Mathematics”</a> (2000): “One will not get anywhere in graph theory by sitting in an armchair and trying to understand graphs better.” <a href="#52e0a7c9-8b3d-4a15-9f64-7e2c4d1b1007-link" aria-label="Jump to footnote reference 7"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/10/im-giving-my-theorems-away/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3387</post-id>	</item>
+		<item>
+		<title>Quo vadis, Mathematics?</title>
+		<link>https://proofsandprompts.com/2026/11/10/quo-vadis-mathematics/</link>
+					<comments>https://proofsandprompts.com/2026/11/10/quo-vadis-mathematics/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Tue, 10 Nov 2026 10:30:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<category><![CDATA[Teaching]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2606</guid>
+
+					<description><![CDATA[“Mathematicians, students of mathematics at all levels, and the general public are currently confronted with almost daily news on mathematical achievements by AI companies and individuals using AI tools in research, teaching, and dissemination. Many initiatives are forming to address these developments, and many of us have strong feelings about them. […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/mathematik/fachbereich/forschung-arbeitsbereiche/geometrische-analysis-differentialgeometrie-und-relativitaetstheorie/personen/prof-dr-carla-cederbaum/">Carla Cederbaum</a>, Full Professor of Differential Geometry and Mathematical Relativity at <a href="https://uni-tuebingen.de/">University of Tübingen</a>, Germany</p>
+
+
+
+<p class="wp-block-paragraph">Mathematicians, students of mathematics at all levels, and the general public are currently confronted with almost daily news on mathematical achievements by AI companies and individuals using AI tools in research, teaching, and dissemination. Many initiatives are forming to address these developments, and many of us have strong feelings about them. Without having fully digested the flood of press releases, opinion statements, blog entries, preprints, websites, etc. on the development, I am getting the impression that some aspects I highly care about receive too little attention, and I would therefore like to draw some of your attention to these aspects.</p>
+
+
+
+<h2 class="wp-block-heading">Human-to-human interaction is a priority — and has almost no environmental footprint</h2>
+
+
+
+<p class="wp-block-paragraph">When we learned mathematics at university (and before), we learned it from more experienced humans (e.g. instructors, text book authors) and in interaction with fellow students. I don&#8217;t know what this meant to you; to me, it meant that somebody was there to guide me to the mathematics that was most interesting and yet within reach for me based on their longterm experience. Which worked because I trusted them. It meant that I got feedback for my work from somebody I could rely on (most of the time, in the case of teaching assistants). It meant I was given time and guidance to develop my own mathematical voice and taste. Also, I wasn&#8217;t alone feeling overwhelmed at times, and I learned to handle frustration from and with my peers, friends, and mentors. I had role models for giving good talks and lectures, for writing good papers, and for having productive mathematical discussions. I regularly hear about similar observations from current students and junior researchers.</p>
+
+
+
+<p class="wp-block-paragraph">For me personally, all these aspects have continued to be relevant throughout my academic career, for research, for teaching, and for outreach. I expect this to apply to most if not to all of you as well, and similarly to the undergraduate and graduate students, postdocs, and junior colleagues we mentor. In my view, it also applies to students in schools at all levels and generally to people who care about mathematics.</p>
+
+
+
+<p class="wp-block-paragraph">I am not willing to give up on the next generation sharing this experience nor to accept that we might lose it. I want all of us to be able to become and/or continue to be members of a mathematical community. It makes me cringe to think of first year students learning mostly from AI-written lecture notes or of PhD students learning about a field from AI-written papers. Or of the uniformity of written mathematics if students learn to write mostly from AI output. Or of school teachers having to teach by preparing their classes relying mostly on AI because they have no idea how to do it differently (and the uniformity in the outcome).</p>
+
+
+
+<p class="wp-block-paragraph">In addition, first empirical research on humans and AI seems to indicate that we might emotionally suffer from too much conversation with AI systems, in particular if we use them alone. Many of us might develop feelings of inferiority, taking frustration to levels which stop being conducive for learning and researching. Based on my experiences described above, I expect that space and time for human-to-human interactions between students as well as between students and educated mathematicians, between junior and senior researchers, researchers, practitioners, and teachers, etc. will help us remain aware that humans can <em>understand</em> mathematics in a way AI systems cannot and that the process of understanding and connecting to previous knowledge needs time. This will reduce frustration and thereby enable us to continue being productive. I expect it to also help not to succumb to the illusion of understanding.</p>
+
+
+
+<p class="wp-block-paragraph">I would thus like to encourage and urge you to use the power you have to create time and space for human-to-human interaction in mathematics, in particular in learning and teaching. This could take many different forms: We could decide to have students defend their homework in front of a teaching assistant<sup data-fn="fn-0e668bf4-a531-4439-87f1-9b8594d09a20" class="fn"><a href="#fn-0e668bf4-a531-4439-87f1-9b8594d09a20" id="fn-0e668bf4-a531-4439-87f1-9b8594d09a20-link">1</a></sup> instead of or in addition to having the teaching assistant (or an AI system) look at the written homework. We could offer ” no AI use” or ” ask a human first” classrooms (i.e., a room + a more experienced person) where students can come to work on their homework alone or in small groups or to study for exams, protected from the temptation to immediately resort to asking AI by the sheer presence of others they can ask and who watch them. We can offer more interactive classes, e.g. with hands on activities (more on this in a future article in the Mitteilungen). We could have local writing competitions, panel discussions, … with our students and junior researchers where we discuss when and how using AI is conducive for learning mathematics or for (learning to) doing good mathematical research, allowing for interpersonal and cultural differences, financial situations, environmental concerns, ….</p>
+
+
+
+<p class="wp-block-paragraph">Last but not least, taking action to preserve and increase human-to-human interaction in mathematics learning and research will help us remain sane, pro-active, and genuinely in charge of our field as a community. No matter how things develop in general at the AI front. Moreover, us focusing on and enhancing the human aspects of learning and research will hopefully help preventing political decisions to further cut our funding for teaching (including for teaching assistants, PhD and postdoc positions, and teaching reductions for developing new courses and approaches) and for research. And it will help us in making hiring and funding decisions wisely choosing the people who will design the future of our field with us.</p>
+
+
+
+<h2 class="wp-block-heading">Let&#8217;s communicate the benefits of mathematics</h2>
+
+
+
+<p class="wp-block-paragraph">Looking at the media coverage on Math &amp; AI, I miss seeing enough mathematical societies and individual mathematicians inviting the ” general public” to understand why we care about mathematics, what mathematics is good for, what mathematicians are good for, and what learning mathematics properly is good for. I hope many of us will participate in human-to-human outreach activities or get involved with ” the media”, making a case for mathematics as a field, for learning mathematics, and for mathematicians as a profession. After all, we will need more, not fewer, mathematically well trained people to develop, use, and oversee AI systems in all aspects of our society. I strongly believe that pursuing mathematics is a central component for developing judgement. And judgement will only become more important in the future.</p>
+
+
+
+<p class="wp-block-paragraph">I look forward to hearing and reading about many interesting ideas, opinions, and initiatives at meetings, in the Mitteilungen<sup data-fn="fn-1d05e871-9ed5-4bfb-aa9d-ea009d7d01a6" class="fn"><a href="#fn-1d05e871-9ed5-4bfb-aa9d-ea009d7d01a6" id="fn-1d05e871-9ed5-4bfb-aa9d-ea009d7d01a6-link">2</a></sup> and in other media.</p>
+
+
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+<ol class="wp-block-footnotes has-small-font-size"><li id="fn-0e668bf4-a531-4439-87f1-9b8594d09a20">An idea that I learned about from colleagues who pursue it at the University of Potsdam <a href="#fn-0e668bf4-a531-4439-87f1-9b8594d09a20-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-1d05e871-9ed5-4bfb-aa9d-ea009d7d01a6">This article also appeared in the quarterly “<a href="https://www.degruyterbrill.com/de/journal/key/dmvm/html" data-type="link" data-id="https://www.degruyterbrill.com/de/journal/key/dmvm/html">Mitteilungen</a>” of the German Mathematical Society DMV  <a href="#fn-1d05e871-9ed5-4bfb-aa9d-ea009d7d01a6-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>
+
+
+<p class="wp-block-paragraph">Received 13 October 2026.</p>
+
+
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/10/quo-vadis-mathematics/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2606</post-id>	</item>
+		<item>
 		<title>If Life Gives You Lemons&#8230;</title>
 		<link>https://proofsandprompts.com/2026/11/09/if-life-gives-you-lemons/</link>
 					<comments>https://proofsandprompts.com/2026/11/09/if-life-gives-you-lemons/#comments</comments>
@@ -122,7 +332,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/09/if-life-gives-you-lemons/feed/</wfw:commentRss>
-			<slash:comments>9</slash:comments>
+			<slash:comments>10</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2584</post-id>	</item>
@@ -220,7 +430,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/09/the-bigger-picture/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
+			<slash:comments>2</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2483</post-id>	</item>
@@ -941,238 +1151,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2130</post-id>	</item>
-		<item>
-		<title>Nothing More than Tools?</title>
-		<link>https://proofsandprompts.com/2026/11/06/nothing-more-than-tools/</link>
-					<comments>https://proofsandprompts.com/2026/11/06/nothing-more-than-tools/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Fri, 06 Nov 2026 17:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Personal experience]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<category><![CDATA[Understanding]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2456</guid>
-
-					<description><![CDATA[My psychological defenses kept retreating as frontier LLMs entered mathematical research. Are these models really nothing more than tools? I must rethink what gives meaning to my mathematical life. The core is what I would call toolization—keeping humans at the crucial nodes of the intellectual activity while outsourcing parts of the reasoning. ]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://vladimirsunski.github.io/chenminmath.github.io/">Chenmin Sun</a>, CNRS junior researcher at <a href="https://lama-umr8050.fr/" target="_blank" rel="noopener">UPEC</a></p>
-
-
-
-<p class="wp-block-paragraph">I have subscribed to a commercial LLM for more than three years, at $20 per month. As a Chinese native living abroad, I used it to polish my language, to seek advice on daily life concerns, and to chat about almost anything. It was a toy, sometimes a friend who could patiently listen to me, and most of the time a shortcut tool. It entered my mathematical life at the beginning of 2025, when I could play with it in the context of university-level problem-solving, interactively learning papers from other domains in which I had little expertise. The model, accessible to me through that cheap subscription, evolved at almost a constant pace. It became my custom-made super search engine, calculator, verifier and reliable Wikipedia.</p>
-
-
-
-<p class="wp-block-paragraph">As a PDE researcher dealing with many estimates, I had always expected a real-time research assistant embedded in my workflow while editing a long paper in LaTeX. It would perfectly understand the logic flow I was working on, helping me to deal with tedious case checks and basic estimates where the guiding principle is clear. At that time (even at the beginning of 2026), LLM agents were not that popular in my community, and it was difficult—at least for me—to implement the above workflow. AI for mathematics remained distant from my research. It was not yet the assistant I had hoped for.</p>
-
-
-
-<p class="wp-block-paragraph">The situation changed dramatically over the past few months. While news about AI-solved Erdős problems kept coming, the storm was getting closer to all of us. The first wave of preprints emerged on arXiv, with many AI-solved (or heavily-assisted) mid-to-high-profile problems in every domain of mathematics. It was the time of GPT-5.5, and since then we have seen GPT-5.6, Fable 5, Astra… People devised a dazzling array of ways to play with these models: first, all kinds of prompting tricks that seemed to lack intellectual depth; then workflow construction and the distillation of various skills. In early 2026, building agent tools still posed a certain barrier to entry for non-programmers. But once Codex and ChatGPT were deeply integrated, an amateur who knew nothing about mathematics or programming could, with nothing more than naive prompts, keep a model working until an oracle-like proof was spat out by the computer. So, are these agents built on frontier LLMs really nothing more than tools?</p>
-
-
-
-<p class="wp-block-paragraph">By common sense, a tool is characterized by a specific range of uses and a determinate capability—or at least by a capability that improves steadily within a predictable range. Motivated by a desire to understand the performance of a frontier commercial model, I tried one a couple of months ago. My psychological defenses kept retreating: An early version (GPT-5.5) could not solve any of the problems in a small set from my personal collection. The situation changed when GPT-5.6 arrived. To understand which “hard problems” were worth working on, I started testing several open problems in my field—fortunately without success. Later in the summer, I heard about a fancy way of working—so-called “drawing cards” for major open problems. People around me were drawing cards, and succeeding. From my perspective, this way of working is hallucinogenic. We immerse ourselves in a virtual world as commanders of a massive army, commanding well-equipped soldiers (agents) to attack day after day until they exhaust their ammunition (tokens), with only very high-level intervention. Even pure curiosity—the will to know the truth—chases us, and hallucination emerges in our minds: we must know; we will know. An invisible force catches us: well-organized prompts must be sent before leaving home, during dinner with family, and before sleep. Does any tool make us addicted like that?</p>
-
-
-
-<p class="wp-block-paragraph">The ethical consequences are even more serious. If a result is obtained through long but almost context-free prompts, whose name should appear on the paper? Opinions differ. From my perspective, authorship of a research article—as distinct from an expository article—should be reserved for those who contribute creative intellectual input. And in the case of automatic problem-solving, where the model works essentially on its own to close the loop of theorem-proving and verification, why should it be credited only as a tool?</p>
-
-
-
-<p class="wp-block-paragraph">This is no longer hypothetical. On October 6, 2026, before the community could adapt to the new paradigm at a reasonable pace, OpenAI released mathematical manuscripts grouped into 372 result families, including candidate solutions to high-profile problems across all areas of mathematics. The news came like a cluster of nuclear bombs, destroying the old landscape of mathematics, yet few survivors could foresee the new horizon.</p>
-
-
-
-<p class="wp-block-paragraph">This is the landmark event that forces me to confront an existential crisis. There is no more room for psychological retreat. I must rethink what gives meaning to my mathematical life.</p>
-
-
-
-<p class="wp-block-paragraph">Without getting involved in the controversial commentary on similar events, or in how we should act collectively, I would rather share my individual thoughts on how I want to adapt to the advance of AI in my career. Since nobody can predict the future, I should state that what I am going to discuss should not be taken as a standard or judgement I am imposing on others, and these views will steadily evolve over time.</p>
-
-
-
-<p class="wp-block-paragraph">The core is what I would call toolization. More specifically, the model is assigned a bounded range of local tasks, while humans pilot the direction at crucial nodes of the search tree. However, the definition of local tasks and the direction of the search vary from person to person, and will also evolve over time. A tricky integral at the undergraduate level is a local task for an experienced researcher who understands the mechanism behind it, but it remains a good training exercise in a master&#8217;s internship project. We can take it for granted that we may outsource labor within our ability. For instance, suppose there are two scale-invariant estimates for a given integral, A and B. We applied A, while the model applied B to get a better bound. It does a nice job as a co-pilot, and we advance more quickly. In current PDE research, what is essential is the architecture and the mechanism of how things work. For example, one must conjecture a blow-up profile, construct an ansatz to close the bootstrap, design fine norms to encode linear/multilinear effects, and guess Lyapunov functionals. We pilot these directions, and suitable AI tools (not just prompting LLMs) would allow us to quickly test ideas and counterexamples, to code for numerical experiments, to use knowledge from other domains, and to carry out the dirty work.</p>
-
-
-
-<p class="wp-block-paragraph">Mathematical development is based on the compression of concepts. Just as nowadays researchers directly use theorems of Banach spaces or classical analysis without opening the black box of the proof, AI tools allow us to work on modules, compressing not only a specific theorem in the literature, but also low-to-middle levels of reasoning. Yet, unlike traditional compression, which rests on clear definitions, the compression of AI reasoning requires novel conceptualization, so that similar mechanisms can be generalized and reused. As part or even all of the reasoning is outsourced, conceptualization becomes a new kind of cognitive work for human mathematicians, increasingly decoupled from the problem-solving process.</p>
-
-
-
-<p class="wp-block-paragraph">In another direction with the same principle, an LLM is a mobile library and a custom-made teacher. Learning ideas and techniques from other fields (even outside mathematics) in which we have no expertise, digesting new results (human or AI-produced), and coding become more convenient. This way, again, it is our consciousness that decides what to understand, and how deeply to understand it.</p>
-
-
-
-<p class="wp-block-paragraph">I acknowledge that it is always difficult to get toolization right, given the continuously increasing mathematical capabilities of LLMs. In the research process, a more delicate situation arises when an LLM contributes a key idea. It leads us towards a new direction—one that turns out to be successful—that we had not previously considered. If that happens, I consider the LLM a collaborator who deserves credit. This would make me excited, because I could reach further horizons that would otherwise be difficult to find on my own, while also making me feel a sense of loss. After all, making creative contributions to the process of discovery is a principal motivation for why I do mathematics.</p>
-
-
-
-<p class="wp-block-paragraph">As a double-edged sword, long interaction with an LLM might cause reliance on it that deskills us, eroding our abilities and intuition. But I think this effect can only be evaluated a posteriori, over time. I could periodically ask myself a set of questions: Do I gain a better understanding of my subject? Am I still able to do AI-free mathematics when I am on the plane? What cognitive tasks can I safely outsource to a model? Ideally, these questions would help me maintain both intellectual growth and independence. The critical dose of AI usage depends on the person. As we now have models with a wide range of capabilities, choice and discipline become a new personal challenge.</p>
-
-
-
-<p class="wp-block-paragraph">Today, it is becoming clearer that the industrialization of mathematics is coming; nobody is sure whether it will be a golden age of discovery or a regression of civilization. It depends on the collective narrative and on individual practice. We need time to adapt to the new paradigm, to reach a certain consensus within our community, and to rebuild our confidence. The destructive impact is real, but one thing is certain: mathematics is not a closed system, and human curiosity about the universe is unbounded.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 10 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/06/nothing-more-than-tools/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2456</post-id>	</item>
-		<item>
-		<title>Postdoc Hiring in the Age of AI: What Still Matters (and a Call for More Advice from Those Doing the Hiring)</title>
-		<link>https://proofsandprompts.com/2026/11/06/postdoc-hiring-in-the-age-of-ai-what-still-matters/</link>
-					<comments>https://proofsandprompts.com/2026/11/06/postdoc-hiring-in-the-age-of-ai-what-still-matters/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Fri, 06 Nov 2026 15:30:00 +0000</pubDate>
-				<category><![CDATA[In practice]]></category>
-		<category><![CDATA[Evaluation]]></category>
-		<category><![CDATA[PhD and postdoc applications]]></category>
-		<category><![CDATA[Understanding]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3413</guid>
-
-					<description><![CDATA[Alessio Figalli and Sobhan Seyfaddini, drawing on their experience hiring postdocs, explain how they will evaluate candidates this year in light of recent AI advances. They will privilege substance over publication counts and expect an in-depth mathematical conversation at interview. More advice from those doing the hiring will be added here.]]></description>
-										<content:encoded><![CDATA[
-<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · Part of our application-season series for people considering a PhD, doing a PhD or looking for a postdoc. We expect a few more contributions like this one from people involved in hiring this year, and welcome others (<a href="https://proofsandprompts.com/submit/">send us yours</a>); they will be added to this post as they arrive. Applicants can ask questions in the comments below. Each contribution reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/application-season/">All posts in the series</a></p>
-
-
-
-<p class="author-line wp-block-paragraph"><a href="https://people.math.ethz.ch/~afigalli/">Alessio Figalli</a> and <a href="https://people.math.ethz.ch/~sseyfaddini/about">Sobhan Seyfaddini</a>, Professors at ETH Zurich</p>
-
-
-
-<p class="wp-block-paragraph">Drawing on our experience as past and current members of postdoctoral hiring committees, we would like to share our perspective on how to evaluate postdoctoral candidates in the age of AI.</p>
-
-
-
-<p class="wp-block-paragraph">AI does not change what we ultimately want to assess in a candidate: the depth of their mathematical understanding, the substance of their own contributions, and their potential to develop new ideas.</p>
-
-
-
-<p class="wp-block-paragraph">At the initial shortlisting stage, we expect recommendation letters and CVs to play an important role, but we do not regard publication counts alone as a reliable guide to a candidate’s potential. We are more interested in the substance of the work and in what the application reveals about the candidate’s own contributions, ideas, and development as a mathematician. Where possible, we may also examine selected papers more closely to gain a better understanding of the mathematical ideas involved and how they are presented.</p>
-
-
-
-<p class="wp-block-paragraph">For shortlisted candidates, the interview will be crucial for assessing their mathematical understanding and judgment more directly.<br>Can they explain the ideas behind their results, why the arguments work, and where the difficulties lie?<br>Can they discuss what they tried, what failed, and which questions remain open?<br>We would also like to understand how they see their work in a broader mathematical context, why they consider it significant, and what they regard as their own main contributions. We expect that a talk followed by an in-depth discussion will give us a good sense of each candidate’s mathematical understanding, maturity, and approach to research.</p>
-
-
-
-<p class="wp-block-paragraph">Our advice to applicants is therefore to make their own contributions clear in their applications and to be prepared to discuss their work in depth, since a thoughtful and honest mathematical conversation can reveal far more than a publication count. While the ways in which we assess candidates may evolve as the tools available to mathematicians change, our emphasis will remain on mathematical understanding, originality, and research potential.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 5 November 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/06/postdoc-hiring-in-the-age-of-ai-what-still-matters/feed/</wfw:commentRss>
-			<slash:comments>10</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3413</post-id>	</item>
-		<item>
-		<title>It’s a great time to be an amateur mathematician</title>
-		<link>https://proofsandprompts.com/2026/11/06/its-a-great-time-to-be-an-amateur-mathematician/</link>
-					<comments>https://proofsandprompts.com/2026/11/06/its-a-great-time-to-be-an-amateur-mathematician/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Fri, 06 Nov 2026 12:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Amateur]]></category>
-		<category><![CDATA[Community]]></category>
-		<category><![CDATA[Personal experience]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2736</guid>
-
-					<description><![CDATA[“In early August, I was at TIFR Mumbai for an ‘AI for Math’ conference. This is one of many such events happening in mathematics departments all over the world in recent times. Among the speakers was Dinesh Thakur. In his talk, he described how he had received an email from an auto mechanic in France about a conjecture attributed to him. […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://nihargargava.com">Nihar Gargava</a>, Postdoctoral researcher at Université Paris-Saclay</p>
-
-
-
-<p class="wp-block-paragraph"><em>PS: I used AI for speech-to-text, proofreading, and locating references. I thank Dinesh Thakur for comments on an earlier draft.</em></p>
-
-
-
-<p class="wp-block-paragraph">In early August, I was at TIFR Mumbai for an “AI for Math” conference<sup data-fn="fn-a00cb038-76b5-48d8-b7d6-8b4d49c42637" class="fn"><a href="#fn-a00cb038-76b5-48d8-b7d6-8b4d49c42637" id="fn-a00cb038-76b5-48d8-b7d6-8b4d49c42637-link">1</a></sup>. This is one of many such events happening in mathematics departments all over the world in recent times. Among the speakers was Dinesh Thakur. In his talk, he described how he had received an email from an auto mechanic in France about a conjecture attributed to him<sup data-fn="fn-1ee54006-bb4a-491c-95cf-6e054402c4f8" class="fn"><a href="#fn-1ee54006-bb4a-491c-95cf-6e054402c4f8" id="fn-1ee54006-bb4a-491c-95cf-6e054402c4f8-link">2</a></sup>. The email came with a disproof of this conjecture about primes over function fields that he had written about in 2015. What was surreal about this incident was that the person sending this counterexample did not even know what finite fields are! He had just asked Claude (Opus 4.8) to find a “precisely stated conjecture about polynomials with some examples worked out and something that can be checked by computations”, quoting Dinesh. Dinesh told us that eventually the author did learn more about the problem via more prompting. The preprint is currently on arXiv<sup data-fn="fn-09db3ca5-f8ef-443f-a9da-c6465960d366" class="fn"><a href="#fn-09db3ca5-f8ef-443f-a9da-c6465960d366" id="fn-09db3ca5-f8ef-443f-a9da-c6465960d366-link">3</a></sup>.</p>
-
-
-
-<p class="wp-block-paragraph">The reaction from the audience was quite dramatic. There was laughter in the room, but also shock and disbelief. Two reactions that I recall were “what does it mean to have any expertise anymore?” and “it’s a great time to be an amateur mathematician”. By mid-October, these stories are becoming more common, and I expect that trend to continue. I would like to present my thoughts about this.</p>
-
-
-
-<p class="wp-block-paragraph">Mathematics is full of delightful stories of outsiders making an impact. The most famous is that of Ramanujan, whose letters to Hardy still bring pleasure to the mathematics community even after repeated readings. It seems to me that every professional mathematician at one point in their career must have gotten an email from a Ramanujan-wannabe. Most of these are bogus emails and we don’t bother replying to them. But now these emails are getting smarter and more intricate because of AI. Firstly, a crackpot with a crazy claim can now instead run his ideas through a language model and spare a mathematician a few bytes of mailbox space. Secondly, a mathematician can receive an interesting piece of mathematics tailor-made to appeal to their taste.</p>
-
-
-
-<p class="wp-block-paragraph">I recently had my Ramanujan-Hardy moment myself when Michael Simkin, who lives in Georgia (the country), sent me a new lower bound on sphere packings in high dimensions. The model’s write-up was an astonishing mess that would be difficult to read for any poor soul having to go through it, perhaps more so for Michael, who is mostly an outsider to research mathematics. He asked AI to recommend a mathematician who could verify the result, and it gave him my name.</p>
-
-
-
-<p class="wp-block-paragraph">When Michael reached out to me, I did get interested. At first, I thought he was Michael Simkin, the lecturer at MIT. But after a few emails I realized this was someone else. The output from the model had nice tricks to make progress on some of the ideas that I had long abandoned. So I asked Michael if he would like to coauthor this with me. I also (with his permission) added a PhD student to this project—Matthias Gröbner (because who owns AI-generated results?). The preprint is now out on arXiv<sup data-fn="fn-1d54b83f-8fd3-4088-b0a3-3b2b0b4d3416" class="fn"><a href="#fn-1d54b83f-8fd3-4088-b0a3-3b2b0b4d3416" id="fn-1d54b83f-8fd3-4088-b0a3-3b2b0b4d3416-link">4</a></sup>.</p>
-
-
-
-<p class="wp-block-paragraph">I wanted to understand what had drawn Michael to this problem, so we talked about it. Michael told me that he had been interested in mathematics since high school. He grew up in Tel Aviv and had even won an IMO bronze medal in his teenage years<sup data-fn="fn-b50e9f99-48cd-482d-b9a4-fe6c1aa69d61" class="fn"><a href="#fn-b50e9f99-48cd-482d-b9a4-fe6c1aa69d61" id="fn-b50e9f99-48cd-482d-b9a4-fe6c1aa69d61-link">5</a></sup>. Mathematics has kept him going in life, even though his parents could not afford university education for him. Michael is now known for interesting life form constructions in Conway’s Game of Life<sup data-fn="fn-ac5fcc49-c37b-4c60-b836-b1426689dd0f" class="fn"><a href="#fn-ac5fcc49-c37b-4c60-b836-b1426689dd0f" id="fn-ac5fcc49-c37b-4c60-b836-b1426689dd0f-link">6</a></sup>. For the past few years, he had been living as a digital nomad all over the world, finally settling in Georgia. These days he works part-time for a brain imaging center. He is proud of his AI-prompting skills and wants to keep helping mathematicians.</p>
-
-
-
-<p class="wp-block-paragraph">I asked Michael what he thought about expertise in mathematics and whether he felt that he could replace mathematicians with his AI chats. He had an answer that I found pretty nice. Coming from a software engineering background, he knows the feeling of AI being able to do the job better than humans. But he adds “as a programmer, I still have skills that are important but I cannot pinpoint what they are”. I guess this is quite close to what mathematicians feel.</p>
-
-
-
-<p class="wp-block-paragraph">The post-AI age could be a good time for mathematicians to reach out to people like Michael. It could be of mutual benefit. Not only do people outside want to understand what the mathematics produced by the models is saying, but we might also need them to understand how the public sees and interacts with mathematics. Human mathematicians should exist to talk about mathematics to humans, and the humans are finally reaching out in our mailboxes. They are finally speaking our language and learning about our work at their own pace. I think we should engage with at least some of them as a kind of individual outreach. AI might be taking away some of the fun parts of our jobs, but there might be new opportunities in our mailboxes.</p>
-
-
-
-<p class="wp-block-paragraph">The following are my thoughts as of now, and I expect to keep updating them as interactions between professional and hobbyist mathematicians become more common in the AI era.</p>
-
-
-
-<h2 class="wp-block-heading">Advice to hobbyist mathematicians</h2>
-
-
-
-<p class="wp-block-paragraph">It might look as though mathematicians spend most of their time going through the gory details of individual lemmas and propositions in papers. In practice, however, mathematicians often focus on the few parts of a paper that are genuinely novel or interesting, without checking every detail once they are convinced that the result should be true. Much of the communication of mathematical ideas also happens through conversations between mathematicians, who have developed a shared language for talking about what matters in a proof. My advice to hobbyist mathematicians is to be patient with and respectful of this process. Try to understand how mathematicians communicate with each other, and learn to talk about your own ideas in that language. Being imperfect is okay, but trying will earn you a lot of respect.</p>
-
-
-
-<h2 class="wp-block-heading">Advice to professional mathematicians</h2>
-
-
-
-<p class="wp-block-paragraph">The goals of hobbyist mathematicians might sometimes seem outrageous or too far removed from those of a professional researcher. They might be especially keen to be the first to prove a theorem, improve a bound, or put a result into the world just to have their name on it. But these could be respectable ambitions and, pre-AI, were (often tacitly) shared by many professional mathematicians. Even when we do not share precisely the post-AI goals of human understanding, there is still an opportunity for collaboration between hobbyists and professionals. Professional mathematicians should be mindful of their own priorities while respecting hobbyists’ expectations.</p>
-
-
-
-<p class="wp-block-paragraph"><em>Addendum: Michael’s new homepage is <sup data-fn="fn-2736-simkin-homepage" class="fn"><a href="#fn-2736-simkin-homepage" id="fn-2736-simkin-homepage-link">7</a></sup></em></p>
-<ol class="wp-block-footnotes"><li id="fn-a00cb038-76b5-48d8-b7d6-8b4d49c42637">Tata Institute of Fundamental Research. <a href="https://www.tifr.res.in/piyush.srivastava/ai-for-maths-talks/#programme">AI for Math workshop programme</a>. (2026). <a href="#fn-a00cb038-76b5-48d8-b7d6-8b4d49c42637-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-1ee54006-bb4a-491c-95cf-6e054402c4f8">D. S. Thakur. <a href="https://arxiv.org/abs/2211.01076">Fermat-Wilson supercongruences, arithmetic derivatives and strange factorizations</a>. <em>arXiv:2211.01076</em> (2022). <a href="#fn-1ee54006-bb4a-491c-95cf-6e054402c4f8-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-09db3ca5-f8ef-443f-a9da-c6465960d366">D. Niedbala Giraudin. <a href="https://arxiv.org/abs/2607.15305">A counterexample to a conjecture of Thakur on Carlitz-Wieferich primes</a>. <em>arXiv:2607.15305</em> (2026). <a href="#fn-09db3ca5-f8ef-443f-a9da-c6465960d366-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-1d54b83f-8fd3-4088-b0a3-3b2b0b4d3416">N. Gargava, M. Gröbner, &amp; M. Simkin. <a href="https://arxiv.org/abs/2610.12619">A cyclotomic gluing construction for lattice sphere packings</a>. <em>arXiv:2610.12619</em> (2026). <a href="#fn-1d54b83f-8fd3-4088-b0a3-3b2b0b4d3416-link" aria-label="Jump to footnote reference 4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-b50e9f99-48cd-482d-b9a4-fe6c1aa69d61">International Mathematical Olympiad. <a href="https://www.imo-official.org/results/individual/country/ISR/">Individual results – Israel</a>. <a href="#fn-b50e9f99-48cd-482d-b9a4-fe6c1aa69d61-link" aria-label="Jump to footnote reference 5"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-ac5fcc49-c37b-4c60-b836-b1426689dd0f">LifeWiki contributors. <a href="https://conwaylife.com/wiki/Michael_Simkin">Michael Simkin</a>. <a href="#fn-ac5fcc49-c37b-4c60-b836-b1426689dd0f-link" aria-label="Jump to footnote reference 6"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-2736-simkin-homepage">M. Simkin. <a href="https://simsim314.github.io/Homepage/">Personal homepage</a>. <a href="#fn-2736-simkin-homepage-link" aria-label="Jump to footnote reference 7"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 18 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/06/its-a-great-time-to-be-an-amateur-mathematician/feed/</wfw:commentRss>
-			<slash:comments>59</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2736</post-id>	</item>
 	</channel>
 </rss>

@@ -13,7 +13,7 @@
 	<atom:link href="https://xenaproject.wordpress.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://xenaproject.wordpress.com</link>
 	<description>Mathematicians learning Lean by doing.</description>
-	<lastBuildDate>Fri, 16 Oct 2026 17:47:23 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 11 Nov 2026 06:12:14 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -33,6 +33,155 @@
 <atom:link rel="search" type="application/opensearchdescription+xml" href="https://xenaproject.wordpress.com/osd.xml" title="Xena" />
 	<atom:link rel='hub' href='https://xenaproject.wordpress.com/?pushpress=hub'/>
 	<item>
+		<title>A Modern Reorganization of Mathematics</title>
+		<link>https://xenaproject.wordpress.com/2026/11/11/a-modern-reorganization-of-mathematics/</link>
+					<comments>https://xenaproject.wordpress.com/2026/11/11/a-modern-reorganization-of-mathematics/#respond</comments>
+		
+		<dc:creator><![CDATA[xenaproject]]></dc:creator>
+		<pubDate>Wed, 11 Nov 2026 05:23:28 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[mathematics]]></category>
+		<category><![CDATA[philosophy]]></category>
+		<category><![CDATA[technology]]></category>
+		<guid isPermaLink="false">http://xenaproject.wordpress.com/?p=3953</guid>
+
+					<description><![CDATA[[Everyone is doing guest posts these days, so here&#8217;s one about the Weil conjectures from (in alphabetical order) Bin Dong, Nailin Guan, Jiedong Jiang, Ruochuan Liu, Christian Merten, Xiangyu Pan, Tingxiao Shi, Bin Wu, Edison Xie and Wei Yang] We &#8230; <a href="https://xenaproject.wordpress.com/2026/11/11/a-modern-reorganization-of-mathematics/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">[Everyone is doing guest posts these days, so here&#8217;s one about the Weil conjectures from (in alphabetical order) Bin Dong, Nailin Guan, Jiedong Jiang, Ruochuan Liu, Christian Merten, Xiangyu Pan, Tingxiao Shi, Bin Wu, Edison Xie and Wei Yang]</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">We mathematicians need to put far greater effort into communicating mathematical ideas. To accomplish this, we need to pay much more attention to communicating not just our definitions, theorems, and proofs, but also our ways of thinking.</p>
+<cite>William P. Thurston, <em>On Proof and Progress in Mathematics</em> (1994)</cite></blockquote>
+
+
+
+<p class="wp-block-paragraph">Since the beginning of mathematical study, people have been trying to present mathematics and to communicate mathematical ideas. Mathematicians carefully choose names and symbols that match their intuitions in order to improve understanding. For most of this history, the medium for writing down a piece of mathematics has been linear text: a paper consisting of definitions, theorems, and proofs. In modern mathematics, however, the size and complexity of proofs and of the ideas behind them have grown rapidly. These now demand more and more effort both to write and to read.</p>
+
+
+
+<p class="wp-block-paragraph">Various efforts have been made to reorganize and represent mathematics to enhance our understanding. The Bourbaki [1] group maintains a series of textbooks developing mathematics in a coherent way. The <a href="https://stacks.math.columbia.edu">Stacks Project</a> [7] is an online textbook in algebraic geometry, in which theorems and definitions are tagged, linked and organized hierarchically by topic. <a href="https://kerodon.net">Kerodon</a> [3] is a similar website for higher category theory. <a href="https://kskedlaya.org/prismatic/">Kedlaya’s web-based notes</a> [2] offer another example in <em>p</em>-adic cohomology.</p>
+
+
+
+<p class="wp-block-paragraph">Two further examples are worth noting. The <a href="https://ncatlab.org">nLab</a> [6] is a collaborative wiki with an emphasis on ideas and abstract viewpoints. It is not organized hierarchically following the logical structure of proofs, but around concepts and their relations. <a href="https://leanprover-community.github.io/mathlib4/">Mathlib</a> [5] on the other hand is a uniform formal library organized by mathematical field and containing every detail of proofs.</p>
+
+
+
+<h2 class="wp-block-heading">Two Layers of Mathematics</h2>
+
+
+
+<p class="wp-block-paragraph">The last two expositions mentioned above represent two equally indispensable components of mathematics. On one side are the analogies, the slogans, the examples and even the hand-waving arguments that carry mathematical understanding. On the other side are the rigorous, detailed proofs that refine and realize vague ideas into sound arguments. We often think in the first style and write in the second. Consider an example from probability theory. If <em>X</em> and <em>Y</em> are independent random variables, then</p>
+
+
+
+<p class="has-text-align-center wp-block-paragraph"><math><semantics><mrow><mi>Var</mi><mo>⁡</mo><mo stretchy="false">(</mo><mi>X</mi><mo>+</mo><mi>Y</mi><mo stretchy="false">)</mo><mo>=</mo><mi>Var</mi><mo>⁡</mo><mo stretchy="false">(</mo><mi>X</mi><mo stretchy="false">)</mo><mo>+</mo><mi>Var</mi><mo>⁡</mo><mo stretchy="false">(</mo><mi>Y</mi><mo stretchy="false">)</mo><mo>.</mo></mrow><annotation encoding="application/x-tex">\operatorname{Var}(X+Y)=\operatorname{Var}(X)+\operatorname{Var}(Y).</annotation></semantics></math></p>
+
+
+
+<p class="wp-block-paragraph">A completely rigorous proof is easy to write down. Yet what guides us in proving and using this lemma is the picture of Pythagoras’ theorem.</p>
+
+
+
+<p class="wp-block-paragraph">We argue that mathematical understanding needs both: High-level ideas and rigorous proofs. Slogans and analogies can convey why a proof strategy may work, but a strategy remains a strategy as long it has not been executed as a complete proof. A text consisting only of slogans walks on clouds. It may hold one up for a step or two, and then one falls. Conversely, a perfectly detailed proof alone does not provide a picture of the whole. This is precisely why reading a proof generated by AI can be so painful. Every step is correct, yet one has no sense of the underlying motivation.</p>
+
+
+
+<p class="wp-block-paragraph">Explaining the high-level picture is similar to telling a story. However, adding storytelling into professional mathematical texts has been hard for several reasons. Choosing and computing a representative example takes effort. Worse, slogans and analogies are very easy to get wrong, and most people would rather not write at all if what they write is potentially wrong. And many proofs are conceptually clear, with the difficulty entirely technical. If one pushes through those technical difficulties to obtain a rigorous proof, that is what gets published. But nobody publishes the other text, saying “here is the argument I first had in mind, here is where it fails, and here is the repair.” This is also why people benefit much more from talking to mathematicians than from reading papers.</p>
+
+
+
+<p class="wp-block-paragraph">The situation has improved recently. Large language models (LLMs) and agents are now extremely good at figuring out proofs and filling in tedious details. The technology of formalization guarantees the correctness of every detail by having a proof assistant check each step. LLMs are also improving rapidly at auto-formalization, to reduce manual formalization work. We are in a position to see AI reduce, rather than increase as at present, the burden of presenting mathematics, so that the two layers of mathematics can be brought together in one place, connected to each other.</p>
+
+
+
+<h2 class="wp-block-heading">A Prototype</h2>
+
+
+
+<p class="wp-block-paragraph">The high-level ideas and the rigorous proof discussed above are the two ends of mathematical presentation. They can be connected by a series of successively refining layers. We want to present this refinement process directly to the reader, so that one can see the overall route of a proof and go all the way down into the details. For a large proof such as the Weil conjectures, one has a top-level picture consisting precisely of the analogies, dictionaries, and strategies described above. A Weil cohomology theory would immediately prove the conjectures, and ℓ-adic cohomology is one example. One then elaborates the argument, working out how each step is actually carried out to obtain a proof at a finer grain. The key properties of a Weil cohomology follow from the calculation of <math><semantics><msup><mi>f</mi><mo>!</mo></msup><annotation encoding="application/x-tex">f^!</annotation></semantics></math> and the general formalism of the six operations on the (pro-)étale site. Step by step, the slogan-level argument is refined into something checkable down to the last detail. Through this process the vague story becomes a completely rigorous proof, and along the way one meets and resolves technical obstructions.</p>
+
+
+
+<p class="wp-block-paragraph">As a concrete proposal, we have built <a href="https://weil-conjectures.merten.dev/">a prototype</a> that attempts to organize and present a complete proof of the Weil conjectures in this way. It produces an artifact with two halves. The first is a multi-layered text presented as a website, a proof written at several levels of granularity and obtained by refining the top-level argument downwards, so that a reader can enter at whatever level of detail they want. The second is a formal artifact associated with the text, in which every step at the finest level is checked by a proof assistant, so that the whole proof is machine-verified.</p>
+
+
+
+<p class="wp-block-paragraph">This layered structure also determines the division of labour between humans and AI. Humans discuss and decide the overall proof route (<a href="https://blueprint.fuxi.merten.dev/#/blog/proof-route-choices">see this detailed discussion</a>), as well as the underlying key definitions and mathematical frameworks. As the argument is refined, LLMs begin to fill in the details of key theorems fixed by hand, while humans review and adjust. At the bottom, AI takes the human-readable but not yet fully rigorous text and expands every last detail on its own, then checks the result by formalization. Mathematical judgement thus sets the route, and AI makes it practical to carry the details all the way down to a machine-checked proof.</p>
+
+
+
+<p class="wp-block-paragraph">We also invested human effort in formalizing the main framework of derived categories and the six operations on the (pro-)étale site, providing an early application in Riou’s work [4] on the formalization of derived categories and derived functors, and sharing human experience dealing with potential kernel performance issues (<a href="https://blueprint.fuxi.merten.dev/#/blog/lessons-from-formalization">see this detailed discussion</a>). The formalization of detailed proofs is left entirely to auto-formalization. The bottom layer is one that a human could, but never has to, look at. People read the layer suited to them, which is compressed, comprehensible, and already detailed enough to show how the strategy actually works, knowing that the layer beneath it has been checked, so the proof is sound.</p>
+
+
+
+<p class="wp-block-paragraph">We use a website to present the notes and the formalization together. It has a graph that displays both refinement relations and proof dependencies. A high-level node can be expanded into a box containing its refining nodes, and proof dependencies are drawn as arrows. Each node corresponds to a page, with high-level nodes carrying the story and low-level nodes carrying precise proofs linked to their formal counterparts. The website thus allows readers to enter at their desired level of detail and move between exposition and machine-checked proof. The webpages can also be reconstructed into conventional linear notes.</p>
+
+
+
+<p class="wp-block-paragraph">All of this has become practical only through recent advances in LLMs and agents. Their mathematical proving ability helps elaborate the layered notes, auto-formalization capability helps complete the formal verification, and coding ability helps build the website presentation. In all three parts, humans only determine the high-level strategy and goals, while AI implements the details. This collaboration allows us to realize a modern reorganization of mathematics.</p>
+
+
+
+<h2 class="wp-block-heading">An Entangled Web of Mathematics</h2>
+
+
+
+<p class="wp-block-paragraph">This is an early attempt to create a library combining both natural and formal language. Although the current prototype is built around a single huge proof of the Weil conjectures, we see it as extensible in the manner of the Stacks Project. Developing a new related body of theory, such as perverse sheaves or nearby and vanishing cycles, means that by the same process of refinement, the new proof decomposes into new parts and reusable parts already in the library. The same low-level details are organized into new high-level stories. In the dependency graph, this corresponds to adding or deleting some blocks while existing low-level blocks move around and regroup into new high-level blocks. Numerous mathematical ideas can be intertwined and linked with the shared details that support them. In this way, we weave an entangled web of mathematics.</p>
+
+
+
+<p class="wp-block-paragraph">We hope that more, and in time perhaps most, of mathematics can be reorganized in a multi-layered way. To make this practical, we need to summarize and share transferable experiences from such projects, so that human effort becomes more efficient and can be concentrated on the highest-level mathematical decisions. Imagine a comprehensive library of natural-language mathematics in which countless top-level core ideas are written down, displayed, expanded, and grounded in detail, and in which the bottom is guaranteed correct by formalization. If we could work on mathematics in this way, thinking and writing at the top level, collaborating with AI to fill in the middle, and letting AI handle the bottom entirely automatically, it might be a fascinating new way to study and understand or even extend the entangled web of mathematics.</p>
+
+
+
+<h2 class="wp-block-heading">References</h2>
+
+
+
+<ol class="wp-block-list">
+<li>Nicolas Bourbaki. <em>Éléments de mathématique</em>. Paris: Hermann, 1939–.</li>
+
+
+
+<li>Kiran S. Kedlaya. <a href="https://kskedlaya.org/prismatic/"><em>Notes on Prismatic Cohomology</em></a> (visited 5 November 2026).</li>
+
+
+
+<li>Jacob Lurie. <a href="https://kerodon.net"><em>Kerodon</em></a> (visited 5 November 2026).</li>
+
+
+
+<li>Joël Riou. “Formalization of derived categories in Lean/mathlib”. <em>Annals of Formalized Mathematics</em> 1 (July 2025), pp. 1–42. <a href="https://doi.org/10.46298/afm.13609">doi: 10.46298/afm.13609</a>.</li>
+
+
+
+<li>The mathlib Community. <a href="https://leanprover-community.github.io/mathlib4/"><em>mathlib</em></a> (visited 5 November 2026).</li>
+
+
+
+<li>The nLab Authors. <a href="https://ncatlab.org"><em>The nLab</em></a> (visited 5 November 2026).</li>
+
+
+
+<li>The Stacks Project Authors. <a href="https://stacks.math.columbia.edu"><em>The Stacks Project</em></a> (visited 5 November 2026).</li>
+</ol>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://xenaproject.wordpress.com/2026/11/11/a-modern-reorganization-of-mathematics/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3953</post-id>
+		<media:content url="https://2.gravatar.com/avatar/e7ccfd42722fdb89c0fdea2f473152c14ab978bc1974acc4d67944906653f36e?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">xenaproject</media:title>
+		</media:content>
+	</item>
+		<item>
 		<title>How to Formalize All of Mathematics</title>
 		<link>https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/</link>
 					<comments>https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/#comments</comments>
@@ -1216,137 +1365,6 @@ while True:
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3711</post-id>
-		<media:content url="https://2.gravatar.com/avatar/e7ccfd42722fdb89c0fdea2f473152c14ab978bc1974acc4d67944906653f36e?s=96&#38;d=identicon&#38;r=G" medium="image">
-			<media:title type="html">xenaproject</media:title>
-		</media:content>
-	</item>
-		<item>
-		<title>AI at IMO 2025: a round-up</title>
-		<link>https://xenaproject.wordpress.com/2025/08/03/ai-at-imo-2025-a-round-up/</link>
-					<comments>https://xenaproject.wordpress.com/2025/08/03/ai-at-imo-2025-a-round-up/#comments</comments>
-		
-		<dc:creator><![CDATA[xenaproject]]></dc:creator>
-		<pubDate>Sun, 03 Aug 2025 00:03:49 +0000</pubDate>
-				<category><![CDATA[Machine Learning]]></category>
-		<category><![CDATA[Olympiad stuff]]></category>
-		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[ByteDance]]></category>
-		<category><![CDATA[DeepMind]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[Harmonic]]></category>
-		<category><![CDATA[imo]]></category>
-		<category><![CDATA[International Math Olympiad]]></category>
-		<category><![CDATA[International Mathematics Olympiad]]></category>
-		<category><![CDATA[lean]]></category>
-		<category><![CDATA[Math Olympiad]]></category>
-		<category><![CDATA[mathematics]]></category>
-		<category><![CDATA[OpenAI]]></category>
-		<category><![CDATA[technology]]></category>
-		<guid isPermaLink="false">http://xenaproject.wordpress.com/?p=3653</guid>
-
-					<description><![CDATA[Setting the scene The 2025 International Mathematics Olympiad has come and gone. Reminder: this is an exam for high-school kids across the world (each country typically sends six kids), comprising of two 4.5-hour exams each containing three questions, so six &#8230; <a href="https://xenaproject.wordpress.com/2025/08/03/ai-at-imo-2025-a-round-up/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
-										<content:encoded><![CDATA[
-<h2 class="wp-block-heading">Setting the scene</h2>
-
-
-
-<p class="wp-block-paragraph">The 2025 International Mathematics Olympiad has come and gone. Reminder: this is an exam for high-school kids across the world (each country typically sends six kids), comprising of two 4.5-hour exams each containing three questions, so six questions in total, which I&#8217;ll call P1 to P6. Solutions to each question are scored out of 7, for some reason lost in the mists of time. As you can see pretty clearly from the <a href="https://www.imo-official.org/year_individual_r.aspx?year=2025">individual results</a> and especially the sea of scores highly close to the sequence &#8220;7,7,7,7,7,0&#8221;, this year had 5 reasonable questions and one stinker, namely P6. Around half of the participants get medals, determined by scores chosen so that approx 1/12th participants get a gold, 2/12ths get a silver and 3/12ths get a bronze. I still have my gold medal from 1987 in a drawer upstairs; I beat Terry Tao <img src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f61b.png" alt="😛" class="wp-smiley" style="height: 1em; max-height: 1em;" /> (although I was 18 and he had just turned 12 at the time; he was noticeably younger than all other contestants). The cut-off for gold this year was 35, which is also the answer to 7+7+7+7+7+0. You can take a look at the questions for 2025 (and indeed for any year) at the <a href="https://www.imo-official.org/problems.aspx" target="_blank" rel="noreferrer noopener">official IMO website</a>. </p>
-
-
-
-<p class="wp-block-paragraph">Back in 2024 Google DeepMind &#8220;took the IMO&#8221; in the sense that they waited until the questions were released publically and then throw two tools at them; AlphaGeometry, which is designed to solve geometry problems in a human-readable format, and AlphaProof, which is designed to write Lean code to solve any mathematics problem written in Lean format. Humans translated the questions into a form appropriate to each tool, and then between them the tools solved 4 out of the 6 problems over a period of several days (rather than the 9 hours allowed for the exam), which led to DeepMind reporting that their system had &#8220;<a href="https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/" target="_blank" rel="noreferrer noopener">achieved Silver Medal standard</a>&#8221; and which then led to the rest of the world saying that DeepMind had &#8220;got a Silver Medal&#8221; (although right now it is only possible for humans to get medals). Indeed DeepMind were one point off a gold in 2024.</p>
-
-
-
-<p class="wp-block-paragraph">This leads inevitably to two questions about IMO 2025. The first: will a system &#8220;get gold in 2025&#8221;? And the second: Were the IMO committee going to embrace this interest from the tech companies, define precisely what it would mean for an AI to &#8220;get gold&#8221;, demand an entrance fee or sponsorship from the tech companies and in return use official IMO markers to give official grades, also reporting on scores from tech companies who didn&#8217;t do very well? Spoiler alert: the answers are &#8220;yes&#8221; and &#8220;no&#8221; respectively.</p>
-
-
-
-<h2 class="wp-block-heading">Deciding the rules</h2>
-
-
-
-<p class="wp-block-paragraph">Because the IMO committee chose not to write down any formal rules for how AI could enter the competition, this enabled each of the tech companies to make up their own rules and in particular to define what it means to &#8220;get gold&#8221;. In short, it enabled the tech companies to both set and mark their own homework. But before I go any further, it&#8217;s worth discussing what kind of entries are going to come in to the Wild West that is &#8220;AI at IMO 2025&#8221;. There are going to be two kinds of submissions &#8212; <em>formal</em> and <em>informal</em>. Let&#8217;s just break down what these mean.</p>
-
-
-
-<p class="wp-block-paragraph">&#8220;Informal&#8221; is just using a language model like ChatGPT &#8212; you give it the questions in English, you ask it for the answers in English, you then decide how many points to give it out of 7. Let&#8217;s scrutinise this last part a little more. IMO marking is done in a very precise fashion and the full marking scheme is not publically revealed; there are unpublished rules established by the coordinators (the markers) such as &#8220;lose a mark for not explicitly making a remark which deals with degenerate case X&#8221; and, because of this secrecy, it is not really possible for someone who is just &#8220;good at IMO problems&#8221; but who hasn&#8217;t seen the mark scheme to be able to accurately mark LLM output. Given that (spoiler alert) the systems are all going to get 0 points in problem 6, the claim that AI company X got a gold medal with an informal solution rests on things like &#8220;we paid some people to mark our solutions to questions 1 to 5 and in return they gave us 7/7 for each solution despite not having seen the official mark scheme&#8221;. Judging by <a href="https://www.reddit.com/r/math/comments/1m6sooc/a_brief_perspective_from_an_imo_coordinator/" target="_blank" rel="noreferrer noopener">this Reddit post</a> there seems to have been some unofficial but failed(?) attempt by the tech companies to get the coordinators to officially give out scores to their informal solutions.</p>
-
-
-
-<p class="wp-block-paragraph">&#8220;Formal&#8221; is using an computer proof assistant, which is a programming language where code corresponds to mathematics. For such entries, someone has to translate the statement of each question into the language of the proof assistant, and then a language model trained to write code in this proof assistant will attempt to write a solution in code form. I had naively hoped that IMO 2025 would come with &#8220;official&#8221; translations of the questions into languages such as Lean (just as they supply official translations into many many human languages), but no such luck. So the formal solutions will involve something (probably a human) translating the question into the relevant computer language (possibly in many different ways; translation, just like translation between human languages, is not uniquely-determined by the input) and then giving the formal questions to a system which has been trained to write code solving them in the relevant language. Another catch here is that, as the name suggests, a proof assistant is something which can check proofs, and unfortunately the only question in the 2025 IMO of the form &#8220;Prove that&#8230;&#8221; was P2; all other questions were of the form &#8220;Determine this value&#8221;. This throws a spanner into the works of a proof-assistant-based attempt on the IMO: if one is asked to &#8220;determine the smallest real number c such that [something]&#8221; (which was what P3 asked us to do) then what is to stop a machine saying &#8220;the number to be determined is c, where c is the smallest real number such that [the same thing], and the proof that I am correct is that I am correct by definition&#8221;? It is actually rather difficult to <em>formally</em> even say what we <em>mean</em> by a &#8220;determine&#8221; question. Formal systems attempting the IMO thus typically use a second (typically informal) system to suggest answers and then get the formal tool to try and prove the suggested answer correct. Modulo checking that the corresponding &#8220;proof&#8221; question does correspond to the question being asked (and this does need checking), formal proofs are of a binary nature: if it compiles then it gets 7/7 because it is a computer-checked solution to the question which uses only the axioms of mathematics and their consequences. It is not really meaningful to ask for partial credit here, so anything other than a full solution gets 0/7 (although we&#8217;ll see an example of someone claiming to get 2/7 with a formal solution later). </p>
-
-
-
-<h2 class="wp-block-heading">The results are in!</h2>
-
-
-
-<p class="wp-block-paragraph">First out of the starting blocks were the wonderful people at <a href="https://matharena.ai/" target="_blank" rel="noreferrer noopener">MathArena</a>. These are people who don&#8217;t work for a tech company and are trying to do science. They reported on the performance of the best informal models available to mere mortals such as us (sometimes at a cost of hundreds of dollars a month), and <a href="https://matharena.ai/imo/" target="_blank" rel="noreferrer noopener">the results were disappointing</a>; the models that we regular people can get our hands on did not even get a bronze medal (this claim relies on the marking being accurate, which as I&#8217;ve already explained we cannot guarantee, but presumably they are in the right ball-park).</p>
-
-
-
-<p class="wp-block-paragraph">But of course we have not yet taken into account the fact that tech companies might have secret models up their sleeve, which have not been released to the public yet. And surprise surprise, this is what happened. So from this point on in the blog post, all claims made by tech companies are completely unable to be independently verified, a situation which is very far from my experience as a mathematician; one wonders if one is even allowed to call it science. Seems like Gregor Dolinar, the President of the IMO, is also cautious about the remainder of this post; his comments on AI entries can be seen <a href="https://imo2025.au/news/the-66th-international-mathematical-olympiad-draws-to-a-close-today/" target="_blank" rel="noreferrer noopener">here</a> on the 2025 IMO website and I&#8217;ll reproduce them to save you the click:  </p>
-
-
-
-<p class="wp-block-paragraph"><em>It is very exciting to see progress in the mathematical capabilities of AI models, but we would like to be clear that the IMO cannot validate the methods, including the amount of compute used or whether there was any human involvement, or whether the results can be reproduced.</em></p>
-
-
-
-<p class="wp-block-paragraph">In particular, because there is huge incentive to be the first to get gold, and no way to check what is going on, tech companies can in theory just cheat and there&#8217;s no way to check. Let&#8217;s assume they didn&#8217;t cheat though, and press on.</p>
-
-
-
-<p class="wp-block-paragraph">As we can see from the <a href="https://imo2025.au/" target="_blank" rel="noreferrer noopener">IMO 2025 website</a>, the exams this year were on the 15th and 16th of July. Marking occurred on 17th and 18th, the students&#8217; results were announced in the closing ceremony on the 19th, and students left Australia when the IMO officially ended on the 20th. </p>
-
-
-
-<p class="wp-block-paragraph">The first company to claim gold was OpenAI. Minutes after the closing ceremony (so a day before the IMO had even officially ended) OpenAI released a <a href="https://x.com/alexwei_/status/1946477742855532918" target="_blank" rel="noreferrer noopener">twitter thread</a> claiming a score of 7+7+7+7+7+0 with an informal model which is not available to the public. They also <a href="https://github.com/aw31/openai-imo-2025-proofs/">released their models&#8217; natural language solutions</a> to problems 1&#8211;5, and they are on the whole pretty good. The solutions were marked by former IMO contestants. Whether the solutions submitted were hand-picked by humans from a collection of potential solutions, who knows &#8212; there were no rules. I have no reason to believe that OpenAI cheated &#8212; but my feeling is that we have diverged a long way from the traditional scientific process at this point (peer review etc). What is clear was that OpenAI were desperate to claim the prize and couldn&#8217;t wait.</p>
-
-
-
-<p class="wp-block-paragraph">I had heard through the grapevine that there was an informal embargo on tech companies announcing anything until a week after the IMO had ended (i.e. July 28th) but of course once one company had claimed they&#8217;d got the ultimate prize, informal embargos don&#8217;t count for much. On 21st July <a href="https://deepmind.google/discover/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/" target="_blank" rel="noreferrer noopener">DeepMind published a blog post</a> also claiming gold in 7+7+7+7+7+0 form, together with a quote from Dolinar saying &#8220;We can confirm that Google DeepMind has reached the much-desired milestone&#8221; (which rather seems to contradict his earlier statement quoted above, in which he explicitly states that IMO cannot validate the methods being used by the tech companies). DeepMind&#8217;s blog post will no doubt be regarded as the source of truth for this claim, neatly avoiding the pesky refereeing process. Indeed it could be noted that over 1 year since the 2024 announcement by DeepMind of their silver medal, we still only have the (unrefereed) blog post to cite for this claim, with no published refereed paper detailing the process, and <a href="https://on.ft.com/4i6C8Gc" target="_blank" rel="noreferrer noopener">this (paywalled) article</a> from the Financial Times seems to indicate that perhaps the paper was blocked at senior management level.</p>
-
-
-
-<p class="wp-block-paragraph">Not to be outdone, Harmonic <a href="https://x.com/HarmonicMath/status/1947023450578763991" target="_blank" rel="noreferrer noopener">posted on Twitter that same day</a> the fact that they would be sticking to the embargo date of 28th, together with a screenshot of what was plainly Lean code containing part of a solution to P3. By July 22nd both the New York Times and Reuters were <a href="https://www.reuters.com/world/asia-pacific/google-clinches-milestone-gold-global-math-competition-while-openai-also-claims-2025-07-22/" target="_blank" rel="noreferrer noopener">uncritically reporting</a> that both Google and OpenAI had achieved Gold, together with non-sequitur quotes from someone who works at Google saying &#8220;The achievement suggests AI is less than a year away from being used by mathematicians to crack unsolved research problems at the frontier of the field&#8221;. Let me come back to this later.</p>
-
-
-
-<p class="wp-block-paragraph">By the 23rd the Chinese had weighed in, with ByteDance <a href="https://mp.weixin.qq.com/s/MWo8dIg4bqQXzB_W9UZ7Ow" target="_blank" rel="noreferrer noopener">announcing</a> (in Chinese) that their Seed Prover model got a silver (2+7+7+7+7+0) after 3 days of working on the problems (note that there are no time limits because there are no rules, each tech company gets to make their own rules up, so quite how they determined that they got 2/7 for a formal solution is anyone&#8217;s guess), upgrading to a gold (7+7+7+7+7+0) if the solver was given &#8220;additional attempts&#8221; (whatever that means). This was the first announcement of a formal (Lean) approach in 2025. The announcement also contains the claim &#8220;The final score for Seed Prover at IMO 2025 disclosed here was confirmed with the IMO committee prior to this announcement&#8221; which again seems to go against Dolinar&#8217;s quote above, which is a bit confusing. Seed Prover didn&#8217;t just do IMO &#8212; in fact Seed Prover also scored state-of-the-art in a Lean database of old Putnam problems (although who knows if solutions were in the training data; this is a big problem with testing LLMs on old exams); if IMO gold is now regarded as old news, the 2026 Putnam will no doubt be next in the firing line.</p>
-
-
-
-<p class="wp-block-paragraph">Finally we get on to poor old Harmonic, who dutifully waited until the embargo date of 28th before doing a <a href="https://x.com/HarmonicMath/status/1949951004482441362">livestream on Twitter</a> announcing that they also got a gold, again with formal methods; mostly Lean, but (like Bytedance in 2025 and DeepMind in 2024) using a bespoke system to solve the geometry problem. There was no information given (either by Harmonic or by ByteDance) about how the numbers to be &#8220;determined&#8221; in P1,P3,P4 and P5 were given to the system. The joys of unrefereed announcements.</p>
-
-
-
-<p class="wp-block-paragraph">So there you have it, the take-home message is that &#8220;AI got a gold in the IMO&#8221; and you can forget about all the annoying details.</p>
-
-
-
-<h2 class="wp-block-heading">Summary</h2>
-
-
-
-<p class="wp-block-paragraph">As is probably clear, I am a bit frustrated by all this shenannigans. Don&#8217;t get me wrong &#8212; it is abundantly clear that both informal and formal math provers are getting better and better. We have seen absolutely incredible and extraordinary developments this decade in computer systems doing mathematics autonomously. However at the end of the day, AI was one point off the gold medal boundary in 2024, and got exactly the gold medal boundary in 2025, so in a sense what the last 12 months have given us is a one point improvement on a test which is solvable using just high school methods. To extrapolate from this to &#8220;less than a year away from being used by mathematicians to crack unsolved research problems&#8221; is in my opinion completely unjustified. I cannot stress enough that these IMO problems are a million miles away from the kind of questions which most research mathematicians are working on. All the ignorant comments on social media of the form &#8220;it&#8217;ll be the Riemann hypothesis next&#8221; are in my mind simply way off.</p>
-
-
-
-<p class="wp-block-paragraph">I also feel that the IMO committee missed a trick. This was the year where the tech companies could have been forced to play by rules which the committee laid down. They did not take such action, we ended up with a rather chaotic endgame, and now everyone knows that &#8220;AI has got a gold in the IMO&#8221; and the question is probably no longer of interest. Note that things appear to be completely bimodal here &#8212; other than the enigmatic 2/7 claimed by ByteDance on P1, all scores were either 7/7 or 0/7. Four problems out of the six were solved in 2024, five in 2025, so perhaps it&#8217;s perfect score time in 2026. Probably a lot will depend on what the financial backers to the tech companies want to see though, maybe the better headline would be &#8220;AI gets degree from Harvard/Cambridge/Stanford/whatever&#8221;, something which is clearly within reach given that most university exams are far more formulaic than IMO because they are designed in such a way that an average student can pass them. And although this will no doubt generate a lot of excitement on social media, again it is a million miles away from what researchers are doing at the frontier of the field; indeed most pure mathematics taught to undergraduates at even the best universities was known by the 1940s. Mathematics is an extraordinarily conservative field in this regard; we choose not to teach our undergraduates what is happening on the boundary of research and instead focus on a rigorous development of everything from the axioms; because of this approach there is simply no time to get any further. I find it striking that at Imperial College (my university) basically the only pure mathematics course being offered to undergraduates which I was not offered myself in Cambridge 35 years ago is the Lean course.</p>
-
-
-
-<p class="wp-block-paragraph">I will finish by stating what I have stated so many times before. Yes it is absolutely clear that AI is getting better at mathematics. Yes it is absolutely clear that progress is currently very rapid. It is important however to remember that past performance is no guarantee of future results, and the systems are right now still worse at IMO problems than I was when I was 18, which is an extremely long way away from where I was at 30 with a PhD and several novel research papers under my belt. AI approaches to harder problems seem to become more and more vibes-based as the difficulty increases, with the systems being consistently unable to rigorously justify their claims, instead resorting to insisting that certain facts are true without having any understanding as to why. Will the systems start to solve interesting open problems which many mathematicians have spent lots of time on and failed to crack? Maybe &#8212; but this is still far from guaranteed.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://xenaproject.wordpress.com/2025/08/03/ai-at-imo-2025-a-round-up/feed/</wfw:commentRss>
-			<slash:comments>8</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3653</post-id>
 		<media:content url="https://2.gravatar.com/avatar/e7ccfd42722fdb89c0fdea2f473152c14ab978bc1974acc4d67944906653f36e?s=96&#38;d=identicon&#38;r=G" medium="image">
 			<media:title type="html">xenaproject</media:title>
 		</media:content>

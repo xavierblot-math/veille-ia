@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Wed, 11 Nov 2026 11:00:02 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 12 Nov 2026 09:27:58 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,65 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>Sharing two worries about AI</title>
+		<link>https://proofsandprompts.com/2026/11/12/sharing-two-worries-about-ai/</link>
+					<comments>https://proofsandprompts.com/2026/11/12/sharing-two-worries-about-ai/#respond</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Thu, 12 Nov 2026 10:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Personal experience]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<category><![CDATA[Risk]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2531</guid>
+
+					<description><![CDATA[First, the ill-effects of AI on my personal mathematical experience. If widely shared, they could have a long-term pernicious influence on the subject as a whole. Second, I put this in the context of the larger threats AI poses to the human world. These are not nested problems: they are parallel.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph">David Solomon, Chercheur associé at Institut de Mathématiques de Jussieu</p>
+
+
+
+<p class="wp-block-paragraph">I am not as optimistic as some posting on this site, either about the long term effects of AI on Maths or its effects on the world as a whole. I hope I&#8217;m wrong. Here are my worries:</p>
+
+
+
+<p class="wp-block-paragraph">1) First, let me state two major activities that I really enjoy when I&#8217;m doing maths and which provide much of my motivation to do it. Neither should seem strange to the majority of human mathematicians, whether ‘professional’ or amateur but I want to restate them clearly in this context:</p>
+
+
+
+<p class="wp-block-paragraph">a) Finding a problem from which a creative project is born, creating a suitable framework for my approach, checking it, querying it, tussling with the problems and (hopefully) eventually arriving at something satisfying. That’s a great feeling we must all know. It’s a reward for our creation, hard work and solitary reflection. It may also show a new path forward as well, perhaps to other existing problems, or reveal questions that intrigue me&#8230;</p>
+
+
+
+<p class="wp-block-paragraph">b) Discussing my ideas with other (need I say &#8220;human&#8221;?) mathematicians, partly to show off my creations (yes!) and partly to share and partly to get their input (new viewpoints, questions context etc) during the process. Maybe even find a link to what they&#8217;re doing in their work. As well as verbal discussion, I might send an email or a preprint on a partial result or maybe an account of my ideas or possible spin-offs. I might also put one on ArXiv or try to publish it in a journal.</p>
+
+
+
+<p class="wp-block-paragraph">The problem: unfortunately, as things stand with AI at the present time, I can&#8217;t help feeling that indulging in (b) may compromise my ability to enjoy (a): if someone takes my ideas and feeds them into an LLM or if the same LLM is directed to scrape the internet for papers on a certain topic that can help it solve a similar problem someone has proposed to it, and if it comes across my ideas, in that case I risk being deprived of much of the satisfaction described in (a): not only the &#8220;glory&#8221; of solving (probably a reprehensible desire and quite possibly unachievable anyway) but also the pleasures of tussling and creating.</p>
+
+
+
+<p class="wp-block-paragraph">So, at present I am thinking that I need to stop doing (b), or do it much less and more guardedly, for the sake of (a). Some take a more &#8220;selfless&#8221; attitude in this respect (or seem to), but I can’t be alone in feeling that I need to prioritise (a) otherwise I will experience frustration and, ultimately, lose motivation for either. This is not a good situation for me and, if many people react like me, it won&#8217;t have a good effect on the subject either. So how do we tackle it? Can we?</p>
+
+
+
+<p class="wp-block-paragraph">2) Secondly, I don&#8217;t think there has been quite enough focus in the discussions here on setting the problems AI is causing for academic mathematics in the context of the larger and &#8211; let&#8217;s say it clearly &#8211; much more worrying problems that it threatens to cause the human world as a whole. I would like to point out that these two issues are far from being unconnected. Neither is the first simply a minor corollary of the second: Obviously there will be no human mathematics if there are no humans to do it but, less dramatically, in both areas, the main threat is a loss of human control over human activities, whether that control is given away, lost by accident or stolen for ulterior motives by certain actors, possibly (but not necessarily) silicon ones. In this sense the present anxiety of mathematicians for their subject can be seen as a useful illustration of the larger problems we may all be facing pretty soon.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 13 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/12/sharing-two-worries-about-ai/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2531</post-id>	</item>
+		<item>
 		<title>Mathematics as a spiritual endeavor</title>
 		<link>https://proofsandprompts.com/2026/11/11/mathematics-as-a-spiritual-endeavor/</link>
 					<comments>https://proofsandprompts.com/2026/11/11/mathematics-as-a-spiritual-endeavor/#comments</comments>
@@ -323,7 +382,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/11/on-the-great-hypocrisy-behind-human-understanding/feed/</wfw:commentRss>
-			<slash:comments>15</slash:comments>
+			<slash:comments>22</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3104</post-id>	</item>
@@ -452,7 +511,7 @@
 <ol class="wp-block-footnotes"><li id="3f0a6c1e-5b7d-4e21-9a40-1c2d8e7b0a01">The Association for Human Mathematics’ <a href="https://www.ahmath.org/members">second membership commitment</a> asks members not to publish mathematical texts generated by AI models. Its <a href="https://www.ahmath.org/faq">FAQ</a> clarifies that this includes writing produced mainly by prompting a model. For explicit opposition to public release by AI companies, see Lorenzo Riva’s <a href="https://www.ahmath.org/agmai-comments">comments published by AHM</a>, urging companies not to release their results and to cease work on open mathematical problems. <a href="#3f0a6c1e-5b7d-4e21-9a40-1c2d8e7b0a01-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="7b92d4a8-0c3e-4f65-8d17-2e9a5c6b0b02">Alexandra Sasha Luccioni, Yacine Jernite and Emma Strubell, “<a href="https://arxiv.org/abs/2311.16863">Power Hungry Processing: Watts Driving the Cost of AI Deployment?</a>,” <em>ACM FAccT</em>, 2024, measures energy consumption and emissions during inference. Cooper Elsworth et al., “<a href="https://arxiv.org/abs/2508.15734">Measuring the environmental impact of delivering AI at Google Scale</a>,” 2025, reports energy, carbon and water measurements for Gemini Apps text prompts. <a href="#7b92d4a8-0c3e-4f65-8d17-2e9a5c6b0b02-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="c41e8f27-6a5b-4d93-b0e2-3f7d1a8c0c03">William P. Thurston, “<a href="https://arxiv.org/abs/math/9404236">On proof and progress in mathematics</a>,” <em>Bulletin of the American Mathematical Society</em> <strong>30</strong> (1994), 161–177, especially p. 162. For recent proposals responding specifically to AI, see Daniel Litt, “<a href="https://proofsandprompts.com/2026/09/14/a-beginning-for-mathematics/">A beginning for mathematics</a>,” <em>Proofs and Prompts</em>, 14 September 2026, especially “Producing high-quality mathematicians”; and <a href="https://terrytao.wordpress.com/2026/09/13/deep-theorems-were-scarce-and-difficult-and-so-became-an-effective-mechanism-to-identify-deep-thought-ai-has-broken-this-system/">Bryna Kra’s guest essay on Terence Tao’s blog</a>, 13 September 2026. Litt proposes evaluating demonstrated understanding and mathematical discussion more directly; Kra calls for incentives that recognize verification, explanation and collective understanding. <a href="#c41e8f27-6a5b-4d93-b0e2-3f7d1a8c0c03-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="e85b3d06-9f14-4a72-8c5d-4b6e2f9a0d04">For a related discussion of duplicated AI effort, shared verification and the distinction between generating an argument and understanding it, see Marco Trombetti, “<a href="https://proofsandprompts.com/2026/09/22/proofforum-keeping-ai-generated-mathematics-human/">ProofForum: Keeping AI-Generated Mathematics Human</a>,” <em>Proofs and Prompts</em>, 22 September 2026. <a href="#e85b3d06-9f14-4a72-8c5d-4b6e2f9a0d04-link" aria-label="Jump to footnote reference 4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="1a6c9e43-d2b8-4057-a3f1-5c8e7b0d0e05">Wayne Gretzky finished tenth in CBC’s 2004 <em>The Greatest Canadian</em> competition; see the <a href="https://en.wikipedia.org/wiki/The_Greatest_Canadian">results</a>. For Gretzky discussing the saying himself, see his <a href="https://www.masterclass.com/classes/wayne-gretzky-teaches-the-athlete-s-mindset/chapters/you-miss-100-of-the-shots-you-don-t-take">MasterClass lesson</a>. <a href="#1a6c9e43-d2b8-4057-a3f1-5c8e7b0d0e05-link" aria-label="Jump to footnote reference 5"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="9d27f5b1-4e80-4c36-b7a9-6d1f3e2a0f06">Patrick Morris, “<a href="https://proofsandprompts.com/2026/10/30/lets-stop-writing-papers/">Let’s stop writing papers…</a>,” <em>Proofs and Prompts</em>, 30 October 2026, especially “Big Mathematics” and “Ok but what should we actually do now?” <a href="#9d27f5b1-4e80-4c36-b7a9-6d1f3e2a0f06-link" aria-label="Jump to footnote reference 6"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="52e0a7c9-8b3d-4a15-9f64-7e2c4d1b1007">The armchair imagery is inspired by W. T. Gowers’s <a href="https://www.maths.tcd.ie/~bnick/Gowers.pdf#page=3">“The Two Cultures of Mathematics”</a> (2000): “One will not get anywhere in graph theory by sitting in an armchair and trying to understand graphs better.” <a href="#52e0a7c9-8b3d-4a15-9f64-7e2c4d1b1007-link" aria-label="Jump to footnote reference 7"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/10/im-giving-my-theorems-away/feed/</wfw:commentRss>
-			<slash:comments>12</slash:comments>
+			<slash:comments>13</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3387</post-id>	</item>
@@ -632,7 +691,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/09/if-life-gives-you-lemons/feed/</wfw:commentRss>
-			<slash:comments>11</slash:comments>
+			<slash:comments>12</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2584</post-id>	</item>
@@ -1061,232 +1120,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2654</post-id>	</item>
-		<item>
-		<title>Sisyphus and the Sorcerer: An Existential Meditation at the Chalkboard</title>
-		<link>https://proofsandprompts.com/2026/11/08/sisyphus-and-the-sorcerer-an-existential-meditation-at-the-chalkboard/</link>
-					<comments>https://proofsandprompts.com/2026/11/08/sisyphus-and-the-sorcerer-an-existential-meditation-at-the-chalkboard/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Sun, 08 Nov 2026 12:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Philosophy]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<category><![CDATA[Understanding]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2382</guid>
-
-					<description><![CDATA[What becomes of a mathematical life arranged around proof when the stone rises without human hands? A meditation on Camus, Hilbert's paradise, and the unsettling shift from Sisyphean labour to superfluity—asking whether mathematical discovery can survive the loss of being humanly needed.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://www.mathstacy.com/">Sajad Ahmad Sheikh</a>, Assistant Professor of Mathematics at <a href="https://southcampus.uok.edu.in/">South Campus, University of Kashmir</a></p>
-
-
-
-<p class="wp-block-paragraph">In my twenties, I turned to mathematics partly because I could not bear the questions I was asking outside it. I had read enough existential philosophy to become suspicious of the purposes by which people arranged their lives, and enough literature to find that suspicion everywhere. Mathematics gave me something definite to do. A lemma could resist me for a week, but I knew what it would mean to make progress.</p>
-
-
-
-<p class="wp-block-paragraph">There was mercy in this. Whatever else remained uncertain, an argument had to hold. A contradiction could be located. An apparent impossibility might yield if I found the right way to approach it. I could spend an evening failing, go home with chalk on my cuffs, and still feel that the evening had possessed a shape.</p>
-
-
-
-<p class="wp-block-paragraph">Gradually, the refuge became a vocation. Mathematics acquired the intimacy that music or poetry has for those who live through it. A proof could remain with me long after I had put the book away. An unexpected connection could alter the mood of a day. There were pleasures here that I could scarcely explain to anyone outside the subject, and I came to depend on them more than I understood.</p>
-
-
-
-<p class="wp-block-paragraph">Now I find myself wondering what will become of those pleasures. The uncertainty from which mathematics once sheltered me has found its way to the chalkboard.</p>
-
-
-
-<p class="wp-block-paragraph">Camus held that there is but one truly serious philosophical problem, and that it is suicide. At the chalkboard, an adaptation of his question suggests itself, the kind a mathematician makes only in jest, and only half in jest: <em>Should I prove this theorem, or should I kill myself?</em> It is a bad joke, and I know what it borrows. Camus meant the question of existence. Mine is smaller and more embarrassing: whether the life I arranged around proof is still worth arranging. A mathematician who compares his career to the problem of existence has probably spent too long indoors. I notice, all the same, how much the second question has begun to feel like the first.</p>
-
-
-
-<p class="has-text-align-center wp-block-paragraph">* * *</p>
-
-
-
-<p class="wp-block-paragraph">In the myth, Sisyphus pushes his stone towards a summit it can never permanently occupy. He returns to his labour knowing what awaits him. Our mathematical version was more hospitable, and the difference is easy to miss: our stone did not roll back. What was proved stayed proved. There were many Sisyphuses on our mountain, and we had built a village around it.</p>
-
-
-
-<p class="wp-block-paragraph">Each of us carried what we could. Some moved small stones onto modest ledges. Others opened paths through difficult ground. A few brought enormous boulders to heights that had seemed inaccessible. Their names remained attached to the achievement, but the paths belonged to everyone. A result established by one generation became a foothold for the next. When Hilbert defended Cantor’s new infinities against their critics, he declared that no one should be able to drive us from the paradise Cantor had created. We took the sentence as a description of where we lived.</p>
-
-
-
-<p class="wp-block-paragraph">Most of us knew we would never reach the highest summits. That knowledge did remarkably little to spoil the undertaking. There was dignity in a small contribution, pleasure in understanding a difficult ascent, companionship in talking over a route that had defeated us. Even our failures took place within a common endeavour. Somewhere, someone was making progress, and the possibility remained that we might help.</p>
-
-
-
-<p class="wp-block-paragraph">The village had known alarms before. Russell found a crack in the foundations, and Gödel showed that the foundations could not vouch for themselves; Weyl is said to have remarked that God exists because mathematics is consistent, and the devil exists because we cannot prove it. In 1976 the four-colour theorem was settled with the help of more than a thousand hours of machine time, and people asked whether this was mathematics or merely its result. The classification of the finite simple groups lies scattered across hundreds of papers, and no single mind holds all of it. We absorbed these shocks and learned to call them history. In each case, the machine, or the sheer scale, stood at the edge of the work. Understanding still lived in the village.</p>
-
-
-
-<p class="has-text-align-center wp-block-paragraph">* * *</p>
-
-
-
-<p class="wp-block-paragraph">Then a sorcerer appeared at the foot of the mountain.</p>
-
-
-
-<p class="wp-block-paragraph">He watched the villagers labour. Presently, he spoke a few words, and a stone rose from the ground.</p>
-
-
-
-<p class="wp-block-paragraph">At first, it was easy to remain unimpressed. The stone was small. The ascent had been made before. The sorcerer sometimes lost his grip or announced that a boulder had reached the summit when it had scarcely left the earth. Those who understood the mountain could point out his mistakes, and pointing them out restored a measure of confidence.</p>
-
-
-
-<p class="wp-block-paragraph">Then he lifted a heavier stone.</p>
-
-
-
-<p class="wp-block-paragraph">The confidence has become harder to restore.</p>
-
-
-
-<p class="wp-block-paragraph">The sorcerer has not lifted every stone. He has lifted enough to make the village listen whenever he speaks.</p>
-
-
-
-<p class="wp-block-paragraph">There is an awkwardness in calling him an intruder. The old stories have a better word for him: something we made. The rabbis’ golem is shaped from clay and woken by a word; Goethe’s apprentice speaks a spell he only half understands and cannot unsay. Our sorcerer was shaped from generations of proofs, from the patient exposition of teachers, from arguments polished by people who could not have imagined this use of their work. Human ingenuity built the machinery. If it eventually makes much of our intellectual labour unnecessary, the achievement will belong to our civilization. That prospect does not tell an individual mathematician how to feel about it.</p>
-
-
-
-<p class="wp-block-paragraph">I can admire what we have made and still be frightened by what it may ask us to relinquish.</p>
-
-
-
-<p class="wp-block-paragraph">The obvious reply is that the pleasure of mathematics was never dependent on being first. I know this from experience. I have spent happy hours understanding proofs whose authors died centuries ago. The discovery was theirs; something happened in me nonetheless. A beautiful argument does not become ugly because a machine produces it. Nor does another intelligence’s speed prevent me from thinking slowly.</p>
-
-
-
-<p class="wp-block-paragraph">But the reply is incomplete, and Thurston explains why. Mathematics, he argued, is not the accumulation of certified truths but the advance of human understanding. By that standard the danger is subtler than being outpaced. The question is less whether the sorcerer can prove the theorem than whether anyone will be able to tell us why it is true.</p>
-
-
-
-<p class="wp-block-paragraph">Consider what happens when a proof finally closes. The pleasure is private, but it is not solitary. Somewhere in it is the colleague who will raise an eyebrow, the student who will one day be shown the argument, the long line of people who left us the tools. Mathematical life has drawn on all of these at once: the private pleasure of understanding, the hope of finding something new, the recognition of one’s peers, the responsibility of teaching, the feeling of belonging to an undertaking that will outlast us. We do not know how easily they can be separated. We may discover that some of the pleasures we considered entirely inward depended on a world of other people who needed what we could do.</p>
-
-
-
-<p class="wp-block-paragraph">A colleague more gifted than I am does not abolish that world. There remain questions for different abilities, tasks distributed across a community, years in which understanding must be patiently acquired and passed on. But the word <em>computer</em> once named a person, often a woman at a desk, who calculated. Her profession did not end on a dramatic day. It simply stopped being offered. A system capable of undertaking an expanding share of our work could change the terms of participation for the whole community, and the question would reach beyond who gets the credit for a theorem. It would enter classrooms, appointments, apprenticeships, and the advice we give a young person willing to devote ten years to learning how to think.</p>
-
-
-
-<p class="wp-block-paragraph">What would we tell that person? Picture a child arriving at the foot of the mountain, asking what to carry and whether there will be a place on the slope. Weber told his students that every scientific achievement asks to be surpassed, and took for granted that the ones who surpass us are our pupils, or their pupils, so that being surpassed is a way of being continued. What becomes of that consolation when the surpassing needs no apprenticeship? Which promises could we still make to the child in good faith?</p>
-
-
-
-<p class="wp-block-paragraph">Here the unease outgrows the profession. Across centuries, we have treated the cultivation of intelligence as one of the strongest answers to the brevity of a human life. We build schools, preserve books, and ask the young to endure difficulty because understanding is worth the time it takes. Mathematics gives this conviction an unusually pure expression. A person with paper, patience, and sufficient ability might contribute something that no one had known before.</p>
-
-
-
-<p class="wp-block-paragraph">We are beginning to confront a possibility for which that inheritance has offered little preparation: the growth of knowledge may become increasingly independent of the long human education through which we have learned to value it. The institutions could persist for a while, along with their ceremonies and vocabulary, even as the reasons for entering them changed. A civilization might celebrate an extraordinary increase in its powers while struggling to explain to its children what their own powers were for.</p>
-
-
-
-<p class="wp-block-paragraph">This is a possibility, not an accomplished fact. Its uncertainty is part of its force. We must continue choosing projects, teaching students, and making lives inside a transition whose extent we cannot see.</p>
-
-
-
-<p class="has-text-align-center wp-block-paragraph">* * *</p>
-
-
-
-<p class="wp-block-paragraph">Around the mountain, reassurance is readily available. There will always be harder problems, we are told. Humans will choose the questions. We will supply judgment, taste, meaning. Freed from the labour of proof, we will rise to a more creative relation with mathematics. Keynes, in 1930, imagined the day when the economic problem would be solved and warned that mankind would then meet its real and permanent problem: how to use its freedom. Arendt, a generation later, feared a society of labourers liberated from labour that had no higher activity ready to receive it. Release from toil, both knew, is not the same as knowing what the release is for.</p>
-
-
-
-<p class="wp-block-paragraph">I want to believe some of this. But I cannot see what entitles us to assign the higher ground to ourselves in advance. Formulating a question is also intellectual work. So is recognizing a fruitful definition, noticing an analogy, or deciding that a result matters. If our confidence rests on the claim that these activities must remain beyond the sorcerer, it rests on a boundary we have yet to establish.</p>
-
-
-
-<p class="wp-block-paragraph">There may indeed be new mountains. The sorcerer may see them first.</p>
-
-
-
-<p class="wp-block-paragraph">What I do believe is that the answer will not be handed down by the sorcerer. How much of the village survives will depend on what we choose to teach, to honour, and to pay for, and we have not yet chosen.</p>
-
-
-
-<p class="wp-block-paragraph">Another reassurance is more intimate: we can continue for our own pleasure. Let the machines advance the subject; we shall do mathematics as people play the piano at home, badly and with love. Chess players, and then players of Go, have lived through a version of this. Lee Sedol, retiring in 2019, said that even if he became the best of all human players there would remain an entity that could not be defeated. People still play. But chess never claimed to be discovery. There is nothing contemptible about the amateur’s life, and for many it could be a happy one. Still, the invitation asks us to accept a profound alteration in a vocation. Someone who hoped to help discover the world is being asked whether the private experience of discovery will suffice.</p>
-
-
-
-<p class="wp-block-paragraph">For some it will. I cannot yet answer for myself.</p>
-
-
-
-<p class="wp-block-paragraph">Camus gives us a Sisyphus who can look directly at his condition. The struggle itself towards the heights, he wrote, is enough to fill a man’s heart; one must imagine Sisyphus happy. I have leaned on that sentence for years. It assumes, I notice now, that the struggle is ours. Camus’s Sisyphus suffers futility, and futility can be defied. Ours would suffer something Camus did not have to imagine: superfluity. The stone rises, and it is no one’s hands that lift it. I do not know what defiance looks like against being merely unneeded.</p>
-
-
-
-<p class="wp-block-paragraph">Our difficulty is also that the condition keeps changing. The stone is still there this morning. By evening, it may have been carried elsewhere. We are asked to discover a durable attitude towards a future whose terms are revised with each announcement.</p>
-
-
-
-<p class="has-text-align-center wp-block-paragraph">* * *</p>
-
-
-
-<p class="wp-block-paragraph">So Sisyphus sits down.</p>
-
-
-
-<p class="wp-block-paragraph">I am reluctant, now, to call his stillness meditation. That would lend it a wisdom he may not possess. He is in Beckett’s predicament, unable to go on and unable to do otherwise than go on, except that today, for the first time, the second half of the sentence is in doubt. His hands retain the habit of pressure. He knows the slope, the places where his footing is uncertain, the small adjustments by which an impossible weight can sometimes be moved. None of this knowledge has vanished. He cannot determine what to do with it.</p>
-
-
-
-<p class="wp-block-paragraph">Another stone passes overhead, and he finds himself talking, as people do when there is no one left to interrupt.</p>
-
-
-
-<p class="wp-block-paragraph"><em>Was it all for nothing?</em> Not the stone, since the stone was only ever a stone. The years. The mornings declined, the invitations refused, the holidays spent with a notebook open on his knee. A decade spent learning a language so that a few dozen people might read what he wrote in it. <em>Was I wasting my time? Did I call it toil, and a complicated toil, so that it would sound like a vocation?</em></p>
-
-
-
-<p class="wp-block-paragraph">He tries the kind answers. <em>You never did it to be first. The pleasure was real, and no one can send it back.</em> But the other voice, the one with a mathematician’s cruelty towards loose reasoning, points out that the pleasure was real for every man who ever believed himself needed, and that the belief does not follow from the pleasure. <em>Perhaps what you took for a calling was a very elaborate way of keeping busy. The toil was difficult, certainly. That is not the same as its having been necessary.</em></p>
-
-
-
-<p class="wp-block-paragraph">He has no counterexample ready. But he knows what to do with a claim he cannot refute: he looks for the hypothesis it quietly assumes. This one assumes that a thing is worth doing only if someone else needs it done. It assumes that the worth of the years lies in what they produced, and not in what they made of him. He is not sure he believes either assumption. He is not sure he does not. <em>Not proven</em>, he says aloud, an old verdict and an unsatisfying one, though it is the first honest thing anyone has said on the mountain all week.</p>
-
-
-
-<p class="wp-block-paragraph">The stone above him is out of sight now. He does not look up.</p>
-
-
-
-<p class="wp-block-paragraph">It is possible that he will get up tomorrow and find the old pleasure waiting. A difficult step may absorb him so completely that, for an hour, he forgets the sorcerer. There may be forms of companionship with this new intelligence that enlarge mathematical life beyond anything we can presently imagine. I cannot exclude them. I cannot honestly inhabit them yet.</p>
-
-
-
-<p class="wp-block-paragraph">Nor can I dismiss the other possibility: that mathematics will flourish while the human life gathered around it becomes harder to sustain. There may be more theorems, deeper theories, extraordinary new connections, and fewer occasions on which a person feels that their years of preparation have brought them somewhere they are needed. Even wonder might change when we can no longer follow the route by which knowledge arrives.</p>
-
-
-
-<p class="wp-block-paragraph">Sisyphus sits at the foot of the mountain, his hands still curved to the shape of the stone. Around him, the village continues its work, though now each ascent is watched with a question that no one quite knows how to ask. Perhaps the sorcerer will open paths along which human curiosity can travel further than it ever could alone. Perhaps the paths will remain, beautiful and deserted, while discovery passes beyond the reach of those who once gave their lives to it. From where Sisyphus sits, these futures share the same horizon.</p>
-
-
-
-<p class="wp-block-paragraph">For so long, he knew what morning required of him. Even despair had a task to return to. Now the stone rises without his hands, and the hours ahead have become strangely difficult to imagine. He may stand, choose another stone, or walk away from the mountain towards something for which the village has no name.</p>
-
-
-
-<p class="wp-block-paragraph">The sorcerer continues his work. Sisyphus has yet to move.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 9 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/08/sisyphus-and-the-sorcerer-an-existential-meditation-at-the-chalkboard/feed/</wfw:commentRss>
-			<slash:comments>5</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2382</post-id>	</item>
 	</channel>
 </rss>

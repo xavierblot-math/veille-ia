@@ -13,7 +13,7 @@
 	<atom:link href="https://terrytao.wordpress.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://terrytao.wordpress.com</link>
 	<description>Updates on my research and expository papers, discussion of open problems, and other maths-related topics.  By Terence Tao</description>
-	<lastBuildDate>Wed, 11 Nov 2026 03:47:54 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 12 Nov 2026 06:41:51 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -32,7 +32,7 @@
 	<item>
 		<title>Lean Grimoire</title>
 		<link>https://terrytao.wordpress.com/2026/11/11/lean-grimoire/</link>
-					<comments>https://terrytao.wordpress.com/2026/11/11/lean-grimoire/#respond</comments>
+					<comments>https://terrytao.wordpress.com/2026/11/11/lean-grimoire/#comments</comments>
 		
 		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
 		<pubDate>Thu, 12 Nov 2026 02:36:00 +0000</pubDate>
@@ -44,11 +44,11 @@
 
 					<description><![CDATA[Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets. With the extremely hectic events of the last few months, I had to set those projects aside; but I recently found a bit of time to work on one such project that I had started back [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">Back in July, I <a href="https://terrytao.wordpress.com/tag/applets/">started experimenting</a> with using modern coding agents to build a number of mathematical visualization applets.  With the extremely hectic events of the last few months, I had to set those projects aside; but I recently found a bit of time to work on one such project that I had started back then, which was to modernize a <a href="https://teorth.github.io/QED/">Javascript interactive textbook I had made back in 2018</a>, entitled &#8220;QED&#8221;, and announced previously on this blog.  The purpose of that textbook was to teach propositional and first-order logic in the form of a &#8220;crafting game&#8221;, where one applied various rules of logic to reach a desired conclusion from a given set of hypotheses.</p>
+<p class="wp-block-paragraph">Back in July, I <a href="https://terrytao.wordpress.com/tag/applets/">started experimenting</a> with using modern coding agents to build a number of mathematical visualization applets. With the extremely hectic events of the last few months, I had to set those projects aside; but I recently found a bit of time to work on one such project that I had started back then, which was to modernize a <a href="https://teorth.github.io/QED/">Javascript interactive textbook I had made back in 2018</a>, entitled &#8220;QED&#8221;, and <a href="https://terrytao.wordpress.com/2018/08/18/qed-version-2-0-an-interactive-text-in-first-order-logic/">announced previously on this blog</a>. The purpose of that textbook was to teach propositional and first-order logic in the form of a &#8220;crafting game&#8221;, where one applied various rules of logic to reach a desired conclusion from a given set of hypotheses.</p>
 
 
 
-<p class="wp-block-paragraph">With a coding agent, I <a href="https://teorth.github.io/tao-web/apps/grimoire.html">rebuilt the game</a> (which I have given the working title of &#8220;Lean Grimoire&#8221;) with a number of new features, for instance giving the option to show an in-progress Lean proof of one&#8217;s game state.  Just for fun, I also added an option to play in a &#8220;fantasy mode&#8221; in which various game elements are depicted using fantasy-themed flavor text (for instance, mathematical statements become &#8220;potions&#8221;, mathematical expressions become &#8220;scrolls&#8221;, and so forth).  Here is a typical screenshot, in which one has nearly completed the proof of the assertion <img src="https://s0.wp.com/latex.php?latex=A+%5Cimplies+A+%5Cwedge+B&#038;bg=ffffff&#038;fg=545454&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=A+%5Cimplies+A+%5Cwedge+B&#038;bg=ffffff&#038;fg=545454&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=A+%5Cimplies+A+%5Cwedge+B&#038;bg=ffffff&#038;fg=545454&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="A &#92;implies A &#92;wedge B" class="latex" />:</p>
+<p class="wp-block-paragraph">With a coding agent, I <a href="https://teorth.github.io/tao-web/apps/grimoire.html">rebuilt the game</a> (which I have given the working title of &#8220;Lean Grimoire&#8221;) with a number of new features, for instance giving the option to show an in-progress Lean proof of one&#8217;s game state. Just for fun, I also added an option to play in a &#8220;fantasy mode&#8221; in which various game elements are depicted using fantasy-themed flavor text (for instance, mathematical statements become &#8220;potions&#8221;, mathematical expressions become &#8220;scrolls&#8221;, and so forth). Here is a typical screenshot, in which one has nearly completed the proof of the assertion <img src="https://s0.wp.com/latex.php?latex=A+%5Cimplies+A+%5Cwedge+B&#038;bg=ffffff&#038;fg=545454&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=A+%5Cimplies+A+%5Cwedge+B&#038;bg=ffffff&#038;fg=545454&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=A+%5Cimplies+A+%5Cwedge+B&#038;bg=ffffff&#038;fg=545454&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="A &#92;implies A &#92;wedge B" class="latex" /> given <img src="https://s0.wp.com/latex.php?latex=A+%5Cimplies+B&#038;bg=ffffff&#038;fg=545454&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=A+%5Cimplies+B&#038;bg=ffffff&#038;fg=545454&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=A+%5Cimplies+B&#038;bg=ffffff&#038;fg=545454&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="A &#92;implies B" class="latex" />:</p>
 
 
 
@@ -60,7 +60,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/11/lean-grimoire/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>7</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18701</post-id>

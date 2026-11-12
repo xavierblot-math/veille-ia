@@ -6,7 +6,57 @@
 <atom:link href="https://xavierblot-math.github.io/veille-ia/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Daily summary of Xena, Proofs and Prompts, Silicon Reckoner, Tao (blog and Mastodon) and Gowers.</description>
 <language>en</language>
-<lastBuildDate>Wed, 11 Nov 2026 04:42:56 +0000</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 04:43:14 +0000</lastBuildDate>
+<item>
+<title>Digest — 12 November 2026 (5 new posts)</title>
+<link>https://xavierblot-math.github.io/veille-ia/#2026-11-12</link>
+<guid isPermaLink="false">veille-ia-2026-11-12</guid>
+<pubDate>Thu, 12 Nov 2026 04:00:00 +0000</pubDate>
+<description><![CDATA[
+<p><em>Nothing new from: Timothy Gowers, Terence Tao (Mastodon).</em></p>
+
+<h3>Xena (Kevin Buzzard) — <a href="https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/">“…and the proof is checked in Lean”</a></h3>
+<ul>
+<li>Buzzard explains what "verified in Lean" really guarantees, especially for AI-generated code, as four checks: does the Lean statement match the paper; does it compile; does the proof prove that exact statement; does it rely on a kernel bug.</li>
+<li>On statements: he notes that roughly 38 of the 290 OpenAI theorem-dump papers with Lean code do not even state the main theorem. Paper 194 (Lech's conjecture) only formalises Corollary 5.4. Axiom's finite-simple-groups classification depends on about 5,600 lines of unchecked definitions in the AI-written Tau Ceti library.</li>
+<li>Tools: <code>lake comparator</code> checks that the proved theorem matches a trusted statement and uses only standard axioms. Its <code>--paranoid</code> mode re-checks with several independent kernels, one of them formally verified.</li>
+<li>Anecdotes: compiling Anthropic's 13M-line FLT formalisation took a 96-core, 500 GB machine. OpenAI's Navier–Stokes proof (640K lines) builds on his laptop. A compiled Lean proof still says nothing about whether the PDF is correct.</li>
+<li>👉 A clear checklist to use whenever someone says an AI result is "checked in Lean".</li>
+</ul>
+
+<h3>Xena (guest post) — <a href="https://xenaproject.wordpress.com/2026/11/11/a-modern-reorganization-of-mathematics/">A Modern Reorganization of Mathematics</a></h3>
+<ul>
+<li>A guest post by Bin Dong, Nailin Guan, Jiedong Jiang, Ruochuan Liu, Christian Merten, Xiangyu Pan, Tingxiao Shi, Bin Wu, Edison Xie and Wei Yang. It argues that mathematics has two layers, intuition and slogans versus rigorous detail, and that AI can finally connect them.</li>
+<li>Prototype: a complete, layered proof of the Weil conjectures on a website. A reader can start from the top-level strategy (Weil cohomology, ℓ-adic cohomology, six operations on the pro-étale site) and drill down to nodes linked to machine-checked Lean proofs.</li>
+<li>Division of labour: humans choose the proof route and the key definitions, and formalised derived categories and the six-functor formalism by hand (building on Riou's work). LLMs refine the middle layers, and auto-formalisation does the bottom layer.</li>
+<li>They picture it growing like the Stacks Project, for example with perverse sheaves and nearby/vanishing cycles.</li>
+<li>👉 Worth reading in full: a concrete model of AI-assisted exposition in algebraic geometry.</li>
+</ul>
+
+<h3>Terence Tao — <a href="https://terrytao.wordpress.com/2026/11/11/lean-grimoire/">Lean Grimoire</a></h3>
+<ul>
+<li>With a coding agent, Tao rebuilt his 2018 JavaScript logic textbook "QED". It teaches propositional and first-order logic as a crafting game where you apply inference rules to reach a goal.</li>
+<li>New features include an optional live view of the matching in-progress Lean proof, and a playful "fantasy mode" where statements become potions and expressions become scrolls.</li>
+<li>He is asking for playtesters, to make it more useful for teaching proofs and Lean.</li>
+</ul>
+
+<h3>Proofs and Prompts (Filip Dul) — <a href="https://proofsandprompts.com/2026/11/11/mathematics-as-a-spiritual-endeavor/">Mathematics as a spiritual endeavor</a></h3>
+<ul>
+<li>A Hartford assistant professor argues that the AI turmoil only threatens a mathematics defined by problem-solving, which he sees as a recent, roughly century-old emphasis.</li>
+<li>For him the core is awe and shared understanding: his own examples are Gauss–Bonnet, homotopy invariance and general relativity. Teaching passes that on.</li>
+<li>Even if machines found every truth, he says mathematicians would remain their "stewards" and explainers.</li>
+</ul>
+
+<h3>Proofs and Prompts (anonymous postdoc) — <a href="https://proofsandprompts.com/2026/11/11/on-the-great-hypocrisy-behind-human-understanding/">On the great hypocrisy behind « human understanding »</a></h3>
+<ul>
+<li>A polemical essay, framed by Grothendieck's <em>Récoltes et Semailles</em>. The author argues that senior mathematicians' new praise of "human understanding" hides an academic system that has long rewarded conjecture-solving, publication counts and patronage.</li>
+<li>Diagnosis: conjectures were already "Goodharted" into career metrics, and quick 30-minute journal reviews push out conceptual work. Shrinking resources select for technical, unoriginal profiles, which are the ones AI now hurts most.</li>
+<li>The author mocks the techno-optimist, moralist and doomer camps alike, and condemns today's rush to have AI one-shot famous conjectures for arXiv. They also note that there is no guidance yet for this hiring season.</li>
+<li>The author is leaving academia but will keep doing mathematics for pleasure. They suggest using AI as a Socratic partner to build understanding.</li>
+<li>👉 A sharp junior view on hiring, journals and supervision responsibilities, with many French references.</li>
+</ul>
+]]></description>
+</item>
 <item>
 <title>Digest — 11 November 2026 (4 new posts)</title>
 <link>https://xavierblot-math.github.io/veille-ia/#2026-11-11</link>

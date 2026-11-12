@@ -13,7 +13,7 @@
 	<atom:link href="https://xenaproject.wordpress.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://xenaproject.wordpress.com</link>
 	<description>Mathematicians learning Lean by doing.</description>
-	<lastBuildDate>Wed, 11 Nov 2026 06:12:14 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 12 Nov 2026 00:50:07 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -33,6 +33,148 @@
 <atom:link rel="search" type="application/opensearchdescription+xml" href="https://xenaproject.wordpress.com/osd.xml" title="Xena" />
 	<atom:link rel='hub' href='https://xenaproject.wordpress.com/?pushpress=hub'/>
 	<item>
+		<title>&#8220;&#8230;and the proof is checked in Lean&#8221;</title>
+		<link>https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/</link>
+					<comments>https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/#comments</comments>
+		
+		<dc:creator><![CDATA[xenaproject]]></dc:creator>
+		<pubDate>Thu, 12 Nov 2026 00:50:07 +0000</pubDate>
+				<category><![CDATA[Fermat&#039;s Last Theorem]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[Research formalisation]]></category>
+		<category><![CDATA[rigour]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[lean]]></category>
+		<category><![CDATA[math]]></category>
+		<category><![CDATA[mathematics]]></category>
+		<category><![CDATA[OpenAI]]></category>
+		<category><![CDATA[philosophy]]></category>
+		<category><![CDATA[technology]]></category>
+		<category><![CDATA[trust]]></category>
+		<guid isPermaLink="false">http://xenaproject.wordpress.com/?p=3911</guid>
+
+					<description><![CDATA[This post is an attempt to explain in simple terms how to interpret claims of the form &#8220;this theorem is correct because it was checked in Lean&#8221;. The summary is: there is an important signal that can be extracted from &#8230; <a href="https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">This post is an attempt to explain in simple terms how to interpret claims of the form &#8220;this theorem is correct because it was checked in Lean&#8221;. The summary is: there is an important signal that can be extracted from Lean code, but if this code is AI-generated then you need to do some tests first. We explain the tests, and note that in many cases (such as the OpenAI theorem dump) these tests have not yet been systematically done.</p>
+
+
+
+<h2 class="wp-block-heading">Introduction</h2>
+
+
+
+<p class="wp-block-paragraph">Last month&#8217;s <a href="https://github.com/openai/math">theorem dump by OpenAI</a> consisted of 722 mathematics papers, around 45% of which came with some Lean code. Three of the (non-Leanified) papers have since been retracted because of a sign error. Some people might say &#8220;well, the papers that come with Lean code are definitely correct because that&#8217;s how Lean works&#8221;. Others might say &#8220;well Lean had a <a href="https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/" target="_blank" rel="noopener">soundness bug</a> and could well have more, and AIs will reward hack, so Lean verification doesn&#8217;t tell us much at all&#8221;. The truth, unsurprisingly, is more subtle, and this post is an attempt to explain it.</p>
+
+
+
+<p class="wp-block-paragraph">This post is structured as a sequence of four questions that one needs to ask about a Lean repository, particularly if it is AI-generated, before one can start to make correctness claims of this form. And before I start, let me stress that for many of the papers in the OpenAI theorem dump, these questions have not yet all been answered affirmatively (but there is nothing stopping people from answering these questions, and I have no reason to believe that any of the tests below will fail, it&#8217;s just that people didn&#8217;t do them yet).</p>
+
+
+
+<h2 class="wp-block-heading">Question 1. Does the Lean statement match the informal statement?</h2>
+
+
+
+<p class="wp-block-paragraph">A Lean repository will typically have a &#8220;headline theorem statement&#8221;. This will be some computer code which defines the <em>statement</em> (not the proof!) of a theorem. Note the huge difference here between the statement, and the proof. For example here is some fully-compiling Lean code which defines a mathematical statement.</p>
+
+
+<div class="wp-block-code">
+	<div class="cm-editor">
+		<div class="cm-scroller">
+			
+<pre>
+<code><div class="cm-line">import Mathlib</div><div class="cm-line"></div><div class="cm-line">def FermatsLastTheorem : Prop := </div><div class="cm-line">  ∀ a b c n : ℕ, n ≥ 3 → a^n + b^n ≠ c^n </div></code></pre>
+		</div>
+	</div>
+</div>
+
+
+<p class="wp-block-paragraph">This code imports Lean&#8217;s mathematics library <code>Mathlib</code> and then defines a mathematical statement which looks at first glance like it might be Fermat&#8217;s Last Theorem, but which actually is a trivially false statement because in Lean <code>ℕ</code> contains <code>0</code>, so <code>a = b = c = 0</code> and <code>n = 3</code> gives a counterexample. This does not stop the statement from compiling! It will however stop any <em>proof</em> of this statement from compiling. Lean carefully distinguishes between the statement of a theorem and the proof of a theorem; humans are very good at referring to both ideas as &#8220;a theorem&#8221;.</p>
+
+
+
+<p class="wp-block-paragraph">The first question which one has to ask when judging a pdf which comes with some Lean code is: &#8220;what is the <em>statement</em> of the theorem in the Lean code, and does this correspond to the actual theorem statement in the pdf?&#8221; For a human Lean expert, this is typically (but not always) an easy question to answer. For example any Lean-competent human mathematician would be able to read the two lines of code above and observe that this was a mis-statement of Fermat&#8217;s Last Theorem.</p>
+
+
+
+<p class="wp-block-paragraph">Things are, however, not always as easy as this. Currently, because of deficiencies in available libraries, one may have to read many thousands of lines of code just to understand the <em>statement</em> of a formalised theorem. An example of this right now is a <a href="https://github.com/google-deepmind/formal-conjectures/pull/5538">PR to DeepMind&#8217;s Formal Conjectures repository</a> containing a Lean formalisation of the statement of the Hodge conjecture. At the time of writing, the statement relies on over 10,000 lines of code sitting on top of <code>Mathlib</code>, because <code>Mathlib</code> (which is carefully human-expert-checked and which can be trusted) does not yet have the definitions of things like the cycle class map needed to make the statement. Another example is <a href="https://axiommath.ai/research/the-enormous-theorem-formalized/">Axiom&#8217;s recent announcement of a formally-verified proof of the classification of finite simple groups</a>. The statement which Axiom&#8217;s system proved is <a href="https://github.com/TauCetiProject/TauCeti/blob/ff97e2dafb29b508b1229a5a7acbbca81ebcf3a1/TauCeti/GroupTheory/SpecificGroups/CFSG/Classification.lean#L52-L56" target="_blank" rel="noopener">here</a> in Tau Ceti, an AI-generated library of Lean code. The file containing the statement imports over 250K lines of Lean code in Tau Ceti (over 900 files). Of these, around 5600 lines of code are crucial because they contain all the relevant definitions (for example, all the definitions of the sporadic simple groups, most of which are still not in <code>Mathlib</code>). Without human checking, one does not really know for sure that this is definitely the correct statement of the classification (and note that I have not yet met any human who claims to have carefully checked that the definitions of the sporadic groups in Tau Ceti are correct). In fact by far the strongest evidence that we have that this statement is correctly formalized is that Axiom&#8217;s code proves it!</p>
+
+
+
+<p class="wp-block-paragraph">It is worth noting that of the 290 OpenAI theorems which come with Lean code, around 38 of them have the property that the Lean code <strong>does not even state, let alone prove, the main theorem of the paper</strong>. And OpenAI never claimed that it did! They just said &#8220;here is some Lean code which goes with this paper&#8221;. Sometimes the code just states and proves some intermediate results &#8212; my impression is that OpenAI decided to go live when some of the formalizations were incomplete, so just dumped what they had. To give a concrete example: <a href="https://www.emergentmind.com/openai-math-explorer/results/194">paper 194</a> claims to prove Lech&#8217;s multiplicity conjecture in commutative algebra, with no restriction on dimension, residue field or characteristic; this question has been open since 1960. The headline theorem in <a href="https://github.com/openai/math/blob/main/lean/ComparatorChallenges/DuttaDomain.lean">the corresponding Lean code</a> can be checked to be Corollary 5.4 of the paper &#8212; already an impressive achievement, but not the headline result.</p>
+
+
+
+<h2 class="wp-block-heading">Question 2: does the code compile?</h2>
+
+
+
+<p class="wp-block-paragraph">Once you&#8217;re convinced that you understand the statement of the theorem which the Lean code purports to prove, you (or perhaps one of your friends who has access to a beefy machine, if the code base is huge) has to actually compile the code.</p>
+
+
+
+<p class="wp-block-paragraph">When Anthropic <a href="https://www.anthropic.com/research/formalizing-fermats-last-theorem">formalized a proof of Fermat&#8217;s Last Theorem in Lean</a>, they asked me to take a look at the 13 million lines of code which they had generated. I downloaded it onto my machine, dumped it into a sandbox (because who knows what AI-generated code will do, it can in theory delete all your files) and attempted to compile it; I very quickly ran out of memory. I told Anthropic that I was unable to make any claims about what they had done until I could see the code base compiling, and they gave me temporary access to a machine with 96 cores and 500 gigs of ram. I could then compile the code.</p>
+
+
+
+<p class="wp-block-paragraph">Of course, with a more reasonably-sized codebase it is possible to compile the code on a reasonably-sized machine. For example OpenAI&#8217;s resolution of the Navier-Stokes problem is 640K lines of code and compiles fine on my laptop.</p>
+
+
+
+<p class="wp-block-paragraph">It is probably worth stressing again: do not run random Lean code on your local machine unless you sandbox it first. Lean&#8217;s mathematics library is safe to run and build upon because this is human-curated and checked by human experts. AI-generated code is not.</p>
+
+
+
+<h2 class="wp-block-heading">Question 3: does the code prove the theorem as stated?</h2>
+
+
+
+<p class="wp-block-paragraph">I already talked in Question 1 about the importance of checking the statement of a theorem, so we can be sure that the code is proving the right thing. However, there is an added complication here. Ideally the <em>statement</em> of a theorem will be contained in a file which has very few imports beyond <code>Mathlib</code>, so we know we can trust it. But the <em>proof</em> of the theorem will necessarily import thousands and possibly millions of lines of code which nobody wants to read. How do we know for sure that there is no trick hidden in the millions of lines of proof files which <em>redefines</em> <code>x^n</code> to mean <code>37</code>, and then proves that <code>a^n + b^n ≠ c^n</code> because the left hand side is <code>37+37=74</code> and the right hand side is <code>37</code>? Or which adds a new axiom to mathematics saying that the theorem is true? Put another way &#8212; given a <code>Challenge.lean</code> file with only trusted code imported and the statement of a theorem, and a <code>Solution.lean</code> file with millions of lines of untrusted code imported and the proof of a theorem which <em>looks identical</em>, how do we know for sure that somewhere in the millions of lines of code there is no hack which changes the <em>meaning</em> of the statement, changes the rules from just the axioms of mathematics,  </p>
+
+
+
+<p class="wp-block-paragraph">The one-line answer: <code>lake comparator</code>. You can read more about this answer <a href="https://lean-lang.org/doc/reference/latest/ValidatingProofs/#validating-comparator" target="_blank" rel="noopener">here</a>. But in short, this tool checks that the theorem stated in a trusted file and the theorem proved via untrusted imports are identical, and that only the axioms of mathematics are used in the proof.</p>
+
+
+
+<h2 class="wp-block-heading">Question 4: does the code exploit a bug in Lean&#8217;s official kernel?</h2>
+
+
+
+<p class="wp-block-paragraph">This can happen. There was a soundness bug in Lean&#8217;s kernel which was fixed four hours after it was discovered, and a subsequent review of Lean&#8217;s code base by OpenAI found several more, all of which were fixed before they were announced publicly. There may in theory be more soundness bugs in Lean&#8217;s kernel. However, <em>this does not matter</em>.</p>
+
+
+
+<p class="wp-block-paragraph">Why not? Because Lean now has many kernels, created by users, written in many different languages, and at least one of which is formally verified to have no bugs, right down to the assembly level. If you want to make absolutely sure that there is no reward-hacking then again there is a one-line answer: <code>lake comparator --paranoid</code>. A malicious piece of code exploiting an as-yet-undiscovered bug in Lean&#8217;s official kernel will not pass this test unless it exploits as-yet-undiscovered bugs in many independent systems all at once. For example <a href="https://arena.lean-lang.org/test/navier-stokes-euler/">this webpage</a> from the Lean kernel arena demonstrates that OpenAI&#8217;s resolution of the Navier&#8211;Stokes problem is accepted by multiple kernels as well as Lean&#8217;s official kernel.</p>
+
+
+
+<h2 class="wp-block-heading">One final remark</h2>
+
+
+
+<p class="wp-block-paragraph">Even if the Lean code compiles and passes all these tests, and is thus overwhelmingly likely to be a correct proof of a theorem, this does not mean that any corresponding pdf also contains a correct proof! The <a href="https://arxiv.org/abs/2610.08144">Navier&#8211;Stokes lost in translation paper</a> demonstrates the opposite in fact, for the Navier-Stokes write-up; whilst all the tests above have been run for the Navier&#8211;Stokes work, there are instances where the pdf proof and the Lean proof diverge. In these cases, who knows if the pdf proof is OK! My understanding is that some experts have been using AI to informalise the Lean proof back into English in order to read the argument, rather than ploughing through the slop in the pdf. </p>
+
+
+
+<h2 class="wp-block-heading">Summary/conclusions</h2>
+
+
+
+<p class="wp-block-paragraph">&#8220;It&#8217;s true because it&#8217;s checked in Lean&#8221; can be made to make sense. But one has to do some work beyond &#8220;the Lean code compiles&#8221;. Your frontier AI model can do all of this work. But it needs to be done, and (depending on the amount of Lean code in the proof) it may be computationally costly.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3911</post-id>
+		<media:content url="https://2.gravatar.com/avatar/e7ccfd42722fdb89c0fdea2f473152c14ab978bc1974acc4d67944906653f36e?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">xenaproject</media:title>
+		</media:content>
+	</item>
+		<item>
 		<title>A Modern Reorganization of Mathematics</title>
 		<link>https://xenaproject.wordpress.com/2026/11/11/a-modern-reorganization-of-mathematics/</link>
 					<comments>https://xenaproject.wordpress.com/2026/11/11/a-modern-reorganization-of-mathematics/#respond</comments>
@@ -1254,120 +1396,6 @@
 		</media:content>
 
 		<media:content url="https://xenaproject.wordpress.com/wp-content/uploads/2025/12/hap.png?w=986" medium="image" />
-	</item>
-		<item>
-		<title>Formal or not formal? That is the question in AI for theorem proving.</title>
-		<link>https://xenaproject.wordpress.com/2025/10/22/formal-or-not-formal-that-is-the-question-in-ai-for-theorem-proving/</link>
-					<comments>https://xenaproject.wordpress.com/2025/10/22/formal-or-not-formal-that-is-the-question-in-ai-for-theorem-proving/#comments</comments>
-		
-		<dc:creator><![CDATA[xenaproject]]></dc:creator>
-		<pubDate>Wed, 22 Oct 2025 14:41:23 +0000</pubDate>
-				<category><![CDATA[General]]></category>
-		<category><![CDATA[Machine Learning]]></category>
-		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[imperial college]]></category>
-		<category><![CDATA[lean]]></category>
-		<category><![CDATA[llm]]></category>
-		<category><![CDATA[mathematics]]></category>
-		<category><![CDATA[mathlib]]></category>
-		<category><![CDATA[technology]]></category>
-		<category><![CDATA[theorem provers]]></category>
-		<category><![CDATA[theorem proving]]></category>
-		<guid isPermaLink="false">http://xenaproject.wordpress.com/?p=3711</guid>
-
-					<description><![CDATA[So it&#8217;s an interesting time for computers-doing-mathematics. A couple of interesting things happened in the last few days, which have inspired me to write about the question more broadly. First there is the question on whether computers will ever prove &#8230; <a href="https://xenaproject.wordpress.com/2025/10/22/formal-or-not-formal-that-is-the-question-in-ai-for-theorem-proving/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">So it&#8217;s an interesting time for computers-doing-mathematics. A couple of interesting things happened in the last few days, which have inspired me to write about the question more broadly.</p>
-
-
-
-<p class="wp-block-paragraph">First there is the question on whether computers will ever prove interesting research-level mathematical theorems autonomously at all, which is really hard to answer right now, although clearly a lot of people are betting on &#8220;yes&#8221;. I personally am unsure: I&#8217;ve seen what can currently be done, and can&#8217;t quite extrapolate that far once you cut through the hype. I am however far more optimistic about AI tools becoming useful <em>helpers</em> to mathematics researchers, and this is one of the things which motivates my current work (trying to teach Lean a lot of <a href="https://www.renaissancephilanthropy.org/a-dataset-of-modern-formalized-theorem-statements" target="_blank" rel="noreferrer noopener">research-level definitions, theorem statements</a> and <a href="https://github.com/ImperialCollegeLondon/FLT" target="_blank" rel="noreferrer noopener">proofs</a>).</p>
-
-
-
-<p class="wp-block-paragraph">But whether they beat us or just help us, one can still ask what an autonomous theorem-proving tool will look like. Let&#8217;s initially take a gigantic step down from research level mathematics and talk instead about problems which can be solved by smart schoolchildren, namely those on the International Mathematics Olympiad (IMO). I <a href="https://xenaproject.wordpress.com/2025/08/03/ai-at-imo-2025-a-round-up/" target="_blank" rel="noreferrer noopener">wrote recently about the attempts by AI on the 2025 IMO</a> but all you need to know here is that there were four attempts which were made public: two of them were using language models to write proofs in English (which were then graded by humans); let&#8217;s call this the &#8220;informal approach&#8221;. The other two were using a language model/Lean hybrid set-up; let&#8217;s call this the &#8220;formal approach&#8221;. <a href="https://lean-lang.org/" target="_blank" rel="noreferrer noopener">Lean</a> is a computer proof checker or interactive theorem prover; it checks mathematical arguments at a superhuman level. In this hybrid setup, the language model writes proofs in Lean&#8217;s language which are then checked automatically by Lean; once Lean says the proofs are correct, humans only need to check that the statements have been translated correctly into Lean, although that is an important part of the process.</p>
-
-
-
-<h2 class="wp-block-heading">Worries about the non-formal approach.</h2>
-
-
-
-<p class="wp-block-paragraph">What worries me mostly about the non-formal approach is the horror stories I am hearing from journal editors. Mathematics journals are being spammed with LLM-generated papers, which are becoming more and more plausible-looking, and sometimes the use of LLMs is not even revealed in the paper. I want to flag some differences between mathematics papers generated by LLMs and those generated by humans:</p>
-
-
-
-<p class="wp-block-paragraph">1. LLMs are sycophantic. You want to hear that the LLM-generated argument correctly proves the theorem? Sure you do, and that&#8217;s why the LLM will assure you that this is the case, even if the argument contains a hallucination (and remember, just one hallucination is enough to break a mathematical argument). In my experience, human mathematics researchers doing mathematics in the traditional way are vanishingly unlikely to send a paper to a journal claiming that they have proved something which they actually think they have not proved. Being stuck is a standard place for a mathematics researcher to be in. An LLM is far more likely to write plausible-looking rubbish to cover their tracks; in some sense then, they are trained to mislead. One thus has to read an LLM-generated paper with far more suspicion than a human-generated paper.</p>
-
-
-
-<p class="wp-block-paragraph">2. LLMs won&#8217;t say &#8220;I don&#8217;t know&#8221;. We expect them to perform very well on in-distribution data (i.e., what they have been trained on, which certainly includes all the techniques needed to solve an IMO problem). But what happens on out-of-distribution data (e.g. theorems that no humans know how to prove)? Well, the correct answer to many intermediate questions which show up when doing research is &#8220;I don&#8217;t know &#8212; indeed, nobody knows&#8221;. Whereas the LLM&#8217;s answer will be &#8220;I will confidently have a go&#8221;. Remember: one hallucination breaks an argument.</p>
-
-
-
-<p class="wp-block-paragraph">In short: I do not yet trust mathematics written by an LLM. Several mathematicians I have talked to have backed me up on this; they have tried typing hard research problems into language models and get nonsense output which they can instantly see through. Will LLMs get 100% reliable when out-of-distribution (i.e., when trying to do original research)? Nobody knows yet, and anyone who thinks they know is just guessing, or is stoking the hype. The <a href="https://futurism.com/artificial-intelligence/openai-researcher-deletes-tweet" target="_blank" rel="noreferrer noopener">disgraceful story from earlier this week</a> about OpenAI and the ten Erdos problems is a case in point. People seem to be quick to believe that it&#8217;s happening; nothing close to it is happening right now.</p>
-
-
-
-<p class="wp-block-paragraph">One thing which is becoming more popular with the informal approach is testing systems on questions where the answer is not a long proof (indeed most breakthroughs in mathematics will consist of 30-page proofs or even much longer) and instead testing them on hard problems for which the answer is a number. An example of this is Epoch AI&#8217;s <a href="https://epoch.ai/frontiermath" target="_blank" rel="noreferrer noopener">Frontier Math Tier 4</a> dataset. I was amused this week to have been sent data on what happens if you ask lots of agents to try and solve these problems and you mark the question as being solved if at least one agent gets the answer correct at least once. I would like to submit my own AI-based approach to the Tier 4 dataset, if that&#8217;s the mark scheme now: it&#8217;s written in python.</p>
-
-
-<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate">
-i = 0
-while True:
-    print(i)
-    i = i + 1
-</pre></div>
-
-
-<p class="wp-block-paragraph">My point of course is that a system which gives out lots of answers, one of which is correct but you don&#8217;t know which one, is rather less useful than it sounds.</p>
-
-
-
-<h2 class="wp-block-heading">Worries about the informal approach.</h2>
-
-
-
-<p class="wp-block-paragraph">The amazing <a href="https://x.com/SebastienBubeck/status/1980804267524116569" target="_blank" rel="noreferrer noopener">Erdos 707</a> story from earlier today (tl;dr: two researchers found a solution to an Erdos problem and vibe-coded the entire proof in Lean using ChatGPT 5 despite not having a clue about how to write Lean code; <a href="https://borisalexeev.com/pdf/erdos707.pdf" target="_blank" rel="noreferrer noopener">here is the paper</a> by Alexeev and Mixon, with both Lean and ChatGPT listed as co-authors) might make people start to think that Lean is now becoming viable for research-level mathematics. And certainly this story shows that it can be used for <em>some</em> research level mathematics. But <em>all</em> of it? Not so fast.</p>
-
-
-
-<p class="wp-block-paragraph">My worries about the formal approach are that currently even the best formal mathematics libraries do not contain the <em>definitions</em> needed to understand most of what is happening in modern research mathematics. Because of my Renaissance Philanthropy AI for Math grant, I have been ploughing through recent issues of the Annals and attempting to see which definitions need to be formalized before we can even formally <em>state</em> the main results in these papers. Examples of what I saw: Tate-Shafarevich groups, Calabi-Yau varieties, algebraic stacks, automorphic representations, compactly-supported etale cohomology, Jacobians, Maass forms. These are everyday objects used by graduate students in mathematics departments across the world; no theorem prover knows what these things are. If Lean and the other provers cannot even understand the statements of most modern theorems at research level, how can they possibly help mathematicians to prove them?</p>
-
-
-
-<h2 class="wp-block-heading">Whose job is it to fix this?</h2>
-
-
-
-<p class="wp-block-paragraph">As is probably clear, I am currently skeptical about whether a next-token-prediction system is ever going to get to the point where it can be 100% accurate when generating 50 or more pages full of out-of-training data (which is probably the kind of thing which is needed for a typical new breakthrough in research mathematics). A LLM/Lean hybrid is something which seems to me to be far more plausible (and we&#8217;ve just seen it work to great effect with the Erdos 707 story above, even though here it was the humans who had had the ideas, not machines). Teaching Lean many modern definitions seems to me to be the bottleneck; it is by no means an impossible problem to solve, but it will take time, and solving it seems to me to be a fundamental problem. But who is in a position to solve this problem? Let&#8217;s look at some of the likely candidates.</p>
-
-
-
-<p class="wp-block-paragraph">1. The mathematics researcher. These are the people who have taught Lean pretty much all of the nontrivial mathematical definitions in its mathematics library so far. For example I taught mathlib what elliptic curves were, and <a href="https://www.renaissancephilanthropy.org/scalable-theorem-proving" target="_blank" rel="noreferrer noopener">Chris Birkbeck</a> taught them modular forms, so we can state the Shimura-Taniyama-Weil conjecture relating elliptic curves to modular forms; this was the conjecture partially resolved by Wiles and Taylor&#8211;Wiles and which implied Fermat&#8217;s Last Theorem. The big problem with scaling this up is that the mathematics researcher lives in a &#8220;publish or perish&#8221; environment, and work of this nature does not fit into the traditional publishing model; the current set-up rewards new proofs, not formalisations of old material, even if it has never been formalised before.</p>
-
-
-
-<p class="wp-block-paragraph">2. The LLM. This is an approach being pushed by Christian Szegedy and his colleagues at <a href="https://www.math.inc/" target="_blank" rel="noreferrer noopener">math.inc</a>. My worry about this approach is that right now LLMs write really unidiomatic and poor code, and poor definitions might ultimately result in technical debt when things start scaling. Another worry about LLM-generated definitions is that, unlike proofs, Lean cannot check that the Lean definition aligns with the human concept that it is supposed to be capturing; if an LLM forgets or mangles an axiom which is part of a definition then the code is likely to <em>compile</em>, it just won&#8217;t mean what it&#8217;s supposed to mean. </p>
-
-
-
-<p class="wp-block-paragraph">3. The <a href="https://mathlib-initiative.org/" target="_blank" rel="noreferrer noopener">Mathlib Initative</a>. This is a new institution whose aim is to support Lean&#8217;s mathematics library. They have a lot on their plate already as you can see from their <a href="https://mathlib-initiative.org/roadmap/" target="_blank" rel="noreferrer noopener">roadmap</a>, but the problem I raise above of teaching Lean how to understand modern definitions is not explicitly mentioned. Perhaps a simple solution would be to expand in this direction, but of course this will mean a financial commitment from somewhere.</p>
-
-
-
-<p class="wp-block-paragraph">Until we find a better solution, it will be my group at Imperial College London who will work on this problem, manually. We gratefully acknowledge <a href="https://www.renaissancephilanthropy.org/a-dataset-of-modern-formalized-theorem-statements" target="_blank" rel="noreferrer noopener">support</a> by <a href="https://www.renaissancephilanthropy.org/" target="_blank" rel="noreferrer noopener">Renaissance Philanthropy</a> and the <a href="https://www.ukri.org/councils/epsrc/" target="_blank" rel="noreferrer noopener">EPSRC</a> to work on what I believe is a fundamental question in AI for mathematics.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://xenaproject.wordpress.com/2025/10/22/formal-or-not-formal-that-is-the-question-in-ai-for-theorem-proving/feed/</wfw:commentRss>
-			<slash:comments>4</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3711</post-id>
-		<media:content url="https://2.gravatar.com/avatar/e7ccfd42722fdb89c0fdea2f473152c14ab978bc1974acc4d67944906653f36e?s=96&#38;d=identicon&#38;r=G" medium="image">
-			<media:title type="html">xenaproject</media:title>
-		</media:content>
 	</item>
 	</channel>
 </rss>

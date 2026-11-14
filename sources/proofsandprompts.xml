@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Fri, 13 Nov 2026 10:08:34 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 13 Nov 2026 17:36:06 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,9 +28,234 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>Hiring this year: advice and changes from committees</title>
+		<link>https://proofsandprompts.com/2026/11/14/hiring-this-year-advice-and-changes-from-committees/</link>
+					<comments>https://proofsandprompts.com/2026/11/14/hiring-this-year-advice-and-changes-from-committees/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Sat, 14 Nov 2026 08:00:00 +0000</pubDate>
+				<category><![CDATA[In practice]]></category>
+		<category><![CDATA[Evaluation]]></category>
+		<category><![CDATA[PhD and postdoc applications]]></category>
+		<category><![CDATA[Understanding]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3620</guid>
+
+					<description><![CDATA[Advice from people doing the hiring this year: DPMMS Cambridge on three changes to its postdoc appointments process, the CNRS Section 01 committee on its 2027 junior researcher competition, and Alessio Figalli and Sobhan Seyfaddini on postdoc hiring at ETH Zurich. More contributions will be added as they arrive.]]></description>
+										<content:encoded><![CDATA[
+<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · This post collects practical advice and changes for the upcoming applications to postdocs and early career jobs. If you come across other advice published by hiring committees this year, or if you are involved in hiring and would like to add something, please <a href="https://proofsandprompts.com/submit/">tell us</a>: we will add it to this post. <a href="https://proofsandprompts.com/tag/application-season/">All posts in the series on careers</a></p>
+
+
+
+
+
+<h2 class="wp-block-heading">Cambridge: three changes to postdoc appointments at DPMMS</h2>
+
+
+
+<p class="author-line wp-block-paragraph"><a href="https://www.dpmms.cam.ac.uk/">Department of Pure Mathematics and Mathematical Statistics</a> (DPMMS), University of Cambridge</p>
+
+
+
+<p class="wp-block-paragraph">DPMMS has adapted the appointments process for the Herchel-Smith (and other departmental) postdoc in three ways this season. First, we ask candidates in their applications to specify <em>up to four</em> of their strongest papers or preprints, to consciously de-weight volume of production relative to quality. Second, we have a small bespoke hiring committee to explicitly compare files across different fields, which includes taking stock of different experiences around AI which is impacting fields differently. Finally, we have told applicants we expect to interview for the positions, which we have not done before, giving leading candidates a chance to show their command of and passion for their work more directly.</p>
+
+
+
+<p class="has-small-font-size wp-block-paragraph">Received 11 November 2026.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading">CNRS: advice from the Section 01 committee for the 2027 junior researcher competition</h2>
+
+
+
+<p class="author-line wp-block-paragraph">Sophie Morel, CNRS senior researcher in Lyon and chair of Section 01 of the <a href="https://cn.math.cnrs.fr/">Comité national de la recherche scientifique</a></p>
+
+
+
+<p class="wp-block-paragraph">In 2027, the CNRS should open 13 junior researcher positions in mathematics. These are tenured research-only positions, 9 of them based at any French university and 4 of them reserved for particular universities; in the past few years, the average academic age of new hires in mathematics has been PhD + 3/4 years, and we welcome international applications. (No knowledge of French is necessary to apply or be selected.)</p>
+
+
+
+<p class="wp-block-paragraph">The CNRS mathematics hiring committee has published some advice to candidates to explain our position concerning the use of generative AI during the hiring process, the changes we are making to adapt to the new circumstances, and our evaluation criteria. This advice and more information about the calendar is available on <a href="https://cn.math.cnrs.fr/">our website</a>: <a href="https://cn.math.cnrs.fr/Doc/Conseils_CR2027.pdf">French version here</a>, <a href="https://cn.math.cnrs.fr/Doc/Advice_CR2027.pdf">English version here</a>. Here is a short summary:</p>
+
+
+
+<ul class="wp-block-list">
+<li>We will not use any generative AI for our work as a committee. This means in particular that we will not put any part of any application in any generative AI tool, and we will not use generative AI tools to judge applications.</li>
+
+
+
+<li>We will not penalize candidates for using or not using generative AI tools in their research.</li>
+
+
+
+<li>We ask candidates to include a detailed declaration of AI use in their research, and to write their report on previous research and their research project themselves (without assistance from generative AI). We also ask them to make these texts as clear and accessible as possible; they should be understandable both to specialists in the field and to mathematicians working outside the candidates’ area of research.</li>
+
+
+
+<li>The application should not include a full list of publications and preprints. Instead, we ask candidates to select at most 7 scientific productions (articles, preprints, software, databases etc) and to provide a short explanation of their selection.</li>
+
+
+
+<li>In the report on previous research, we ask candidates to highlight at most 3 research contributions and to explain them in detail (context, new ideas and methods, etc).</li>
+
+
+
+<li>We will double the length of the interviews and the size of the interview subcommittees.</li>
+</ul>
+
+
+
+<p class="has-small-font-size wp-block-paragraph">Received 13 November 2026.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading">ETH Zurich: postdoc hiring in the age of AI</h2>
+
+
+
+<p class="author-line wp-block-paragraph"><a href="https://people.math.ethz.ch/~afigalli/">Alessio Figalli</a> and <a href="https://people.math.ethz.ch/~sseyfaddini/about">Sobhan Seyfaddini</a>, Professors at ETH Zurich</p>
+
+
+
+<p class="wp-block-paragraph">Drawing on our experience as past and current members of postdoctoral hiring committees, we would like to share our perspective on how to evaluate postdoctoral candidates in the age of AI.</p>
+
+
+
+<p class="wp-block-paragraph">AI does not change what we ultimately want to assess in a candidate: the depth of their mathematical understanding, the substance of their own contributions, and their potential to develop new ideas.</p>
+
+
+
+<p class="wp-block-paragraph">At the initial shortlisting stage, we expect recommendation letters and CVs to play an important role, but we do not regard publication counts alone as a reliable guide to a candidate’s potential. We are more interested in the substance of the work and in what the application reveals about the candidate’s own contributions, ideas, and development as a mathematician. Where possible, we may also examine selected papers more closely to gain a better understanding of the mathematical ideas involved and how they are presented.</p>
+
+
+
+<p class="wp-block-paragraph">For shortlisted candidates, the interview will be crucial for assessing their mathematical understanding and judgment more directly.<br>Can they explain the ideas behind their results, why the arguments work, and where the difficulties lie?<br>Can they discuss what they tried, what failed, and which questions remain open?<br>We would also like to understand how they see their work in a broader mathematical context, why they consider it significant, and what they regard as their own main contributions. We expect that a talk followed by an in-depth discussion will give us a good sense of each candidate’s mathematical understanding, maturity, and approach to research.</p>
+
+
+
+<p class="wp-block-paragraph">Our advice to applicants is therefore to make their own contributions clear in their applications and to be prepared to discuss their work in depth, since a thoughtful and honest mathematical conversation can reveal far more than a publication count. While the ways in which we assess candidates may evolve as the tools available to mathematicians change, our emphasis will remain on mathematical understanding, originality, and research potential.</p>
+
+<p class="has-small-font-size wp-block-paragraph">Received 5 November 2026. First published on 6 November 2026 as “<a href="https://proofsandprompts.com/2026/11/06/postdoc-hiring-in-the-age-of-ai-what-still-matters/">Postdoc Hiring in the Age of AI: What Still Matters</a>”.</p>
+
+<div class="wp-block-group pp-elsewhere has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading">Elsewhere: advice published by other institutions</h2>
+
+
+
+<p class="wp-block-paragraph">These notices were not sent to Proofs and Prompts. We quote them as the institutions published them, with a link to the source and the date we consulted it.</p>
+
+
+
+<h3 class="wp-block-heading">Institute for Advanced Study, School of Mathematics</h3>
+
+
+
+<p class="wp-block-paragraph">Postdoctoral and other memberships; deadline 1 December. The School’s <a href="https://www.ias.edu/math/apply/membership">membership application page</a> includes the following notice (consulted 13 November 2026):</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">PLEASE NOTE: We realize that applying to positions in the current environment is stressful. To help alleviate this, the School of Mathematics offers applicants the option to submit research statement based only on already conducted research. It would be helpful if such a statement would be focused on a few select projects (in most cases up to three) and not a wide ranging list.</p>
+
+
+
+<p class="wp-block-paragraph">We also want to turn the attention of applicants to the option of including a url to a recorded lecture (e.g. seminar or conference talk) in the application form. If you did not have a talk recorded, you can record one yourself and give the link; if this is not clear from the accompanying information in the video url, please explain in which context the talk was given and to what audience in the comments section of the application.</p>
+
+
+
+<p class="wp-block-paragraph">Applicants should feel free to include in the comments section any pertinent information regarding the application, in particular regarding impact (either helpful or unhelpful) of AI related tools on your research.</p>
+<cite><a href="https://www.ias.edu/math/apply/membership">IAS School of Mathematics, “Applying for Membership in the School of Mathematics”</a></cite></blockquote>
+
+
+
+<h3 class="wp-block-heading">Max Planck Institute for Mathematics, Bonn</h3>
+
+
+
+<p class="wp-block-paragraph">Guest Program and postdoc positions; the fall 2026 round closed on 16 October. The institute’s <a href="https://www.mpim-bonn.mpg.de/node/3888">application page</a> includes the following AI policy (consulted 13 November 2026):</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">The MPI is a place for human interactions and discussions.</p>
+
+
+
+<p class="wp-block-paragraph">Your research statement must be fully written without the use of AI, and we encourage you to keep it to at most 5 pages. When describing your previous work, please disclose the extent of AI use therein.</p>
+
+
+
+<p class="wp-block-paragraph">We will not use AI in the evaluation of applications.</p>
+
+
+
+<p class="wp-block-paragraph">The Max Planck Society provides free access to current LLM&#8217;s for everybody who is at MPIM for more than a year, and researchers who use AI in their work are welcome.</p>
+
+
+
+<p class="wp-block-paragraph">We believe that it is important to sustain a subcommunity of  mathematicians who choose not to use AI in their work, and we also welcome their applications.</p>
+
+
+
+<p class="wp-block-paragraph">We expect our members to support the <a href="https://leidendeclaration.ai/">Leiden Declaration on Artificial Intelligence and Mathematics</a>.</p>
+<cite><a href="https://www.mpim-bonn.mpg.de/node/3888">Max Planck Institute for Mathematics, “Application for the Guest Program and for postdoc positions”</a></cite></blockquote>
+
+
+
+<h3 class="wp-block-heading">MIT, Department of Mathematics</h3>
+
+
+
+<p class="wp-block-paragraph">C.L.E. Moore Instructorships (deadline 1 December) and tenure-track faculty positions (deadline 1 November). Both postings on the department’s <a href="https://math.mit.edu/about/employment.html">employment page</a> ask for a “Gen AI statement”, described as follows (consulted 13 November 2026):</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">The Gen AI statement is a detailed factual statement on the use of generative AI, if any, in the applicant&#8217;s past work and current application materials.</p>
+<cite><a href="https://math.mit.edu/about/employment.html">MIT Department of Mathematics, “Employment”</a></cite></blockquote>
+
+
+
+<h3 class="wp-block-heading">Recommendations to hiring committees</h3>
+
+
+
+<p class="wp-block-paragraph">These are proposals addressed to departments, not rules of any hiring process.</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://cmsa.fas.harvard.edu/media/2026/10/Summit-on-Math-Research-in-the-Age-of-AI.pdf">Report of the Summit on Math Research in the Age of AI</a> (Harvard CMSA, 22–23 October 2026). Among other things, it suggests that during this transition departments may allow research statements without future research plans, and that application materials could include evidence of exposition and communication.</li>
+
+
+
+<li><a href="https://simons.berkeley.edu/news-publications-videos/ai-tcs-working-group">AI and TCS: The Next Six Months</a> (Simons Institute working group, 28 September 2026), for theoretical computer science. It recommends evaluating candidates on a few works of their own choosing, testing their understanding of those works in more depth, and making these changes starting with the 2026–2027 hiring season.</li>
+</ul>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/14/hiring-this-year-advice-and-changes-from-committees/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3620</post-id>	</item>
+		<item>
 		<title>Human skepticism and formal verification</title>
 		<link>https://proofsandprompts.com/2026/11/13/human-skepticism-and-formal-verification/</link>
-					<comments>https://proofsandprompts.com/2026/11/13/human-skepticism-and-formal-verification/#respond</comments>
+					<comments>https://proofsandprompts.com/2026/11/13/human-skepticism-and-formal-verification/#comments</comments>
 		
 		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
 		<pubDate>Fri, 13 Nov 2026 15:00:00 +0000</pubDate>
@@ -262,7 +487,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/13/human-skepticism-and-formal-verification/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>1</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3221</post-id>	</item>
@@ -395,7 +620,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/13/a-vision-of-the-future-of-mathematics/feed/</wfw:commentRss>
-			<slash:comments>7</slash:comments>
+			<slash:comments>9</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3138</post-id>	</item>
@@ -1100,83 +1325,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2447</post-id>	</item>
-		<item>
-		<title>I&#8217;m giving my theorems away</title>
-		<link>https://proofsandprompts.com/2026/11/10/im-giving-my-theorems-away/</link>
-					<comments>https://proofsandprompts.com/2026/11/10/im-giving-my-theorems-away/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
-				<category><![CDATA[Initiatives]]></category>
-		<category><![CDATA[Take part]]></category>
-		<category><![CDATA[Authorship]]></category>
-		<category><![CDATA[Community]]></category>
-		<category><![CDATA[Understanding]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3387</guid>
-
-					<description><![CDATA[Surely, we would learn more, enjoy the process more, and save a lot of money and resources if we just share the ideas and co-authorship credit openly. [...] This is my experiment; I hope some of you will join me and the other guinea pigs.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://jonathannoel.ca/">Jonathan Noel</a>, Associate Professor at <a href="https://www.uvic.ca/science/math-statistics/people/home/faculty/noel_jonathan.php">University of Victoria</a></p>
-
-
-
-<p class="wp-block-paragraph">Over the past couple of months, the same open problem may have been solved by prompting AI by 10 different people on 10 different days. Each of them knows that posting AI-generated text that they don&#8217;t understand is heavily frowned upon,<sup data-fn="3f0a6c1e-5b7d-4e21-9a40-1c2d8e7b0a01" class="fn"><a href="#3f0a6c1e-5b7d-4e21-9a40-1c2d8e7b0a01" id="3f0a6c1e-5b7d-4e21-9a40-1c2d8e7b0a01-link">1</a></sup> and so they keep their proof secret. They also know that anyone else with a subscription to the same AI might have access to this proof, and so they need to work fast. They send 50 more prompts to the AI to help understand the proof, most of which are unhelpful, and toil away independently to write it up. Eventually, one of them finishes and puts the paper on arXiv, and the rest abandon their work for zero credit, and vow to be faster—and more sloppy—with the next one.</p>
-
-
-
-<p class="wp-block-paragraph">This is incredibly wasteful, not only of mathematicians’ time and effort, but of money and computational and natural resources.<sup data-fn="7b92d4a8-0c3e-4f65-8d17-2e9a5c6b0b02" class="fn"><a href="#7b92d4a8-0c3e-4f65-8d17-2e9a5c6b0b02" id="7b92d4a8-0c3e-4f65-8d17-2e9a5c6b0b02-link">2</a></sup> It is also very lonely. Moreover, it is counterproductive if, as many have suggested, we are hoping to transition to a system that credits contributions to human understanding over generating proofs.<sup data-fn="c41e8f27-6a5b-4d93-b0e2-3f7d1a8c0c03" class="fn"><a href="#c41e8f27-6a5b-4d93-b0e2-3f7d1a8c0c03" id="c41e8f27-6a5b-4d93-b0e2-3f7d1a8c0c03-link">3</a></sup></p>
-
-
-
-<p class="wp-block-paragraph">I believe that the dystopian scenario described above, that many of us are living through now, is forced by three assumptions of the existing systems of mathematics: (1) if you prove something, then you should not make it public until you have a polished arXiv-worthy draft, (2) co-authorship is sacred and shouldn&#8217;t just be given away and, relatedly, (3) the person who generates a proof should always be a co-author. However, as many have observed, this system no longer makes sense in a world where everyone with a subscription to a top AI model has access to almost the same set of proofs as anyone else.<sup data-fn="e85b3d06-9f14-4a72-8c5d-4b6e2f9a0d04" class="fn"><a href="#e85b3d06-9f14-4a72-8c5d-4b6e2f9a0d04" id="e85b3d06-9f14-4a72-8c5d-4b6e2f9a0d04-link">4</a></sup></p>
-
-
-
-<p class="wp-block-paragraph">At first, it may seem difficult and painful to come up with a new system that does not feature these assumptions but, for the time being, I am hopeful that it may turn out to be much easier than we thought. Of course, the devil is always in the details. But, for now, I am holding onto this naive optimism because, without it, I may be paralyzed with indecision, and that has no chance of being valuable. As the 10th greatest Canadian of all time (as of 2004) said, &#8220;you miss 100% of the shots you don&#8217;t take.&#8221;<sup data-fn="1a6c9e43-d2b8-4057-a3f1-5c8e7b0d0e05" class="fn"><a href="#1a6c9e43-d2b8-4057-a3f1-5c8e7b0d0e05" id="1a6c9e43-d2b8-4057-a3f1-5c8e7b0d0e05-link">5</a></sup></p>
-
-
-
-<p class="wp-block-paragraph">So, here&#8217;s my shot; I&#8217;m calling it <a href="https://proofsandpeople.org/">proofsandpeople.org/</a>, inspired by the name of this blog. The concept is as follows. Anyone can submit a &#8220;project&#8221; to the webpage which consists of an AI-generated proof that has not yet been understood by humans. Each project will have a &#8220;leader&#8221; and a &#8220;team&#8221; of other researchers who are interested in working together to understand the proof, extract valuable human insights from it, teach them to each other and, eventually, write up the proof and submit it to arXiv for shared credit as co-authors. The leader has the option of allowing new team members to join openly, to close the project to new members, or even to remove it from the webpage. The person who submits a project may decide to lead it, join the team, or completely leave it to other people to carry forward. In the latter case, they should normally not retain any rights to co-authorship; however, the decision of how to assign credit for a project is left up to the leader, submitter and team members for an individual project.</p>
-
-
-
-<p class="wp-block-paragraph">I launched this site with 10 projects that I generated with AI myself, 2 of which I plan to lead and 8 that I am giving away for others to take forward. I recognize that my time, energy and attention are limited and it is unrealistic for me to bring all of these projects to fruition. So, I&#8217;m going to focus on working on the projects that I&#8217;m most deeply interested in, doing so at a pace that is appropriate for truly digesting the ideas, and sharing the journey with other people. I invite you all to join me in this.</p>
-
-
-
-<p class="wp-block-paragraph">While I believe that the main benefits of this initiative are to encourage collaboration, community and human understanding, I also have a financial motivation. I don&#8217;t want to pay hundreds of dollars every month to OpenAI anymore. In a system where we all work in secret and 99.9% of the credit is given to the person who posts to arXiv first, I feel that I would have no choice but to use all of the tools at my disposal to speed up my workflow. Meanwhile, all of my competitors are also pouring money and resources duplicating the same work that I&#8217;m doing in an attempt to beat me to arXiv. Surely, we would learn more, enjoy the process more, and save a lot of money and resources if we just share the ideas and co-authorship credit openly. Personally, partly because of this new initiative, I&#8217;ve recently gone from the US$200/month ChatGPT Pro account to a US$20/month Plus account, which is more than enough to support my productivity when I&#8217;m not trying to generate new proofs and working feverishly to write them up. Moreover, in this system, members of the community who are abstaining from using LLMs themselves may have an opportunity to get involved and share their insights and expertise, depending on their level of openness to doing this type of work.</p>
-
-
-
-<p class="wp-block-paragraph">I do not claim that this is a foolproof or long-term solution. You can probably already see some potential headaches that will emerge with this model; so can I. Moreover, the value of this system may decrease if/when AI figures out how to write a beautiful math paper. But, as Patrick Morris suggested in his recent essay, now is a time for us to innovate.<sup data-fn="9d27f5b1-4e80-4c36-b7a9-6d1f3e2a0f06" class="fn"><a href="#9d27f5b1-4e80-4c36-b7a9-6d1f3e2a0f06" id="9d27f5b1-4e80-4c36-b7a9-6d1f3e2a0f06-link">6</a></sup> I don&#8217;t believe that we will find the perfect solution by sitting in an armchair and theorizing about it without testing it in the real world.<sup data-fn="52e0a7c9-8b3d-4a15-9f64-7e2c4d1b1007" class="fn"><a href="#52e0a7c9-8b3d-4a15-9f64-7e2c4d1b1007" id="52e0a7c9-8b3d-4a15-9f64-7e2c4d1b1007-link">7</a></sup> This is my experiment; I hope some of you will join me and the other guinea pigs.</p>
-
-
-
-<p class="wp-block-paragraph">I apologize in advance if you find the system clunky. I hope that someone with better web development skills will take over one day. As with my AI-generated proofs, I would be happy to hand over ownership of the domain to anyone who is interested in taking this idea and making it bigger and better than I am able to.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>AI Disclosure</strong></p>
-
-
-
-<p class="wp-block-paragraph">ChatGPT 6.1 Sol Max was used to help me consolidate my ideas and suggest most of the references below.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 4 November 2026.</p>
-
-
-<ol class="wp-block-footnotes"><li id="3f0a6c1e-5b7d-4e21-9a40-1c2d8e7b0a01">The Association for Human Mathematics’ <a href="https://www.ahmath.org/members">second membership commitment</a> asks members not to publish mathematical texts generated by AI models. Its <a href="https://www.ahmath.org/faq">FAQ</a> clarifies that this includes writing produced mainly by prompting a model. For explicit opposition to public release by AI companies, see Lorenzo Riva’s <a href="https://www.ahmath.org/agmai-comments">comments published by AHM</a>, urging companies not to release their results and to cease work on open mathematical problems. <a href="#3f0a6c1e-5b7d-4e21-9a40-1c2d8e7b0a01-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="7b92d4a8-0c3e-4f65-8d17-2e9a5c6b0b02">Alexandra Sasha Luccioni, Yacine Jernite and Emma Strubell, “<a href="https://arxiv.org/abs/2311.16863">Power Hungry Processing: Watts Driving the Cost of AI Deployment?</a>,” <em>ACM FAccT</em>, 2024, measures energy consumption and emissions during inference. Cooper Elsworth et al., “<a href="https://arxiv.org/abs/2508.15734">Measuring the environmental impact of delivering AI at Google Scale</a>,” 2025, reports energy, carbon and water measurements for Gemini Apps text prompts. <a href="#7b92d4a8-0c3e-4f65-8d17-2e9a5c6b0b02-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="c41e8f27-6a5b-4d93-b0e2-3f7d1a8c0c03">William P. Thurston, “<a href="https://arxiv.org/abs/math/9404236">On proof and progress in mathematics</a>,” <em>Bulletin of the American Mathematical Society</em> <strong>30</strong> (1994), 161–177, especially p. 162. For recent proposals responding specifically to AI, see Daniel Litt, “<a href="https://proofsandprompts.com/2026/09/14/a-beginning-for-mathematics/">A beginning for mathematics</a>,” <em>Proofs and Prompts</em>, 14 September 2026, especially “Producing high-quality mathematicians”; and <a href="https://terrytao.wordpress.com/2026/09/13/deep-theorems-were-scarce-and-difficult-and-so-became-an-effective-mechanism-to-identify-deep-thought-ai-has-broken-this-system/">Bryna Kra’s guest essay on Terence Tao’s blog</a>, 13 September 2026. Litt proposes evaluating demonstrated understanding and mathematical discussion more directly; Kra calls for incentives that recognize verification, explanation and collective understanding. <a href="#c41e8f27-6a5b-4d93-b0e2-3f7d1a8c0c03-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="e85b3d06-9f14-4a72-8c5d-4b6e2f9a0d04">For a related discussion of duplicated AI effort, shared verification and the distinction between generating an argument and understanding it, see Marco Trombetti, “<a href="https://proofsandprompts.com/2026/09/22/proofforum-keeping-ai-generated-mathematics-human/">ProofForum: Keeping AI-Generated Mathematics Human</a>,” <em>Proofs and Prompts</em>, 22 September 2026. <a href="#e85b3d06-9f14-4a72-8c5d-4b6e2f9a0d04-link" aria-label="Jump to footnote reference 4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="1a6c9e43-d2b8-4057-a3f1-5c8e7b0d0e05">Wayne Gretzky finished tenth in CBC’s 2004 <em>The Greatest Canadian</em> competition; see the <a href="https://en.wikipedia.org/wiki/The_Greatest_Canadian">results</a>. For Gretzky discussing the saying himself, see his <a href="https://www.masterclass.com/classes/wayne-gretzky-teaches-the-athlete-s-mindset/chapters/you-miss-100-of-the-shots-you-don-t-take">MasterClass lesson</a>. <a href="#1a6c9e43-d2b8-4057-a3f1-5c8e7b0d0e05-link" aria-label="Jump to footnote reference 5"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="9d27f5b1-4e80-4c36-b7a9-6d1f3e2a0f06">Patrick Morris, “<a href="https://proofsandprompts.com/2026/10/30/lets-stop-writing-papers/">Let’s stop writing papers…</a>,” <em>Proofs and Prompts</em>, 30 October 2026, especially “Big Mathematics” and “Ok but what should we actually do now?” <a href="#9d27f5b1-4e80-4c36-b7a9-6d1f3e2a0f06-link" aria-label="Jump to footnote reference 6"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="52e0a7c9-8b3d-4a15-9f64-7e2c4d1b1007">The armchair imagery is inspired by W. T. Gowers’s <a href="https://www.maths.tcd.ie/~bnick/Gowers.pdf#page=3">“The Two Cultures of Mathematics”</a> (2000): “One will not get anywhere in graph theory by sitting in an armchair and trying to understand graphs better.” <a href="#52e0a7c9-8b3d-4a15-9f64-7e2c4d1b1007-link" aria-label="Jump to footnote reference 7"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/10/im-giving-my-theorems-away/feed/</wfw:commentRss>
-			<slash:comments>14</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3387</post-id>	</item>
 	</channel>
 </rss>

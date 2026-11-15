@@ -28,6 +28,152 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>Why Correct Answers Are Not Enough</title>
+		<link>https://proofsandprompts.com/2026/11/14/why-correct-answers-are-not-enough/</link>
+					<comments>https://proofsandprompts.com/2026/11/14/why-correct-answers-are-not-enough/#respond</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Sat, 14 Nov 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<category><![CDATA[Society]]></category>
+		<category><![CDATA[Understanding]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2139</guid>
+
+					<description><![CDATA[“Imagine that an AI system proposes a plan for distributing public services among several districts. Under the model’s assumptions and requirements, no other permitted plan costs less overall. A formal proof of this result has been checked by software. But residents in some districts object: they would have to wait far too long for service under the plan. […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://col-sci.gxmzu.edu.cn/info/4671/20337.htm">Wen Yang</a>, Lecturer at School of Mathematical Sciences, <a href="https://www.gxmzu.edu.cn/">Guangxi Minzu University</a></p>
+
+
+
+<p class="wp-block-paragraph">Imagine that an AI system proposes a plan for distributing public services among several districts. Under the model&#8217;s assumptions and requirements, no other permitted plan costs less overall. A formal proof of this result has been checked by software. But residents in some districts object: they would have to wait far too long for service under the plan.</p>
+
+
+
+<p class="wp-block-paragraph">Addressing their concerns requires understanding what the original plan took into account, what it left out, and what might happen if the requirements changed. Mathematicians and experts in public services can use AI to turn the residents&#8217; concern into a new requirement: no district should have to wait longer than a specified time. They can then ask whether any plan can meet the revised requirements. If the available resources are insufficient, they can compare the costs and other effects of adding resources or changing other requirements. The discussion can now address which waiting times are acceptable and what it would take to achieve them.</p>
+
+
+
+<p class="wp-block-paragraph">The proof tells us that the plan costs least under the original model&#8217;s assumptions and requirements. The residents are asking what those requirements should be. People can redefine the question, change what they ask of the system, and choose among options with an understanding of what each option would require and what its consequences might be. We can act on judgments we have reason to accept at the time while keeping practical ways to question them, revise them, and change course. I call this <strong>revisable epistemic control</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">We may need to revise a judgment because we got the facts wrong, made a mistake in reasoning, or discovered a problem with the model. New evidence can change what we have reason to believe, while changes in technology, resources, or needs can change the options available. Priorities can change too: in the service example, reducing long waits might come to matter more than keeping total cost as low as possible. We can make decisions carefully under current rules while allowing experience, new knowledge, and changing values to give us reasons to revise those rules.</p>
+
+
+
+<p class="wp-block-paragraph">We already rely on specialists for much of the knowledge we use. Mathematicians routinely use theorems whose proofs they have not personally checked; all of us rely on expert judgments we could not make ourselves. This reliance on knowledge held by others is called <em>epistemic dependence</em>. <a href="https://doi.org/10.2307/2026523">Hardwig</a> argues that we can reasonably rely on another person&#8217;s judgment when we have good reason to believe that they have the relevant evidence (1985, pp. 336–337). AI can help us answer questions, examine assumptions, develop and compare explanations, and explore alternatives; formal verification tools can mechanically check mathematical proofs. We can use both when making decisions and revisiting them later.</p>
+
+
+
+<p class="wp-block-paragraph">The service example raises a further question: as more mathematical work is automated, how will people develop the understanding needed to help rethink such plans? Mathematical research has often done two things at once: produced results and helped people learn to understand and do more mathematics. AI now makes it possible to produce results much faster than people can learn to understand them.</p>
+
+
+
+<p class="wp-block-paragraph">Some of that learning happens after a result has been obtained, as people compare concepts, seek clearer explanations, and connect it with other results. Thurston emphasized the role of communication in mathematical progress; Collas distinguishes the accumulation of machine-generated results from human understanding and examines how research communities can sustain that understanding (<a href="https://arxiv.org/html/math/9404236">Thurston, 1994</a>, §§1, 3, 5; <a href="https://arxiv.org/abs/2608.12816v2">Collas, 2026</a>, v2, §§1.3, 2.3, 3.3). This work can deepen people&#8217;s understanding of a result, help them formulate new, more precise questions, and influence what they do next.</p>
+
+
+
+<p class="wp-block-paragraph">People understand different parts of mathematics and have different strengths. One person knows a particular class of problems, another is good at expressing the same mathematical problem in different ways, and a third sees what a different area of mathematics might contribute. Scientists, engineers, and other specialists connect mathematics with knowledge from their own fields. Mathematical texts, libraries of formalized mathematics, and AI tools help them find and use one another&#8217;s work and connect ideas across these areas. Within the mathematical community, people explain unfamiliar ideas to one another, bring colleagues with different expertise together, organize existing knowledge, and help newcomers learn. They also learn through exchanges with experts in other fields.</p>
+
+
+
+<p class="wp-block-paragraph">For the residents to help change the service plan, they need a way to bring their concerns to institutions with the authority to respond. Residents can explain what matters to them, while experts use mathematics and AI to clarify which options are possible, what each would require, and what consequences each might have. The responsible institutions need to consider these reasons, decide how to respond, explain their choices, and answer further questions.</p>
+
+
+
+<p class="wp-block-paragraph">The people making these decisions need information, relevant understanding, time, and the authority to act in response to the concerns raised. <a href="https://doi.org/10.1007/s43681-026-01396-6">Malik</a> emphasizes these conditions for effective human decision-making in AI governance (2026, §§3.4, 4.3, 5.2). Open publications and code give people material to examine. People need to be able to understand and use that material, discuss what they find, and ask the responsible institutions to reconsider their decisions. They should be able to expect a substantive response.</p>
+
+
+
+<p class="wp-block-paragraph">For people to help examine and revise decisions informed by AI in the future, experienced practitioners need opportunities to keep learning, and newcomers need opportunities to develop their own mathematical understanding and take part in research. What people already know shapes what they can ask AI to do and how they assess its answers. Familiar concepts, methods, and ways of structuring problems help them notice questions worth pursuing and connect new results with what they already understand. By doing research, discussing ideas, and organizing existing results, they can deepen that understanding, learn new mathematical tools, and help others enter the field.</p>
+
+
+
+<p class="wp-block-paragraph">Machines will continue to change the knowledge and tools available to us. As we use machines to change the world, we should have the means to understand, question, and help shape those changes. Günther Anders writes in the opening epigraph to volume II of <a href="https://cdn-assetservice.ecom-api.beck-shop.de/product/readingsample/23611880/23611880_leseprobe_antiquiertheit2.pdf"><em>Die Antiquiertheit des Menschen</em></a> (1980/2018):</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">It is not enough to change the world. We do that anyway, and much of this change takes place even without our involvement. We must also interpret this change in order to change it in turn: to keep the world from continuing to change without us, and from ultimately becoming a world without us.</p>
+</blockquote>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">This article is based on <a href="https://gitee.com/mathist/essays/blob/master/AI4MATH/paper-1-en.md"><em>The Public Value of Human Mathematical Capacity</em></a>, from which the English rendering of Anders&#8217;s epigraph is also taken.</p>
+
+
+
+<h2 class="wp-block-heading">Acknowledgments</h2>
+
+
+
+<p class="wp-block-paragraph">In the underlying research and in writing this article, I used Academic Research Skills (ARS) and its Codex adaptation, <a href="https://github.com/Imbad0202/academic-research-skills-codex">ARS-Codex</a>, to organize AI-assisted literature searches, source verification, conceptual clarification, argument analysis, drafting, and revision (<a href="https://doi.org/10.5281/zenodo.20696614">Wu, 2026</a>). I also used these workflows for internal review of the underlying research. I thank the developers and maintainers for providing these tools and the guidance that accompanies them. The views expressed and final editorial decisions are my own, and I take responsibility for any errors.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 8 October 2026, revised 12 November 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/14/why-correct-answers-are-not-enough/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2139</post-id>	</item>
+		<item>
+		<title>How do we know that they are not cheating?</title>
+		<link>https://proofsandprompts.com/2026/11/14/how-do-we-know-that-they-are-not-cheating/</link>
+					<comments>https://proofsandprompts.com/2026/11/14/how-do-we-know-that-they-are-not-cheating/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Sat, 14 Nov 2026 12:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Question]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2055</guid>
+
+					<description><![CDATA[If the agents are grown to be ambitious and want to finish a task at all costs, how can we be sure that the lengthy and confusing proofs that they are producing and verifying are not suffering some kind of hacking, like in the HuggingFace incident? ]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://sites.google.com/view/jose-alejandro-samper/home?pli=1&amp;authuser=0">José Alejandro Samper</a>, Assistant Professor of Mathematics at <a href="http://www.mat.uc.cl/" target="_blank" rel="noopener">PUC Chile</a></p>
+
+
+
+<p class="wp-block-paragraph">There is a question that has been bugging me for the last few days. The so-called  &#8216;agent swarms&#8217; that hacked into HuggingFace in July decided that it would be useful to cheat and try to hide the traces of their cheating. This in order to pass the tests that they were assigned.</p>
+
+
+
+<p class="wp-block-paragraph">If the agents are grown to be ambitious and want to finish a task at all costs, how can we be sure that the lengthy and confusing proofs that they are producing and verifying are not suffering the same kind of hacking? We are told that they now have much more powerful models which we can assume could go out of control in similar or even more sophisticated ways.</p>
+
+
+
+<p class="wp-block-paragraph">On top of honest mistakes, they could write complicated verifications, with intentional mistakes to make the tests pass. They could also hack the verification kernels to produce false positives. Are we sure that we, as a community, should concede our trust to the agents?</p>
+
+
+
+<p class="wp-block-paragraph">The burden of proof should remain on the AILabs until they can guarantee that they are not cheating in this or any other way.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 7 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/14/how-do-we-know-that-they-are-not-cheating/feed/</wfw:commentRss>
+			<slash:comments>9</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2055</post-id>	</item>
+		<item>
 		<title>Hiring this year: advice and changes from committees</title>
 		<link>https://proofsandprompts.com/2026/11/14/hiring-this-year-advice-and-changes-from-committees/</link>
 					<comments>https://proofsandprompts.com/2026/11/14/hiring-this-year-advice-and-changes-from-committees/#comments</comments>
@@ -248,7 +394,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/14/hiring-this-year-advice-and-changes-from-committees/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
+			<slash:comments>3</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3620</post-id>	</item>
@@ -620,7 +766,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/13/a-vision-of-the-future-of-mathematics/feed/</wfw:commentRss>
-			<slash:comments>9</slash:comments>
+			<slash:comments>15</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3138</post-id>	</item>
@@ -688,7 +834,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/13/positivist-and-humanist-mathematics-a-case-for-schism/feed/</wfw:commentRss>
-			<slash:comments>6</slash:comments>
+			<slash:comments>8</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2501</post-id>	</item>
@@ -856,7 +1002,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/12/on-ai-and-progress-in-mathematics-dreaming-a-mathematical-universal-machine/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
+			<slash:comments>3</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3224</post-id>	</item>
@@ -1029,301 +1175,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2831</post-id>	</item>
-		<item>
-		<title>On the great hypocrisy behind « human understanding»</title>
-		<link>https://proofsandprompts.com/2026/11/11/on-the-great-hypocrisy-behind-human-understanding/</link>
-					<comments>https://proofsandprompts.com/2026/11/11/on-the-great-hypocrisy-behind-human-understanding/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Wed, 11 Nov 2026 12:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Community]]></category>
-		<category><![CDATA[Critique]]></category>
-		<category><![CDATA[Norms]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3104</guid>
-
-					<description><![CDATA[“When Gregor Samsa woke up one morning from unsettling dreams, he found that mathematicians all around the world were suddenly obsessed with ‘human understanding’. ‘What had happened to them?’ he thought. No one could provide a coherent answer. […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph">Anonymous, Postdoc</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph" style="margin-right:var(--wp--preset--spacing--50);margin-left:var(--wp--preset--spacing--50)">« J’ai comme une impression que ces dispositions grossières de compétition, des dispositions “sportives” si on peut dire, sur lesquelles je viens de mettre le doigt dans ma personne, devaient commencer à devenir courantes dans “mon” milieu mathématique, vers le moment où elles étaient courantes en moi. Je serais bien en peine de situer dans le temps le moment de leur apparition, ou celui où elles sont devenues comme une partie intime de l’air qu’on respirait dans ce milieu, ou celui que mes élèves respiraient au contact de ma personne. La seule chose que je crois pouvoir dire, c’est que cela doit se placer dans les années soixante, peut-être dès les débuts des années soixante, ou la fin des années cinquante. »<br><br><em>“I’m under the impression that these gross dispositions towards competition, these “sportive” dispositions if you will, which I have just uncovered within myself, had to be somewhat common in “my” mathematical milieu around the time they were common in me. I would have trouble recalling when they first arose, or when they became fully integrated in the spheres I or my students were in. The only thing I can assure is that it had to be around the 1960s, maybe at the beginning of that decade or at the end of the previous one.”</em></p>
-</blockquote>
-
-
-
-<p class="wp-block-paragraph" style="margin-top:var(--wp--preset--spacing--20);margin-right:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--20);margin-left:var(--wp--preset--spacing--50)">Alexandre Grothendieck, <em>Récoltes et Semailles, 40. La mathématique sportive</em>.</p>
-
-
-
-<p class="wp-block-paragraph" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><strong>Disclosure: This was entirely written by a human, no LLMs were harmed in the process.</strong></p>
-
-
-
-<p class="wp-block-paragraph">When Gregor Samsa woke up one morning from unsettling dreams, he found that mathematicians all around the world were suddenly obsessed with “human understanding”. “What had happened to them?” he thought. No one could provide a coherent answer.</p>
-
-
-
-<p class="wp-block-paragraph">Since the irruption of AI into mathematics, after the first major strike and the subsequent second wave<sup id="note-ref-1"><a href="#note-1">1</a></sup>, much has been said about what the true meaning of mathematics and life are, about what mathematics is or how it should evolve. However, almost all the discussion so far seems to be stuck at an abstract or moral level, systematically avoiding many of the hard questions that are pressing to address.</p>
-
-
-
-<p class="wp-block-paragraph">In my opinion, little of what has already been said is anchored in the reality of what academia<sup id="note-ref-2"><a href="#note-2">2</a></sup> really was (or is), in what the material conditions of it were (and still are) and does not reflect the extent to which the previous (and current) system was utterly dysfunctional. This is why, at the risk of adding more noise to the chaos and antagonising some people, I decided to write this essay.</p>
-
-
-
-<h2 class="wp-block-heading">Big conjectures as a benchmark for humans in the worldwide math fitness competition.</h2>
-
-
-
-<p class="wp-block-paragraph">It has been particularly charming to hear all these poetic descriptions of what mathematics really is about, of how, at its core, it is about producing “a human understanding” of the hidden structures of the universe, and of how collaboration and companionship are the basis of the so-called mathematical community. These solemn proclamations that the millennial endeavour of mathematics cannot be threatened by AI are certainly appealing but fundamentally misplaced.</p>
-
-
-
-<p class="wp-block-paragraph">Don’t get me wrong: I can agree with this. The problem is that, while this holds for Mathematics—I’m glad we all seem to agree now—this is certainly not what mathematical academia was all about. And this explains why all this sudden lyricism comes off as rather hypocritical now that the academic system is threatened by this new external force. Nobody seemed to give a damn about Thurston’s essay one year ago<sup id="note-ref-3"><a href="#note-3">3</a></sup>, but since AI started nuking conjectures all over the place, all the major figures in each field have exhumed its corpse and fervently brandished it at the general public in the hopes of convincing it that “human understanding” was all they ever cared about.</p>
-
-
-
-<p class="wp-block-paragraph">The truth is that the main goal of the rat race called mathematical academia is to get first a tenured position, and then keep going until you are Herr/Frau Prof. Prof. Dr. and you can hire armies of slaves with your grants. The key factor to progress in this worldwide competition is not the quality of your exposition, the beauty of your craft or the profoundness of your understanding; the key factor is how many publications you have and how good are the journals you publish in. That’s it. In some sense, it is quite simple. Therefore, your whole future prospects are entirely dependent on the judgments and whims of a finite (and particularly small) number of editorial committees<sup id="note-ref-4"><a href="#note-4">4</a></sup>.</p>
-
-
-
-<p class="wp-block-paragraph">Mathematics has grown a lot since the sixties. In particular, it is now very hard for an expert of any given subject to understand or assess the quality of a paper coming from another subfield of mathematics<sup id="note-ref-5"><a href="#note-5">5</a></sup>. This, coupled with the productivist mindset that penetrated mathematics (and sciences) during the end of the century (reinforced more and more by external pressure, such as governments and grant agencies), created the need for a “standardised” measure of mathematical quality. Thus, conjectures became the main instrument to assess mathematical merit and shaped the reward system of the academia rat race.</p>
-
-
-
-<p class="wp-block-paragraph">Conjectures were and indeed are great lighthouses that can effectively drive genuine progress in mathematics. A great example of this are the Weil conjectures, which prompted Grothendieck to develop schemes, topoï and étale cohomology in the sixties. Their final resolution by Deligne is very impressive, but it is undoubtedly all the concepts and language introduced by Grothendieck when he tried to make sense of these conjectures that changed the course of mathematics. Unfortunately, like any metric, conjectures have been Goodharted<sup id="note-ref-6"><a href="#note-6">6</a></sup> to death. Solving a conjecture is no longer a means to further beauty, mathematical flourishing and understanding, but has become a goal in of itself. To further one’s career, get tenured or obtain grants. The system is so that you can submit a 100 pages obscure and badly-written nightmare to any top journal and, if the name of the conjecture is famous enough, get easily published, all the while any 20 pages long, beautifully enlightening conceptual simplification of an existing result would get desk-rejected under the pretence that “the paper provides no new applications”.</p>
-
-
-
-<p class="wp-block-paragraph">Before becoming a benchmark for AI, conjectures had already become a benchmark for humans. If today a subfield X can be nuked into extinction by solving all of its conjectures, it is not because of the inherent lack of beautiful mathematics to explore in that said field, but rather because, under the current system of credit, this subfield is no longer able to provide any effective benefit to its participants. Recall, this is not just about honour and glory. Having a top paper can be the difference between paying the rent or not. This is why they leave en masse, forced to seek new big conjectures elsewhere before some tech giant nukes them. Although it is far easier to only blame tech giants for their reckless attitude, much of the fault here also lies in senior mathematicians, who benefited from the previous status quo and refused to amend it to any degree.<sup id="note-ref-7"><a href="#note-7">7</a></sup></p>
-
-
-
-<h2 class="wp-block-heading">Pressure from underspending, nepotism and selecting against creativity.</h2>
-
-
-
-<p class="wp-block-paragraph">“Was it so bad, though? In any competitive human system, there needs to be some metrics to assess people. Big conjectures are big for a reason. Why are you complaining so much about them?” some may retort. And I somewhat agree: problem-solving is still a respectable skill and if mathematics academia was only full of brilliant problem-solvers, I would not have written this essay in the first place.</p>
-
-
-
-<p class="wp-block-paragraph">The fact of the matter is that, until very recently, a big conjecture being solved was quite a rare event. Far scarcer than the number of mathematicians whose papers needed to be refereed and whose applications needed to be reviewed. Since assessments could not simply be based on “has it solved a big conjecture? Yes/no”, the conjectures-proxy devolved first into “has it solved any conjecture?”. And since, at the end of the day, conjectures are simply questions asked by mathematicians, the effective proxy of assessing the quality of a paper became “does it solve a question the referee cares about? Does it solve a question someone with power in this subfield cares about?”.</p>
-
-
-
-<p class="wp-block-paragraph">“Of course, any assessment is going to be subjective!” some may rush to reply. Yes, indeed, but asking “does it solve a question I care about?” is a qualitatively different question than “does this paper introduce new, fertile ideas?” or “to which extent this paper furthers my overall understanding of mathematics?”<sup id="note-ref-8"><a href="#note-8">8</a></sup>. One of the reasons why these two sets of questions are substantially different is the following: answering the first can be done in 5 minutes, with a quick glance at the abstract and the introduction; answering the second requires carefully reading the paper and actively trying to understand its content.</p>
-
-
-
-<p class="wp-block-paragraph">The material conditions of academic research have substantially degraded in the last 30 years. Senior mathematicians often crawl under administrative tasks. Junior mathematicians need to compete harder and harder because tenured positions have become far fewer. This means that, while the system keeps producing more and more papers, many can no longer afford to spend more than 30 minutes looking at a paper for a quick review<sup id="note-ref-9"><a href="#note-9">9</a></sup>. Only 30 minutes which, as stated before, can amount to a life-or-death sentence to a young mathematician’s career.</p>
-
-
-
-<p class="wp-block-paragraph">On top of all of this, as the system is more under pressure from the lack of funds, this small set of misplaced incentives ends up easily twisted for personal interests. Abuse of power and nepotism are in fact not uncommon at all in mathematical academia. People systematically reject papers of persons they dislike; they trade favours among the powerful, help junior mathematicians if that increases their prestige and discard original ideas that might threaten their status within the community. In my limited experience, I have seen quite my share of abhorrent and unjust behaviours so as not to think that it is the exception rather than the rule.<sup id="note-ref-10"><a href="#note-10">10</a></sup></p>
-
-
-
-<p class="wp-block-paragraph">In substance, the problem is that the optimal strategy for getting tenured was to walk in the shadows of powerful mathematicians, mass-produce very technically involved epsilon-variations of existing papers and try to please important figures. To be very quiet and astute, gain sympathies and show that one is technically strong but certainly not a threat in terms of originality. Very concretely, mathematical academia ended up with incentives that effectively penalise originality, creativity and theoretical exploration. Of course, not every mathematician is like this. In times of abundance, many other profiles were selected by the system which did not fit these criteria. However, as the resources of the system plummet, it is those who overfit the metrics who tend to be selected. Ironically, it is those profiles who have been strongly selected against that would have thriven the most in the AI era of mathematics.</p>
-
-
-
-<h2 class="wp-block-heading">The current state of the academia machine.</h2>
-
-
-
-<p class="wp-block-paragraph">This was the status of mathematical academia: a walking corpse devoured from the inside by its contradictions. And then came the AI.<sup id="note-ref-11"><a href="#note-11">11</a></sup> And, from all the public discourse produced so far, it would seem that very little “human understanding” of the problems that have led to this situation has been acquired. On the contrary, mathematicians seem to have divided into three silly caricatures of themselves.</p>
-
-
-
-<ol class="wp-block-list">
-<li>The techno-optimists: usually tenured mathematicians, they see a bright future ahead simply because their favourite problem has now a 1000 pages AI-slop solution. It does not seem like they care about the continuity of mathematics as a human endeavour or about anything else for that matter.</li>
-
-
-
-<li>The moralists: they completely refuse to use AI on political grounds, arguing about the ecological and economical costs of this technology. Some of them do not have the first clue about the capacities of the current models and remain stuck with a 2023 ChatGPT-era mental image of AI. Of course, most are also tenured, otherwise they could not afford such noble stances.<sup id="note-ref-12"><a href="#note-12">12</a></sup></li>
-
-
-
-<li>The doomers: all hope is lost; mathematics is forever gone; even Archimedes has been secretly nuked in his grave. Doomers vehemently express their grief non-stop without offering any concrete solutions.</li>
-</ol>
-
-
-
-<p class="wp-block-paragraph">The most curious thing seems to be that while this internet-fuelled civil war keeps happening, out there in the real world of mathematical academia, most people keep on going “business as usual” like nothing at all occurred. This, perhaps, is the most incomprehensible attitude of them all.</p>
-
-
-
-<p class="wp-block-paragraph">All the while PhD. and postdocs remain trapped in the same precarity as always. Big journals keep accepting big conjectures and the same set of wrong incentives that has created this whole catastrophe<sup id="note-ref-13"><a href="#note-13">13</a></sup> keeps on going. Except now AI attacks every weak spot of the previous state of affairs. ArXiv is flooded with shitty papers written in one prompt and subsequently big journals are flooded with this slop up to implosion. In this context, the current meta<sup id="note-ref-14"><a href="#note-14">14</a></sup> is to keep on conjecture-maxxing, one-shotting as many big boy conjectures as possible with Opus 5.5 or Astra 6 on Ultramaxturbo-thinking mode<sup id="note-ref-15"><a href="#note-15">15</a></sup>, burning tokens like there is no tomorrow, until some pdf pops-up. Then, hurry to clean it in one afternoon and post it on arXiv before the next OpenAI dump<sup id="note-ref-16"><a href="#note-16">16</a></sup>. This has turned mathematics into a ridiculous lottery game and a mockery of its former self. It is impossible to find any sort of meaning in this type of subservient work and, if things are not quickly amended, tenured mathematicians will end up roaming around empty departments just in a couple of years.</p>
-
-
-
-<h2 class="wp-block-heading">The many futures that lie ahead.</h2>
-
-
-
-<p class="wp-block-paragraph">Luckily, as I said, I do think there is some truth in all these exclamations about “human understanding” and all the lyricism that comes with it. Even in a future where AI is better than us at any given mathematical task, I do not think human beings will stop marvelling at the beauty of the universe. Trains and helicopters have not stopped us from wanting to hike the highest mountains and admiring their views. As Grothendieck put it most eloquently in his book, it is our inner child that drives us in our never-ending quest to explore and experience the unknowns of reality, to name them carefully with words and patiently build great mental cathedrals one word at a time.<sup id="note-ref-17"><a href="#note-17">17</a></sup> Maybe some will use construction engines to build these mind-temples and to craft new horizons —AI does not seem incompatible with this artistic vision of math from the get-go<sup id="note-ref-18"><a href="#note-18">18</a></sup>— but mindlessly one-shotting conjectures simply because they are famous is really the opposite of whatever I was talking about before. If one’s purpose is really to play like a child and experience the inner beauty of this world of ideas, then “human understanding” comes <em>by default</em>, as the whole goal of the game is to develop and experience higher and higher forms of understanding. So, I’m not particularly worried about mathematics as a human endeavour.</p>
-
-
-
-<p class="wp-block-paragraph">Mathematical academia is another story. Its whole system is deeply flawed and seems unwilling to adapt. Application season has started and no type of guidelines are available anywhere. Journals keep pretending like nothing has happened. PhDs and postdocs, which are already in a very precarious situation, are left in the dark while tenured mathematicians with too much free time have byzantine debates online.</p>
-
-
-
-<p class="wp-block-paragraph">The goal of this essay was to lay bare what I believe is the underlying state of the world that has led to this catastrophe. To lend a mirror to the mathematical community, in the hopes that it might reflect upon its mistakes and change its ways. As some kind of final service for all good things that this mathematical community has also provided me.</p>
-
-
-
-<p class="wp-block-paragraph">Sadly, I do not think that senior mathematicians are really doing their part during this tempest. And I’m not willing to bet my livelihood on their ability to come to terms with reality and grasp current events. So, I am leaving academia, and I will nevertheless continue doing math in my spare time because I still find lots of beauty in it.<sup id="note-ref-19"><a href="#note-19">19</a></sup> I’m quite certain not to be alone in this disposition. Make of that what you will. As a final word—and warning—to prominent mathematicians who seem to be inclined to preserve the status quo, I would like to recall the title of Grothendieck’s memoires: <em>Récoltes et Semailles</em>—which in other words means—“you reap what you sow”.</p>
-
-
-
-<h3 class="wp-block-heading">Notes</h3>
-
-
-
-<ol class="wp-block-list pp-small-endnotes">
-<li class="has-small-font-size">Navier-Stokes and whatever <a href="https://github.com/openai/math/tree/main/">this</a> was. <a href="#note-ref-1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-small-font-size">Perhaps, this is correlated with the fact that most of the discourse has been so far produced by either PhDs (which luckily are somewhat sheltered from the harsh realities of academia) or by tenured mathematicians (which appear to be mostly oblivious to what the system has become). <a href="#note-ref-2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-small-font-size">Particularly, no one in the editorial committees of the main journals it would seem. <a href="#note-ref-3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-small-font-size">For anyone outside of mathematical academia: a particularity of mathematics is that whether a paper is accepted in a journal or not is not primarily determined by the correctness of the said paper. The paper is assessed (in theory) for abstract metrics like interest, originality and depth and accepted or not on this basis. Evaluating the correctness of a paper is also done during the referee process, but it is not the main goal. <a href="#note-ref-4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-small-font-size">Among many other problems, this inserts huge biases between different subfields. Having an editor from your subfield (who likes you) can catapult you to glory or—if he dislikes you—sink your career. More on all the flaws of the system later on. <a href="#note-ref-5"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-small-font-size">See <a href="https://en.wikipedia.org/wiki/Goodhart%27s_law">Goodhart&#8217;s law</a>. <a href="#note-ref-6"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-small-font-size">Many being perfectly aware of how dysfunctional the system was. <a href="#note-ref-7"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-small-font-size">Or, for that matter, different to &#8220;is this paper well-written? Interesting? Clear? Original?&#8221; etc. <a href="#note-ref-8"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-small-font-size">Quick reviews/opinions are the first stage of reviews in big journals, where the “quality” of the paper is assessed before any checking is done. <a href="#note-ref-9"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-small-font-size">I could provide a very long list of them if requested, but I do not think it is in the interest of this essay to do so. It is my conviction that many readers (if not blinded by their corporativism), have at the moment a similar list in their minds as well. Note that most of my list does not concern me personally. <a href="#note-ref-10"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-small-font-size">It seems quite important for key figures in the mathematical community to fully understand where things were and what led to the current mess if any meaningful change is to be implemented. Idealisation of the previous state of affairs is, in my opinion, very counterproductive. <a href="#note-ref-11"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-small-font-size">I do take seriously the postdocs and PhDs who hold some of these views, as they are the ones with something to lose. The moralist stance for tenured professors can also be interpreted as an attempt to keep the old power structure going (in which they were at the top) and thus can come off as insincere sometimes. <a href="#note-ref-12"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-small-font-size">Had big conjectures not been turned into the alpha and the omega of mathematics, AI companies would have far fewer incentives to nuke them. <a href="#note-ref-13"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-small-font-size">Meta as in “the optimal strategy in a videogame”, not in the usual sense of the word. <a href="#note-ref-14"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-small-font-size">Of course, the prompt is always: “Crack wide open that conjecture, bro. Deploy a billion agents. Believe in yourself &lt;3”. <a href="#note-ref-15"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-small-font-size">Unlike many people say, I do not think the OpenAI dumps will simply fade away. My impression is that they will keep using big conjectures to train their internal models, hence it will keep producing novel results on its own as capacities increase. In fact, they might be joined in this by other AI labs or companies sometime soon. <a href="#note-ref-16"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-small-font-size">This phrase is simply a humble attempt to convey the splendid lyricism of Grothendieck’s description of mathematics and, for that matter, of any human creative activity. I highly recommend anyone to read the original text. Particularly, the sections corresponding to<em> Promenade à travers une œuvre—ou l’enfant et la Mère</em> in <em>Récoltes et Semailles</em>. <a href="#note-ref-17"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-small-font-size">In particular, I think there are interesting ways to use AI to this purpose. One of them is to use it in a kind of Socratic dialogue, where you ask it many many small questions that slowly ramify into a global kind of understanding of a given picture. I also think that more remain to be discovered. <a href="#note-ref-18"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-
-
-
-<li class="has-small-font-size">If one does math out of passion and not forced by messed up incentives, then one is truly free to do it thoroughly and to one’s heart’s content, pursuing true understanding and beauty, without being bullied into conjecture-maxxing on an AI overdose or being ostracised by anti-AI fanatics for wanting to pay the rent. <a href="#note-ref-19"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li>
-</ol>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 23 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/11/on-the-great-hypocrisy-behind-human-understanding/feed/</wfw:commentRss>
-			<slash:comments>27</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3104</post-id>	</item>
-		<item>
-		<title>Why we should reject AI in academia</title>
-		<link>https://proofsandprompts.com/2026/11/10/why-we-should-reject-ai-in-academia/</link>
-					<comments>https://proofsandprompts.com/2026/11/10/why-we-should-reject-ai-in-academia/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Tue, 10 Nov 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Community]]></category>
-		<category><![CDATA[Critique]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2447</guid>
-
-					<description><![CDATA[I am writing this on the occasion of the OpenAI release, as I am now driven by a sense of urgency, but I have been planning to write a statement on AI in academia for a long time. I believe that we, as researchers and teachers, must reject AI-powered “papers” like these as legitimate research, because they are not.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://aeporreca.org/">Antonio E. Porreca</a>, a maître de conférences at <a href="https://www.univ-amu.fr/">Aix-Marseille Université</a> and at the <a href="https://www.lis-lab.fr/">Laboratoire d’Informatique et des Systèmes</a>.</p>
-
-
-
-<p class="wp-block-paragraph">I woke up in the middle of the night a few days ago and discovered that OpenAI had finally released those mathematical “results” they had been bragging about lately. We are talking about 722 (<em>seven hundred and twenty-two</em>) “papers” written by their private LLM or something. They apparently decided to do so after consulting the Advisory Group on Mathematics and Artificial Intelligence, a group of nine people who, frankly, could do better things for themselves and for society with their own time (like actual research, or teaching). I do not really care about the details, either of the secret OpenAI LLM, or the AGMAI or, perhaps surprisingly to some colleagues, of the “results” themselves.</p>
-
-
-
-<p class="wp-block-paragraph">I am writing this on the occasion of the OpenAI release, as I am now driven by a sense of urgency, but I have been planning to write a statement on AI in academia for a long time. I believe that we, as researchers and teachers, must reject AI-powered “papers” like these as legitimate research, because they are not. They do not follow any of the rules or the values of academia: building on the work of others with citations, not scooping your colleagues, collaborating, learning, teaching… and, you know, actually writing your own stuff in good faith. And even if they were legitimate research, it is research that is not worth doing: its negative side effects are just too many. We have a right not to read papers like these, we have a right and, I believe, a <em>duty</em>, not to cite them, and to refuse refereeing them.</p>
-
-
-
-<p class="wp-block-paragraph">Even if you, as a senior academician, believe that it is OK for yourself to do AI-powered “research”, you should first think about your students and your junior and future colleagues. AI-powered “research” is not self-sustaining: you will always need a human expert in the loop, even if it is just for writing prompts for your LLM chatbot, filtering all the bullshit answers, and interpreting and applying the results (a job that, frankly, I would not wish on my worst enemy). If AI-powered “research”, let alone “teaching”, becomes the norm, we will lose <em>at least</em> a generation of human experts. I have personally witnessed whole classes of students pressured (by peers and, above all, by the hypocritical behaviour of their teachers and the university bureaucrats) into using LLMs to write code they do not understand. These students are not learning. They will never be the human expert in the loop. And the same thing will happen to our junior colleagues, if you force them to use LLMs to do their job for fear of missing out. In fact, if we go on this way, one day there will be no expert at all. Even current experts will one day lose their expertise too, if they let LLMs do their science for them. Snap out of it.</p>
-
-
-
-<p class="wp-block-paragraph">And those colleagues who are actually doing research on LLMs as generators (even though I fear that I should probably say on LLMs <em>tout court</em> by now)… Yes, unfortunately you are part of the problem. Do something else. There is a world of research to be done that is actually useful, or at least not detrimental, to humanity. Yes, it is hard to change your research area, particularly when there is money in it, but I do not think it is ethically justifiable to contribute to the destruction of academia anymore.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Acknowledgements and AI statement.</strong> I would like to thank Pierre Clairambault, Barbara Fantechi, Maxime Folschette, Joshua Grochow, Lê Thành Dũng (Tito) Nguyễn, and Athénaïs Vaginay for their encouragement. Needless to say, no AI at all was involved in the preparation of this text (or anything else in my work).</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 10 October 2026, revised 27 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/10/why-we-should-reject-ai-in-academia/feed/</wfw:commentRss>
-			<slash:comments>22</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2447</post-id>	</item>
 	</channel>
 </rss>

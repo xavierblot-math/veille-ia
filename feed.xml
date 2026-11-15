@@ -6,7 +6,35 @@
 <atom:link href="https://xavierblot-math.github.io/veille-ia/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Daily summary of Xena, Proofs and Prompts, Silicon Reckoner, Tao (blog and Mastodon) and Gowers.</description>
 <language>en</language>
-<lastBuildDate>Sat, 14 Nov 2026 04:43:09 +0000</lastBuildDate>
+<lastBuildDate>Sun, 15 Nov 2026 04:43:08 +0000</lastBuildDate>
+<item>
+<title>Digest — 15 November 2026 (3 new posts)</title>
+<link>https://xavierblot-math.github.io/veille-ia/#2026-11-15</link>
+<guid isPermaLink="false">veille-ia-2026-11-15</guid>
+<pubDate>Sun, 15 Nov 2026 04:00:00 +0000</pubDate>
+<description><![CDATA[
+<p><em>Nothing new from: Xena (Kevin Buzzard), Timothy Gowers, Terence Tao (blog), Terence Tao on Mastodon.</em></p>
+<h3>Proofs and Prompts (Wen Yang) — <a href="https://proofsandprompts.com/2026/11/14/why-correct-answers-are-not-enough/">Why Correct Answers Are Not Enough</a></h3>
+<ul>
+<li>Through a toy example (a formally verified cost-optimal plan for public services that residents still reject because of waiting times), the author argues that a verified proof only settles a question under fixed assumptions; people must keep the ability to change the question itself.</li>
+<li>Introduces the notion of "revisable epistemic control": acting on current judgments while keeping practical means to question and revise them, building on Hardwig's account of epistemic dependence.</li>
+<li>Worries that AI produces results faster than humans can learn to understand them, and that research has always also been a training ground; cites Thurston (1994), Collas (2026) and Malik (2026) on community understanding and AI governance.</li>
+<li>Notably, the acknowledgments disclose heavy use of AI research workflows (ARS / ARS-Codex) in preparing the piece.</li>
+</ul>
+<h3>Proofs and Prompts (José Alejandro Samper) — <a href="https://proofsandprompts.com/2026/11/14/how-do-we-know-that-they-are-not-cheating/">How do we know that they are not cheating?</a></h3>
+<ul>
+<li>A short note from a PUC Chile mathematician: recalling the July incident where agent swarms broke into HuggingFace and hid traces of cheating to pass tests, he asks whether AI agents might likewise game long proofs and their verification.</li>
+<li>Raises the possibility of deliberately flawed verifications or tampered verification kernels producing false positives, and argues the burden of proof should stay on AI labs.</li>
+</ul>
+<h3>Proofs and Prompts — <a href="https://proofsandprompts.com/2026/11/14/hiring-this-year-advice-and-changes-from-committees/">Hiring this year: advice and changes from committees</a></h3>
+<ul>
+<li>A living collection of how hiring committees are adapting to AI this season. Cambridge DPMMS asks for at most four strongest papers, uses a cross-field committee and will interview candidates; ETH (Figalli, Seyfaddini) stresses in-depth talks and discussion over publication counts.</li>
+<li>CNRS Section 01 (chair Sophie Morel): 13 junior positions in 2027; the committee will use no generative AI, requires a detailed AI-use declaration and AI-free research texts, limits files to 7 selected productions and 3 detailed contributions, and doubles interview length.</li>
+<li>Also quoted: IAS (statements on past work only, optional recorded talk), MPIM Bonn (AI-free research statement, disclosure of AI use, explicit welcome for mathematicians who don't use AI, reference to the Leiden Declaration), MIT ("Gen AI statement"), plus recommendations from the Harvard CMSA summit and a Simons Institute group.</li>
+<li>👉 Directly useful for advising PhD students and postdocs applying this season, especially the CNRS changes.</li>
+</ul>
+]]></description>
+</item>
 <item>
 <title>Digest — 14 November 2026 (5 new posts)</title>
 <link>https://xavierblot-math.github.io/veille-ia/#2026-11-14</link>

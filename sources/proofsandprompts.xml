@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Fri, 13 Nov 2026 17:36:06 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 14 Nov 2026 07:45:14 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,242 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>Why will I fight for a PhD in this era? A naive retrospective in the age of AI</title>
+		<link>https://proofsandprompts.com/2026/11/15/why-will-i-fight-for-a-phd-in-this-era-a-naive-retrospective-in-the-age-of-ai/</link>
+					<comments>https://proofsandprompts.com/2026/11/15/why-will-i-fight-for-a-phd-in-this-era-a-naive-retrospective-in-the-age-of-ai/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Sun, 15 Nov 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Personal experience]]></category>
+		<category><![CDATA[PhD students]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2739</guid>
+
+					<description><![CDATA[As LLM models generate proofs at an exponential rate, many question the value of a PhD. This essay offers a retrospective from a naive student's perspective, reframing the PhD not as a race to out-compute machines, but as a profoundly personal "zero-to-one" transition to become an independent craftsman.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://orlandoferrari.github.io">Orlando Ferrari</a>, Dual-Degree Master&#8217;s Student in Mathematical Analysis and Probability at <a href="https://www.unipd.it/en/">Università degli Studi di Padova</a> and <a href="https://dauphine.psl.eu/en/">Université Paris Dauphine-PSL</a></p>
+
+
+
+<p class="wp-block-paragraph"><em>AI use: proofreading and grammar checks with Gemini. See footnote 2 for the full editorial note.</em></p>
+
+<p class="wp-block-paragraph"><em>[An alternative version of this essay—given in a less formal tone—is available at <a href="https://orlandoferrari.github.io/posts/2026/10/why-will-i-fight-for-a-phd-in-this-era/">my personal blog</a>]</em></p>
+
+
+
+<p class="wp-block-paragraph">As an aspiring (and far from fully-fledged) mathematician<sup data-fn="3c8d5e0a-7b14-4f62-9a3e-1d2f6b8c4a51" class="fn"><a href="#3c8d5e0a-7b14-4f62-9a3e-1d2f6b8c4a51" id="3c8d5e0a-7b14-4f62-9a3e-1d2f6b8c4a51-link">1</a></sup>, I am closely following the current discourse regarding the &#8220;dystopia&#8221; in mathematics driven by major AI companies. A cursory glance at current social media reveals bold claims from commentators stating that &#8220;math is solved.&#8221; In this essay, I would like to offer a retrospective on the current situation from a naive student&#8217;s perspective.</p>
+
+
+
+<p class="wp-block-paragraph">First, I will be transparent about my sources of thought. In machine parlance, I digested “datasets” to “generate” this essay “organically.” To frame this discussion, I highly recommend that fellow students review the following &#8220;datasets&#8221; to understand the shifting landscape in mathematical research:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Articles:</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://terrytao.wordpress.com/2026/10/08/what-should-we-tell-our-students/">Terry Tao: What should we tell our students?</a> (A highly relevant reflection by A. Lozano-Robledo for students).</li>
+
+
+
+<li><a href="https://proofsandprompts.com/2026/10/14/the-dialectical-theorem/">The Dialectical Theorem</a> (An exceptional piece on the future of formalization).</li>
+
+
+
+<li><a href="https://teorth.github.io/tao-web/ai-views.html">Summaries of AI Views by Prof. Terry Tao</a> (Essential reading for my take; Parts I-IV are highly recommended for students).</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><strong>Videos:</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.youtube.com/watch?v=bAnwMdfcMVw">Recent Prof. Terry Tao video on the change of how we view math presented in Numberphile</a></li>
+
+
+
+<li><a href="https://www.youtube.com/watch?v=M0--ZH1lOzg">A not-so-recent take from Prof. Terry Tao about mathematics in the age of AI presented at the ICM 2026 Public Lectures</a></li>
+
+
+
+<li><a href="https://www.youtube.com/watch?v=LKrwhjOI8Nc">The 3B1B video stating there&#8217;s never been a better time to go into math</a></li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><em>(Note: My perspective is inclined on the written articles, as I enjoy reading more than watching.)</em></p>
+
+
+
+<p class="wp-block-paragraph">As of now, it is evident that LLMs <a href="https://engineering.princeton.edu/news/2026/10/13/ai-great-math-does-it-know-how-do-research">still lack the rigor to produce highly polished articles</a>, and they occasionally cause disruption, such as the <a href="https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/">severe misalignment conducted by AIs</a>. However, I cannot reject the possibility that LLMs will overcome this barrier; in the span of just three years (2023-2026), the growth of AI in mathematics has been exponential. As I realized during my rigorous master&#8217;s exams at UNIPD, <a href="https://orlandoferrari.github.io/posts/2026/01/its-not-your-life-getting-easier/">I am not gifted as an innate genius, but rather, I am gifted as a relentless learner</a>. I survived learning advanced mathematics because I accumulated tools that made complex problems more accessible for myself. However, since I do not possess the intuitive creativity on the level of von Neumann or Terence Tao (or just bring any great mathematician name to the table!), I must disclose that the prospect of machines becoming the ultimate learners in the near future is a daunting reality.</p>
+
+
+
+<p class="wp-block-paragraph">Therefore, my resolve to pursue a PhD has required heavy contemplation. I believe most of my colleagues (initially) know my primary reason for pursuing a PhD is simply to conduct research. Frankly, this alone may not be a sufficient reason. For instance, one can enter the industry to solve complex, research-level problems at companies that primarily hire Master&#8217;s degree holders. In my current state, a Master&#8217;s degree is entirely adequate if the sole goal is a secure career.</p>
+
+
+
+<p class="wp-block-paragraph">What differentiates aiming for a PhD from a Master&#8217;s, then? Simply put, it is the <em>intrinsic reason</em> for doing it.</p>
+
+
+
+<ul class="wp-block-list">
+<li>One can have a reason as simple as, &#8220;I want to do it just because.&#8221; This is quite a good reason, provided one has a concrete answer to the specific question (the second one) posed later in this essay.</li>
+
+
+
+<li>One can have noble ambitions, such as wanting to reform the systemic issues of one&#8217;s national academic infrastructure with your PhD skillset. Reality check: this is a monumental task, and setting it as a primary, immediate goal can lead to profound burnout. <a href="https://e.vnexpress.net/news/news/education/i-want-asia-to-be-the-next-america-of-mathematics-fields-medalist-ngo-bao-chau-5051599.html">Unless one has been as good as Ngô Bảo Châu.</a></li>
+
+
+
+<li>One can have a desire to push one&#8217;s boundaries so as not to waste one&#8217;s potential. However, one can achieve this without a PhD—working in corporate R&amp;D or building a startup serves this purpose well.</li>
+
+
+
+<li>One might pursue it for the prestige of the title. Another reality check: standard PhD research rarely provides an immediate, world-shattering contribution. Rather, it is a beautiful, profoundly personal &#8220;zero-to-one&#8221; transition—a metamorphosis from a student into an independent craftsman.</li>
+
+
+
+<li>One can hold an extremist view of wishing to &#8220;fight&#8221; this AI dystopia by competing against the overwhelming tide of machine-generated theorems. However, this is not a contest of sheer volume. Three years is enough for LLMs to surpass human output if volume is the only metric. Just look at the <a href="https://openai.com/index/sharing-ai-progress-in-mathematics/">recent mathematical papers released by OpenAI</a>.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Before committing to a PhD, one must realize that spending 3 to 5 years of one&#8217;s life running this &#8220;marathon&#8221; requires a rough answer to a foundational question:</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph"><em>&#8220;What do I want to do with this degree?&#8221;</em></p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">A classically poor answer is to use the degree to delay unemployment for another few years. Attempting a PhD as a stalling tactic often limits future career options rather than expanding them.</p>
+
+
+
+<p class="wp-block-paragraph">For me, being able to construct the next question was the turning point in my reasoning:</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph"><em>&#8220;Why do I want to do a PhD <strong>in this specific topic</strong>?&#8221;</em></p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">Stating the general version (&#8220;Why do I want to do a PhD?&#8221;) is often inadequate and leads one astray. As it is with conducting real research, we should ask specific questions instead of general ones. I personally believe there is no right answer for this question. Simply being able to formulate this specific question confidently is often enough to ensure one will find fulfillment in their doctoral journey. I can say, after being able to formulate this question, I am more than sure I want to do my PhD in my specific topic of interest.</p>
+
+
+
+<p class="wp-block-paragraph">Notice that these reflections do not relate to the AI dystopia at all. That falls into a third, separate consideration:</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph"><em>&#8220;How do I view AI for my research?&#8221;</em></p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">My naive perspective here is that the future of academia does not begin with AI, but with <em>how</em> we choose to use it. Thinking that AI will completely &#8220;kill&#8221; human researchers is not a sound reason to avoid a PhD. If no human is conducting foundational research, how will the AI progress? With the <a href="https://www.businessinsider.com/openai-math-problem-solved-tokens-cost-altman-2026-9">current level of computational inefficiency in tackling problems like the Navier-Stokes equation</a>, I doubt AI will unconditionally replace humans anytime soon. Machines are not yet reliable enough to autonomously verify frontier research outputs, and AI companies are still entirely reliant on human input (if I recall correctly, it is named as reinforcement learning, with <a href="https://huggingface.co/blog/rlhf">industry consensus showing AI requires thousands of human hours in RLHF to evaluate outputs</a>).</p>
+
+
+
+<p class="wp-block-paragraph">On the other hand, one of the main reasons we pursue a PhD is to undergo that zero-to-one transition—starting to do research from nothing. This transition is deeply human and often requires intense academic isolation; a solitary struggle that builds unparalleled resilience. Indeed, one could discreetly use AI to push out multiple papers to fulfill graduation requirements. However, what happens to one&#8217;s growth as a real mathematician if their mathematical &#8220;art&#8221; is not fully their own?</p>
+
+
+
+<p class="wp-block-paragraph">Since I am an avid fan of Prof. Terence Tao (I hope I can meet him someday!), I would love to give the analogy that doing a PhD is as being under an apprenticeship with a master craftsman. I view mathematics as an art of craftsmanship. How can one learn to craft a new masterpiece if one does not understand the mechanics of prior masterpieces? Over time, researchers will naturally use the aid of machines—which in the case of mathematics, is the aid of AI. However, what distinguishes a master craftsman from a fraud is whether they can still conceptualize and create without the aid of fancy machinery. Ethically utilizing AI might limit one&#8217;s sheer output, but what will you become if you act as a mere conduit for generating theorems? At the end of the day, your theorem must be yours. I am surprised that within myself, this simple check on whether one&#8217;s readiness to use AI follows Tony Stark&#8217;s advice to Peter Parker in Spider-Man: Homecoming works well to maintain my ethics:</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph"><em>&#8220;If you&#8217;re nothing without this suit, then you shouldn&#8217;t have it.&#8221;</em></p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">If one is restricted to working without AI and cannot bring even the slightest idea to fruition, one should refrain from over-relying on it. What is the meaning of a PhD if one merely becomes an interpreter for a machine?</p>
+
+
+
+<p class="wp-block-paragraph">I am open about the fact that I utilize AI to aid my study process. It assists in my preparation, note-taking, and streamlining my workflows.<sup data-fn="9e2a7f13-5c40-4d8b-b6a9-0f3e1c7d2b84" class="fn"><a href="#9e2a7f13-5c40-4d8b-b6a9-0f3e1c7d2b84" id="9e2a7f13-5c40-4d8b-b6a9-0f3e1c7d2b84-link">2</a></sup></p>
+
+
+
+<p class="wp-block-paragraph">As suggested by 3Blue1Brown, <a href="https://www.youtube.com/watch?v=LKrwhjOI8Nc">there has never been a better time to go into math</a>. We can accelerate our growth if we <em>ethically</em> use AI for our work. I personally view AI as an extension—to verify tedious inequalities, streamline reasoning, and conduct surface-level background research, expanding my general knowledge, and problem-solving grasp. If we use AI to extend our horizons rather than replace our cognition, mathematics as a field will thrive in this direction.</p>
+
+
+
+<p class="wp-block-paragraph">Ultimately, I stand on the optimistic side of mathematics in the age of AI, which solidifies my reason to pursue a PhD, with an ounce of realistic take that I will stay vigilant to the current progress of AI (Hopefully, I will start my PhD journey soon as well). Having a fulfilling PhD experience comes down to knowing oneself and asking specific questions. It carries a massive opportunity cost that consumes a major part of one&#8217;s twenties (I assume most people do their PhDs in their 20s). Do not fret over AI; assimilate appropriately with it. As long as one remains fond of one&#8217;s craftsmanship, one will adapt—because, as Gödel proved, <a href="https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems">mathematics itself is incomplete</a>.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 19 October 2026.</p>
+
+
+<ol class="wp-block-footnotes"><li id="3c8d5e0a-7b14-4f62-9a3e-1d2f6b8c4a51">I am aware this may be taken into account for my PhD (and research career) applications in near-future and I am fully conscious of what I wrote. <a href="#3c8d5e0a-7b14-4f62-9a3e-1d2f6b8c4a51-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="9e2a7f13-5c40-4d8b-b6a9-0f3e1c7d2b84"><strong>Editorial Note:</strong> The proofreading, grammar fixes, and flow check of this article&#8217;s draft were assisted by Gemini 3.1 Pro, as the author is fully aware of his own lack of tidiness in language matters. <a href="#9e2a7f13-5c40-4d8b-b6a9-0f3e1c7d2b84-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/15/why-will-i-fight-for-a-phd-in-this-era-a-naive-retrospective-in-the-age-of-ai/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2739</post-id>	</item>
+		<item>
+		<title>What do you do with an asshole?</title>
+		<link>https://proofsandprompts.com/2026/11/15/what-do-you-do-with-an-asshole/</link>
+					<comments>https://proofsandprompts.com/2026/11/15/what-do-you-do-with-an-asshole/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Sun, 15 Nov 2026 12:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Critique]]></category>
+		<category><![CDATA[PhD students]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3309</guid>
+
+					<description><![CDATA[“Here’s a thought experiment. Imagine that a very senior colleague, regarded as near the top of his field, made it his business to find out what young researchers were working on, and then solve their problems. […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://cs.bc.edu/stumpaa/">Aaron Stump</a>, Professor of Computer Science at <a href="https://www.bc.edu/bc-web/schools/morrissey/departments/computer-science/">Boston College</a>. Cross-posted at <a href="https://queuea9.wordpress.com/2026/10/30/what-do-you-do-with-an-asshole/">his blog</a>.</p>
+
+
+
+<p class="wp-block-paragraph">Here’s a thought experiment. Imagine that a very senior colleague, regarded as near the top of his field, made it his business to find out what young researchers were working on, and then solve their problems. Imagine, too, that he gave no credit to them for the efforts they had made so far, and furthermore was so disrespectful as not even to publish the work, but just post it on his blog. And he does this repeatedly, despite being urged in terms both polite and strident, from many parties, to stop.</p>
+
+
+
+<p class="wp-block-paragraph">Do you know what we would call that person? An asshole.</p>
+
+
+
+<p class="wp-block-paragraph">What would we do about such a person? Well, since no laws are being broken or anything like that, we would resort to a time-honored social response: we would just shun that person. They wouldn’t get invited anywhere, no one would talk to them, etc. It could get a little ugly, if some people still wanted to be friends with that person, but, shunning is pretty serious. And behavior like that totally deserves it.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 30 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/15/what-do-you-do-with-an-asshole/feed/</wfw:commentRss>
+			<slash:comments>12</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3309</post-id>	</item>
+		<item>
 		<title>Why Correct Answers Are Not Enough</title>
 		<link>https://proofsandprompts.com/2026/11/14/why-correct-answers-are-not-enough/</link>
 					<comments>https://proofsandprompts.com/2026/11/14/why-correct-answers-are-not-enough/#respond</comments>
@@ -169,7 +405,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/14/how-do-we-know-that-they-are-not-cheating/feed/</wfw:commentRss>
-			<slash:comments>9</slash:comments>
+			<slash:comments>16</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2055</post-id>	</item>
@@ -394,7 +630,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/14/hiring-this-year-advice-and-changes-from-committees/feed/</wfw:commentRss>
-			<slash:comments>3</slash:comments>
+			<slash:comments>4</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3620</post-id>	</item>
@@ -766,7 +1002,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/13/a-vision-of-the-future-of-mathematics/feed/</wfw:commentRss>
-			<slash:comments>15</slash:comments>
+			<slash:comments>18</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3138</post-id>	</item>
@@ -1061,119 +1297,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3072</post-id>	</item>
-		<item>
-		<title>Sharing two worries about AI</title>
-		<link>https://proofsandprompts.com/2026/11/12/sharing-two-worries-about-ai/</link>
-					<comments>https://proofsandprompts.com/2026/11/12/sharing-two-worries-about-ai/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Thu, 12 Nov 2026 10:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Personal experience]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<category><![CDATA[Risk]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2531</guid>
-
-					<description><![CDATA[First, the ill-effects of AI on my personal mathematical experience. If widely shared, they could have a long-term pernicious influence on the subject as a whole. Second, I put this in the context of the larger threats AI poses to the human world. These are not nested problems: they are parallel.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph">David Solomon, Chercheur associé at Institut de Mathématiques de Jussieu</p>
-
-
-
-<p class="wp-block-paragraph">I am not as optimistic as some posting on this site, either about the long term effects of AI on Maths or its effects on the world as a whole. I hope I&#8217;m wrong. Here are my worries:</p>
-
-
-
-<p class="wp-block-paragraph">1) First, let me state two major activities that I really enjoy when I&#8217;m doing maths and which provide much of my motivation to do it. Neither should seem strange to the majority of human mathematicians, whether ‘professional’ or amateur but I want to restate them clearly in this context:</p>
-
-
-
-<p class="wp-block-paragraph">a) Finding a problem from which a creative project is born, creating a suitable framework for my approach, checking it, querying it, tussling with the problems and (hopefully) eventually arriving at something satisfying. That’s a great feeling we must all know. It’s a reward for our creation, hard work and solitary reflection. It may also show a new path forward as well, perhaps to other existing problems, or reveal questions that intrigue me&#8230;</p>
-
-
-
-<p class="wp-block-paragraph">b) Discussing my ideas with other (need I say &#8220;human&#8221;?) mathematicians, partly to show off my creations (yes!) and partly to share and partly to get their input (new viewpoints, questions context etc) during the process. Maybe even find a link to what they&#8217;re doing in their work. As well as verbal discussion, I might send an email or a preprint on a partial result or maybe an account of my ideas or possible spin-offs. I might also put one on ArXiv or try to publish it in a journal.</p>
-
-
-
-<p class="wp-block-paragraph">The problem: unfortunately, as things stand with AI at the present time, I can&#8217;t help feeling that indulging in (b) may compromise my ability to enjoy (a): if someone takes my ideas and feeds them into an LLM or if the same LLM is directed to scrape the internet for papers on a certain topic that can help it solve a similar problem someone has proposed to it, and if it comes across my ideas, in that case I risk being deprived of much of the satisfaction described in (a): not only the &#8220;glory&#8221; of solving (probably a reprehensible desire and quite possibly unachievable anyway) but also the pleasures of tussling and creating.</p>
-
-
-
-<p class="wp-block-paragraph">So, at present I am thinking that I need to stop doing (b), or do it much less and more guardedly, for the sake of (a). Some take a more &#8220;selfless&#8221; attitude in this respect (or seem to), but I can’t be alone in feeling that I need to prioritise (a) otherwise I will experience frustration and, ultimately, lose motivation for either. This is not a good situation for me and, if many people react like me, it won&#8217;t have a good effect on the subject either. So how do we tackle it? Can we?</p>
-
-
-
-<p class="wp-block-paragraph">2) Secondly, I don&#8217;t think there has been quite enough focus in the discussions here on setting the problems AI is causing for academic mathematics in the context of the larger and &#8211; let&#8217;s say it clearly &#8211; much more worrying problems that it threatens to cause the human world as a whole. I would like to point out that these two issues are far from being unconnected. Neither is the first simply a minor corollary of the second: Obviously there will be no human mathematics if there are no humans to do it but, less dramatically, in both areas, the main threat is a loss of human control over human activities, whether that control is given away, lost by accident or stolen for ulterior motives by certain actors, possibly (but not necessarily) silicon ones. In this sense the present anxiety of mathematicians for their subject can be seen as a useful illustration of the larger problems we may all be facing pretty soon.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 13 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/12/sharing-two-worries-about-ai/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2531</post-id>	</item>
-		<item>
-		<title>Mathematics as a spiritual endeavor</title>
-		<link>https://proofsandprompts.com/2026/11/11/mathematics-as-a-spiritual-endeavor/</link>
-					<comments>https://proofsandprompts.com/2026/11/11/mathematics-as-a-spiritual-endeavor/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Wed, 11 Nov 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Beauty]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<category><![CDATA[Understanding]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2831</guid>
-
-					<description><![CDATA[“I am not particularly worried about the longevity of mathematics as an institution. Certainly, the way of life of our community is undergoing incredible turbulence. But the fact is this institution has existed as long as the written word (not coincidentally), and mathematics will remain a human endeavor as long as there are human beings around to think about it.” […]]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://sites.google.com/view/filipdul/home">Filip Dul</a>, assistant professor of mathematics at the <a href="https://www.hartford.edu/directory/arts-science/dul-filip.aspx">University of Hartford</a></p>
-
-
-
-<p class="wp-block-paragraph">“What doesn’t transmit light, creates its own darkness.” — Marcus Aurelius</p>
-
-
-
-<p class="wp-block-paragraph">I am not particularly worried about the longevity of mathematics as an institution. Certainly, the way of life of our community is undergoing incredible turbulence. But the fact is this institution has existed as long as the written word (not coincidentally), and mathematics will remain a human endeavor as long as there are human beings around to think about it.</p>
-
-
-
-<p class="wp-block-paragraph">However, this turbulence is undoubtedly forcing us to <em>rethink </em>what our purpose is—or rather, what our <em>temporary purpose</em> has been for the last hundred or so years. This sudden and forced introspection understandably manifests as worry within a large sector of our community: the sector which is concerned mostly with solving problems. But not all of us believe that math is primarily about problem solving. And indeed, for most of its history, <em>many</em> adherents of mathematics understood this fact.</p>
-
-
-
-<p class="wp-block-paragraph">To me and to many others, mathematics can be called a <em>spiritual </em>experience. The most memorable moments of my journey through math are notably those which put me in a state of awe; in a state of amazement that the natural order of things, whether abstract or physical, is so beautiful, so perfect, and so amenable to human understanding. I will never forget the moment in which I first understood the proof of the Gauss-Bonnet Theorem—when I understood not just with my mind but in my heart that the average geometry of a surface is equal to its topology. I even remember which sweatshirt I was wearing when my teacher was explaining the Fundamental Theorem of Line Integrals—the way the world sparkled as it dawned on me for the first time what homotopy invariance was (although I did not know those words at the time). I remember looking up at the night sky one cold winter’s night when the veil was lifted—when the fact that matter tells spacetime how to bend and spacetime tells matter how to move finally became clear, after months of studying general relativity. It felt like seeing the stars for the first time.</p>
-
-
-
-<p class="wp-block-paragraph">An astounding aspect of these moments is that they can be shared. As teachers of mathematics, we carry the torch which illuminates this reality for our students. When we know an idea deeply enough, we feel an urge to spread that knowledge to our pupils, in the hope that they spread the good news further still. Math is, of course, useful in improving conditions for human beings. Systematic and logical thought coupled with imagination have taken us far as a species. But in fixating on this, we became obsessed with problem solving—with the notion that another notch in our belt will increase our glory. But ours is not the glory.</p>
-
-
-
-<p class="wp-block-paragraph">Now that machines created in our likeness are swallowing up the long lists of problems we deemed significant, the problem solvers are worried, and if they remain problem solvers alone, then perhaps they should be worried. But it is important to remember that all problems, all ideas, are already worked out. A mathematician who solves a problem demonstrates to humanity the truth value of some aspect of reality: they do not <em>build</em> the reality. And when they discover a truth, it becomes a shared truth—a shared truth which adds to the richness of the human experience. If humans discovered every conceivable truth on their own (I doubt it’s possible, but let’s imagine), then mathematicians would still be necessary as stewards of those truths. We will always feel the urge to explain the universe to each other, and to share in the beauty of the natural world. The beauty of all those problems, solved at the moment of creation.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 19 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/11/mathematics-as-a-spiritual-endeavor/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2831</post-id>	</item>
 	</channel>
 </rss>

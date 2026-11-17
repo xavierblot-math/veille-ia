@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Sat, 14 Nov 2026 07:45:14 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 16 Nov 2026 09:13:17 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,182 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>Do We Still Need Mathematical Journals?</title>
+		<link>https://proofsandprompts.com/2026/11/16/do-we-still-need-mathematical-journals/</link>
+					<comments>https://proofsandprompts.com/2026/11/16/do-we-still-need-mathematical-journals/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Mon, 16 Nov 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Evaluation]]></category>
+		<category><![CDATA[Journals]]></category>
+		<category><![CDATA[The future of papers]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3513</guid>
+
+					<description><![CDATA[“AI is changing how mathematics is produced. Shouldn’t it also change how we publish? Do we still need mathematical journals? Spoiler alert: my personal answer is we don’t. We have known for a long time that our current publishing system is deeply flawed. […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://goldmanm.pages.math.cnrs.fr/pageweb/">Michael Goldman</a>, Research Director at CNRS, <a href="https://lama-umr8050.fr/">LAMA</a>, Université Paris-Est Créteil</p>
+
+
+
+<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · AI is making papers cheap to produce but they remain costly to referee. Proofs and Prompts is publishing a series of posts from 26 October on the future of publishing, papers and credit. Questions such as how to disclose AI use, who bears the cost of checking, what authorship means and what papers of the future might look like will be addressed. This post is part of the series. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/publishing/">All posts in the series</a></p>
+
+<p class="wp-block-paragraph"><strong>AI disclosure:</strong> AI was used for brainstorming and literature exploration.</p>
+
+<p class="wp-block-paragraph"><em>AI is changing how mathematics is produced. Shouldn’t it also change how we publish?</em></p>
+
+
+
+<p class="wp-block-paragraph">Do we still need mathematical journals? Spoiler alert: my personal answer is we don’t.</p>
+
+
+
+<p class="wp-block-paragraph">We have known for a long time that our current publishing system is deeply flawed. Before AI saturated every lunch or coffee break discussion, it was one of the recurring topics among (at least French) colleagues. In fact, many have been publicly and vocally advocating for its reinvention for years, see for instance <a href="https://gowers.wordpress.com/2011/10/31/how-might-we-get-to-a-new-model-of-mathematical-publishing/">the 2011 post</a> by Timothy Gowers as well as the famous <a href="http://thecostofknowledge.com/"><em>The Cost of Knowledge</em></a><em>.</em></p>
+
+
+
+<p class="wp-block-paragraph">The expectation of a disruption is older still, see for instance <a href="https://scholarlykitchen.sspnet.org/2010/01/04/why-hasnt-scientific-publishing-been-disrupted-already/">this piece</a> of Michael Clarke. Or as <a href="https://journals.sagepub.com/doi/10.1177/01622439231203445">a mathematician interviewed by Christian Greiffenhagen later recalled:</a></p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">“When arXiv was starting to develop, there was a very strong feeling that at some point the whole system would change completely.…Actually it did not.”</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">Perhaps it is time to make that change happen now that AI has exposed the only remaining purpose of academic journals: produce a metric for hiring and promotions.</p>
+
+
+
+<h2 class="wp-block-heading">What do journals contribute?</h2>
+
+
+
+<p class="wp-block-paragraph">Clarke distinguished five functions of journals: <strong>dissemination, registration, validation, filtration, and designation</strong>.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Dissemination and registration</strong>—making results available and establishing priority—were already handled perfectly well by arXiv before AI. Clarke himself acknowledged that journals were no longer required for these tasks.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Validation.</strong> This means giving a guarantee that a published proof is correct. We all know that the situation was already highly hypocritical in the pre-AI era. Many reviewers would skim through the introduction before writing a hasty report (most often after having set the paper aside for months to years). Publication in a journal has long ceased to be, if it ever was, a guarantee of correctness. If anything, I trust now much more an LLM audit than a human one, including mine. While I am still on the fence about retiring altogether from refereeing, it is clear to me that I will no longer spend hours tediously checking papers, in particular for journals which deny me the help of LLMs to do so.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Filtration.</strong> This means helping mathematicians decide what deserves their attention. I concede that this function might still have some relevance. But do we really choose what to read based on journal publications? In my experience, we learn about new papers mostly through arXiv, discussions with colleagues, and sometimes seminars. By the time a paper appears in a journal, specialists often already know whether it represents significant progress in mathematical understanding or will simply become part of the background noise of mathematical production.</p>
+
+
+
+<p class="wp-block-paragraph">Indeed, the delays between submission and publication are substantial. For instance, the <a href="https://doi.org/10.1090/noti3416">American Mathematical Society’s 2025 backlog report</a> gives median submission-to-acceptance times of <strong>12.2 months</strong> for <em>Advances in Mathematics</em>, <strong>14.4</strong> for <em>Analysis &amp; PDE</em>, <strong>16.4</strong> for <em>Algebra &amp; Number Theory</em>, and <strong>17.0</strong> for <em>Annals of Applied Probability</em>. Of course one could object that with the use of AI tools these delays could be significantly shortened. Even still, if AI dramatically shortened publication delays, I doubt journal acceptance would change how we discover or choose what to read.</p>
+
+
+
+<p class="wp-block-paragraph">This leaves <strong>designation</strong>: publication serving as a proxy for scientific quality in hiring, promotion, and funding. While it has been advocated for a while that it should not be used for that purpose, see in particular the <a href="https://www.mathunion.org/fileadmin/IMU/Report/140810_Evaluation_of_Individuals_WEB.pdf">IMU 2014 statement</a>, the <a href="https://www.cnrs.fr/en/our-research/assessment">CNRS assessment principles</a>, and the <a href="https://sfdora.org/read/">San Francisco DORA declaration</a>, regular practice in hiring committees is to rely heavily on these indicators, making designation the main function of mathematical journals. Since everyone seems to agree that the current situation was unsatisfactory before AI and that AI only made it worse (what does it mean now that a paper is at the level of say Annals and not Archive for Rational Mechanics and Analysis?), designation cannot be the reason to save the editorial system. As expressed many times by almost every vocal mathematician, we need to change our evaluation system. I will refrain from trying to discuss how in this post (disclaimer: I have no clue).</p>
+
+
+
+<p class="wp-block-paragraph">To mitigate this last point, there is maybe one positive, although rarely openly acknowledged, role played by journals which is providing a sense of purpose. Indeed, while freedom is probably the most precious part of academic life, it comes with a high price which is total lack of management, clear framework or validation. By this I mean that overall, compared to the vast majority of jobs, we have little to no feedback on our work, notably when we did a good job. Having a paper accepted by a journal, no matter its ‘ranking’, is one of the very few instances of such a validation. We should not underestimate this role as lack of framework might partly explain the high rate of mental health issues among colleagues. Still I would argue that this is not enough to save private Ryan (I am a Millennial after all).</p>
+
+
+
+<p class="wp-block-paragraph">The current system has a financial cost, leaving aside the human cost of managing the journals, and refereeing. According to a <a href="https://www.couperin.org/services-et-activites/enquetes/enquete-sur-les-ressources-electroniques-ere/">survey</a> from COUPERIN, around 78 million euros were spent by public research in France on journal subscriptions (across all fields). Of this amount roughly half goes to Elsevier alone. To put these figures into perspective, there are between 170 000 and 200 000 researchers in France, including PhD students and postdocs. This means that the journal subscriptions would be enough to cover the access of all researchers to the basic plans of either of the main private providers of LLMs with an extra 20 million euros to spare. Of course one could find other and probably better uses for this money.</p>
+
+
+
+<h2 class="wp-block-heading">What shall we do instead?</h2>
+
+
+
+<p class="wp-block-paragraph">As for most topics regarding AI the short answer is: I don’t know! A first possibility is to simply rely on repositories such as the arXiv for ‘digested’ papers and <a href="https://hexagonmath.org/">Hexagon</a> for ‘raw material’ (see also the recent essays by <a href="https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/">Frank Calegari</a> or <a href="https://proofsandprompts.com/2026/11/02/please-stop-writing-papers-there-is-another-way/">Mathieu Lewin</a>). We could also hope for more ambitious collaborative projects such as <a href="https://weneedabp.github.io/index.html">We Need ABP</a> or <a href="https://bourgain-pedia.com/">The Bourgain Project</a>. We could also go back to some of the past suggestions from <a href="https://gowers.wordpress.com/2011/10/31/how-might-we-get-to-a-new-model-of-mathematical-publishing/">Timothy Gowers</a> and start more interactive platforms where preprints could be discussed and commented on in a MathOverflow-like setting. We could hope that editors decide to voluntarily close journals, or <a href="https://smf.emath.fr/actualites-smf/19-10-26-communique-fermeture-journaux-de-probabilites">not reopen them</a>. We could also hope that established researchers (I would strongly recommend to non-tenured people to not follow this advice!) would simply stop submitting their papers to journals. As far as I am concerned, I will not forbid my co-authors to submit papers but I will not actively push for it anymore. I had a similar attitude so far regarding submissions to non-academic journals.</p>
+
+
+
+<p class="wp-block-paragraph">The unrealized hopes from the past as well as the inertia of our institutions do not make me very confident that this revolution will indeed happen. Time will tell&#8230;</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 6 November 2026, revised 10 November 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/16/do-we-still-need-mathematical-journals/feed/</wfw:commentRss>
+			<slash:comments>13</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3513</post-id>	</item>
+		<item>
+		<title>Update on a new type of paper mill</title>
+		<link>https://proofsandprompts.com/2026/11/16/update-on-a-new-type-of-paper-mill/</link>
+					<comments>https://proofsandprompts.com/2026/11/16/update-on-a-new-type-of-paper-mill/#respond</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Reactions]]></category>
+		<category><![CDATA[Journals]]></category>
+		<category><![CDATA[Paper mill]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3534</guid>
+
+					<description><![CDATA[About the International Math Union suggestions to prevent fraud in mathematics.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://rubiel1.github.io/" data-type="link" data-id="https://rubiel1.github.io/">Eric Dolores-Cuenca</a>, Postdoc at <a href="https://math.yonsei.ac.kr/math/index.do" data-type="link" data-id="https://math.yonsei.ac.kr/math/index.do">Yonsei University</a></p>
+
+
+
+<p class="pp-in-reply-to wp-block-paragraph"><strong>In reply to</strong> <a href="https://proofsandprompts.com/2026/10/01/a-new-type-of-paper-mill/">A new type of paper mill</a> by Eric Dolores-Cuenca</p>
+
+
+
+<p class="wp-block-paragraph">If paper mills in mathematics appear, we need to focus on what journal editors can do and how to prevent mathematicians from misbehaving. The replies to <a href="https://proofsandprompts.com/2026/10/01/a-new-type-of-paper-mill/" target="_blank">the original post</a> include possible ideas to help journal editors.</p>
+
+
+
+<p class="wp-block-paragraph">In finance, several banks stressed their workers until the workers started to fake transactions. This led to many people being fired. Eventually, banks were forced to change their work culture.<sup data-fn="b1f0c3a2-5d41-4e7a-9a10-3c2e8f6d7a01" class="fn"><a href="#b1f0c3a2-5d41-4e7a-9a10-3c2e8f6d7a01" id="b1f0c3a2-5d41-4e7a-9a10-3c2e8f6d7a01-link">1</a></sup></p>
+
+
+
+<p class="wp-block-paragraph">The math community is already struggling with its own scandal: in November 2023 Clarivate announced that it had excluded the field of mathematics from the latest edition of its list of highly cited authors. One of the reasons is that schools paid mathematicians to add them as their affiliation, even if there was no interaction with the researcher.</p>
+
+
+
+<p class="wp-block-paragraph">The International Math Union and the International Council for Industrial and Applied Mathematics created a report on the problem,<sup data-fn="b1f0c3a2-5d41-4e7a-9a10-3c2e8f6d7a02" class="fn"><a href="#b1f0c3a2-5d41-4e7a-9a10-3c2e8f6d7a02" id="b1f0c3a2-5d41-4e7a-9a10-3c2e8f6d7a02-link">2</a></sup> and they also shared suggestions to prevent future fraud.<sup data-fn="b1f0c3a2-5d41-4e7a-9a10-3c2e8f6d7a03" class="fn"><a href="#b1f0c3a2-5d41-4e7a-9a10-3c2e8f6d7a03" id="b1f0c3a2-5d41-4e7a-9a10-3c2e8f6d7a03-link">3</a></sup> I believe that if paper mills appear, <em>the suggested actions will also reduce the number of mathematicians engaging in paper mill related fraud.</em></p>
+
+
+
+<p class="wp-block-paragraph">I hope some schools listen to those recommendations. Note that Clarivate “have paused impact evaluations since 2022 to focus on quality evaluation of submitted and indexed journals”, that they extended the Journal Impact Factor to ESCI journals, and created unified rankings.<sup data-fn="b1f0c3a2-5d41-4e7a-9a10-3c2e8f6d7a04" class="fn"><a href="#b1f0c3a2-5d41-4e7a-9a10-3c2e8f6d7a04" id="b1f0c3a2-5d41-4e7a-9a10-3c2e8f6d7a04-link">4</a></sup> Even if Clarivate is asking us to focus on quality and not on the index a paper belongs to, on job applications one can still find schools that filter the candidates by only counting SCIE papers.</p>
+
+
+
+<p class="wp-block-paragraph">Just as in the finance case, a change of culture is needed if we want to prevent mathematicians from committing fraud.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Acknowledgement:</strong> I would like to thank Susana Lopez Moreno for related discussions.</p>
+
+
+<ol class="wp-block-footnotes"><li id="b1f0c3a2-5d41-4e7a-9a10-3c2e8f6d7a01">Wikipedia contributors, <a href="https://en.wikipedia.org/wiki/Wells_Fargo_cross-selling_scandal">Wells Fargo cross-selling scandal</a>, Wikipedia, The Free Encyclopedia (accessed 1 November 2026). <a href="#b1f0c3a2-5d41-4e7a-9a10-3c2e8f6d7a01-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="b1f0c3a2-5d41-4e7a-9a10-3c2e8f6d7a02">Ilka Agricola, Lynn Heller, Wil Schilders, Moritz Schubotz, Peter Taylor and Luis Vega, <a href="https://doi.org/10.1090/noti3217">Fraudulent Publishing in the Mathematical Sciences</a>, Notices of the American Mathematical Society 72 (9), October 2025. <a href="#b1f0c3a2-5d41-4e7a-9a10-3c2e8f6d7a02-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="b1f0c3a2-5d41-4e7a-9a10-3c2e8f6d7a03">Ilka Agricola, Lynn Heller, Wil Schilders, Moritz Schubotz, Peter Taylor and Luis Vega, <a href="https://arxiv.org/abs/2509.09877">How to Fight Fraudulent Publishing in the Mathematical Sciences: Joint Recommendations of the IMU and the ICIAM</a>, arXiv:2509.09877, 2025. <a href="#b1f0c3a2-5d41-4e7a-9a10-3c2e8f6d7a03-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="b1f0c3a2-5d41-4e7a-9a10-3c2e8f6d7a04">Nandita Quaderi, <a href="https://clarivate.com/academia-government/blog/2024-journal-citation-reports-changes-in-journal-impact-factor-category-rankings-to-enhance-transparency-and-inclusivity/">2024 Journal Citation Reports: Changes in Journal Impact Factor category rankings to enhance transparency and inclusivity</a>, Clarivate Academia &amp; Government Blog, 16 February 2024. <a href="#b1f0c3a2-5d41-4e7a-9a10-3c2e8f6d7a04-link" aria-label="Jump to footnote reference 4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 2 November 2026.</p>
+
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/16/update-on-a-new-type-of-paper-mill/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3534</post-id>	</item>
+		<item>
 		<title>Why will I fight for a PhD in this era? A naive retrospective in the age of AI</title>
 		<link>https://proofsandprompts.com/2026/11/15/why-will-i-fight-for-a-phd-in-this-era-a-naive-retrospective-in-the-age-of-ai/</link>
 					<comments>https://proofsandprompts.com/2026/11/15/why-will-i-fight-for-a-phd-in-this-era-a-naive-retrospective-in-the-age-of-ai/#comments</comments>
@@ -259,7 +435,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/15/what-do-you-do-with-an-asshole/feed/</wfw:commentRss>
-			<slash:comments>14</slash:comments>
+			<slash:comments>16</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3309</post-id>	</item>
@@ -1074,228 +1250,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2501</post-id>	</item>
-		<item>
-		<title>On AI and Progress in Mathematics: Dreaming a Mathematical Universal Machine</title>
-		<link>https://proofsandprompts.com/2026/11/12/on-ai-and-progress-in-mathematics-dreaming-a-mathematical-universal-machine/</link>
-					<comments>https://proofsandprompts.com/2026/11/12/on-ai-and-progress-in-mathematics-dreaming-a-mathematical-universal-machine/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Thu, 12 Nov 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Initiatives]]></category>
-		<category><![CDATA[Evaluation]]></category>
-		<category><![CDATA[Initiative]]></category>
-		<category><![CDATA[Understanding]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3224</guid>
-
-					<description><![CDATA[Mathematics is moving from the mountain of solitary discovery to an industrial mine, where humans and AI explore together. What if mathematical progress were measured not by publications and citations, but by how much discoveries expand the capabilities of a Mathematical Universal Machine? A new vision of mathematical research.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://vincentrunge.github.io">Vincent Runge</a>, Associate Professor at Université d’Évry Paris-Saclay, Laboratoire de Mathématiques et Modélisation d’Évry (<a href="https://www.math-evry.cnrs.fr">LaMME</a>)</p>
-
-
-
-<p class="wp-block-paragraph">Mathematicians often like to describe their research with the metaphor of climbing a mountain. Through an immense solitary effort, we reach a summit from which we contemplate a vast landscape of unexplored mathematical truths. From the mountain, we have now descended into the mine: an industrial landscape filled with machines, unexpected discoveries, and disruptive innovations. The romance of the search, the ideal of pen and paper, in which human genius could win immense fame through solitary effort alone, has been lost along the way. As John von Neumann once wrote, “For progress, there is no cure” (“Can We Survive Technology?”, <em>Fortune</em>, 1955): we have no choice but to adapt.</p>
-
-
-
-<p class="wp-block-paragraph">Soon, we will all be miners digging in the mathematical mine, either collaborating or competing with mathematical AI machines. Publications would then be seen primarily as a means of helping humans understand mathematics, while the measurement of mathematical progress would be entrusted to a Mathematical Universal Machine.</p>
-
-
-
-<p class="wp-block-paragraph">This post summarizes the ideas of <a href="https://arxiv.org/abs/2610.35263">my recent preprint</a>, which explores what this brave new world of mathematics might look like and how we might collectively shape its future.</p>
-
-
-
-<h2 class="wp-block-heading">What we are afraid to lose</h2>
-
-
-
-<p class="wp-block-paragraph">Year after year, we patiently build our own little planet of mathematics. We explore it with constant effort, and these explorations produce stories as well as theorems. The living experience of mathematics lies in sharing what we have learned: passing on intuitions, mistakes, and the secret gestures of mathematical thinking. All of this, and much more, is the human adventure of mathematics. With AI, we risk becoming the Geographer of Saint-Exupéry’s <em>Le Petit Prince</em>, who never leaves his desk: we would let the AI explore the planet for us. The AI would be much faster, much more efficient, and more accurate. But we would lose the pleasure of exploration: choosing where to go, with all its approximations and errors.</p>
-
-
-
-<p class="wp-block-paragraph">We were trained to prove, and proof itself risks becoming obsolete as a distinctively human skill. When proofs become abundant, where is the new scarcity? There is a second danger. Mathematics rests on unusually strong norms of trust and intellectual honesty, and AI risks releasing one of the worst genies from the bottle: suspicion. A divide between the “AI-free” and the “AI-assisted” mathematician could fracture our community.</p>
-
-
-
-<h2 class="wp-block-heading">Decoupling understanding from measurement</h2>
-
-
-
-<p class="wp-block-paragraph">The old system of papers, peer review, journals, citations and prestige was never perfect; faced with an abundance of machine-generated mathematics, it may become increasingly inadequate. I propose to <strong>partially decouple the advancement of human understanding from the measurement of mathematical progress</strong>. Publications would serve primarily to help humans understand mathematics, while progress would be measured by a new institution: a <em>Mathematical Universal Machine</em> (MUM), a shared AI infrastructure available to the entire mathematical community, in the spirit of H.G. Wells’s <em>World Brain</em> (1938).</p>
-
-
-
-<h2 class="wp-block-heading">The mine and the miner</h2>
-
-
-
-<p class="wp-block-paragraph">Let me make the metaphor of the mathematical mine more precise. The mine is the space of mathematical truth, results are diamonds hidden within it, and proofs are the tunnels leading to them. The mathematical AI system is the <strong>miner</strong>, <math data-latex="M=(\theta,\mathcal K,\mathcal T)"><semantics><mrow><mi>M</mi><mo>=</mo><mo stretchy="false">(</mo><mi>θ</mi><mo>,</mo><mi mathvariant="script">K</mi><mo>,</mo><mi mathvariant="script">T</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">M=(\theta,\mathcal K,\mathcal T)</annotation></semantics></math>, with three components:</p>
-
-
-
-<ul class="wp-block-list">
-
-<li><strong>maps</strong> <math data-latex="\mathcal K"><semantics><mrow><mi mathvariant="script">K</mi></mrow><annotation encoding="application/x-tex">\mathcal K</annotation></semantics></math>: research papers, databases of proven results, definitions, graphs of dependencies between theorems;</li>
-
-
-<li><strong>tools</strong> <math data-latex="\mathcal T"><semantics><mrow><mi mathvariant="script">T</mi></mrow><annotation encoding="application/x-tex">\mathcal T</annotation></semantics></math>: Lean for formal verification, Python and computer algebra for experimentation;</li>
-
-
-<li>a <strong>brain</strong> <math data-latex="\theta"><semantics><mrow><mi>θ</mi></mrow><annotation encoding="application/x-tex">\theta</annotation></semantics></math>: a large language model, with a memory of its past attempts, which decides where and how to dig.</li>
-
-</ul>
-
-
-
-<p class="wp-block-paragraph">The miner has finite patience, represented by a finite computational budget <math data-latex="B"><semantics><mrow><mi>B</mi></mrow><annotation encoding="application/x-tex">B</annotation></semantics></math>: the resources of the Machine must ultimately be shared among all mathematicians. More fundamentally, I believe that designing the Machine itself could become a new goal of mathematical research: building a system that achieves the highest possible rate of discovery per budget, or of energy.</p>
-
-
-
-<p class="wp-block-paragraph">Left to explore freely, the Machine progressively fills in the territory accessible from what is already known: I call this the <strong>convexification of the mine</strong>. My hypothesis is that human intelligence and imagination will not be entirely subsumed by the Machine: new viewpoints, unexpected definitions and genuinely original research may lie outside this convexification. This suggests two complementary modes of research:</p>
-
-
-
-<ul class="wp-block-list">
-
-<li><strong>the mathematician as a supervisor</strong>, who explores mathematics through the Machine, proposing directions and steering the miner within their own expertise;</li>
-
-
-<li><strong>the mathematician as a miner</strong>, who works outside the Machine to reach mathematics beyond its current horizon. The resulting papers become new maps which, through a <strong>Machine Update</strong>, change how the miner explores.</li>
-
-</ul>
-
-
-
-<figure class="wp-block-image size-large wp-duotone-default"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1222" height="708" data-attachment-id="3223" data-permalink="https://proofsandprompts.com/machine-horizon/" data-orig-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/machine-horizon.png?fit=1222%2C708&amp;ssl=1" data-orig-size="1222,708" data-comments-opened="1" data-image-title="The Machine horizon" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/machine-horizon.png?fit=1024%2C593&amp;ssl=1" src="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/machine-horizon.png?resize=1222%2C708&#038;ssl=1" alt="Diagram of nested regions: a pale blue blob labelled prior knowledge of the Machine, surrounded by a grey-shaded zone fading from dark to light, with a black contour marking the Machine horizon at level p, all enclosed by a red oval marking the Machine's full capacity (convex hull). A scale shows probability of success from low to high." class="wp-image-3223" srcset="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/machine-horizon.png?w=1222&amp;ssl=1 1222w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/machine-horizon.png?resize=300%2C174&amp;ssl=1 300w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/machine-horizon.png?resize=1024%2C593&amp;ssl=1 1024w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/machine-horizon.png?resize=768%2C445&amp;ssl=1 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">The Machine horizon: the region the Machine reaches with high probability within its budget, inside its full capacity (the convex hull).</figcaption></figure>
-
-
-
-<h2 class="wp-block-heading">Measuring progress: the Machine horizon</h2>
-
-
-
-<p class="wp-block-paragraph">For a statement <math data-latex="T"><semantics><mrow><mi>T</mi></mrow><annotation encoding="application/x-tex">T</annotation></semantics></math> known to humans but excluded from the Machine’s prior knowledge, let <math data-latex="p_M(T\mid B)"><semantics><mrow><msub><mi>p</mi><mi>M</mi></msub><mo stretchy="false">(</mo><mi>T</mi><mo>∣</mo><mi>B</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">p_M(T\mid B)</annotation></semantics></math> be the probability that the miner proves <math data-latex="T"><semantics><mrow><mi>T</mi></mrow><annotation encoding="application/x-tex">T</annotation></semantics></math> within the budget <math data-latex="B"><semantics><mrow><mi>B</mi></mrow><annotation encoding="application/x-tex">B</annotation></semantics></math>. For a level <math data-latex="p\in(0,1)"><semantics><mrow><mi>p</mi><mo>∈</mo><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">p\in(0,1)</annotation></semantics></math>, the <strong>Machine horizon</strong> is the set of results the Machine can reach:</p>
-
-
-
-<p class="wp-block-paragraph"><math data-latex="\mathcal H_M(B;p)=\{T : p_M(T\mid B)\ge p\}." display="block"><semantics><mrow><msub><mi mathvariant="script">H</mi><mi>M</mi></msub><mo stretchy="false">(</mo><mi>B</mi><mo>;</mo><mi>p</mi><mo stretchy="false">)</mo><mo>=</mo><mo stretchy="false">{</mo><mi>T</mi><mo>:</mo><msub><mi>p</mi><mi>M</mi></msub><mo stretchy="false">(</mo><mi>T</mi><mo>∣</mo><mi>B</mi><mo stretchy="false">)</mo><mo>≥</mo><mi>p</mi><mo stretchy="false">}</mo><mo>.</mo></mrow><annotation encoding="application/x-tex">\mathcal H_M(B;p)=\{T : p_M(T\mid B)\ge p\}.</annotation></semantics></math></p>
-
-
-
-<p class="wp-block-paragraph">The Machine would be updated at fixed intervals with newly published mathematics, <math data-latex="\theta_t\to\theta_{t+1}"><semantics><mrow><msub><mi>θ</mi><mi>t</mi></msub><mo>→</mo><msub><mi>θ</mi><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></msub></mrow><annotation encoding="application/x-tex">\theta_t\to\theta_{t+1}</annotation></semantics></math>, and its capabilities reassessed after each update: how much a contribution raises the probabilities of success, enlarges the horizon, or reduces the computation needed to reach a result. Such measurements could complement peer review and <strong>provide a new basis for recognizing the contributions of mathematicians</strong>, whether they discover new mathematics themselves or improve the Machine’s exploration as supervisors. This echoes Erdős’s book (see Aigner and Ziegler’s <em>Proofs from THE BOOK</em>): rather than collecting the most beautiful proof of each theorem, I propose to seek shorter paths to entire regions of the mine. The goal would be to design a Mathematical Universal Machine with the fastest possible discovery rate, the ratio of mathematical capacity to computational budget (or energy) becoming the new metric.</p>
-
-
-
-<h2 class="wp-block-heading">A political project</h2>
-
-
-
-<p class="wp-block-paragraph">The current trajectory of AI is not what we dreamed of. It consumes considerable amounts of energy, water, land, and physical resources. It raises serious ethical concerns when associated with surveillance, social control or warfare. Moreover, AI for mathematics is concentrated in the hands of a few private companies, whose most powerful models are accessible only to selected collaborators. We must not resign ourselves to this status quo. We can build <strong>a universal AI infrastructure for mathematics</strong>, developed in partnership with an international institution such as UNESCO, governed by mathematicians (for instance through the International Mathematical Union), and belonging to the global scientific commons. As a starting point, it could follow six principles:</p>
-
-
-
-<ul class="wp-block-list">
-
-<li><strong>Ecological accountability:</strong> its energy consumption and environmental footprint independently assessed and published every year.</li>
-
-
-<li><strong>Open architecture:</strong> the model architecture, its weights, and the essential components of the system openly accessible.</li>
-
-
-<li><strong>Universal and equal access:</strong> open to the whole mathematical community, students included, with an equal computational budget for every user.</li>
-
-
-<li><strong>Privacy:</strong> private research and unpublished results never incorporated into the shared system without explicit consent.</li>
-
-
-<li><strong>Transparent Machine Updates:</strong> a yearly update with newly published mathematics, together with an estimate of the computational importance of each contribution.</li>
-
-
-<li><strong>International scientific governance:</strong> a joint mathematics and computer science laboratory responsible for updates, maintenance, evaluation and communication.</li>
-
-</ul>
-
-
-
-<h2 class="wp-block-heading">Life in the mine</h2>
-
-
-
-<p class="wp-block-paragraph">Asked what percentage of mathematics one could hope to understand, John von Neumann reportedly answered “about 28 percent”. With the Machine, we might recover something of the nineteenth-century ideal of understanding mathematics as a whole. I do not want to sound naively optimistic: this text deliberately takes a positive stance, while the reality is challenging, frightening and even depressing. But in the mud of the mine, we still have the power to organize the search collectively: adaptation is not optional (for progress, there is no cure), but preserving our values, and some of our working habits, is still possible.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>AI disclosure.</strong> This post was condensed from my preprint with the help of an AI, which drafted a first version of the text; the ideas are my own.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 27 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/12/on-ai-and-progress-in-mathematics-dreaming-a-mathematical-universal-machine/feed/</wfw:commentRss>
-			<slash:comments>3</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3224</post-id>	</item>
-		<item>
-		<title>Working with the AI Companies is a Losing Strategy</title>
-		<link>https://proofsandprompts.com/2026/11/12/working-with-the-ai-companies-is-a-losing-strategy/</link>
-					<comments>https://proofsandprompts.com/2026/11/12/working-with-the-ai-companies-is-a-losing-strategy/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Reactions]]></category>
-		<category><![CDATA[AGMAI]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3072</guid>
-
-					<description><![CDATA[I’ll agree that it was worth a shot, but working with AI companies got us essentially nothing and now it’s time for a different approach.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph">Anonymous, Assistant Professor (no tenure) from North America.</p>
-
-
-
-<p class="wp-block-paragraph">In response to Open AI’s October 6<sup>th</sup> release of hundreds of results, the Advisory Group on Mathematics and Artificial Intelligence (AGMAI) released a <a href="https://agmai.org/#openai-release">statement</a> saying, “it is ultimately up to the mathematical community to assess the extent to which our recommendations were followed successfully.” By far the most important <a href="https://agmai.org/general-sep29/">recommendation</a> that AGMAI had made was for AI companies to stop “testing advanced mathematical problems on proprietary models that remain inaccessible to the broader scientific community.” They identify the obvious reasons for this: it concentrates control over a powerful means of production of mathematical results in the hands of whoever has access to the best models and the most compute, so essentially the AI companies and whoever they decide grant access to. While OpenAI has offered some conciliatory words and paltry financial resources, they explicitly said <a href="https://openai.com/index/advisory-group-on-mathematics-and-ai/">from the outset</a> that they have no intention of listening to AGMAI on the core issue of testing open problems on internal models. Thus, I conclude that AGMAI’s recommendations were not followed in any substantive fashion, and that AI companies have no intention of changing this in the future. I’ll agree that it was worth a shot, but working with AI companies got us essentially nothing and now it’s time for a different approach. As a start, AGMAI should dissolve itself rather than continue to provide a veneer of legitimacy to OpenAI while OpenAI ignores their central recommendation.</p>
-
-
-
-<p class="wp-block-paragraph">Right now, mathematicians still have some influence because we have things the AI companies want: our data and the legitimacy of our mathematical institutions. The latter is why OpenAI bothered forming AGMAI in the first place. When we work with commercial AI to solve problems, we provide AI companies with valuable training data. In some cases, access to this data might even allow AI companies to solve these problems first using more powerful internal models and without properly crediting the work they built on: behavior that would be condemned as academic dishonesty if you or I did it. When we cite commercial AI services in our papers, we provide free advertising for AI companies. When we tell the media that OpenAI’s release of results is exciting and a big advance for mathematics, we legitimize their unethical research practices. The more we do these things, the more we strengthen the position of AI companies and weaken our own with respect to deciding the future of mathematics. We should stop and seriously ask ourselves if this is what we want to do.</p>
-
-
-
-<p class="wp-block-paragraph">A counterargument is that if we continue to work with AI companies, we can persuade them to adopt norms more aligned with those of the mathematical community. Beyond their behavior thus far, I find this unlikely because the AI companies and many of those associated with them have been quite forthcoming about their beliefs and vision for the future, and if I take them at their word, I can’t see things leading anywhere positive for the existing mathematical community. Many AI company employees (and <a href="https://proofsandprompts.com/2026/09/18/existential-risk-from-ai-an-exposition-for-mathematicians-excerpt/">some mathematicians</a>) sincerely believe that what they are doing has a nonnegligible probability of <a href="https://www.nytimes.com/2023/12/06/business/dealbook/silicon-valley-artificial-intelligence.html">literally killing everyone</a>, yet they race ahead and implicitly believe themselves justified in making the choice to do so on behalf of humanity. OpenAI’s October 6<sup>th</sup> release reeks of the Silicon Valley “move fast and break things” ethos, where a private company acts recklessly and destructively to capture value for itself while leaving others to clean up the resulting messes. Also along these lines, recently released documents reveal that insiders at OpenAI believed they were acting <a href="https://www.nytimes.com/2026/09/17/technology/microsoft-openai-publishing-industry.html">unethically and in some cases illegally</a> by scraping training data and using it for their own profit without asking consent from or providing compensation to the humans who produced the data, yet they continue to operate in this manner. Anthropic talks a big game about safety while privately shopping a <a href="https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654">toothless safety bill</a> that would insulate them from regulation. Sam Altman uses the language of effective altruism to <a href="https://www.politico.com/news/2026/10/04/sam-altman-decoded-interview-ai-01106217">justify near-term harm</a> for the vague promise of a future of material abundance, often eliding the fact that in this future AI companies would amass sweeping control over the means of production, in our context of mathematical results, but aspirationally of all economic value. Are these the people and institutions we want to decide the future of mathematics, let alone of society at large?</p>
-
-
-
-<p class="wp-block-paragraph">There might still be time. If we unite, organize, and exert our influence against the harmful practices of AI companies, we can defend our institutions and community. Imagine if we had all collectively responded to OpenAI’s October 6<sup>th</sup> release by rejecting the legitimacy of OpenAI’s unethical research practices rather than with shell-shocked chaos. Sure, the preprints they produced would still exist, but I believe this would have had a powerful effect. And maybe AI companies say they don’t need us (their ultimate goal either way) and that they will build their own mathematics. Then we should make them do so without mathematicians or mathematical institutions.</p>
-
-
-
-<p class="wp-block-paragraph">Note too, that opposing AI companies doesn’t mean we need to disavow AI. Many mathematicians have written thoughtfully, here and elsewhere, about how we can harness the potential of AI to advance our understanding of mathematics while ensuring a healthy future for our human communities. <a href="https://teorth.github.io/tao-web/ai-views.html">Tao</a> and <a href="https://terrytao.wordpress.com/2026/10/21/mathematics-is-a-subject-for-the-young/">others</a> have written about the need for us to build our own AI infrastructure in which we can ensure equitable access and proper attribution. We should make this a priority so that we are not dependent on the AI companies, and once we have achieved this, we can reap the rewards. However each of us feels about the use of AI in mathematics research personally, we now exist in a world in which AI can accelerate mathematical progress. Opposing AI companies is not about pretending the technology doesn’t exist or that it won’t have an impact. Rather, it is about recognizing that the survival of our institutions and communities depends on our political choices just as much as our mathematical and philosophical choices. As Tao recently stated, mathematics is now on a “<a href="https://www.nytimes.com/2026/10/16/us/math-ai-terence-tao.html">war footing</a>,” and if we choose poorly, we will lose the war.</p>
-
-
-
-<p class="wp-block-paragraph">I know firsthand that this is a difficult ask. For one, opposing the AI companies can feel hopeless because they are already so rich and powerful. They promote a narrative of inevitability and want us to feel this way, but we can at least find out for ourselves if it’s true rather than preemptively give up. Another challenge is that many of us have responded thus far in the ways we did because we sincerely love mathematics and discovery rather than out of any intention to aid the AI companies. When I hear a major problem in my field has been resolved, my first instincts are toward excitement and curiosity. I want to come together with colleagues to celebrate a milestone and unpack the new ideas, questions, and directions opened by the advance. Even though the October 6<sup>th</sup> release was hundreds of slop papers, there are almost certainly insights to be gleaned, and for some of us, to set this aside goes against our integrity as mathematicians and scientists. But right now, that is what we must do to survive. If we allow ourselves to become distracted by shiny new theorems and paltry donations while our institutions are captured and our future generations live in fear for their livelihoods, then the future of mathematics will be written by AI companies rather than mathematicians.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received October 26.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/12/working-with-the-ai-companies-is-a-losing-strategy/feed/</wfw:commentRss>
-			<slash:comments>12</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3072</post-id>	</item>
 	</channel>
 </rss>

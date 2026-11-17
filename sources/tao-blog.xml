@@ -23,7 +23,7 @@
 <site xmlns="com-wordpress:feed-additions:1">817149</site><cloud domain='terrytao.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
 <source:cloud xmlns:source='https://source.scripting.com/'>https://terrytao.wordpress.com/?rsscloud=notify</source:cloud>
 <image>
-		<url>https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Fwebclip.png</url>
+		<url>https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fwebclip.png</url>
 		<title>What&#039;s new</title>
 		<link>https://terrytao.wordpress.com</link>
 	</image>

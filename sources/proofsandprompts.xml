@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Mon, 16 Nov 2026 09:13:17 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 16 Nov 2026 09:13:20 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,183 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>The Word of God</title>
+		<link>https://proofsandprompts.com/2026/11/17/the-word-of-god/</link>
+					<comments>https://proofsandprompts.com/2026/11/17/the-word-of-god/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Tue, 17 Nov 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Reactions]]></category>
+		<category><![CDATA[Exposition]]></category>
+		<category><![CDATA[Philosophy]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3509</guid>
+
+					<description><![CDATA[Will future mathematicians be priests, or will they be monks?]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://shaundatta.github.io/">Ishaun Datta</a>, Postdoctoral Research Scientist at Columbia University</p>
+
+
+
+<p class="wp-block-paragraph">This summer, large language models crossed over from being merely a curiosity to mathematicians to being the de-facto instruments for proving theorems. Previously, the instruments for proving theorems were the mathematicians themselves. This sudden change, unwelcome by much of the research community, has been met with much handwringing and introspection on what it means to “do” mathematics.</p>
+
+
+
+<p class="wp-block-paragraph">In his essay <a href="https://logangraves.com/priest-monk-mathematician">“Priest, Monk, and Mathematician,”</a> Logan Graves of Stanford University prognosticated on what’s in store for the discipline. “The future of the human mathematical community, and eventually all scientific communities,” he writes, “is the practice of priests, then that of monks. Not researchers.” In this taxonomy, the priest is “the interpreter of revelation…But the scripture is not his. He is the vessel for its delivery into human minds.” Though this undersells the role that mathematicians play in guiding their research programs, there is more than a kernel of truth to the notion that mathematicians have been recast—largely against their will—as expositors of chatbot-generated proofs.</p>
+
+
+
+<p class="wp-block-paragraph">Whereas as a PhD student I spent my working hours developing my own program for proving a particular theorem, pursuing dead ends, doing calculations, and painstakingly writing up my results, as a postdoc these hours are now directed towards making sense of a garbled but tantalizing proof dangled before me by GPT-6 Astra. Although the proof appears to be heavily inspired by my work, it is not mine. What, then, is my role in all this? It is, Graves argues, “to attempt to grasp the truth in its full glory and deliver it to the community, the flock, the seekers of truth and the lovers of wisdom—that is the task for the priest.”</p>
+
+
+
+<p class="wp-block-paragraph">Graves’ thesis is that mathematicians’ membership in the priesthood is transient: upcoming AI models are sure to be better at articulating their own findings, obviating the need for the priests’ translation work. After this fleeting phase as priests, they will become monks: living their lives in contemplation, meditating on and rejoicing in the truth.</p>
+
+
+
+<p class="wp-block-paragraph">But this is not a fait accompli, nor is it a purely philosophical question about how mathematicians find meaning in their radically altered circumstances. Whether mathematicians inevitably become monks is an <em>empirical</em> question, one that can be tested against subsequent models. Here is a case for why the truth may always be hard to grasp, benefiting from mathematicians adept at translation from divine revelation into something more accessible.</p>
+
+
+
+<p class="wp-block-paragraph">Coincident with the last few months’ academic upheavals, I have been reading the Bhagavad Gita. In it, the warrior Arjuna seeks counsel on a consequential upcoming battle from his charioteer Krishna, who reveals himself to be no less than an incarnation of the Almighty. Although Krishna is quite literally offering up divine revelation, his words are often convoluted. In Book 9, seemingly in an attempt to convey that he is both God immanent and God transcendent, Krishna declares, “The whole universe is pervaded by my unmanifest form; all creatures exist in me, but I do not exist in them” (9.4). Krishna goes on to seemingly contradict himself in the very next line: “those creatures are really not in me; my self quickens creatures, sustaining them without being in them” (9.5), only to reiterate his initial claim that “all creatures exist in me; understood it to be so!” (9.6). Several lines later, Krishna once more complicates his own message, “I am impartial to all creatures, and no one is hateful or dear to me; but men devoted to me are in me, and I am within them” (9.29).</p>
+
+
+
+<p class="wp-block-paragraph">If Krishna is, in Arjuna’s words, “supreme, the infinite spirit, the highest abode, sublime purifier, man’s spirit, eternal, divine, the primordial god, unborn, omnipotent” (10.12)…then why is he so confusing? Part of the problem is that one must be capacious of receiving the good word. In the words of one of my professors, <a href="https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/resources/lecture-15-learning-near-misses-felicity-conditions/index.html">“you can only learn what you almost already know.”</a> Yet Krishna insists his true nature is available to all: “When he constantly remembers me, focusing his reason on me, I am easy to reach, Arjuna, for the man of enduring discipline” (8.14). In this respect, access to what Aldous Huxley called the Perennial Philosophy is entirely democratic.</p>
+
+
+
+<p class="wp-block-paragraph">But merely having the capacity to attain spiritual knowledge does not mean that it comes easy. Perhaps the reason that deities, prophets, and oracles speak in riddles is that the truth is so far beyond the comprehension of its recipients; projecting the true nature of the Infinite into language results in something inscrutable. The metaphors Krishna offers up are his least-squares approximation to what Arjuna can make sense of.</p>
+
+
+
+<p class="wp-block-paragraph">If this is true for an actual divinity, might it also be true for the simulacrum of a mathematical divinity we find in the latest AI models? If these tools allow theoreticians to scale ever greater intellectual heights, relativizing their research programs to ever more ambitious goals, will the truth, however crystalline its presentation, remain hard to come by? If so, then mathematicians are not bound for the monastery after all. Though they will receive as supply the best marble, it will still be their task to chisel it into great artwork.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 7 November 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/17/the-word-of-god/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3509</post-id>	</item>
+		<item>
+		<title>Math, Beauty, and Ego</title>
+		<link>https://proofsandprompts.com/2026/11/17/math-beauty-and-ego/</link>
+					<comments>https://proofsandprompts.com/2026/11/17/math-beauty-and-ego/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Beauty]]></category>
+		<category><![CDATA[Personal experience]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3388</guid>
+
+					<description><![CDATA[Math is as much about ego as it is about beauty. For centuries, the two have been intertwined: progress in AI pulls these apart. Through a dialogue with an older professor, an undergraduate reflects on this distinction and comes to a deeper understanding of why we do mathematics.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph">A.T., Undergraduate mathematics student in the United Kingdom</p>
+
+
+
+<p class="wp-block-paragraph">Mathematics is beautiful. Definitions expose just the right level of detail and structure, and then, through a chain of immaculate deduction, we are led from propositions and lemmas to the pièce de résistance: the theorem. In just three years of undergraduate study, I’ve been fortunate enough to encounter many examples of this: Gauss’s Theorema Egregium, the classification of covering spaces, and the central limit theorem, to name a few. But beyond the formal chain of deduction lies something more profound. Mathematics is an art full of elegance, surprise, and inevitability.</p>
+
+
+
+<p class="wp-block-paragraph">I am in good company. Hardy, in <em>A Mathematician’s Apology</em>, writes that “beauty is the first test: there is no permanent place in the world for ugly mathematics”.<sup data-fn="3f1b6c2a-0001-4d5e-9a10-5b7c8d9e0f01" class="fn"><a href="#3f1b6c2a-0001-4d5e-9a10-5b7c8d9e0f01" id="3f1b6c2a-0001-4d5e-9a10-5b7c8d9e0f01-link">1</a></sup> Poincaré goes further: the scientist “takes pleasure in it because it is beautiful”.<sup data-fn="3f1b6c2a-0002-4d5e-9a10-5b7c8d9e0f02" class="fn"><a href="#3f1b6c2a-0002-4d5e-9a10-5b7c8d9e0f02" id="3f1b6c2a-0002-4d5e-9a10-5b7c8d9e0f02-link">2</a></sup> And Russell saw in mathematics the combination of “godlike freedom, with the sense of inevitable destiny”.<sup data-fn="3f1b6c2a-0003-4d5e-9a10-5b7c8d9e0f03" class="fn"><a href="#3f1b6c2a-0003-4d5e-9a10-5b7c8d9e0f03" id="3f1b6c2a-0003-4d5e-9a10-5b7c8d9e0f03-link">3</a></sup></p>
+
+
+
+<p class="wp-block-paragraph">Over the course of my undergraduate degree, AI progress in mathematics has been remarkable. When ChatGPT first appeared in November 2022, there was a striking asymmetry between its dexterity with words and its capability at mathematics.<sup data-fn="3f1b6c2a-0004-4d5e-9a10-5b7c8d9e0f04" class="fn"><a href="#3f1b6c2a-0004-4d5e-9a10-5b7c8d9e0f04" id="3f1b6c2a-0004-4d5e-9a10-5b7c8d9e0f04-link">4</a></sup> A model that could produce fluent prose could fail at basic arithmetic.<sup data-fn="3f1b6c2a-0005-4d5e-9a10-5b7c8d9e0f05" class="fn"><a href="#3f1b6c2a-0005-4d5e-9a10-5b7c8d9e0f05" id="3f1b6c2a-0005-4d5e-9a10-5b7c8d9e0f05-link">5</a></sup> At the time, it felt almost blindingly obvious that a machine would never understand the intricate structure and logic of mathematics.</p>
+
+
+
+<p class="wp-block-paragraph">Progress did not care what we thought. In 2024, Google DeepMind announced AlphaGeometry, which solved 25 of 30 Olympiad geometry problems.<sup data-fn="3f1b6c2a-0006-4d5e-9a10-5b7c8d9e0f06" class="fn"><a href="#3f1b6c2a-0006-4d5e-9a10-5b7c8d9e0f06" id="3f1b6c2a-0006-4d5e-9a10-5b7c8d9e0f06-link">6</a></sup> In 2025, Gemini Deep Think reached gold-medal standard at the International Mathematical Olympiad (IMO).<sup data-fn="3f1b6c2a-0007-4d5e-9a10-5b7c8d9e0f07" class="fn"><a href="#3f1b6c2a-0007-4d5e-9a10-5b7c8d9e0f07" id="3f1b6c2a-0007-4d5e-9a10-5b7c8d9e0f07-link">7</a></sup></p>
+
+
+
+<p class="wp-block-paragraph">Surely, we thought, models would plateau: IMO problems were still not <em>real</em> problems. Then came the slew of Erdős problems<sup data-fn="3f1b6c2a-0008-4d5e-9a10-5b7c8d9e0f08" class="fn"><a href="#3f1b6c2a-0008-4d5e-9a10-5b7c8d9e0f08" id="3f1b6c2a-0008-4d5e-9a10-5b7c8d9e0f08-link">8</a></sup> —still, we said, not <em>real math</em>. The Jacobian conjecture, open for 87 years, fell to Anthropic’s Claude Fable 5.<sup data-fn="3f1b6c2a-0009-4d5e-9a10-5b7c8d9e0f09" class="fn"><a href="#3f1b6c2a-0009-4d5e-9a10-5b7c8d9e0f09" id="3f1b6c2a-0009-4d5e-9a10-5b7c8d9e0f09-link">9</a></sup> It was announced almost casually, in a tweet. That captured the absurdity of the last two years: progress had been so fast that results that would once have felt like science fiction barely moved us at all. Somewhere along the way, an inversion happened: first I was much smarter than the models; now they were much smarter than I.</p>
+
+
+
+<p class="wp-block-paragraph">On September 8, 2026, came the final, shattering blow: OpenAI announced that an internal model had produced a paper claiming to resolve the Navier–Stokes smoothness and existence problem: in an incompressible fluid under a smooth external force, a blow-up existed in finite time.<sup data-fn="3f1b6c2a-0010-4d5e-9a10-5b7c8d9e0f10" class="fn"><a href="#3f1b6c2a-0010-4d5e-9a10-5b7c8d9e0f10" id="3f1b6c2a-0010-4d5e-9a10-5b7c8d9e0f10-link">10</a></sup> Despite having seen rumours circulating the previous day<sup data-fn="3f1b6c2a-0011-4d5e-9a10-5b7c8d9e0f11" class="fn"><a href="#3f1b6c2a-0011-4d5e-9a10-5b7c8d9e0f11" id="3f1b6c2a-0011-4d5e-9a10-5b7c8d9e0f11-link">11</a></sup>, this came as a huge shock. I remember, unable to think very much at all, taking the train to Kamakura and running along the coastline in the rain—I just wanted to get away from it all.</p>
+
+
+
+<p class="wp-block-paragraph">But mathematics remained beautiful. Gauss’s Theorema Egregium, the classification of covering spaces, and the central limit theorem had not changed because OpenAI had resolved Navier–Stokes. So why was I grieving? Was it not absurd that the proof of a single theorem made me want to run away from it all?</p>
+
+
+
+<p class="wp-block-paragraph">I wrote to an older professor, an expert in harmonic analysis whose work concerns the Navier–Stokes equations, about my worries. I told him that I grieved to see our art being taken over by machines and behemoth AI companies looking for their next marketing stunt. Greater still was the loss of identity: the skill I had spent years cultivating was suddenly no longer rare, and perhaps no longer valuable either.</p>
+
+
+
+<p class="wp-block-paragraph">His reply contained a thought that struck me deeply. “Beautiful things, poetry or Mathematics, remain beautiful even though machines can copy us in uncanny ways. Contemplation of beauty is always marvellous,” he wrote, “but most of us would not be content with pure contemplation.”</p>
+
+
+
+<p class="wp-block-paragraph">Why, though, are we not content with pure contemplation?</p>
+
+
+
+<p class="wp-block-paragraph">And here, I feel, lies the ugly truth about mathematics, and one that I refused to recognise for so long: mathematics is as much about ego, pride, and ambition as it is about beauty.</p>
+
+
+
+<p class="wp-block-paragraph">Even in my own case, my reasons for starting mathematics were far from a monastic pursuit of beauty. I was good at it, and I <em>loved</em> being good at it. At school, there was nothing quite like the exhilaration of doing well in math competitions and math Olympiads: math, <em>hard</em> math, was something that I was not just good at—but much better at than <em>others</em>. It flattered my ego.</p>
+
+
+
+<p class="wp-block-paragraph">I am hardly alone in this. Hardy made a similar reflection, writing that his motives for doing mathematics were “far from noble”: “I wanted to beat other boys, and this seemed to be the way in which I could do so most decisively”.<sup data-fn="3f1b6c2a-0012-4d5e-9a10-5b7c8d9e0f12" class="fn"><a href="#3f1b6c2a-0012-4d5e-9a10-5b7c8d9e0f12" id="3f1b6c2a-0012-4d5e-9a10-5b7c8d9e0f12-link">12</a></sup> John Conway, upon discovering the surreal numbers, described spending six weeks thinking not only how beautiful the mathematics was but “how clever you are, John, to have discovered it”.<sup data-fn="3f1b6c2a-0013-4d5e-9a10-5b7c8d9e0f13" class="fn"><a href="#3f1b6c2a-0013-4d5e-9a10-5b7c8d9e0f13" id="3f1b6c2a-0013-4d5e-9a10-5b7c8d9e0f13-link">13</a></sup> And Timothy Gowers, in a recent blog post, wrote that his “main motivation for becoming a mathematician was the dream that I would solve unsolved problems—the more famous the better”; perhaps, he wondered, solving problems had simply been a way of “getting respect from a small group of peers.”<sup data-fn="3f1b6c2a-0014-4d5e-9a10-5b7c8d9e0f14" class="fn"><a href="#3f1b6c2a-0014-4d5e-9a10-5b7c8d9e0f14" id="3f1b6c2a-0014-4d5e-9a10-5b7c8d9e0f14-link">14</a></sup></p>
+
+
+
+<p class="wp-block-paragraph">AI begins to separate these two aspects of mathematics. For most of its history, beauty and achievement were intertwined: great mathematical work was both an encounter with something beautiful and the culmination of the mathematician’s own ambition, effort, and creativity. AI threatens the latter far more than the former.</p>
+
+
+
+<p class="wp-block-paragraph">I found this thought deeply reassuring. One day soon, machines may surpass us in all manner of intellectual tasks. But one thing they can <em>never</em> take away from us is our capacity to contemplate beauty—not just in math, but in music, literature, and more—nor our capacity to fall deeply into thought. Mathematics does not become less beautiful because machines are better at it than us.</p>
+
+
+
+<p class="wp-block-paragraph">And yet there is something unsatisfying about this reassurance. It is too simplistic to label all that is threatened here “ego”. We want to do more than just gaze at mathematical beauty. We want to take part in this grand game ourselves: to struggle through hard problems, spend months or years in deep thought, and leave our mark on this centuries-long human endeavour. To be human is to want to achieve great things, and this is much more than ego, hubris, or vanity.</p>
+
+
+
+<p class="wp-block-paragraph">In my reply, I told the professor that if I had the humility to let go of my ego, what I loved most about mathematics remained intact.</p>
+
+
+
+<p class="wp-block-paragraph">A few days later, he wrote back. He agreed that there was truth in what I said, but added one final qualification:</p>
+
+
+
+<p class="wp-block-paragraph">“We might be called to let go of our ego, but there is a thin line between ambition (in its positive meaning) and pride (in its negative meaning).”</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 2 November 2026.</p>
+
+
+<ol class="wp-block-footnotes"><li id="3f1b6c2a-0001-4d5e-9a10-5b7c8d9e0f01">Hardy, <a href="https://web.njit.edu/~akansu/PAPERS/GHHardy-AMathematiciansApology.pdf#page=18"><em>A Mathematician’s Apology</em>, §10</a>. <a href="#3f1b6c2a-0001-4d5e-9a10-5b7c8d9e0f01-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0002-4d5e-9a10-5b7c8d9e0f02">Poincaré, <a href="https://www.hlevkin.com/hlevkin/90MathPhysBioBooks/Math/Poincare-ScienceAndMethod.pdf"><em>Science and Method</em>, p. 22</a>. <a href="#3f1b6c2a-0002-4d5e-9a10-5b7c8d9e0f02-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0003-4d5e-9a10-5b7c8d9e0f03">Russell, <a href="https://www.rodoni.ch/A14/russell-autobiography.pdf#page=166">letter to Gilbert Murray</a>. <a href="#3f1b6c2a-0003-4d5e-9a10-5b7c8d9e0f03-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0004-4d5e-9a10-5b7c8d9e0f04">OpenAI, <a href="https://openai.com/index/chatgpt/">ChatGPT announcement</a>. <a href="#3f1b6c2a-0004-4d5e-9a10-5b7c8d9e0f04-link" aria-label="Jump to footnote reference 4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0005-4d5e-9a10-5b7c8d9e0f05">Yuan et al., <a href="https://arxiv.org/abs/2304.02015">ChatGPT and arithmetic</a>. <a href="#3f1b6c2a-0005-4d5e-9a10-5b7c8d9e0f05-link" aria-label="Jump to footnote reference 5"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0006-4d5e-9a10-5b7c8d9e0f06">Google DeepMind, <a href="https://deepmind.google/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/">AlphaGeometry</a>. <a href="#3f1b6c2a-0006-4d5e-9a10-5b7c8d9e0f06-link" aria-label="Jump to footnote reference 6"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0007-4d5e-9a10-5b7c8d9e0f07">Google DeepMind, <a href="https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/">Gemini at the IMO</a>. <a href="#3f1b6c2a-0007-4d5e-9a10-5b7c8d9e0f07-link" aria-label="Jump to footnote reference 7"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0008-4d5e-9a10-5b7c8d9e0f08">Feng et al., <a href="https://arxiv.org/abs/2601.22401v3">Gemini and Erdős problems</a>. <a href="#3f1b6c2a-0008-4d5e-9a10-5b7c8d9e0f08-link" aria-label="Jump to footnote reference 8"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0009-4d5e-9a10-5b7c8d9e0f09">Alpöge, <a href="https://x.com/__alpoge__/status/2079028340955197566?lang=en">Jacobian counterexample announcement</a>. <a href="#3f1b6c2a-0009-4d5e-9a10-5b7c8d9e0f09-link" aria-label="Jump to footnote reference 9"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0010-4d5e-9a10-5b7c8d9e0f10">OpenAI, <a href="https://openai.com/index/navier-stokes-solution/">Navier–Stokes announcement</a>. <a href="#3f1b6c2a-0010-4d5e-9a10-5b7c8d9e0f10-link" aria-label="Jump to footnote reference 10"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0011-4d5e-9a10-5b7c8d9e0f11">Buckmaster, <a href="https://cims.nyu.edu/~tristanb/statement.pdf">statement on the Navier–Stokes developments</a>. <a href="#3f1b6c2a-0011-4d5e-9a10-5b7c8d9e0f11-link" aria-label="Jump to footnote reference 11"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0012-4d5e-9a10-5b7c8d9e0f12">Hardy, <a href="https://web.njit.edu/~akansu/PAPERS/GHHardy-AMathematiciansApology.pdf#page=50"><em>A Mathematician’s Apology</em>, §29</a>. <a href="#3f1b6c2a-0012-4d5e-9a10-5b7c8d9e0f12-link" aria-label="Jump to footnote reference 12"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0013-4d5e-9a10-5b7c8d9e0f13">Conway, <a href="https://www.todlippy.com/writing/interviews/the-outer-problems-an-interview-with-john-conway">interview on surreal numbers</a>. <a href="#3f1b6c2a-0013-4d5e-9a10-5b7c8d9e0f13-link" aria-label="Jump to footnote reference 13"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0014-4d5e-9a10-5b7c8d9e0f14">Gowers, <a href="https://gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/">on the Fields medallists’ letter</a>. <a href="#3f1b6c2a-0014-4d5e-9a10-5b7c8d9e0f14-link" aria-label="Jump to footnote reference 14"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/17/math-beauty-and-ego/feed/</wfw:commentRss>
+			<slash:comments>10</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3388</post-id>	</item>
+		<item>
 		<title>Do We Still Need Mathematical Journals?</title>
 		<link>https://proofsandprompts.com/2026/11/16/do-we-still-need-mathematical-journals/</link>
 					<comments>https://proofsandprompts.com/2026/11/16/do-we-still-need-mathematical-journals/#comments</comments>
@@ -132,7 +309,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/16/do-we-still-need-mathematical-journals/feed/</wfw:commentRss>
-			<slash:comments>16</slash:comments>
+			<slash:comments>19</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3513</post-id>	</item>
@@ -806,7 +983,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/14/hiring-this-year-advice-and-changes-from-committees/feed/</wfw:commentRss>
-			<slash:comments>5</slash:comments>
+			<slash:comments>7</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3620</post-id>	</item>
@@ -1049,206 +1226,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3221</post-id>	</item>
-		<item>
-		<title>A vision of the future of mathematics</title>
-		<link>https://proofsandprompts.com/2026/11/13/a-vision-of-the-future-of-mathematics/</link>
-					<comments>https://proofsandprompts.com/2026/11/13/a-vision-of-the-future-of-mathematics/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Optimism]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<category><![CDATA[Understanding]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3138</guid>
-
-					<description><![CDATA[Mathematics has been struck by an asteroid. I don't mean the nefarious action of a powerful corporation, but rather the empirical fact that AI systems are capable of superhuman mathematical ability. How this fact was revealed is not important; under different circumstances it may have been revealed sooner or later, or more gently, but ultimately the fact remains the same. We need to face it.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://florianbreuer.github.io/florianbreuer/">Florian Breuer</a><sup data-fn="cc0c22bb-4cb5-5f62-92f4-7766d445f13c" class="fn"><a href="#cc0c22bb-4cb5-5f62-92f4-7766d445f13c" id="cc0c22bb-4cb5-5f62-92f4-7766d445f13c-link">1</a></sup>, Professor of mathematics at the University of Newcastle, Australia</p>
-
-
-
-<p class="wp-block-paragraph"><strong>AI Disclosure.</strong> This essay was revised after feedback from Claude Opus 5.5. Images generated by ChatGPT.</p>
-
-<figure class="wp-block-image size-large wp-duotone-default"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="341" data-attachment-id="3149" data-permalink="https://proofsandprompts.com/asteroid-banner-v2/" data-orig-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/asteroid-banner-v2.jpg?fit=2172%2C724&amp;ssl=1" data-orig-size="2172,724" data-comments-opened="1" data-image-title="A vision of the future of mathematics: banner" data-image-description="" data-image-caption="&lt;p&gt;Image created by ChatGPT.&lt;/p&gt;
-" data-large-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/asteroid-banner-v2.jpg?fit=1024%2C341&amp;ssl=1" src="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/asteroid-banner-v2.jpg?resize=1024%2C341&#038;ssl=1" alt="Watercolour of a young person with dark curly hair and glasses, in a rust-coloured jumper, sitting on an asteroid with a notebook and pencil, looking up at a deep blue night sky filled with gold stars, orbits and fine geometric diagrams." class="wp-image-3149" srcset="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/asteroid-banner-v2.jpg?resize=1024%2C341&amp;ssl=1 1024w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/asteroid-banner-v2.jpg?resize=300%2C100&amp;ssl=1 300w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/asteroid-banner-v2.jpg?resize=768%2C256&amp;ssl=1 768w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/asteroid-banner-v2.jpg?resize=1536%2C512&amp;ssl=1 1536w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/asteroid-banner-v2.jpg?resize=2048%2C683&amp;ssl=1 2048w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Image created by ChatGPT.</figcaption></figure>
-
-
-
-<h2 class="wp-block-heading">Math is hard</h2>
-
-
-
-<p class="wp-block-paragraph">Mathematics has been struck by an asteroid. I don&#8217;t mean the <a href="https://openai.com/index/sharing-ai-progress-in-mathematics/">nefarious action of a powerful corporation</a>, but rather the empirical fact that AI systems are capable of superhuman mathematical ability. How this fact was revealed is not important; under different circumstances it may have been revealed sooner or later, or more gently, but ultimately the fact remains the same. We need to face it.</p>
-
-
-
-<p class="wp-block-paragraph">I think this fact reveals more about humans than about artificial intelligence. Humans are not very good at mathematics. It doesn&#8217;t come naturally to us and learning it is a slow, deliberate and (for many) painful process. Some never learn it at all. Our brains are not wired for mathematics; evolution never selected for it. What mathematical ability we do have is a side-effect of other, evolved abilities such as language and navigating a 3D world. Is it surprising that machines, trained first on the entirety of human mathematical knowledge, and then post-trained via RLVR<sup data-fn="8be2db03-36a8-5b02-96ef-6d6d9c0979c7" class="fn"><a href="#8be2db03-36a8-5b02-96ef-6d6d9c0979c7" id="8be2db03-36a8-5b02-96ef-6d6d9c0979c7-link">2</a></sup> on huge numbers of increasingly hard mathematical and coding problems, eventually learn to outperform us? The same happened with chess, and then Go. David Harvey<sup data-fn="d93ca26f-3b9c-56b1-8bb7-2455e7087f48" class="fn"><a href="#d93ca26f-3b9c-56b1-8bb7-2455e7087f48" id="d93ca26f-3b9c-56b1-8bb7-2455e7087f48-link">3</a></sup> points out that this means mathematics is only 30 years harder than chess (and 10 years harder than Go).</p>
-
-
-
-<h2 class="wp-block-heading">Why we did Mathematics</h2>
-
-
-
-<p class="wp-block-paragraph">Much has been written about how the purpose of mathematics is, has always been and must remain the human understanding of mathematics. I&#8217;m not so sure.</p>
-
-
-
-<p class="wp-block-paragraph">We should examine why we do mathematics in the first place. The mathematical community is a diverse ecosystem of humans, and different members have different styles, abilities and motivations. Some are motivated by the pursuit of truth and beauty. Others live for the competitive thrill &#8211; to be smarter and better than others at this difficult activity. Yet others want to serve society by advancing the frontier of knowledge, leading to innovations which improve lives. Or we do it just because it&#8217;s enjoyable, and we&#8217;ve found a niche where we get paid for doing what we love. For most of us, it will be some combination of the above.<sup data-fn="7d27f6df-a7ae-51b7-9016-70225d59fb23" class="fn"><a href="#7d27f6df-a7ae-51b7-9016-70225d59fb23" id="7d27f6df-a7ae-51b7-9016-70225d59fb23-link">4</a></sup><sup>,</sup><sup data-fn="5b6c21b2-fbed-5eeb-a8cf-021843bd0a40" class="fn"><a href="#5b6c21b2-fbed-5eeb-a8cf-021843bd0a40" id="5b6c21b2-fbed-5eeb-a8cf-021843bd0a40-link">5</a></sup></p>
-
-
-
-<p class="wp-block-paragraph">So much for our own motivations; why should society support this activity, through salaries and grants? First, to teach. Mathematical thinking (problem solving, critical thinking, the ability to deal with abstraction), however puny in absolute terms, is highly valuable and transferable. As long as people need skills at all, this is among the skills they benefit most from learning. I also expect learning to remain a social activity &#8211; it requires almost superhuman willpower to push through the productive struggle needed to rewire your brain if you just study by yourself, with or without the help of AI tutors.</p>
-
-
-
-<p class="wp-block-paragraph">Just as importantly, mathematics underpins the other sciences and technology; it forms the wellspring of the famous innovation pipeline. Pure mathematics leads to applied mathematics leads to other sciences, finally to engineering and valuable technologies. One oft-quoted example is how centuries of number theory, the purest intellectual pursuit, led to public-key cryptography, without which the entire online economy could not function. We feel that even our most abstract and esoteric discoveries might one day, perhaps in 10 or 50 or 200 years, prove a vital input for an as-yet unimaginable new technology.</p>
-
-
-
-<figure class="wp-block-image size-large wp-duotone-default"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="382" data-attachment-id="3137" data-permalink="https://proofsandprompts.com/shortcut-to-innovation/" data-orig-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/shortcut-to-innovation.jpg?fit=1028%2C383&amp;ssl=1" data-orig-size="1028,383" data-comments-opened="1" data-image-title="A vision of the future of mathematics: A shortcut to innovation" data-image-description="" data-image-caption="&lt;p&gt;Image created by ChatGPT.&lt;/p&gt;
-" data-large-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/shortcut-to-innovation.jpg?fit=1024%2C382&amp;ssl=1" src="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/shortcut-to-innovation.jpg?resize=1024%2C382&#038;ssl=1" alt="Three-panel cartoon titled &quot;A shortcut to innovation&quot;. In the first panel a mathematician in a lab coat gestures at a long pipe running from number theory (pure maths) through cryptography (applied maths) to internet commerce, with a tap filling a bucket labelled benefits. In the second a man in a suit holds a saw and a tap, saying &quot;Let's skip the blue-sky stuff.&quot; In the third he turns the tap on a bare board and the bucket is empty: &quot;Well? Where's the growth?&quot;" class="wp-image-3137" srcset="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/shortcut-to-innovation.jpg?resize=1024%2C382&amp;ssl=1 1024w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/shortcut-to-innovation.jpg?resize=300%2C112&amp;ssl=1 300w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/shortcut-to-innovation.jpg?resize=768%2C286&amp;ssl=1 768w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/10/shortcut-to-innovation.jpg?w=1028&amp;ssl=1 1028w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Image created by ChatGPT.</figcaption></figure>
-
-
-
-<p class="wp-block-paragraph">We grow indignant when those who pay us demand we demonstrate how our work will lead to immediate, real-world impact.</p>
-
-
-
-<h2 class="wp-block-heading">The future?</h2>
-
-
-
-<p class="wp-block-paragraph">Many have written about how exciting the new mathematical future will be. Where we previously explored the alien landscape of mathematics on our hands and knees, we now get to drive around on AI-powered jeeps! After all, AI has only solved problem-solving and theorem-proving, which was never the point of mathematics (since mid-2026, anyway). Humans still ask the questions and build the new concepts. Peter Scholze is not yet obsolete, right?</p>
-
-
-
-<p class="wp-block-paragraph">Maybe AI will finally hit the skeptics&#8217; wall,<sup data-fn="87f0efac-f185-5442-9ada-9486705a7af0" class="fn"><a href="#87f0efac-f185-5442-9ada-9486705a7af0" id="87f0efac-f185-5442-9ada-9486705a7af0-link">6</a></sup> but I doubt it. If not, within the next year AIs will ask the better questions, build the more fruitful theories and push the mathematical frontier increasingly beyond our feeble human understanding.</p>
-
-
-
-<p class="wp-block-paragraph">The innovation pipeline will be supercharged. AIs that understand all of mathematics at once will spot applications that would never occur to one of us. They will convert these mathematical discoveries into new scientific insights and technological marvels with increasing speed and autonomy. The spigot at the end of the pipeline will become a cornucopia &#8211; if we live to see it.<sup data-fn="ac31f1aa-a0e4-5be0-95d8-5affb36b19b3" class="fn"><a href="#ac31f1aa-a0e4-5be0-95d8-5affb36b19b3" id="ac31f1aa-a0e4-5be0-95d8-5affb36b19b3-link">7</a></sup> For the rest of society, this will be a good thing &#8211; just like weaving machines gave us cheaper clothes and the Luddites became a footnote of history. But human mathematicians can no longer cite the innovation pipeline in grant applications.</p>
-
-
-
-<p class="wp-block-paragraph">I predict that mathematics will crystallise into a database of formal statements and proofs, initially in Lean, but occasionally refactored as more suitable formal systems are invented. This monolith<sup data-fn="fa92069f-9c59-5d1f-a902-864be28cb6fd" class="fn"><a href="#fa92069f-9c59-5d1f-a902-864be28cb6fd" id="fa92069f-9c59-5d1f-a902-864be28cb6fd-link">8</a></sup> will grow outwards at a dizzying pace with no regard for human understanding. After all, the mathematicians and scientists using it won&#8217;t be human.</p>
-
-
-
-<p class="wp-block-paragraph">What will we, mere human mathematicians, do? We will probably keep teaching mathematics and mathematical thinking. Many of us will keep doing mathematics, human mathematics, fun and beautiful and insightful &#8211; and far from the frontier of knowledge. Some will mine the monolith (with AI help), and bring back shiny mathematical nuggets to digest and share. Others will close themselves off, jealously guarding their &#8220;Human Mathematics&#8221; from any AI contamination.</p>
-
-
-
-<p class="wp-block-paragraph">What, then, of the human understanding of mathematics? It is vital for teaching mathematical thinking, and will continue to bring us beauty and joy, but humans will no longer understand the research frontier.</p>
-
-
-
-<p class="wp-block-paragraph">Mathematics was fun when we were children and knew so much less than the adults. It was recreational and a valuable learning experience. We are about to relive this childhood.<sup data-fn="5229b762-69ea-52d4-bf7a-bafbfa017c7d" class="fn"><a href="#5229b762-69ea-52d4-bf7a-bafbfa017c7d" id="5229b762-69ea-52d4-bf7a-bafbfa017c7d-link">9</a></sup> Can&#8217;t we just drop our conceits and status games and enjoy it?</p>
-
-
-
-<h2 class="wp-block-heading">What&#8217;s wrong with this picture?</h2>
-
-
-
-<p class="wp-block-paragraph">The above vision of the future assumes the development of AI goes broadly well for humanity. This is an important assumption, and does not automatically hold unless we solve the alignment problem, which is hard.</p>
-
-
-
-<p class="wp-block-paragraph">The biggest problem with this vision is that in it we give up control of mathematics to the machines. This seems unavoidable, since the machines are so much better at it, and at producing the useful applications of it, than we are. This abdication will happen automatically, unless we somehow stop the development of powerful AI. The danger is that mathematics is not unique here &#8211; there are many domains in which AI will do better than humans, and for each domain individually it will seem rational to hand control to the more competent machines. Taken together, this leads to the <a href="https://arxiv.org/abs/2501.16946">gradual disempowerment</a> of humanity. First, the machines came for the weavers &#8211; now they come for the rest of us. <a href="https://www.astralcodexten.com/p/against-against-handover">Scott Alexander argues</a> that handing over to a perfectly aligned superintelligence may well be our best bet, but it is still extremely dangerous.</p>
-
-
-
-<p class="wp-block-paragraph">The vision also doesn&#8217;t address what we should do in the short term. Right now, for example, my university pays me to spend 40% of my time teaching, 40% on research and 20% on &#8220;service&#8221;. Setting aside the joke that my allocation is really 80-20-60, how can I justify 40% of my salary for what has become recreational mathematics? There are still research questions where a human + AI may be better than AI alone, and getting results is urgent, for example in post-quantum cryptography. In my case, I am learning to work on AI safety<sup data-fn="59f01ca5-470d-5874-adc7-f79ff4e7bd2e" class="fn"><a href="#59f01ca5-470d-5874-adc7-f79ff4e7bd2e" id="59f01ca5-470d-5874-adc7-f79ff4e7bd2e-link">10</a></sup> &#8211; I&#8217;m putting the transferability of my mathematical skills to the test.</p>
-
-
-
-<p class="wp-block-paragraph">But what of our students? The development of mathematical thinking skills is just as useful as ever, and the work of producing a thesis builds this &#8211; provided you don&#8217;t outsource this task to an AI. The value of a thesis is no longer the results therein (AI can produce these in an afternoon), but in the skills of the candidate. There are many places to put these skills to good use &#8211; starting with AI safety research. And if we do reach AI utopia, a lifetime of joyous mathematics awaits!</p>
-
-
-<ol class="wp-block-footnotes"><li id="cc0c22bb-4cb5-5f62-92f4-7766d445f13c">My opinions are my own. Nevertheless, I benefited from conversations with David Harvey, Fabien Pazuki, Stephan Tornier and others. <a href="#cc0c22bb-4cb5-5f62-92f4-7766d445f13c-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="8be2db03-36a8-5b02-96ef-6d6d9c0979c7">Reinforcement learning from verifiable rewards. <a href="#8be2db03-36a8-5b02-96ef-6d6d9c0979c7-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="d93ca26f-3b9c-56b1-8bb7-2455e7087f48">Private communication. <a href="#d93ca26f-3b9c-56b1-8bb7-2455e7087f48-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="7d27f6df-a7ae-51b7-9016-70225d59fb23">The pursuit of material gain, for money and power, is less common among mathematicians, since those who want these things, and find themselves with mathematical talent, can go work in finance and get rich. <a href="#7d27f6df-a7ae-51b7-9016-70225d59fb23-link" aria-label="Jump to footnote reference 4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="5b6c21b2-fbed-5eeb-a8cf-021843bd0a40">Also, at least in my case, my sense of self-worth rests on my ability to do mathematics (however unremarkable by mathematicians&#8217; standards). The recent developments are a bitter pill to swallow. <a href="#5b6c21b2-fbed-5eeb-a8cf-021843bd0a40-link" aria-label="Jump to footnote reference 5"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="87f0efac-f185-5442-9ada-9486705a7af0">There is a theoretical barrier that AI progress is perpetually about to hit. It is always located slightly ahead of the current frontier, and has the unusual property of retreating at exactly the speed of approach. <a href="#87f0efac-f185-5442-9ada-9486705a7af0-link" aria-label="Jump to footnote reference 6"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="ac31f1aa-a0e4-5be0-95d8-5affb36b19b3">Ensuring AI turns out well for humanity is the most important unsolved problem in the world now. Mathematicians have a role to play here, too! <a href="#ac31f1aa-a0e4-5be0-95d8-5affb36b19b3-link" aria-label="Jump to footnote reference 7"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fa92069f-9c59-5d1f-a902-864be28cb6fd">Starting, perhaps, with the <a href="https://taucetiproject.org/">Tau Ceti Project</a>. It may be surrounded by a larger cloud of less formal mathematics. <a href="#fa92069f-9c59-5d1f-a902-864be28cb6fd-link" aria-label="Jump to footnote reference 8"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="5229b762-69ea-52d4-bf7a-bafbfa017c7d">Assuming we can pay our bills! <a href="#5229b762-69ea-52d4-bf7a-bafbfa017c7d-link" aria-label="Jump to footnote reference 9"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="59f01ca5-470d-5874-adc7-f79ff4e7bd2e">I&#8217;m starting with a course at <a href="https://bluedot.org/">BlueDot</a>. Other resources for mathematicians looking to get into AI safety research include <a href="https://maisi.org/">MAISI</a>, <a href="https://www.iliad.ac/calendar">Iliad</a> and the article <a href="https://arxiv.org/abs/2609.15289">Math for AI safety: an invitation for mathematicians</a> by Lionel Levine. <a href="#59f01ca5-470d-5874-adc7-f79ff4e7bd2e-link" aria-label="Jump to footnote reference 10"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 26 October 2026, revised 13 November 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/13/a-vision-of-the-future-of-mathematics/feed/</wfw:commentRss>
-			<slash:comments>18</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3138</post-id>	</item>
-		<item>
-		<title>Positivist and Humanist Mathematics: A Case for Schism</title>
-		<link>https://proofsandprompts.com/2026/11/13/positivist-and-humanist-mathematics-a-case-for-schism/</link>
-					<comments>https://proofsandprompts.com/2026/11/13/positivist-and-humanist-mathematics-a-case-for-schism/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Fri, 13 Nov 2026 10:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Community]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2501</guid>
-
-					<description><![CDATA[If we do not split the discipline in two, one half of the discipline will inevitably dominate the other, and we will all be worse off for it. After all of the great crises of mathematics in which it survived as a whole, we now find ourselves in an entirely unprecedented situation. We either schism or die. ]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://advith.org/">Advith Govindarajan</a>, PhD student at <a href="https://math.illinois.edu/">University of Illinois at Urbana-Champaign</a></p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">If intuitionism has been characterized with a certain propriety as revolutionists who overturned the ancien régime, Hilbert might be compared with Napoleon who, without regard for considerations of legitimacy, established, through a brilliant political stroke, a new order whose success is the substitute for legitimacy.<br><em>Kurt Grelling, 1928</em></p>
-
-
-
-<p class="wp-block-paragraph">And yet when one hears one of the greatest living mathematicians calmly telling the world that a considerable part of our analysis is devoid of proof, if not nonsense, and when one beholds the mighty efforts which the champions of Weierstrass are making to repel these attacks, it is reasonable, in view of such facts, to ask ourselves, ‘Is all well?’<br><em>James Pierpont, 1928</em><br><br><em>Taken from “Mystic, Geometer, and Intuitionist: The Life of L. E. J. Brouwer” by Dirk van Dalen</em></p>
-</blockquote>
-
-
-
-<p class="wp-block-paragraph">The discipline of Mathematics actualizes itself in the interstitial spaces between our research: in the coffee breaks during conferences, in the asides and footnotes in monographs, and in forum posts of mathematical communities. In those spaces we often hear and refer to the great crises of the past, of the crisis in euclidean geometry, of the crisis in foundations, of the crisis of formalism and constructivism. We now find ourselves in a new crisis which dominates the chatter of the collective coffee rooms of the world. Mathematics has been able to reconstitute itself from those past crises into a singular discipline; however I believe today the divisions are too deep to recover. I make a case for splitting the discipline into two: A positivist mathematics and a humanist mathematics, each with its own journals, institutions, faculty and norms.</p>
-
-
-
-<p class="wp-block-paragraph">There have always been two parts to our discipline. The first part, the positivist aspect of mathematics, entails formulating and proving theorems as its ultimate end goal. The second part, the humanist aspect of mathematics, entails the formulation of mathematical beauty and maturity as its ultimate end goal. These two parts have historically gone along hand-in-hand, with few eruptions. The humanist tradition of mathematics has been fruitful for the positivist end goals, and those positivist end goals have given direction and purpose to the humanist tradition. The current advances in AI technology now have broken this fruitful cooperation. We are reaching a stage where machines can now prove theorems, and we are not too far from the day where an engineer or scientist, needing grounding for a new theory or invention, can ask a machine to formulate the appropriate mathematical background and answer the relevant theorems.</p>
-
-
-
-<p class="wp-block-paragraph">There is of course, still a great need for humans in positivist mathematics: we still need humans to clean up proofs, to guide research directions, to act as the interface between the machines and their application. This is anathema to most humanist mathematicians: no longer would we be building towards mathematical beauty, but rather our discipline would be in some ways, ancillary to a greater project taken over by the machines. Personally, I fall in the humanist camp, but I think it is wrong to dismiss positivism entirely. The goal of positivist mathematics is certainly great: to facilitate the production and maintenance of the book of all the world’s greatest theorems. However, this goal is fundamentally incompatible with the way many of us want to do mathematics.</p>
-
-
-
-<p class="wp-block-paragraph">Some people wave away this incompatibility, arguing that we can square the difference: let humans work in theory formulation, and leave the rest up to the machines. It must be understood that this is already the positivist position. Indeed, it admits that our goal is the formulation of important theorems, and that our discipline should adapt itself to whatever new technologies are possible to achieve that goal. No one knows how far this technology will develop, but this attitude would see it that mathematicians continue to adapt as far as possible to those demands.</p>
-
-
-
-<p class="wp-block-paragraph">On the other hand, in the humanist viewpoint, we may see this as fundamentally absurd. The goal of humanist mathematics is the general development of the intellect. In this sense it shares allegiances with the arts and the humanities, even as it sometimes aids in the work of scientific discovery. Do we stop playing the piano just because digital synthesizers exist? Do we stop painting just because we have photography? Creating the most perfect, realistic image possible to capture the world is certainly a noble pursuit, but we should not let that stop us from engaging in the enterprise of painting as self-expression. By splitting mathematics in twain, both the positivists and humanists will find themselves more free. The positivists will be more free to pursue mathematics as a pure science, and the humanists will be more free to pursue mathematics as a form of beautiful self-expression.</p>
-
-
-
-<p class="wp-block-paragraph">To those reading this, imagine yourself on a hiring committee weighing two different job candidates. The first applicant has 30 papers. The papers are generally rough to read but answer some of the most important questions in the subfield. All their papers make very heavy use of the most advanced LLM technologies. They may answer poorly when asked to recall and explain much of their work but clearly understand intimately how to use LLMs to generate useful, important and interesting results. The second applicant has 5 papers, all human written. The questions they answer are small, some questions they answer are even already known! But the exposition in their papers is stunning and beautiful. When you interview them they are lively and demonstrate deep understanding and love of their work. Which candidate do you hire? The answer to this question determines where you fall along the positivist-humanist axis. It seems clear to me that these two candidates are working in fundamentally different disciplines and traditions, and that treating them in the same pool is a mistake.</p>
-
-
-
-<p class="wp-block-paragraph">If Mathematics does split along this division, it will be with some inevitable strife. Determining which departments, journals, conferences and institutions value the positivist endeavour and which ones value the humanist endeavour may require some bitter conflict. However, the disciplines that emerge from this conflict, Positivist Mathematics and Humanist Mathematics, will be stronger for it. If we do not make these decisions consciously, they will be made unconsciously for us. If we do not split the discipline in two, one half of the discipline will inevitably dominate the other, and we will all be worse off for it. After all of the great crises of mathematics in which it survived as a whole, we now find ourselves in an entirely unprecedented situation. We either schism or die.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 12 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/13/positivist-and-humanist-mathematics-a-case-for-schism/feed/</wfw:commentRss>
-			<slash:comments>8</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2501</post-id>	</item>
 	</channel>
 </rss>

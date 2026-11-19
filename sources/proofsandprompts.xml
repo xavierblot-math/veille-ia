@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Mon, 16 Nov 2026 09:13:20 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 16 Nov 2026 09:57:36 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,386 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>Why the Future of Mathematics Belongs to Human Judgment</title>
+		<link>https://proofsandprompts.com/2026/11/18/why-the-future-of-mathematics-belongs-to-human-judgment/</link>
+					<comments>https://proofsandprompts.com/2026/11/18/why-the-future-of-mathematics-belongs-to-human-judgment/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Wed, 18 Nov 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Choice]]></category>
+		<category><![CDATA[Evaluation]]></category>
+		<category><![CDATA[Future]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3537</guid>
+
+					<description><![CDATA[Artificial intelligence is rapidly crossing boundaries once thought exclusive to human mathematicians. It can search enormous spaces, discover patterns, formalize arguments, and increasingly prove difficult theorems. This raises an unsettling question: if machines can out-search, out-deduce, and out-prove us, what remains uniquely valuable about the human mathematician?]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph">Anonymous</p>
+
+
+
+<p class="wp-block-paragraph">Artificial intelligence is rapidly crossing boundaries once thought exclusive to human mathematicians. It can search enormous spaces, discover patterns, formalize arguments, and increasingly prove difficult theorems. This raises an unsettling question: if machines can out-search, out-deduce, and out-prove us, what remains uniquely valuable about the human mathematician?</p>
+
+
+
+<p class="wp-block-paragraph">The answer is <strong>evaluation</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">Machines may become extraordinary at producing mathematical truths. But mathematics is not merely the accumulation of true statements. Its deeper task is deciding <strong>which truths matter</strong>.</p>
+
+
+
+<h2 class="wp-block-heading">From Inherited Problems to an Ocean of New Ones</h2>
+
+
+
+<p class="wp-block-paragraph">Much of AI&#8217;s mathematical success still takes place on intellectual terrain chosen by humans. Famous conjectures were identified as important because generations of mathematicians judged them to illuminate something fundamental about number, space, symmetry, computation, or the physical world.</p>
+
+
+
+<p class="wp-block-paragraph">But this inherited catalog is finite.</p>
+
+
+
+<p class="wp-block-paragraph">What if all existing conjectures were solved? How could we move forward?</p>
+
+
+
+<p class="wp-block-paragraph">Terence Tao has proposed Math 2.0 for the future. In my view, Math 1.0 could be called the <strong>conjecture era</strong>, and Math 2.0 is the <strong>post conjecture era</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">AI companies have exploited the significance of existing conjectures, but they have forgotten why those problems are important.</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s because we believe they are.</p>
+
+
+
+<p class="wp-block-paragraph">As AI becomes increasingly capable, it will not merely solve existing problems. It will generate new conjectures, definitions, structures, and research directions on a scale no human community could possibly examine.</p>
+
+
+
+<p class="wp-block-paragraph">At that point, the central scarcity in mathematics will no longer be proofs or problems. It will be <strong>attention</strong>.</p>
+
+
+
+<h2 class="wp-block-heading">Truth Is Not the Same as Significance</h2>
+
+
+
+<p class="wp-block-paragraph">Henri Poincaré understood this distinction more than a century ago:</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">“Invention is discernment, choice. &#8230;&#8230; The sterile combinations do not even present themselves to the mind of the inventor.” [1]</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">This insight becomes even more important in the age of AI.</p>
+
+
+
+<p class="wp-block-paragraph">A sufficiently powerful system could generate an enormous number of correct theorems and extraordinarily difficult problems. But difficulty alone does not imply depth. A problem may be hard because it connects profound ideas—or merely because it is an artificial maze created from arbitrary definitions.</p>
+
+
+
+<p class="wp-block-paragraph">The future mathematician therefore need not compete with AI in producing more theorems. The more important role will be to look at what machines produce and ask:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Does this matter?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Does it reveal a hidden structure?<br>Does it simplify our understanding?<br>Does it open a path toward physics, computation, or another fundamental question?</p>
+
+
+
+<p class="wp-block-paragraph">A theorem can be perfectly correct and still be mathematically uninteresting.</p>
+
+
+
+<h2 class="wp-block-heading">Mathematical Taste</h2>
+
+
+
+<p class="wp-block-paragraph">This is what mathematicians traditionally call <strong>taste</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">Beauty, depth, naturalness, explanatory power, and importance are not properties captured simply by the formal correctness of a proof. They arise from relationships among mathematics, human understanding, scientific goals, and intellectual culture.</p>
+
+
+
+<p class="wp-block-paragraph">Liu Cixin dramatizes almost exactly this problem in his science-fiction story <em>The Poetry Cloud</em> [2]. A godlike intelligence uses overwhelming computational power to generate the entire space of possible classical Chinese poems, yet still cannot determine which of them constitute genuine poetry. Exhaustive generation solves the problem of <strong>production</strong>, but not the problem of <strong>selection</strong>. Selection has been discussed more widely in our community, such as [3-5]. The parallel with AI-generated mathematics is striking: a machine might someday generate an ocean of valid theorems without thereby telling us which ones deserve our attention.</p>
+
+
+
+<p class="wp-block-paragraph">AI may learn remarkably sophisticated models of human mathematical taste. It may even predict which problems mathematicians are likely to find interesting. But prediction is not the same as ultimate valuation.</p>
+
+
+
+<p class="wp-block-paragraph">A machine cannot compel humanity to care about a theorem.</p>
+
+
+
+<p class="wp-block-paragraph">Mathematical importance exists partly because finite human beings choose to devote their attention to certain ideas rather than others.</p>
+
+
+
+<h2 class="wp-block-heading">The Economy of Attention</h2>
+
+
+
+<p class="wp-block-paragraph">This is why the future abundance created by AI may make human judgment more valuable, not less.</p>
+
+
+
+<p class="wp-block-paragraph">Human attention is limited. A mathematician has only one career. A research community can pursue only a small fraction of possible questions. Universities can teach only an even smaller fraction of mathematical knowledge.</p>
+
+
+
+<p class="wp-block-paragraph">The decisive questions therefore become:</p>
+
+
+
+<p class="wp-block-paragraph">Which ideas deserve the attention of an entire field?</p>
+
+
+
+<p class="wp-block-paragraph">Which discoveries should become part of our shared intellectual inheritance?</p>
+
+
+
+<p class="wp-block-paragraph">When mathematical production becomes nearly unlimited, <strong>selection becomes the bottleneck</strong>.</p>
+
+
+
+<h2 class="wp-block-heading">From Provers to Cartographers</h2>
+
+
+
+<p class="wp-block-paragraph">AI may therefore transform rather than eliminate the role of mathematicians.</p>
+
+
+
+<p class="wp-block-paragraph">For centuries, mathematicians have combined two roles: conceiving and evaluating ideas, and performing the immense technical labor required to prove them. AI may increasingly absorb the second task—searching proof spaces, verifying lemmas, exploring cases, and constructing formal arguments.</p>
+
+
+
+<p class="wp-block-paragraph">The human mathematician can then move upward in abstraction.</p>
+
+
+
+<p class="wp-block-paragraph">Instead of being primarily a producer of proofs, the mathematician becomes a <strong>cartographer of significance</strong>: identifying worthwhile territories, recognizing deep connections, choosing meaningful questions, and organizing an overwhelming landscape of machine-generated mathematics into something humans can understand.</p>
+
+
+
+<p class="wp-block-paragraph">In an age when answers are cheap and difficult problems can be manufactured automatically, discernment becomes scarce.</p>
+
+
+
+<p class="wp-block-paragraph">Poincaré&#8217;s principle therefore acquires new force:</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">“Invention is discernment, choice.” [1]</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">The future of mathematics may belong not to whoever can generate the most truths, but to whoever can recognize which truths are worth knowing.</p>
+
+
+
+<p class="wp-block-paragraph">If everyone practices this principle, stops obsessing over longstanding conjectures, and chooses problems they truly value rather than being swayed by AI companies, we will have the collective power to shape the future of mathematics.</p>
+
+
+
+<h2 class="wp-block-heading">References</h2>
+
+
+
+<p class="wp-block-paragraph">[1] Henri Poincaré, “Mathematical Creation,” translated from the French by George Bruce Halsted, <em>The Monist</em>, Vol. 20, No. 3, July 1910, pp. 321–335; especially p. 325. <a href="https://henripoincarepapers.univ-nantes.fr/chp/hp-pdf/hp1910moa.pdf">https://henripoincarepapers.univ-nantes.fr/chp/hp-pdf/hp1910moa.pdf</a></p>
+
+
+
+<p class="wp-block-paragraph">[2] Liu Cixin, “The Poetry Cloud” (《诗云》), translated by Chi-yin Ip and Cheuk Wong. <a href="https://www.cuhk.edu.hk/rct/pdf/e_outputs/b7778/v7778p087.pdf">https://www.cuhk.edu.hk/rct/pdf/e_outputs/b7778/v7778p087.pdf</a></p>
+
+
+
+<p class="wp-block-paragraph">[3] <a href="https://proofsandprompts.com/2026/10/19/recommendations-on-the-use-of-ai-for-phd-students-and-supervisors">https://proofsandprompts.com/2026/10/19/recommendations-on-the-use-of-ai-for-phd-students-and-supervisors</a></p>
+
+
+
+<p class="wp-block-paragraph">[4] <a href="https://proofsandprompts.com/2026/10/30/lets-stop-writing-papers">https://proofsandprompts.com/2026/10/30/lets-stop-writing-papers</a></p>
+
+
+
+<p class="wp-block-paragraph">[5] <a href="https://proofsandprompts.com/2026/10/21/mathematics-of-the-future">https://proofsandprompts.com/2026/10/21/mathematics-of-the-future</a></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 10 November 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/18/why-the-future-of-mathematics-belongs-to-human-judgment/feed/</wfw:commentRss>
+			<slash:comments>15</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3537</post-id>	</item>
+		<item>
+		<title>Mathematics: From Deductive Science to Actually an Experimental Science</title>
+		<link>https://proofsandprompts.com/2026/11/18/mathematics-from-deductive-science-to-actually-an-experimental-science/</link>
+					<comments>https://proofsandprompts.com/2026/11/18/mathematics-from-deductive-science-to-actually-an-experimental-science/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Wed, 18 Nov 2026 12:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Evaluation]]></category>
+		<category><![CDATA[Experiments and practice]]></category>
+		<category><![CDATA[Philosophy]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3226</guid>
+
+					<description><![CDATA[“I was someone who thought mathematics was purely a deductive science, even identified with the formalist philosophical point of view, and I have to say that until very recently this was what mathematicians used to do; after all we would prove theorems and give these theorems to the community. […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph">Tiago Veríssimo, PhD student at Newcastle University</p>
+
+
+
+<p class="wp-block-paragraph">Disclosure: This text was written and envisioned by me, any tipos are due to me not being an AI.</p>
+
+
+
+<p class="wp-block-paragraph">I was someone who thought mathematics was purely a deductive science, even identified with the formalist philosophical point of view, and I have to say that until very recently this was what mathematicians used to do; after all we would prove theorems and give these theorems to the community.</p>
+
+
+
+<p class="wp-block-paragraph">With AI now, theorem proving is becoming to be ever more devalued as this process seems to be getting faster and better done by AI. The question is then what do mathematicians actually do in this case?</p>
+
+
+
+<p class="wp-block-paragraph">If you are not proving theorems, you must be doing something. I foresee that in the near future AI will get better at even explaining what these proofs are, even narrating exploratory stories about some theorem or even creating theories to explain unexplored mathematical phenomena. I dare to say, that finding &#8220;interesting&#8221; phenomena might be not so difficult to an AI, as it will gain &#8220;taste&#8221; after some training.</p>
+
+
+
+<p class="wp-block-paragraph">With such a technology, I believe the only route for humans to keep up and have a more interesting life than verifying mathematical proofs of AI is to do &#8220;mathematical experiments&#8221;, as in:</p>
+
+
+
+<ol class="wp-block-list">
+<li>Learn a lot of mathematics</li>
+
+
+
+<li>Explore &#8220;subjectively curious/interesing mathematical phenomena&#8221; via &#8220;mathematical experimentation&#8221;</li>
+
+
+
+<li>Feed the AI with that mathematical experimentation</li>
+
+
+
+<li>Take you formal conclusions from an AI workflow</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">The concept &#8220;mathematical experimentation&#8221; already exists, however it used to be a second category activity, with the main effort and social value actually in proving the results. This, however, might actually prove to be the golden key to evaluate researchers mathematical capacities. But what is mathematical experimentation?</p>
+
+
+
+<p class="wp-block-paragraph">Mathematical experimentation involves on the top of my head the following:</p>
+
+
+
+<ol class="wp-block-list">
+<li>Computational experiments</li>
+
+
+
+<li>Conceptual experiments</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">Computational experiments is what we have been doing for a while, the so-called &#8220;let&#8217;s make some examples&#8221;, either by hand or computer.</p>
+
+
+
+<p class="wp-block-paragraph">The conceptual experiments seems to me to be the new kid in the block and akin to &#8220;vibe coding&#8221; in programing where you have a given engineering objective that you want to acomplish, you put that in your team of 10 agents and is typically done with a good enough quality. In mathematics, conceptual experiments would be informed &#8220;mathematical vibes&#8221; that you get from your study of mathematics or speaking with other people or even AI interactions or even just random processes in your brain.</p>
+
+
+
+<p class="wp-block-paragraph">Look at this example:</p>
+
+
+
+<p class="wp-block-paragraph">You: &#8220;I feel that diffentiable functions are continous, they are smooth and surely something smooth is continous?&#8221;<br>AI: &#8220;Yes! In fact &#8230;.&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">Evaluating researchers at the &#8220;I feel sentence&#8221; would be evaluating mathematical experiment capacity/taste of people, as in:</p>
+
+
+
+<ol class="wp-block-list">
+<li>Why did you proceed with this line of experiments?</li>
+
+
+
+<li>Why did you have that initial concept vibe?</li>
+
+
+
+<li>Why did you lined up those questions afterwards?</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">In a sense we would be measuring the subjective mathematical taste of the human researcher. I think this is would be a fair and pratical way to go forwards to evaluate us: the little human researchers.</p>
+
+
+
+<p class="wp-block-paragraph">This may even effect how we present materials in the sense that we should report our mathematical experiment in journals and talks, maybe hiring and grants should be based in the potential of the mathematical taste to do mathematical experiments? What do you think?</p>
+
+
+
+<p class="wp-block-paragraph">As an aside, the prior paragraphs develop my intuition on why the community is having a bad time with AI and Maths, people signed up to be in the deductive science business, not to do mathematical experiments. Furthermore, the actual career incentives were to proof theorems and so do deductive science.</p>
+
+
+
+<p class="wp-block-paragraph">Mathematics seems to have undergone, in pratice, an epistemic flip; this seems to be the reason behind all this crisis.</p>
+
+
+
+<p class="wp-block-paragraph">Yes, it still is deductive because the actual truth comes only after verifying the AI proof, but when it comes to real human work, this is will be all about mathematical experiments, therefore mathematics is becoming experimental in pratice.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 29 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/18/mathematics-from-deductive-science-to-actually-an-experimental-science/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3226</post-id>	</item>
+		<item>
 		<title>The Word of God</title>
 		<link>https://proofsandprompts.com/2026/11/17/the-word-of-god/</link>
 					<comments>https://proofsandprompts.com/2026/11/17/the-word-of-god/#comments</comments>
@@ -91,7 +471,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/17/the-word-of-god/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
+			<slash:comments>3</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3509</post-id>	</item>
@@ -200,7 +580,7 @@
 <ol class="wp-block-footnotes"><li id="3f1b6c2a-0001-4d5e-9a10-5b7c8d9e0f01">Hardy, <a href="https://web.njit.edu/~akansu/PAPERS/GHHardy-AMathematiciansApology.pdf#page=18"><em>A Mathematician’s Apology</em>, §10</a>. <a href="#3f1b6c2a-0001-4d5e-9a10-5b7c8d9e0f01-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0002-4d5e-9a10-5b7c8d9e0f02">Poincaré, <a href="https://www.hlevkin.com/hlevkin/90MathPhysBioBooks/Math/Poincare-ScienceAndMethod.pdf"><em>Science and Method</em>, p. 22</a>. <a href="#3f1b6c2a-0002-4d5e-9a10-5b7c8d9e0f02-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0003-4d5e-9a10-5b7c8d9e0f03">Russell, <a href="https://www.rodoni.ch/A14/russell-autobiography.pdf#page=166">letter to Gilbert Murray</a>. <a href="#3f1b6c2a-0003-4d5e-9a10-5b7c8d9e0f03-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0004-4d5e-9a10-5b7c8d9e0f04">OpenAI, <a href="https://openai.com/index/chatgpt/">ChatGPT announcement</a>. <a href="#3f1b6c2a-0004-4d5e-9a10-5b7c8d9e0f04-link" aria-label="Jump to footnote reference 4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0005-4d5e-9a10-5b7c8d9e0f05">Yuan et al., <a href="https://arxiv.org/abs/2304.02015">ChatGPT and arithmetic</a>. <a href="#3f1b6c2a-0005-4d5e-9a10-5b7c8d9e0f05-link" aria-label="Jump to footnote reference 5"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0006-4d5e-9a10-5b7c8d9e0f06">Google DeepMind, <a href="https://deepmind.google/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/">AlphaGeometry</a>. <a href="#3f1b6c2a-0006-4d5e-9a10-5b7c8d9e0f06-link" aria-label="Jump to footnote reference 6"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0007-4d5e-9a10-5b7c8d9e0f07">Google DeepMind, <a href="https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/">Gemini at the IMO</a>. <a href="#3f1b6c2a-0007-4d5e-9a10-5b7c8d9e0f07-link" aria-label="Jump to footnote reference 7"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0008-4d5e-9a10-5b7c8d9e0f08">Feng et al., <a href="https://arxiv.org/abs/2601.22401v3">Gemini and Erdős problems</a>. <a href="#3f1b6c2a-0008-4d5e-9a10-5b7c8d9e0f08-link" aria-label="Jump to footnote reference 8"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0009-4d5e-9a10-5b7c8d9e0f09">Alpöge, <a href="https://x.com/__alpoge__/status/2079028340955197566?lang=en">Jacobian counterexample announcement</a>. <a href="#3f1b6c2a-0009-4d5e-9a10-5b7c8d9e0f09-link" aria-label="Jump to footnote reference 9"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0010-4d5e-9a10-5b7c8d9e0f10">OpenAI, <a href="https://openai.com/index/navier-stokes-solution/">Navier–Stokes announcement</a>. <a href="#3f1b6c2a-0010-4d5e-9a10-5b7c8d9e0f10-link" aria-label="Jump to footnote reference 10"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0011-4d5e-9a10-5b7c8d9e0f11">Buckmaster, <a href="https://cims.nyu.edu/~tristanb/statement.pdf">statement on the Navier–Stokes developments</a>. <a href="#3f1b6c2a-0011-4d5e-9a10-5b7c8d9e0f11-link" aria-label="Jump to footnote reference 11"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0012-4d5e-9a10-5b7c8d9e0f12">Hardy, <a href="https://web.njit.edu/~akansu/PAPERS/GHHardy-AMathematiciansApology.pdf#page=50"><em>A Mathematician’s Apology</em>, §29</a>. <a href="#3f1b6c2a-0012-4d5e-9a10-5b7c8d9e0f12-link" aria-label="Jump to footnote reference 12"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0013-4d5e-9a10-5b7c8d9e0f13">Conway, <a href="https://www.todlippy.com/writing/interviews/the-outer-problems-an-interview-with-john-conway">interview on surreal numbers</a>. <a href="#3f1b6c2a-0013-4d5e-9a10-5b7c8d9e0f13-link" aria-label="Jump to footnote reference 13"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0014-4d5e-9a10-5b7c8d9e0f14">Gowers, <a href="https://gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/">on the Fields medallists’ letter</a>. <a href="#3f1b6c2a-0014-4d5e-9a10-5b7c8d9e0f14-link" aria-label="Jump to footnote reference 14"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/17/math-beauty-and-ego/feed/</wfw:commentRss>
-			<slash:comments>12</slash:comments>
+			<slash:comments>16</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3388</post-id>	</item>
@@ -762,469 +1142,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2055</post-id>	</item>
-		<item>
-		<title>Hiring this year: advice and changes from committees</title>
-		<link>https://proofsandprompts.com/2026/11/14/hiring-this-year-advice-and-changes-from-committees/</link>
-					<comments>https://proofsandprompts.com/2026/11/14/hiring-this-year-advice-and-changes-from-committees/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Sat, 14 Nov 2026 08:00:00 +0000</pubDate>
-				<category><![CDATA[In practice]]></category>
-		<category><![CDATA[Evaluation]]></category>
-		<category><![CDATA[PhD and postdoc applications]]></category>
-		<category><![CDATA[Understanding]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3620</guid>
-
-					<description><![CDATA[Advice from people doing the hiring this year: DPMMS Cambridge on three changes to its postdoc appointments process, the CNRS Section 01 committee on its 2027 junior researcher competition, and Alessio Figalli and Sobhan Seyfaddini on postdoc hiring at ETH Zurich. More contributions will be added as they arrive.]]></description>
-										<content:encoded><![CDATA[
-<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · This post collects practical advice and changes for the upcoming applications to postdocs and early career jobs. If you come across other advice published by hiring committees this year, or if you are involved in hiring and would like to add something, please <a href="https://proofsandprompts.com/submit/">tell us</a>: we will add it to this post. <a href="https://proofsandprompts.com/tag/application-season/">All posts in the series on careers</a></p>
-
-
-
-
-
-<h2 class="wp-block-heading">Cambridge: three changes to postdoc appointments at DPMMS</h2>
-
-
-
-<p class="author-line wp-block-paragraph"><a href="https://www.dpmms.cam.ac.uk/">Department of Pure Mathematics and Mathematical Statistics</a> (DPMMS), University of Cambridge</p>
-
-
-
-<p class="wp-block-paragraph">DPMMS has adapted the appointments process for the Herchel-Smith (and other departmental) postdoc in three ways this season. First, we ask candidates in their applications to specify <em>up to four</em> of their strongest papers or preprints, to consciously de-weight volume of production relative to quality. Second, we have a small bespoke hiring committee to explicitly compare files across different fields, which includes taking stock of different experiences around AI which is impacting fields differently. Finally, we have told applicants we expect to interview for the positions, which we have not done before, giving leading candidates a chance to show their command of and passion for their work more directly.</p>
-
-
-
-<p class="has-small-font-size wp-block-paragraph">Received 11 November 2026.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<h2 class="wp-block-heading">CNRS: advice from the Section 01 committee for the 2027 junior researcher competition</h2>
-
-
-
-<p class="author-line wp-block-paragraph">Sophie Morel, CNRS senior researcher in Lyon and chair of Section 01 of the <a href="https://cn.math.cnrs.fr/">Comité national de la recherche scientifique</a></p>
-
-
-
-<p class="wp-block-paragraph">In 2027, the CNRS should open 13 junior researcher positions in mathematics. These are tenured research-only positions, 9 of them based at any French university and 4 of them reserved for particular universities; in the past few years, the average academic age of new hires in mathematics has been PhD + 3/4 years, and we welcome international applications. (No knowledge of French is necessary to apply or be selected.)</p>
-
-
-
-<p class="wp-block-paragraph">The CNRS mathematics hiring committee has published some advice to candidates to explain our position concerning the use of generative AI during the hiring process, the changes we are making to adapt to the new circumstances, and our evaluation criteria. This advice and more information about the calendar is available on <a href="https://cn.math.cnrs.fr/">our website</a>: <a href="https://cn.math.cnrs.fr/Doc/Conseils_CR2027.pdf">French version here</a>, <a href="https://cn.math.cnrs.fr/Doc/Advice_CR2027.pdf">English version here</a>. Here is a short summary:</p>
-
-
-
-<ul class="wp-block-list">
-<li>We will not use any generative AI for our work as a committee. This means in particular that we will not put any part of any application in any generative AI tool, and we will not use generative AI tools to judge applications.</li>
-
-
-
-<li>We will not penalize candidates for using or not using generative AI tools in their research.</li>
-
-
-
-<li>We ask candidates to include a detailed declaration of AI use in their research, and to write their report on previous research and their research project themselves (without assistance from generative AI). We also ask them to make these texts as clear and accessible as possible; they should be understandable both to specialists in the field and to mathematicians working outside the candidates’ area of research.</li>
-
-
-
-<li>The application should not include a full list of publications and preprints. Instead, we ask candidates to select at most 7 scientific productions (articles, preprints, software, databases etc) and to provide a short explanation of their selection.</li>
-
-
-
-<li>In the report on previous research, we ask candidates to highlight at most 3 research contributions and to explain them in detail (context, new ideas and methods, etc).</li>
-
-
-
-<li>We will double the length of the interviews and the size of the interview subcommittees.</li>
-</ul>
-
-
-
-<p class="has-small-font-size wp-block-paragraph">Received 13 November 2026.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<h2 class="wp-block-heading">ETH Zurich: postdoc hiring in the age of AI</h2>
-
-
-
-<p class="author-line wp-block-paragraph"><a href="https://people.math.ethz.ch/~afigalli/">Alessio Figalli</a> and <a href="https://people.math.ethz.ch/~sseyfaddini/about">Sobhan Seyfaddini</a>, Professors at ETH Zurich</p>
-
-
-
-<p class="wp-block-paragraph">Drawing on our experience as past and current members of postdoctoral hiring committees, we would like to share our perspective on how to evaluate postdoctoral candidates in the age of AI.</p>
-
-
-
-<p class="wp-block-paragraph">AI does not change what we ultimately want to assess in a candidate: the depth of their mathematical understanding, the substance of their own contributions, and their potential to develop new ideas.</p>
-
-
-
-<p class="wp-block-paragraph">At the initial shortlisting stage, we expect recommendation letters and CVs to play an important role, but we do not regard publication counts alone as a reliable guide to a candidate’s potential. We are more interested in the substance of the work and in what the application reveals about the candidate’s own contributions, ideas, and development as a mathematician. Where possible, we may also examine selected papers more closely to gain a better understanding of the mathematical ideas involved and how they are presented.</p>
-
-
-
-<p class="wp-block-paragraph">For shortlisted candidates, the interview will be crucial for assessing their mathematical understanding and judgment more directly.<br>Can they explain the ideas behind their results, why the arguments work, and where the difficulties lie?<br>Can they discuss what they tried, what failed, and which questions remain open?<br>We would also like to understand how they see their work in a broader mathematical context, why they consider it significant, and what they regard as their own main contributions. We expect that a talk followed by an in-depth discussion will give us a good sense of each candidate’s mathematical understanding, maturity, and approach to research.</p>
-
-
-
-<p class="wp-block-paragraph">Our advice to applicants is therefore to make their own contributions clear in their applications and to be prepared to discuss their work in depth, since a thoughtful and honest mathematical conversation can reveal far more than a publication count. While the ways in which we assess candidates may evolve as the tools available to mathematicians change, our emphasis will remain on mathematical understanding, originality, and research potential.</p>
-
-<p class="has-small-font-size wp-block-paragraph">Received 5 November 2026. First published on 6 November 2026 as “<a href="https://proofsandprompts.com/2026/11/06/postdoc-hiring-in-the-age-of-ai-what-still-matters/">Postdoc Hiring in the Age of AI: What Still Matters</a>”.</p>
-
-<div class="wp-block-group pp-elsewhere has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<h2 class="wp-block-heading">Elsewhere: advice published by other institutions</h2>
-
-
-
-<p class="wp-block-paragraph">These notices were not sent to Proofs and Prompts. We quote them as the institutions published them, with a link to the source and the date we consulted it.</p>
-
-
-
-<h3 class="wp-block-heading">Institute for Advanced Study, School of Mathematics</h3>
-
-
-
-<p class="wp-block-paragraph">Postdoctoral and other memberships; deadline 1 December. The School’s <a href="https://www.ias.edu/math/apply/membership">membership application page</a> includes the following notice (consulted 13 November 2026):</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">PLEASE NOTE: We realize that applying to positions in the current environment is stressful. To help alleviate this, the School of Mathematics offers applicants the option to submit research statement based only on already conducted research. It would be helpful if such a statement would be focused on a few select projects (in most cases up to three) and not a wide ranging list.</p>
-
-
-
-<p class="wp-block-paragraph">We also want to turn the attention of applicants to the option of including a url to a recorded lecture (e.g. seminar or conference talk) in the application form. If you did not have a talk recorded, you can record one yourself and give the link; if this is not clear from the accompanying information in the video url, please explain in which context the talk was given and to what audience in the comments section of the application.</p>
-
-
-
-<p class="wp-block-paragraph">Applicants should feel free to include in the comments section any pertinent information regarding the application, in particular regarding impact (either helpful or unhelpful) of AI related tools on your research.</p>
-<cite><a href="https://www.ias.edu/math/apply/membership">IAS School of Mathematics, “Applying for Membership in the School of Mathematics”</a></cite></blockquote>
-
-
-
-<h3 class="wp-block-heading">Max Planck Institute for Mathematics, Bonn</h3>
-
-
-
-<p class="wp-block-paragraph">Guest Program and postdoc positions; the fall 2026 round closed on 16 October. The institute’s <a href="https://www.mpim-bonn.mpg.de/node/3888">application page</a> includes the following AI policy (consulted 13 November 2026):</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">The MPI is a place for human interactions and discussions.</p>
-
-
-
-<p class="wp-block-paragraph">Your research statement must be fully written without the use of AI, and we encourage you to keep it to at most 5 pages. When describing your previous work, please disclose the extent of AI use therein.</p>
-
-
-
-<p class="wp-block-paragraph">We will not use AI in the evaluation of applications.</p>
-
-
-
-<p class="wp-block-paragraph">The Max Planck Society provides free access to current LLM&#8217;s for everybody who is at MPIM for more than a year, and researchers who use AI in their work are welcome.</p>
-
-
-
-<p class="wp-block-paragraph">We believe that it is important to sustain a subcommunity of  mathematicians who choose not to use AI in their work, and we also welcome their applications.</p>
-
-
-
-<p class="wp-block-paragraph">We expect our members to support the <a href="https://leidendeclaration.ai/">Leiden Declaration on Artificial Intelligence and Mathematics</a>.</p>
-<cite><a href="https://www.mpim-bonn.mpg.de/node/3888">Max Planck Institute for Mathematics, “Application for the Guest Program and for postdoc positions”</a></cite></blockquote>
-
-
-
-<h3 class="wp-block-heading">MIT, Department of Mathematics</h3>
-
-
-
-<p class="wp-block-paragraph">C.L.E. Moore Instructorships (deadline 1 December) and tenure-track faculty positions (deadline 1 November). Both postings on the department’s <a href="https://math.mit.edu/about/employment.html">employment page</a> ask for a “Gen AI statement”, described as follows (consulted 13 November 2026):</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">The Gen AI statement is a detailed factual statement on the use of generative AI, if any, in the applicant&#8217;s past work and current application materials.</p>
-<cite><a href="https://math.mit.edu/about/employment.html">MIT Department of Mathematics, “Employment”</a></cite></blockquote>
-
-
-
-<h3 class="wp-block-heading">Recommendations to hiring committees</h3>
-
-
-
-<p class="wp-block-paragraph">These are proposals addressed to departments, not rules of any hiring process.</p>
-
-
-
-<ul class="wp-block-list">
-<li><a href="https://cmsa.fas.harvard.edu/media/2026/10/Summit-on-Math-Research-in-the-Age-of-AI.pdf">Report of the Summit on Math Research in the Age of AI</a> (Harvard CMSA, 22–23 October 2026). Among other things, it suggests that during this transition departments may allow research statements without future research plans, and that application materials could include evidence of exposition and communication.</li>
-
-
-
-<li><a href="https://simons.berkeley.edu/news-publications-videos/ai-tcs-working-group">AI and TCS: The Next Six Months</a> (Simons Institute working group, 28 September 2026), for theoretical computer science. It recommends evaluating candidates on a few works of their own choosing, testing their understanding of those works in more depth, and making these changes starting with the 2026–2027 hiring season.</li>
-</ul>
-</div>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/14/hiring-this-year-advice-and-changes-from-committees/feed/</wfw:commentRss>
-			<slash:comments>8</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3620</post-id>	</item>
-		<item>
-		<title>Human skepticism and formal verification</title>
-		<link>https://proofsandprompts.com/2026/11/13/human-skepticism-and-formal-verification/</link>
-					<comments>https://proofsandprompts.com/2026/11/13/human-skepticism-and-formal-verification/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Fri, 13 Nov 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Lean]]></category>
-		<category><![CDATA[Philosophy]]></category>
-		<category><![CDATA[Understanding]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3221</guid>
-
-					<description><![CDATA[I believe mathematical claims that are verified in Lean, but this is also basically an appeal to authority. From the perspective of methodological skepticism, I do not know that the results claimed by OpenAI are true until I have studied them and personally convinced myself that they are true.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://cirget.uqam.ca/Friedman/index.html">Benjamin Friedman</a>, postdoctoral fellow at Université du Québec à Montréal (UQÀM)</p>
-
-
-
-<h2 class="wp-block-heading">Introduction</h2>
-
-
-
-<p class="wp-block-paragraph">On October 6, 2026, the artificial intelligence company OpenAI released a github repository containing 722 articles claiming new results across a large variety of mathematical disciplines. According to OpenAI, their models worked for an average of three hours to achieve each of the results.</p>
-
-
-
-<p class="wp-block-paragraph">Of note here is the decision to list the author of each article simply as “OpenAI”. It is highly unusual in mathematical scholarship for a company to be considered the author of an article. The decision to have the mathematicians hired by OpenAI generate these results anonymously is clearly intentional, since the idea is to show off the creative powers of the company’s product.</p>
-
-
-
-<p class="wp-block-paragraph">More troubling is the idea that these problems are already considered “solved” the same day that they are released to the public, well before the mathematical community has had any opportunity to verify the solutions. Many of these articles were accompanied by Lean scripts, with the implicit justification that so long as the statement in the article corresponds to the type instantiated in the Lean script, the results are to be seen as true.</p>
-
-
-
-<p class="wp-block-paragraph">I argue in this piece that formal verification, including Lean, is a mechanized implementation of a skeptical posture that is essential to mathematical practice, but that a certificate of formal verification is an unsatisfying substitute for human skepticism. I conclude the essay by advocating for methodological skepticism as a practice that will help keep our field grounded amid the tumultuous changes brought about by AI systems.</p>
-
-
-
-<h2 class="wp-block-heading">Skepticism as a mathematical method</h2>
-
-
-
-<p class="wp-block-paragraph">Before we can describe how Lean mechanizes skepticism, and why a Lean certificate on its own is not satisfying, we must first understand the role of skepticism in mathematical practice. The role of skepticism in mathematics is <em>methodological</em>. The titular method in Descartes’ influential 1637 work <em>Discourse on the method of rightly conducting one’s reason and of seeking truth in the sciences</em> is a <em>methodological skepticism</em>, in which one advances carefully towards truth, never accepting any fact unless entirely convinced of its veracity. Descartes likens knowledge without a firm foundation to a building “built on mud or on sand”. One might imagine a skeptical attack of one’s purported knowledge as analogous to a “stress-test” of the building’s stability. Is this claim really established beyond all doubt? Let me shake it and see whether it stands, or whether it all comes crashing down! Thus, in the Cartesian view we can be certain only of those matters which stand up to the highest degree of skeptical attack.</p>
-
-
-
-<p class="wp-block-paragraph">This degree of skepticism is much too stringent to be practical in most contexts. Indeed, Descartes points out that since our knowledge of the world is factored through sensory experiences, which may be compromised by an elaborate deception, we cannot apply this methodological skepticism to most worldly matters. However since our objects of inquiry are abstract, mathematicians have the rare luxury among thinkers of being able to apply Cartesian-level skepticism to achieve substantial results.</p>
-
-
-
-<p class="wp-block-paragraph">In his book <em>Mathematica</em>, the mathematician and writer David Bessis draws on the writings of Descartes, Grothendieck, Thurston and others to show that mathematical practice consists of two layers: an “official” mathematics, in which we use formal logic to deduce facts about abstract mathematical objects, and a “secret” mathematics, which is an imaginative mode of thought, in which one develops mental pictures and intuitions for mathematics. According to Bessis, one develops mathematical knowledge through interrogating and correcting one’s intuitions about mathematical objects, leading to greater understanding. Thus, methodological skepticism is directed inwardly in order to sharpen the clarity of one’s mental pictures.</p>
-
-
-
-<p class="wp-block-paragraph">To illustrate this, Bessis makes a geometric claim: A straight line can intersect a circle in at most two distinct points. By employing a modest degree of visual imagination, one can attempt to refute the claim by trying to visualize a line intersecting a circle in three distinct points. However in this attempt at <em>refutation</em>, one will become convinced of the claim.</p>
-
-
-
-<p class="wp-block-paragraph">This also explains why experienced mathematicians can seem to their junior colleagues like they have supernatural abilities. A couple of years ago I had the distinct fortune of getting to meet a famous and influential mathematician in my field. I was explaining to him a problem that I was working on at the time, and he very quickly isolated certain hypotheses that would be required. My advisor and I had in fact come to the same conclusion, but over the course of several months instead of over the course of one conversation. The remarkably quick, seemingly effortless realization is very impressive. It was certainly not, however, a result of him rapidly performing formal deductive arguments or symbolic manipulations in his head. Rather, if we accept Bessis’s model of mathematical practice, then the explanation would be that he has developed a deep intuition for these sorts of problems through sustained mental habits – namely the creation of mental pictures paired with the skeptical interrogation and refinement of those pictures – over many years.</p>
-
-
-
-<p class="wp-block-paragraph">There is another account of skepticism that is important in order to understand the role of formal verification. The philosopher Catarina Dutilh Novaes argues in her book <em>The Dialogical Roots of Deduction</em> that deductive reasoning is structured around a dialogue between a <em>prover</em>, who seeks to establish a claim, and a <em>skeptic</em>, who resists belief in the claim unless compelled. Despite being on opposing sides of the dialogue, both roles are essential to establishing an air-tight deductive argument.</p>
-
-
-
-<p class="wp-block-paragraph">This dialogue is core to mathematical practice. Sometimes the dialogue is implicit, such as when a mathematician writing down a proof anticipates the objections of a skeptical reader. At other times, the dialogue is explicit, such as when a colleague at a seminar presents an objection to a mathematician’s argument, to which that mathematician is now obliged to respond to the colleague’s satisfaction.</p>
-
-
-
-<p class="wp-block-paragraph">A routine part of my training as a mathematician has been defending claims I wanted to make against the challenges of my teachers. Did my teachers really disbelieve the claims that I was making? Maybe in those rare cases in which my claims were entirely original, or in which I was making a claim about a more obscure result. But my teachers’ skepticism was present even when I was presenting results from well within the canon of my field. It would be ridiculous to imagine that the Hodge decomposition theorem, a standard theorem of differential geometry, is doubted by any expert. Rather, this skepticism is methodological on the part of my teachers, these interrogations serving as probes of my understanding. This is in line both with Bessis’s account of skepticism as sharpening one’s intuitions, as well as with Dutilh Novaes’ dialogical model, in which they are playing the skeptical role in a dialogue.</p>
-
-
-
-<p class="wp-block-paragraph">Dialogue between humans, and in particular the application of skepticism, has been the basis by which mathematical truth has been established for thousands of years, until the advent of:</p>
-
-
-
-<h2 class="wp-block-heading">Formal verification</h2>
-
-
-
-<p class="wp-block-paragraph">Lean 4 is a proof assistant, meaning that it does not generate proofs, but only checks a proof’s validity. The basic concept behind this verification is something called the <em>Curry–Howard correspondence</em>, or “proofs as programs”. The Curry–Howard correspondence is related to the branch of computer science known as <em>type theory</em>. A theorem corresponds to a <em>type</em>, while a valid proof of the theorem corresponds to an <em>instance</em> of the type. This is more complicated than the type theory that one would typically encounter in an introductory computer science class, in which one would learn that <math data-latex="0"><semantics><mn>0</mn><annotation encoding="application/x-tex">0</annotation></semantics></math> and <math data-latex="613"><semantics><mn>613</mn><annotation encoding="application/x-tex">613</annotation></semantics></math> and <math data-latex="-7"><semantics><mrow><mo lspace="0em" rspace="0em">−</mo><mn>7</mn></mrow><annotation encoding="application/x-tex">-7</annotation></semantics></math> are instances of the type <math data-latex="\mathrm{int}"><semantics><mi mathvariant="normal">int</mi><annotation encoding="application/x-tex">\mathrm{int}</annotation></semantics></math>, but it is the same idea.</p>
-
-
-
-<p class="wp-block-paragraph">The idea behind formal verification, that a mathematical proof can be presented as a computer program whose successful compilation corresponds to the proof’s validity, was somewhat unsavoury to me at first, perhaps because I was unsettled at the idea of human skepticism being replaced by a mechanized process. Nevertheless, I was reassured to find that the proponents of Lean were not arguing to replace human skepticism with formal verification, but instead arguing that Lean could serve as a strong <em>additional</em> test of a theorem’s validity.</p>
-
-
-
-<p class="wp-block-paragraph">Using Lean can be thought of as a technological implementation of the prover-skeptic dialogue, in which the user assumes the role of prover, while the skeptic role is mechanized. To illustrate this, here is some Lean code attempting to formalize the famous proof that there exists no rational number <math data-latex="q"><semantics><mi>q</mi><annotation encoding="application/x-tex">q</annotation></semantics></math> such that <math data-latex="q^2 =2"><semantics><mrow><msup><mi>q</mi><mn>2</mn></msup><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">q^2 =2</annotation></semantics></math>, a proof by contradiction:</p>
-
-
-
-<figure class="wp-block-image size-large wp-duotone-default"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1030" height="403" data-attachment-id="3323" data-permalink="https://proofsandprompts.com/lean1/" data-orig-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/lean1.png?fit=1030%2C403&amp;ssl=1" data-orig-size="1030,403" data-comments-opened="1" data-image-title="Lean code attempting to prove that the square root of 2 is irrational" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/lean1.png?fit=1024%2C401&amp;ssl=1" src="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/lean1.png?resize=1030%2C403&#038;ssl=1" alt="Screenshot of Lean code with 14 numbered lines: import Mathlib, then theorem sqrt2_irrational stating that there is no rational q with q times q equal to 2. The proof introduces q and hq, sets a to the numerator and b to the denominator of q, proves sub_in_ab by rewriting q as a over b, and begins to prove ab_coprime with exact (Rat.isCoprime_num_den q), which is underlined in red as an error on line 14." class="wp-image-3323" srcset="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/lean1.png?w=1030&amp;ssl=1 1030w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/lean1.png?resize=300%2C117&amp;ssl=1 300w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/lean1.png?resize=1024%2C401&amp;ssl=1 1024w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/lean1.png?resize=768%2C300&amp;ssl=1 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
-
-
-
-<p class="wp-block-paragraph">The <code>intro</code> tactic on line <code>4</code> introduces, by way of contradiction, a rational number <math data-latex="q"><semantics><mi>q</mi><annotation encoding="application/x-tex">q</annotation></semantics></math> satisfying <code>hq</code>, which states that <math data-latex="q^2=2"><semantics><mrow><msup><mi>q</mi><mn>2</mn></msup><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">q^2=2</annotation></semantics></math>. This is followed by my attempt at convincing Lean that we can substitute <math data-latex="q = \frac{a}{b}"><semantics><mrow><mi>q</mi><mo>=</mo><mfrac><mi>a</mi><mi>b</mi></mfrac></mrow><annotation encoding="application/x-tex">q = \frac{a}{b}</annotation></semantics></math> with <math data-latex="a,b"><semantics><mrow><mi>a</mi><mo separator="true">,</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">a,b</annotation></semantics></math> in lowest terms into the equation <math data-latex="q^2=2"><semantics><mrow><msup><mi>q</mi><mn>2</mn></msup><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">q^2=2</annotation></semantics></math>. This is all code that I wrote, so we are seeing only the “prover” side of the dialogue. Let’s see Lean’s response at line <code>11</code>:</p>
-
-
-
-<figure class="wp-block-image size-full wp-duotone-default"><img data-recalc-dims="1" decoding="async" width="505" height="247" data-attachment-id="3324" data-permalink="https://proofsandprompts.com/lean2/" data-orig-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/lean2.png?fit=505%2C247&amp;ssl=1" data-orig-size="505,247" data-comments-opened="1" data-image-title="Lean tactic state at line 11" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/lean2.png?fit=505%2C247&amp;ssl=1" src="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/lean2.png?resize=505%2C247&#038;ssl=1" alt="Screenshot of Lean's Tactic state panel showing one goal: q is a rational number, hq states q times q equals 2, a is an integer equal to q.num, b is a natural number equal to q.den, and sub_in_ab states a over b times a over b equals 2. The goal below the turnstile is False." class="wp-image-3324" srcset="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/lean2.png?w=505&amp;ssl=1 505w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/lean2.png?resize=300%2C147&amp;ssl=1 300w" sizes="(max-width: 505px) 100vw, 505px" /></figure>
-
-
-
-<p class="wp-block-paragraph">This “tactic state” describes Lean’s understanding of the proof at line <code>11</code>, beginning with a list of statements which I have convinced Lean to accept, namely</p>
-
-
-
-<ul class="wp-block-list">
-<li>that we have a rational number <math data-latex="q"><semantics><mi>q</mi><annotation encoding="application/x-tex">q</annotation></semantics></math>,</li>
-
-<li>that we have <math data-latex="q^2=2"><semantics><mrow><msup><mi>q</mi><mn>2</mn></msup><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">q^2=2</annotation></semantics></math> (this is called <code>hq</code>),</li>
-
-<li>that there is an integer <math data-latex="a"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math> equal to the numerator of <math data-latex="q"><semantics><mi>q</mi><annotation encoding="application/x-tex">q</annotation></semantics></math> and a natural number <math data-latex="b"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math> equal to the denominator of <math data-latex="q"><semantics><mi>q</mi><annotation encoding="application/x-tex">q</annotation></semantics></math>, and</li>
-
-<li>that we can substitute <math data-latex="q=\frac{a}{b}"><semantics><mrow><mi>q</mi><mo>=</mo><mfrac><mi>a</mi><mi>b</mi></mfrac></mrow><annotation encoding="application/x-tex">q=\frac{a}{b}</annotation></semantics></math> into the equation <math data-latex="q^2=2"><semantics><mrow><msup><mi>q</mi><mn>2</mn></msup><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">q^2=2</annotation></semantics></math>.</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">Since this is a proof by contradiction, the goal, which is the statement appearing after the <math data-latex="\vdash"><semantics><mo>⊢</mo><annotation encoding="application/x-tex">\vdash</annotation></semantics></math> symbol, is the statement <code>False</code>.</p>
-
-
-
-<p class="wp-block-paragraph">So far, so good. If I was presenting this proof in a lecture hall, then Lean would be an audience member who is following my reasoning and is satisfied by my argument up to this point. But when we get to line <code>14</code>, where I attempt to show that the greatest common divisor (GCD) of <math data-latex="a"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math> and <math data-latex="b"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math> is equal to <math data-latex="1"><semantics><mn>1</mn><annotation encoding="application/x-tex">1</annotation></semantics></math>, an error message shows up:</p>
-
-
-
-<figure class="wp-block-image size-full wp-duotone-default"><img data-recalc-dims="1" decoding="async" width="409" height="274" data-attachment-id="3325" data-permalink="https://proofsandprompts.com/lean3/" data-orig-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/lean3.png?fit=409%2C274&amp;ssl=1" data-orig-size="409,274" data-comments-opened="1" data-image-title="Lean type mismatch error at line 14" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/lean3.png?fit=409%2C274&amp;ssl=1" src="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/lean3.png?resize=409%2C274&#038;ssl=1" alt="Screenshot of Lean's Messages panel showing an error at line 14: type mismatch. Rat.isCoprime_num_den q has type IsCoprime q.num q.den but is expected to have type gcd a b equals 1." class="wp-image-3325" srcset="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/lean3.png?w=409&amp;ssl=1 409w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/lean3.png?resize=300%2C201&amp;ssl=1 300w" sizes="(max-width: 409px) 100vw, 409px" /></figure>
-
-
-
-<p class="wp-block-paragraph">Remember that theorems in this context are types, so when the error message says that there is a “type mismatch”, this means that the statement I claim to be proving is not accepted by Lean as being entirely justified. Returning to the lecture hall, we can imagine the audience member raising a hand and objecting.</p>
-
-
-
-<p class="wp-block-paragraph">“Benji,” I hear this audience member say. “You promised to prove to us that the GCD of <math data-latex="a"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math> and <math data-latex="b"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math> is equal to <math data-latex="1"><semantics><mn>1</mn><annotation encoding="application/x-tex">1</annotation></semantics></math>, but instead you proved that they are coprime! Thus, I don’t accept your line of reasoning!”</p>
-
-
-
-<p class="wp-block-paragraph">This scenario is absurd, because real life humans know well that two integers are coprime if and only if their GCD is <math data-latex="1"><semantics><mn>1</mn><annotation encoding="application/x-tex">1</annotation></semantics></math>. In fact, most people take this to be the definition of “coprime”. Lean takes a more general definition encoded in Mathlib: two elements <math data-latex="a, b"><semantics><mrow><mi>a</mi><mo separator="true">,</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">a, b</annotation></semantics></math> of a ring <math data-latex="R"><semantics><mi>R</mi><annotation encoding="application/x-tex">R</annotation></semantics></math> are said to be coprime if the sum of the ideals generated by <math data-latex="a"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math> and <math data-latex="b"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math> is the entire ring:</p>
-
-
-
-<p class="wp-block-paragraph"><math display="block" data-latex="\langle a \rangle + \langle b \rangle = R."><semantics><mrow><mo stretchy="false">⟨</mo><mi>a</mi><mo stretchy="false">⟩</mo><mo>+</mo><mo stretchy="false">⟨</mo><mi>b</mi><mo stretchy="false">⟩</mo><mo>=</mo><mi>R</mi><mo>.</mo></mrow><annotation encoding="application/x-tex">\langle a \rangle + \langle b \rangle = R.</annotation></semantics></math></p>
-
-
-
-<p class="wp-block-paragraph">So if I wanted the error message to go away (that is, if I wanted to respond to the audience member’s objection to their satisfaction), I would have to prove that these two ways of looking at coprimality are equivalent in the ring of integers. This would not be difficult to do, but the point is that Lean gets hung up on these sorts of things all the time. The example here is a minutia with which no human mathematician would ever be bothered, but the argument put forth by proponents of Lean is that the process of formalizing a proof in Lean can sometimes result in important gaps being caught.</p>
-
-
-
-<p class="wp-block-paragraph">So we have seen that Lean is very good at being skeptical. This degree of skepticism is precisely the point of Lean, and why a Lean certificate grants a mathematical result a high degree of credibility.</p>
-
-
-
-<h2 class="wp-block-heading">OpenAI’s rapid advances are due to a mechanized prover-skeptic dialogue</h2>
-
-
-
-<p class="wp-block-paragraph">Let us return now to the 722 results claimed by OpenAI. The spectacular rapidity with which the anonymous mathematicians at OpenAI have progressed is due to both roles in the prover-skeptic dialogue being mechanized. Lean on its own does not generate new proofs, so some generative program (i.e. a large language model) is required. On the other hand, without Lean performing the necessary skeptical role, there would be no way to verify the claims made by a large language model, at least not without an expenditure of human effort that OpenAI has neither the resources nor the interest to pursue.</p>
-
-
-
-<p class="wp-block-paragraph">Furthermore, formal verification using programs like Lean can be used to improve large language models, since the large language model can use feedback supplied by Lean to correct itself.</p>
-
-
-
-<p class="wp-block-paragraph">However, almost all headlines about AI progress in math have focused on the AI systems acting as the <em>prover</em>, and not nearly as much on Lean, which plays an unsung but equally essential <em>skeptic</em> role. As an aside, I am skeptical that other fields will see the same degree of progress made by AI in the near future, because <em>verification</em> of the output of generative AI systems cannot yet be efficiently mechanized in other fields. For example, there is no equivalent of Lean for oncology, so I believe that we are unlikely to see significant developments in cancer research being made by AI systems in the near future.</p>
-
-
-
-<h2 class="wp-block-heading">Why is a Lean certificate unsatisfying?</h2>
-
-
-
-<p class="wp-block-paragraph">As I explained above, Lean is ridiculously good at being skeptical. Is a Lean certificate then to be taken as an infallible confirmation of a mathematical result? While there have been concerns raised about possible Lean kernel bugs, let us be generous and assume that a Lean certificate is an infallible confirmation of a theorem’s truth. That is, we will assume that if a type corresponding to a mathematical result has been instantiated in Lean, then the result is certainly true.</p>
-
-
-
-<p class="wp-block-paragraph">Even then, if a mathematician is seriously interested in a mathematical result, a Lean certificate on its own is unsatisfying. As explained above, it is an essential part of the methodology of mathematics to consider mathematical claims with skepticism, and this applies <em>even if one believes the claims to be true</em>.</p>
-
-
-
-<p class="wp-block-paragraph">This is in some ways a strange way to evaluate truth, and it is at odds with more everyday justifications for belief. For example, even though I have never studied its proof, I don’t really doubt Fermat’s Last Theorem in any practical sense, since its proof has been scrutinized by many experts in number theory. However, my belief in Fermat’s Last Theorem is justified only by an appeal to authority, so within a methodologically skeptical framework I do not know it to be true at all!</p>
-
-
-
-<p class="wp-block-paragraph">Thus practicing methodological skepticism sometimes involves make-believe. I will <em>pretend</em> not to believe in a theorem (even though I do believe it), in order to give myself the opportunity to be <em>compelled</em> to believe it. The process of being <em>compelled to believe</em> is what allows me to understand the theorem.</p>
-
-
-
-<p class="wp-block-paragraph">So sure, on some level I <em>believe</em> mathematical claims that are verified in Lean, even if I have not studied their proofs, but this is also basically an appeal to authority. From the perspective of methodological skepticism, I do not <em>know</em> that the results claimed by OpenAI are true until I have studied them and personally convinced myself that they are true.</p>
-
-
-
-<p class="wp-block-paragraph">Perhaps more substantially, it is impossible for a Lean certificate on its own to replace the role of skepticism explained by Bessis – skepticism as a process of interrogating and correcting one’s intuitions. Since a computer <em>does not have access</em> to our internal mental intuitions, there is no technological shortcut here. I am reminded of the famous statement attributed to Euclid, that “there is no royal road to geometry.” In one of many likely apocryphal stories about mathematicians from antiquity, it is said that he was responding to King Ptolemy’s question about whether there is an easier way to learn mathematics.</p>
-
-
-
-<h2 class="wp-block-heading">Recommendation</h2>
-
-
-
-<p class="wp-block-paragraph">My recommendation is something that most mathematicians already practice: we should strive to use methodological skepticism to evaluate mathematical claims. This means that one should not believe a claim about mathematics unless personally convinced of its truth.</p>
-
-
-
-<p class="wp-block-paragraph">To be clear, this is an ideal from which I frequently fall short. Many mathematicians, including me, have a habit of using results “out of the tin” without understanding their proofs. However, I recognize that when I do this I am missing the mark. I tell myself that I will come back later and study the proofs of the results that I am using, and sometimes I actually follow through on that.</p>
-
-
-
-<p class="wp-block-paragraph">Since the coming of generative AI, we have seen large language models and Lean make progress in mathematics at a rate that is difficult or impossible to keep up with. Perhaps in the near future new and unbelievable mathematical results will be claimed that sound like they were lifted out of science fiction. These claims may be backed up by Lean certificates. Under these circumstances, it is important that we do not lose our heads. The practice of skepticism, of being able to say “I don’t know this to be true” will keep us grounded.</p>
-
-
-
-<h2 class="wp-block-heading">Acknowledgements</h2>
-
-
-
-<p class="wp-block-paragraph">The author thanks Laurestine Bradford, Thomas B. Friedman, Anshula Gandhi, Patricia Marino, Yuveshen Mooroogen, as well as the editors at Proofs and Prompts for helpful comments on an earlier draft of the essay.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 28 October 2026, revised 1 November 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/13/human-skepticism-and-formal-verification/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3221</post-id>	</item>
 	</channel>
 </rss>

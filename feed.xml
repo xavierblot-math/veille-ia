@@ -6,7 +6,29 @@
 <atom:link href="https://xavierblot-math.github.io/veille-ia/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Daily summary of Xena, Proofs and Prompts, Silicon Reckoner, Tao (blog and Mastodon) and Gowers.</description>
 <language>en</language>
-<lastBuildDate>Wed, 18 Nov 2026 04:42:42 +0000</lastBuildDate>
+<lastBuildDate>Thu, 19 Nov 2026 04:42:51 +0000</lastBuildDate>
+<item>
+<title>Digest — 19 November 2026 (2 new posts)</title>
+<link>https://xavierblot-math.github.io/veille-ia/#2026-11-19</link>
+<guid isPermaLink="false">veille-ia-2026-11-19</guid>
+<pubDate>Thu, 19 Nov 2026 04:00:00 +0000</pubDate>
+<description><![CDATA[
+<p><em>Nothing new from: Xena (Kevin Buzzard), Timothy Gowers, Terence Tao (blog), Terence Tao (Mastodon).</em></p>
+<h3>Proofs and Prompts (Anonymous) — <a href="https://proofsandprompts.com/2026/11/18/why-the-future-of-mathematics-belongs-to-human-judgment/">Why the Future of Mathematics Belongs to Human Judgment</a></h3>
+<ul>
+<li>Thesis: once AI can produce correct theorems and new conjectures at scale, the scarce resource is no longer proofs but human attention, so judging which results matter becomes the mathematician's central job.</li>
+<li>Picks up Tao's "Math 2.0" idea: the "conjecture era" built on problems humans chose ends, and AI companies are blamed for trading on famous conjectures while ignoring why the community valued them.</li>
+<li>Draws on Poincaré's "Mathematical Creation" (invention as discernment) and Liu Cixin's story <em>The Poetry Cloud</em>, where generating every possible poem still fails to pick out the good ones.</li>
+<li>Pictures mathematicians as "cartographers of significance" mapping machine output, and urges people to choose problems they themselves value rather than chase the conjectures AI labs advertise; links earlier P&amp;P posts on AI and PhD supervision.</li>
+</ul>
+<h3>Proofs and Prompts (Tiago Veríssimo) — <a href="https://proofsandprompts.com/2026/11/18/mathematics-from-deductive-science-to-actually-an-experimental-science/">Mathematics: From Deductive Science to Actually an Experimental Science</a></h3>
+<ul>
+<li>A Newcastle PhD student argues that as AI takes over theorem proving, human work shifts to "mathematical experimentation": exploring phenomena that strike you as curious and handing the results to an AI workflow that formalises them.</li>
+<li>He separates computational experiments (working out examples) from "conceptual experiments", hunches tested in dialogue with AI, which he likens to vibe coding.</li>
+<li>Suggests judging researchers, and even hiring, grants and journal reports, on the taste behind their lines of experiment; he reads today's unease as an "epistemic flip" against career incentives built around proving theorems.</li>
+</ul>
+]]></description>
+</item>
 <item>
 <title>Digest — 18 November 2026 (2 new posts)</title>
 <link>https://xavierblot-math.github.io/veille-ia/#2026-11-18</link>
@@ -1006,41 +1028,6 @@
 <li>He partly blames mathematicians themselves for prizing hard problems and races to results over understanding. He hopes research moves toward good questions, illuminating viewpoints and exposition.</li>
 <li>His conclusion: understanding stays a human activity, and driving promising students away would be the worst harm AI could do to the field.</li>
 <li>👉 A voice from the French community, and a useful model for answering students who ask the same question.</li>
-</ul>
-]]></description>
-</item>
-<item>
-<title>Digest — 20 October 2026 (3 new posts)</title>
-<link>https://xavierblot-math.github.io/veille-ia/#2026-10-20</link>
-<guid isPermaLink="false">veille-ia-2026-10-20</guid>
-<pubDate>Tue, 20 Oct 2026 04:00:00 +0000</pubDate>
-<description><![CDATA[
-<p><em>Nothing new in the last 24 hours from Xena (Buzzard), Gowers, Silicon Reckoner (Harris) or Tao's Mastodon.</em></p>
-
-<h3>Terence Tao — <a href="https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/">A sketch of the proof of non-existence of Siegel zeroes</a></h3>
-<ul>
-<li>Expository walk-through of the recent exclusion of Landau–Siegel zeroes, following Ben Green's streamlined version of a nine-page paper from OpenAI's math release (alongside two "quasi-Riemann hypothesis" papers giving zero-free strips with exponents 11/12 and 7/8). Banks (arXiv:2610.15483) and Kerr (arXiv:2610.21099) have produced their own digests.</li>
-<li>Core estimate: primes with Legendre symbol (D/p) = −1 carry at most about half of the Mertens weight Σ log p / p; standard analytic arguments then recover the classical exp(−c√log x) error term without Siegel exceptions. Pescador and Barretto have sharper preprints.</li>
-<li>Method ("adelic polynomial method"): take a lattice of integer polynomials, evaluate them with derivatives on a skewed grid of points m ± n√D, and study the integer M given by the squared covolume. Hadamard's inequality bounds |M| from above; Frobenius (the curve z₁^p = z₂ passes p-adically near every grid point when (D/p) = −1) forces large p-adic valuations; unique factorisation compares the two.</li>
-<li>Non-degeneracy comes from a resultant argument exploiting the distinct second coordinates of the skew grid; Tao stresses the polynomial method is what breaks the parity barrier here, and asks readers for the history of the technique (Bombieri–Vaaler, Masser, Laurent).</li>
-<li>Tao discloses that an AI chat helped him digest the preprints.</li>
-</ul>
-
-<h3>Proofs and Prompts — <a href="https://proofsandprompts.com/2026/10/19/recommendations-on-the-use-of-ai-for-phd-students-and-supervisors/">Recommendations on the use of AI for PhD students and supervisors</a></h3>
-<ul>
-<li>Guidelines from 37 symplectic geometers (incl. Auroux, Seidel, Smith, Keating, Cornea, Ginzburg), restricted to AI use for mathematical content, not editing or bibliography.</li>
-<li>Students: engage with AI but verify every step yourself; keep a log of prompts and answers and disclose AI-derived content; AI is never a co-author; don't feed others' unpublished work to commercial models without consent. Expect more open-ended topics and higher standards of independence.</li>
-<li>Supervisors: neither forbid nor impose AI; check whether a proposed problem could be dispatched quickly by a model; agree on documentation early; make sure core techniques and human contact are still learned; defenses should test real understanding of the new results.</li>
-<li>Institutions: leave the choice of tools (commercial or local) to researchers, pay for them centrally, and set simple disclosure rules for theses.</li>
-<li>👉 Directly relevant: your field's community and PhD supervision; French signatories include Viterbo (Paris-Saclay), Oancea and Damian (Strasbourg), Gironella (Nantes), Mazzucchelli (Sorbonne).</li>
-</ul>
-
-<h3>Proofs and Prompts — <a href="https://proofsandprompts.com/2026/10/19/contribution-credit-and-community/">Contribution, Credit, and Community</a></h3>
-<ul>
-<li>Tommaso Moraschini (philosophy, Barcelona) takes AI adoption as given and asks how credit should work afterwards.</li>
-<li>Argues priority no longer signals insight and should stop counting as merit in itself; warns of a "Prompt or Perish" race, a flood of weak papers, and growing secrecy about partial results.</li>
-<li>Considers AI disclosures unverifiable and liable to encourage concealment: comparable results should get equal credit whatever the tools, and abstaining from AI should not be rewarded.</li>
-<li>Proposals: hiring that weighs exposition and vision (seminars, interviews, franker letters), and larger collaborative groups on exploratory programmes to defuse competition.</li>
 </ul>
 ]]></description>
 </item>

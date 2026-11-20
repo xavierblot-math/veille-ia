@@ -13,7 +13,7 @@
 	<atom:link href="https://xenaproject.wordpress.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://xenaproject.wordpress.com</link>
 	<description>Mathematicians learning Lean by doing.</description>
-	<lastBuildDate>Thu, 12 Nov 2026 00:50:07 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 19 Nov 2026 17:33:32 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -166,7 +166,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/feed/</wfw:commentRss>
-			<slash:comments>9</slash:comments>
+			<slash:comments>12</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3911</post-id>
@@ -245,7 +245,15 @@
 
 
 
-<p class="wp-block-paragraph">The high-level ideas and the rigorous proof discussed above are the two ends of mathematical presentation. They can be connected by a series of successively refining layers. We want to present this refinement process directly to the reader, so that one can see the overall route of a proof and go all the way down into the details. For a large proof such as the Weil conjectures, one has a top-level picture consisting precisely of the analogies, dictionaries, and strategies described above. A Weil cohomology theory would immediately prove the conjectures, and ℓ-adic cohomology is one example. One then elaborates the argument, working out how each step is actually carried out to obtain a proof at a finer grain. The key properties of a Weil cohomology follow from the calculation of <math><semantics><msup><mi>f</mi><mo>!</mo></msup><annotation encoding="application/x-tex">f^!</annotation></semantics></math> and the general formalism of the six operations on the (pro-)étale site. Step by step, the slogan-level argument is refined into something checkable down to the last detail. Through this process the vague story becomes a completely rigorous proof, and along the way one meets and resolves technical obstructions.</p>
+<p class="wp-block-paragraph">For a large proof such as the Weil conjectures, one starts from a top-level picture consisting of the analogies, dictionaries, and strategies described above. A central idea is to construct a suitable cohomology theory, and <math><semantics><mi>ℓ</mi><annotation encoding="application/x-tex">\ell</annotation></semantics></math>-adic cohomology provides such a theory, yielding the rationality and functional equation immediately. The Riemann hypothesis part would follow from a deeper ingredient, namely the theory of weights.</p>
+
+
+
+<p class="wp-block-paragraph">One then elaborates the argument, working out what is needed at each step and how it is actually established. On the cohomological side, properties such as duality and trace formulas are developed using the six-functor formalism on the (pro-)étale site, together with calculations involving <math><semantics><msup><mi>f</mi><mo form="postfix" stretchy="false">!</mo></msup><annotation encoding="application/x-tex">f^!</annotation></semantics></math>. On the arithmetic side, Deligne&#8217;s arguments provide the weight estimates that cannot be obtained from the formalism alone.</p>
+
+
+
+<p class="wp-block-paragraph">Step by step, the slogan-level argument is refined into something checkable down to the last detail. Through this process, the vague story becomes a completely rigorous proof, and along the way one meets and resolves technical obstructions.</p>
 
 
 
@@ -253,7 +261,7 @@
 
 
 
-<p class="wp-block-paragraph">This layered structure also determines the division of labour between humans and AI. Humans discuss and decide the overall proof route (<a href="https://blueprint.fuxi.merten.dev/#/blog/proof-route-choices">see this detailed discussion</a>), as well as the underlying key definitions and mathematical frameworks. As the argument is refined, LLMs begin to fill in the details of key theorems fixed by hand, while humans review and adjust. At the bottom, AI takes the human-readable but not yet fully rigorous text and expands every last detail on its own, then checks the result by formalization. Mathematical judgement thus sets the route, and AI makes it practical to carry the details all the way down to a machine-checked proof.</p>
+<p class="wp-block-paragraph">This layered structure also determines the division of labour between humans and AI. Humans discuss and decide the overall proof route (<a href="https://weil-conjectures.merten.dev/#/blog/proof-route-choices">see this detailed discussion</a>), as well as the underlying key definitions and mathematical frameworks. As the argument is refined, LLMs begin to fill in the details of key theorems fixed by hand, while humans review and adjust. At the bottom, AI takes the human-readable but not yet fully rigorous text and expands every last detail on its own, then checks the result by formalization. Mathematical judgement thus sets the route, and AI makes it practical to carry the details all the way down to a machine-checked proof.</p>
 
 
 

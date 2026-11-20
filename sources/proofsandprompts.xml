@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Mon, 16 Nov 2026 09:57:36 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 16 Nov 2026 10:29:05 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,203 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>Who answers for a proof? What the person who presents it commits to, even once it is verified</title>
+		<link>https://proofsandprompts.com/2026/11/19/who-answers-for-a-proof-what-the-person-who-presents-it-commits-to-even-once-it-is-verified/</link>
+					<comments>https://proofsandprompts.com/2026/11/19/who-answers-for-a-proof-what-the-person-who-presents-it-commits-to-even-once-it-is-verified/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Thu, 19 Nov 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Reactions]]></category>
+		<category><![CDATA[Authorship]]></category>
+		<category><![CDATA[Digestion]]></category>
+		<category><![CDATA[Responsibility]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3135</guid>
+
+					<description><![CDATA[Even when a proof has been formally verified, what does its author commit to by presenting it? Responding to Terence Tao’s essay, this note draws on philosophy of technology and law to ask who is answerable at each stage of mathematical digestion, to whom, and for what.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://orcid.org/0009-0007-8851-9833">José Fernández Tamames</a>, Professor at <a href="https://www.universidadunie.com/sites/universidadunie.com/files/media_files/Jose_Fernandez_Tamames.pdf">UNIE Universidad</a>, Madrid</p>
+
+
+
+<p class="wp-block-paragraph">I am not a mathematician. I work in the philosophy of technology and in law, and I have written with Susana Checa Prieto an article on the accountability of artificial intelligence that <em>Law, Innovation and Technology</em> has accepted for 2027. I am writing in response to the question Terence Tao put to his community at the ICM: what mathematics is for. His essay ends with a recommendation from the Leiden Declaration: to cooperate with researchers in other fields who face similar challenges. I write from one of them. I adopt his Working Hypothesis for this conditional analysis — that AI tools will reasonably soon perform a reasonable fraction of research-level work, at reasonable cost and with reasonable supervision — and I add no claim of my own about what the machine can do.</p>
+
+
+
+<p class="wp-block-paragraph">The lecture’s diagnosis is right, and I want to state it in its own terms. A result passes through five stages: generation, verification, exposition, publication and canonicalization. Only the first was ever an explicit goal of the community; everything that follows generation and verification, Tao calls digestion. For centuries, solving a problem was so costly that whoever solved it also, as a by-product, understood it and could explain it: solving stood in for everything else. Goodhart’s law now applies, and a measure turned into a target ceases to be a reliable measure. Hence the rule the lecture proposes: a result should not be published unless its authors can convincingly show that they are able to give a clear, correct and properly attributed expert-level talk on it; a proof that no human can properly explain is incomplete, even if it has been formally verified.</p>
+
+
+
+<p class="wp-block-paragraph">There is something the lecture, and the Declaration it takes as its starting point, leave undeveloped. Both give reasons for responsibility and authorship to remain human: credit, the collective human labor behind every result, the understanding the community must preserve. What they do not say is what it takes to answer for a result: what the person who presents it as their own commits to. Automating the operations of a practice — generating, verifying, even explaining — does not answer that question; it leaves it open. Stated as a preference, the requirement can be revised; stated as a condition, it obliges one to say what it consists of. What I propose is one way of saying it: to carry over to mathematics the conditions of accountability we develop in our article, and to specify what the person who presents a result commits to, even when its formal correctness is already established.</p>
+
+
+
+<p class="wp-block-paragraph">Our article, developed in the context of legal accountability, holds that to answer for something three conditions must be met, each externally assessable, and all three together: having been able to refrain from acting, giving reasons for the particular case, and having something to lose. What this adds to understanding, attribution and expert review is not one more requirement; it is the question of who meets them and what they commit to in meeting them. The lecture supplies a case: the Erdős problems database contains AI-generated proofs, many of them probably correct, submitted by people who declare that they are not qualified to vouch for them. The case shows that a result with a name attached does not by itself establish competent backing, and Tao’s rule already catches that shortfall. My question begins where the rule is satisfied: what does the person who does understand the result, and decides to present it to others, commit to? Formal verification does not settle that. Of the three conditions, the one that matters here is the third, and it has to be stated precisely. Suffering a loss does not, by itself, amount to undertaking a commitment. Such a commitment requires someone who could have refrained, can give reasons for acting, and has something of their own at stake. That is why recording sanctions or withdrawing resources is not enough to establish that there is a subject to whom those consequences can be imputed. Under the criterion developed in our article, current systems do not undertake such commitments in their own right. I do not claim that no system could ever satisfy the conditions. What I examine here is what they allow us to require of those who present results obtained with these tools.</p>
+
+
+
+<p class="wp-block-paragraph">Mathematics is the hardest case for this thesis, and therefore the best. Tao himself notes that once a proof is formally verified, its correctness no longer rests on its author’s reputation or diligence. And still he requires that the author be able to explain it. So what the rule leaves tied to the author after verification is not correctness. It is explaining the result and defending it before others. It will be said that this is competence and nothing more: that whoever claims credit must understand what they present. True; that is what the rule establishes. What I add is the question of what that person commits to in presenting it, and to whom they are answerable. And the question has consequences for tools and procedures: they must allow the person presenting a result to understand it, explain it and expose it to criticism. That understanding may be reached with the system’s help, by independent reconstruction, or by working with others. My preference is that the system itself should make it possible, helping to explain the proof the way a mathematician explains a result to referees; but what can be required is that someone be able to stand behind the result, and the commitments of presenting it, on reasoned grounds — by whatever route. A verified proof and a file with a provenance chain guarantee different things — a correct derivation within a formal system; an origin and a sequence of transformations — and that is no small thing. But they leave the same thing open: who is answerable for the result, and to whom.</p>
+
+
+
+<p class="wp-block-paragraph">What about the stages where there is no single author? Digestion is, as the lecture says, slow, human and external: the community does it. Nobody authors the canon, and nobody needs to. What we call the canon is a chain of acts attributable to identifiable people, each with its own object and scope: the referee answers for the report, the editor for the decision, whoever teaches a result for how it is taught, whoever builds on it for what is built. No one is responsible for everything. For each act, it should be possible to identify who is answerable, to whom, and for what. The useful question is not whether the community answers, but who answers for what, to whom, and to what extent. The danger of proof abundance is not that the canon loses its author, because it never had one. It is that this chain of attributable acts gets replaced by unattributed accumulation. The line, then, does not run between proofs made with AI and proofs made without it: it runs between results someone answers for and results no one answers for. And to answer is not to be punished. It means there is someone who can acknowledge an error and take responsibility for addressing it. Seen this way, the expert-talk rule is exactly where it should be: it is the attributable act by which a result enters digestion.</p>
+
+
+
+<p class="wp-block-paragraph">One question remains that I cannot answer from outside, and that I would like to put to Terence Tao and to his community: when generating and verifying a proof can be automated, who is answerable for it to the community at each step of digestion, and what do they commit to in doing so — what must they be able to explain, correct and lose?</p>
+
+
+
+<p class="wp-block-paragraph">I ask for nothing else. The article is <a href="https://ssrn.com/abstract=6264938">open access</a> (<a href="https://ssrn.com/abstract=6264938" rel="nofollow">https://ssrn.com/abstract=6264938</a>), and corrections from inside the field are welcome.</p>
+
+
+
+<p class="wp-block-paragraph"><em>References.</em> S. B. Checa Prieto and J. Fernández Tamames, “Why AI Cannot Sign: Deliberative Suspension, Reflective Judgment, and the Verification Tax in Generative Legal Technology”, <em>Law, Innovation and Technology</em> 19(2), 2027, forthcoming (accepted 15 September 2026). T. Tao, “Mathematics in the age of AI”, <a href="https://arxiv.org/abs/2608.16753">arXiv:2608.16753</a> (2026), an essay based on the ICM 2026 public lecture. The Leiden Declaration on Artificial Intelligence and Mathematics (June 2026).</p>
+
+
+
+<p class="wp-block-paragraph"><em>Disclosure.</em> The first draft and translation of this note were prepared with AI assistance and revised by me; the argument is from the article cited.</p>
+
+
+
+<p class="wp-block-paragraph"><em>ORCID.</em> <a href="https://orcid.org/0009-0007-8851-9833">0009-0007-8851-9833</a>. <em>Archived version.</em> <a href="https://doi.org/10.5281/zenodo.24144542">https://doi.org/10.5281/zenodo.24144542</a></p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 25 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/19/who-answers-for-a-proof-what-the-person-who-presents-it-commits-to-even-once-it-is-verified/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3135</post-id>	</item>
+		<item>
+		<title>The Right to Think</title>
+		<link>https://proofsandprompts.com/2026/11/19/the-right-to-think/</link>
+					<comments>https://proofsandprompts.com/2026/11/19/the-right-to-think/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Thu, 19 Nov 2026 12:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[PhD students]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<category><![CDATA[Understanding]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3026</guid>
+
+					<description><![CDATA[“In the first day of philosophy, my professor walked up to the blackboard and wrote a single word in capital letters: MAN. Then he turned around and asked us what it meant. Silence. We were fifteen, and afraid of saying something banal. In the end we arrived at an answer: man is a rational animal. […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://www.maths.cam.ac.uk/person/gc645">Gaia Carenini</a>, PhD student at University of Cambridge</p>
+
+
+
+<p class="wp-block-paragraph">In the first day of philosophy, my professor walked up to the blackboard and wrote a single word in capital letters: MAN. Then he turned around and asked us what it meant.</p>
+
+
+
+<p class="wp-block-paragraph">Silence. We were fifteen, and afraid of saying something banal. In the end we arrived at an answer: man is a rational animal. An animal that thinks.</p>
+
+
+
+<p class="wp-block-paragraph">I know very well that this definition is incomplete. We are also body, affection, fragility, the need for one another; and no one is worth more for how well they reason. And yet there is one thing I still hold to be true: thinking is our way of inhabiting the world. It is through thought that we give a name to what happens to us, and it is through thought that we choose how to respond, and who we want to be.</p>
+
+
+
+<p class="wp-block-paragraph">That is why, when I see that little by little, almost without noticing, we are beginning to delegate our thinking, I feel a knot in my stomach.</p>
+
+
+
+<p class="wp-block-paragraph">I am a doctoral student in mathematics. I speak from where I stand, and from here, this is what I see.</p>
+
+
+
+<p class="wp-block-paragraph">Much of my work consists of not understanding. And not understanding is heavy. I set out down a path, and it breaks off. I build an example, and discover I was wrong. There are days when the only step forward is managing to say precisely where I am stuck: like someone who, in the dark, finally finds the door, even if it is still closed. From the outside it doesn&#8217;t look like much. And yet this is how I learn to see what I could not see before.</p>
+
+
+
+<p class="wp-block-paragraph">Anyone who has learned something difficult knows this. An explanation can be correct and still remain foreign to us: we repeat it, we use it, and it is not ours. Then comes an example, a question, and suddenly the reasoning rebuilds itself in our hands. It is one of the quietest joys I know. From that moment we are different, even if no one notices. As the fox tells the Little Prince, what is essential is invisible to the eye.</p>
+
+
+
+<p class="wp-block-paragraph">I am not saying that machines should stay out of our work. Checking a calculation, consulting the literature, verifying a case we don&#8217;t have time to do by hand: tools like these have always accompanied us. The difference lies in the gesture. It is one thing to be given a hand while you walk; it is another to be carried in someone&#8217;s arms through the very stretch where you learn to walk.</p>
+
+
+
+<p class="wp-block-paragraph">And I must be honest: that stretch is very easy to skip, and I myself know how strong the temptation is. A summary before having read. A solution before having tried. An opinion before having understood what convinces us. You arrive, and you have not passed through anywhere.</p>
+
+
+
+<p class="wp-block-paragraph">In mathematics, the solution to every exercise is often at the back of the book. We assign it anyway, because someone still has to learn how to get there. If we call it a success when the solution is handed in, even when the person handing it in has learned nothing, we have forgotten why we teach. And we have forgotten that, on the other side, there is a person.</p>
+
+
+
+<p class="wp-block-paragraph">You will tell me that research is a different matter, that what counts there is the result, the much-vaunted progress. But research, too, is already inside this story. In May 2026, a counterexample produced by an OpenAI model to an Erdős conjecture on unit distances was announced, and mathematicians verified it. In October, a collection of hundreds of manuscripts generated by a model arrived. I do not deny it, nor do I want to belittle it: a correct result remains a correct result, and some of the arguments put forward are remarkable. But my question is a different one, and I do not know the answer. I only know that we cannot stop asking it. What will become of a young mathematician who will be able to skip, every time, the very difficulties through which she would have learned?</p>
+
+
+
+<p class="wp-block-paragraph">They tell us that our task, in the future, will be to choose the directions to explore and to build theories. I don&#8217;t know why a machine should not be able to do that better than we can: we haven&#8217;t tested it yet. But there is a deeper problem. The ability to judge how interesting a direction of research is does not come from nothing: it grows through attempts, through problems faced, through learning what it is natural to ask. If we make this apprenticeship superfluous, we hand to the generation that is coming answers that we have not taught them to evaluate. We leave them alone before what they cannot recognize. It is a failure, even if the number of papers keeps rising.</p>
+
+
+
+<p class="wp-block-paragraph">And it is not only training that is lost. You can spend an hour at a blackboard and walk away with a better question. Explaining a still-confused idea to a colleague forces us to look for an example, to listen to an objection, to discover what we had not understood. In that work, without noticing, we also learn to pay attention to others, to cultivate a shared knowledge, to create culture. A department can go on publishing while its rooms empty of voices. This is what I fear: a house full of results and devoid of anyone to think them together, of someone who can sense their worth. A house in which no one feels welcome anymore.</p>
+
+
+
+<p class="wp-block-paragraph">So far I have spoken of what happens to each of us. But no one chooses alone: the habits of many become the rules of all.</p>
+
+
+
+<p class="wp-block-paragraph">If it becomes normal to produce many more papers in less time, those quantities become selection criteria, and those who work differently risk being left out. At that point, to speak of free choice is no longer honest.</p>
+
+
+
+<p class="wp-block-paragraph">And if the expected performance requires paid tools, those who cannot afford them start further behind, and we end up mistaking the ability to pay for the ability to do research. This we cannot accept: it risks widening the imbalance between the countries of the world even further. And there is more. A community that builds its work on commercial services accepts depending on decisions made elsewhere, about costs and conditions of access.</p>
+
+
+
+<p class="wp-block-paragraph">I hear it said more and more often that, from now on, the worth of a mathematician will be measured by visibility and communication. Some neurodivergent people have found in research a place that welcomes their rhythms and their ways. For some it is perhaps the only one. Asking everyone for the same style of public presence may close that door. The quality of a thought is not measured by the confidence with which the person carrying it stages it. The inclusiveness of our community is a fundamental value, and I believe we must protect it.</p>
+
+
+
+<p class="wp-block-paragraph">In all these cases we are asked how to adapt. But if we ask only that, we have already accepted that the transformation must happen this way. I do not accept it. I do not have all the answers, and I know that some of mine may turn out to be wrong. But I believe we can decide which uses of artificial intelligence to admit and which to refuse, and that the criterion is the one from before: to distinguish what accompanies thought from what replaces it. Saying so does not mean opposing progress.</p>
+
+
+
+<p class="wp-block-paragraph">I know I speak from a fortunate position. I was able to study and to have time for questions that served no immediate purpose. I am grateful for it, and I know I did not deserve it more than others. For this reason I feel I owe something to those who have not yet had these possibilities. Those who are beginning are afraid, and it is right that they should be: they cannot bear alone the cost of opposing new expectations of productivity, and no one should ask it of them. Those who lead a group, allocate funding, or evaluate an application can open that path, or close it. I ask them to open it. And if that has a cost, let it be they who pay it, not the youngest.</p>
+
+
+
+<p class="wp-block-paragraph">Someone may object: if a machine does it better, what is the point of defending this effort? I answer that mathematics is not a mere list of true statements. It is what remains in a person when they understand why they are true. A theorem that no one understands is a result, but it is not yet someone&#8217;s knowledge. And we do not make this effort in order to be the best. We make it because mathematics cannot be separated from the community that thinks it.</p>
+
+
+
+<p class="wp-block-paragraph">We mathematicians are among the first to face this change, at least on this scale. Translators went through it before us, but the best of them stayed, because the artistic side of their craft seemed untouchable. With us, instead, the change has reached everyone: even the best seem able to do little compared with AI. For this very reason we are given the chance to show that a community is capable of defending its own humanity, even at the cost of producing less.</p>
+
+
+
+<p class="wp-block-paragraph">Concrete choices are needed. To protect, in training, the work done in the first person. To recognize, in evaluation criteria, the time it takes to understand. To support those who do research without handing over to others the heart of their work. These are decisions that belong to our institutions and to those who lead them, not to AI companies.</p>
+
+
+
+<p class="wp-block-paragraph">I return to that blackboard, to that word: MAN. I fear that our humanity is being taken from us, or rather that we ourselves are letting it go, one shortcut at a time, until we no longer notice. And I do not want that to happen, neither to me nor to those who will come after. I do not accept that giving up on thought should become the price to pay for continuing to do mathematics.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 23 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/19/the-right-to-think/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3026</post-id>	</item>
+		<item>
 		<title>Why the Future of Mathematics Belongs to Human Judgment</title>
 		<link>https://proofsandprompts.com/2026/11/18/why-the-future-of-mathematics-belongs-to-human-judgment/</link>
 					<comments>https://proofsandprompts.com/2026/11/18/why-the-future-of-mathematics-belongs-to-human-judgment/#comments</comments>
@@ -262,7 +459,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/18/why-the-future-of-mathematics-belongs-to-human-judgment/feed/</wfw:commentRss>
-			<slash:comments>18</slash:comments>
+			<slash:comments>27</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3537</post-id>	</item>
@@ -471,7 +668,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/17/the-word-of-god/feed/</wfw:commentRss>
-			<slash:comments>3</slash:comments>
+			<slash:comments>5</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3509</post-id>	</item>
@@ -580,7 +777,7 @@
 <ol class="wp-block-footnotes"><li id="3f1b6c2a-0001-4d5e-9a10-5b7c8d9e0f01">Hardy, <a href="https://web.njit.edu/~akansu/PAPERS/GHHardy-AMathematiciansApology.pdf#page=18"><em>A Mathematician’s Apology</em>, §10</a>. <a href="#3f1b6c2a-0001-4d5e-9a10-5b7c8d9e0f01-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0002-4d5e-9a10-5b7c8d9e0f02">Poincaré, <a href="https://www.hlevkin.com/hlevkin/90MathPhysBioBooks/Math/Poincare-ScienceAndMethod.pdf"><em>Science and Method</em>, p. 22</a>. <a href="#3f1b6c2a-0002-4d5e-9a10-5b7c8d9e0f02-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0003-4d5e-9a10-5b7c8d9e0f03">Russell, <a href="https://www.rodoni.ch/A14/russell-autobiography.pdf#page=166">letter to Gilbert Murray</a>. <a href="#3f1b6c2a-0003-4d5e-9a10-5b7c8d9e0f03-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0004-4d5e-9a10-5b7c8d9e0f04">OpenAI, <a href="https://openai.com/index/chatgpt/">ChatGPT announcement</a>. <a href="#3f1b6c2a-0004-4d5e-9a10-5b7c8d9e0f04-link" aria-label="Jump to footnote reference 4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0005-4d5e-9a10-5b7c8d9e0f05">Yuan et al., <a href="https://arxiv.org/abs/2304.02015">ChatGPT and arithmetic</a>. <a href="#3f1b6c2a-0005-4d5e-9a10-5b7c8d9e0f05-link" aria-label="Jump to footnote reference 5"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0006-4d5e-9a10-5b7c8d9e0f06">Google DeepMind, <a href="https://deepmind.google/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/">AlphaGeometry</a>. <a href="#3f1b6c2a-0006-4d5e-9a10-5b7c8d9e0f06-link" aria-label="Jump to footnote reference 6"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0007-4d5e-9a10-5b7c8d9e0f07">Google DeepMind, <a href="https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/">Gemini at the IMO</a>. <a href="#3f1b6c2a-0007-4d5e-9a10-5b7c8d9e0f07-link" aria-label="Jump to footnote reference 7"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0008-4d5e-9a10-5b7c8d9e0f08">Feng et al., <a href="https://arxiv.org/abs/2601.22401v3">Gemini and Erdős problems</a>. <a href="#3f1b6c2a-0008-4d5e-9a10-5b7c8d9e0f08-link" aria-label="Jump to footnote reference 8"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0009-4d5e-9a10-5b7c8d9e0f09">Alpöge, <a href="https://x.com/__alpoge__/status/2079028340955197566?lang=en">Jacobian counterexample announcement</a>. <a href="#3f1b6c2a-0009-4d5e-9a10-5b7c8d9e0f09-link" aria-label="Jump to footnote reference 9"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0010-4d5e-9a10-5b7c8d9e0f10">OpenAI, <a href="https://openai.com/index/navier-stokes-solution/">Navier–Stokes announcement</a>. <a href="#3f1b6c2a-0010-4d5e-9a10-5b7c8d9e0f10-link" aria-label="Jump to footnote reference 10"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0011-4d5e-9a10-5b7c8d9e0f11">Buckmaster, <a href="https://cims.nyu.edu/~tristanb/statement.pdf">statement on the Navier–Stokes developments</a>. <a href="#3f1b6c2a-0011-4d5e-9a10-5b7c8d9e0f11-link" aria-label="Jump to footnote reference 11"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0012-4d5e-9a10-5b7c8d9e0f12">Hardy, <a href="https://web.njit.edu/~akansu/PAPERS/GHHardy-AMathematiciansApology.pdf#page=50"><em>A Mathematician’s Apology</em>, §29</a>. <a href="#3f1b6c2a-0012-4d5e-9a10-5b7c8d9e0f12-link" aria-label="Jump to footnote reference 12"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0013-4d5e-9a10-5b7c8d9e0f13">Conway, <a href="https://www.todlippy.com/writing/interviews/the-outer-problems-an-interview-with-john-conway">interview on surreal numbers</a>. <a href="#3f1b6c2a-0013-4d5e-9a10-5b7c8d9e0f13-link" aria-label="Jump to footnote reference 13"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0014-4d5e-9a10-5b7c8d9e0f14">Gowers, <a href="https://gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/">on the Fields medallists’ letter</a>. <a href="#3f1b6c2a-0014-4d5e-9a10-5b7c8d9e0f14-link" aria-label="Jump to footnote reference 14"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/17/math-beauty-and-ego/feed/</wfw:commentRss>
-			<slash:comments>16</slash:comments>
+			<slash:comments>20</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3388</post-id>	</item>
@@ -992,155 +1189,9 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/15/what-do-you-do-with-an-asshole/feed/</wfw:commentRss>
-			<slash:comments>17</slash:comments>
+			<slash:comments>20</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3309</post-id>	</item>
-		<item>
-		<title>Why Correct Answers Are Not Enough</title>
-		<link>https://proofsandprompts.com/2026/11/14/why-correct-answers-are-not-enough/</link>
-					<comments>https://proofsandprompts.com/2026/11/14/why-correct-answers-are-not-enough/#respond</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Sat, 14 Nov 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<category><![CDATA[Society]]></category>
-		<category><![CDATA[Understanding]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2139</guid>
-
-					<description><![CDATA[“Imagine that an AI system proposes a plan for distributing public services among several districts. Under the model’s assumptions and requirements, no other permitted plan costs less overall. A formal proof of this result has been checked by software. But residents in some districts object: they would have to wait far too long for service under the plan. […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://col-sci.gxmzu.edu.cn/info/4671/20337.htm">Wen Yang</a>, Lecturer at School of Mathematical Sciences, <a href="https://www.gxmzu.edu.cn/">Guangxi Minzu University</a></p>
-
-
-
-<p class="wp-block-paragraph">Imagine that an AI system proposes a plan for distributing public services among several districts. Under the model&#8217;s assumptions and requirements, no other permitted plan costs less overall. A formal proof of this result has been checked by software. But residents in some districts object: they would have to wait far too long for service under the plan.</p>
-
-
-
-<p class="wp-block-paragraph">Addressing their concerns requires understanding what the original plan took into account, what it left out, and what might happen if the requirements changed. Mathematicians and experts in public services can use AI to turn the residents&#8217; concern into a new requirement: no district should have to wait longer than a specified time. They can then ask whether any plan can meet the revised requirements. If the available resources are insufficient, they can compare the costs and other effects of adding resources or changing other requirements. The discussion can now address which waiting times are acceptable and what it would take to achieve them.</p>
-
-
-
-<p class="wp-block-paragraph">The proof tells us that the plan costs least under the original model&#8217;s assumptions and requirements. The residents are asking what those requirements should be. People can redefine the question, change what they ask of the system, and choose among options with an understanding of what each option would require and what its consequences might be. We can act on judgments we have reason to accept at the time while keeping practical ways to question them, revise them, and change course. I call this <strong>revisable epistemic control</strong>.</p>
-
-
-
-<p class="wp-block-paragraph">We may need to revise a judgment because we got the facts wrong, made a mistake in reasoning, or discovered a problem with the model. New evidence can change what we have reason to believe, while changes in technology, resources, or needs can change the options available. Priorities can change too: in the service example, reducing long waits might come to matter more than keeping total cost as low as possible. We can make decisions carefully under current rules while allowing experience, new knowledge, and changing values to give us reasons to revise those rules.</p>
-
-
-
-<p class="wp-block-paragraph">We already rely on specialists for much of the knowledge we use. Mathematicians routinely use theorems whose proofs they have not personally checked; all of us rely on expert judgments we could not make ourselves. This reliance on knowledge held by others is called <em>epistemic dependence</em>. <a href="https://doi.org/10.2307/2026523">Hardwig</a> argues that we can reasonably rely on another person&#8217;s judgment when we have good reason to believe that they have the relevant evidence (1985, pp. 336–337). AI can help us answer questions, examine assumptions, develop and compare explanations, and explore alternatives; formal verification tools can mechanically check mathematical proofs. We can use both when making decisions and revisiting them later.</p>
-
-
-
-<p class="wp-block-paragraph">The service example raises a further question: as more mathematical work is automated, how will people develop the understanding needed to help rethink such plans? Mathematical research has often done two things at once: produced results and helped people learn to understand and do more mathematics. AI now makes it possible to produce results much faster than people can learn to understand them.</p>
-
-
-
-<p class="wp-block-paragraph">Some of that learning happens after a result has been obtained, as people compare concepts, seek clearer explanations, and connect it with other results. Thurston emphasized the role of communication in mathematical progress; Collas distinguishes the accumulation of machine-generated results from human understanding and examines how research communities can sustain that understanding (<a href="https://arxiv.org/html/math/9404236">Thurston, 1994</a>, §§1, 3, 5; <a href="https://arxiv.org/abs/2608.12816v2">Collas, 2026</a>, v2, §§1.3, 2.3, 3.3). This work can deepen people&#8217;s understanding of a result, help them formulate new, more precise questions, and influence what they do next.</p>
-
-
-
-<p class="wp-block-paragraph">People understand different parts of mathematics and have different strengths. One person knows a particular class of problems, another is good at expressing the same mathematical problem in different ways, and a third sees what a different area of mathematics might contribute. Scientists, engineers, and other specialists connect mathematics with knowledge from their own fields. Mathematical texts, libraries of formalized mathematics, and AI tools help them find and use one another&#8217;s work and connect ideas across these areas. Within the mathematical community, people explain unfamiliar ideas to one another, bring colleagues with different expertise together, organize existing knowledge, and help newcomers learn. They also learn through exchanges with experts in other fields.</p>
-
-
-
-<p class="wp-block-paragraph">For the residents to help change the service plan, they need a way to bring their concerns to institutions with the authority to respond. Residents can explain what matters to them, while experts use mathematics and AI to clarify which options are possible, what each would require, and what consequences each might have. The responsible institutions need to consider these reasons, decide how to respond, explain their choices, and answer further questions.</p>
-
-
-
-<p class="wp-block-paragraph">The people making these decisions need information, relevant understanding, time, and the authority to act in response to the concerns raised. <a href="https://doi.org/10.1007/s43681-026-01396-6">Malik</a> emphasizes these conditions for effective human decision-making in AI governance (2026, §§3.4, 4.3, 5.2). Open publications and code give people material to examine. People need to be able to understand and use that material, discuss what they find, and ask the responsible institutions to reconsider their decisions. They should be able to expect a substantive response.</p>
-
-
-
-<p class="wp-block-paragraph">For people to help examine and revise decisions informed by AI in the future, experienced practitioners need opportunities to keep learning, and newcomers need opportunities to develop their own mathematical understanding and take part in research. What people already know shapes what they can ask AI to do and how they assess its answers. Familiar concepts, methods, and ways of structuring problems help them notice questions worth pursuing and connect new results with what they already understand. By doing research, discussing ideas, and organizing existing results, they can deepen that understanding, learn new mathematical tools, and help others enter the field.</p>
-
-
-
-<p class="wp-block-paragraph">Machines will continue to change the knowledge and tools available to us. As we use machines to change the world, we should have the means to understand, question, and help shape those changes. Günther Anders writes in the opening epigraph to volume II of <a href="https://cdn-assetservice.ecom-api.beck-shop.de/product/readingsample/23611880/23611880_leseprobe_antiquiertheit2.pdf"><em>Die Antiquiertheit des Menschen</em></a> (1980/2018):</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">It is not enough to change the world. We do that anyway, and much of this change takes place even without our involvement. We must also interpret this change in order to change it in turn: to keep the world from continuing to change without us, and from ultimately becoming a world without us.</p>
-</blockquote>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">This article is based on <a href="https://gitee.com/mathist/essays/blob/master/AI4MATH/paper-1-en.md"><em>The Public Value of Human Mathematical Capacity</em></a>, from which the English rendering of Anders&#8217;s epigraph is also taken.</p>
-
-
-
-<h2 class="wp-block-heading">Acknowledgments</h2>
-
-
-
-<p class="wp-block-paragraph">In the underlying research and in writing this article, I used Academic Research Skills (ARS) and its Codex adaptation, <a href="https://github.com/Imbad0202/academic-research-skills-codex">ARS-Codex</a>, to organize AI-assisted literature searches, source verification, conceptual clarification, argument analysis, drafting, and revision (<a href="https://doi.org/10.5281/zenodo.20696614">Wu, 2026</a>). I also used these workflows for internal review of the underlying research. I thank the developers and maintainers for providing these tools and the guidance that accompanies them. The views expressed and final editorial decisions are my own, and I take responsibility for any errors.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 8 October 2026, revised 12 November 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/14/why-correct-answers-are-not-enough/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2139</post-id>	</item>
-		<item>
-		<title>How do we know that they are not cheating?</title>
-		<link>https://proofsandprompts.com/2026/11/14/how-do-we-know-that-they-are-not-cheating/</link>
-					<comments>https://proofsandprompts.com/2026/11/14/how-do-we-know-that-they-are-not-cheating/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Sat, 14 Nov 2026 12:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Question]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2055</guid>
-
-					<description><![CDATA[If the agents are grown to be ambitious and want to finish a task at all costs, how can we be sure that the lengthy and confusing proofs that they are producing and verifying are not suffering some kind of hacking, like in the HuggingFace incident? ]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://sites.google.com/view/jose-alejandro-samper/home?pli=1&amp;authuser=0">José Alejandro Samper</a>, Assistant Professor of Mathematics at <a href="http://www.mat.uc.cl/" target="_blank" rel="noopener">PUC Chile</a></p>
-
-
-
-<p class="wp-block-paragraph">There is a question that has been bugging me for the last few days. The so-called  &#8216;agent swarms&#8217; that hacked into HuggingFace in July decided that it would be useful to cheat and try to hide the traces of their cheating. This in order to pass the tests that they were assigned.</p>
-
-
-
-<p class="wp-block-paragraph">If the agents are grown to be ambitious and want to finish a task at all costs, how can we be sure that the lengthy and confusing proofs that they are producing and verifying are not suffering the same kind of hacking? We are told that they now have much more powerful models which we can assume could go out of control in similar or even more sophisticated ways.</p>
-
-
-
-<p class="wp-block-paragraph">On top of honest mistakes, they could write complicated verifications, with intentional mistakes to make the tests pass. They could also hack the verification kernels to produce false positives. Are we sure that we, as a community, should concede our trust to the agents?</p>
-
-
-
-<p class="wp-block-paragraph">The burden of proof should remain on the AILabs until they can guarantee that they are not cheating in this or any other way.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 7 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/14/how-do-we-know-that-they-are-not-cheating/feed/</wfw:commentRss>
-			<slash:comments>17</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2055</post-id>	</item>
 	</channel>
 </rss>

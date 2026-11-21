@@ -13,7 +13,7 @@
 	<atom:link href="https://terrytao.wordpress.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://terrytao.wordpress.com</link>
 	<description>Updates on my research and expository papers, discussion of open problems, and other maths-related topics.  By Terence Tao</description>
-	<lastBuildDate>Sat, 14 Nov 2026 00:25:25 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 20 Nov 2026 22:05:50 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -23,13 +23,117 @@
 <site xmlns="com-wordpress:feed-additions:1">817149</site><cloud domain='terrytao.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
 <source:cloud xmlns:source='https://source.scripting.com/'>https://terrytao.wordpress.com/?rsscloud=notify</source:cloud>
 <image>
-		<url>https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Fwebclip.png</url>
+		<url>https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fwebclip.png</url>
 		<title>What&#039;s new</title>
 		<link>https://terrytao.wordpress.com</link>
 	</image>
 	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://terrytao.wordpress.com/osd.xml" title="What&#039;s new" />
 	<atom:link rel='hub' href='https://terrytao.wordpress.com/?pushpress=hub'/>
 	<item>
+		<title>Postdoc positions at the Columbia Data Science Institute</title>
+		<link>https://terrytao.wordpress.com/2026/11/20/postdoc-positions-at-the-columbia-data-science-institute/</link>
+					<comments>https://terrytao.wordpress.com/2026/11/20/postdoc-positions-at-the-columbia-data-science-institute/#respond</comments>
+		
+		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
+		<pubDate>Fri, 20 Nov 2026 22:05:50 +0000</pubDate>
+				<category><![CDATA[advertising]]></category>
+		<category><![CDATA[guest blog]]></category>
+		<category><![CDATA[Ivan Corwin]]></category>
+		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18739</guid>
+
+					<description><![CDATA[[This is a guest post by Ivan Corwin &#8211; T.] Dear colleagues, I am writing to encourage applications to the Columbia Data Science Institute&#8217;s postdoc program, for those interested in being involved in Columbia&#8217;s AI and Mathematical Foundations research activities. See the (Fun)damental AI &#38;&#160;Math description here for some activity in spring 2026 and here [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph"><em>[This is a guest post by <a href="https://www.math.columbia.edu/~corwin/">Ivan Corwin</a> &#8211; T.]</em></p>
+
+
+
+<p class="wp-block-paragraph">Dear colleagues,</p>
+
+
+
+<p class="wp-block-paragraph">I am writing to encourage applications to the <a href="https://datascience.columbia.edu/research/postdoctoral-fellows-program" target="_blank" rel="noopener">Columbia Data Science Institute&#8217;s postdoc program</a>, for those interested in being involved in Columbia&#8217;s AI and Mathematical Foundations research activities. See the (Fun)damental AI &amp;&nbsp;Math description <a href="https://datascience.columbia.edu/research/frontiers-data-science-and-ai/thinkingmachines" target="_blank" rel="noopener">here</a> for some activity in spring 2026 and <a href="https://svenhirsch.com/ai/" target="_blank" rel="noopener">here</a> for activities&nbsp;in fall 2026.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>To apply, please click <a href="https://apply.interfolio.com/180076" target="_blank" rel="noopener">here</a> and follow the instructions. The deadline is December 1 for applications</strong>, though letters can arrive for up to two weeks afterwards.</p>
+
+
+
+<p class="wp-block-paragraph">DSI postdocs are&nbsp;two-year positions with no teaching. To ensure lots of activity, we have cohorts of 3 postdocs in each focus area for the year.&nbsp;The application asks that you identify a DSI research center (you should select the Foundations center) and some faculty you may want to interact with. There are many faculty at Columbia to choose from who work at this interface of AI and mathematical foundations, including in&nbsp;Mathematics (Ivan Corwin,&nbsp;Andrew Blumberg,&nbsp;Johan de Jong),&nbsp;Computer Science theory group (Daniel Hsu, Christos Papadimitriou,&nbsp;Rocco Servedio,&nbsp;Alex Andoni,&nbsp;Henry Yuen,&nbsp;Josh Alman, Micah Goldblum, Adam Block),&nbsp;Statistics (Cynthia Rush,&nbsp;Arian Maleki,&nbsp;Samory Kpotufe,&nbsp;Bodhi Sen,&nbsp;Marcel Nutz),&nbsp;Decision Risk and Optimization in the Business School (Hongseok Namkoong,&nbsp;Carrie Chan,&nbsp;Paul Glasserman,&nbsp;Yash Kanoria),&nbsp;Industrial Engineering and Operations Research (Rachel Cummings,&nbsp;Garud Iyengar,&nbsp;Anran Hu,&nbsp;Daniel Lacker,&nbsp;Wenpin Tang,&nbsp;Jay Sethuraman),&nbsp;Applied Physics and Applied Mathematics (Qiang Du,&nbsp;Michael Weinstein,&nbsp;Kui Ren,&nbsp;Liliana Borcea), and many others.</p>
+
+
+
+<p class="wp-block-paragraph">Should you have any questions, please feel free to reach out to me (Ivan Corwin <a href="mailto:ic2354@columbia.edu" target="_blank" rel="noopener">ic2354@columbia.edu</a>).</p>
+
+
+
+<p class="wp-block-paragraph">Best,</p>
+
+
+
+<p class="wp-block-paragraph">Ivan Corwin, Professor of Mathematics and Statistics&nbsp;@ Columbia University</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/20/postdoc-positions-at-the-columbia-data-science-institute/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">18739</post-id>
+		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
+			<media:title type="html">Terry</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Unforced Euler singularity, unforced Navier-Stokes singularity, and the Generalized Riemann Hypothesis</title>
+		<link>https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/</link>
+					<comments>https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/#comments</comments>
+		
+		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
+		<pubDate>Fri, 20 Nov 2026 17:19:00 +0000</pubDate>
+				<category><![CDATA[math.AP]]></category>
+		<category><![CDATA[math.NT]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[incompressible Euler equations]]></category>
+		<category><![CDATA[Levent Alpöge]]></category>
+		<category><![CDATA[Matei Coiculescu]]></category>
+		<category><![CDATA[Navier-Stokes equations]]></category>
+		<category><![CDATA[Riemann hypothesis]]></category>
+		<category><![CDATA[Tristan Buckmaster]]></category>
+		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18727</guid>
+
+					<description><![CDATA[Obviously these results will be reported widely in other outlets, but I will note them here, in decreasing order of how &#8220;digested&#8221; the results currently are: Levent Alpöge, Tristan Buckmaster, and Matei Coiculescu, with heavy AI assistance, have written a human-readable proof of the finite time blowup for the unforced incompressible Euler equations in three [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Obviously these results will be reported widely in other outlets, but I will note them here, in decreasing order of how &#8220;digested&#8221; the results currently are:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Levent Alpöge, Tristan Buckmaster, and Matei Coiculescu, with heavy AI assistance, have written a <a href="https://cims.nyu.edu/~tristanb/cc.pdf">human-readable proof of the finite time blowup for the unforced incompressible Euler equations in three dimensions</a>, which is <a href="https://github.com/mcoiculescu/EulerBlowupPublic">formalized in Lean here</a>.</li>
+
+
+
+<li>Levent Alpöge and Tristan Buckmaster, again with heavy AI usage, have generated a <a href="https://github.com/tristanbuckmaster/navier-stokes/">proof of the finite time blowup for the unforced incompressible Navier Stokes equations in three dimensions, again with a Lean formalization</a>. Here, the paper is technically human-readable and the general strategy of proof is broadly clear (following one of the expected paths to this result, namely to numerically build an approximate discretely self-similar solution and then use rigorous perturbation theory to convert this to an exact solution); but more work needs to be done to create a proper, professionally written proof.</li>
+
+
+
+<li>Levent Alpöge, using an internal AI model, has generated an (enormous) Lean-only proof of the Generalized Riemann Hypothesis. <a href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/Discussion.3A.20Alp.C3.B6ge.20Proves.20the.20Riemann.20Hypothesis">This Lean Zulip thread</a> is probably the best place to follow the efforts to verify the proof and extract the strategy of proof (which, from very initial analysis, appears to use the full power of modern developments on the Langlands program and arithmetic geometry). (UPDATE: the moderators of the Lean thread are now focusing the discussion on the Lean-related aspects of the proof only.) I imagine the digestion process will take some time, though in this case at least we have a human author to communicate with to assist with this task.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">See also <a href="https://mastodon.social/@tristanbuckmaster/117649035783718539">Buckmaster&#8217;s Mastodon post</a> regarding the first two results.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/feed/</wfw:commentRss>
+			<slash:comments>31</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">18727</post-id>
+		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
+			<media:title type="html">Terry</media:title>
+		</media:content>
+	</item>
+		<item>
 		<title>Introducing MathHelm: A Place to discuss AI-generated papers</title>
 		<link>https://terrytao.wordpress.com/2026/11/13/introducing-mathhelm-a-place-to-discuss-ai-generated-papers/</link>
 					<comments>https://terrytao.wordpress.com/2026/11/13/introducing-mathhelm-a-place-to-discuss-ai-generated-papers/#comments</comments>
@@ -132,7 +236,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/13/introducing-mathhelm-a-place-to-discuss-ai-generated-papers/feed/</wfw:commentRss>
-			<slash:comments>29</slash:comments>
+			<slash:comments>30</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18722</post-id>
@@ -838,7 +942,7 @@ This allows us to take the Fourier transform of symbols:
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/11/lean-grimoire/feed/</wfw:commentRss>
-			<slash:comments>68</slash:comments>
+			<slash:comments>74</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18701</post-id>
@@ -1169,100 +1273,6 @@ If you have any suggestions or feature requests, please leave them in the commen
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18669</post-id>
-		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
-			<media:title type="html">Terry</media:title>
-		</media:content>
-	</item>
-		<item>
-		<title>More of my interviews and talks</title>
-		<link>https://terrytao.wordpress.com/2026/11/04/more-of-my-interviews-and-talks/</link>
-					<comments>https://terrytao.wordpress.com/2026/11/04/more-of-my-interviews-and-talks/#respond</comments>
-		
-		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
-		<pubDate>Wed, 04 Nov 2026 18:52:00 +0000</pubDate>
-				<category><![CDATA[media]]></category>
-		<category><![CDATA[AI]]></category>
-		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18644</guid>
-
-					<description><![CDATA[I am continuing in this current era to open up my blog to a broader range of voices on math and AI, with the majority of posts now being guest posts by other authors. My own views on these topics (which often overlap with, but are not identical to, those of the guest authors) are [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">I am continuing in this current era to open up my blog to a broader range of voices on math and AI, with the majority of posts now being guest posts by other authors. My own views on these topics (which often overlap with, but are not identical to, those of the guest authors) are summarized on <a href="https://teorth.github.io/tao-web/ai-views.html">this page</a>. I have also given a number of recent interviews and talks on these topics; I am listing some of these here for reference.</p>
-
-
-
-<ul class="wp-block-list">
-<li>&#8220;<a href="https://open.spotify.com/episode/4R4RTCjawK92g33ipS2gP6">How maths underpins almost every aspect of our lives</a>&#8220;, Instant Genius podcast, BBC Science Focus, October 18, 2026.</li>
-
-
-
-<li>&#8220;<a href="https://youtu.be/TjeCcDkuyao">Terence Tao &amp; Yu Deng: Why We Build Open Math Model</a>&#8220;, SAIR Foundation, October 19, 2026.</li>
-
-
-
-<li>James Tapper, &#8220;<a href="https://observer.co.uk/news/science-technology/article/terence-tao-ai-race-turns-beautiful-mathematics-into-toxic-waste">Terence Tao: AI race turns beautiful mathematics into ‘toxic waste’</a>&#8220;, The Observer, October 23, 2026. </li>
-
-
-
-<li>&#8220;<a href="https://www.nature.com/articles/d41586-026-03389-1">Can maths survive AI? Fields medallist Terence Tao calls for a ‘Maths 2.0’ world</a>&#8220;, World View op-ed, Nature, October 22, 2026.</li>
-
-
-
-<li>&#8220;<a href="https://www.sciencefriday.com/segments/terence-tao-ai-math-solutions/">Terence Tao on how AI math solutions miss the point</a>&#8220;, interview with Flora Lichtman, Science Friday, October 28, 2026.  <a href="https://www.youtube.com/watch?v=9vetGqz4zXg">[Youtube version</a>]</li>
-
-
-
-<li>&#8220;<a href="https://www.youtube.com/watch?v=EYrlyxuyFbs">Inside AI’s Brutal Race to Solve a Famous Math Problem</a>&#8220;, New Scientist, October 28, 2026. </li>
-
-
-
-<li>Rivka Galchen, &#8220;<a href="https://www.newyorker.com/magazine/2026/11/09/the-year-math-changed-forever">The Year Math Changed Forever</a>&#8220;, The New Yorker, November 1, 2026. </li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">Disclosure: while many of these articles were solicited due to current events, some are also related to a long-planned launch of a <a href="https://www.quantabooks.org/books/six-math-essentials/">book I wrote</a>, to be released Nov 10.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/04/more-of-my-interviews-and-talks/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">18644</post-id>
-		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
-			<media:title type="html">Terry</media:title>
-		</media:content>
-	</item>
-		<item>
-		<title>Doctoral Advising Guidelines by the AHM</title>
-		<link>https://terrytao.wordpress.com/2026/11/03/doctoral-advising-guidelines-by-the-ahm/</link>
-					<comments>https://terrytao.wordpress.com/2026/11/03/doctoral-advising-guidelines-by-the-ahm/#comments</comments>
-		
-		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
-		<pubDate>Tue, 03 Nov 2026 18:32:46 +0000</pubDate>
-				<category><![CDATA[guest blog]]></category>
-		<category><![CDATA[opinion]]></category>
-		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Association for Human Mathematics]]></category>
-		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18659</guid>
-
-					<description><![CDATA[[This is a guest post by the AHM communications group. — T.] We are happy to announce that the Teaching Working Group of the Association for Human Mathematics wrote a set of recommendations on doctoral advising aimed at departments, advisors, and students. The document contains five guidelines centered on prioritizing human-authored writing, avoiding overreliance on [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph"><em>[This is a guest post by the <a href="https://www.ahmath.org/">AHM</a> communications group. — T.]</em></p>
-
-
-
-<p class="wp-block-paragraph">We are happy to announce that the Teaching Working Group of the Association for Human Mathematics wrote <a href="https://www.ahmath.org/doctoraladvising" target="_blank" rel="noopener">a set of recommendations on doctoral advising</a> aimed at departments, advisors, and students. The document contains five guidelines centered on prioritizing human-authored writing, avoiding overreliance on AI, confronting the ethical concerns of AI use, and improving the wellbeing of students, as well as concrete proposals on how to implement them. We encourage everyone to read and share the document, and we especially look forward to feedback and suggestions.</p>
-
-
-
-<p class="wp-block-paragraph"></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/03/doctoral-advising-guidelines-by-the-ahm/feed/</wfw:commentRss>
-			<slash:comments>34</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">18659</post-id>
 		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
 			<media:title type="html">Terry</media:title>
 		</media:content>

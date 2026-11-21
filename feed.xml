@@ -6,7 +6,49 @@
 <atom:link href="https://xavierblot-math.github.io/veille-ia/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Daily summary of Xena, Proofs and Prompts, Silicon Reckoner, Tao (blog and Mastodon) and Gowers.</description>
 <language>en</language>
-<lastBuildDate>Fri, 20 Nov 2026 04:42:57 +0000</lastBuildDate>
+<lastBuildDate>Sat, 21 Nov 2026 04:42:54 +0000</lastBuildDate>
+<item>
+<title>Digest — 21 November 2026 (4 new posts)</title>
+<link>https://xavierblot-math.github.io/veille-ia/#2026-11-21</link>
+<guid isPermaLink="false">veille-ia-2026-11-21</guid>
+<pubDate>Sat, 21 Nov 2026 04:00:00 +0000</pubDate>
+<description><![CDATA[
+<p><em>Nothing new from Timothy Gowers, Kevin Buzzard (Xena) or Terence Tao on Mastodon.</em></p>
+
+<h3>Terence Tao — <a href="https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/">Unforced Euler singularity, unforced Navier-Stokes singularity, and the Generalized Riemann Hypothesis</a></h3>
+<ul>
+<li>Tao flags three AI-assisted announcements, all built around Levent Alpöge, and ranks them by how well understood they are so far.</li>
+<li>Alpöge, Tristan Buckmaster and Matei Coiculescu: a readable proof, formalized in Lean, that the <em>unforced</em> 3D incompressible Euler equations can blow up in finite time.</li>
+<li>Alpöge and Buckmaster: a Lean-verified proof of finite-time blowup for the unforced 3D Navier–Stokes equations. The method is one of the expected routes: build an approximate discretely self-similar solution numerically, then use rigorous perturbation theory to get an exact one. The written proof still needs proper professional exposition.</li>
+<li>Alpöge, using an in-house AI model: a huge Lean-only proof of the Generalized Riemann Hypothesis. A Lean Zulip thread is working to check it and pull out the strategy, which at first glance relies on the full modern Langlands and arithmetic-geometry machinery.</li>
+<li>👉 If these hold up, this is the biggest AI-and-mathematics news so far. Note that the unforced case is exactly what the earlier OpenAI Navier–Stokes result left open. Worth following the Zulip thread.</li>
+</ul>
+
+<h3>Proofs and Prompts (Matt Kerr) — <a href="https://proofsandprompts.com/2026/11/20/artificial-mathematics/">Artificial mathematics</a></h3>
+<ul>
+<li>A reply to Strogatz's Atlantic essay, which Kerr thinks ends too resignedly. He sees AI deepening a split between applied mathematics, where it is just another tool, and pure mathematics, which is facing a real sense of loss.</li>
+<li>His main claim: pure mathematics is a human creation, more like composing poetry within a grammar of forms than discovering external truths. A Platonist "out there" view is therefore anti-humanistic, and handing the work to machines throws away the point of the subject.</li>
+<li>He accepts AI for admin, LaTeX/TikZ and trying out examples, but not for writing papers or recommendation letters. He also urges tenured mathematicians to publish less and value good exposition.</li>
+<li>He is critical of OpenAI's dump of 700+ unreviewed manuscripts (the "slop drop") and of the new LLM-oriented preprint server Hexagon. He ends by telling students not to give up on becoming mathematicians.</li>
+</ul>
+
+<h3>Proofs and Prompts (Sinisa Slijepcevic) — <a href="https://proofsandprompts.com/2026/11/20/letter-to-young-mathematicians/">Letter to young mathematicians</a></h3>
+<ul>
+<li>An optimistic answer to the Leiden Declaration, the Fields Medallists' declaration and similar letters. He calls the present "creative destruction" and an opportunity, with three messages: embrace AI, be bolder, serve humanity. The letter was written with Claude's help, and the chat is linked.</li>
+<li>Value should no longer come from technical difficulty alone: a statement an AI proves from a single prompt may count only as a lemma. He wants collaborative, AI-assisted research with credit designed in from the start (building on Po-Ling Loh's proposals).</li>
+<li>Be bolder: the forced Navier–Stokes blowup proves little about real fluid dynamics. He disputes Tao's claim that AI is "depleting" the supply of good problems and argues it can help generate new questions and rank them.</li>
+<li>Serve humanity: he reads AlphaFold as a triumph of mathematical structure (geometry, SE(3) invariance, probability) more than of learning. He points to the missing rigorous foundations of QFT (citing Seiberg, Connes–Kreimer, Hairer) and to clinical statistics as places mathematicians are needed.</li>
+<li>👉 The QFT and renormalization points touch mathematical physics. The footnotes are also a handy timeline of the 2026 AI results.</li>
+</ul>
+
+<h3>Terence Tao (guest post by Ivan Corwin) — <a href="https://terrytao.wordpress.com/2026/11/20/postdoc-positions-at-the-columbia-data-science-institute/">Postdoc positions at the Columbia Data Science Institute</a></h3>
+<ul>
+<li>Two-year postdocs with no teaching in AI and mathematical foundations, hired in cohorts of three. The deadline is December 1, and faculty contacts include Corwin, Blumberg and de Jong. Possibly useful for your students.</li>
+</ul>
+
+<p><em>Source note: all sources fetched successfully.</em></p>
+]]></description>
+</item>
 <item>
 <title>Digest — 20 November 2026 (2 new posts)</title>
 <link>https://xavierblot-math.github.io/veille-ia/#2026-11-20</link>
@@ -967,47 +1009,6 @@
 <description><![CDATA[
 <p>Nothing new appeared in the sources (Xena, Gowers, Tao's blog, Tao on Mastodon, Proofs and Prompts) in the last 24 hours.</p>
 <p><em>Note: the sources were last fetched on 22 October 2026 at 07:54 UTC (about 20 hours before this run), so posts published since then are not covered.</em></p>
-]]></description>
-</item>
-<item>
-<title>Digest — 22 October 2026 (4 new posts)</title>
-<link>https://xavierblot-math.github.io/veille-ia/#2026-10-22</link>
-<guid isPermaLink="false">veille-ia-2026-10-22</guid>
-<pubDate>Thu, 22 Oct 2026 04:00:00 +0000</pubDate>
-<description><![CDATA[
-<p><em>Nothing new: Gowers, Xena (Buzzard), Tao on Mastodon.</em></p>
-
-<h3>Terence Tao (guest post by Tristan Buckmaster) — <a href="https://terrytao.wordpress.com/2026/10/21/mathematics-is-a-subject-for-the-young/">Mathematics is a subject for the young</a></h3>
-<ul>
-<li>Expands his 19 October IAS talk. He returns to his "Deep Blue–Kasparov moment" comparison (made when he and Alpöge released their Euler result): OpenAI's Navier–Stokes proof reportedly took 10,000 agents running for 88 hours, a scale that is out of reach today but that falling costs could soon make widely available.</li>
-<li>He argues that racing to be first on famous problems is over, but mathematics is not, because its value lies in human understanding: a machine-certified proof of RH would still leave open <em>why</em> it is true.</li>
-<li>He sees mathematical physics as a natural target for AI: making heuristic physics rigorous, as Deng–Hani(–Ma) did for wave kinetic theory and for the Boltzmann equation (Hilbert's sixth problem), could become feasible for other effective theories.</li>
-<li>Sharp criticism of AI companies: competing with their own customers, the 6 October OpenAI manuscript dump (some proofs unreadable or false, misleading compute claims, possible overlap with unreleased student work). He proposes zero-retention enterprise agreements covering every academic, opt-in-only training on user data, open-weight infrastructure, and a credit system that rewards exposition, disclosure and shared tools.</li>
-<li>👉 Directly relevant: AI and mathematical physics, plus concrete advice on data protection and credit that applies to PhD supervision.</li>
-</ul>
-
-<h3>Proofs and Prompts (Yiannis Sakellaridis) — <a href="https://proofsandprompts.com/2026/10/21/artificial-intelligence-and-the-mathematical-community/">Paralysis</a></h3>
-<ul>
-<li>He compares AI to a powerful new telescope for exploring mathematical truth, but warns against the alternative story in which machines do all the understanding, which in practice would mean subordination to the companies that own them.</li>
-<li>He argues that AI firms need to capture scientific output as intellectual property to pay back trillions in investment, after training on publicly funded work released under non-commercial licences, and that their opacity makes "training off" settings impossible to verify.</li>
-<li>His main charge is against the community: professional societies, institutions and advisory bodies have stayed silent on misconduct and IP theft, which he calls a "mathematical community in a state of paralysis". He also calls for public AI infrastructure for science.</li>
-</ul>
-
-<h3>Proofs and Prompts (Pavel Etingof &amp; Slava Gerovitch, MIT) — <a href="https://proofsandprompts.com/2026/10/21/mathematics-of-the-future/">Mathematics of the Future</a></h3>
-<ul>
-<li>Part of the 19–23 October series for PhD students and postdocs; a summary of a longer text. They argue that the four functions of mathematics (truth, culture, applications, intellectual growth) all survive AI, and that society should maintain mathematical expertise the way it maintains fire departments.</li>
-<li>They expect the priority-based "ownership culture" to give way to evaluation based on intellectual agency: hiring through talks and direct conversation, and treating AI-assisted theorems the same as unassisted ones.</li>
-<li>New roles they foresee: interpreting massive AI output, a "big cleanup" of the literature (fixing errors and gaps, plus Lean formalization alongside readable exposition), and richer publication formats. Teaching would add oral exams and value breadth over early specialization; a thesis need not contain a first proof.</li>
-<li>Concrete proposal: small faculty-led labs where a group brainstorms, the AI responds to the notes, and students check and discuss the answers in a shared document. Advice to the young: accept uncertainty, learn broadly, collaborate.</li>
-<li>👉 Directly about PhD training and supervision; the lab model is worth reading in full.</li>
-</ul>
-
-<h3>Proofs and Prompts (Márton Balázs, Bristol) — <a href="https://proofsandprompts.com/2026/10/21/the-power-of-beauty-and-elegance/">The Power of Beauty and Elegance</a></h3>
-<ul>
-<li>He frames the "Ultimate Question" as whether brute knowledge and compute can beat human intuition for beauty and elegance in every area of mathematics.</li>
-<li>He points out that most guidance on human-scale mathematics quietly assumes the answer is no. If it is yes, the profession becomes an exotic art with little funding, and the same would hold across science and engineering.</li>
-<li>He remains optimistic, at least for many years, because LLMs still seem far from a useful sense of elegance for finding their way among possible theorems.</li>
-</ul>
 ]]></description>
 </item>
 </channel>

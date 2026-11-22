@@ -6,7 +6,46 @@
 <atom:link href="https://xavierblot-math.github.io/veille-ia/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Daily summary of Xena, Proofs and Prompts, Silicon Reckoner, Tao (blog and Mastodon) and Gowers.</description>
 <language>en</language>
-<lastBuildDate>Sat, 21 Nov 2026 04:42:54 +0000</lastBuildDate>
+<lastBuildDate>Sun, 22 Nov 2026 04:42:40 +0000</lastBuildDate>
+<item>
+<title>Digest — 22 November 2026 (4 new posts)</title>
+<link>https://xavierblot-math.github.io/veille-ia/#2026-11-22</link>
+<guid isPermaLink="false">veille-ia-2026-11-22</guid>
+<pubDate>Sun, 22 Nov 2026 04:00:00 +0000</pubDate>
+<description><![CDATA[
+<p><em>Nothing new from Timothy Gowers or Terence Tao on Mastodon.</em></p>
+
+<h3>Kevin Buzzard (Xena) — <a href="https://xenaproject.wordpress.com/2026/11/21/lean-for-the-working-mathematician/">Lean for the working mathematician</a></h3>
+<ul>
+<li>Guest post by <a href="https://mitchtaylormath.ca/">Mitchell Taylor</a> (Oxford, PDE / Banach lattices), based on his Imperial PDE seminar talk; Buzzard notes he would not have believed this picture of 2026 two years ago.</li>
+<li>Story: about 10 hours of a Lean course (taught by Jaume de Dios Pont) were enough for Taylor to check LLM-written formalizations; by March 2026 two joint papers were in Lean, and over a dozen people in his community have since verified their papers. David Muñoz-Lahoz built a Banach lattice library; Lukas Liehr went from zero to millions of lines of Lean in weeks.</li>
+<li>Uses: Lean "checkpoints" for the decoupled pieces of a 100-page paper, step-by-step generalization of a theorem, letting the LLM glue the pieces and track constants, certifying fast learning of new tools (GPT-5.4 suggested Chern classes to disprove a time-frequency conjecture; the disproof was then autoformalized), and catching a wrong reference that an LLM "solution" relied on.</li>
+<li>Caveats: you can now verify without understanding; Lean's proof irrelevance ignores what makes different proofs valuable; the reward system favours solving named conjectures over building the theory after. He expects most of mathematics to be formalized within three years and points to a step-by-step <a href="https://functionalanalysismadrid.com/lean_guide.pdf">tutorial</a> for formalizing papers with a frontier model.</li>
+<li>👉 Concrete, practitioner-level workflow from a non-formalist; the tutorial is worth a look if you want to try verifying one of your own papers.</li>
+</ul>
+
+<h3>Terence Tao — <a href="https://terrytao.wordpress.com/2026/11/21/even-more-posts-opinion-pieces-interviews-and-position-statements/">Even more posts, opinion pieces, interviews, and position statements</a></h3>
+<ul>
+<li>A new link roundup on AI and mathematics: the AHM statement on the announced Riemann Hypothesis proof (summarized below), the DMV presidium's position on AI in mathematics, an Oxford conversation with Ben Green and James Maynard, and essays by Alexander Givental, Logan Graves, Thor Husfeldt ("The Collapse of the Proof Economy") and Masoud Kamgarpour.</li>
+<li>Readers can add further pieces in the comments.</li>
+</ul>
+
+<h3>Proofs and Prompts (Florian Lengyel) — <a href="https://proofsandprompts.com/2026/11/21/on-premature-discovery/">On Premature Discovery</a></h3>
+<ul>
+<li>A short satirical reductio: if AI is blamed for solving a problem before the theory it might have motivated was developed, human solvers deserve the same charge.</li>
+<li>Examples: Lander–Parkin's 1966 computer refutation of Euler's sum-of-powers conjecture, and OpenAI's reported Lean-formalized results (Sogge's local smoothing conjecture, a refutation of the Exponential Time Hypothesis, 4D Yang–Mills existence).</li>
+<li>The ironic conclusion: by this logic, the great problem-solvers stand condemned.</li>
+</ul>
+
+<h3>Proofs and Prompts (AHM communications group) — <a href="https://proofsandprompts.com/2026/11/21/ahm-statement-on-the-announced-proof-of-the-riemann-hypothesis/">AHM Statement on the Announced Proof of the Riemann Hypothesis</a></h3>
+<ul>
+<li>Responding to the 20 November announcement by a mathematician at Anthropic of an AI-generated Lean proof of the Riemann Hypothesis, the AHM argues that no human can currently take responsibility for, or understand, the document.</li>
+<li>It frames such proofs as a corporate value system that puts formal validity above accountability and understanding, and treats milestones like RH as publicity for superintelligence efforts.</li>
+<li>It calls for democratic oversight of AI companies and urges mathematicians to keep their research independent of AI models and their owners. Also posted on the <a href="https://www.ahmath.org/statements">AHM website</a>.</li>
+<li>👉 A sharp institutional reaction to the RH/GRH news from yesterday's digest; useful context for the debate in the community.</li>
+</ul>
+]]></description>
+</item>
 <item>
 <title>Digest — 21 November 2026 (4 new posts)</title>
 <link>https://xavierblot-math.github.io/veille-ia/#2026-11-21</link>
@@ -999,16 +1038,6 @@
 <description><![CDATA[
 <p>Nothing new appeared in the sources (Xena, Gowers, Tao's blog, Tao on Mastodon, Proofs and Prompts) in the last 24 hours.</p>
 <p><em>Note: the sources were last fetched on 23 October 2026 at 07:53 UTC (about 20 hours before this run), so posts published since then are not covered.</em></p>
-]]></description>
-</item>
-<item>
-<title>Digest — 23 October 2026: nothing new today</title>
-<link>https://xavierblot-math.github.io/veille-ia/#2026-10-23</link>
-<guid isPermaLink="false">veille-ia-2026-10-23</guid>
-<pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
-<description><![CDATA[
-<p>Nothing new appeared in the sources (Xena, Gowers, Tao's blog, Tao on Mastodon, Proofs and Prompts) in the last 24 hours.</p>
-<p><em>Note: the sources were last fetched on 22 October 2026 at 07:54 UTC (about 20 hours before this run), so posts published since then are not covered.</em></p>
 ]]></description>
 </item>
 </channel>

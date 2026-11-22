@@ -13,7 +13,7 @@
 	<atom:link href="https://terrytao.wordpress.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://terrytao.wordpress.com</link>
 	<description>Updates on my research and expository papers, discussion of open problems, and other maths-related topics.  By Terence Tao</description>
-	<lastBuildDate>Fri, 20 Nov 2026 22:05:50 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 22 Nov 2026 01:20:44 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -23,13 +23,68 @@
 <site xmlns="com-wordpress:feed-additions:1">817149</site><cloud domain='terrytao.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
 <source:cloud xmlns:source='https://source.scripting.com/'>https://terrytao.wordpress.com/?rsscloud=notify</source:cloud>
 <image>
-		<url>https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Fwebclip.png</url>
+		<url>https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fwebclip.png</url>
 		<title>What&#039;s new</title>
 		<link>https://terrytao.wordpress.com</link>
 	</image>
 	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://terrytao.wordpress.com/osd.xml" title="What&#039;s new" />
 	<atom:link rel='hub' href='https://terrytao.wordpress.com/?pushpress=hub'/>
 	<item>
+		<title>Even more posts, opinion pieces, interviews, and position statements</title>
+		<link>https://terrytao.wordpress.com/2026/11/21/even-more-posts-opinion-pieces-interviews-and-position-statements/</link>
+					<comments>https://terrytao.wordpress.com/2026/11/21/even-more-posts-opinion-pieces-interviews-and-position-statements/#comments</comments>
+		
+		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
+		<pubDate>Sun, 22 Nov 2026 01:19:10 +0000</pubDate>
+				<category><![CDATA[media]]></category>
+		<category><![CDATA[opinion]]></category>
+		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18674</guid>
+
+					<description><![CDATA[AHM Statement on the Announced Proof of the Riemann Hypothesis Positionen des Präsidiums der Deutschen Mathematiker-Vereinigung (DMV) zur Bedeutung Künstlicher Intelligenz für die Mathematik (Positions of the Presidium of the German Mathematical Society (DMV) on the importance of artificial intelligence for mathematics) Oxford Mathematics in Conversation on AI &#8211; Ben Green and James Maynard with [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<ul class="wp-block-list">
+<li><a href="https://www.ahmath.org/statements">AHM Statement on the Announced Proof of the Riemann Hypothesis</a></li>
+
+
+
+<li><a href="https://www.mathematik.de/dmv-blog/5362-dmv-pr%C3%A4sidium-zur-bedeutung-der-ki-f%C3%BCr-die-mathematik">Positionen des Präsidiums der Deutschen Mathematiker-Vereinigung (DMV) zur Bedeutung Künstlicher Intelligenz für die Mathematik</a> (Positions of the Presidium of the German Mathematical Society (DMV) on the importance of artificial intelligence for mathematics)</li>
+
+
+
+<li><a href="https://www.youtube.com/watch?v=2GsuvsEg28o">Oxford Mathematics in Conversation on AI &#8211; Ben Green and James Maynard with Jan Obloj</a></li>
+
+
+
+<li>Alexander Givental, &#8220;<a href="https://sumizdat.com/homepage/verity.pdf">The Queen of Sciences in the Age of Silicon</a>&#8220;</li>
+
+
+
+<li>Logan Graves, &#8220;<a href="https://logangraves.com/priest-monk-mathematician">Priest, Monk, and Mathematician</a>&#8220;</li>
+
+
+
+<li>Thor Husfeldt, &#8220;<a href="https://www.youtube.com/watch?v=CYMn0QZLzyY">The Collapse of the Proof Economy</a>&#8220;</li>
+
+
+
+<li>Masoud Kamgarpour, &#8220;<a href="https://sites.google.com/site/masoudkomi/whymath">Why mathematics?</a>&#8220;</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">As always, further links to relevant such pieces can be made as comments to this post.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/21/even-more-posts-opinion-pieces-interviews-and-position-statements/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">18674</post-id>
+		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
+			<media:title type="html">Terry</media:title>
+		</media:content>
+	</item>
+		<item>
 		<title>Postdoc positions at the Columbia Data Science Institute</title>
 		<link>https://terrytao.wordpress.com/2026/11/20/postdoc-positions-at-the-columbia-data-science-institute/</link>
 					<comments>https://terrytao.wordpress.com/2026/11/20/postdoc-positions-at-the-columbia-data-science-institute/#respond</comments>
@@ -125,7 +180,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/feed/</wfw:commentRss>
-			<slash:comments>31</slash:comments>
+			<slash:comments>101</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18727</post-id>
@@ -942,7 +997,7 @@ This allows us to take the Fourier transform of symbols:
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/11/lean-grimoire/feed/</wfw:commentRss>
-			<slash:comments>74</slash:comments>
+			<slash:comments>75</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18701</post-id>
@@ -1045,7 +1100,7 @@ This blog post is an invitation to take a look at the survey results. Some of th
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/09/our-survey-of-early-career-mathematicians/feed/</wfw:commentRss>
-			<slash:comments>5</slash:comments>
+			<slash:comments>6</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18684</post-id>
@@ -1225,54 +1280,6 @@ This blog post is an invitation to take a look at the survey results. Some of th
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18615</post-id>
-		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
-			<media:title type="html">Terry</media:title>
-		</media:content>
-	</item>
-		<item>
-		<title>Futures of Maths Launch</title>
-		<link>https://terrytao.wordpress.com/2026/11/05/futures-of-maths-launch/</link>
-					<comments>https://terrytao.wordpress.com/2026/11/05/futures-of-maths-launch/#comments</comments>
-		
-		<dc:creator><![CDATA[Terence Tao]]></dc:creator>
-		<pubDate>Thu, 05 Nov 2026 17:14:20 +0000</pubDate>
-				<category><![CDATA[advertising]]></category>
-		<category><![CDATA[guest blog]]></category>
-		<category><![CDATA[Francesco Fournier-Facio]]></category>
-		<category><![CDATA[Jon Roozenbeek]]></category>
-		<category><![CDATA[Julian Wykowski]]></category>
-		<category><![CDATA[Yara Kyrychenko]]></category>
-		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18669</guid>
-
-					<description><![CDATA[[This is a guest post by Francesco Fournier-Facio, Yara Kyrychenko, Jon Roozenbeek, and Julian Wykowski, cross-posted from the Proofs and Prompts blog. This blog post was initially written in a different file format and converted using AI. &#8212; T.] Today we launch Futures of Maths, a new, living platform that asks active research mathematicians about [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>
- <em>[This is a guest post by Francesco Fournier-Facio, Yara Kyrychenko, Jon Roozenbeek, and Julian Wykowski, cross-posted from the <a href="https://proofsandprompts.com/2026/11/05/futures-of-maths-launch/">Proofs and Prompts blog</a>. This blog post was initially written in a different file format and converted using AI. &#8212; T.]</em>
-</p><p>
-Today we launch <a href="https://community.futuresofmaths.com">Futures of Maths</a>, a new, living platform that asks active research mathematicians about the most pressing questions around maths and AI. A string of solutions to famous maths problems, found with the help of AI, has provoked a great deal of discussion among research mathematicians. We built Futures of Maths to understand how mathematicians are dealing with this change in their research and teaching, and where they see the field heading.
-</p><p>
-<span id="more-18669"></span>
-</p><p>
-<em><b>How it works.</b></em> The platform shows you short statements about maths and AI. You rate each one from &#8220;strongly disagree&#8221; to &#8220;strongly agree&#8221;, or skip it, and you can mark the ones you find exceptionally important. Once you have answered, you see how everyone has rated the statement so far. You don&#8217;t have to finish in one go: you can leave and come back at any time. Most importantly, you can post your own statements. A moderator checks each one, and then everyone else can rate it, so the set of statements keeps evolving with the community&#8217;s input.
-</p><p>
-<em><b>Results.</b></em> Once we have collected enough responses, we will publish the results and make them available to the community. We will post again on <a HREF="https://proofsandprompts.com/">Proofs and Prompts</a> when this happens.
-</p><p>
-<em><b>Who can participate.</b></em> You can take part if you are 18 or older and have at least one article published in the last 5 years in a mathematics journal, meaning one indexed by zbMATH Open (recently accepted articles also count). The quickest way in is to sign in with ORCID. The article must be on your public ORCID record, added by Crossref. Articles you enter yourself don&#8217;t count. If it isn&#8217;t there, accept Crossref&#8217;s permission request in your ORCID inbox and make the work public. If that doesn&#8217;t work, for example because your article is accepted but not yet published, you can request a manual review from your institutional email address. We review these case by case.<br />
- We appreciate that this is only an approximation of what an active research mathematician is, but we chose it for its <em>simplicity</em>, <em>objectivity </em>and <em>efficient verifiability</em>. We welcome proposals of alternative criteria that cover a more representative sample, and have these same three qualities, they could be implemented in future iterations.
-</p><p>
-<em><b>Privacy.</b></em> The survey is anonymous. Verification happens on a separate website, and the survey itself never learns your name, email address or ORCID iD. When you first register, you receive a personal link that lets you return as often as you like as the consultation evolves. Please save this link. We can&#8217;t look it up or resend it, because that is what keeps you anonymous. Questions about yourself are optional, under &#8220;My session&#8221;, and you can withdraw your answers at any time.
-</p><p>
-<em><b>Inviting wide participation.</b></em> The results will only be meaningful if a large and diverse group of people takes part, both proposing statements and rating them. Please share this widely, and especially with people whose point of view you feel is underrepresented in the discussion on maths and AI.
-</p><p>
-If you have any suggestions or feature requests, please leave them in the comments!
-</p><p></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/05/futures-of-maths-launch/feed/</wfw:commentRss>
-			<slash:comments>7</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">18669</post-id>
 		<media:content url="https://1.gravatar.com/avatar/d7f0e4a42bbbf58ffa656c92d4a32b2b6752e802dfa4cb919e5774dcfda006c0?s=96&#38;d=identicon&#38;r=PG" medium="image">
 			<media:title type="html">Terry</media:title>
 		</media:content>

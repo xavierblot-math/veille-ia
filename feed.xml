@@ -6,7 +6,32 @@
 <atom:link href="https://xavierblot-math.github.io/veille-ia/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Daily summary of Xena, Proofs and Prompts, Silicon Reckoner, Tao (blog and Mastodon) and Gowers.</description>
 <language>en</language>
-<lastBuildDate>Sun, 22 Nov 2026 04:42:40 +0000</lastBuildDate>
+<lastBuildDate>Mon, 23 Nov 2026 04:42:52 +0000</lastBuildDate>
+<item>
+<title>Digest — 23 November 2026 (2 new posts)</title>
+<link>https://xavierblot-math.github.io/veille-ia/#2026-11-23</link>
+<guid isPermaLink="false">veille-ia-2026-11-23</guid>
+<pubDate>Mon, 23 Nov 2026 04:00:00 +0000</pubDate>
+<description><![CDATA[
+<p><em>Nothing new on: Xena (Kevin Buzzard), Gowers's Weblog, Terence Tao (Mastodon).</em></p>
+<h3>Proofs and Prompts (Kimball Martin) — <a href="https://proofsandprompts.com/2026/11/22/a-call-for-greater-collaboration/">A call for greater collaboration</a></h3>
+<ul>
+<li>Part of the series on publishing and credit. Martin learned that two groups were using AI to move fast on problems he was working on, one of them a PhD student's ongoing thesis topic. His worry is not their use of AI but finding out too late that both sides had duplicated the work privately.</li>
+<li>Rather than more secrecy, he argues for collaborations of 5–50 people (bigger than the usual 2–4 authors, smaller than Polymath-style open projects). They would reduce racing and duplication, and PhD students could get credit for group contributions.</li>
+<li>Practical advice: if AI gives you fast progress, contact interested people instead of rushing out a paper; organise workshops; use Zulip spaces to coordinate; have 1–3 organisers chosen for their people skills rather than seniority; set staged subgoals and agree upfront on how AI will be used. Also: don't do another group's tasks with AI without asking, and plan for members who drop out.</li>
+<li>His own case: he emailed the competing group, they met on Zoom and found that neither work subsumed the other, so they split the remaining parts and may merge later.</li>
+<li>👉 Directly relevant to PhD supervision: how to protect a student's thesis topic when AI-assisted groups can overtake it.</li>
+</ul>
+<h3>Proofs and Prompts (Jean-Michel Kantor) — <a href="https://proofsandprompts.com/2026/11/22/a-mathematical-community/">A mathematical community?</a></h3>
+<ul>
+<li>A short reply to Isabelle Gallagher's (SMF president) "Slow Maths" post, questioning two of its assumptions.</li>
+<li>First, he doubts there is a single world mathematical community. He reads Klainerman's proposals (<a href="https://arxiv.org/pdf/2610.29713">arXiv:2610.29713</a>) and well-funded US AI labs as the local practice of a Silicon Valley/Princeton milieu.</li>
+<li>Second, he says mathematicians face a debate imposed by a technology, not a scientific one. He cites Gabor's law (whatever can be done technically will be done, also put forward by Ellul) and the US economic and political weight behind AI, which he says American colleagues never mention.</li>
+<li>👉 Part of the French side of the debate (SMF, IMJ).</li>
+</ul>
+<p><em>Also: Tao's blog posted a UCLA tenure-track job advert in pure mathematics (PhD required by June 2027) (<a href="https://terrytao.wordpress.com/2026/11/22/tenure-track-position-in-pure-mathematics-at-ucla/">link</a>).</em></p>
+]]></description>
+</item>
 <item>
 <title>Digest — 22 November 2026 (4 new posts)</title>
 <link>https://xavierblot-math.github.io/veille-ia/#2026-11-22</link>
@@ -1028,16 +1053,6 @@
 <description><![CDATA[
 <p>Nothing new appeared in the sources (Xena, Gowers, Tao's blog, Tao on Mastodon, Proofs and Prompts) in the last 24 hours.</p>
 <p><em>Note: the sources were last fetched on 24 October 2026 at 07:34 UTC (about 21 hours before this run), so posts published since then are not covered.</em></p>
-]]></description>
-</item>
-<item>
-<title>Digest — 24 October 2026: nothing new today</title>
-<link>https://xavierblot-math.github.io/veille-ia/#2026-10-24</link>
-<guid isPermaLink="false">veille-ia-2026-10-24</guid>
-<pubDate>Sat, 24 Oct 2026 04:00:00 +0000</pubDate>
-<description><![CDATA[
-<p>Nothing new appeared in the sources (Xena, Gowers, Tao's blog, Tao on Mastodon, Proofs and Prompts) in the last 24 hours.</p>
-<p><em>Note: the sources were last fetched on 23 October 2026 at 07:53 UTC (about 20 hours before this run), so posts published since then are not covered.</em></p>
 ]]></description>
 </item>
 </channel>

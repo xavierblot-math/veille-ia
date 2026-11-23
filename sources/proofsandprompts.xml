@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Sat, 21 Nov 2026 10:43:10 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 21 Nov 2026 20:15:04 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,250 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>A call for greater collaboration</title>
+		<link>https://proofsandprompts.com/2026/11/22/a-call-for-greater-collaboration/</link>
+					<comments>https://proofsandprompts.com/2026/11/22/a-call-for-greater-collaboration/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Sun, 22 Nov 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[In practice]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Credit]]></category>
+		<category><![CDATA[The future of papers]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3585</guid>
+
+					<description><![CDATA[“Recently I've learned that two separate groups of people have been using AI to make rapid progress on a couple of projects that I had been working on, as well as one problem which is a PhD student's ongoing thesis project. To be clear, I use AI in research also, and I am not upset that they are exploring what they are interested in. […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://kimballmartin.github.io/">Kimball Martin</a>, Professor at Osaka Metropolitan University</p>
+
+
+
+<p class="pp-series-note has-text-color wp-block-paragraph" style="border-top-color:#c9d3bf;border-top-style:dotted;border-top-width:1px;border-bottom-color:#c9d3bf;border-bottom-style:dotted;border-bottom-width:1px;color:#647b51;padding-top:0.6rem;padding-bottom:0.6rem;font-size:0.8em;font-style:normal"><strong>SERIES</strong> · AI is making papers cheap to produce but they remain costly to referee. Proofs and Prompts is publishing a series of posts from 26 October on the future of publishing, papers and credit. Questions such as how to disclose AI use, who bears the cost of checking, what authorship means and what papers of the future might look like will be addressed. This post is part of the series. Each is written independently and reflects only its authors’ views. <a href="https://proofsandprompts.com/tag/publishing/">All posts in the series</a></p>
+
+
+
+<p class="wp-block-paragraph">Recently I&#8217;ve learned that two separate groups of people have been using AI to make rapid progress on a couple of projects that I had been working on, as well as one problem which is a PhD student&#8217;s ongoing thesis project. To be clear, I use AI in research also, and I am not upset that they are exploring what they are interested in. What would bother me is to discover at a late stage that we have both been doing the same things &#8220;in private&#8221;. And if the student&#8217;s thesis came to be considered unacceptable, that would be a disaster.</p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://mathstodon.xyz/@tao/117046985982017853">Much</a> <a href="https://cmsa.fas.harvard.edu/aimathresearch_summit/">has been said</a> about the idea that we should value exposition over priority of discovery. Maybe. But we are not there yet. And losing the thrill of being the first to discover something, and then sharing it with others, would remove much of the joy of research. Instead, I want to propose something else.</p>
+
+
+
+<p class="wp-block-paragraph">Let&#8217;s try being more collaborative within our community. Many people may feel an urge to be more secretive now. I&#8217;m not saying to advertise everything you&#8217;re doing publicly. But if we have more large working groups within the community, then there is less of a need to rush things out because of real or imagined competition—partly because many of your potential competitors are now collaborators and because you may have more projects going on at one time. There will be less duplication of effort, and collaboration may make our end results better or more impactful.</p>
+
+
+
+<p class="wp-block-paragraph">What would it mean if large collaborations were common? Students may not have to produce solo papers for their PhD theses, but contributing to group collaborations would be sufficient. (This is already the case in many fields.) How would people be evaluated for jobs and grants? Maybe with some combination of publication record and recommendations like today. Maybe there will be an imperfect yet not horrible system of assigning credit for large collaborations. But if we all work with each other more, and know each other more, it should be easier to make evaluations that are less dependent on comparing one person&#8217;s publication record with another&#8217;s.</p>
+
+
+
+<p class="wp-block-paragraph">I am not saying we should all collaborate in large groups. But however things are in your community now, it will be hard to stay abreast of what others are doing without more effort towards communication and coordination. In fact, I am using the term collaboration rather loosely. I also mean the coordination efforts that many people already do—e.g., multiple small groups/individuals communicating and planning with each other, but writing papers separately.</p>
+
+
+
+<p class="wp-block-paragraph">In the case of one of the problems I mentioned above, I first learned about the situation from a collaborator, who heard about it from one of their collaborators. (In the other case, someone who was working on the problem just emailed me directly). After initially thinking that we may just have to abandon the project, I decided to email the other group to let them know what we had been doing and suggest we coordinate. Then we met on Zoom, and shared what we were doing with each other. It turned out that neither of our works subsumed the other. In our case we decided to continue focusing on the non-overlapping parts separately, and keep each other updated, with the idea that we may join forces at the next stage.</p>
+
+
+
+<p class="wp-block-paragraph">Practically, what do I have in mind, you may wonder. I don&#8217;t have in mind public open projects like the <a href="https://en.wikipedia.org/wiki/Polymath_Project">Polymath Project</a> or Terry Tao&#8217;s recent <a href="https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/">Siegel zeroes challenge</a>, or massive 200-person collaborations, though those could be part of it. I imagine collaborations that are larger than the typical 2-4 person collaborations—perhaps 5-10, 10-20 or 20-50 person collaborations. Some workshops foster collaborations at these scales, but normally only for a short time, and often these are low-priority side projects for participants. But if you&#8217;ve been part of such a project, you may have an idea of what I mean. They involve real human interaction, just like typical small collaborations, but the organization and dynamics may be different.</p>
+
+
+
+<p class="wp-block-paragraph">Large collaborations rarely sprout up organically; real effort and organization are required to start these. Here are some naive thoughts on how to begin:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Frequent communication between different researchers/groups is key; talk to others as much as you are able—activities like going to conferences, nearby seminars, and seminar meals, or inviting visitors, present lots of opportunities for more communication</li>
+
+
+
+<li>If you are exploring a problem with AI and making rapid progress, don&#8217;t race to get out a paper on your own (see also <a href="https://proofsandprompts.com/2026/11/03/slow-maths/">slow maths</a>); contact others who are likely to be interested and see if they want to discuss it and possibly join you</li>
+
+
+
+<li>Organize a workshop or special program that encourages large group discussions and collaborations; from a funding perspective, some could be in-person, some virtual and some hybrid</li>
+
+
+
+<li>It is easier to organize something after forming a core group of people with a shared goal; try to find a few people you trust with common interests and begin from there</li>
+
+
+
+<li>Zulip spaces can be used to help coordinate/organize interest in projects or workshops (e.g., the <a href="https://proofsandprompts.com/2026/10/18/two-months-of-proofs-and-prompts-forum-polls-and-moderation/">Proofs and Prompts Zulip space</a>; I also have a dormant Zulip for such purposes in number theory/automorphic forms which could be revived if there is interest)</li>
+
+
+
+<li>I personally favor real collaborations with regular meetings and communication; for larger collaborations, one can break the group into smaller teams for specific tasks; meetings within teams and meetings among team representatives may be more frequent than meetings as one large group; this involves more hierarchy/organization than academic mathematicians are used to in research</li>
+
+
+
+<li>Different collaborations have different dynamics; there&#8217;s no one-size-fits-all best practice</li>
+
+
+
+<li>Lots of ideas and attempts at even 2-person collaborations don&#8217;t pan out, at least not right away; don&#8217;t get discouraged if it takes time to find the right group or project</li>
+
+
+
+<li>If you have other suggestions, please leave them in the comments!</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Further thoughts on managing large collaborations</h2>
+
+
+
+<p class="wp-block-paragraph">While I am far from an expert in large collaborations, I was encouraged to expand on this aspect. In mathematics, it&#8217;s a common view that the time needed to finish a project is inversely proportional to the number of authors. My experience corroborates this, but it also doesn&#8217;t have to be this way. First, I think we can look to other fields and industry for best practices for how to manage large projects. Two essays about this from other fields, which I think apply to mathematics with minor changes, are <a href="https://doi.org/10.1371/journal.pcbi.0030044">Ten Simple Rules for a Successful Collaboration</a> and <a href="https://doi.org/10.1371/journal.pcbi.1006508">Ten simple rules for collaboratively writing a multi-authored paper</a>.</p>
+
+
+
+<p class="wp-block-paragraph">What I have to add to the above 2 pieces is mostly about planning and managing expectations:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Collaborating with people requires compromise. Understand going in that people won&#8217;t go about things the way you think they should (and sometimes that will be worse, but sometimes better).</li>
+
+
+
+<li>Know that both work with AI and large collaborations are new for most of us, and we are all figuring out how to do things; be understanding and forgiving about your missteps and others&#8217;. So experiment with strategies and see what people like and don&#8217;t like.</li>
+
+
+
+<li>1-3 people should be in charge of organization and leading the project. These roles require interpersonal and organizational skills; don&#8217;t just pick people with the most seniority or mathematical ideas.</li>
+
+
+
+<li>As much as possible, try to set clear expectations and (hoped-for) timelines. For instance, there could be a period of open discussion for 1-2 weeks to come up with goals and plans of attack. Then, either by a democratic or top-down process, decide on a plan, see who wants to work on this plan, and on what aspects. Set working groups with planned inter- and intra-group meetings, and naive goals for when to finish what tasks. Possibly repeat this process at key stages.</li>
+
+
+
+<li>Try to keep goals more concrete and tangible than open-ended. Break-up into manageable subgoals, and require regular meetings/progress reports to keep everyone on track. E.g., in Stage 1, Group A will prove Theorem 1; Group B will prove Theorem 2; Group C will prove and implement Algorithm X. Each group aims to write up their work separately within 3 months. All groups will come together for monthly meetings for status updates and help requests. Then plan Stage 2 together, where everyone combines these results to get Big Theorem.</li>
+
+
+
+<li>Try to set/come to a consensus on expectations as much as possible in advance, with the understanding that you may renegotiate expectations later. In particular, agree on how you will and will not use AI.</li>
+
+
+
+<li>Trust is paramount. Build trust by being transparent about the decision process, and what different groups are doing, and by listening to other people&#8217;s opinions.</li>
+
+
+
+<li>Don&#8217;t work on another individual or group&#8217;s tasks, especially using AI, without asking them first.</li>
+
+
+
+<li>Make contingency plans for when it inevitably happens that, for whatever reason (health, other responsibilities, &#8230;), someone cannot contribute or complete their tasks on a satisfactory timeline. For example, there could be an advance agreement that the project will go on without indefinitely waiting on people, and they will stay as co-authors and contribute what they can unless they opt out of the project.</li>
+
+
+
+<li>Relatedly, upon review stages of the work, set time limits for feedback and comments.</li>
+
+
+
+<li>Understand that everyone will not contribute &#8220;equally&#8221;, and that this is fine. If desired, a contributions statement could be added. Be generous about acknowledging others&#8217; contributions and communicate openly to make sure you are all on the same page.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Thanks to John Voight, Sachi Hashimoto, Roi Docampo, and Proofs and Prompts hosts for some feedback on drafts of this post. AI tools were used for light proofreading and searching for relevant links.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 6 November 2026, revised 21 November 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/22/a-call-for-greater-collaboration/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3585</post-id>	</item>
+		<item>
+		<title>A mathematical community?</title>
+		<link>https://proofsandprompts.com/2026/11/22/a-mathematical-community/</link>
+					<comments>https://proofsandprompts.com/2026/11/22/a-mathematical-community/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Sun, 22 Nov 2026 12:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Reactions]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Critique]]></category>
+		<category><![CDATA[Response]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3465</guid>
+
+					<description><![CDATA[“This is an answer to Isabelle Gallagher, President of SMF (Société Mathématique de France). Her proposals are based on two assumptions which are worth a debate. […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://www.jm-kantor.fr/">Jean-Michel Kantor</a>, Emeritus from IMJ (Institut Mathématique de Jussieu), mathematician and historian of mathematics</p>
+
+
+
+<p class="pp-in-reply-to wp-block-paragraph"><strong>In reply to</strong> <a href="https://proofsandprompts.com/2026/11/03/slow-maths/">Slow Maths</a> by Isabelle Gallagher</p>
+
+
+
+<p class="wp-block-paragraph">This is an answer to Isabelle Gallagher, President of SMF (Société Mathématique de France).</p>
+
+
+
+<p class="wp-block-paragraph">Her proposals are based on two assumptions which are worth a debate:</p>
+
+
+
+<h2 class="wp-block-heading">1. The notion of “mathematical community”</h2>
+
+
+
+<p class="wp-block-paragraph">Recent events and publishing materials coming from various countries and continents, in particular from USA and Europe, show that a world mathematical community does not exist and that – if it ever existed – is in the process of disruption.</p>
+
+
+
+<p class="wp-block-paragraph">For example the proposals of Sergiu Klainerman<sup data-fn="3f6c1a52-8d4e-4b7a-9c20-5e1d7a4b9f01" class="fn"><a href="#3f6c1a52-8d4e-4b7a-9c20-5e1d7a4b9f01" id="3f6c1a52-8d4e-4b7a-9c20-5e1d7a4b9f01-link">1</a></sup> and the practice of American mathematicians, involving gigantic amounts of dollars invested in AI-laboratories, reflect the local practices of a supposed “American mathematical community” without mentioning any community outside of Silicon Valley and/or Princeton.</p>
+
+
+
+<h2 class="wp-block-heading">2. Science and technique</h2>
+
+
+
+<p class="wp-block-paragraph">Mathematics is confronted not to a scientific debate involving the mathematical practice but to an imposed debate involving a technology, submitted to different laws, in particular, as was expressed by Dennis Gabor (1900–1979, physicist, Nobel Prize in 1971 for the invention of holography) with Gabor’s law:</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">“What can be done technically will necessarily be done, sooner or later.”<sup data-fn="b92e47d0-1c3a-4f58-a6e9-7d02c5e8a314" class="fn"><a href="#b92e47d0-1c3a-4f58-a6e9-7d02c5e8a314" id="b92e47d0-1c3a-4f58-a6e9-7d02c5e8a314-link">2</a></sup></p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">Applied to AI, juiced up with billions of dollars of the economico-political US domination (till when?) – a dimension surprisingly never mentioned in comments from our American mathematician colleagues.</p>
+
+
+<ol class="wp-block-footnotes"><li id="3f6c1a52-8d4e-4b7a-9c20-5e1d7a4b9f01"><a href="https://arxiv.org/pdf/2610.29713">https://arxiv.org/pdf/2610.29713</a> <a href="#3f6c1a52-8d4e-4b7a-9c20-5e1d7a4b9f01-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="b92e47d0-1c3a-4f58-a6e9-7d02c5e8a314"><em>« Ce qui peut être fait techniquement sera fait nécessairement »</em>. Also stated by Jacques Ellul in France. <a href="#b92e47d0-1c3a-4f58-a6e9-7d02c5e8a314-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 6 November 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/22/a-mathematical-community/feed/</wfw:commentRss>
+			<slash:comments>6</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3465</post-id>	</item>
+		<item>
 		<title>On Premature Discovery</title>
 		<link>https://proofsandprompts.com/2026/11/21/on-premature-discovery/</link>
 					<comments>https://proofsandprompts.com/2026/11/21/on-premature-discovery/#comments</comments>
@@ -88,7 +332,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/21/on-premature-discovery/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
+			<slash:comments>7</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3299</post-id>	</item>
@@ -143,7 +387,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/21/ahm-statement-on-the-announced-proof-of-the-riemann-hypothesis/feed/</wfw:commentRss>
-			<slash:comments>73</slash:comments>
+			<slash:comments>85</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3808</post-id>	</item>
@@ -388,7 +632,7 @@
 <ol class="wp-block-footnotes"><li id="fn-3746b26e-dd6a-4943-a770-928a761f2702">The Leiden Declaration (2 June 2026), <a href="https://leidendeclaration.ai">leidendeclaration.ai</a>; “A Severe Misalignment of AI in Mathematics” (11 September 2026), a declaration whose 25 initial signatories are all Fields Medallists, see <a href="https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/">terrytao.wordpress.com/2026/09/11</a>; the open letter of 42 mathematician Fellows of the Royal Society to the President of the Royal Society, Sir Paul Nurse (September 2026); K. Ono, address to the National Academy of Sciences (2026), as reported by P.-L. Loh (note 8), predicting that within three to five years theoretical mathematical research will shrink to a small fraction, with the remaining academics working more like humanities scholars. <a href="#fn-3746b26e-dd6a-4943-a770-928a761f2702-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-abded519-4aa6-4bc9-b88e-2da28c5e7691">J. A. Schumpeter, Capitalism, Socialism and Democracy (1942), ch. 7, “The Process of Creative Destruction”; C. M. Christensen, The Innovator’s Dilemma (Harvard Business School Press, 1997). Christensen’s mechanism fits mathematics closely, since incumbents fail because they keep optimising what their established audience values (for us, technical difficulty) while a new entrant redefines what is valuable. <a href="#fn-abded519-4aa6-4bc9-b88e-2da28c5e7691-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-a1c3c8a4-7f73-43d6-bbff-b85387ef50a8">Leading enterprises deploy AI in controlled environments in which prompts and data are isolated and not used to train models, for example through managed cloud services such as Amazon Bedrock. The need is not hypothetical. In September 2026 the race to the Navier–Stokes result was triggered by a rumour about unpublished work, and OpenAI subsequently published an investigation into whether user inputs could have influenced its result (note 11). Tao has warned that even the rumour of someone working on a problem can now trigger a massive AI-powered effort to “flatten” it (note 14). <a href="#fn-a1c3c8a4-7f73-43d6-bbff-b85387ef50a8-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-511f3c87-6791-47b9-b3ec-6faa3ea65508">Anyone who has spent days or weeks verifying the precise statement of a needed technical lemma, reconstructing the exact meaning of every object through several layers of hard-to-retrieve published work, knows how much of our mental load goes on retrieval and bookkeeping. This is precisely the work that can now be automated. <a href="#fn-511f3c87-6791-47b9-b3ec-6faa3ea65508-link" aria-label="Jump to footnote reference 4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-bdd1d16a-7fd6-4c54-b428-0f413a1adca1">In May 2026 an OpenAI model disproved the Erdős unit-distance conjecture, a question some eighty years old; the disproof was verified by outside mathematicians including Tim Gowers (OpenAI, “Model disproves discrete geometry conjecture”, May 2026), and within the same week Anthropic’s Claude Mythos produced an independent proof (Decrypt, 9 September 2026). On 1–2 August 2026 OpenAI released results by its unreleased Astra model on ten problems open for at least a decade, including three Erdős problems, each with a Lean 4 proof and a 249-page manuscript; peer review is pending, and mathematicians have noted that some results lean heavily on earlier work. On 10 August 2026 Anthropic reported that an unreleased Claude research model raised the proven lower bound for the proportion of zeros of the Riemann zeta function on the critical line from 41.6% to 67.2%, with a Lean formalisation, examined by Brian Conrey and Dan Goldston (<a href="https://anthropic.com/research/riemann-zeta">anthropic.com/research/riemann-zeta</a>). On 7 September 2026 L. Alpöge and T. Buckmaster, working with Claude and other models, released a blow-up result for the forced Euler equations, and the next day OpenAI released its Navier–Stokes result (note 11). <a href="#fn-bdd1d16a-7fd6-4c54-b428-0f413a1adca1-link" aria-label="Jump to footnote reference 5"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-cdb79eb8-c614-4da9-bd16-f9b91d06a2b0">P. Sarnak, “Peter Sarnak on ‘The AlphaZero Test’ for Mathematics”, Notices of the AMS 73(7) (2026), doi:10.1090/noti3373. In the test, one gives a theorem prover with no access to outside data or theory an elementary statement, such as the Ramanujan conjecture in Ramanujan’s own formulation, and asks whether it is true. Sarnak predicts failure for most theorems whose proofs rely on abstraction and on the bodies of theorems we call theories; in his view AI will do mathematics as Stockfish plays chess, not as AlphaZero does. <a href="#fn-cdb79eb8-c614-4da9-bd16-f9b91d06a2b0-link" aria-label="Jump to footnote reference 6"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-b4770e3b-780b-411f-80dd-d8732810bcba">On the shift in values see H. Cohn, “The technical debt of AI-generated mathematics”, and G. Sanderson, “If math is more than proof, we need to better celebrate the rest of it”, guest posts on <a href="https://terrytao.wordpress.com">terrytao.wordpress.com</a> (15 and 18 September 2026). Tao has proposed labelling certain problems “analysis-required”, so that a bare answer without illuminating reasoning counts for little (note 14). I welcome these proposals; my point is that new measures of utility should be designed deliberately, not only defensively. <a href="#fn-b4770e3b-780b-411f-80dd-d8732810bcba-link" aria-label="Jump to footnote reference 7"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-823e83d9-65a9-48d0-b1c7-7b7fe0f3afe0">P.-L. Loh, “AI, From Competition to Collaboration”, IMS Bulletin, 1 September 2026. Loh proposes journals that accept only papers produced jointly by a sufficient group of experts in a sub-area, lightly reviewed for significance by researchers from another area. The precedent is the Polymath project: T. Gowers and M. Nielsen, “Massively collaborative mathematics”, Nature 461, 879–881 (2009). <a href="#fn-823e83d9-65a9-48d0-b1c7-7b7fe0f3afe0-link" aria-label="Jump to footnote reference 8"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-b1d4f214-4475-43d1-a23b-74af5aaeceef">The moats are cultural. We write up novel research with a premium on elegance, which partially hides or camouflages the reasoning that led to it. Our knowledge is organised in ways that are hard to navigate (note 4). We also celebrate solitary secrecy; Andrew Wiles worked on Fermat’s Last Theorem in near-total secrecy for about seven years (S. Singh, Fermat’s Last Theorem, 1997). One can argue that AI is making mathematics more open and accessible, not less. <a href="#fn-b1d4f214-4475-43d1-a23b-74af5aaeceef-link" aria-label="Jump to footnote reference 9"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-b10f2889-6fab-4214-8ef6-d6f8b9c59dc4">The IT systems used by most mathematics publishers are obsolete, and the workflow of submission, refereeing, revision and typesetting has barely changed in decades. New workflows and systems can be prototyped relatively quickly with the help of AI. <a href="#fn-b10f2889-6fab-4214-8ef6-d6f8b9c59dc4-link" aria-label="Jump to footnote reference 10"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-8b63668b-c5d9-40f5-9a6a-c7555b374d73">OpenAI, “On the Navier–Stokes Millennium Prize Problem”, 8 September 2026, with a <a href="https://github.com/openai/NavierStokesAndEuler">paper and a Lean formalisation</a>. OpenAI states that the result establishes statement C (and D) of the official problem description (C. Fefferman, <a href="https://claymath.org">claymath.org</a>); it does not intend to claim the prize, and the Clay Mathematics Institute continues to list the problem as active. Statements C and D allow a smooth external force; A and B (global regularity on ℝ³ and on the torus) concern the unforced equations and remain open. See also L. Alpöge and T. Buckmaster (7 September 2026) on blow-up for the forced Euler equations, and OpenAI’s companion result on the unforced Euler equations. <a href="#fn-8b63668b-c5d9-40f5-9a6a-c7555b374d73-link" aria-label="Jump to footnote reference 11"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-b47781ab-ebd0-489f-ab8a-e20681d83952">T. Gallay, personal communication. The numerical picture goes back to W. H. Matthaeus et al., “Selective decay and coherent vortices in two-dimensional incompressible turbulence”, Phys. Rev. Lett. 66, 2731 (1991). On the Oseen vortex as the universal long-time attractor in the plane, see T. Gallay and C. E. Wayne, “Global stability of vortex solutions of the two-dimensional Navier–Stokes equation”, Comm. Math. Phys. 255, 97–129 (2005). <a href="#fn-b47781ab-ebd0-489f-ab8a-e20681d83952-link" aria-label="Jump to footnote reference 12"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-3a3af30a-e07d-4d1a-b6e8-369254fd9ac8">T. Gallay, “Interaction of vortices in weakly viscous planar flows”, Arch. Ration. Mech. Anal. 200, 445–490 (2011). <a href="#fn-3a3af30a-e07d-4d1a-b6e8-369254fd9ac8-link" aria-label="Jump to footnote reference 13"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-393ed241-5d13-43dd-9efb-6c81727f4bb3">T. Tao, <a href="https://mathstodon.xyz/@tao/117237320796901560">Mathstodon post</a>, 8 September 2026, reported by Decrypt, 9 September 2026. Tao answers the objection that infinitely many problems exist with the analogy that a region can suffer a shortage of drinking water while surrounded by ocean. See also his curated summary of views at <a href="https://teorth.github.io/tao-web/ai-views.html">teorth.github.io/tao-web/ai-views.html</a> (updated 17 September 2026). The prioritisation step I propose is aimed at exactly this point. <a href="#fn-393ed241-5d13-43dd-9efb-6c81727f4bb3-link" aria-label="Jump to footnote reference 14"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-d497da4f-7d43-49f3-a1fb-d6f498688f5b">J. Jumper et al., “Highly accurate protein structure prediction with AlphaFold”, Nature 596, 583–589 (2021), and its Supplementary Information (Algorithms 21–23: rigid frames by Gram–Schmidt, invariant point attention, quaternion backbone updates); code at <a href="https://github.com/deepmind/alphafold">github.com/deepmind/alphafold</a>. Hassabis and Jumper shared the 2024 Nobel Prize in Chemistry with David Baker. <a href="#fn-d497da4f-7d43-49f3-a1fb-d6f498688f5b-link" aria-label="Jump to footnote reference 15"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-eb625dec-2aa6-4c03-8848-07e4bfec7de2">A. W. Senior et al., “Improved protein structure prediction using potentials from deep learning”, Nature 577, 706–710 (2020). <a href="#fn-eb625dec-2aa6-4c03-8848-07e4bfec7de2-link" aria-label="Jump to footnote reference 16"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-c66ae76c-0242-4af9-bdb5-fb2586dc34d9"><a href="https://github.com/deepmind/alphafold">AlphaFold repository</a>, Amber relaxation step: energy minimisation with OpenMM. <a href="#fn-c66ae76c-0242-4af9-bdb5-fb2586dc34d9-link" aria-label="Jump to footnote reference 17"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-39059738-21bb-4ea5-b43d-ce232baab764">J. Ingraham, V. Garg, R. Barzilay and T. Jaakkola, “Generative Models for Graph-Based Protein Design”, NeurIPS 2019. Local frames, quaternions, autoregressive probability and likelihood-based statistics all appear there. <a href="#fn-39059738-21bb-4ea5-b43d-ce232baab764-link" aria-label="Jump to footnote reference 18"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-e434cae5-88f3-43d1-b56b-63742b6777ae">A black box that reproduces its training data, without capturing the structure of the underlying problem, works where a new case resembles what it has seen and fails where it does not. The first two examples apply AlphaFold to neighbouring questions; the last two concern its extension to protein–ligand complexes. <br>(i) <em>Mutations</em>. A single amino-acid change barely alters the sequence but can unfold a protein. A model that had captured the physics of folding would register this; a model that matches sequences to known structures returns the familiar fold. The AlphaFold database itself states that AlphaFold has not been validated for predicting the effects of mutations, and for five patient variants of antithrombin with documented folding defects it returned the native structure every time (“Analysis of AlphaFold and molecular dynamics structure predictions of mutations in serpins”, PLOS ONE, 2024). <br>(ii) <em>Proteins with two folds</em>. Some proteins switch between two distinct structures. D. Chakravarty et al., “AlphaFold predictions of fold-switched conformations are driven by structure memorization”, Nat. Commun. 15, 7296 (2024), show that AlphaFold finds the second fold when it is present in its training data, not by inferring it; it recalls rather than explains. <br>(iii) <em>Ligands</em>. M. R. Masters, A. H. Mahmoud and M. A. Lill, “Investigating whether deep learning models for co-folding learn the physics of protein–ligand interactions”, Nat. Commun. 16, 8854 (2025), mutated or removed the residues that hold a ligand in place, so that physically it could no longer bind. AlphaFold 3 and similar models often still placed the ligand in its original pose, reproducing a remembered complex rather than the interaction. <br>(iv)<em> Prospective drug screening</em>. In “Large scale prospective evaluation of co-folding across 557 Mac1–ligand complexes and three virtual screens”, eLife reviewed preprint (March 2026), co-folding succeeded roughly in proportion to how similar a target was to its training structures, while classical docking, which models the physical interaction explicitly, performed surprisingly well. In every case the model is reliable only within the range of what it has already seen. <a href="#fn-e434cae5-88f3-43d1-b56b-63742b6777ae-link" aria-label="Jump to footnote reference 19"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-27828287-0e83-4d51-a94e-fd63f12e9343">Tao has observed that once a well-curated database of precise problems exists, others can build on it systematically, by human and AI means alike (<a href="https://terrytao.wordpress.com">terrytao.wordpress.com</a>, 22 January 2026, on the Erdős problems database), a small precedent for what better structures for mathematical knowledge could achieve. Formal verification is becoming routine; in September 2026 a formalisation of the proof of Fermat’s Last Theorem was reported (Decrypt, 9 September 2026). This is why structure and abstraction, not truth-checking, is the scarce resource. <a href="#fn-27828287-0e83-4d51-a94e-fd63f12e9343-link" aria-label="Jump to footnote reference 20"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-39017d12-8b21-4e9b-bfa8-b5089d3170ac">“The Yang–Mills Millennium problem”, Nature Reviews Physics (January 2026), <a href="https://nature.com/articles/s42254-025-00909-2">nature.com/articles/s42254-025-00909-2</a>. On the gap between physical belief and proof, see also M. Aizenman and H. Duminil-Copin, “Marginal triviality of the scaling limits of critical 4D Ising and <math data-latex="\varphi^4_4"><semantics><msubsup><mi>φ</mi><mn>4</mn><mn>4</mn></msubsup><annotation encoding="application/x-tex">\varphi^4_4</annotation></semantics></math> models”, Annals of Mathematics 194 (2021), show that the simplest interacting scalar theory in four dimensions is trivial in the continuum limit, while four-dimensional Yang–Mills theory is widely believed, but not proven, to exist and to have a mass gap. <a href="#fn-39017d12-8b21-4e9b-bfa8-b5089d3170ac-link" aria-label="Jump to footnote reference 21"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-a2a3c57a-a958-437a-a607-a3fec9dc8d7b">N. Seiberg, “What Is Quantum Field Theory?”, <a href="https://youtube.com/watch?v=pTAQH501_2g">lecture</a> at the annual meeting of the Simons Collaboration on Probabilistic Paths to Quantum Field Theory, 30 April 2026. In the abstract of his lecture of the same title (Van Winter Memorial Lecture in Mathematical Physics, University of Kentucky), Seiberg states that despite enormous success we still do not have a completely satisfactory presentation of the theory, and that it is not yet mathematically rigorous. <a href="#fn-a2a3c57a-a958-437a-a607-a3fec9dc8d7b-link" aria-label="Jump to footnote reference 22"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-7ea0a27b-14e5-4ac5-bb89-fed185983900">A. Connes and D. Kreimer, “Renormalization in quantum field theory and the Riemann–Hilbert problem I”, Comm. Math. Phys. 210 (2000); M. Hairer, “A theory of regularity structures”, Invent. Math. 198 (2014). <a href="#fn-7ea0a27b-14e5-4ac5-bb89-fed185983900-link" aria-label="Jump to footnote reference 23"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-3df25c7f-832e-4e8b-bf9e-e8e4e3bcdd74">Student, “The probable error of a mean”, Biometrika 6, 1–25 (1908); R. A. Fisher, The Design of Experiments (1935). <a href="#fn-3df25c7f-832e-4e8b-bf9e-e8e4e3bcdd74-link" aria-label="Jump to footnote reference 24"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-3f28e0e7-12ed-42be-9ec1-dd5f143eb918">US Food and Drug Administration, draft guidance “Use of Bayesian Methodology in Clinical Trials of Drug and Biological Products” (January 2026), addressing Bayesian primary inference in pivotal trials. <a href="#fn-3f28e0e7-12ed-42be-9ec1-dd5f143eb918-link" aria-label="Jump to footnote reference 25"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-e7f3799b-d289-4cdc-9baa-93e9b0fb035c">M. K. P. Jayatunga et al., “How successful are AI-discovered drugs in clinical trials? A first analysis and emerging lessons”, Drug Discov. Today 29(6), 104009 (2024), report 80–90% success in Phase I, about 40% in Phase II, comparable to historic industry averages. An analysis presented at ASCO 2026 counted 117 AI-enabled therapeutic assets in human trials, of which only 8 had completed Phase 2. A 2026 review in Frontiers in Pharmacology (doi:10.3389/fphar.2026.1870527) concludes that AI compresses discovery timelines but that important gaps, particularly in safety prediction, remain. On structure prediction see note 19. <a href="#fn-e7f3799b-d289-4cdc-9baa-93e9b0fb035c-link" aria-label="Jump to footnote reference 26"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-09e422d0-9e4c-4eaf-ba68-2f59e1708736">Drug Target Review, “AI in drug discovery: predictions for 2026” (April 2026), identifies data quality as the primary technical barrier. <a href="#fn-09e422d0-9e4c-4eaf-ba68-2f59e1708736-link" aria-label="Jump to footnote reference 27"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-5c22acb8-9297-4872-9184-71cbcf992809">The post was written on 21<sup>st</sup> September. As of 19<sup>th</sup> October, the author’s views stated in the post have not changed. <a href="#fn-5c22acb8-9297-4872-9184-71cbcf992809-link" aria-label="Jump to footnote reference 28"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/20/letter-to-young-mathematicians/feed/</wfw:commentRss>
-			<slash:comments>16</slash:comments>
+			<slash:comments>19</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2304</post-id>	</item>
@@ -585,7 +829,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/19/the-right-to-think/feed/</wfw:commentRss>
-			<slash:comments>14</slash:comments>
+			<slash:comments>17</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3026</post-id>	</item>
@@ -969,182 +1213,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3226</post-id>	</item>
-		<item>
-		<title>The Word of God</title>
-		<link>https://proofsandprompts.com/2026/11/17/the-word-of-god/</link>
-					<comments>https://proofsandprompts.com/2026/11/17/the-word-of-god/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Tue, 17 Nov 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Reactions]]></category>
-		<category><![CDATA[Exposition]]></category>
-		<category><![CDATA[Philosophy]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3509</guid>
-
-					<description><![CDATA[Will future mathematicians be priests, or will they be monks?]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://shaundatta.github.io/">Ishaun Datta</a>, Postdoctoral Research Scientist at Columbia University</p>
-
-
-
-<p class="wp-block-paragraph">This summer, large language models crossed over from being merely a curiosity to mathematicians to being the de-facto instruments for proving theorems. Previously, the instruments for proving theorems were the mathematicians themselves. This sudden change, unwelcome by much of the research community, has been met with much handwringing and introspection on what it means to “do” mathematics.</p>
-
-
-
-<p class="wp-block-paragraph">In his essay <a href="https://logangraves.com/priest-monk-mathematician">“Priest, Monk, and Mathematician,”</a> Logan Graves of Stanford University prognosticated on what’s in store for the discipline. “The future of the human mathematical community, and eventually all scientific communities,” he writes, “is the practice of priests, then that of monks. Not researchers.” In this taxonomy, the priest is “the interpreter of revelation…But the scripture is not his. He is the vessel for its delivery into human minds.” Though this undersells the role that mathematicians play in guiding their research programs, there is more than a kernel of truth to the notion that mathematicians have been recast—largely against their will—as expositors of chatbot-generated proofs.</p>
-
-
-
-<p class="wp-block-paragraph">Whereas as a PhD student I spent my working hours developing my own program for proving a particular theorem, pursuing dead ends, doing calculations, and painstakingly writing up my results, as a postdoc these hours are now directed towards making sense of a garbled but tantalizing proof dangled before me by GPT-6 Astra. Although the proof appears to be heavily inspired by my work, it is not mine. What, then, is my role in all this? It is, Graves argues, “to attempt to grasp the truth in its full glory and deliver it to the community, the flock, the seekers of truth and the lovers of wisdom—that is the task for the priest.”</p>
-
-
-
-<p class="wp-block-paragraph">Graves’ thesis is that mathematicians’ membership in the priesthood is transient: upcoming AI models are sure to be better at articulating their own findings, obviating the need for the priests’ translation work. After this fleeting phase as priests, they will become monks: living their lives in contemplation, meditating on and rejoicing in the truth.</p>
-
-
-
-<p class="wp-block-paragraph">But this is not a fait accompli, nor is it a purely philosophical question about how mathematicians find meaning in their radically altered circumstances. Whether mathematicians inevitably become monks is an <em>empirical</em> question, one that can be tested against subsequent models. Here is a case for why the truth may always be hard to grasp, benefiting from mathematicians adept at translation from divine revelation into something more accessible.</p>
-
-
-
-<p class="wp-block-paragraph">Coincident with the last few months’ academic upheavals, I have been reading the Bhagavad Gita. In it, the warrior Arjuna seeks counsel on a consequential upcoming battle from his charioteer Krishna, who reveals himself to be no less than an incarnation of the Almighty. Although Krishna is quite literally offering up divine revelation, his words are often convoluted. In Book 9, seemingly in an attempt to convey that he is both God immanent and God transcendent, Krishna declares, “The whole universe is pervaded by my unmanifest form; all creatures exist in me, but I do not exist in them” (9.4). Krishna goes on to seemingly contradict himself in the very next line: “those creatures are really not in me; my self quickens creatures, sustaining them without being in them” (9.5), only to reiterate his initial claim that “all creatures exist in me; understood it to be so!” (9.6). Several lines later, Krishna once more complicates his own message, “I am impartial to all creatures, and no one is hateful or dear to me; but men devoted to me are in me, and I am within them” (9.29).</p>
-
-
-
-<p class="wp-block-paragraph">If Krishna is, in Arjuna’s words, “supreme, the infinite spirit, the highest abode, sublime purifier, man’s spirit, eternal, divine, the primordial god, unborn, omnipotent” (10.12)…then why is he so confusing? Part of the problem is that one must be capacious of receiving the good word. In the words of one of my professors, <a href="https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/resources/lecture-15-learning-near-misses-felicity-conditions/index.html">“you can only learn what you almost already know.”</a> Yet Krishna insists his true nature is available to all: “When he constantly remembers me, focusing his reason on me, I am easy to reach, Arjuna, for the man of enduring discipline” (8.14). In this respect, access to what Aldous Huxley called the Perennial Philosophy is entirely democratic.</p>
-
-
-
-<p class="wp-block-paragraph">But merely having the capacity to attain spiritual knowledge does not mean that it comes easy. Perhaps the reason that deities, prophets, and oracles speak in riddles is that the truth is so far beyond the comprehension of its recipients; projecting the true nature of the Infinite into language results in something inscrutable. The metaphors Krishna offers up are his least-squares approximation to what Arjuna can make sense of.</p>
-
-
-
-<p class="wp-block-paragraph">If this is true for an actual divinity, might it also be true for the simulacrum of a mathematical divinity we find in the latest AI models? If these tools allow theoreticians to scale ever greater intellectual heights, relativizing their research programs to ever more ambitious goals, will the truth, however crystalline its presentation, remain hard to come by? If so, then mathematicians are not bound for the monastery after all. Though they will receive as supply the best marble, it will still be their task to chisel it into great artwork.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 7 November 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/17/the-word-of-god/feed/</wfw:commentRss>
-			<slash:comments>5</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3509</post-id>	</item>
-		<item>
-		<title>Math, Beauty, and Ego</title>
-		<link>https://proofsandprompts.com/2026/11/17/math-beauty-and-ego/</link>
-					<comments>https://proofsandprompts.com/2026/11/17/math-beauty-and-ego/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Beauty]]></category>
-		<category><![CDATA[Personal experience]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3388</guid>
-
-					<description><![CDATA[Math is as much about ego as it is about beauty. For centuries, the two have been intertwined: progress in AI pulls these apart. Through a dialogue with an older professor, an undergraduate reflects on this distinction and comes to a deeper understanding of why we do mathematics.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph">A.T., Undergraduate mathematics student in the United Kingdom</p>
-
-
-
-<p class="wp-block-paragraph">Mathematics is beautiful. Definitions expose just the right level of detail and structure, and then, through a chain of immaculate deduction, we are led from propositions and lemmas to the pièce de résistance: the theorem. In just three years of undergraduate study, I’ve been fortunate enough to encounter many examples of this: Gauss’s Theorema Egregium, the classification of covering spaces, and the central limit theorem, to name a few. But beyond the formal chain of deduction lies something more profound. Mathematics is an art full of elegance, surprise, and inevitability.</p>
-
-
-
-<p class="wp-block-paragraph">I am in good company. Hardy, in <em>A Mathematician’s Apology</em>, writes that “beauty is the first test: there is no permanent place in the world for ugly mathematics”.<sup data-fn="3f1b6c2a-0001-4d5e-9a10-5b7c8d9e0f01" class="fn"><a href="#3f1b6c2a-0001-4d5e-9a10-5b7c8d9e0f01" id="3f1b6c2a-0001-4d5e-9a10-5b7c8d9e0f01-link">1</a></sup> Poincaré goes further: the scientist “takes pleasure in it because it is beautiful”.<sup data-fn="3f1b6c2a-0002-4d5e-9a10-5b7c8d9e0f02" class="fn"><a href="#3f1b6c2a-0002-4d5e-9a10-5b7c8d9e0f02" id="3f1b6c2a-0002-4d5e-9a10-5b7c8d9e0f02-link">2</a></sup> And Russell saw in mathematics the combination of “godlike freedom, with the sense of inevitable destiny”.<sup data-fn="3f1b6c2a-0003-4d5e-9a10-5b7c8d9e0f03" class="fn"><a href="#3f1b6c2a-0003-4d5e-9a10-5b7c8d9e0f03" id="3f1b6c2a-0003-4d5e-9a10-5b7c8d9e0f03-link">3</a></sup></p>
-
-
-
-<p class="wp-block-paragraph">Over the course of my undergraduate degree, AI progress in mathematics has been remarkable. When ChatGPT first appeared in November 2022, there was a striking asymmetry between its dexterity with words and its capability at mathematics.<sup data-fn="3f1b6c2a-0004-4d5e-9a10-5b7c8d9e0f04" class="fn"><a href="#3f1b6c2a-0004-4d5e-9a10-5b7c8d9e0f04" id="3f1b6c2a-0004-4d5e-9a10-5b7c8d9e0f04-link">4</a></sup> A model that could produce fluent prose could fail at basic arithmetic.<sup data-fn="3f1b6c2a-0005-4d5e-9a10-5b7c8d9e0f05" class="fn"><a href="#3f1b6c2a-0005-4d5e-9a10-5b7c8d9e0f05" id="3f1b6c2a-0005-4d5e-9a10-5b7c8d9e0f05-link">5</a></sup> At the time, it felt almost blindingly obvious that a machine would never understand the intricate structure and logic of mathematics.</p>
-
-
-
-<p class="wp-block-paragraph">Progress did not care what we thought. In 2024, Google DeepMind announced AlphaGeometry, which solved 25 of 30 Olympiad geometry problems.<sup data-fn="3f1b6c2a-0006-4d5e-9a10-5b7c8d9e0f06" class="fn"><a href="#3f1b6c2a-0006-4d5e-9a10-5b7c8d9e0f06" id="3f1b6c2a-0006-4d5e-9a10-5b7c8d9e0f06-link">6</a></sup> In 2025, Gemini Deep Think reached gold-medal standard at the International Mathematical Olympiad (IMO).<sup data-fn="3f1b6c2a-0007-4d5e-9a10-5b7c8d9e0f07" class="fn"><a href="#3f1b6c2a-0007-4d5e-9a10-5b7c8d9e0f07" id="3f1b6c2a-0007-4d5e-9a10-5b7c8d9e0f07-link">7</a></sup></p>
-
-
-
-<p class="wp-block-paragraph">Surely, we thought, models would plateau: IMO problems were still not <em>real</em> problems. Then came the slew of Erdős problems<sup data-fn="3f1b6c2a-0008-4d5e-9a10-5b7c8d9e0f08" class="fn"><a href="#3f1b6c2a-0008-4d5e-9a10-5b7c8d9e0f08" id="3f1b6c2a-0008-4d5e-9a10-5b7c8d9e0f08-link">8</a></sup> —still, we said, not <em>real math</em>. The Jacobian conjecture, open for 87 years, fell to Anthropic’s Claude Fable 5.<sup data-fn="3f1b6c2a-0009-4d5e-9a10-5b7c8d9e0f09" class="fn"><a href="#3f1b6c2a-0009-4d5e-9a10-5b7c8d9e0f09" id="3f1b6c2a-0009-4d5e-9a10-5b7c8d9e0f09-link">9</a></sup> It was announced almost casually, in a tweet. That captured the absurdity of the last two years: progress had been so fast that results that would once have felt like science fiction barely moved us at all. Somewhere along the way, an inversion happened: first I was much smarter than the models; now they were much smarter than I.</p>
-
-
-
-<p class="wp-block-paragraph">On September 8, 2026, came the final, shattering blow: OpenAI announced that an internal model had produced a paper claiming to resolve the Navier–Stokes smoothness and existence problem: in an incompressible fluid under a smooth external force, a blow-up existed in finite time.<sup data-fn="3f1b6c2a-0010-4d5e-9a10-5b7c8d9e0f10" class="fn"><a href="#3f1b6c2a-0010-4d5e-9a10-5b7c8d9e0f10" id="3f1b6c2a-0010-4d5e-9a10-5b7c8d9e0f10-link">10</a></sup> Despite having seen rumours circulating the previous day<sup data-fn="3f1b6c2a-0011-4d5e-9a10-5b7c8d9e0f11" class="fn"><a href="#3f1b6c2a-0011-4d5e-9a10-5b7c8d9e0f11" id="3f1b6c2a-0011-4d5e-9a10-5b7c8d9e0f11-link">11</a></sup>, this came as a huge shock. I remember, unable to think very much at all, taking the train to Kamakura and running along the coastline in the rain—I just wanted to get away from it all.</p>
-
-
-
-<p class="wp-block-paragraph">But mathematics remained beautiful. Gauss’s Theorema Egregium, the classification of covering spaces, and the central limit theorem had not changed because OpenAI had resolved Navier–Stokes. So why was I grieving? Was it not absurd that the proof of a single theorem made me want to run away from it all?</p>
-
-
-
-<p class="wp-block-paragraph">I wrote to an older professor, an expert in harmonic analysis whose work concerns the Navier–Stokes equations, about my worries. I told him that I grieved to see our art being taken over by machines and behemoth AI companies looking for their next marketing stunt. Greater still was the loss of identity: the skill I had spent years cultivating was suddenly no longer rare, and perhaps no longer valuable either.</p>
-
-
-
-<p class="wp-block-paragraph">His reply contained a thought that struck me deeply. “Beautiful things, poetry or Mathematics, remain beautiful even though machines can copy us in uncanny ways. Contemplation of beauty is always marvellous,” he wrote, “but most of us would not be content with pure contemplation.”</p>
-
-
-
-<p class="wp-block-paragraph">Why, though, are we not content with pure contemplation?</p>
-
-
-
-<p class="wp-block-paragraph">And here, I feel, lies the ugly truth about mathematics, and one that I refused to recognise for so long: mathematics is as much about ego, pride, and ambition as it is about beauty.</p>
-
-
-
-<p class="wp-block-paragraph">Even in my own case, my reasons for starting mathematics were far from a monastic pursuit of beauty. I was good at it, and I <em>loved</em> being good at it. At school, there was nothing quite like the exhilaration of doing well in math competitions and math Olympiads: math, <em>hard</em> math, was something that I was not just good at—but much better at than <em>others</em>. It flattered my ego.</p>
-
-
-
-<p class="wp-block-paragraph">I am hardly alone in this. Hardy made a similar reflection, writing that his motives for doing mathematics were “far from noble”: “I wanted to beat other boys, and this seemed to be the way in which I could do so most decisively”.<sup data-fn="3f1b6c2a-0012-4d5e-9a10-5b7c8d9e0f12" class="fn"><a href="#3f1b6c2a-0012-4d5e-9a10-5b7c8d9e0f12" id="3f1b6c2a-0012-4d5e-9a10-5b7c8d9e0f12-link">12</a></sup> John Conway, upon discovering the surreal numbers, described spending six weeks thinking not only how beautiful the mathematics was but “how clever you are, John, to have discovered it”.<sup data-fn="3f1b6c2a-0013-4d5e-9a10-5b7c8d9e0f13" class="fn"><a href="#3f1b6c2a-0013-4d5e-9a10-5b7c8d9e0f13" id="3f1b6c2a-0013-4d5e-9a10-5b7c8d9e0f13-link">13</a></sup> And Timothy Gowers, in a recent blog post, wrote that his “main motivation for becoming a mathematician was the dream that I would solve unsolved problems—the more famous the better”; perhaps, he wondered, solving problems had simply been a way of “getting respect from a small group of peers.”<sup data-fn="3f1b6c2a-0014-4d5e-9a10-5b7c8d9e0f14" class="fn"><a href="#3f1b6c2a-0014-4d5e-9a10-5b7c8d9e0f14" id="3f1b6c2a-0014-4d5e-9a10-5b7c8d9e0f14-link">14</a></sup></p>
-
-
-
-<p class="wp-block-paragraph">AI begins to separate these two aspects of mathematics. For most of its history, beauty and achievement were intertwined: great mathematical work was both an encounter with something beautiful and the culmination of the mathematician’s own ambition, effort, and creativity. AI threatens the latter far more than the former.</p>
-
-
-
-<p class="wp-block-paragraph">I found this thought deeply reassuring. One day soon, machines may surpass us in all manner of intellectual tasks. But one thing they can <em>never</em> take away from us is our capacity to contemplate beauty—not just in math, but in music, literature, and more—nor our capacity to fall deeply into thought. Mathematics does not become less beautiful because machines are better at it than us.</p>
-
-
-
-<p class="wp-block-paragraph">And yet there is something unsatisfying about this reassurance. It is too simplistic to label all that is threatened here “ego”. We want to do more than just gaze at mathematical beauty. We want to take part in this grand game ourselves: to struggle through hard problems, spend months or years in deep thought, and leave our mark on this centuries-long human endeavour. To be human is to want to achieve great things, and this is much more than ego, hubris, or vanity.</p>
-
-
-
-<p class="wp-block-paragraph">In my reply, I told the professor that if I had the humility to let go of my ego, what I loved most about mathematics remained intact.</p>
-
-
-
-<p class="wp-block-paragraph">A few days later, he wrote back. He agreed that there was truth in what I said, but added one final qualification:</p>
-
-
-
-<p class="wp-block-paragraph">“We might be called to let go of our ego, but there is a thin line between ambition (in its positive meaning) and pride (in its negative meaning).”</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 2 November 2026.</p>
-
-
-<ol class="wp-block-footnotes"><li id="3f1b6c2a-0001-4d5e-9a10-5b7c8d9e0f01">Hardy, <a href="https://web.njit.edu/~akansu/PAPERS/GHHardy-AMathematiciansApology.pdf#page=18"><em>A Mathematician’s Apology</em>, §10</a>. <a href="#3f1b6c2a-0001-4d5e-9a10-5b7c8d9e0f01-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0002-4d5e-9a10-5b7c8d9e0f02">Poincaré, <a href="https://www.hlevkin.com/hlevkin/90MathPhysBioBooks/Math/Poincare-ScienceAndMethod.pdf"><em>Science and Method</em>, p. 22</a>. <a href="#3f1b6c2a-0002-4d5e-9a10-5b7c8d9e0f02-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0003-4d5e-9a10-5b7c8d9e0f03">Russell, <a href="https://www.rodoni.ch/A14/russell-autobiography.pdf#page=166">letter to Gilbert Murray</a>. <a href="#3f1b6c2a-0003-4d5e-9a10-5b7c8d9e0f03-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0004-4d5e-9a10-5b7c8d9e0f04">OpenAI, <a href="https://openai.com/index/chatgpt/">ChatGPT announcement</a>. <a href="#3f1b6c2a-0004-4d5e-9a10-5b7c8d9e0f04-link" aria-label="Jump to footnote reference 4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0005-4d5e-9a10-5b7c8d9e0f05">Yuan et al., <a href="https://arxiv.org/abs/2304.02015">ChatGPT and arithmetic</a>. <a href="#3f1b6c2a-0005-4d5e-9a10-5b7c8d9e0f05-link" aria-label="Jump to footnote reference 5"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0006-4d5e-9a10-5b7c8d9e0f06">Google DeepMind, <a href="https://deepmind.google/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/">AlphaGeometry</a>. <a href="#3f1b6c2a-0006-4d5e-9a10-5b7c8d9e0f06-link" aria-label="Jump to footnote reference 6"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0007-4d5e-9a10-5b7c8d9e0f07">Google DeepMind, <a href="https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/">Gemini at the IMO</a>. <a href="#3f1b6c2a-0007-4d5e-9a10-5b7c8d9e0f07-link" aria-label="Jump to footnote reference 7"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0008-4d5e-9a10-5b7c8d9e0f08">Feng et al., <a href="https://arxiv.org/abs/2601.22401v3">Gemini and Erdős problems</a>. <a href="#3f1b6c2a-0008-4d5e-9a10-5b7c8d9e0f08-link" aria-label="Jump to footnote reference 8"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0009-4d5e-9a10-5b7c8d9e0f09">Alpöge, <a href="https://x.com/__alpoge__/status/2079028340955197566?lang=en">Jacobian counterexample announcement</a>. <a href="#3f1b6c2a-0009-4d5e-9a10-5b7c8d9e0f09-link" aria-label="Jump to footnote reference 9"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0010-4d5e-9a10-5b7c8d9e0f10">OpenAI, <a href="https://openai.com/index/navier-stokes-solution/">Navier–Stokes announcement</a>. <a href="#3f1b6c2a-0010-4d5e-9a10-5b7c8d9e0f10-link" aria-label="Jump to footnote reference 10"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0011-4d5e-9a10-5b7c8d9e0f11">Buckmaster, <a href="https://cims.nyu.edu/~tristanb/statement.pdf">statement on the Navier–Stokes developments</a>. <a href="#3f1b6c2a-0011-4d5e-9a10-5b7c8d9e0f11-link" aria-label="Jump to footnote reference 11"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0012-4d5e-9a10-5b7c8d9e0f12">Hardy, <a href="https://web.njit.edu/~akansu/PAPERS/GHHardy-AMathematiciansApology.pdf#page=50"><em>A Mathematician’s Apology</em>, §29</a>. <a href="#3f1b6c2a-0012-4d5e-9a10-5b7c8d9e0f12-link" aria-label="Jump to footnote reference 12"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0013-4d5e-9a10-5b7c8d9e0f13">Conway, <a href="https://www.todlippy.com/writing/interviews/the-outer-problems-an-interview-with-john-conway">interview on surreal numbers</a>. <a href="#3f1b6c2a-0013-4d5e-9a10-5b7c8d9e0f13-link" aria-label="Jump to footnote reference 13"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="3f1b6c2a-0014-4d5e-9a10-5b7c8d9e0f14">Gowers, <a href="https://gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/">on the Fields medallists’ letter</a>. <a href="#3f1b6c2a-0014-4d5e-9a10-5b7c8d9e0f14-link" aria-label="Jump to footnote reference 14"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/17/math-beauty-and-ego/feed/</wfw:commentRss>
-			<slash:comments>21</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3388</post-id>	</item>
 	</channel>
 </rss>

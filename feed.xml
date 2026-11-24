@@ -6,7 +6,32 @@
 <atom:link href="https://xavierblot-math.github.io/veille-ia/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Daily summary of Xena, Proofs and Prompts, Silicon Reckoner, Tao (blog and Mastodon) and Gowers.</description>
 <language>en</language>
-<lastBuildDate>Mon, 23 Nov 2026 04:42:52 +0000</lastBuildDate>
+<lastBuildDate>Tue, 24 Nov 2026 04:42:57 +0000</lastBuildDate>
+<item>
+<title>Digest — 24 November 2026 (2 new posts)</title>
+<link>https://xavierblot-math.github.io/veille-ia/#2026-11-24</link>
+<guid isPermaLink="false">veille-ia-2026-11-24</guid>
+<pubDate>Tue, 24 Nov 2026 04:00:00 +0000</pubDate>
+<description><![CDATA[
+<p><em>Nothing new on: Xena (Kevin Buzzard), Gowers's Weblog, Terence Tao (Mastodon).</em></p>
+<h3>Terence Tao (guest post by Matei P. Coiculescu) — <a href="https://terrytao.wordpress.com/2026/11/23/finite-time-singularity-formation-for-the-three-dimensional-euler-equations/">Finite-Time Singularity Formation for the Three-Dimensional Euler Equations</a></h3>
+<ul>
+<li>Announces a theorem with Levent Alpöge and Tristan Buckmaster (<a href="https://arxiv.org/abs/2611.26772">arXiv:2611.26772</a>): there is smooth, odd, divergence-free initial data on the periodic 3-torus whose incompressible Euler solution blows up in finite time. This answers the Ebin–Marsden question of whether Arnold's geodesics on volume-preserving diffeomorphisms extend forever; earlier results (Elgindi 2021, Córdoba–Martínez-Zoroa–Zheng 2025) needed limited regularity or a singular point.</li>
+<li>Method: a multiscale construction stacking ever-finer Craik–Criminale waves (oscillatory perturbations of affine flows). Each new wave is amplified by the shear of the coarser ones and comes out in the right orientation to amplify the next one, so the velocity gradient at the origin keeps growing.</li>
+<li>To turn the approximate solution into an exact, unforced one, they choose the initial data by solving a boundary value problem for the particle displacement, a Jacobi field along an "approximate geodesic". Coercivity comes from a uniform bound on the pressure Hessian, which depends on a careful choice of wave profile. Errors are then removed by a WKB-type hierarchy of correctors.</li>
+<li>The post ties this to recent multiscale results on blow-up and non-uniqueness, says LLM tools have sped up these highly technical proofs, and notes that the text was written without AI (Codex made the figures).</li>
+<li>👉 Worth reading if you follow the Arnold-geometric view of fluids, and as a data point on AI-assisted progress in PDE.</li>
+</ul>
+<h3>Proofs and Prompts (Christoph Mark) — <a href="https://proofsandprompts.com/2026/11/23/describing-structures-and-beyond-why-writing-mathematics-still-matters-in-the-age-of-ai/">Describing Structures and Beyond: Why Writing Mathematics Still Matters in the Age of AI</a></h3>
+<ul>
+<li>An essay by an independent researcher: mathematical writing carries a "message" (worldview, convictions, a period's Zeitgeist) beyond definitions and proofs, and this may become the main reason to write mathematics now that AI exists.</li>
+<li>That message comes through in the choice of subject and method, which places an author in a school or tradition. He disputes a professor's claim that mathematics cannot have schools, and argues against Manin's "who reads Newton?" in favour of students reading primary sources.</li>
+<li>Examples: Bourbaki and Grothendieck as an expression of postwar French structuralism (set beside Le Corbusier and abstract art), Euler's playful, open style, and Gauss's "Pauca sed matura".</li>
+<li>Conclusion: if mathematics is done this way there is nothing to fear from AI assistance, and it may open mathematics up to a wider public.</li>
+<li>👉 A light read, with a section on the French school.</li>
+</ul>
+]]></description>
+</item>
 <item>
 <title>Digest — 23 November 2026 (2 new posts)</title>
 <link>https://xavierblot-math.github.io/veille-ia/#2026-11-23</link>
@@ -1043,16 +1068,6 @@
 <ul>
 <li>A community effort to digest Bourgain's 500+ papers and try new formats for exposition, via <a href="https://bourgain-pedia.com/">bourgain-pedia.com</a> and a Zulip channel. (Published 19 October; missed earlier.)</li>
 </ul>
-]]></description>
-</item>
-<item>
-<title>Digest — 25 October 2026: nothing new today</title>
-<link>https://xavierblot-math.github.io/veille-ia/#2026-10-25</link>
-<guid isPermaLink="false">veille-ia-2026-10-25</guid>
-<pubDate>Sun, 25 Oct 2026 04:00:00 +0000</pubDate>
-<description><![CDATA[
-<p>Nothing new appeared in the sources (Xena, Gowers, Tao's blog, Tao on Mastodon, Proofs and Prompts) in the last 24 hours.</p>
-<p><em>Note: the sources were last fetched on 24 October 2026 at 07:34 UTC (about 21 hours before this run), so posts published since then are not covered.</em></p>
 ]]></description>
 </item>
 </channel>

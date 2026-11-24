@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Sat, 21 Nov 2026 20:15:04 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 23 Nov 2026 12:44:46 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,71 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>Describing Structures and Beyond: Why Writing Mathematics Still Matters in the Age of AI</title>
+		<link>https://proofsandprompts.com/2026/11/23/describing-structures-and-beyond-why-writing-mathematics-still-matters-in-the-age-of-ai/</link>
+					<comments>https://proofsandprompts.com/2026/11/23/describing-structures-and-beyond-why-writing-mathematics-still-matters-in-the-age-of-ai/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Mon, 23 Nov 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[History]]></category>
+		<category><![CDATA[Philosophy]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2087</guid>
+
+					<description><![CDATA[I believe that mathematics is not pure logic suspended in a vacuum, but rather a product of history and culture. Treating math merely as a technical tool that can be deconstructed causes us to lose the precious humanistic essence embedded within it.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph">Christoph Mark, independent researcher, unaffiliated</p>
+
+
+
+<p class="wp-block-paragraph">(Disclaimer: I&#8217;ve used AI to bounce ideas and receive feedback to what I&#8217;ve written. I&#8217;ve however renounced the need to polish my English with the help of AI, since I think my original wording is important to preserve the meaning of the text.)</p>
+
+
+
+<p class="wp-block-paragraph">I&#8217;ve often pondered the question of what message a mathematical piece of writing can convey beyond the formal information about hard abstraction<sup data-fn="92089578-9516-4272-92d8-35678734301e" class="fn"><a href="#92089578-9516-4272-92d8-35678734301e" id="92089578-9516-4272-92d8-35678734301e-link">1</a></sup>: definitions, theorems, proofs, lemmas, propositions, more proofs and maybe a short historical overview of what others have done before. By a message (“Botschaft”) conveyed, I mean any sort of worldview, convictions, beliefs or experience of the author. At a first glance, it might be hopeless to convey a message beyond the facts through mathematics, but this essay is designed to convince you of the opposite to some degree and maybe that such a message may be even important and the prevalent driving force to write mathematics in the first place in the age of AI, predominantly, but ever since for some authors.</p>
+
+
+
+<p class="wp-block-paragraph">Concerning the messages which are suitable to be expressed, I focus on unpersonal, deindividualized, unbiographical messages, as I came to the conclusion that only those can be communicated clearly through our language and in a way comprehensible for others. If we start to speak on a microscopic level about every subjective feeling, I&#8217;m under the impression that the reader often can&#8217;t relate to what is meant, which is mostly due to our inability to communicate clearly a subjective state of mind; thus, a certain level of abstraction is the presupposition of any organized text.</p>
+
+
+
+<p class="wp-block-paragraph">Yet, I&#8217;ve spoken about sharing an experience through mathematics in the first paragraph which I want to specify: I&#8217;m often under the impression a common people or a common time or any common group shares an experience it is paradoxically unable to share at once and only through science or what is considered mostly the humanities but not only. This <em>unshared-shared experience</em> emerges often with a certain distance in time in the historical analysis when we can speak in hindsight about the “Zeitgeist” of a certain period or, for example, in art history about a certain movement which was typical for that time. In this sense, a movement might be typical in its universal deindividualized messages and still individual. The sense of individuality I think about is, for example, seen in individuals like Nietzsche, who, with his radical critique of Christianity, was an almost unknown outsider in his lifetime, yet is declared a typical German of his time and even timeless by the afterworld. I sometimes think this phenomenon of excluding an individual in his individuality just to celebrate him later, maybe after his death, is in itself typical German.</p>
+
+
+
+<p class="wp-block-paragraph">One might ask now how to “transport“<sup data-fn="c9be34a6-8a89-419b-aa13-4e1b34348b8e" class="fn"><a href="#c9be34a6-8a89-419b-aa13-4e1b34348b8e" id="c9be34a6-8a89-419b-aa13-4e1b34348b8e-link">2</a></sup> a message through mathematics and everybody will think through style and exposition. But I personally do not think of style and exposition and the technical abilities of the author as a purpose of its own sake, I rather think of the best mathematics of those writings, which most accurately and nuanced put forward the message by any means. And, indeed, it&#8217;s this<em> </em>type of mathematics I&#8217;ve always appreciated the most reading independently from its prevalent content. It&#8217;s this mathematics I&#8217;ve endeavored to write as much as I can and as much as my intellectual means permit. It&#8217;s this mathematics where while reading you get a grasp of its time and its context, where you get to know the author, I think, is most valuable. In this regard, mathematics has to live also as a historical science because some texts never get old or outdated and are worthwhile reading even today and again. I don&#8217;t think we should deprive students from reading primary sources just because “a proof and an argument is stable and can be presented by everyone”<sup data-fn="adf532a9-4c8c-417d-854c-94329f56a6ae" class="fn"><a href="#adf532a9-4c8c-417d-854c-94329f56a6ae" id="adf532a9-4c8c-417d-854c-94329f56a6ae-link">3</a></sup> and I&#8217;ve never done so as a student. </p>
+
+
+
+<p class="wp-block-paragraph">Another way to transport a message in mathematics is by choice of the subject and the methods. Philosophical discussions in mathematics, orally and most notably in writing, are often considered cancerous and discarded. On the rare occasions a math professor at the Technical University of Munich, an institution I disagree with the way mathematics is taught in a positivistic way, dropped a philosophical comment during a lecture, he said that there will never be schools in mathematics because of a strict notion of truth. Every informed mathematician can refute this claim by observing there is and was, for example, a French school of mathematics, a Japanese, a German or whatever. Thus, by choosing in our work a specific subject matter and a specific method, we can align ourselves within a tradition and<em> </em>school and therefore itself make a statement together with the philosophical implications of the messages of this school or tradition.</p>
+
+
+
+<p class="wp-block-paragraph">I want to end this essay with a few examples which underpin the ideas developed by naming some “good” pieces of mathematical writings and authors in the sense above. Everybody will think first rightfully of Bourbaki and closely related Grothendieck&#8217;s school of mathematics. Indeed, it&#8217;s one example where mathematics evolved around the Zeitgeist after the Second World War (“Stunde Null”) and reflects French structuralism in a perfect way. We see similar abstract endeavors all around in France of this time, for example, in Le Corbusier’s architecture or the Paris art world fight between figuration and abstraction, and of Paris as opposition to New York as the new art metropolis. We see this wrestle of the time also in the German movement of “Informel”, which even picked up nuances from science in its art, like Einstein&#8217;s general relativity or what they called the fourth dimension and shaped space, although admittedly late (cf. Norbert Kricke). But this adventure of the “Nachkriegszeit” is not an isolated phenomenon and we can consider other authors as well. To my mind comes second Euler with his personal strong Christian beliefs and that of his time, which were lived throughout his life and deeds, his thirteen children, his endless pursuit of mathematics through his whole life and despite blindness and fate, and are equally well reflected in his playful, witty math style which makes the process visible and is open to everyone: It is told he even used his analysis book to teach his servants mathematics. On the contrary at around the same time, we have Gauß with his almost aristocratic style of the sublime in the sense of Kant which mostly reflects his motto “Pauca sed matura!”.</p>
+
+
+
+<p class="wp-block-paragraph">I could elaborate on these and other examples with anecdotes but I don&#8217;t want to overcharge this essay and it&#8217;s not its primary purpose. For me, it&#8217;s important that the philosophical line of thought about worthwhile mathematics is even reflected in the philosophical structure of this essay. I want to end with a final thought about mathematics and AI which is currently in vogue and also the topic of this blog. I hope the essay makes in some sense clear: If mathematics is done “right”, in the way I like to do it and appreciate it ever since, there&#8217;s no reason to fear any AI-assisted mathematics at all, but rather there&#8217;s a total net benefit in it that it opens up and democratises mathematics and knowledge for a more general public.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 6 October 2026.</p>
+
+
+<ol class="wp-block-footnotes"><li id="92089578-9516-4272-92d8-35678734301e">The notion of “hard abstraction” actually comes from the reception history of the œuvre of Gerhard Richter &#8211; an artist who I admire less than the art historians who have written about him &#8211; but as we speak often in analogies about mathematics, it fits here as well to describe a piece of writing with a primary focus on hard facts. <a href="#92089578-9516-4272-92d8-35678734301e-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="c9be34a6-8a89-419b-aa13-4e1b34348b8e">In this context, Proust has coined the term “transport” for what he wanted to transport of his personality or any author’s personality through a piece of literature. He had the opinion that an exceptional personality is key for any exceptional writing. While this might be true in some contexts and even mathematics, we rather focus on the notion of deindividualized messages, which can be even individual in the sense explained above. <a href="#c9be34a6-8a89-419b-aa13-4e1b34348b8e-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="adf532a9-4c8c-417d-854c-94329f56a6ae">This is indeed, in my opinion, a false idea of Yuri Manin. In an interview on a tour of mockery, he asked: “Who reads Newton?” <a href="#adf532a9-4c8c-417d-854c-94329f56a6ae-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/23/describing-structures-and-beyond-why-writing-mathematics-still-matters-in-the-age-of-ai/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2087</post-id>	</item>
+		<item>
 		<title>A call for greater collaboration</title>
 		<link>https://proofsandprompts.com/2026/11/22/a-call-for-greater-collaboration/</link>
 					<comments>https://proofsandprompts.com/2026/11/22/a-call-for-greater-collaboration/#comments</comments>
@@ -191,7 +256,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/22/a-call-for-greater-collaboration/feed/</wfw:commentRss>
-			<slash:comments>6</slash:comments>
+			<slash:comments>7</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3585</post-id>	</item>
@@ -267,7 +332,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/22/a-mathematical-community/feed/</wfw:commentRss>
-			<slash:comments>6</slash:comments>
+			<slash:comments>7</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3465</post-id>	</item>
@@ -332,7 +397,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/21/on-premature-discovery/feed/</wfw:commentRss>
-			<slash:comments>10</slash:comments>
+			<slash:comments>11</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3299</post-id>	</item>
@@ -387,7 +452,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/21/ahm-statement-on-the-announced-proof-of-the-riemann-hypothesis/feed/</wfw:commentRss>
-			<slash:comments>85</slash:comments>
+			<slash:comments>87</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3808</post-id>	</item>
@@ -466,7 +531,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/20/artificial-mathematics/feed/</wfw:commentRss>
-			<slash:comments>11</slash:comments>
+			<slash:comments>14</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3522</post-id>	</item>
@@ -706,7 +771,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/19/who-answers-for-a-proof-what-the-person-who-presents-it-commits-to-even-once-it-is-verified/feed/</wfw:commentRss>
-			<slash:comments>6</slash:comments>
+			<slash:comments>7</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3135</post-id>	</item>
@@ -829,7 +894,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/19/the-right-to-think/feed/</wfw:commentRss>
-			<slash:comments>17</slash:comments>
+			<slash:comments>18</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3026</post-id>	</item>
@@ -1072,146 +1137,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3537</post-id>	</item>
-		<item>
-		<title>Mathematics: From Deductive Science to Actually an Experimental Science</title>
-		<link>https://proofsandprompts.com/2026/11/18/mathematics-from-deductive-science-to-actually-an-experimental-science/</link>
-					<comments>https://proofsandprompts.com/2026/11/18/mathematics-from-deductive-science-to-actually-an-experimental-science/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Wed, 18 Nov 2026 12:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Evaluation]]></category>
-		<category><![CDATA[Experiments and practice]]></category>
-		<category><![CDATA[Philosophy]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3226</guid>
-
-					<description><![CDATA[“I was someone who thought mathematics was purely a deductive science, even identified with the formalist philosophical point of view, and I have to say that until very recently this was what mathematicians used to do; after all we would prove theorems and give these theorems to the community. […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph">Tiago Veríssimo, PhD student at Newcastle University</p>
-
-
-
-<p class="wp-block-paragraph">Disclosure: This text was written and envisioned by me, any tipos are due to me not being an AI.</p>
-
-
-
-<p class="wp-block-paragraph">I was someone who thought mathematics was purely a deductive science, even identified with the formalist philosophical point of view, and I have to say that until very recently this was what mathematicians used to do; after all we would prove theorems and give these theorems to the community.</p>
-
-
-
-<p class="wp-block-paragraph">With AI now, theorem proving is becoming to be ever more devalued as this process seems to be getting faster and better done by AI. The question is then what do mathematicians actually do in this case?</p>
-
-
-
-<p class="wp-block-paragraph">If you are not proving theorems, you must be doing something. I foresee that in the near future AI will get better at even explaining what these proofs are, even narrating exploratory stories about some theorem or even creating theories to explain unexplored mathematical phenomena. I dare to say, that finding &#8220;interesting&#8221; phenomena might be not so difficult to an AI, as it will gain &#8220;taste&#8221; after some training.</p>
-
-
-
-<p class="wp-block-paragraph">With such a technology, I believe the only route for humans to keep up and have a more interesting life than verifying mathematical proofs of AI is to do &#8220;mathematical experiments&#8221;, as in:</p>
-
-
-
-<ol class="wp-block-list">
-<li>Learn a lot of mathematics</li>
-
-
-
-<li>Explore &#8220;subjectively curious/interesing mathematical phenomena&#8221; via &#8220;mathematical experimentation&#8221;</li>
-
-
-
-<li>Feed the AI with that mathematical experimentation</li>
-
-
-
-<li>Take you formal conclusions from an AI workflow</li>
-</ol>
-
-
-
-<p class="wp-block-paragraph">The concept &#8220;mathematical experimentation&#8221; already exists, however it used to be a second category activity, with the main effort and social value actually in proving the results. This, however, might actually prove to be the golden key to evaluate researchers mathematical capacities. But what is mathematical experimentation?</p>
-
-
-
-<p class="wp-block-paragraph">Mathematical experimentation involves on the top of my head the following:</p>
-
-
-
-<ol class="wp-block-list">
-<li>Computational experiments</li>
-
-
-
-<li>Conceptual experiments</li>
-</ol>
-
-
-
-<p class="wp-block-paragraph">Computational experiments is what we have been doing for a while, the so-called &#8220;let&#8217;s make some examples&#8221;, either by hand or computer.</p>
-
-
-
-<p class="wp-block-paragraph">The conceptual experiments seems to me to be the new kid in the block and akin to &#8220;vibe coding&#8221; in programing where you have a given engineering objective that you want to acomplish, you put that in your team of 10 agents and is typically done with a good enough quality. In mathematics, conceptual experiments would be informed &#8220;mathematical vibes&#8221; that you get from your study of mathematics or speaking with other people or even AI interactions or even just random processes in your brain.</p>
-
-
-
-<p class="wp-block-paragraph">Look at this example:</p>
-
-
-
-<p class="wp-block-paragraph">You: &#8220;I feel that diffentiable functions are continous, they are smooth and surely something smooth is continous?&#8221;<br>AI: &#8220;Yes! In fact &#8230;.&#8221;</p>
-
-
-
-<p class="wp-block-paragraph">Evaluating researchers at the &#8220;I feel sentence&#8221; would be evaluating mathematical experiment capacity/taste of people, as in:</p>
-
-
-
-<ol class="wp-block-list">
-<li>Why did you proceed with this line of experiments?</li>
-
-
-
-<li>Why did you have that initial concept vibe?</li>
-
-
-
-<li>Why did you lined up those questions afterwards?</li>
-</ol>
-
-
-
-<p class="wp-block-paragraph">In a sense we would be measuring the subjective mathematical taste of the human researcher. I think this is would be a fair and pratical way to go forwards to evaluate us: the little human researchers.</p>
-
-
-
-<p class="wp-block-paragraph">This may even effect how we present materials in the sense that we should report our mathematical experiment in journals and talks, maybe hiring and grants should be based in the potential of the mathematical taste to do mathematical experiments? What do you think?</p>
-
-
-
-<p class="wp-block-paragraph">As an aside, the prior paragraphs develop my intuition on why the community is having a bad time with AI and Maths, people signed up to be in the deductive science business, not to do mathematical experiments. Furthermore, the actual career incentives were to proof theorems and so do deductive science.</p>
-
-
-
-<p class="wp-block-paragraph">Mathematics seems to have undergone, in pratice, an epistemic flip; this seems to be the reason behind all this crisis.</p>
-
-
-
-<p class="wp-block-paragraph">Yes, it still is deductive because the actual truth comes only after verifying the AI proof, but when it comes to real human work, this is will be all about mathematical experiments, therefore mathematics is becoming experimental in pratice.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 29 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/18/mathematics-from-deductive-science-to-actually-an-experimental-science/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3226</post-id>	</item>
 	</channel>
 </rss>

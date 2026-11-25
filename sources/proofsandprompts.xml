@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Tue, 24 Nov 2026 12:43:31 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 24 Nov 2026 13:01:23 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,49 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>I want MSE, not MO.</title>
+		<link>https://proofsandprompts.com/2026/11/24/i-want-mse-not-mo/</link>
+					<comments>https://proofsandprompts.com/2026/11/24/i-want-mse-not-mo/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Tue, 24 Nov 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Profession]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3228</guid>
+
+					<description><![CDATA[“For far too many people—myself included—it has become an identity. That is a terrible thing. If we place such importance on the emotional dimensions of mathematics, then it should not be pursued as a profession. What direction should the future mathematics community take? […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph">Anonymous, Undergraduate student</p>
+
+
+
+<p class="wp-block-paragraph">For far too many people—myself included—it has become an identity. That is a terrible thing. If we place such importance on the emotional dimensions of mathematics, then it should not be pursued as a profession.</p>
+
+
+
+<p class="wp-block-paragraph">What direction should the future mathematics community take? Since we all value community consensus, let’s look at the two largest communities: Math StackExchange and MathOverflow. Compare MSE and MO: MO is more rigorous, higher-level, and precise (Like current AI)—but MSE is far more human and engaging. I choose MSE, not MO.</p>
+
+
+
+<p class="wp-block-paragraph">We should be able to complete homework, ask interesting questions, and make friends—not everything needs to be turned into a research question. While both types of communities have value, the number of active participants—influenced, of course, by barriers to entry—reveals what people actually want.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 30 October 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/24/i-want-mse-not-mo/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3228</post-id>	</item>
+		<item>
 		<title>Describing Structures and Beyond: Why Writing Mathematics Still Matters in the Age of AI</title>
 		<link>https://proofsandprompts.com/2026/11/23/describing-structures-and-beyond-why-writing-mathematics-still-matters-in-the-age-of-ai/</link>
 					<comments>https://proofsandprompts.com/2026/11/23/describing-structures-and-beyond-why-writing-mathematics-still-matters-in-the-age-of-ai/#comments</comments>
@@ -88,7 +131,7 @@
 <ol class="wp-block-footnotes"><li id="92089578-9516-4272-92d8-35678734301e">The notion of “hard abstraction” actually comes from the reception history of the œuvre of Gerhard Richter &#8211; an artist who I admire less than the art historians who have written about him &#8211; but as we speak often in analogies about mathematics, it fits here as well to describe a piece of writing with a primary focus on hard facts. <a href="#92089578-9516-4272-92d8-35678734301e-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="c9be34a6-8a89-419b-aa13-4e1b34348b8e">In this context, Proust has coined the term “transport” for what he wanted to transport of his personality or any author’s personality through a piece of literature. He had the opinion that an exceptional personality is key for any exceptional writing. While this might be true in some contexts and even mathematics, we rather focus on the notion of deindividualized messages, which can be even individual in the sense explained above. <a href="#c9be34a6-8a89-419b-aa13-4e1b34348b8e-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="adf532a9-4c8c-417d-854c-94329f56a6ae">This is indeed, in my opinion, a false idea of Yuri Manin. In an interview on a tour of mockery, he asked: “Who reads Newton?” <a href="#adf532a9-4c8c-417d-854c-94329f56a6ae-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/23/describing-structures-and-beyond-why-writing-mathematics-still-matters-in-the-age-of-ai/feed/</wfw:commentRss>
-			<slash:comments>7</slash:comments>
+			<slash:comments>9</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2087</post-id>	</item>
@@ -337,6 +380,86 @@
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3465</post-id>	</item>
 		<item>
+		<title>Homage to Gold Miners</title>
+		<link>https://proofsandprompts.com/2026/11/21/homage-to-gold-miners/</link>
+					<comments>https://proofsandprompts.com/2026/11/21/homage-to-gold-miners/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Sat, 21 Nov 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Creative writing]]></category>
+		<category><![CDATA[Reactions]]></category>
+		<category><![CDATA[AI companies]]></category>
+		<category><![CDATA[Creativity]]></category>
+		<category><![CDATA[Story]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=2384</guid>
+
+					<description><![CDATA[“The age of steel began with little cause for dread. We worked the stubborn earth and earned our daily bread. We forged a metal wand whose word was loud and clear. The gold we had was real, no pyrite hiding here. And when we struck a vein, it put an end to doubt. […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph">Kei Beauduin, Master&#8217;s student at <a href="https://www.math.kyushu-u.ac.jp/fm/en/">Kyushu University</a></p>
+
+
+
+<p class="wp-block-paragraph">AI Declaration: The author conceived the ideas, used an LLM to draft the poem,<sup data-fn="e4b2a6d1-7c35-4f9a-8d02-3a1c5b9e6f47" class="fn"><a href="#e4b2a6d1-7c35-4f9a-8d02-3a1c5b9e6f47" id="e4b2a6d1-7c35-4f9a-8d02-3a1c5b9e6f47-link">1</a></sup> and refined it with the model.</p>
+
+
+
+<p class="wp-block-paragraph">The age of steel began with little cause for dread.<br>We worked the stubborn earth and earned our daily bread.</p>
+
+
+
+<p class="wp-block-paragraph">We forged a metal wand whose word was loud and clear.<br>The gold we had was real, no pyrite hiding here.</p>
+
+
+
+<p class="wp-block-paragraph">And when we struck a vein, it put an end to doubt.<br>We learned to lean on it. Its verdict bore us out.</p>
+
+
+
+<p class="wp-block-paragraph">Then came a company with engines built to bore.<br>They barely scratched the dirt; a spoon could dig up more.</p>
+
+
+
+<p class="wp-block-paragraph">But year by year they grew with jaws of tempered steel.<br>They split the mountain&#8217;s spine and made the granite kneel.</p>
+
+
+
+<p class="wp-block-paragraph">Our wand still vouched for gold amid the shattered stone.<br>They heaped the dirty spoil in mountains of their own.</p>
+
+
+
+<p class="wp-block-paragraph">One day their trucks arrived and backed into our yard.<br>They tipped their cargo out without the least regard.</p>
+
+
+
+<p class="wp-block-paragraph">It stank beneath the sun, with treasure buried deep,<br>Enough to claim our days and rob us of our sleep.</p>
+
+
+
+<p class="wp-block-paragraph">No doubt we&#8217;d reach the gold, but there was still a cost.<br>We&#8217;d pay in time and sweat, with some dignity lost.</p>
+
+
+
+<p class="wp-block-paragraph">We took our shovels up. What else were we to do?<br>Then bent our backs to dig straight through the reeking poo.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+
+
+<p class="wp-block-paragraph">Received 9 October 2026.</p>
+
+
+<ol class="wp-block-footnotes"><li id="e4b2a6d1-7c35-4f9a-8d02-3a1c5b9e6f47">Inspired by <a href="https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/#reaction-fisher">David Fisher&#8217;s remark</a> about writing a haiku. <a href="#e4b2a6d1-7c35-4f9a-8d02-3a1c5b9e6f47-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/21/homage-to-gold-miners/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2384</post-id>	</item>
+		<item>
 		<title>On Premature Discovery</title>
 		<link>https://proofsandprompts.com/2026/11/21/on-premature-discovery/</link>
 					<comments>https://proofsandprompts.com/2026/11/21/on-premature-discovery/#comments</comments>
@@ -452,7 +575,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/21/ahm-statement-on-the-announced-proof-of-the-riemann-hypothesis/feed/</wfw:commentRss>
-			<slash:comments>87</slash:comments>
+			<slash:comments>89</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3808</post-id>	</item>
@@ -771,375 +894,9 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/19/who-answers-for-a-proof-what-the-person-who-presents-it-commits-to-even-once-it-is-verified/feed/</wfw:commentRss>
-			<slash:comments>7</slash:comments>
+			<slash:comments>8</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3135</post-id>	</item>
-		<item>
-		<title>The Right to Think</title>
-		<link>https://proofsandprompts.com/2026/11/19/the-right-to-think/</link>
-					<comments>https://proofsandprompts.com/2026/11/19/the-right-to-think/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Thu, 19 Nov 2026 12:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[PhD students]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<category><![CDATA[Understanding]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3026</guid>
-
-					<description><![CDATA[“In the first day of philosophy, my professor walked up to the blackboard and wrote a single word in capital letters: MAN. Then he turned around and asked us what it meant. Silence. We were fifteen, and afraid of saying something banal. In the end we arrived at an answer: man is a rational animal. […]”]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://www.maths.cam.ac.uk/person/gc645">Gaia Carenini</a>, PhD student at University of Cambridge</p>
-
-
-
-<p class="wp-block-paragraph">In the first day of philosophy, my professor walked up to the blackboard and wrote a single word in capital letters: MAN. Then he turned around and asked us what it meant.</p>
-
-
-
-<p class="wp-block-paragraph">Silence. We were fifteen, and afraid of saying something banal. In the end we arrived at an answer: man is a rational animal. An animal that thinks.</p>
-
-
-
-<p class="wp-block-paragraph">I know very well that this definition is incomplete. We are also body, affection, fragility, the need for one another; and no one is worth more for how well they reason. And yet there is one thing I still hold to be true: thinking is our way of inhabiting the world. It is through thought that we give a name to what happens to us, and it is through thought that we choose how to respond, and who we want to be.</p>
-
-
-
-<p class="wp-block-paragraph">That is why, when I see that little by little, almost without noticing, we are beginning to delegate our thinking, I feel a knot in my stomach.</p>
-
-
-
-<p class="wp-block-paragraph">I am a doctoral student in mathematics. I speak from where I stand, and from here, this is what I see.</p>
-
-
-
-<p class="wp-block-paragraph">Much of my work consists of not understanding. And not understanding is heavy. I set out down a path, and it breaks off. I build an example, and discover I was wrong. There are days when the only step forward is managing to say precisely where I am stuck: like someone who, in the dark, finally finds the door, even if it is still closed. From the outside it doesn&#8217;t look like much. And yet this is how I learn to see what I could not see before.</p>
-
-
-
-<p class="wp-block-paragraph">Anyone who has learned something difficult knows this. An explanation can be correct and still remain foreign to us: we repeat it, we use it, and it is not ours. Then comes an example, a question, and suddenly the reasoning rebuilds itself in our hands. It is one of the quietest joys I know. From that moment we are different, even if no one notices. As the fox tells the Little Prince, what is essential is invisible to the eye.</p>
-
-
-
-<p class="wp-block-paragraph">I am not saying that machines should stay out of our work. Checking a calculation, consulting the literature, verifying a case we don&#8217;t have time to do by hand: tools like these have always accompanied us. The difference lies in the gesture. It is one thing to be given a hand while you walk; it is another to be carried in someone&#8217;s arms through the very stretch where you learn to walk.</p>
-
-
-
-<p class="wp-block-paragraph">And I must be honest: that stretch is very easy to skip, and I myself know how strong the temptation is. A summary before having read. A solution before having tried. An opinion before having understood what convinces us. You arrive, and you have not passed through anywhere.</p>
-
-
-
-<p class="wp-block-paragraph">In mathematics, the solution to every exercise is often at the back of the book. We assign it anyway, because someone still has to learn how to get there. If we call it a success when the solution is handed in, even when the person handing it in has learned nothing, we have forgotten why we teach. And we have forgotten that, on the other side, there is a person.</p>
-
-
-
-<p class="wp-block-paragraph">You will tell me that research is a different matter, that what counts there is the result, the much-vaunted progress. But research, too, is already inside this story. In May 2026, a counterexample produced by an OpenAI model to an Erdős conjecture on unit distances was announced, and mathematicians verified it. In October, a collection of hundreds of manuscripts generated by a model arrived. I do not deny it, nor do I want to belittle it: a correct result remains a correct result, and some of the arguments put forward are remarkable. But my question is a different one, and I do not know the answer. I only know that we cannot stop asking it. What will become of a young mathematician who will be able to skip, every time, the very difficulties through which she would have learned?</p>
-
-
-
-<p class="wp-block-paragraph">They tell us that our task, in the future, will be to choose the directions to explore and to build theories. I don&#8217;t know why a machine should not be able to do that better than we can: we haven&#8217;t tested it yet. But there is a deeper problem. The ability to judge how interesting a direction of research is does not come from nothing: it grows through attempts, through problems faced, through learning what it is natural to ask. If we make this apprenticeship superfluous, we hand to the generation that is coming answers that we have not taught them to evaluate. We leave them alone before what they cannot recognize. It is a failure, even if the number of papers keeps rising.</p>
-
-
-
-<p class="wp-block-paragraph">And it is not only training that is lost. You can spend an hour at a blackboard and walk away with a better question. Explaining a still-confused idea to a colleague forces us to look for an example, to listen to an objection, to discover what we had not understood. In that work, without noticing, we also learn to pay attention to others, to cultivate a shared knowledge, to create culture. A department can go on publishing while its rooms empty of voices. This is what I fear: a house full of results and devoid of anyone to think them together, of someone who can sense their worth. A house in which no one feels welcome anymore.</p>
-
-
-
-<p class="wp-block-paragraph">So far I have spoken of what happens to each of us. But no one chooses alone: the habits of many become the rules of all.</p>
-
-
-
-<p class="wp-block-paragraph">If it becomes normal to produce many more papers in less time, those quantities become selection criteria, and those who work differently risk being left out. At that point, to speak of free choice is no longer honest.</p>
-
-
-
-<p class="wp-block-paragraph">And if the expected performance requires paid tools, those who cannot afford them start further behind, and we end up mistaking the ability to pay for the ability to do research. This we cannot accept: it risks widening the imbalance between the countries of the world even further. And there is more. A community that builds its work on commercial services accepts depending on decisions made elsewhere, about costs and conditions of access.</p>
-
-
-
-<p class="wp-block-paragraph">I hear it said more and more often that, from now on, the worth of a mathematician will be measured by visibility and communication. Some neurodivergent people have found in research a place that welcomes their rhythms and their ways. For some it is perhaps the only one. Asking everyone for the same style of public presence may close that door. The quality of a thought is not measured by the confidence with which the person carrying it stages it. The inclusiveness of our community is a fundamental value, and I believe we must protect it.</p>
-
-
-
-<p class="wp-block-paragraph">In all these cases we are asked how to adapt. But if we ask only that, we have already accepted that the transformation must happen this way. I do not accept it. I do not have all the answers, and I know that some of mine may turn out to be wrong. But I believe we can decide which uses of artificial intelligence to admit and which to refuse, and that the criterion is the one from before: to distinguish what accompanies thought from what replaces it. Saying so does not mean opposing progress.</p>
-
-
-
-<p class="wp-block-paragraph">I know I speak from a fortunate position. I was able to study and to have time for questions that served no immediate purpose. I am grateful for it, and I know I did not deserve it more than others. For this reason I feel I owe something to those who have not yet had these possibilities. Those who are beginning are afraid, and it is right that they should be: they cannot bear alone the cost of opposing new expectations of productivity, and no one should ask it of them. Those who lead a group, allocate funding, or evaluate an application can open that path, or close it. I ask them to open it. And if that has a cost, let it be they who pay it, not the youngest.</p>
-
-
-
-<p class="wp-block-paragraph">Someone may object: if a machine does it better, what is the point of defending this effort? I answer that mathematics is not a mere list of true statements. It is what remains in a person when they understand why they are true. A theorem that no one understands is a result, but it is not yet someone&#8217;s knowledge. And we do not make this effort in order to be the best. We make it because mathematics cannot be separated from the community that thinks it.</p>
-
-
-
-<p class="wp-block-paragraph">We mathematicians are among the first to face this change, at least on this scale. Translators went through it before us, but the best of them stayed, because the artistic side of their craft seemed untouchable. With us, instead, the change has reached everyone: even the best seem able to do little compared with AI. For this very reason we are given the chance to show that a community is capable of defending its own humanity, even at the cost of producing less.</p>
-
-
-
-<p class="wp-block-paragraph">Concrete choices are needed. To protect, in training, the work done in the first person. To recognize, in evaluation criteria, the time it takes to understand. To support those who do research without handing over to others the heart of their work. These are decisions that belong to our institutions and to those who lead them, not to AI companies.</p>
-
-
-
-<p class="wp-block-paragraph">I return to that blackboard, to that word: MAN. I fear that our humanity is being taken from us, or rather that we ourselves are letting it go, one shortcut at a time, until we no longer notice. And I do not want that to happen, neither to me nor to those who will come after. I do not accept that giving up on thought should become the price to pay for continuing to do mathematics.</p>
-
-
-
-<p class="wp-block-paragraph"><em>The author acknowledges the use of Quillbot for checking grammar and improve fluency.</em></p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 23 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/19/the-right-to-think/feed/</wfw:commentRss>
-			<slash:comments>18</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3026</post-id>	</item>
-		<item>
-		<title>Why the Future of Mathematics Belongs to Human Judgment</title>
-		<link>https://proofsandprompts.com/2026/11/18/why-the-future-of-mathematics-belongs-to-human-judgment/</link>
-					<comments>https://proofsandprompts.com/2026/11/18/why-the-future-of-mathematics-belongs-to-human-judgment/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Wed, 18 Nov 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Choice]]></category>
-		<category><![CDATA[Evaluation]]></category>
-		<category><![CDATA[Future]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3537</guid>
-
-					<description><![CDATA[Artificial intelligence is rapidly crossing boundaries once thought exclusive to human mathematicians. It can search enormous spaces, discover patterns, formalize arguments, and increasingly prove difficult theorems. This raises an unsettling question: if machines can out-search, out-deduce, and out-prove us, what remains uniquely valuable about the human mathematician?]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph">Anonymous</p>
-
-
-
-<p class="wp-block-paragraph">Artificial intelligence is rapidly crossing boundaries once thought exclusive to human mathematicians. It can search enormous spaces, discover patterns, formalize arguments, and increasingly prove difficult theorems. This raises an unsettling question: if machines can out-search, out-deduce, and out-prove us, what remains uniquely valuable about the human mathematician?</p>
-
-
-
-<p class="wp-block-paragraph">The answer is <strong>evaluation</strong>.</p>
-
-
-
-<p class="wp-block-paragraph">Machines may become extraordinary at producing mathematical truths. But mathematics is not merely the accumulation of true statements. Its deeper task is deciding <strong>which truths matter</strong>.</p>
-
-
-
-<h2 class="wp-block-heading">From Inherited Problems to an Ocean of New Ones</h2>
-
-
-
-<p class="wp-block-paragraph">Much of AI&#8217;s mathematical success still takes place on intellectual terrain chosen by humans. Famous conjectures were identified as important because generations of mathematicians judged them to illuminate something fundamental about number, space, symmetry, computation, or the physical world.</p>
-
-
-
-<p class="wp-block-paragraph">But this inherited catalog is finite.</p>
-
-
-
-<p class="wp-block-paragraph">What if all existing conjectures were solved? How could we move forward?</p>
-
-
-
-<p class="wp-block-paragraph">Terence Tao has proposed Math 2.0 for the future. In my view, Math 1.0 could be called the <strong>conjecture era</strong>, and Math 2.0 is the <strong>post conjecture era</strong>.</p>
-
-
-
-<p class="wp-block-paragraph">AI companies have exploited the significance of existing conjectures, but they have forgotten why those problems are important.</p>
-
-
-
-<p class="wp-block-paragraph">It&#8217;s because we believe they are.</p>
-
-
-
-<p class="wp-block-paragraph">As AI becomes increasingly capable, it will not merely solve existing problems. It will generate new conjectures, definitions, structures, and research directions on a scale no human community could possibly examine.</p>
-
-
-
-<p class="wp-block-paragraph">At that point, the central scarcity in mathematics will no longer be proofs or problems. It will be <strong>attention</strong>.</p>
-
-
-
-<h2 class="wp-block-heading">Truth Is Not the Same as Significance</h2>
-
-
-
-<p class="wp-block-paragraph">Henri Poincaré understood this distinction more than a century ago:</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">“Invention is discernment, choice. &#8230;&#8230; The sterile combinations do not even present themselves to the mind of the inventor.” [1]</p>
-</blockquote>
-
-
-
-<p class="wp-block-paragraph">This insight becomes even more important in the age of AI.</p>
-
-
-
-<p class="wp-block-paragraph">A sufficiently powerful system could generate an enormous number of correct theorems and extraordinarily difficult problems. But difficulty alone does not imply depth. A problem may be hard because it connects profound ideas—or merely because it is an artificial maze created from arbitrary definitions.</p>
-
-
-
-<p class="wp-block-paragraph">The future mathematician therefore need not compete with AI in producing more theorems. The more important role will be to look at what machines produce and ask:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Does this matter?</strong></p>
-
-
-
-<p class="wp-block-paragraph">Does it reveal a hidden structure?<br>Does it simplify our understanding?<br>Does it open a path toward physics, computation, or another fundamental question?</p>
-
-
-
-<p class="wp-block-paragraph">A theorem can be perfectly correct and still be mathematically uninteresting.</p>
-
-
-
-<h2 class="wp-block-heading">Mathematical Taste</h2>
-
-
-
-<p class="wp-block-paragraph">This is what mathematicians traditionally call <strong>taste</strong>.</p>
-
-
-
-<p class="wp-block-paragraph">Beauty, depth, naturalness, explanatory power, and importance are not properties captured simply by the formal correctness of a proof. They arise from relationships among mathematics, human understanding, scientific goals, and intellectual culture.</p>
-
-
-
-<p class="wp-block-paragraph">Liu Cixin dramatizes almost exactly this problem in his science-fiction story <em>The Poetry Cloud</em> [2]. A godlike intelligence uses overwhelming computational power to generate the entire space of possible classical Chinese poems, yet still cannot determine which of them constitute genuine poetry. Exhaustive generation solves the problem of <strong>production</strong>, but not the problem of <strong>selection</strong>. Selection has been discussed more widely in our community, such as [3-5]. The parallel with AI-generated mathematics is striking: a machine might someday generate an ocean of valid theorems without thereby telling us which ones deserve our attention.</p>
-
-
-
-<p class="wp-block-paragraph">AI may learn remarkably sophisticated models of human mathematical taste. It may even predict which problems mathematicians are likely to find interesting. But prediction is not the same as ultimate valuation.</p>
-
-
-
-<p class="wp-block-paragraph">A machine cannot compel humanity to care about a theorem.</p>
-
-
-
-<p class="wp-block-paragraph">Mathematical importance exists partly because finite human beings choose to devote their attention to certain ideas rather than others.</p>
-
-
-
-<h2 class="wp-block-heading">The Economy of Attention</h2>
-
-
-
-<p class="wp-block-paragraph">This is why the future abundance created by AI may make human judgment more valuable, not less.</p>
-
-
-
-<p class="wp-block-paragraph">Human attention is limited. A mathematician has only one career. A research community can pursue only a small fraction of possible questions. Universities can teach only an even smaller fraction of mathematical knowledge.</p>
-
-
-
-<p class="wp-block-paragraph">The decisive questions therefore become:</p>
-
-
-
-<p class="wp-block-paragraph">Which ideas deserve the attention of an entire field?</p>
-
-
-
-<p class="wp-block-paragraph">Which discoveries should become part of our shared intellectual inheritance?</p>
-
-
-
-<p class="wp-block-paragraph">When mathematical production becomes nearly unlimited, <strong>selection becomes the bottleneck</strong>.</p>
-
-
-
-<h2 class="wp-block-heading">From Provers to Cartographers</h2>
-
-
-
-<p class="wp-block-paragraph">AI may therefore transform rather than eliminate the role of mathematicians.</p>
-
-
-
-<p class="wp-block-paragraph">For centuries, mathematicians have combined two roles: conceiving and evaluating ideas, and performing the immense technical labor required to prove them. AI may increasingly absorb the second task—searching proof spaces, verifying lemmas, exploring cases, and constructing formal arguments.</p>
-
-
-
-<p class="wp-block-paragraph">The human mathematician can then move upward in abstraction.</p>
-
-
-
-<p class="wp-block-paragraph">Instead of being primarily a producer of proofs, the mathematician becomes a <strong>cartographer of significance</strong>: identifying worthwhile territories, recognizing deep connections, choosing meaningful questions, and organizing an overwhelming landscape of machine-generated mathematics into something humans can understand.</p>
-
-
-
-<p class="wp-block-paragraph">In an age when answers are cheap and difficult problems can be manufactured automatically, discernment becomes scarce.</p>
-
-
-
-<p class="wp-block-paragraph">Poincaré&#8217;s principle therefore acquires new force:</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">“Invention is discernment, choice.” [1]</p>
-</blockquote>
-
-
-
-<p class="wp-block-paragraph">The future of mathematics may belong not to whoever can generate the most truths, but to whoever can recognize which truths are worth knowing.</p>
-
-
-
-<p class="wp-block-paragraph">If everyone practices this principle, stops obsessing over longstanding conjectures, and chooses problems they truly value rather than being swayed by AI companies, we will have the collective power to shape the future of mathematics.</p>
-
-
-
-<h2 class="wp-block-heading">References</h2>
-
-
-
-<p class="wp-block-paragraph">[1] Henri Poincaré, “Mathematical Creation,” translated from the French by George Bruce Halsted, <em>The Monist</em>, Vol. 20, No. 3, July 1910, pp. 321–335; especially p. 325. <a href="https://henripoincarepapers.univ-nantes.fr/chp/hp-pdf/hp1910moa.pdf">https://henripoincarepapers.univ-nantes.fr/chp/hp-pdf/hp1910moa.pdf</a></p>
-
-
-
-<p class="wp-block-paragraph">[2] Liu Cixin, “The Poetry Cloud” (《诗云》), translated by Chi-yin Ip and Cheuk Wong. <a href="https://www.cuhk.edu.hk/rct/pdf/e_outputs/b7778/v7778p087.pdf">https://www.cuhk.edu.hk/rct/pdf/e_outputs/b7778/v7778p087.pdf</a></p>
-
-
-
-<p class="wp-block-paragraph">[3] <a href="https://proofsandprompts.com/2026/10/19/recommendations-on-the-use-of-ai-for-phd-students-and-supervisors">https://proofsandprompts.com/2026/10/19/recommendations-on-the-use-of-ai-for-phd-students-and-supervisors</a></p>
-
-
-
-<p class="wp-block-paragraph">[4] <a href="https://proofsandprompts.com/2026/10/30/lets-stop-writing-papers">https://proofsandprompts.com/2026/10/30/lets-stop-writing-papers</a></p>
-
-
-
-<p class="wp-block-paragraph">[5] <a href="https://proofsandprompts.com/2026/10/21/mathematics-of-the-future">https://proofsandprompts.com/2026/10/21/mathematics-of-the-future</a></p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 10 November 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/18/why-the-future-of-mathematics-belongs-to-human-judgment/feed/</wfw:commentRss>
-			<slash:comments>30</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3537</post-id>	</item>
 	</channel>
 </rss>

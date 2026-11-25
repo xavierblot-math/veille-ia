@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Tue, 24 Nov 2026 13:01:23 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 25 Nov 2026 11:25:48 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -89,7 +89,13 @@
 
 
 
+<div class="wp-block-group pp-ai-disclosure has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<p class="pp-ai-disclosure-label wp-block-paragraph">AI disclosure</p>
+
+
+
 <p class="wp-block-paragraph">(Disclaimer: I&#8217;ve used AI to bounce ideas and receive feedback to what I&#8217;ve written. I&#8217;ve however renounced the need to polish my English with the help of AI, since I think my original wording is important to preserve the meaning of the text.)</p>
+</div>
 
 
 
@@ -399,7 +405,13 @@
 
 
 
-<p class="wp-block-paragraph">AI Declaration: The author conceived the ideas, used an LLM to draft the poem,<sup data-fn="e4b2a6d1-7c35-4f9a-8d02-3a1c5b9e6f47" class="fn"><a href="#e4b2a6d1-7c35-4f9a-8d02-3a1c5b9e6f47" id="e4b2a6d1-7c35-4f9a-8d02-3a1c5b9e6f47-link">1</a></sup> and refined it with the model.</p>
+<div class="wp-block-group pp-ai-disclosure has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<p class="pp-ai-disclosure-label wp-block-paragraph">AI disclosure</p>
+
+
+
+<p class="wp-block-paragraph">The author conceived the ideas, used an LLM to draft the poem,<sup data-fn="e4b2a6d1-7c35-4f9a-8d02-3a1c5b9e6f47" class="fn"><a href="#e4b2a6d1-7c35-4f9a-8d02-3a1c5b9e6f47" id="e4b2a6d1-7c35-4f9a-8d02-3a1c5b9e6f47-link">1</a></sup> and refined it with the model.</p>
+</div>
 
 
 
@@ -480,6 +492,18 @@
 
 
 
+<div class="wp-block-group pp-ai-disclosure has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<p class="pp-ai-disclosure-label wp-block-paragraph">AI disclosure</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AI-use disclosure:</strong> ChatGPT assisted with drafting, revision, and source checking.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Human-use disclosure:</strong> The author revised AI-generated dilution of original text until AI relented.</p>
+</div>
+
 <p class="wp-block-paragraph">Suppose we fault an AI solution to a motivating problem for preempting the development of mathematical theory. Human solutions deserve no exemption on that ground.</p>
 
 
@@ -504,11 +528,7 @@
 
 
 
-<p class="wp-block-paragraph"><strong>AI-use disclosure:</strong> ChatGPT assisted with drafting, revision, and source checking.</p>
 
-
-
-<p class="wp-block-paragraph"><strong>Human-use disclosure:</strong> The author revised AI-generated dilution of original text until AI relented.</p>
 
 
 
@@ -575,7 +595,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/21/ahm-statement-on-the-announced-proof-of-the-riemann-hypothesis/feed/</wfw:commentRss>
-			<slash:comments>89</slash:comments>
+			<slash:comments>90</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3808</post-id>	</item>
@@ -676,7 +696,13 @@
 
 
 
+<div class="wp-block-group pp-ai-disclosure has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<p class="pp-ai-disclosure-label wp-block-paragraph">AI disclosure</p>
+
+
+
 <p class="wp-block-paragraph"><em>Statement of AI use:</em> This letter has been written with the help of Claude. Sinisa provided the initial draft, and sharpened the argument and the citations in interaction with Claude Opus 5 High, used within Claude Projects. The entire chat is available at <a href="https://claude.ai/share/fc545e66-5222-4a82-b673-e2d8e3d7bbc4">https://claude.ai/share/fc545e66-5222-4a82-b673-e2d8e3d7bbc4</a>, and it&#8217;s inputs were this <a href="https://proofsandprompts.com/wp-content/uploads/2026/10/Source.docx">draft</a> and this <a href="https://proofsandprompts.com/wp-content/uploads/2026/10/DanNoc_2023_v2.pptx">presentation</a> in Croatian.</p>
+</div>
 
 <p class="wp-block-paragraph">Dear young mathematician,</p>
 
@@ -844,6 +870,14 @@
 
 
 
+<div class="wp-block-group pp-ai-disclosure has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<p class="pp-ai-disclosure-label wp-block-paragraph">AI disclosure</p>
+
+
+
+<p class="wp-block-paragraph"><em>Disclosure.</em> The first draft and translation of this note were prepared with AI assistance and revised by me; the argument is from the article cited.</p>
+</div>
+
 <p class="wp-block-paragraph">I am not a mathematician. I work in the philosophy of technology and in law, and I have written with Susana Checa Prieto an article on the accountability of artificial intelligence that <em>Law, Innovation and Technology</em> has accepted for 2027. I am writing in response to the question Terence Tao put to his community at the ICM: what mathematics is for. His essay ends with a recommendation from the Leiden Declaration: to cooperate with researchers in other fields who face similar challenges. I write from one of them. I adopt his Working Hypothesis for this conditional analysis — that AI tools will reasonably soon perform a reasonable fraction of research-level work, at reasonable cost and with reasonable supervision — and I add no claim of my own about what the machine can do.</p>
 
 
@@ -879,8 +913,6 @@
 <p class="wp-block-paragraph"><em>References.</em> S. B. Checa Prieto and J. Fernández Tamames, “Why AI Cannot Sign: Deliberative Suspension, Reflective Judgment, and the Verification Tax in Generative Legal Technology”, <em>Law, Innovation and Technology</em> 19(2), 2027, forthcoming (accepted 15 September 2026). T. Tao, “Mathematics in the age of AI”, <a href="https://arxiv.org/abs/2608.16753">arXiv:2608.16753</a> (2026), an essay based on the ICM 2026 public lecture. The Leiden Declaration on Artificial Intelligence and Mathematics (June 2026).</p>
 
 
-
-<p class="wp-block-paragraph"><em>Disclosure.</em> The first draft and translation of this note were prepared with AI assistance and revised by me; the argument is from the article cited.</p>
 
 
 

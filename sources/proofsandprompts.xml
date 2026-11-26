@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Wed, 25 Nov 2026 11:25:48 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 25 Nov 2026 16:18:31 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,179 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>On the AHM&#8217;s awkward position on the Riemann Hypothesis being solved</title>
+		<link>https://proofsandprompts.com/2026/11/25/on-the-ahms-awkward-position-on-the-riemann-hypothesis-being-solved/</link>
+					<comments>https://proofsandprompts.com/2026/11/25/on-the-ahms-awkward-position-on-the-riemann-hypothesis-being-solved/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate>
+				<category><![CDATA[Reactions]]></category>
+		<category><![CDATA[Critique]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<category><![CDATA[Response]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3919</guid>
+
+					<description><![CDATA[A response to AHM's reaction to the claimed proof of the Riemann hypothesis, a couple of posts ago.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="https://danromik.com/">Dan Romik</a>, Professor at <a href="https://www.math.ucdavis.edu/">UC Davis</a> and founder of <a href="https://rhombicresearch.ai/" data-type="link" data-id="https://rhombicresearch.ai/">Rhombic Research</a></p>
+
+
+
+<p class="pp-in-reply-to wp-block-paragraph"><strong>In reply to</strong> <a href="https://proofsandprompts.com/2026/11/21/ahm-statement-on-the-announced-proof-of-the-riemann-hypothesis/">AHM Statement on the Announced Proof of the Riemann Hypothesis</a> by AHM communications group</p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://reeldocs.io/d/BgPXCJDY6DKGHJ">Written without AI using ReelDocs</a></p>
+
+
+
+<p class="wp-block-paragraph">This is a post about the <a href="https://www.ahmath.org">Association for Human Mathematics (AHM)</a> and a statement they made this Friday (November 20, 2026).</p>
+
+
+
+<h2 class="wp-block-heading">Who are they</h2>
+
+
+
+<p class="wp-block-paragraph">The AHM are a group of people who describe themselves in these words:</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">The Association for Human Mathematics protects mathematics as a human endeavor against the threat of artificial intelligence. We work to maintain the independence of the mathematical community from the encroachment of corporate interest. In light of the grave societal, environmental, and economic impacts of the AI industry and the threat of unfettered AI growth, we strive not to be complicit.</p>
+</blockquote>
+
+
+
+<h2 class="wp-block-heading">What they said on November 20, 2026</h2>
+
+
+
+<p class="wp-block-paragraph">Following <a href="https://blog.danromik.com/verifying-alpoges-lean-proof-of-the-generalized-riemann-hypothesis">Levent Alpöge&#8217;s announcement of his proof of GRH</a>, the AHM issued a statement titled &#8220;<a href="https://www.ahmath.org/statements">AHM Statement on the Announced Proof of the Riemann Hypothesis</a>&#8220;. Click the link to read it in full. Below I quote the statement with my own commentary explaining why essentially none of what they are saying makes any sense.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">Today, November 20, 2026, a mathematician at Anthropic announced the existence of an AI-generated Lean program confirming the Riemann Hypothesis, long a guiding open problem in mathematics.</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">Yep.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">This announcement is a major departure from traditional methods in mathematical research, representing a new value system put forward by AI corporations that foregrounds technical validity of logical statements over accountability, clarity, accessibility, and understanding.</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">I can agree with &#8220;This announcement is a major departure from traditional methods in mathematical research&#8221;. But the part about this &#8220;representing a new value system&#8221; is a serious bit of editorializing. What does it mean to &#8220;foreground&#8221; technical validity over other things? In what sense is it the &#8220;AI corporations&#8221; who are &#8220;putting forward&#8221; this new value system? And in any case, why does AHM get to decide what should be &#8220;foregrounded&#8221; and what not? As it happens, I and many other mathematicians consider &#8220;technical validity&#8221; (which is usually referred to as &#8220;validity&#8221; without the belittling modifier &#8220;technical&#8221;) to be one of the most important qualities of any new mathematical work. When we referee a paper, one of the most important questions we are asked to weigh on is whether the paper is correct. The other crucial element of whether a paper is good is whether it proves something interesting and important. By those criteria, a correct proof of the Riemann hypothesis would certainly check the main boxes in terms of whether it should be published. Is this really a new value system that prizes validity? No; it&#8217;s been forever the case that mathematicians considered validity to be one of the most important things to care about, and probably the number one thing.</p>
+
+
+
+<p class="wp-block-paragraph">As for the part about &#8220;clarity, accessibility, and understanding&#8221;: I totally agree that clarity, accessibility and understanding are important. I want those things too; everyone does, even, I&#8217;m sure, Levent Alpöge himself. We all want those things for RH, and we will pursue them with vigor. But Rome wasn&#8217;t built in a day. If an AI model allows us to make the first step and obtain a correct, &#8220;technically valid&#8221; proof of RH, why is that a bad thing? Surely this counts as progress towards the ultimate lofty goals of &#8220;understanding&#8221; etc., doesn&#8217;t it? And if you absolutely insist that a 1-gigabyte Lean proof is just a distraction and adds literally nothing useful, well, you are free to just ignore it, aren&#8217;t you? Just carry on with your pursuit of human understanding and the other things. Why waste your time writing statements?</p>
+
+
+
+<p class="wp-block-paragraph">And as for the part about &#8220;accountability&#8221;: I am confused. What could the notion of &#8220;accountability&#8221; possibly mean for a claimed proof of a theorem? My brain tries and fails to assign a meaning to such a thing. I&#8217;ve published many papers in my life and never imagined anyone would say that I am &#8220;accountable&#8221; for those papers. Honestly, I wish my math research had the kind of impact on the world that would justify using a word like &#8220;accountability&#8221; in connection with it. Sadly, this has not been the case: no one is asking for me to be accountable for my <a href="https://danromik.com/pages/sofas.html">moving sofas</a>. <img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f641.png" alt="🙁" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">At this time, no human being can reasonably claim to be responsible for, or even to understand, such a document.</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">Maybe this is true, but there are all kinds of questionable premises this sentence seems to assume. Why is it a desirable thing for a document with a proof of an important conjecture to have a human who is responsible for it (whatever that even means)? Why is the lack of a human who understands the proof a disqualifying factor?</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">Neither can any mathematician confirm with full certainty that the proof is correct.</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">This is both factually false (or so misleading as to be essentially false) and again assumes a premise that is itself false. The false part is that no one can confirm with certainty that the proof is correct. In fact the Lean community and Lean FRO have <a href="https://leanprover-community.github.io/blog/posts/riemann-hypothesis/">stated confidently</a> that &#8220;We have full confidence that Alpöge&#8217;s proof of the Riemann Hypothesis is correct&#8221;. You can quibble that they can&#8217;t actually &#8220;confirm with certainty&#8221;; that&#8217;s still essentially false, and leaves you as your only remaining rhetorical escape hatch to take such an absolutist position on the meaning of &#8220;confirm with certainty&#8221; that any reasonable person would involuntarily roll their eyes at you.</p>
+
+
+
+<p class="wp-block-paragraph">Second, the aspect of this sentence that involves assuming a false premise is the implicit assumption that human-authored papers don&#8217;t suffer from the exact same (or worse) flaw of lack of &#8220;full certainty&#8221;. They absolutely do. When Andrew Wiles announced his proof of Fermat&#8217;s Last Theorem in 1993, could he &#8220;confirm with full certainty&#8221; that his proof is correct? No, he couldn&#8217;t, because as it turned out, his proof actually had a serious gap that took more than a year to correct. Did people imply that he was doing something wrong or evil by publishing his initial proof? No, nobody did. Where were you then, AHM? Where were you on numerous other occasions where mathematicians put their credibility on the line by releasing raw, unpolished, very long proofs of major theorems that they couldn&#8217;t possibly &#8220;confirm with full certainty&#8221; were correct, and indeed occasionally turned out to be not exactly correct?</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">Worse, this corporate model of proof production seems designed to excuse humans from responsibility for scientific work.</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">&#8220;[S]eems designed to&#8221; is weasel phrasing. It doesn&#8217;t seem designed to do those things to me, but in any case this isn&#8217;t really saying anything worth arguing with.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">Instead, this model asks scientists to entrust their research to machines that AI corporations control.</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">One can reasonably be concerned about the state of the world and various specific implications of developments in AI, including the fact that AI corporations&#8217; control of AI technology, which is becoming critical to doing lots of things (particularly math research), may put scientists in the position of needing to entrust some of their research to these corporations. Okay, I concede that this is a valid point. But what does it have to do with the proof the Riemann hypothesis? If AI corporations actually did something good on one Friday in November 2026, isn&#8217;t the intellectually honest position to at least acknowledge they did it even if you think everything else they do is bad? And conversely, isn&#8217;t there something dishonest about using even that event, which most reasonable people see as a remarkable achievement to celebrate, as an opportunity for yet more soapboxing about how evil and problematic AI is?</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">Autonomous computer programs that investigate deep mathematical questions are now instruments of power in scientific research, and scientific power enables other types of power that can directly threaten human lives. This power is now concentrated in the hands of AI companies that seem increasingly untethered from the interests of human society. We believe that AI corporations urgently require democratic oversight. Milestones such as the Riemann Hypothesis are used by AI companies as little more than publicity for the superintelligence that they wish to build. We are gravely concerned that this uncontrolled growth poses a threat to society writ large.</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">Look, AHM: why don&#8217;t you just come out and say &#8220;We hate AI and think it&#8217;s evil&#8221;? It&#8217;s shorter and clearer and contains the exact same information that your convoluted paragraph delivers.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">Mathematicians have seen their world inverted by AI disruption in the last several months, and we have experienced firsthand how AI impacts human communities in practice. AI corporations hold an impoverished view of intelligence and human achievement. As a model for scientific research, the overproduction of unreadable mathematical documents pales in comparison to the richness of the mathematical dialogue that humans have conducted for millennia. What makes the Riemann Hypothesis valuable is its role in guiding the development of large areas of modern mathematics. Today’s announcement builds upon over a century of human work, but fails to advance mathematical understanding in the same way. Rather than accepting this model, we urge mathematicians to build a future where our research is free from dependence on AI models and their corporate owners.</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">Hmmph. For a group of people who complain about unreadable documents, you people sure have trouble making your own documents readable enough to send a clear message. You come across as bitter and frustrated curmudgeons. You complain that &#8220;Today’s announcement &#8230; fails to advance mathematical understanding&#8221;, implying that only you get to decide what mathematical understanding is and what counts as advancing it, and that the only standard by which new work is measured is whether it <em>immediately, on the very same day it is released</em>, improves mathematical understanding according to your definitions. These positions come across as weird and unreasonable and quite off-putting.</p>
+
+
+
+<p class="wp-block-paragraph">At the end of the day, the impression I&#8217;m getting is that, as Jared Lichtman <a href="https://x.com/jdlichtman/status/2124068595307323457?a=TgmLWTckYu1-mUPnZ5M&amp;s=20">amusingly suggested</a>, the AHM members basically support &#8220;AHMish mathematics&#8221;.</p>
+
+
+
+<p class="wp-block-paragraph">(With apologies to the Amish who I&#8217;m sure are all super nice and decent and reasonable people. <img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f643.png" alt="🙃" class="wp-smiley" style="height: 1em; max-height: 1em;" />)</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Crossposted from <a href="https://blog.danromik.com/on-the-ahms-awkward-position-on-rh">my blog</a> (slightly revised).</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 24 November 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/25/on-the-ahms-awkward-position-on-the-riemann-hypothesis-being-solved/feed/</wfw:commentRss>
+			<slash:comments>49</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3919</post-id>	</item>
+		<item>
 		<title>I want MSE, not MO.</title>
 		<link>https://proofsandprompts.com/2026/11/24/i-want-mse-not-mo/</link>
 					<comments>https://proofsandprompts.com/2026/11/24/i-want-mse-not-mo/#comments</comments>
@@ -137,7 +310,7 @@
 <ol class="wp-block-footnotes"><li id="92089578-9516-4272-92d8-35678734301e">The notion of “hard abstraction” actually comes from the reception history of the œuvre of Gerhard Richter &#8211; an artist who I admire less than the art historians who have written about him &#8211; but as we speak often in analogies about mathematics, it fits here as well to describe a piece of writing with a primary focus on hard facts. <a href="#92089578-9516-4272-92d8-35678734301e-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="c9be34a6-8a89-419b-aa13-4e1b34348b8e">In this context, Proust has coined the term “transport” for what he wanted to transport of his personality or any author’s personality through a piece of literature. He had the opinion that an exceptional personality is key for any exceptional writing. While this might be true in some contexts and even mathematics, we rather focus on the notion of deindividualized messages, which can be even individual in the sense explained above. <a href="#c9be34a6-8a89-419b-aa13-4e1b34348b8e-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="adf532a9-4c8c-417d-854c-94329f56a6ae">This is indeed, in my opinion, a false idea of Yuri Manin. In an interview on a tour of mockery, he asked: “Who reads Newton?” <a href="#adf532a9-4c8c-417d-854c-94329f56a6ae-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/23/describing-structures-and-beyond-why-writing-mathematics-still-matters-in-the-age-of-ai/feed/</wfw:commentRss>
-			<slash:comments>9</slash:comments>
+			<slash:comments>10</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2087</post-id>	</item>
@@ -305,7 +478,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/22/a-call-for-greater-collaboration/feed/</wfw:commentRss>
-			<slash:comments>7</slash:comments>
+			<slash:comments>9</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3585</post-id>	</item>
@@ -540,7 +713,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/21/on-premature-discovery/feed/</wfw:commentRss>
-			<slash:comments>11</slash:comments>
+			<slash:comments>12</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3299</post-id>	</item>
@@ -595,7 +768,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/21/ahm-statement-on-the-announced-proof-of-the-riemann-hypothesis/feed/</wfw:commentRss>
-			<slash:comments>90</slash:comments>
+			<slash:comments>93</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3808</post-id>	</item>
@@ -850,85 +1023,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2304</post-id>	</item>
-		<item>
-		<title>Who answers for a proof? What the person who presents it commits to, even once it is verified</title>
-		<link>https://proofsandprompts.com/2026/11/19/who-answers-for-a-proof-what-the-person-who-presents-it-commits-to-even-once-it-is-verified/</link>
-					<comments>https://proofsandprompts.com/2026/11/19/who-answers-for-a-proof-what-the-person-who-presents-it-commits-to-even-once-it-is-verified/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Thu, 19 Nov 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Reactions]]></category>
-		<category><![CDATA[Authorship]]></category>
-		<category><![CDATA[Digestion]]></category>
-		<category><![CDATA[Responsibility]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3135</guid>
-
-					<description><![CDATA[Even when a proof has been formally verified, what does its author commit to by presenting it? Responding to Terence Tao’s essay, this note draws on philosophy of technology and law to ask who is answerable at each stage of mathematical digestion, to whom, and for what.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://orcid.org/0009-0007-8851-9833">José Fernández Tamames</a>, Professor at <a href="https://www.universidadunie.com/sites/universidadunie.com/files/media_files/Jose_Fernandez_Tamames.pdf">UNIE Universidad</a>, Madrid</p>
-
-
-
-<div class="wp-block-group pp-ai-disclosure has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<p class="pp-ai-disclosure-label wp-block-paragraph">AI disclosure</p>
-
-
-
-<p class="wp-block-paragraph"><em>Disclosure.</em> The first draft and translation of this note were prepared with AI assistance and revised by me; the argument is from the article cited.</p>
-</div>
-
-<p class="wp-block-paragraph">I am not a mathematician. I work in the philosophy of technology and in law, and I have written with Susana Checa Prieto an article on the accountability of artificial intelligence that <em>Law, Innovation and Technology</em> has accepted for 2027. I am writing in response to the question Terence Tao put to his community at the ICM: what mathematics is for. His essay ends with a recommendation from the Leiden Declaration: to cooperate with researchers in other fields who face similar challenges. I write from one of them. I adopt his Working Hypothesis for this conditional analysis — that AI tools will reasonably soon perform a reasonable fraction of research-level work, at reasonable cost and with reasonable supervision — and I add no claim of my own about what the machine can do.</p>
-
-
-
-<p class="wp-block-paragraph">The lecture’s diagnosis is right, and I want to state it in its own terms. A result passes through five stages: generation, verification, exposition, publication and canonicalization. Only the first was ever an explicit goal of the community; everything that follows generation and verification, Tao calls digestion. For centuries, solving a problem was so costly that whoever solved it also, as a by-product, understood it and could explain it: solving stood in for everything else. Goodhart’s law now applies, and a measure turned into a target ceases to be a reliable measure. Hence the rule the lecture proposes: a result should not be published unless its authors can convincingly show that they are able to give a clear, correct and properly attributed expert-level talk on it; a proof that no human can properly explain is incomplete, even if it has been formally verified.</p>
-
-
-
-<p class="wp-block-paragraph">There is something the lecture, and the Declaration it takes as its starting point, leave undeveloped. Both give reasons for responsibility and authorship to remain human: credit, the collective human labor behind every result, the understanding the community must preserve. What they do not say is what it takes to answer for a result: what the person who presents it as their own commits to. Automating the operations of a practice — generating, verifying, even explaining — does not answer that question; it leaves it open. Stated as a preference, the requirement can be revised; stated as a condition, it obliges one to say what it consists of. What I propose is one way of saying it: to carry over to mathematics the conditions of accountability we develop in our article, and to specify what the person who presents a result commits to, even when its formal correctness is already established.</p>
-
-
-
-<p class="wp-block-paragraph">Our article, developed in the context of legal accountability, holds that to answer for something three conditions must be met, each externally assessable, and all three together: having been able to refrain from acting, giving reasons for the particular case, and having something to lose. What this adds to understanding, attribution and expert review is not one more requirement; it is the question of who meets them and what they commit to in meeting them. The lecture supplies a case: the Erdős problems database contains AI-generated proofs, many of them probably correct, submitted by people who declare that they are not qualified to vouch for them. The case shows that a result with a name attached does not by itself establish competent backing, and Tao’s rule already catches that shortfall. My question begins where the rule is satisfied: what does the person who does understand the result, and decides to present it to others, commit to? Formal verification does not settle that. Of the three conditions, the one that matters here is the third, and it has to be stated precisely. Suffering a loss does not, by itself, amount to undertaking a commitment. Such a commitment requires someone who could have refrained, can give reasons for acting, and has something of their own at stake. That is why recording sanctions or withdrawing resources is not enough to establish that there is a subject to whom those consequences can be imputed. Under the criterion developed in our article, current systems do not undertake such commitments in their own right. I do not claim that no system could ever satisfy the conditions. What I examine here is what they allow us to require of those who present results obtained with these tools.</p>
-
-
-
-<p class="wp-block-paragraph">Mathematics is the hardest case for this thesis, and therefore the best. Tao himself notes that once a proof is formally verified, its correctness no longer rests on its author’s reputation or diligence. And still he requires that the author be able to explain it. So what the rule leaves tied to the author after verification is not correctness. It is explaining the result and defending it before others. It will be said that this is competence and nothing more: that whoever claims credit must understand what they present. True; that is what the rule establishes. What I add is the question of what that person commits to in presenting it, and to whom they are answerable. And the question has consequences for tools and procedures: they must allow the person presenting a result to understand it, explain it and expose it to criticism. That understanding may be reached with the system’s help, by independent reconstruction, or by working with others. My preference is that the system itself should make it possible, helping to explain the proof the way a mathematician explains a result to referees; but what can be required is that someone be able to stand behind the result, and the commitments of presenting it, on reasoned grounds — by whatever route. A verified proof and a file with a provenance chain guarantee different things — a correct derivation within a formal system; an origin and a sequence of transformations — and that is no small thing. But they leave the same thing open: who is answerable for the result, and to whom.</p>
-
-
-
-<p class="wp-block-paragraph">What about the stages where there is no single author? Digestion is, as the lecture says, slow, human and external: the community does it. Nobody authors the canon, and nobody needs to. What we call the canon is a chain of acts attributable to identifiable people, each with its own object and scope: the referee answers for the report, the editor for the decision, whoever teaches a result for how it is taught, whoever builds on it for what is built. No one is responsible for everything. For each act, it should be possible to identify who is answerable, to whom, and for what. The useful question is not whether the community answers, but who answers for what, to whom, and to what extent. The danger of proof abundance is not that the canon loses its author, because it never had one. It is that this chain of attributable acts gets replaced by unattributed accumulation. The line, then, does not run between proofs made with AI and proofs made without it: it runs between results someone answers for and results no one answers for. And to answer is not to be punished. It means there is someone who can acknowledge an error and take responsibility for addressing it. Seen this way, the expert-talk rule is exactly where it should be: it is the attributable act by which a result enters digestion.</p>
-
-
-
-<p class="wp-block-paragraph">One question remains that I cannot answer from outside, and that I would like to put to Terence Tao and to his community: when generating and verifying a proof can be automated, who is answerable for it to the community at each step of digestion, and what do they commit to in doing so — what must they be able to explain, correct and lose?</p>
-
-
-
-<p class="wp-block-paragraph">I ask for nothing else. The article is <a href="https://ssrn.com/abstract=6264938">open access</a> (<a href="https://ssrn.com/abstract=6264938" rel="nofollow">https://ssrn.com/abstract=6264938</a>), and corrections from inside the field are welcome.</p>
-
-
-
-<p class="wp-block-paragraph"><em>References.</em> S. B. Checa Prieto and J. Fernández Tamames, “Why AI Cannot Sign: Deliberative Suspension, Reflective Judgment, and the Verification Tax in Generative Legal Technology”, <em>Law, Innovation and Technology</em> 19(2), 2027, forthcoming (accepted 15 September 2026). T. Tao, “Mathematics in the age of AI”, <a href="https://arxiv.org/abs/2608.16753">arXiv:2608.16753</a> (2026), an essay based on the ICM 2026 public lecture. The Leiden Declaration on Artificial Intelligence and Mathematics (June 2026).</p>
-
-
-
-
-
-<p class="wp-block-paragraph"><em>ORCID.</em> <a href="https://orcid.org/0009-0007-8851-9833">0009-0007-8851-9833</a>. <em>Archived version.</em> <a href="https://doi.org/10.5281/zenodo.24144542">https://doi.org/10.5281/zenodo.24144542</a></p>
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 25 October 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/19/who-answers-for-a-proof-what-the-person-who-presents-it-commits-to-even-once-it-is-verified/feed/</wfw:commentRss>
-			<slash:comments>8</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3135</post-id>	</item>
 	</channel>
 </rss>

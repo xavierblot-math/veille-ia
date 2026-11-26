@@ -13,7 +13,7 @@
 	<atom:link href="https://terrytao.wordpress.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://terrytao.wordpress.com</link>
 	<description>Updates on my research and expository papers, discussion of open problems, and other maths-related topics.  By Terence Tao</description>
-	<lastBuildDate>Wed, 25 Nov 2026 05:29:41 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 25 Nov 2026 19:47:55 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -39,19 +39,19 @@
 				<category><![CDATA[advertising]]></category>
 		<category><![CDATA[math.NT]]></category>
 		<category><![CDATA[polymath]]></category>
-		<category><![CDATA[Anurag Sahai]]></category>
+		<category><![CDATA[Anurag Sahay]]></category>
 		<category><![CDATA[Lior Silberman]]></category>
 		<category><![CDATA[Riemann hypothesis]]></category>
 		<category><![CDATA[Will Sawin]]></category>
 		<guid isPermaLink="false">http://terrytao.wordpress.com/?p=18775</guid>
 
-					<description><![CDATA[[This is a guest post by Anurag Sahai, Will Sawin, and Lior Silberman &#8211; T.] Last Friday Levent Alpöge announced a Lean certicate containing a proof of the Generalized Riemann hypothesis.  Since then there has been a flurry of activity in validating the certificate, and toward extracting a human-understnable proof and simplifying the Lean certificate [&#8230;]]]></description>
+					<description><![CDATA[[This is a guest post by Anurag Sahay, Will Sawin, and Lior Silberman &#8211; T.] Last Friday Levent Alpöge announced a Lean certicate containing a proof of the Generalized Riemann hypothesis.&#160; Since then there has been a flurry of activity in validating the certificate, and toward extracting a human-understnable proof and simplifying the Lean certificate [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<p class="wp-block-paragraph"><em>[This is a guest post by <a href="https://sites.math.duke.edu/~as1813/">Anurag Sahai</a>, <a href="https://williamsawin.com/">Will Sawin</a>, and <a href="https://personal.math.ubc.ca/~lior/">Lior Silberman</a> &#8211; T.]</em></p>
+<p class="wp-block-paragraph"><em>[This is a guest post by </em><a href="https://sites.math.duke.edu/~as1813/"><em>Anurag Sahay</em></a><em>, <a href="https://williamsawin.com/">Will Sawin</a>, and <a href="https://personal.math.ubc.ca/~lior/">Lior Silberman</a> &#8211; T.]</em></p>
 
 
 
-<p class="wp-block-paragraph">Last Friday Levent Alpöge announced a Lean certicate containing a proof of the Generalized Riemann hypothesis.  Since then there has been a flurry of activity in validating the certificate, and toward extracting a human-understnable proof and simplifying the Lean certificate itself.</p>
+<p class="wp-block-paragraph">Last Friday Levent Alpöge announced a Lean certicate containing a proof of the Generalized Riemann hypothesis.&nbsp; Since then there has been a flurry of activity in validating the certificate, and toward extracting a human-understnable proof and simplifying the Lean certificate itself.</p>
 
 
 
@@ -85,7 +85,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/24/g-r-h-polymath/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
+			<slash:comments>28</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18775</post-id>
@@ -437,7 +437,7 @@ We end this blog post with a short remark on the physical intuition behind this 
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/feed/</wfw:commentRss>
-			<slash:comments>138</slash:comments>
+			<slash:comments>140</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18727</post-id>

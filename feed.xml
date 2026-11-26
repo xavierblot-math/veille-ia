@@ -6,7 +6,32 @@
 <atom:link href="https://xavierblot-math.github.io/veille-ia/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Daily summary of Xena, Proofs and Prompts, Silicon Reckoner, Tao (blog and Mastodon) and Gowers.</description>
 <language>en</language>
-<lastBuildDate>Wed, 25 Nov 2026 04:42:48 +0000</lastBuildDate>
+<lastBuildDate>Thu, 26 Nov 2026 04:43:08 +0000</lastBuildDate>
+<item>
+<title>Digest — 26 November 2026 (2 new posts)</title>
+<link>https://xavierblot-math.github.io/veille-ia/#2026-11-26</link>
+<guid isPermaLink="false">veille-ia-2026-11-26</guid>
+<pubDate>Thu, 26 Nov 2026 04:00:00 +0000</pubDate>
+<description><![CDATA[
+<p><em>Nothing new from: Xena (Kevin Buzzard), Timothy Gowers, Terence Tao (Mastodon).</em></p>
+<h3>Terence Tao (blog, guest post) — <a href="https://terrytao.wordpress.com/2026/11/24/g-r-h-polymath/">G.R.H. Polymath</a></h3>
+<ul>
+<li>Guest post by Anurag Sahay, Will Sawin and Lior Silberman proposing a Polymath-style project around Levent Alpöge's Lean certificate for the Generalized Riemann Hypothesis, announced last Friday.</li>
+<li>Goals: pool the worldwide validation efforts, extract a human-readable proof of RH/GRH, simplify the Lean certificate, clarify related literature, and generalize the new ideas buried in the machine proof.</li>
+<li>The proof seems to touch many fields beyond number theory, so the work is expected to split into sub-projects; any resulting papers would follow the Polymath pseudonym tradition.</li>
+<li>Discussion happens on a public Zulip (rh-polymath.zulipchat.com), readable without login.</li>
+<li>👉 A concrete entry point if you want to follow or join the effort to turn the formal proof into mathematics people understand.</li>
+</ul>
+<h3>Proofs and Prompts (Dan Romik) — <a href="https://proofsandprompts.com/2026/11/25/on-the-ahms-awkward-position-on-the-riemann-hypothesis-being-solved/">On the AHM’s awkward position on the Riemann Hypothesis being solved</a></h3>
+<ul>
+<li>Romik (UC Davis, founder of Rhombic Research) goes through the Association for Human Mathematics' 20 November <a href="https://proofsandprompts.com/2026/11/21/ahm-statement-on-the-announced-proof-of-the-riemann-hypothesis/">statement</a> on the GRH announcement line by line and rebuts it.</li>
+<li>He argues validity has always been mathematics' central value, not a new "corporate" one; understanding is a later goal the formal proof helps rather than hinders.</li>
+<li>Against the certainty objection, he cites the Lean FRO's confidence in the proof and recalls that Wiles' 1993 argument had a gap, yet no one blamed him for announcing it.</li>
+<li>He concedes one fair point (dependence on AI companies for research tools) but finds it irrelevant to whether RH is proved; ends by quoting Jared Lichtman's "AHMish mathematics" jibe.</li>
+<li>👉 Useful snapshot of the community split; Romik also wrote a <a href="https://blog.danromik.com/verifying-alpoges-lean-proof-of-the-generalized-riemann-hypothesis">post on verifying the Lean proof</a>.</li>
+</ul>
+]]></description>
+</item>
 <item>
 <title>Digest — 25 November 2026 (2 new posts)</title>
 <link>https://xavierblot-math.github.io/veille-ia/#2026-11-25</link>
@@ -959,31 +984,6 @@
 <ul>
 <li>Another link roundup on AI and maths: Etingof–Gerovitch on the mathematics of the future, Gowers on AI extinction risk, Mossel on LLMs and plagiarism (with a related petition), Sung-Jin Oh on what understanding means in the AI age, Grant Sanderson on why now is a great time to go into maths, plus Recht, Rivera and others.</li>
 <li>👉 The Gowers and Sung-Jin Oh pieces look like the ones to follow up on.</li>
-</ul>
-]]></description>
-</item>
-<item>
-<title>Digest — 27 October 2026 (2 new posts)</title>
-<link>https://xavierblot-math.github.io/veille-ia/#2026-10-27</link>
-<guid isPermaLink="false">veille-ia-2026-10-27</guid>
-<pubDate>Tue, 27 Oct 2026 04:00:00 +0000</pubDate>
-<description><![CDATA[
-<p><em>Nothing new: Xena (Buzzard), Gowers, Tao's blog, Tao on Mastodon.</em></p>
-
-<h3>Proofs and Prompts (David Cimasoni) — <a href="https://proofsandprompts.com/2026/10/26/salvaging-that-which-is-dearest/">Salvaging that which is dearest</a></h3>
-<ul>
-<li>A personal essay by a Geneva senior lecturer, written without AI, on what he instinctively wants to protect as a mathematician. He frames recent months as cycling weekly through the stages of grief.</li>
-<li>Societal analogies: AI is to thinking what industrial food is to nutrition (we need a balanced "AI diet", Tao's phrase) and what social media is to socializing. The risk is fast, brutal cognitive deskilling, so education must defend the right to make mistakes (he cites Grothendieck).</li>
-<li>He rejects the idea that mathematics can certify a "safe level" of AI use: that bound is too high to be useful and could give false rigour. Instead, maths matters because it trains reflective thinking, models clear and honest debate, and its real product is human understanding (Thurston's essay and MathOverflow post).</li>
-<li>He admits he long believed research would be the last activity affected, and now considers shifting much of his energy from research to helping younger people stay cognitively independent. A longer French version exists.</li>
-</ul>
-
-<h3>Proofs and Prompts (Ignacio Barros) — <a href="https://proofsandprompts.com/2026/10/26/mathematics-and-mysticism-another-defense-of-human-mathematics/">Mathematics and mysticism: another defense of human mathematics</a></h3>
-<ul>
-<li>An Antwerp assistant professor argues that a neglected side of mathematics is under threat: its "mystical" side, a relationship with mystery that he compares to myth and religion, the other great users of symbols.</li>
-<li>He disputes the comforting view that it does not matter who creates new mathematics as long as humans appreciate it. Creation comes before understanding, and if humans stop giving life to new objects, human mathematics eventually withers.</li>
-<li>Conjectures matter less as trophies than as reminders that the community lives surrounded by the unknown. Most research time is spent confused, and that is the point.</li>
-<li>👉 Barros works on the algebraic geometry of moduli spaces of curves, close to your field. A short, lyrical piece.</li>
 </ul>
 ]]></description>
 </item>

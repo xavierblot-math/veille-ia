@@ -23,7 +23,7 @@
 <site xmlns="com-wordpress:feed-additions:1">817149</site><cloud domain='terrytao.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
 <source:cloud xmlns:source='https://source.scripting.com/'>https://terrytao.wordpress.com/?rsscloud=notify</source:cloud>
 <image>
-		<url>https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fwebclip.png</url>
+		<url>https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=96&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Fwebclip.png</url>
 		<title>What&#039;s new</title>
 		<link>https://terrytao.wordpress.com</link>
 	</image>
@@ -85,7 +85,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/24/g-r-h-polymath/feed/</wfw:commentRss>
-			<slash:comments>39</slash:comments>
+			<slash:comments>40</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18775</post-id>
@@ -333,7 +333,7 @@ We end this blog post with a short remark on the physical intuition behind this 
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/21/even-more-posts-opinion-pieces-interviews-and-position-statements/feed/</wfw:commentRss>
-			<slash:comments>44</slash:comments>
+			<slash:comments>45</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18674</post-id>
@@ -1254,7 +1254,7 @@ This allows us to take the Fourier transform of symbols:
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://terrytao.wordpress.com/2026/11/11/lean-grimoire/feed/</wfw:commentRss>
-			<slash:comments>90</slash:comments>
+			<slash:comments>91</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">18701</post-id>

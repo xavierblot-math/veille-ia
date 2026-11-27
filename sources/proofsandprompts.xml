@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Wed, 25 Nov 2026 16:18:31 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 26 Nov 2026 14:52:08 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,188 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>Some questions, some answers.</title>
+		<link>https://proofsandprompts.com/2026/11/26/some-questions-some-answers/</link>
+					<comments>https://proofsandprompts.com/2026/11/26/some-questions-some-answers/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Thu, 26 Nov 2026 18:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Personal experience]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3719</guid>
+
+					<description><![CDATA[We all have our own answers. These are mine.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph"><a href="http://mat.puc-rio.br/~moriarty/">Graham Andrew Smith</a>, (tenured) Associate Professor at <a href="https://www.mat.puc-rio.br/">Pontifícia Universidade Católica do Rio de Janeiro</a> in Rio de Janeiro</p>
+
+
+
+<p class="wp-block-paragraph">We all have our own answers. These are mine.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Why write?</strong></p>
+
+
+
+<p class="wp-block-paragraph">The answer is simple. Ask Schopenhauer. Ask Orwell. The discipline of clear writing begets the discipline of clear thought. This is something to be treasured.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Why program?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Same answer. Ask Dijkstra. Good programming enforces clear thought.</p>
+
+
+
+<p class="wp-block-paragraph">Even optimising a program for different conditions makes us see the same problem in different lights. Optimizing for speed, clarity, or memory each reveals different problems: different worlds from the same beginning.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Why study?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Every one of our senses is refined with training. The sight of the artist; the ear of the musician; the taste of the master chef. To delegate our senses is to sacrifice a part of ourselves.</p>
+
+
+
+<p class="wp-block-paragraph">So, is it better to be more, or less?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Why study mathematics?</strong></p>
+
+
+
+<p class="wp-block-paragraph">As a hard science, it is expected of us to justify mathematics in utilitarian terms. So be it.</p>
+
+
+
+<p class="wp-block-paragraph">Why study mathematics, if AI can solve any problem we are given? Even if that were true, it is good to be sceptical. How can one develop scepticism without examining, at least once, the way things work?</p>
+
+
+
+<p class="wp-block-paragraph">Put differently, is it wise to build one&#8217;s house on sand?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Why teach mathematics?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Do we wish to become active participants in this new technology, or merely passive consumers? Is there any imagined world where the latter turns out well for us?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Why do I do mathematics?</strong></p>
+
+
+
+<p class="wp-block-paragraph">I have three reasons: one personal, one spiritual, and one utilitarian.</p>
+
+
+
+<p class="wp-block-paragraph">The first, the personal one, is to please my grandfather, blessed be his memory.</p>
+
+
+
+<p class="wp-block-paragraph">The second, the spiritual one, is to know truth. Call it what you wish: call it the music of the spheres; call it the singing of angels. No-one who has once heard it can fail to be moved by its beauty.</p>
+
+
+
+<p class="wp-block-paragraph">The third, the utilitarian one, is to serve purpose. Yet what might that purpose be? There are immediate purposes, that are more or less obvious. I can say how every part of the calculus I teach will be relevant to my students&#8217; future work, even if not every single one of them will use every specific result.</p>
+
+
+
+<p class="wp-block-paragraph">There is also a broader purpose. The expansion of knowledge expands human wealth. Examples abound. The earliest steam engines served no practical use, and yet one day they tamed the west; the first spinning machines were children&#8217;s toys, and yet one day they drove the industrial revolution; the first automatons were merely curiosities, and yet now they fill factories across the world; electromagnetism was for millennia a question only for philosophers, and yet now life without electricity is inconceivable; and so on.</p>
+
+
+
+<p class="wp-block-paragraph">When Eratosthenes measured the diameter of the Earth, it is unlikely he imagined our modern, interconnected world. When Newton spoke of the great ocean of truth, lying undiscovered before him, it is unlikely he imagined the power that would come from splitting the atom.</p>
+
+
+
+<p class="wp-block-paragraph">These are the fruits of speculation, of casting our minds towards the horizon of knowledge.</p>
+
+
+
+<p class="wp-block-paragraph">So there is, indeed, utility: the day we cease to speculate will be a sad day for us all.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Crossposted from my <a href="http://mat.puc-rio.br/~moriarty/blog.php">personal blog</a>.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 15 November 2026. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/26/some-questions-some-answers/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3719</post-id>	</item>
+		<item>
+		<title>AI and collaboration for the critical 2D KPZ process</title>
+		<link>https://proofsandprompts.com/2026/11/26/ai-and-collaboration-for-the-critical-2d-kpz-process/</link>
+					<comments>https://proofsandprompts.com/2026/11/26/ai-and-collaboration-for-the-critical-2d-kpz-process/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Thu, 26 Nov 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[In practice]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Personal experience]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3701</guid>
+
+					<description><![CDATA[We report on our collaborative experience with generative AI.]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph">Authors of <em>The Critical 2D KPZ Process</em></p>
+
+
+
+<p class="wp-block-paragraph">On October 22, 2026, we posted on arXiv <a href="https://arxiv.org/abs/2610.31614" target="_blank" rel="noopener">The Critical 2D KPZ Process</a>, a paper with eleven authors, solving an important problem in the field. The results were obtained with substantial input from generative AI, building on a decade of work by our community.</p>
+
+
+
+<p class="wp-block-paragraph">The story of this collaboration began at a workshop in May, during which many of us participated in a series of extended discussions on the construction of the critical 2D KPZ process. During the summer, some of us discovered further important insights, which eventually became ingredients in the proof. Meanwhile, some of us started experimenting with using AI tools to tackle the problem, knowing that their capabilities had increased significantly. This led to some initial progress, then the discovery of serious obstacles, and finally a breakthrough in early September. The result thus arose from a mixture of human contributions, AI technical ability, and elements of chance. A more detailed account can be found in Appendix C of our paper.</p>
+
+
+
+<p class="wp-block-paragraph">This process led us to reflect on the role of humans and AI in mathematical research, the meaning of authorship and priority, the question of what to do with this breakthrough, and what to do if other groups were also working on the problem. It was a stressful period with many thoughts going through our minds, but we concluded that this result does not belong only to the people who used AI to obtain it, but also to the wider community, and especially to colleagues whose previous work played an important role in making it possible. We thus decided to broaden the collaboration to a collective effort to properly understand the result and polish the manuscript before posting it online. The final output was made possible by a long series of discussions and human work, during which the group carefully examined, edited, and in many cases rewrote the structure and arguments of the proof. The collective aspect of the work has been critical in this effort.</p>
+
+
+
+<p class="wp-block-paragraph">We did not plan this group collaboration from the start, but we are glad that it worked out that way and that people with different approaches to AI joined their efforts. We must be cautious about drawing general conclusions from our particular experience, but in this period of rapid change and heightened stress, we hope that it can offer a positive example that promotes collaboration and shared mathematical understanding.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 13 November 2026.</p>
+
+
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/26/ai-and-collaboration-for-the-critical-2d-kpz-process/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3701</post-id>	</item>
+		<item>
 		<title>On the AHM&#8217;s awkward position on the Riemann Hypothesis being solved</title>
 		<link>https://proofsandprompts.com/2026/11/25/on-the-ahms-awkward-position-on-the-riemann-hypothesis-being-solved/</link>
 					<comments>https://proofsandprompts.com/2026/11/25/on-the-ahms-awkward-position-on-the-riemann-hypothesis-being-solved/#comments</comments>
@@ -196,7 +378,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/25/on-the-ahms-awkward-position-on-the-riemann-hypothesis-being-solved/feed/</wfw:commentRss>
-			<slash:comments>50</slash:comments>
+			<slash:comments>65</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3919</post-id>	</item>
@@ -772,256 +954,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3808</post-id>	</item>
-		<item>
-		<title>Artificial mathematics</title>
-		<link>https://proofsandprompts.com/2026/11/20/artificial-mathematics/</link>
-					<comments>https://proofsandprompts.com/2026/11/20/artificial-mathematics/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Fri, 20 Nov 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Reactions]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<category><![CDATA[Response]]></category>
-		<category><![CDATA[Understanding]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3522</guid>
-
-					<description><![CDATA[As a current Director of Graduate Studies in a math department, I wanted to write something to encourage our students and potential students, to reassure them of the abiding importance of human mathematics. The result is not practical advice, but maybe an update of Roosevelt’s line about fear for the AI age.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://www.math.wustl.edu/~matkerr/">Matt Kerr</a>, Professor and Director of Graduate Studies, Department of Mathematics at Washington University in St. Louis</p>
-
-
-
-<p class="wp-block-paragraph">The unofficial logo of my tech-magnet high school was a computerized version of Hokusai’s massive blue wave, and with the OpenAI slop drop<sup data-fn="1448b1d1-9896-4fd6-a0a6-f910302f8d2a" class="fn"><a href="#1448b1d1-9896-4fd6-a0a6-f910302f8d2a" id="1448b1d1-9896-4fd6-a0a6-f910302f8d2a-link">1</a></sup> it finally feels like that wave is poised to flatten the far more creative ecosystem to which I fled. Encountering Strogatz’s essay<sup data-fn="176c2694-77a9-4c0a-bd66-b0ef1a6291d0" class="fn"><a href="#176c2694-77a9-4c0a-bd66-b0ef1a6291d0" id="176c2694-77a9-4c0a-bd66-b0ef1a6291d0-link">2</a></sup> “A Mathematician Reads the AI Future” in its wake, I had hoped for a more vigorous defense of an intellectual tradition which, with philosophy, has always belonged at the nerve center of Arts &amp; Sciences despite being emphatically neither. While he worries that something deeply human could be lost if, in the rush to ride that wave, we let verification replace understanding and hand the process of its development over to machines, the essay ends with a sense of communal resignation.</p>
-
-
-
-<p class="wp-block-paragraph">My initial thought, from the stories Strogatz tells, was that events are driving a subtle but significant wedge between pure and applied mathematics and mathematicians. Applied math is oriented toward well-defined external goals, like improving imaging or data compression algorithms, and has the most obvious and immediate value to society. To its practitioners, AI simply feels like another tool, like a microscope or telescope. While it may change the stage of reasoning at which the computer becomes involved in their work, this is nothing to be “ashamed” of, as I heard a department chair say at a recent AMS discussion of AI.</p>
-
-
-
-<p class="wp-block-paragraph">If that’s true, then perhaps applied mathematicians, and even some pure mathematicians who are oriented toward knowing rather than understanding, don’t share the sense of loss that pure mathematicians are facing right now. Strogatz avers that despite his sympathy with pure math, he believes that math is a science, and that there are external “truths” that exist without humans, and which we discover. (In fact, he gets a pure mathematician to say this.) Hardy also makes the latter error in his otherwise moving “Apology”.<sup data-fn="6244fd75-8e76-4eeb-af13-c911e8acc73d" class="fn"><a href="#6244fd75-8e76-4eeb-af13-c911e8acc73d" id="6244fd75-8e76-4eeb-af13-c911e8acc73d-link">3</a></sup> Aside from the fact that science doesn’t deal with truths, it deals with theories, there are two problems with externalizing math from humans in this way.</p>
-
-
-
-<p class="wp-block-paragraph">The first is that what mathematicians regard as logical reasoning is merely a form of grammar, or a grammar of form, constantly reshaped with definitions and conventions. It helps us to clarify and distill our ideas and frame them in communicable shapes, in much the same way that a poet or composer uses sonnets or sonata form or polytonal counterpoint as a clarifying fire and vessel for their own. There are no fewer possibilities for a work of mathematics than for a verse play or an opera; but just as with monkeys and Shakespeare, it’s humans who need to decide what to write and what is beautiful or important. In my mind, pure math is not about what correctly aligns with something which is “out there”, which I suppose was an acceptable view in the so-called Enlightenment when people didn’t know any better, but what constitutes a strong poem with the potential to move and influence humans.</p>
-
-
-
-<p class="wp-block-paragraph">In short, the representationalist view of mathematics is anti-humanistic, and also (in my view) incorrect. If we hand our subject over to computers, they will generate everything — and thus nothing, as in the “pleroma” of Jung’s Sermons to the Dead — according to whatever state of grammar was programmed into Lean as the Project 2025 of a misguided gang of mathematical technocrats. (In fact, it has a little bit in common with the religious anti-humanist fervor, reflected in the actual Project 2025, that the best thing about us is what exists before we are even born and become human, but replacing innocence with infallibility.)</p>
-
-
-
-<p class="wp-block-paragraph">The second error, corollary to the first, is to deny the centrality of human effort and cognition to pure math. The <em>entire point</em> of the subject is the human understanding (and communication) of ideas and the “struggle and joy of discovering them ourselves” to quote Strogatz, though again I’d dispute the use of the word “discovering” here even if that is what it can <em>feel</em> like. (Heard at a conference — speaker: “I feel like Columbus”; audience member: “Wow, that’s modest.”) A better term would be “creating” (so: God rather than Columbus; also not modest).</p>
-
-
-
-<p class="wp-block-paragraph">Each philosopher in history has a unique feeling, a sort of idea cluster, associated with them, which was distilled from a lifetime spent struggling in this way, simplifying and consolidating a worldview according to their very human discernment, experience, vision and taste. This is not about the small collection of final results, but a manner of contemplation, evident throughout voluminous work, which brings transcendent perception in a way that is recognizable by other humans experiencing that work. Likewise, the exact final results are so unimportant for us in mathematics that we emulate the philosophical naming tradition, attaching to famous mathematicians a theorem or theory or object which captures their life’s interests even if it was not proved or defined in that form by them.</p>
-
-
-
-<p class="wp-block-paragraph">It certainly isn’t impossible to imagine a coalescence of our community around more human-centric norms: that pursuing one’s interests without AI remains in the interest of mathematical progress; and that its use for computations and literature searches that increase our cognitive load is also acceptable. But if our community pressures itself, in the name of <em>scientific progress</em>, to hand the slowest and most inconvenient part over to AI, I expect we lose the whole point of the endeavor. With the combined legacies of past struggles frozen in place, and mathematical grammar with them, the subject will begin to resemble Middle Earth at the end of the Third Age, with its inhabitants sailing through the Gates of Argonath and unable to comprehend their construction or the civilization that could build such things. Our monuments will stand, but as ghosts; and while their fellow citizens look for a time machine at the local Costco, someone still gets the computers to churn out papers on Hexagon<sup data-fn="868ea842-0e9c-4b4a-9876-72102f2503ad" class="fn"><a href="#868ea842-0e9c-4b4a-9876-72102f2503ad" id="868ea842-0e9c-4b4a-9876-72102f2503ad-link">4</a></sup> with “no human understanding”.</p>
-
-
-
-<p class="wp-block-paragraph">I’ve restricted myself here to the question of using AI to <em>do math</em>, not to do things I personally think are legitimate — like running administrative reports, latexing handwritten notes, “vibe-coding” (ugh) tikz pictures, experimenting with examples — and things I do not think are acceptable — like writing a paper or a letter of recommendation, which represents our final attempt to communicate to other humans about an idea or about another human. If we don’t have the heart or the energy to do it ourselves, maybe on that point we should remain silent. Perhaps a necessary reaction to ChatGPT’s keyboard monkey explosion is that we (at least, we who have tenure) stop writing as if Stakhanovite productivity is the point and only write what is essential. This isn’t a promise that every paper I write from this point on will be important — there is plenty of “socially necessary” writing — but maybe the community as a whole can try to discuss what counts as beautiful exposition and recenter its writing around that.</p>
-
-
-
-<p class="wp-block-paragraph">In the background of Hokusai’s painting stands a snow-capped mountain, for this is only one of his famous 36 views of Mt. Fuji. Likewise, this will be one episode in the ongoing development of mathematics, which while difficult, will ultimately prove that what we do is not a game which can be solved. At its best, our subject is deeply social but not competitive, rigorous but not scientific, full of endless variety and individuation achieved through scaling the mind’s alpine wilderness. It is essential enough for society and for the human spirit that it will endure the present wave, and students who love it should not give up their dream of becoming a mathematician.</p>
-
-
-
-<figure class="wp-block-image size-large wp-duotone-default"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="640" height="357" data-attachment-id="3521" data-permalink="https://proofsandprompts.com/hokusai-wave-mug/" data-orig-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/hokusai-wave-mug.jpg?fit=640%2C357&amp;ssl=1" data-orig-size="640,357" data-comments-opened="1" data-image-title="Hokusai wave mug" data-image-description="" data-image-caption="&lt;p&gt;Photo supplied by Matt Kerr.&lt;/p&gt;
-" data-large-file="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/hokusai-wave-mug.jpg?fit=640%2C357&amp;ssl=1" src="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/hokusai-wave-mug.jpg?resize=640%2C357&#038;ssl=1" alt="A coffee mug decorated with Hokusai’s Great Wave, standing in front of tall stacks of papers beside a notebook page of handwritten mathematics." class="wp-image-3521" srcset="https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/hokusai-wave-mug.jpg?w=640&amp;ssl=1 640w, https://i0.wp.com/proofsandprompts.com/wp-content/uploads/2026/11/hokusai-wave-mug.jpg?resize=300%2C167&amp;ssl=1 300w" sizes="(max-width: 640px) 100vw, 640px" /><figcaption class="wp-element-caption">Photo supplied by Matt Kerr.</figcaption></figure>
-
-
-<ol class="wp-block-footnotes"><li id="1448b1d1-9896-4fd6-a0a6-f910302f8d2a">The unofficial name given to OpenAI’s release of over 700 manuscripts on GitHub, none of them peer-reviewed, most of them not formalized, and several retracted since the release. <a href="#1448b1d1-9896-4fd6-a0a6-f910302f8d2a-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="176c2694-77a9-4c0a-bd66-b0ef1a6291d0">S. Strogatz, <em>The Atlantic</em>, October 25, <a href="https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/">https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/</a>. I have long admired Strogatz for his outreach on behalf of the mathematics community. <a href="#176c2694-77a9-4c0a-bd66-b0ef1a6291d0-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="6244fd75-8e76-4eeb-af13-c911e8acc73d">Hardy, G. H. <em>A Mathematician’s Apology</em>. Cambridge University Press, 2012. First published 1940. <a href="#6244fd75-8e76-4eeb-af13-c911e8acc73d-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="868ea842-0e9c-4b4a-9876-72102f2503ad">A new human-moderated platform for the online publication of preprints, modeled on the arXiv but designed to collect and organize work produced in concert with LLMs. <a href="https://hexagonmath.org">https://hexagonmath.org</a> <a href="#868ea842-0e9c-4b4a-9876-72102f2503ad-link" aria-label="Jump to footnote reference 4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 9 November 2026.</p>
-
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/20/artificial-mathematics/feed/</wfw:commentRss>
-			<slash:comments>14</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3522</post-id>	</item>
-		<item>
-		<title>Letter to young mathematicians</title>
-		<link>https://proofsandprompts.com/2026/11/20/letter-to-young-mathematicians/</link>
-					<comments>https://proofsandprompts.com/2026/11/20/letter-to-young-mathematicians/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
-				<category><![CDATA[Essays]]></category>
-		<category><![CDATA[Future]]></category>
-		<category><![CDATA[Reflection]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=2304</guid>
-
-					<description><![CDATA[What we are living through is a creative destruction, in which an old way of creating value is dismantled while a new one emerges. But this is also a major opportunity. Mathematicians are better positioned, and more needed, than at any point in history, I believe.]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph"><a href="https://www.pmf.unizg.hr/math/en/sinisa.slijepcevic">Sinisa Slijepcevic</a>, Professor at <a href="https://www.pmf.unizg.hr/math/en">University of Zagreb</a> and Founder &amp; CEO, <a href="https://cantabpi.com/">Cantab Pi</a>.</p>
-
-
-
-<div class="wp-block-group pp-ai-disclosure has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<p class="pp-ai-disclosure-label wp-block-paragraph">AI disclosure</p>
-
-
-
-<p class="wp-block-paragraph"><em>Statement of AI use:</em> This letter has been written with the help of Claude. Sinisa provided the initial draft, and sharpened the argument and the citations in interaction with Claude Opus 5 High, used within Claude Projects. The entire chat is available at <a href="https://claude.ai/share/fc545e66-5222-4a82-b673-e2d8e3d7bbc4">https://claude.ai/share/fc545e66-5222-4a82-b673-e2d8e3d7bbc4</a>, and it&#8217;s inputs were this <a href="https://proofsandprompts.com/wp-content/uploads/2026/10/Source.docx">draft</a> and this <a href="https://proofsandprompts.com/wp-content/uploads/2026/10/DanNoc_2023_v2.pptx">presentation</a> in Croatian.</p>
-</div>
-
-<p class="wp-block-paragraph">Dear young mathematician,</p>
-
-
-
-<p class="wp-block-paragraph">I want to share with you some thoughts on the future of mathematics.</p>
-
-
-
-<p class="wp-block-paragraph">I am writing because I sense that you are worried and afraid, and that you are asking what future there is for our field, and for you within it. Some of the most distinguished members of our community have given voice to exactly this mood in recent declarations and open letters.<sup data-fn="fn-3746b26e-dd6a-4943-a770-928a761f2702" class="fn"><a href="#fn-3746b26e-dd6a-4943-a770-928a761f2702" id="fn-3746b26e-dd6a-4943-a770-928a761f2702-link">1</a></sup> Their concerns are sincere, and many are real. But read together, these letters convey a sense of loss, and at times an instinct to turn the clock back. I see it differently. What we are living through is creative destruction, in which an old way of creating value is dismantled while a new one emerges.<sup data-fn="fn-abded519-4aa6-4bc9-b88e-2da28c5e7691" class="fn"><a href="#fn-abded519-4aa6-4bc9-b88e-2da28c5e7691" id="fn-abded519-4aa6-4bc9-b88e-2da28c5e7691-link">2</a></sup> This is a major opportunity. Mathematicians are better positioned, and more needed, than at any point in history, I believe.</p>
-
-
-
-<p class="wp-block-paragraph">What we need to do comes down to three things. First, embrace AI, and shape its use in the interest of humanity and of the mathematical community, interests which I believe are fully aligned. Second, think bolder, asking questions that were out of reach until now and accepting what that implies. Third, put ourselves in the service of humanity, bringing our expertise in finding, describing and beautifying abstract structures to the many areas of mathematics, science, medicine and beyond where it is desperately needed.</p>
-
-
-
-<h2 class="wp-block-heading">1. Embrace AI</h2>
-
-
-
-<p class="wp-block-paragraph">The order matters. First protect knowledge; then make mathematics efficient; then use AI as the foundation for effective collaboration, and with it for new models of credit, education, discovery and dissemination. </p>
-
-
-
-<p class="wp-block-paragraph"><em>Protect knowledge</em>. Use AI safely, as the leading enterprises already do, in controlled environments where your unpublished ideas are neither training data nor visible to others.<sup data-fn="fn-a1c3c8a4-7f73-43d6-bbff-b85387ef50a8" class="fn"><a href="#fn-a1c3c8a4-7f73-43d6-bbff-b85387ef50a8" id="fn-a1c3c8a4-7f73-43d6-bbff-b85387ef50a8-link">3</a></sup></p>
-
-
-
-<p class="wp-block-paragraph"><em>Make mathematics efficient</em>. Automate everything that can be automated. Mathematics is an extraordinarily inefficient enterprise, in how we retrieve information, do research, communicate and publish, and it has been ripe for transformation for a long time. Mathematicians spend a large share of their mental capacity on information that is now easily retrievable and on tasks that can now be automated.<sup data-fn="fn-511f3c87-6791-47b9-b3ec-6faa3ea65508" class="fn"><a href="#fn-511f3c87-6791-47b9-b3ec-6faa3ea65508" id="fn-511f3c87-6791-47b9-b3ec-6faa3ea65508-link">4</a></sup> That capacity should be released and refocused on higher levels of cognition.</p>
-
-
-
-<p class="wp-block-paragraph">This will not leave mathematicians with nothing to do. AI can now settle hard, well-posed problems.<sup data-fn="fn-bdd1d16a-7fd6-4c54-b428-0f413a1adca1" class="fn"><a href="#fn-bdd1d16a-7fd6-4c54-b428-0f413a1adca1" id="fn-bdd1d16a-7fd6-4c54-b428-0f413a1adca1-link">5</a></sup> But I agree with Peter Sarnak that AI is a long way from discovering genuinely new theories, that is, the abstractions, concepts and bodies of theorems through which we understand why things are true.<sup data-fn="fn-cdb79eb8-c614-4da9-bd16-f9b91d06a2b0" class="fn"><a href="#fn-cdb79eb8-c614-4da9-bd16-f9b91d06a2b0" id="fn-cdb79eb8-c614-4da9-bd16-f9b91d06a2b0-link">6</a></sup> That work needs human guidance. AI is a tool.</p>
-
-
-
-<p class="wp-block-paragraph">It follows that mathematics will have to change its system of values. Today the majority of the value we assign to a mathematical result is tied to its technical difficulty, and to that alone. This will now change. For example, if an off-the-shelf AI can prove a statement from a single prompt, that statement should perhaps be considered only a lemma. Other measures of a mathematical result’s “utility” will quickly emerge.<sup data-fn="fn-b4770e3b-780b-411f-80dd-d8732810bcba" class="fn"><a href="#fn-b4770e3b-780b-411f-80dd-d8732810bcba" id="fn-b4770e3b-780b-411f-80dd-d8732810bcba-link">7</a></sup></p>
-
-
-
-<p class="wp-block-paragraph"><em>Collaborate</em>. AI makes possible effective systems of collaboration, and they are already emerging. Po-Ling Loh has proposed a publication model that rewards collective work by groups of experts rather than a race to publish.<sup data-fn="fn-823e83d9-65a9-48d0-b1c7-7b7fe0f3afe0" class="fn"><a href="#fn-823e83d9-65a9-48d0-b1c7-7b7fe0f3afe0" id="fn-823e83d9-65a9-48d0-b1c7-7b7fe0f3afe0-link">8</a></sup> I would go further, towards partially closed, collaborative systems of AI-assisted research, with credit designed in from the start. Some fear this will make mathematics less open. It will not. Mathematicians have always built moats around their expertise, in how we write, in how our knowledge is organised and in our culture, and AI lowers them.<sup data-fn="fn-b1d4f214-4475-43d1-a23b-74af5aaeceef" class="fn"><a href="#fn-b1d4f214-4475-43d1-a23b-74af5aaeceef" id="fn-b1d4f214-4475-43d1-a23b-74af5aaeceef-link">9</a></sup> The system of credit will have to adapt; that is a design problem, which will be solved hand in hand with the emergence of new notions of mathematical utility. The same holds for publishing, whose workflow has been outdated for decades and can now be re-engineered and prototyped quickly with the help of AI.<sup data-fn="fn-b10f2889-6fab-4214-8ef6-d6f8b9c59dc4" class="fn"><a href="#fn-b10f2889-6fab-4214-8ef6-d6f8b9c59dc4" id="fn-b10f2889-6fab-4214-8ef6-d6f8b9c59dc4-link">10</a></sup></p>
-
-
-
-<h2 class="wp-block-heading">2. Be bolder</h2>
-
-
-
-<p class="wp-block-paragraph">We need to ask the questions we have been too scared to ask. Navier–Stokes is perhaps the best example.</p>
-
-
-
-<p class="wp-block-paragraph">On 8 September 2026, OpenAI released an AI-generated proof, formalised in Lean, that the three-dimensional Navier–Stokes equations with a smooth external force can develop a singularity in finite time: statements C and D of the Millennium Prize formulation.<sup data-fn="fn-8b63668b-c5d9-40f5-9a6a-c7555b374d73" class="fn"><a href="#fn-8b63668b-c5d9-40f5-9a6a-c7555b374d73" id="fn-8b63668b-c5d9-40f5-9a6a-c7555b374d73-link">11</a></sup> It is a remarkable achievement. But it establishes the existence of very special, isolated solutions, a set of measure zero in any reasonable sense, and tells us little about how fluids actually behave. Statements A and B, global regularity for the unforced equations, remain wide open and seem very far from solved. Because they are no longer needed to settle the prize, they are absent from the ongoing discussion of the result.</p>
-
-
-
-<p class="wp-block-paragraph">The question that truly matters, for mathematics and for the applied sciences, is a different one, namely to describe, in a suitable sense, the dynamics of the Navier–Stokes equation as a whole. I believe that understanding A and B will require exactly this. We are far from it even in two dimensions, without external force. As my friend Thierry Gallay has patiently explained to me, on the two-dimensional torus the flow relatively quickly organises itself into a finite set of Oseen vortices, and then into just two, which persist for a very long time.<sup data-fn="fn-b47781ab-ebd0-489f-ab8a-e20681d83952" class="fn"><a href="#fn-b47781ab-ebd0-489f-ab8a-e20681d83952" id="fn-b47781ab-ebd0-489f-ab8a-e20681d83952-link">12</a></sup> We can describe only special cases, for instance when the vortices are well separated.<sup data-fn="fn-3a3af30a-e07d-4d1a-b6e8-369254fd9ac8" class="fn"><a href="#fn-3a3af30a-e07d-4d1a-b6e8-369254fd9ac8" id="fn-3a3af30a-e07d-4d1a-b6e8-369254fd9ac8-link">13</a></sup> How vortices merge, and a full classification of the dynamics, are far out of reach. We lack even the language and the conjectures to formulate the question properly. In three dimensions it is almost certainly harder still.</p>
-
-
-
-<p class="wp-block-paragraph">More generally, our culture has rewarded incremental questions. Expert mathematicians have honed the crucial skill of choosing a problem that is solvable in reasonable time, yet worth pursuing for its mathematical utility. This skill now needs to be entirely reparametrised. Our goalposts must be far more ambitious, and we need to redefine what mathematical utility means. </p>
-
-
-
-<p class="wp-block-paragraph">Terence Tao has warned that AI is depleting our supply of good problems. In his view, problems are trivial to generate, but choosing those worth the effort depends on knowing a field’s difficulty landscape, and AI is flattening it.<sup data-fn="fn-393ed241-5d13-43dd-9efb-6c81727f4bb3" class="fn"><a href="#fn-393ed241-5d13-43dd-9efb-6c81727f4bb3" id="fn-393ed241-5d13-43dd-9efb-6c81727f4bb3-link">14</a></sup> I disagree with the conclusion. AI will hoover up many of the problems we have been asking so far; by construction, most of them were incremental or not ambitious enough. But AI can also help us generate many, many new problems, and then, and this is the essential step, help us prioritise them by a new notion of utility, for mathematics and for humanity. The landscape is not disappearing. It is being redrawn, and it is ours to map.</p>
-
-
-
-<h2 class="wp-block-heading">3. Serve humanity</h2>
-
-
-
-<p class="wp-block-paragraph">The key skill of mathematicians is more needed than ever, namely to find abstract structure in chaos, to describe it, and then to beautify it, that is, to make it sharp and precise, and therefore useful and ripe for the next level of abstraction. The complexity around us keeps growing, and so does the need. </p>
-
-
-
-<p class="wp-block-paragraph">Let me give an example. AlphaFold, for which Demis Hassabis and John Jumper shared the 2024 Nobel Prize in Chemistry, is universally presented as a triumph of AI. I read it differently, as a triumph of mathematics. Open the paper and the code and see what the algorithm is actually made of. </p>
-
-
-
-<p class="wp-block-paragraph">A protein is first encoded as tensors, namely a representation of its multiple sequence alignment, and a pairwise representation of every pair of residues. Building the alignment is a combinatorial search through genetic and structural databases for evolutionary relatives of the given sequence. The statistical signal extracted from it is coevolution, the tendency of positions that mutate together to sit close together in space. </p>
-
-
-
-<p class="wp-block-paragraph">The pair representation is then treated as a graph whose edges are updated in triangles, so that the inferred relations between residues i, j, k remain geometrically consistent, as the triangle inequality demands. Geometry enters through an orthonormal frame attached to each residue, built by Gram–Schmidt, with an attention mechanism designed to be invariant under the rigid motions of space, SE(3). The rotations of these frames are updated as quaternions.<sup data-fn="fn-d497da4f-7d43-49f3-a1fb-d6f498688f5b" class="fn"><a href="#fn-d497da4f-7d43-49f3-a1fb-d6f498688f5b" id="fn-d497da4f-7d43-49f3-a1fb-d6f498688f5b-link">15</a></sup></p>
-
-
-
-<p class="wp-block-paragraph">Probability is the language of the output. The first AlphaFold predicted, for every pair of residues, a full probability distribution over their distance (the “distogram”), turned these distributions into a potential, and found the structure by gradient descent.<sup data-fn="fn-eb625dec-2aa6-4c03-8848-07e4bfec7de2" class="fn"><a href="#fn-eb625dec-2aa6-4c03-8848-07e4bfec7de2" id="fn-eb625dec-2aa6-4c03-8848-07e4bfec7de2-link">16</a></sup> The final step of AlphaFold 2 is classical physics, namely a gradient flow minimising the energy of the Amber force field.<sup data-fn="fn-c66ae76c-0242-4af9-bdb5-fb2586dc34d9" class="fn"><a href="#fn-c66ae76c-0242-4af9-bdb5-fb2586dc34d9" id="fn-c66ae76c-0242-4af9-bdb5-fb2586dc34d9-link">17</a></sup></p>
-
-
-
-<p class="wp-block-paragraph">The core structures rely on graph theory, differential geometry, algebra, probability, statistics and the calculus of variations. The learning machinery that fits them to roughly 100,000 experimentally determined protein structures is, in my view, the least novel ingredient of the construction. The breakthrough lay in finding, describing and beautifying the right structures. The same toolkit runs through the neighbouring work on protein design.<sup data-fn="fn-39059738-21bb-4ea5-b43d-ce232baab764" class="fn"><a href="#fn-39059738-21bb-4ea5-b43d-ce232baab764" id="fn-39059738-21bb-4ea5-b43d-ce232baab764-link">18</a></sup></p>
-
-
-
-<p class="wp-block-paragraph">Here is a challenge for you. Build an algorithm that matches AlphaFold’s accuracy using these mathematical structures together with classical, transparent statistical and optimisation tools, with no black box. I am convinced this is feasible. It may open the door to far more ambitious questions about protein interactions and reactions. It would also help explain why so many attempts to carry AlphaFold’s success over to other problems in chemistry and biology have disappointed. They copied the black box and neglected the step that mattered, namely recognising and describing the structure inherent in the problem.<sup data-fn="fn-e434cae5-88f3-43d1-b56b-63742b6777ae" class="fn"><a href="#fn-e434cae5-88f3-43d1-b56b-63742b6777ae" id="fn-e434cae5-88f3-43d1-b56b-63742b6777ae-link">19</a></sup></p>
-
-
-
-<p class="wp-block-paragraph">The same programme applies far more widely. </p>
-
-
-
-<p class="wp-block-paragraph">First, mathematical knowledge itself. We need better structures for it, optimised for retrieval and discovery. That is certainly not arXiv. Nor is it Lean, since the power of mathematics lies in hierarchical abstraction, not only in encoding truth. Lean is an excellent truth-checker, but nothing more.<sup data-fn="fn-27828287-0e83-4d51-a94e-fd63f12e9343" class="fn"><a href="#fn-27828287-0e83-4d51-a94e-fd63f12e9343" id="fn-27828287-0e83-4d51-a94e-fd63f12e9343-link">20</a></sup></p>
-
-
-
-<p class="wp-block-paragraph">Furthermore, modern theoretical physics rests on mathematical foundations that are still not consistent. The infinities of quantum field theory are cancelled by renormalisation, which has never been made rigorous in the generality physics needs.<sup data-fn="fn-39017d12-8b21-4e9b-bfa8-b5089d3170ac" class="fn"><a href="#fn-39017d12-8b21-4e9b-bfa8-b5089d3170ac" id="fn-39017d12-8b21-4e9b-bfa8-b5089d3170ac-link">21</a></sup> Nathan Seiberg, one of the architects of modern quantum field theory, stressed again this spring that, despite its enormous success, the theory still lacks a satisfactory, mathematically rigorous formulation.<sup data-fn="fn-a2a3c57a-a958-437a-a607-a3fec9dc8d7b" class="fn"><a href="#fn-a2a3c57a-a958-437a-a607-a3fec9dc8d7b" id="fn-a2a3c57a-a958-437a-a607-a3fec9dc8d7b-link">22</a></sup> Where mathematicians have found the right structures, rigour has followed, and new mathematics with it.<sup data-fn="fn-7ea0a27b-14e5-4ac5-bb89-fed185983900" class="fn"><a href="#fn-7ea0a27b-14e5-4ac5-bb89-fed185983900" id="fn-7ea0a27b-14e5-4ac5-bb89-fed185983900-link">23</a></sup> I believe that resolving these inconsistencies would open doors to a better understanding of physical reality.</p>
-
-
-
-<p class="wp-block-paragraph">Consider biology, chemistry and medicine. Clinical trials still rest largely on two-sample tests whose foundations are more than a century old,<sup data-fn="fn-3df25c7f-832e-4e8b-bf9e-e8e4e3bcdd74" class="fn"><a href="#fn-3df25c7f-832e-4e8b-bf9e-e8e4e3bcdd74" id="fn-3df25c7f-832e-4e8b-bf9e-e8e4e3bcdd74-link">24</a></sup> and most clinical guidelines are decision trees three or four levels deep. Even regulators now recognise that modern statistical methods, Bayesian methods among them, must become part of how trials are designed and judged.<sup data-fn="fn-3f28e0e7-12ed-42be-9ec1-dd5f143eb918" class="fn"><a href="#fn-3f28e0e7-12ed-42be-9ec1-dd5f143eb918" id="fn-3f28e0e7-12ed-42be-9ec1-dd5f143eb918-link">25</a></sup> And no, AI will not solve this on its own. AI-discovered molecules now pass early safety trials at high rates, but efficacy trials, which depend on understanding the biology, far less so; and the leading structure-prediction models still reproduce their training data rather than the physics.<sup data-fn="fn-e7f3799b-d289-4cdc-9baa-93e9b0fb035c" class="fn"><a href="#fn-e7f3799b-d289-4cdc-9baa-93e9b0fb035c" id="fn-e7f3799b-d289-4cdc-9baa-93e9b0fb035c-link">26</a></sup> We hold vast amounts of data about human biology and health, but by modern standards it is of extremely low quality and poorly structured.<sup data-fn="fn-09e422d0-9e4c-4eaf-ba68-2f59e1708736" class="fn"><a href="#fn-09e422d0-9e4c-4eaf-ba68-2f59e1708736" id="fn-09e422d0-9e4c-4eaf-ba68-2f59e1708736-link">27</a></sup> Before AI can help, someone must first find, describe and beautify the structures within it. That will be a mathematician.</p>
-
-
-
-<h2 class="wp-block-heading">Your time </h2>
-
-
-
-<p class="wp-block-paragraph">So, my friend, young mathematician: do not despair. Learn. Use AI. Be brave. Reach lands that none of us has yet been able to imagine. </p>
-
-
-
-<p class="wp-block-paragraph">This is your time. </p>
-
-
-
-
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 7 October 2026<sup data-fn="fn-5c22acb8-9297-4872-9184-71cbcf992809" class="fn"><a href="#fn-5c22acb8-9297-4872-9184-71cbcf992809" id="fn-5c22acb8-9297-4872-9184-71cbcf992809-link">28</a></sup>.</p>
-
-
-<ol class="wp-block-footnotes"><li id="fn-3746b26e-dd6a-4943-a770-928a761f2702">The Leiden Declaration (2 June 2026), <a href="https://leidendeclaration.ai">leidendeclaration.ai</a>; “A Severe Misalignment of AI in Mathematics” (11 September 2026), a declaration whose 25 initial signatories are all Fields Medallists, see <a href="https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/">terrytao.wordpress.com/2026/09/11</a>; the open letter of 42 mathematician Fellows of the Royal Society to the President of the Royal Society, Sir Paul Nurse (September 2026); K. Ono, address to the National Academy of Sciences (2026), as reported by P.-L. Loh (note 8), predicting that within three to five years theoretical mathematical research will shrink to a small fraction, with the remaining academics working more like humanities scholars. <a href="#fn-3746b26e-dd6a-4943-a770-928a761f2702-link" aria-label="Jump to footnote reference 1"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-abded519-4aa6-4bc9-b88e-2da28c5e7691">J. A. Schumpeter, Capitalism, Socialism and Democracy (1942), ch. 7, “The Process of Creative Destruction”; C. M. Christensen, The Innovator’s Dilemma (Harvard Business School Press, 1997). Christensen’s mechanism fits mathematics closely, since incumbents fail because they keep optimising what their established audience values (for us, technical difficulty) while a new entrant redefines what is valuable. <a href="#fn-abded519-4aa6-4bc9-b88e-2da28c5e7691-link" aria-label="Jump to footnote reference 2"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-a1c3c8a4-7f73-43d6-bbff-b85387ef50a8">Leading enterprises deploy AI in controlled environments in which prompts and data are isolated and not used to train models, for example through managed cloud services such as Amazon Bedrock. The need is not hypothetical. In September 2026 the race to the Navier–Stokes result was triggered by a rumour about unpublished work, and OpenAI subsequently published an investigation into whether user inputs could have influenced its result (note 11). Tao has warned that even the rumour of someone working on a problem can now trigger a massive AI-powered effort to “flatten” it (note 14). <a href="#fn-a1c3c8a4-7f73-43d6-bbff-b85387ef50a8-link" aria-label="Jump to footnote reference 3"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-511f3c87-6791-47b9-b3ec-6faa3ea65508">Anyone who has spent days or weeks verifying the precise statement of a needed technical lemma, reconstructing the exact meaning of every object through several layers of hard-to-retrieve published work, knows how much of our mental load goes on retrieval and bookkeeping. This is precisely the work that can now be automated. <a href="#fn-511f3c87-6791-47b9-b3ec-6faa3ea65508-link" aria-label="Jump to footnote reference 4"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-bdd1d16a-7fd6-4c54-b428-0f413a1adca1">In May 2026 an OpenAI model disproved the Erdős unit-distance conjecture, a question some eighty years old; the disproof was verified by outside mathematicians including Tim Gowers (OpenAI, “Model disproves discrete geometry conjecture”, May 2026), and within the same week Anthropic’s Claude Mythos produced an independent proof (Decrypt, 9 September 2026). On 1–2 August 2026 OpenAI released results by its unreleased Astra model on ten problems open for at least a decade, including three Erdős problems, each with a Lean 4 proof and a 249-page manuscript; peer review is pending, and mathematicians have noted that some results lean heavily on earlier work. On 10 August 2026 Anthropic reported that an unreleased Claude research model raised the proven lower bound for the proportion of zeros of the Riemann zeta function on the critical line from 41.6% to 67.2%, with a Lean formalisation, examined by Brian Conrey and Dan Goldston (<a href="https://anthropic.com/research/riemann-zeta">anthropic.com/research/riemann-zeta</a>). On 7 September 2026 L. Alpöge and T. Buckmaster, working with Claude and other models, released a blow-up result for the forced Euler equations, and the next day OpenAI released its Navier–Stokes result (note 11). <a href="#fn-bdd1d16a-7fd6-4c54-b428-0f413a1adca1-link" aria-label="Jump to footnote reference 5"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-cdb79eb8-c614-4da9-bd16-f9b91d06a2b0">P. Sarnak, “Peter Sarnak on ‘The AlphaZero Test’ for Mathematics”, Notices of the AMS 73(7) (2026), doi:10.1090/noti3373. In the test, one gives a theorem prover with no access to outside data or theory an elementary statement, such as the Ramanujan conjecture in Ramanujan’s own formulation, and asks whether it is true. Sarnak predicts failure for most theorems whose proofs rely on abstraction and on the bodies of theorems we call theories; in his view AI will do mathematics as Stockfish plays chess, not as AlphaZero does. <a href="#fn-cdb79eb8-c614-4da9-bd16-f9b91d06a2b0-link" aria-label="Jump to footnote reference 6"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-b4770e3b-780b-411f-80dd-d8732810bcba">On the shift in values see H. Cohn, “The technical debt of AI-generated mathematics”, and G. Sanderson, “If math is more than proof, we need to better celebrate the rest of it”, guest posts on <a href="https://terrytao.wordpress.com">terrytao.wordpress.com</a> (15 and 18 September 2026). Tao has proposed labelling certain problems “analysis-required”, so that a bare answer without illuminating reasoning counts for little (note 14). I welcome these proposals; my point is that new measures of utility should be designed deliberately, not only defensively. <a href="#fn-b4770e3b-780b-411f-80dd-d8732810bcba-link" aria-label="Jump to footnote reference 7"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-823e83d9-65a9-48d0-b1c7-7b7fe0f3afe0">P.-L. Loh, “AI, From Competition to Collaboration”, IMS Bulletin, 1 September 2026. Loh proposes journals that accept only papers produced jointly by a sufficient group of experts in a sub-area, lightly reviewed for significance by researchers from another area. The precedent is the Polymath project: T. Gowers and M. Nielsen, “Massively collaborative mathematics”, Nature 461, 879–881 (2009). <a href="#fn-823e83d9-65a9-48d0-b1c7-7b7fe0f3afe0-link" aria-label="Jump to footnote reference 8"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-b1d4f214-4475-43d1-a23b-74af5aaeceef">The moats are cultural. We write up novel research with a premium on elegance, which partially hides or camouflages the reasoning that led to it. Our knowledge is organised in ways that are hard to navigate (note 4). We also celebrate solitary secrecy; Andrew Wiles worked on Fermat’s Last Theorem in near-total secrecy for about seven years (S. Singh, Fermat’s Last Theorem, 1997). One can argue that AI is making mathematics more open and accessible, not less. <a href="#fn-b1d4f214-4475-43d1-a23b-74af5aaeceef-link" aria-label="Jump to footnote reference 9"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-b10f2889-6fab-4214-8ef6-d6f8b9c59dc4">The IT systems used by most mathematics publishers are obsolete, and the workflow of submission, refereeing, revision and typesetting has barely changed in decades. New workflows and systems can be prototyped relatively quickly with the help of AI. <a href="#fn-b10f2889-6fab-4214-8ef6-d6f8b9c59dc4-link" aria-label="Jump to footnote reference 10"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-8b63668b-c5d9-40f5-9a6a-c7555b374d73">OpenAI, “On the Navier–Stokes Millennium Prize Problem”, 8 September 2026, with a <a href="https://github.com/openai/NavierStokesAndEuler">paper and a Lean formalisation</a>. OpenAI states that the result establishes statement C (and D) of the official problem description (C. Fefferman, <a href="https://claymath.org">claymath.org</a>); it does not intend to claim the prize, and the Clay Mathematics Institute continues to list the problem as active. Statements C and D allow a smooth external force; A and B (global regularity on ℝ³ and on the torus) concern the unforced equations and remain open. See also L. Alpöge and T. Buckmaster (7 September 2026) on blow-up for the forced Euler equations, and OpenAI’s companion result on the unforced Euler equations. <a href="#fn-8b63668b-c5d9-40f5-9a6a-c7555b374d73-link" aria-label="Jump to footnote reference 11"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-b47781ab-ebd0-489f-ab8a-e20681d83952">T. Gallay, personal communication. The numerical picture goes back to W. H. Matthaeus et al., “Selective decay and coherent vortices in two-dimensional incompressible turbulence”, Phys. Rev. Lett. 66, 2731 (1991). On the Oseen vortex as the universal long-time attractor in the plane, see T. Gallay and C. E. Wayne, “Global stability of vortex solutions of the two-dimensional Navier–Stokes equation”, Comm. Math. Phys. 255, 97–129 (2005). <a href="#fn-b47781ab-ebd0-489f-ab8a-e20681d83952-link" aria-label="Jump to footnote reference 12"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-3a3af30a-e07d-4d1a-b6e8-369254fd9ac8">T. Gallay, “Interaction of vortices in weakly viscous planar flows”, Arch. Ration. Mech. Anal. 200, 445–490 (2011). <a href="#fn-3a3af30a-e07d-4d1a-b6e8-369254fd9ac8-link" aria-label="Jump to footnote reference 13"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-393ed241-5d13-43dd-9efb-6c81727f4bb3">T. Tao, <a href="https://mathstodon.xyz/@tao/117237320796901560">Mathstodon post</a>, 8 September 2026, reported by Decrypt, 9 September 2026. Tao answers the objection that infinitely many problems exist with the analogy that a region can suffer a shortage of drinking water while surrounded by ocean. See also his curated summary of views at <a href="https://teorth.github.io/tao-web/ai-views.html">teorth.github.io/tao-web/ai-views.html</a> (updated 17 September 2026). The prioritisation step I propose is aimed at exactly this point. <a href="#fn-393ed241-5d13-43dd-9efb-6c81727f4bb3-link" aria-label="Jump to footnote reference 14"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-d497da4f-7d43-49f3-a1fb-d6f498688f5b">J. Jumper et al., “Highly accurate protein structure prediction with AlphaFold”, Nature 596, 583–589 (2021), and its Supplementary Information (Algorithms 21–23: rigid frames by Gram–Schmidt, invariant point attention, quaternion backbone updates); code at <a href="https://github.com/deepmind/alphafold">github.com/deepmind/alphafold</a>. Hassabis and Jumper shared the 2024 Nobel Prize in Chemistry with David Baker. <a href="#fn-d497da4f-7d43-49f3-a1fb-d6f498688f5b-link" aria-label="Jump to footnote reference 15"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-eb625dec-2aa6-4c03-8848-07e4bfec7de2">A. W. Senior et al., “Improved protein structure prediction using potentials from deep learning”, Nature 577, 706–710 (2020). <a href="#fn-eb625dec-2aa6-4c03-8848-07e4bfec7de2-link" aria-label="Jump to footnote reference 16"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-c66ae76c-0242-4af9-bdb5-fb2586dc34d9"><a href="https://github.com/deepmind/alphafold">AlphaFold repository</a>, Amber relaxation step: energy minimisation with OpenMM. <a href="#fn-c66ae76c-0242-4af9-bdb5-fb2586dc34d9-link" aria-label="Jump to footnote reference 17"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-39059738-21bb-4ea5-b43d-ce232baab764">J. Ingraham, V. Garg, R. Barzilay and T. Jaakkola, “Generative Models for Graph-Based Protein Design”, NeurIPS 2019. Local frames, quaternions, autoregressive probability and likelihood-based statistics all appear there. <a href="#fn-39059738-21bb-4ea5-b43d-ce232baab764-link" aria-label="Jump to footnote reference 18"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-e434cae5-88f3-43d1-b56b-63742b6777ae">A black box that reproduces its training data, without capturing the structure of the underlying problem, works where a new case resembles what it has seen and fails where it does not. The first two examples apply AlphaFold to neighbouring questions; the last two concern its extension to protein–ligand complexes. <br>(i) <em>Mutations</em>. A single amino-acid change barely alters the sequence but can unfold a protein. A model that had captured the physics of folding would register this; a model that matches sequences to known structures returns the familiar fold. The AlphaFold database itself states that AlphaFold has not been validated for predicting the effects of mutations, and for five patient variants of antithrombin with documented folding defects it returned the native structure every time (“Analysis of AlphaFold and molecular dynamics structure predictions of mutations in serpins”, PLOS ONE, 2024). <br>(ii) <em>Proteins with two folds</em>. Some proteins switch between two distinct structures. D. Chakravarty et al., “AlphaFold predictions of fold-switched conformations are driven by structure memorization”, Nat. Commun. 15, 7296 (2024), show that AlphaFold finds the second fold when it is present in its training data, not by inferring it; it recalls rather than explains. <br>(iii) <em>Ligands</em>. M. R. Masters, A. H. Mahmoud and M. A. Lill, “Investigating whether deep learning models for co-folding learn the physics of protein–ligand interactions”, Nat. Commun. 16, 8854 (2025), mutated or removed the residues that hold a ligand in place, so that physically it could no longer bind. AlphaFold 3 and similar models often still placed the ligand in its original pose, reproducing a remembered complex rather than the interaction. <br>(iv)<em> Prospective drug screening</em>. In “Large scale prospective evaluation of co-folding across 557 Mac1–ligand complexes and three virtual screens”, eLife reviewed preprint (March 2026), co-folding succeeded roughly in proportion to how similar a target was to its training structures, while classical docking, which models the physical interaction explicitly, performed surprisingly well. In every case the model is reliable only within the range of what it has already seen. <a href="#fn-e434cae5-88f3-43d1-b56b-63742b6777ae-link" aria-label="Jump to footnote reference 19"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-27828287-0e83-4d51-a94e-fd63f12e9343">Tao has observed that once a well-curated database of precise problems exists, others can build on it systematically, by human and AI means alike (<a href="https://terrytao.wordpress.com">terrytao.wordpress.com</a>, 22 January 2026, on the Erdős problems database), a small precedent for what better structures for mathematical knowledge could achieve. Formal verification is becoming routine; in September 2026 a formalisation of the proof of Fermat’s Last Theorem was reported (Decrypt, 9 September 2026). This is why structure and abstraction, not truth-checking, is the scarce resource. <a href="#fn-27828287-0e83-4d51-a94e-fd63f12e9343-link" aria-label="Jump to footnote reference 20"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-39017d12-8b21-4e9b-bfa8-b5089d3170ac">“The Yang–Mills Millennium problem”, Nature Reviews Physics (January 2026), <a href="https://nature.com/articles/s42254-025-00909-2">nature.com/articles/s42254-025-00909-2</a>. On the gap between physical belief and proof, see also M. Aizenman and H. Duminil-Copin, “Marginal triviality of the scaling limits of critical 4D Ising and <math data-latex="\varphi^4_4"><semantics><msubsup><mi>φ</mi><mn>4</mn><mn>4</mn></msubsup><annotation encoding="application/x-tex">\varphi^4_4</annotation></semantics></math> models”, Annals of Mathematics 194 (2021), show that the simplest interacting scalar theory in four dimensions is trivial in the continuum limit, while four-dimensional Yang–Mills theory is widely believed, but not proven, to exist and to have a mass gap. <a href="#fn-39017d12-8b21-4e9b-bfa8-b5089d3170ac-link" aria-label="Jump to footnote reference 21"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-a2a3c57a-a958-437a-a607-a3fec9dc8d7b">N. Seiberg, “What Is Quantum Field Theory?”, <a href="https://youtube.com/watch?v=pTAQH501_2g">lecture</a> at the annual meeting of the Simons Collaboration on Probabilistic Paths to Quantum Field Theory, 30 April 2026. In the abstract of his lecture of the same title (Van Winter Memorial Lecture in Mathematical Physics, University of Kentucky), Seiberg states that despite enormous success we still do not have a completely satisfactory presentation of the theory, and that it is not yet mathematically rigorous. <a href="#fn-a2a3c57a-a958-437a-a607-a3fec9dc8d7b-link" aria-label="Jump to footnote reference 22"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-7ea0a27b-14e5-4ac5-bb89-fed185983900">A. Connes and D. Kreimer, “Renormalization in quantum field theory and the Riemann–Hilbert problem I”, Comm. Math. Phys. 210 (2000); M. Hairer, “A theory of regularity structures”, Invent. Math. 198 (2014). <a href="#fn-7ea0a27b-14e5-4ac5-bb89-fed185983900-link" aria-label="Jump to footnote reference 23"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-3df25c7f-832e-4e8b-bf9e-e8e4e3bcdd74">Student, “The probable error of a mean”, Biometrika 6, 1–25 (1908); R. A. Fisher, The Design of Experiments (1935). <a href="#fn-3df25c7f-832e-4e8b-bf9e-e8e4e3bcdd74-link" aria-label="Jump to footnote reference 24"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-3f28e0e7-12ed-42be-9ec1-dd5f143eb918">US Food and Drug Administration, draft guidance “Use of Bayesian Methodology in Clinical Trials of Drug and Biological Products” (January 2026), addressing Bayesian primary inference in pivotal trials. <a href="#fn-3f28e0e7-12ed-42be-9ec1-dd5f143eb918-link" aria-label="Jump to footnote reference 25"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-e7f3799b-d289-4cdc-9baa-93e9b0fb035c">M. K. P. Jayatunga et al., “How successful are AI-discovered drugs in clinical trials? A first analysis and emerging lessons”, Drug Discov. Today 29(6), 104009 (2024), report 80–90% success in Phase I, about 40% in Phase II, comparable to historic industry averages. An analysis presented at ASCO 2026 counted 117 AI-enabled therapeutic assets in human trials, of which only 8 had completed Phase 2. A 2026 review in Frontiers in Pharmacology (doi:10.3389/fphar.2026.1870527) concludes that AI compresses discovery timelines but that important gaps, particularly in safety prediction, remain. On structure prediction see note 19. <a href="#fn-e7f3799b-d289-4cdc-9baa-93e9b0fb035c-link" aria-label="Jump to footnote reference 26"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-09e422d0-9e4c-4eaf-ba68-2f59e1708736">Drug Target Review, “AI in drug discovery: predictions for 2026” (April 2026), identifies data quality as the primary technical barrier. <a href="#fn-09e422d0-9e4c-4eaf-ba68-2f59e1708736-link" aria-label="Jump to footnote reference 27"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li><li id="fn-5c22acb8-9297-4872-9184-71cbcf992809">The post was written on 21<sup>st</sup> September. As of 19<sup>th</sup> October, the author’s views stated in the post have not changed. <a href="#fn-5c22acb8-9297-4872-9184-71cbcf992809-link" aria-label="Jump to footnote reference 28"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/21a9.png" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" />︎</a></li></ol>]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/20/letter-to-young-mathematicians/feed/</wfw:commentRss>
-			<slash:comments>20</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2304</post-id>	</item>
 	</channel>
 </rss>

@@ -12,7 +12,7 @@
 	<atom:link href="https://proofsandprompts.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://proofsandprompts.com</link>
 	<description>Notes from the common room</description>
-	<lastBuildDate>Thu, 26 Nov 2026 14:52:08 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 27 Nov 2026 14:53:21 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,82 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256573286</site>	<item>
+		<title>Proofs, Programs, and Comprehensibility</title>
+		<link>https://proofsandprompts.com/2026/11/27/proofs-programs-and-comprehensibility/</link>
+					<comments>https://proofsandprompts.com/2026/11/27/proofs-programs-and-comprehensibility/#comments</comments>
+		
+		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
+		<pubDate>Fri, 27 Nov 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Essays]]></category>
+		<category><![CDATA[Reactions]]></category>
+		<category><![CDATA[Computer Science]]></category>
+		<category><![CDATA[Reflection]]></category>
+		<category><![CDATA[Understanding]]></category>
+		<guid isPermaLink="false">https://proofsandprompts.com/?p=3386</guid>
+
+					<description><![CDATA[“Reactions to the recent release of a bolus of proofs by OpenAI have included a concern that the proofs do not provide insight. I am not a mathematician, but I did an AI PhD thesis in the 80’s exploring what it might mean to automate program understanding. […]”]]></description>
+										<content:encoded><![CDATA[
+<p class="author-line wp-block-paragraph">Stan Letovsky received a PhD in AI in 1988 and has since worked on bioinformatics and AI in both academic (assistant professor, <a href="https://www.hopkinsmedicine.org/">Johns Hopkins Medical Institutes</a>, adjunct at <a href="https://www.bu.edu/">Boston University</a>) and life science industry settings.</p>
+
+
+
+<p class="wp-block-paragraph">Reactions to the recent release of a bolus of proofs by OpenAI have included a concern that the proofs do not provide insight. I am not a mathematician, but I did an AI PhD <a href="https://dl.acm.org/doi/10.5555/916088">thesis</a> in the 80’s exploring what it might mean to automate program understanding. Given the deep <a href="https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence">links</a> between proofs and programs first identified by Curry and Howard, and the increasing convergence reflected in the adoption by mathematicians of formal proof verification languages like Lean, which can be viewed as programming languages, I am hoping that there might be some insights about comprehensibility that could transfer from software to mathematics. If these thoughts are obvious, or obviously wrong, I can only apologize for the intrusion.</p>
+
+
+
+<p class="wp-block-paragraph">The question I explored in my thesis was what it means to understand a program. Part of the work aimed at understanding cognitive processes in human programmers, based on analyses of transcripts of their spoken thoughts during software maintenance tasks. Another part focused on developing a computational model of motif recognition in programs. I opted to translate target programs into lambda calculus as a starting point, and then had a rewrite rule engine “recognize” motifs defined in a library by factoring them from the program, replacing them with what were effectively subroutine calls. (This anticipated a later technology now known as automated program refactoring.) My hope was that the rewritten program would be more concise and “understandable”, because expressed in terms of known motifs. The overall process could be thought of as ‘reverse computation’, in the sense that the usual beta reduction operation performed by lambda calculus interpreters was being performed in the opposite, lambda abstraction, direction. In general, a combination of both beta reduction and lambda abstraction might be needed to recognize a motif in a program, so motif recognition could in principle involve a search through a space of equivalence-preserving program transformations to find forms in which the motif occurrences would be apparent.</p>
+
+
+
+<p class="wp-block-paragraph">Fast forward 40-odd years. Transformer-based LLMs have become powerful aids for software engineering, exceeding the hopes of those early AI efforts, using an unexpectedly powerful approach relying on neural networks. Meanwhile mathematics has embraced formal representations of proofs via languages like Lean, overcoming the formalization burden using a combination of human teamwork, shared library development, LLM assistance, and now, LLM-based proof generation. And we see pushback on this last based on the argument of the incomprehensibility of AI proofs.</p>
+
+
+
+<p class="wp-block-paragraph">A sociological aside: this pushback is an example of the repeated phenomenon of Turing-test goalpost moving. As soon as some benchmark, originally proposed as a sign of intelligence, is achieved by a program, whether chess playing, natural language translation, or theorem proving, there is an inevitable reaction that “that isn’t real intelligence”. This is not to impugn either the original benchmark setters or the goalpost movers, but simply to observe the underlying dynamic that the Turing Test is a moving target, much like the polyhedrons of Lakatos’ classic “<a href="https://en.wikipedia.org/wiki/Proofs_and_Refutations">Proofs and Refutations</a>”. It works as an intuition pump, not a finish line.</p>
+
+
+
+<p class="wp-block-paragraph">If some of the OpenAI proofs fail to provide the hoped for “insight” that was expected from a proof of some conjecture, it begs the question of why. What makes one proof insightful and another not? Could it be that in the space of equivalence-preserving proof transformations, there exist equivalent, but more “comprehensible” versions of the proof than the one that the LLM found? What would count as more comprehensible?</p>
+
+
+
+<p class="wp-block-paragraph">One obvious possible criterion of comprehensibility is proof size, relative to a shared library of definitions, lemmas, theorems and conjectures. Expressing a proof in terms of known concepts such as groups, categories, modular forms, etc., moves the amount of Lean code necessary to specify these things from the proof to the library, making them effectively free of charge from a proof size perspective. A lot of people have an initial reaction that it can’t be as simple as size, and while there may be additional criteria out there waiting to be discovered, it is hard to dispute that size matters. Moreover, other frequently proposed criteria such as elegance, simplicity, symmetry, or abstraction often translate into size reduction.</p>
+
+
+
+<p class="wp-block-paragraph">Another way to compress a proof (or program) besides library-dependent factoring is via internal deduplication, to the extent that the same “motifs” may occur repeatedly within it. Conversely, an AI may make proofs less comprehensible, and certainly larger, by failing to introduce definitions that would enable such internal deduplication. Deduplication subsumes library-dependent factoring in the sense that deduplicating a library plus a target proof may automatically remove instances of library motifs from the target, since they are duplications of library definitions. (It can also revise the library in light of the target, which may or may not be desirable.) Also, deduplication can account for how motifs arise in the first place, which a purely library-dependent approach cannot.</p>
+
+
+
+<p class="wp-block-paragraph">These ideas represent the application of <a href="https://en.wikipedia.org/wiki/Minimum_description_length">minimum description length</a> principles to mathematics. The compression perspective may illuminate not just the comprehensibility of individual proofs, but the historical, and perhaps future, evolution of mathematics as a whole. What library could most effectively compress all of known mathematics? Our current “library” – the mathematical literature – is undoubtedly influenced by accidents of history, and not explicitly optimized by any objective criterion – though the work of mathematicians over the years may have approximated some such optimization process. Could the collection of mathematical knowledge (and conjectures) be subjected to a global compression analysis that would yield more optimal definitions? The March 2026 paper “<a href="https://arxiv.org/abs/2603.20396">Compression is all you need: Modeling Mathematics</a>” by Aksenov et al develops a theory of mathematics along these lines, noting that (in one library representation they consider) “interesting” lemmas and theorems are logarithmically scarce in the space of all possible theorems, and are distinguished by their utility for compressing the search space. Interestingly, their approach extends considerations of compressibility beyond the efficient representation of known results to the compression of the search space of as yet unproven theorems. Such compression can change the computation required to prove future results, making more of the proof search space accessible.</p>
+
+
+
+<p class="wp-block-paragraph">I have been somewhat loose in this post in using terms like comprehensibility and insightfulness interchangeably, but it may be that these are worth distinguishing more clearly, and that the critique of the OpenAI proofs bears more on the latter than the former. Perhaps insight is more related to the compression of the search space of potential future results than to the library of existing ones. Aksenov et al may provide some conceptual tools to clarify this distinction.</p>
+
+
+
+<p class="wp-block-paragraph">An opportunity to clarify the meaning of compressibility and insight in mathematics may be right at hand. Experts offended by proofs or expositions in the OpenAI corpus could experiment by prompting LLMs to rewrite the proofs and/or papers while improving certain criteria or metrics. The results of such experiments could lead to standardized meta-prompts that encode quality criteria. Organizations like AHM and AGMAI could help ensure that such standards do not benefit the AI companies at the expense of the mathematical community.</p>
+
+
+
+<p class="wp-block-paragraph">In summary, as the goalposts of the mathematical Turing test move from generation of any proofs to generation of comprehensible and insightful ones, explicit theories of the latter, grounded in ideas of minimal length encoding of the totality of mathematical knowledge, may have a role to play. I realize this perspective may provide little comfort to those whose careers and lives are being disrupted by this mathematical earthquake. I hope that, as the dust settles, these changes will create opportunities for mathematics—and for mathematicians—that are not yet easy to imagine.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph">Received 1 November 2026, revised 4 November 2026.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://proofsandprompts.com/2026/11/27/proofs-programs-and-comprehensibility/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3386</post-id>	</item>
+		<item>
 		<title>Some questions, some answers.</title>
 		<link>https://proofsandprompts.com/2026/11/26/some-questions-some-answers/</link>
 					<comments>https://proofsandprompts.com/2026/11/26/some-questions-some-answers/#comments</comments>
@@ -157,7 +233,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/26/some-questions-some-answers/feed/</wfw:commentRss>
-			<slash:comments>4</slash:comments>
+			<slash:comments>7</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3719</post-id>	</item>
@@ -205,7 +281,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/26/ai-and-collaboration-for-the-critical-2d-kpz-process/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
+			<slash:comments>4</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3701</post-id>	</item>
@@ -378,7 +454,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://proofsandprompts.com/2026/11/25/on-the-ahms-awkward-position-on-the-riemann-hypothesis-being-solved/feed/</wfw:commentRss>
-			<slash:comments>67</slash:comments>
+			<slash:comments>70</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3919</post-id>	</item>
@@ -899,60 +975,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3299</post-id>	</item>
-		<item>
-		<title>AHM Statement on the Announced Proof of the Riemann Hypothesis</title>
-		<link>https://proofsandprompts.com/2026/11/21/ahm-statement-on-the-announced-proof-of-the-riemann-hypothesis/</link>
-					<comments>https://proofsandprompts.com/2026/11/21/ahm-statement-on-the-announced-proof-of-the-riemann-hypothesis/#comments</comments>
-		
-		<dc:creator><![CDATA[Proofs Prompts]]></dc:creator>
-		<pubDate>Sat, 21 Nov 2026 10:43:10 +0000</pubDate>
-				<category><![CDATA[Reactions]]></category>
-		<category><![CDATA[AI companies]]></category>
-		<category><![CDATA[Announcement]]></category>
-		<category><![CDATA[Conjecture]]></category>
-		<guid isPermaLink="false">https://proofsandprompts.com/?p=3808</guid>
-
-					<description><![CDATA[Statement of the Association for Human Mathematics]]></description>
-										<content:encoded><![CDATA[
-<p class="author-line wp-block-paragraph">AHM communications group</p>
-
-
-
-<p class="wp-block-paragraph">Today, November 20, 2026, a mathematician at Anthropic announced the existence of an AI-generated Lean program confirming the Riemann Hypothesis, long a guiding open problem in mathematics.</p>
-
-
-
-<p class="wp-block-paragraph">This announcement is a major departure from traditional methods in mathematical research, representing a new value system put forward by AI corporations that foregrounds technical validity of logical statements over accountability, clarity, accessibility, and understanding. At this time, no human being can reasonably claim to be responsible for, or even to understand, such a document. Neither can any mathematician confirm with full certainty that the proof is correct. Worse, this corporate model of proof production seems designed to excuse humans from responsibility for scientific work. Instead, this model asks scientists to entrust their research to machines that AI corporations control.</p>
-
-
-
-<p class="wp-block-paragraph">Autonomous computer programs that investigate deep mathematical questions are now instruments of power in scientific research, and scientific power enables other types of power that can directly threaten human lives. This power is now concentrated in the hands of AI companies that seem increasingly untethered from the interests of human society. We believe that AI corporations urgently require democratic oversight. Milestones such as the Riemann Hypothesis are used by AI companies as little more than publicity for the superintelligence that they wish to build. We are gravely concerned that this uncontrolled growth poses a threat to society writ large.</p>
-
-
-
-<p class="wp-block-paragraph">Mathematicians have seen their world inverted by AI disruption in the last several months, and we have experienced firsthand how AI impacts human communities in practice. AI corporations hold an impoverished view of intelligence and human achievement. As a model for scientific research, the overproduction of unreadable mathematical documents pales in comparison to the richness of the mathematical dialogue that humans have conducted for millennia. What makes the Riemann Hypothesis valuable is its role in guiding the development of large areas of modern mathematics. Today’s announcement builds upon over a century of human work, but fails to advance mathematical understanding in the same way. Rather than accepting this model, we urge mathematicians to build a future where our research is free from dependence on AI models and their corporate owners.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Crossposted from the <a href="https://www.ahmath.org/statements">AHM website</a>.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph">Received 20 November 2026.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://proofsandprompts.com/2026/11/21/ahm-statement-on-the-announced-proof-of-the-riemann-hypothesis/feed/</wfw:commentRss>
-			<slash:comments>93</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3808</post-id>	</item>
 	</channel>
 </rss>

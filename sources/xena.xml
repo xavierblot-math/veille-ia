@@ -13,7 +13,7 @@
 	<atom:link href="https://xenaproject.wordpress.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://xenaproject.wordpress.com</link>
 	<description>Mathematicians learning Lean by doing.</description>
-	<lastBuildDate>Sat, 21 Nov 2026 17:16:37 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 27 Nov 2026 21:35:24 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -232,9 +232,9 @@
 		<category><![CDATA[trust]]></category>
 		<guid isPermaLink="false">http://xenaproject.wordpress.com/?p=3911</guid>
 
-					<description><![CDATA[This post is an attempt to explain in simple terms how to interpret claims of the form &#8220;this theorem is correct because it was checked in Lean&#8221;. The summary is: there is an important signal that can be extracted from &#8230; <a href="https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+					<description><![CDATA[This post is an attempt to explain in simple terms how to interpret claims of the form &#8220;this theorem is correct because it was checked in Lean&#8221;. I was inspired to write it after receiving some emails from Alice Silverberg &#8230; <a href="https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
 										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">This post is an attempt to explain in simple terms how to interpret claims of the form &#8220;this theorem is correct because it was checked in Lean&#8221;. The summary is: there is an important signal that can be extracted from Lean code, but if this code is AI-generated then you need to do some tests first. We explain the tests, and note that in many cases (such as the OpenAI theorem dump) these tests have not yet been systematically done.</p>
+<p class="wp-block-paragraph">This post is an attempt to explain in simple terms how to interpret claims of the form &#8220;this theorem is correct because it was checked in Lean&#8221;. I was inspired to write it after receiving some emails from Alice Silverberg asking for more details about what claims like this actually meant, and I thank her for asking me these questions. The summary is: there is an important signal that can be extracted from Lean code, but if this code is AI-generated then you need to do some tests first. We explain the tests, and note that in many cases (such as the OpenAI theorem dump) these tests have not yet been systematically done.</p>
 
 
 
